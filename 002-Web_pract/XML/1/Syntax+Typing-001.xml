@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE address [
+<!ELEMENT catalog (component,productFile,oldFile)>
+]>
+
+<?xml-stylesheet type='text/css' href='bigstyle.css'?>
+
+<catalog>
+	<component componentNum="#########">
+		<productFile itemNum="#####">01097</productFile>
+
+	</component>
+
+</catalog>
+
+<!-- this is Processing instruction syntax <?target instructions?> 
+	
+	<![CDATA[
+		<message> all that smack </message>
+		]]>
+-->

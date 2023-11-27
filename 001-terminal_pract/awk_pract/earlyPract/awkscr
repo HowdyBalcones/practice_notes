@@ -1,0 +1,6 @@
+
+# This prints what type of character is first on each line.
+/^$/ { print "This is a blank line." }
+/[0-9]+/ { print "This is an integer" }
+/[A-Za-z]+/ { print "This is a string" }
+

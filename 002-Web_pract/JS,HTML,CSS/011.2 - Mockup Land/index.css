@@ -1,0 +1,79 @@
+body{
+	font-size: 1rem;
+	font-family: Garamond;
+	background-color: #cccccc;
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-image: url("assets/background2.jpg");
+}
+
+h1{
+	border: 3px solid white;
+	padding: 1em;
+}
+
+.hero {
+font-size: 2rem;
+height: 100vh;
+padding: 1em;
+color: white;
+
+display: flex;
+flex-direction: column;
+align-items: center ;
+justify-content: center;
+}
+
+.sales_points {
+padding: 12vh;
+text-align: center;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+}
+
+/*It seems a media query is similair to a JS function*/
+
+@media (min-width: 40rem){
+	.sales_points{
+		flex-direction: row;
+	}
+}
+
+.sales_point {
+margin: 0 1vw;
+padding: .5em;
+background: lightblue;
+flex: 0 1 45%;
+}
+
+.cta {
+display: flex;
+align-content: center;
+background-size: cover;
+/*padding: 10vh 0;*/
+justify-content: flex-start;
+
+}
+
+.cta_text {
+color: black;
+background: lightblue;
+flex-basis: 100%;
+padding: 0 2em;
+
+}
+
+@media (max-width: 40rem){
+	.cta_text {flex-basis: 50%;
+}
+}
+
+.btn{
+
+}
+
+.stuff {
+	font-size: 5rem;
+	color: black;
+}

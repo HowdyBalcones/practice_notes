@@ -1,0 +1,6 @@
+#!/bin/bash
+# mgkStart -- the point of this script is to become familiar with the plethora of options IM has.
+
+
+magick -background linen -fill CornflowerBlue -font Gotham-Black -size 2550x3300 -pointsize 48 -density 72 -gravity north-west label:@finalProd.txt label.png
+

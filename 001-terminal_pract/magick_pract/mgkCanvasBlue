@@ -1,0 +1,15 @@
+#!/bin/bash
+# mgkCanvasBlue -- explore making canvases
+
+magick -size 100x100 gradient:blue gradient_range1.png
+magick -size 100x100 gradient:yellow gradient_range2.png
+magick -size 100x100 gradient:green-yellow gradient_range3.png
+magick -size 100x100 gradient:red-blue gradient_range4.png
+magick -size 100x100 gradient:tomato-steelblue gradient_range5.png
+
+
+
+magick -size 100x100 radial-gradient:blue -gravity center -crop 100x100+0+0 radGradient_range1.png
+magick -size 100x100 radial-gradient:pink radGradient_range2.png
+magick -size 100x100 radial-gradient:blue-none radGradient_range3.png
+magick -size 100x100 radial-gradient:green-yellow radGradient_range4.png

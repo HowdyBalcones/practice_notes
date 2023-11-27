@@ -1,0 +1,18 @@
+productFile {
+	display: inline-block;
+	font: Arial;
+	background-color: orangered;
+	border:black 5px solid ;
+
+}
+message {
+width: 250 px;
+margin: 0 auto;
+font-family: "Helvetica Neue", "Arial", sans-serif ;
+font-style: italic;
+font-weight: 100;
+font-size: 3rem;
+
+
+
+}

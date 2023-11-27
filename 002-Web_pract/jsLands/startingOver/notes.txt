@@ -1,0 +1,105 @@
+Projects List
+
+dropdown list
+Modal Dialog/Popup
+Carousel/Slider
+Accordion
+Tabs
+Sticky Header/Footer
+Collapsible Sidebar
+Parallax Scrolling
+Lazy Loading images
+Tooltip
+Auto-completing search bar
+infinite scroll
+toggle switch
+date picker
+notification bell/icon
+responsive navigation bar
+pop-up notification/toast
+progress bar
+drag-and-drop area
+loading spinner
+
+EZ --- starting !
+Breadcrumb navigation
+Collapsible Content
+Lightbox for images
+images hover effects
+back to top button
+simple image gallery
+Alerts/Banners
+Animated buttons
+fixed floating action buttons
+scroll indicator
+
+Intermediate --- when we are ready for more challenge
+Multi-level dropdown
+mega menu
+timeline
+star rating system
+image magnifier
+sticky social media buttons
+content slider
+testimonials carousel
+card flip animations
+typing animation
+
+Advanced --- in my dreams
+VR integration (LOL)
+Voice command integration
+Offline first applications
+AI driven recommendations
+Multi user collab tools
+Payment integration
+Advanced animations with GSAP
+Game Dev Phaser.js
+PWA (progressive web apps)
+server side rendering frameworks
+
+
+-----------------------------------------------------------------------------------------
+--- HTML
+
+
+
+--- CSS
+links: 
+selectors: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors
+
+/*This is a comment in CSS*/
+
+	- Selector = the HTML element name at the start of the ruleset
+	- Declarations = color:red;
+	- Properties = options to style HTML elements. You choose which property is affected by the rule.
+	- Property value = to the right of the property value. 
+	- a colon : separates properties from their values
+	- a semi colon ; separates declarations
+
+basic declaration
+	p {
+		color: red;
+	}
+
+multi declaration
+	p, li, h1 {
+		color: red;
+	}
+
+	Types of selectors
+	- Element Selector - all HTML elements of the same type - p selects <p>
+	- ID selector - element on the page with a specific ID, should be unique - #my-id selects <p id="my-id"> or <a id="my-id">
+	- Class Selector - element on the page with a specific class, can share multiple elements - 
+	.my-class selects <p class="my-class"> 
+	- Attribute Selector - elements on the page with a specific attribute - img[src] selects <img src="myimage.png"> but not <img>
+	- Pseudo Class selector - specified elements, but only when they are in a specific state - a:hover selects a while hovering
+
+CSS is a box language. The visualisation of elements on the page is as layers of different boxes. 
+	- padding
+	- border
+	- margin
+		- width, back-ground-color, color, text-shadow, display
+	- 
+--- javaScript
+
+

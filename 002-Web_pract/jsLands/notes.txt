@@ -1,0 +1,17 @@
+09-14-2023
+- Working on DOM manipulation, essential terms, concepts
+
+DOM Manipulation
+- understanding that recursion is essential to manipulating an html page with JS -- the document.etcetc.specificEtc syntax
+- There are different elements that you can target this way, and understanding the interactions between those elements 
+is how you can create an effective system.
+
+- These are called methods, such as getAttribute, setAttribute, and they are part of the DOM API built into Javascript, it allows
+the user to work with HTML and XML
+
+	- Minor list of DOM methods
+	- getElementById() -- document.getElementById("myId");
+	- getElementsByTagName() -- document.getElementByTagName("p");
+	- getElementsByClassName() -- document.getElementByClassName("myClass"); -- what is NodeList
+	- querySelector() -- document.querySelector(".myClass") -- retrieves first element matching provided CSS selector
+	- 

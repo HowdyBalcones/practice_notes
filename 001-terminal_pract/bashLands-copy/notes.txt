@@ -1,0 +1,11 @@
+
+Meta-Characters
+1. Wildcards (*, ?, []): Used for pattern matching and globbing. * represents any sequence of characters, ? represents a single character, and [] represents a range of characters.
+
+2. Redirectors (>, <, >>, |): Used for input/output redirection and piping. > redirects output to a file, < redirects input from a file, >> appends output to a file, and | pipes the output of one command to the input of another.
+
+3. Quotes (', "): Used to quote and preserve the literal meaning of characters, preventing their interpretation as meta-characters. Single quotes (') preserve the exact characters enclosed within them, while double quotes (") allow for variable expansion and command substitution.
+
+4. Escape character (\): Used to escape or quote a meta-character, treating it as a literal character. For example, \$ escapes the $ character to prevent variable expansion.
+
+5. Command substitution ($(command) or command): Used to substitute the output of a command into a command or expression.

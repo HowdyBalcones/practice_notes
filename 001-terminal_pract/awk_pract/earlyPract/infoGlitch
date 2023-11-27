@@ -1,0 +1,14 @@
+#!/bin/bash
+# an attempt to solve a book problem
+# infoGlitch -- search a specific record for the word Glitch
+# two fields, $1 = machine name, $2 = machine information, FS = \t RS = ^$
+# 
+# machine	Sun 3/75
+# 		8 meg memory
+# 		Prone to memory gltiches
+# 		more info
+# 		more info
+#
+
+awk 'BEGIN { FS = "\n"; RS = "" }
+$0 ~ search { print $0 "\n" }' search=$1 $2

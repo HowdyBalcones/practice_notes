@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+	background: #131720;
+	font-family: FetteNationalFraktur;
+}
+
+h3 {
+	color: white;
+	background-color: #151f30;;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #131720;
+	padding: 10px;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 2rem;
+	text-transform: ;
+}
+
+.topnav .search-container {
+	float: right;
+
+}
+
+form {
+	background-color: #151f30;
+	width: 300px;
+	height: 43px;
+	border-radius: 11px;
+	display: flex;
+
+}
+
+input{
+	all: unset;
+	font-size: 16px system-ui;
+	color: #fff;
+	height: 100%;
+	width: 100%;
+	padding: 6px 9px;
+}
+
+.thumbnail {
+	height: 350px;
+	width: 350px;
+	border-radius: 19px;
+}
+
+.column {
+display: flex;
+flex-direction: column;
+float: left	;
+padding: 10px 10px;
+}
+
+.card {
+	padding: 16px;
+	border-radius: 19px;
+	text-align: center;
+	background-color: #151f30;
+}
+
+
+
+
+
+

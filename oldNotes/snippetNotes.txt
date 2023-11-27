@@ -1,0 +1,127 @@
+Bash 
+Bash is a terminal emulation program used to navigate across computer systems. It has an immense amount of organizational power, as well as being the primary tool for System Administrators, and much more aside. This is well outside the scope of a graphic designer, and more within the realm of Computer Science Student. The main purpose of using it within the Graphics Department here at Select Corporation is to assure that data is being entered and maintained correctly, and to automate rote tasks that would otherwise take you lots of time and cost great sanity. 
+It may seem cryptic at the start, and this has may be true generally. But the first time you do something that saves you hours, days, worth of repetitive typing, that studying time will have been worth it. For everyone including your employers.
+
+
+
+Search ls -laF output to grep, then type term
+
+sc *term*
+
+These are used to go back through the legacy server data, if you can’t find something in the new server that should be on hand. Many things have been trimmed off of the new server to save space and make it more navigable. 
+
+making zipped tarball - the tar.gz extension 
+tar -czf nameOfArchive2Make.tar.gz /Path/To/File-or-Dir
+
+searching gzipped tarball - 
+tar -tzf targetArchive.tar.gz | grep -i searchTerm
+
+extracting specific file from a gzipped tarball
+tar -xzf targetArchive.tar.gz path/to/file-s
+
+
+Open new FB Client
+open -n /Applications/Fishbowl/client/bin/Fishbowl\ Client.app
+nfb
+
+Jump to Select III
+cd /Volumes/Graphics/Select\ III/
+select
+
+Move files with common string using xargs
+find . -name "*drug-fact-*" | xargs -I {} mv {} ~/Downloads/drug-facts
+
+Find all files in PWD matching some string pattern
+find . -name "*01004*"
+
+Adding prefix before file names
+for file in *; do mv "$file" "prefix_$file"; done
+
+Make Components Folders at pwd
+mkdir -p ./{Approvals,Expired-Graphics,Pending,Print,Reference-Graphic-Data}
+
+Finding doubled words
+egrep '\<([A-Za-z]+) +\1\>'
+
+Using perl 1 liners
+perl -e ‘etcetcetc'
+
+When we need to select something specific that’s common between files
+mv *document* documents/
+
+Finding multiple files through several directories using Wildcard
+ls -l */*.ai
+
+format and print output to standard output, such as terminal or file
+
+printf “%s\n” Hello Hello 
+*yields
+Hello
+Hello
+
+Using sed
+sed -n '/10/,/25/p' sedTest-3.txt
+this prints the lines between 2 patterns of a document, here one that is line numbered
+
+Using cut to export list from ls 
+ls | cut -d '_' -f 1 >
+
+This one is good. Locate and grep something particular, return pathname w/o spaces *replace Adobe and Jenkinsfile with your terms
+locate Adobe | grep -w "Jenkinsfile" | sed 's/ /\\ /g'
+
+Remember upcS script! It runs from ~/Desktop/select/, so when used it takes you to that directory, for now. 
+
+
+Extracting just the UPCs from upcS command:
+upcS | cut -d / -f 10
+
+using find, xargs + less, to locate and view contents of files - note use of -print0 & -0 to eliminate spaces 
+find . -not -name "*.txt" -type f -print0 | xargs -0 less
+
+ranges with find! Regex ! Didn’t know this, explains why nothing worked last night
+.* means every symbol preceding the bracket pattern
+bracket pattern means a range of symbols
+$ means ends with
+find */ -regex '.*[A-D]$’     
+
+using tr to remove spaces and add commas between values
+tr '\n' ',' <copyItemsSelect.txt
+
+using tar to compress and archive directories
+tar -czf archiveToMake.tar.gz directoryName/
+
+
+WORKING
+
+find */ -regex '.*[A-D]$' -print0 | xargs -0 -I {} mv {} ../playground2
+
+
+First Principals !
+
+Ideas
+numerate list of files with brace expansion and cat
+store unique names as variables, replace full name with added common term, cat unique names back to original files
+list and select files by date with find, need script template
+want to explore a DVD
+need to make a proper search script for components to call up each time I need to look for something, something like ls -laF | sort | grep 
+
+Notes
+Brace Expansion -> echo {00..10}
+0 1 2 3 4 5 6 7 8 9 10 
+Operators and Motions
+Syntax - Operator Motion options
+You can add a count before a motion
+Operator 5 Motion options
+Making a series of scripts to format text and change filenames according to that text, in a specific order.
+Format text with “”
+Append Item numbers, Description to each other
+Push new name to array
+For each file in directory, mv file to index of array
+I think that’s it lets try. 
+
+
+Follow Up
+hdiutil -> formatting discs
+scp ->
+rsync ->
+

@@ -1,0 +1,1141 @@
+Bash
+Meta-Characters
+1. Wildcards (*, ?, []): Used for pattern matching and globbing. * represents any sequence of characters, ? represents a single character, and [] represents a range of characters.
+
+2. Redirectors (>, <, >>, |): Used for input/output redirection and piping. > redirects output to a file, < redirects input from a file, >> appends output to a file, and | pipes the output of one command to the input of another.
+
+3. Quotes (', "): Used to quote and preserve the literal meaning of characters, preventing their interpretation as meta-characters. Single quotes (') preserve the exact characters enclosed within them, while double quotes (") allow for variable expansion and command substitution.
+
+4. Escape character (\): Used to escape or quote a meta-character, treating it as a literal character. For example, \$ escapes the $ character to prevent variable expansion.
+
+5. Command substitution allows for capturing the output of a command and use it as input or assign it to a variable. ($(command) or command): Used to substitute the output of a command into a command or expression.
+
+Bash
+06-13-2023 - mdfind, mdls
+	- metadata is stored for files on your system, and the spotlight function on macOs can be used to leverage that data
+	- mdfind searches through files using the specified fields for metadata
+	- mdls will list the md fields for the files in a given directory, current working dir by default
+
+
+06-14-2023 - Standard Input, Standard Output
+
+	- Standard Input =  Keyboard commands, line commands, 
+	- Standard Output = display on terminal, written to screen somehow
+These are generally referred to as I/O Redirection, apparently it's one of the most powerful aspects of bash scripting and why it's still in use.
+	- The symbols for redirection are
+	- > < | >> << 
+	- If a program writes to stdout, use > to make it write to another file or program instead
+	- You can send the output from one program to another with a pipe, or | symbol
+	- If a program reads from stdinput, redirect the input from a file to the program with < 
+	- >> appends to a file rather than overwriting it. Overwriting with I/O in Unix is called clobbering a file.
+
+Commands that receive standard input and return stdout are often called filters. 
+The tr command 
+	- translate
+	- tr 'set1' 'set2' - will replace each symbol in the order given
+The colrm command
+	- removes a set of columns, recieves stdin and returns stdout
+	- ls -l | colrm 1 45 | sort - this would give just dates and filenames from long list
+The wc command 
+	- counts lines, characters, words from stdin and prints counts to stdout
+	- ls -l | wc -l - this would return the number of lines from long list
+The grep command - brief 
+	- searches contents of files or lines that contain a certain pattern
+	- grep "pattern" files
+	- pipe multiple greps to narrow search fields, such as: 
+		find . pattern | grep -v "dont-match-this" | grep "do-match-this" | wc -l 
+	- 
+The head & tail commands
+	- head returns the topmost lines or bytes of a file or stdin
+	- tail returns the bottommost lines or bytes of a file or stdin
+	- both can adjust the number of lines read 
+The sort command
+	- arranges lines of text numerically, alphabetically
+	- Takes stdin, returns stdout
+	- remember that you can chain multiple sorts with various commands with pipes! 
+		ls -l | grep "pattern" | sort -g 
+The uniq command 
+	- removes duplicate lines from stdin and returns to stdout
+	- ls -l | sort -n -k 7 | uniq - this would show a long list directory, sort by the 7th column, and only print uniq entries
+The less command 
+	- reads stdin in a pager format, idk what stdout for less is like at the moment
+	- man less | less
+
+Print Commands 
+
+The lpstat command
+	- prints cups status information
+	- lpstat -d : shows default printer location
+	- lpstat -a : shows all connected printers
+	- lpstat -t : detailed view of connected printers
+The lp command
+	- crude method of sending data to the printer
+	- ls -l | lp : will send print request to default printer with no formatting
+
+Clipboard Commands - pbpaste & pbcopy
+
+The pbcopy command
+	- copies stdin to the clipboard, there are multiple clipboards
+	- ls -l | pbcopy : copy output from long list into the clipboard, can paste this anywhere (lots of places anyway)
+
+The pbpaste command 
+	- accepts stdin, removes the data from the pasteboard and writes it to stdout
+	- can accept RTF if specified with the -Prefer rtf option
+	- ls -l | pbcopy | sort | pbpaste
+	- 
+The open command 
+	- will open files that contain creator and type codes
+	- open -a to specify a program to open with
+
+REGEX - Perl
+We are starting 101 Wicked Cool Shell Scripts - Intermediary level tour through shell scripting. 
+
+Introduction - Setting up the shell scripting environment
+	- Remember to shebang and adjust permissions - #!/bin/bash - as a header 
+	- remember to set up the development folder in the home directory
+	- use an absolute path to attach the new folder to the PATH variable
+	- use source ~.zshrc to update the shell
+
+What is: Variable Slicing: ${var:0:1}
+	- shorthand notation for specifying positions within a given string. It takes the first number given and returns the string until the end, 
+	or until the end of the second number provided. 
+	- example: var="ThisIsAString that is for an example"
+	- ${var:10} - This would return the string starting from the tenth character until the end of the string. 
+		- returns as: "ing that is for an example."
+	- ${var:10:6} - This would return the string starting at position 10 and ending after 6 characters
+		- returns as: "ing t"
+	
+What is: Positional Parameter
+	- using $1, $2, $3, etc.
+		- it's like using parameters in Javascript, these are considered positional arguments. You run a program that's being passed
+		these variables, the arguments passed into the execution of the script are passed into the variables. This allows you to adapt a 
+		script to a wider variety of conditions. 
+	- example: echo "First Argument: $1"
+		   echo "Second Argument: $2"
+		example.sh hello world
+		   First argument: Hello
+		   Second argument: World
+	- In practice, these variables are used to pass user input into various parts of a given script so that you can perform operations
+	on the given arguments themselves. In example 001 of WCSS book, argument $1 is the command we are checking for existence and arg $2 is the path variable 
+	that may or may not contain the argument we are looking to verify.
+	-  
+What is inpath: A custom script, lesson 001
+	- you search the $PATH variable for the existence of a command, using just the command name or the path to the command. 
+		- We set our positional parameters, $1 and $2 to cmd (command we're searching for in path) and ourpath (path we search through for command)
+		- result=1 is to mean not found or executable, later adjusted from within the in_path function once we succesfully find the command
+		- oldIFS and IFS variables are to separate the paths in the PATH variable, changing IFS to a : to do so
+		- in_path function runs a for loop, the tempVar being directory that is iterated over in $ourpath
+		- for each directory, it evaluates both the directory and the command being searched for, if they are both found it changes the value of the 
+		 result variable to = 0, which means true in this script. 
+		- 
+
+What is validalnum: A custom script, lesson 002
+	- Prompts the user to input a string, and checks the string for non-alphanumeric characters, returning true if only alnum and false if not. 
+		- Interesting part: placing the results of sed operating on echo $1 into the variable validchars, using command substitution. This 
+		is the most practical example of command substitution that I've run into so far. 
+		- 		
+
+06-19-2023 - exec decision, 101 Wicked Cool Shell Scripts was interesting and full of things to learn but we need a bit more salt to handle that one. 
+
+Going through: Jeffrey E.F. Friedl - Mastering Regular Expressions
+	- We may just be able to go through the first 150 - 200 pages. Which would be lovely lmao. Reason being, past that it starts to get language specific and that's somewhat outside our scope atm. 
+	- The intro was written by Mace Windu or something.
+	- We will take notes based on the chapters, so leftmost will be the chapter title, then sections, then examples
+Introduction 
+Chapter 1 - The concept of regular expressions
+	- Solving real problems - 
+	There are large and small problems regular expressions solve without much fanfare, so the value of it may seem dubious at first glance. However given thatour job, the job of a true developer, any person dealing with a database of information, will deal with text in their real work. Tools to parse and manipulate that text are extremely useful and should be respected, trained on. 
+	- Example - searching through a directory of textbooks to match a certain term, ignoring case, searching even bolded, quoted, HTML wrapped, versions of th	  e term. 
+	- Searching through an email inbox for a given term
+Regular Expressions are a Language for parsing other Languages
+	- Composed of meta-characters and literal characters
+		- example - s!<emphasis>([0-9]+(\.[0-9]+){3})</emphasis>!<inet>$1</inet>!
+	- When we can understand the above we'll be doing ok. It's written in perl but the regex should be clear eventually
+		- egrep '^(From|Subject):' fileToSearch
+	- The above is meant to match the From and Subject lines of an email file. It reads: match lines that start with From: or Subject: , the quotes are for th	  e shell to interpret the metacharacters correctly.
+Regex Metacharacters - ^ $ [] () \< \> | . ?
+	- ^, $, or the beginning/end of line characters - also called line anchors
+		- egrep '^cat' matches every line that starts with c, followed by a, followed by t.
+		- egrep '^$' matches empty lines
+		- egrep '^' matches all newlines, effectively every line
+	- . - the . character
+		- egrep '.ello' would match any character followed by characters in order ello
+	- | - Alternation - the | character - in regex it means or  
+		- egrep 'grey|gray', egrep 'gr(e|a)y' mean the same thing. Is delimited by ().
+		- important to note, while 'gr[ae]y' would match the same, character classes match a single character in this way while alternation can match an
+		arbitrary amount of text. 
+	- Remember alternation separates each section, so when trying to apply a character to each section, consider the following examples	
+		- egrep '^From|Subject|Date:' wouldn't be the same as egrep '^(From|Subject|Date):' , the first matches Newlines that start with From, the word 
+		Subject anywhere in a line, and the word Date:. Whereas, the second would match every line that starts with From: or Subject: or Date:
+	- Word Boundaries - embedded words can be a problem - \< \>
+	- \< \> -  These symbols combined with the backslash designates start of word positions, start & end respectively. 
+		- It matches the beginning and end of alnum characters separated by spaces or non-alnum characters such as -, '', ., ,, !, etc
+	- ? - Optional Items - the character becomes optional in the match, as in may or may not contain the preceding character
+		- egrep '\<colou?r\>' would match color or colour
+		- egrep '4th|4' would be the same as egrep '4(th)?' , where the ? would apply to the characters in the parenthesis
+	- + * - Repetition - Characters + * perform close to the same role, + means 1 or more of the immediately preceding item, whereas * means any number of
+	preceding items, including nothing. 
+	- ? + * - are called quantifiers
+		- egrep '<HR( +SIZE *= *[0-9]+)? *>'
+	- the above example matches <HR> or <HR *>, as well as <HR (SIZE *= +(any sequence of numbers)+) *> matches pretty much any arrangement of 
+	<HR SIZE=14> or <HR>, such as < HR SIZE = 28 > or <HR SIZE    = 12345   > or <HR     > - all of this would be entirely sinful ways to write HTML but 
+	it covers the bases nonetheless. 
+	- {1,5} - Intervals - Used to match up to a certain level, settling for the lowest available.
+		- egrep '[A-Za-z]{1,5}' sourceFile.txt - would match up to five upper or lower case characters, settling for the lowest number of matches first
+	- \1 \2 \3 - Backreferences - Parenthesis are given a position that can be called later using \1 \2 \3 etc, so 
+		- example - ([A-Z])([a-z])\1\2 - 1 refers to [A-Z] while 2 refers to [a-z]
+		- echo 'the the the the the the' | egrep '\<([A-Za-z]+) +(\1)+\>' - would match all copies of every possible word separated by spaces (useful?)
+		- echo 'the the the the the the' | egrep '\<([A-Za-z]+) +\1\>' - it's important to note in this example that it matches sets of 'the the' that end 		  with end of word boundaries, so as long as there are even amounts of 'the' repeated it will match all of them, while the odd amounts will have 1
+		remainder.  
+	 
+	
+Character Classes - [] [^] [abc] [0-9] - matches exactly one character, however can be negated [^like] so 
+	- [] metacharacters define 'or'
+		- egrep '[CB]a' would match Banana & Cabana
+	- A - indicates a range of characters
+		- egrep 'H[1-6]' would match all lines with H1 H2 H3 H4 H5 H6, useful for jumping through an HTML file when you want to pull the headers.
+		- egrep '[-AZ]' would match lines that contain a - followed by A followed by B
+	- Negation - using [^] within a character class changes the symbols meaning completely 
+		- '[^0-7]' would match numbers besides 0 through 7, so 8 and 9.
+		- What is the difference between match a character that's not listed and dont match what is listed? This is the reason negation doesn't match the 	  negated character followed by nothing. I suppose its saying don't match this character, but it still implies a character, so nothing wouldn't match.
+	- You can specify multiple ranges as such
+		- egrep 'file-[A-Za-z0-9]'
+	- The . character in a character class does not match any character, it doesn't have any special meaning, it's treated as a literal character
+	- 
+egrep specifics
+
+Options
+	- The case insensitive option -i
+		- This would match capitol letters as well as uncapitalized characters
+	- 	
+Common Problems 
+	- Embedded words - grep is searching for matches against characters and abstract symbols, not words from a dictionary, so remember searching for Smith will pull up the names with Smith and also blackSmith or even blacksmith if [Ss]mith is specified. 
+	- Matching Time of Day - 
+		- examples - egrep '([01][012]|[0-9]):([0-5][0-9])'
+	- Matching Variable Names - 
+	- Matching Dollar amounts - 
+	- Matching a given set of HTTP/HTML URL tags - 
+	- 
+Summing UP - Nomenclature - 
+	- Regex, shorthand for Regular Expressions
+	- Matching - egrep 'a' doesn't match the word 'cat' it matches the 'a' in 'cat'
+	- Metacharacter/Metasequence - depends on where in a regex it's used. * is a metacharacter, in [*] is taken as a literal character. Understanding this 
+	bit will take comprehension of the vocab and the ability to think in terms of the expression itself. 
+	- Flavor - There are different rules and structures for regex depending on the context, such as between programming languages, between different programs,	  and between different versions of the same program. egrep is apparently especially egregious in this way. 
+	- Subexpression - Simply, refers to a smaller part of a larger expression. Often used to mean something contained within () or alternations separated by |	  Technically speaking, every literal character is a subexpression of its main expression. This is why metacharacters such as * always refer to 
+	the smallest subexpression possible, and why the () and [] become relevant when applying prefixes or other characters.
+	- Characters - depends on your encoding, this was covered a bit in the complete intro to Linux
+	- . - matches any single character
+	- [] - character class - matches any one character listed
+	- [^] - matches any one character not listed, is a positive statement
+	- \char - matches the literal character unless the character is not a metacharacter in which case it might become a special character depending on
+	the program and version of regex you are using. 
+	- ? - question - One match is allowed, but is optional
+	- * - star - 0 to any amount of matches are allowed, all are optional
+	- + - plus - At least one is required, additional are optional
+	- {min,max} - specified range - min required, max allowed
+	- ^ - caret - Matches position at the start of the line
+	- $ - dollar - Matches position at the end of the line
+	- \< - word boundary - Matches position at the start of a word
+	- \> - matches position at the end of the word
+	- | - alternation - Matches either expression it separates
+	- () - parenthesis - Limits scope of alternation, provides grouping for quantifiers (?,*,+, {min,max}), and captures backreferences
+	- \1 \2 - backreference - Matches text previously matched in order sets of parenthesis, (1)(2)\1\2 for instance
+- Not all egreps are the same! Read documentation! Become the documentation!
+- Parenthesis - Contrain alternation, grouping, and capturing 
+- character classes are special and have their own set of metacharacters and rules, distinct from the regex language
+- Alternation and character classes are different, though the have functional overlap
+- A negated character is still a positive assertion, as in it must still match a character in order to return true. 
+- Use -i option for egrep and other programs to hopefully implement case insensitivity
+- Three types of escaped items
+	- \metacharacter to change it into a literal character
+	- \certain literals can become program specific options, such as \n (newline)
+	- \any other character that doesn't fall into these categories has the \ignored
+- [\] turns \ into a literal character
+- ? items don't need to actually match any character to match succesfully, they are optional
+
+06-20-2023
+- Some useful examples
+	- egrep -i '^(a|b|c|d|e|f)+$' english3.txt - this would find words that contain only letters a,b,c,d,e,f. 
+	The ^...+$ expression is worthy of note, it says match only lines that start with and end with whatever is contained in the expression.
+- Also the Mastering Regular Expressions book is about to dive into perl, so the examples moving forward will have a perl flavor. 
+	- 
+06-21-2023
+Continuing with Mastering Regular Expressions
+
+- Starting with examples in pseudo-perl
+- example - 
+	if ($reply =~ m/^[0-9]+$/){
+	    print "only digits\n";
+}	else {
+	    print "not only digits\n";
+}
+	- regex on line 1 - worth noting =~ essentially means "if matches", in this context saying if 
+	variable matches the following regex statement
+	- the regex expression means match only if the line contains only digits from start to end. 
+	- the ^[...]+$ syntax accomplishes this, anchoring with ^ and $ and + matching 1 or more digits 
+	- = assigns a value to a variable
+	- == tests if two variables are the same
+	- the result of the above expression is true if it matches the variable of $reply
+	- 
+- example -
+	"print "Enter a temperature in Celsius:\n";
+$celsius = <STDIN>;
+chomp($celsius);
+
+if ($celsius =~ m/^[0-9]+$/) {
+	$fahrenheit = ($celsius * 9 / 5) + 32;
+	print "$celsius C is $fahrenheit F\n";
+} else {
+	print "Expecting a number, so I don't understand \"$celsius\".\n";
+}
+
+	- worth noting how the variable is applied to the different parts of the expression
+	- A bucket is a bucket, the name is a label for the bucket, a bucket can be passed around and 
+	pulled from for various purposes. Understand that it's always full and ready to be emptied, 
+	refilled, changed in some fashion. 
+	- worth noting how in the final print expression, the ""'s are escaped as \"...\" in order
+	for them to print literal in the result of the code. It also distinguishes them from the 
+	enclosing "".
+- example - adding or allowing fractions to be passed to the expression
+ if ($celsius =~ m/^[+-]?[0-9]+(\.[0-9]*)?$/)
+	- note the addition of ^[+-]? allows for an optional leading plus or minus sign
+	- the caret still applies to the pre-decimal numbers as it's still a single subexpression
+	- the decimal and proceding digits are contained in () as they will be considered a subexpression
+	- the decimal is escaped within the parenthesis 
+	- the ? means both decimal and proceding digits are optional
+	- the $ still anchors all matched characters to the end of the line, combined with $ to mean only
+	the digits, decimal literal, and optional +- are to be matched
+	- you could make the change ^[+-.]? to handle numbers that potentially start with 0
+- Matching variables outside the regex 
+	- perl allows matching subexpressions such as in \1 \2 \3 using $1 $2 $3
+	- these can match outside the regex statement itself, meaning that the match can be considered a 
+	variable in and of itself and passed around throughout the program. This also means that different
+	parts of input can be split and sent around for different purposes.
+- example - splitting the expression into subexpressions
+$celsius =~ m/^[+-]?[0-9]+[CF]$/
+$celsius =~ m/^([+-]?[0-9]+)([CF])$/
+	- will this change the expression? To answer, we must know if the parenthesis provide grouping 
+	for certain characters, such as * + and ?, or provide an enclosure for |. The answer is no to 
+	both. I'm unsure what the signifigance of that is. 
+	- $1 will refer to the main body of the regex and $2 will refer to the C or F symbol. 
+	- 
+- example - Putting it together
+print "Enter a temperature"
+$input = <STDIN>; #this reads one line from the user
+chomp($input); #This removes the newline from $input
+
+if ($input =~ m/^([+-]?[0-9]+)([CF])$/) {
+#once inside the regex, the input has matched
+$InputNum = $1 #saving positional variables so the program is easier to read
+$type =     $2 #this is the variable for [CF]
+
+if ($type eq "C") { #eq tests if the string $type is equal to C
+#the input here is celsius only, so we are calculating fahrenheit
+$celsius = $InputNum
+$fahrenheit = ($celsius * 9 / 5) + 32;
+
+} else {
+#if it didn't match celsius, the input should be fahrenheit so calc celsius 
+$fahrenheit = $InputNum;
+$celsius = ($fahrenheit - 32) * 5 / 9;
+}
+#At this point we have both temps so we can display the result
+printf = "%.2f C is %.2f F\n", $celsius, $fahrenheit;
+} else {
+print "Expecting a number followed by \"C\" or \"F\", \n";
+print "so I don't understand \"$input\".\n";
+}
+	- We have taken input from the user with a prompt and passing STDIN to a variable
+	- We have also chopped the newline off of any input from the user
+	- Here we have validated input with our regex 
+	- We have taken the positional variables represented by () in our regex and passed them into
+	more readable variables
+	- We match the type variable inside an if statement, calculating either celsius or fahrenheit based
+	on the match
+	- We print the results, formatting it nicely. Not sure what the %.2f is but I suspect it's some 
+	perl specific jargon.
+	- the final else handles errors and prints a message informing the user of the required syntax
+	- 
+- example - adding our decimal expression, lower case types, and spaces between the digits and types
+$input =~ m/^([-+.]?[0-9]+(\.[0-9]*)?)([CF])$/
+	- The above maintains the body of the pre-decimal digits, while moving the second positional 
+	variable to contain the post-decimal digits. The type is moved to the third position var.
+	- The post-decimal digits are contained within their own subexpression, so the ? symbol is 
+	used to allow for the option of decimals. 
+	- I've added  a . to the optional preceding + or -, I don't think it will affect the program
+		- ** There was a bug here. So, within a character class, [-+.] because the - will be 
+		interpreted as a range otherwise.
+	- The positional variables can be nested within each other, that's the big take away
+	- Will have to adjust the assignment of the positional variables within the program
+$input =~ m/^([-+.]?[0-9]+(\.[0-9]*)?)[	 ]*([CF])$/
+	- This version allows for any amount of tabs or spaces between the digits and type
+	- There was a bug, within the prefix character class, make sure the - is first otherwise it will
+	be read as a range and not a literal character
+	- 
+- section- Metacharacters Galore
+	- Every language can have meta characters within and outside of strings, not just regex
+- example - Non-capturing parenthesis 
+	- Above, we inadvertently created a second capture group, meaning we had to adjust the script
+	to make sure our declared variables still targeted the right part of the regex.
+	- perl, certain flavors of regex will support a non-capturing parenthesis notation
+		- (?:...) will not capture the enclosed subexpression as a positional variable.
+	- the regex for our script would then be
+if ($input =~ m/ ^([-+.]?[0-9]+(?:\.[0-9]*)?)[ 	 ]*([CF])$/) 
+	- The above should now allow for spaces, prefixes, decimals, and the capture groups remain a total
+	of 2. 
+	- our answer to the question is that [tabSpace]* vs (tab*|space*) is the former means 0 or more
+	of either tab or space, while the latter means any amount of tab and space.
+	- The answer is the opposite actually, the [tabSpace]* notation means any amount of either, whereas
+	(tab*|space*) means one or the other in any amount. 
+	- Logically equivalent but character class is more efficient, computationally different
+	- Metacharacters can conflict, in most command-shell prompts '' is used to negate meta-characters
+	regardless of the program affiliation. This can vary however, as with much in the bash realm
+	- an example of this would be spaces in bash acting as a delimiter to separate commands, which
+	is why in egrep we surround our expressions with '' so that the spaces meta-character is ignored
+	by the shell.
+	- Programs will often use metacharacters for different purposes, so it is stressed that those
+	differences be understood. There will be examples where the same symbol means entirely different
+	things because it is quoted/unquoted. 
+	- worth noting that metacharacters, perl has nothing to do with regular expressions, but does 
+	have everything to do with using regex in practical scenarios. 
+	- remember that character classes are a sub language within regex
+Meta Characters
+	- \s - generic whitespace - regex MC
+	- we can rewrite our ongoing example as
+if ($input m/(^[-+.]?[0-9]+(?:/.[0-9]*)?)\s*([CF])$/i)
+	- we have added \s for generic whitespace
+	- as well as /i for case insensitivity, this is perl syntax and not part of regex per say
+	- /g - global match - perl MC
+	- /x - free-form expressions - perl MC
+- Section - Summing Up and etc.
+	- Most tools will have a flavor of regex. Again, consider reading the manual. Perhaps even
+	open and learn something from the manual.
+	- perl can check a variable against a regex statement with the following syntax
+		- $variable =~ m/regex/
+		- $declareVariable
+		- =~ match against; the whole test as a unit is true or false
+		- m/.../ is perl speak, m indicates a match is requested, /.../ delimits the regex 
+		- regex is what we're studying so you better kno this one
+	- Meta-Characters - MC - Characters with special interpretations are not unique to regex, 
+	they are present in most programming languages. Character classes for example have their own
+	meta-characters. 
+	- Useful, common, MC's are - 
+		- \t - a tab char
+		- \n - a newline char
+		- \r - a carriage return char
+		- \s - matches generic whitespace (tab,space,newline,formfeed,etc)
+		- \S - anything not \s - so everything besides whitespace, all other chars
+		- \w - [a-zA-Z0-9_] - useful as in \w* to match any word
+		- \W - anything not \w - such as [^a-zA-Z0-9_] (remember the caret is negation here)
+		- \d - [:digit:], [0-9], ie a digit
+		- \D - anything not \d - [^0-9]
+	- /i modifier - makes text case insensitive, only i is appended to the expression
+	- (?:...) - nonCapturing parenthesis - does not reserve the enclosed expression as a positional
+	variable. This is useful when you need to enclose something for delimitation but don't want
+	to update every variable that's been assigned based on position. 
+	- $1 $2 $3 - This is how perl holds the text matched by the positional variables in the regex.
+		- This is useful when you need to capture subsets of strings for different reasons, 
+		while wanting to maintain the string as a whole. 
+	- Nesting SubExpressions - You can (nest(sub-expressions(and reuse their(position!))))
+
+06-22-2023
+- Section - Modifying Text with Regex 
+	- $var =~ s/regex/replacement - replacing the matched text from $var with some data
+	- the replacement is treated as a double-quoted string "..."
+	- this means you can include reference to variables, including $1 $2 $3 positional vars
+	- So, the variable will actually change according to the match and substitutin 
+		- example - $var =~ s/Jeff/Jeffrey/;
+	- Input of Jeffrey would return Jeffreyrey
+	- to avoid, apply word boundaries /< />, or the perl specific \b ... \b
+		- example - $var =~ s/\bJeff\b/Jeffrey/;
+	- Quiz - what does $var =~ s/\bJeff\b/Jeffrey/i mean?
+		- answer - Match Jeff, JEff, JEFf, JEFF, or jeff,  replace with Jeffrey 
+- Example - Form Letter - Building Custom Forms
+Dear =First=,
+You have been chosen to win a brand new =TRINKET=! Free!
+Could you use another =TRINKET= in the =FAMILY= household?
+Yes =SUCKER=, I bet you could! Just respond by...
+
+- Here you would load variables that would replace the =...= markers
+$given = "Tom";
+$family = "Cruise";
+$wunderprize = "100% genuine faux diamond";
+
+- Once prepared you can fill out the form with
+$letter =~ s/=FIRST=/$given/g; 
+$letter =~ s/=FAMILY=/$family/g;
+$letter =~ s/=SUCKER=/$given $family/g;
+$letter =~ s/=TRINKET=/fabulous $wunderprize/g;
+
+	- You can replace different =TAGS=, which are however you choose to write them in the template
+	with any variable, the interesting part being how those variables are being filled. 
+	- You can replace the tags with multiple variables combined with scalars, elements from array, etc
+	- /g - enables global replacement, rather than replacing the first encountered instance
+- Example - Prettifying a stock price
+$price =~ s/(\.\d\d[1-9]?)\d*/$1/
+	- the problem is that there are occasionally many trailing zeros on a stock price. The goal
+	is to replace the extra digits with just the first two/optional three digits of the same price.
+	- \. sets the decimal as a literal char
+	- \d\d[1-9]? matches the first two-three digits,  only 3 if the final digit is 1 or more
+	- we want to keep these first three digits so we capture them to position $1
+	- we want to replace any potential extra digits, so those are matched using \d* 
+	- we replace the whole of the first match with the positional variable $1
+	- Literally we are replacing the first two/three digits with the same digits, but in the process
+	eliminating any potential extra digits
+- Example - Automated Editing
+perl -p -i -e 's/sysread/read/g' file
+
+	- This program will replace sysread with read for each supplied file name
+	- -p - substitution will be done for each line of the file
+	- -i - changes will be written back to the file when done
+	- -e - indicates the whole program is being written to the command line, so no need for a 
+	script in some editor
+	
+- Example - Small Mail Utility
+
+	- Goals - 
+	- Extract info from header
+	- Print out the reply header
+	- Print our the original message, indented with |>
+	- use the <> operator with a formal variable, such as $variable = <>
+	- Important to note, the <> in perl doesn't have anything to do with I/O
+	- 
+while ($line = <>) {
+		if ($line =~ m/^\s*$){ #this matches if the line  starts and ends with any combo of \s
+			last; #this stops the loop in perl. 
+	}
+		#process line header here
+		if ($line =~ m/^Subject: (.*)/i){
+		$subject = $1; #this would take the captured subject area and place it into var $subject
+	}
+		if ($line =~ m/^Date: (.*)/i){
+		$date = $1;
+	}
+		if ($line =~ m/^Reply-To: (.*)/i){
+		$reply_address = $1
+	}		
+		#this matches 1 or more characters besides white spaces 
+		#after the From: and anything inbetween parenthesis without 
+		#matching parenthesis themselves
+		if ($line =~ m/^From: (\S+)\(([^()]*)\)/){ 
+		$reply_address = $1;
+		$from_name = $2;
+
+	}
+}
+#check if we got the info, kill process, print error msg if not
+if (	not defined($reply_address)
+	or not defined ($from_name)
+	or not defined ($subject)
+	or not defined ($date) )
+{
+die "couldn't glean the required information"
+}
+
+#process for the rest of the message
+	while ($line = <>) {
+	$line =~ s/^/|> /;
+	print $line;
+}
+
+	- using positional variables, we have matched patterns within the given body of text and 
+	placed them into formal variables for use later in the script. This means that, given different 
+	matching patterns, we can use $1 or $2 to set an arbitrary amount of formal variables, given
+	the proper scope in each regex.
+	- These are meant to be examples of real world problems, not neccasarily the best perl code
+	or even the best solution available to these problems. The goal is to demonstrate regex in use.
+
+- Section - Adding Commas with Lookaround
+	- (?=...) - lookahead - It looks ahead for the position of a matching pattern 
+	- (?<=...) - lookbehind - Looks behind for the position of a matching pattern
+	- worth noting that this function matches text but returns its position no the text itself
+		- example - (?=Jeffrey)Jeff - would match Jeff only if it is part of Jeffrey, as the
+		subexpression returns the position of the pattern to match against
+		- example - Jeff(?=Jeffrey) wouldn't match the same way. This would match Jeff
+		if only immediately followed by Jeffrey. 
+	- Summary - lookahead matches a pattern and passes the position of the match onto the rest
+	of the regex
+		- example - s/Jeffs/Jeff's/g		#replace all Jeffs with Jeff's
+			  - s/\bJeffs\b/Jeff's/g	#replace all _Jeffs_ with Jeff's
+			  - s/\b(Jeff)(s)\b/$1'$2/g	#replace all Jeffs with Jeff's, pos vars
+			  - s/\bJeff(?=s\b)/Jeff'/g 	#match Jeff, lookahead for s\b, replace Jeff with
+							Jeff', this works because it checks for s but 
+							doesn't include it in the match to be replaced
+	- The purpose of looking ahead is to match only what is neccesary to match, and replace only
+	what is needed for the replacement. 
+		- example - s/(?<=\bJeff)(?=s\b)/'/g	#this doesn't replace any text. It searches for 
+							the position, and places the desired character
+							into the position.
+		- example - s/^/|> /g - 		#similair, it doesn't replace text it appends
+	- Quiz - is the below expression the same as our similair example above?
+s/(?=s\b)(?<=\bJeff)/'/g  
+	- Answer - Looks forward to find s and a word boundary, then looks back to check for a word 
+	boundary followed by Jeff, and only matches if both are found. The question is, where will the '
+	match land. It's important to remember the direction lookahead and lookbehind work in. 
+	- lookahead will procede from left to right
+	- lookbehind starting at the right and going left until a match, then returning that position
+	- Honestly don't understand this. My brain is pretty mushy today. 
+Summing up for the day
+	- We went into the email utlity example.
+	- /s/../../modifier - learned about the substitution utility
+		- regex will fit into the space after the s/../andReplaceWithThis Txt/!
+	- We used word boundaries extensively, either the /< /> or \b...\b perl notation
+	- The replacement returned from the substitution will be a double quoted string
+	- There was an extended section on lookahead and lookbehind, which are programs that
+	return a position based on the regex match. The basic examples made sense, but I don't understand a
+	few things which I will need to clarify. 
+		- If there are both lookahead & lookbehind executed in some order, where is the position 
+		going to be matched? There was a demonstrative example in the book where it was 
+		difficult to really tell. I'll need to figure out how the position is matched, and how that
+		match is passed onto the next part of the regex. So probably start the section over 
+		honestly. 
+	- perl commands can be executed directly onto the command line as 
+		- perl -p -i -e 's/matcher/replacer/option' targetFile
+	- ran into the starts with and ends given match, used here as m/^\s*$ to mean match lines that
+	start with and end with only generic whitespace
+	- We also used positional variables to capture sections of regex and pass them into formal 
+	variables that are used throughout the program, using the scope of different regex's to pass the 
+	same positional variable into different FV's without overwriting the variables
+	- variables can be overwritten with /s///
+	- placing tags into a template document and then using the s/// to pass matches into the variables
+	seems like an interesting place to pick up, at a basic level that seems like what any fillable
+	form is supposed to do. 
+	- The usefulness of the lookahead / lookbehind is in it's ability to match without replacing
+	- 
+06-23-2023 - Return to lookahead, lookbehind, maybe a small break from regex to stretch the brain.
+	- example - We must add commas to large numbers. We can do this with lookahead, lookbehind.
+$pop = 289444215;
+print "The US Population is $pop\n";
+	- here the goal would be to format w/e var is inside $pop
+	- Commas are inserted every third digit from the right, with between 1-3 digits on the left w/
+	no comma to the left
+	- lookaround - collectively what lookahead and lookbehind are called
+	- similair to word boundaries as \b\b or \< \>
+	- (?=...) - (?!...) - This is known as lookahead, positive/negative
+	- (?<=...) - (?<!...) - This is known as lookbehind positive/negative
+	- lookarounds do not consume the text, they search for and match based on positions, returning the
+	specified match   
+	- when both are used together, only if all are true then the match is made. 
+		- example - (?<=a)b(?=c) - this will match only the b if it is preceded by a and proceded 
+		by b. Only the b will be returned by the regex.
+		- example - (?<=A)BB(?=A)   this will match onlly if BB is found, preceded by A and proceded
+		by A.
+		- example - \b(?<=\d)\w+\b(?=\d) - this will match words of 1 or more characters only 
+		if preceded by a single digit with a word boundary and proceded by a single digit
+		So the string "1abc2" "def4" only "abc" is matched and returned
+	- the order of lookarounds related to the matched text is important, jeff(?=jeffrey) would only
+	match jeffjeffrey
+		- example - s/(?<=\bJeff)(?=s\b)/'/g - the example from yesterday
+	- so in the above, it is looking to match a position, with no supplied literal match, 
+	it will only match the position found. Here it searches for _Jeff followed by s_, and matches the 
+	logical position of both lookarounds. Then in the replace section, it replaces that "position" with
+	a '. In this way, you can "match" words without "consuming" them, as stated in the text. 
+	- If we are to look back at the quiz, the order of positional matches not affecting the match
+	itself makes more sense. It's searching for both matches, and based on the position of both matches
+	placing the substitution. Unless the argument for the match changes, the effect of the expression
+	will not change. 
+		- example - s/(?<=/d)(?=\d\d\d+$)/,/g; - this is the attempt to add ,'s to large #'s
+	- the above expression checks for a single preceding digit, proceded by 3 consecutive digits, any
+	amount of times, starting from the end of the line, replaces each position match with a , for 
+	every instance within the file. 
+	- rereading is so helpful. The above expression reads - check to the left for a single digit, then
+	check to the right for any amount of 3 digits in a row, until the end of line. If both are found,
+	insert a comma into the space between the 3 digit pattern and the single digit pattern.
+		- example - s/(?<=/d)(?:(?=\d\d\d)+$)/,/g; - this would include the nonmatching parenthesis
+		that were discussed earlier. It is worth noting that the parenthesis for the position of
+		\d\d\d are nested within the nonmatching parenthesis
+	- The above is mostly an optimization, the non-matching parenthesis are not absolutely neccesary. 
+		- example - $text =~ s/(?<=\d)(?=(\d\d\d)+(?!\d))/,/g; 
+	- The above example uses the (?!\d), the negative look ahead, to say match the string that does
+	not have a single digit after the pattern of 1 or more three digits in a row. 
+	- It is important to remember that lookbehind has considerably less support than lookahead
+		- example - $test =~ s/(\d)((\d\d\d)+\b)/$1,$2/g;
+	- The above example is a way to achieve the same result as the preceding example, without the use 
+	of lookbehind. Again it's not always supported so not completely useless. 
+- Quiz - Does the following expression work? Meant to achieve the results of lookahead and lookbehind 
+without using either program.
+	- problem - $text =~ s/(\d)((\d\d\d)+\b)/$1,$2/g;
+	- answer - it doesn't work on my computer. 
+	- solution - 
+- Section - Text to HTML Conversion
+	- Converting plain text into HTML 
+
+06-26-23
+Going back through Wicked Cool Shell Scripts
+	- Lesson #3 - Normalizing Dates
+	- Questions as we copy the script over
+- What is case $1 in?
+- Some explanation for the $1 variable, how does it receive user input?
+- should go over if statements in bash, especially vocab. 
+	- The [ $# -ne 3 ] ; then - is the confusing one
+- review stderror
+- the -z option in if statements
+- what is the set -- $(echo $1) notation for, specifically the set part
+
+07-03-2023 
+Back from vacation, got to rest and recover my sense of urgency.
+	- Daily - 
+	- Review regex notes
+	- Start up mastering UNIX Shell Scripting
+	- Perl?
+Work business is out of the way, got to play in embedded windows for a bit. None of these commands transfer
+from UNIX, of course. Besides whoami at least. 
+	- Bash Functions - 
+	- function function_name 
+	{
+		#commands to execute
+	}
+	- function_name () 
+	{
+		#commands to execute
+	}
+	- because scripts are interpretive, we must declare functions before they are used. Can't use 
+	something before it exists.
+	- gonna write a template script - written, createNewScript, puts a copy of the script template 
+	into the current working dir
+- Bash Control Structures - 
+- if statements
+	- if [ test_command  ]
+	  then
+		commands
+	  fi
+- if ... then ... else
+	- if [ test_command ]
+	  then
+		commands
+	  else 
+		commands
+	  fi
+- if ... then .. elif ... (else) 
+	- if [ test_command ]
+	  then
+	  	commands
+	  elif [ test_command2 ]
+	  then
+		commands
+	  else (optional)
+		commands
+	  fi
+- Loops - not cereal
+- for ... in statement
+	- for loop_variable in argument_list
+	do
+		commands
+	done
+examples- 
+	- for i in {1..5}; do
+	echo "Number: $i"
+	done
+
+	- for i in "${arr[@]}"; do
+	echo "Fruit: $i"
+	done
+	
+	- for i in $(ls); do
+	echo "File: $i"
+	done
+
+	- for i in $(cat file.txt); do
+	echo "Line: $i"
+	done
+
+	- for (( i=0; i<=10; i+=2 )); do
+	echo "Even Number: $i"
+	done
+
+
+- while statement
+	- while test_condition_is_true
+	do
+		commands
+	done
+- until statement
+	- until test_condition_is_true
+	do
+		commands
+	done
+- case statement
+	- case $variable in
+	match_1)
+		commands_to_execute_for_1
+		;;
+	match_2)
+		commandsToExecuteFor2
+		;;
+	match_3)
+		commandsToExecuteFor3
+		;;
+	*) 	(Optional - Any other value)
+		commands to execute for no match
+		;;
+	esac
+
+- Using break, continue, exit, return
+	- break - break out of a for or while loop
+	- continue - continue script from next block of code, continues the execution of a loop
+	- exit - exits the entire script, integer can procede the exit as exit 0, will be sent as return 
+	code
+	- return - send data back, or return a result or return code, to the calling script
+	- 
+- What is a Here Document? Also, heredoc
+	- These are used to redirect input into an interactive shell script or program, without the user
+	suppling the usual input for those scripts/programs. Presumably this would be useful for taking
+	a pattern that occurs throughout multiple programs and passing it between all of them with one
+	entry as opposed to some arbitrary amount of times
+	- program_name <<LABEL (Arbitrary, often abbreviated EOF for End Of File)
+	Program_Input_1
+	Program_Input_2
+	Program_Input_3
+
+	Program_Input_#
+	LABEL
+- book example - 
+	- /usr/local/gin/My_Program <<EOF
+	Randy
+	Robin
+	Rusty
+	Jim
+	EOF
+	- remember that the data coming out of the here document must be exact, spaces and other whitespace
+	might cause the program to work unexpectedly or fail.
+	- 
+- Shell Script Commands - 
+	- we can execute almost any command inside a shell script. 
+	- The purpose of a shell script is to automate a string of tasks that would otherwise require
+	manual input. This opens up a huge variety of possibilities for custom scripts and programs. 
+	Creating a fillable form based on some constant source of data should be possi
+- Variables - 
+	- character string we assign some value. The value can be a number, text, filename, device, 
+	any valid type of data. 
+	- The variable is just a pointer to the actual data.
+	- To access the variable after initializing, use $variable_name
+	- Initialize as - variable_name = "A String"
+	- The data within the variable can be basically anything that gets passed into the rest of your
+	program correctly. 
+	- 
+- Command-Line Arguments
+	- Positional Parameters - 
+	- $0 - the command being used
+	- $1 , $2, $3, $4 , etc. - the arguments passed into the command
+	- scope is very relevant here but the rules of scope are not specified yet
+- shift Command - ***needs follow up
+	- shifts positional parameters to the left 
+	- example - $2 becomes $1
+	- don't understand this at all
+- Special Parameters - $* $@ ***needs follow up
+	- $* specifies all command-line argument
+	- $@ same as above
+	- $* the special parameter takes the entire list as one argument with spaces
+	- $@ takes the entire list and separates it into separate arguments
+	- don't understand this at all
+- Double Quotes, Forward Tics, Back Tics
+	- Double Quotes - "" - used when the purpose requires command substitution, such as in names with 
+	spaces between words. 
+	- Forward Tics - Single Quotes - '' - used when we require literal text, special meanings are 
+	negated, similair to escaping with \
+	- Back Tics - `` - $() - used when we want the results of command substitution
+		- can also use the $() syntax for this purpose
+	
+
+
+Notes on Bash - 07-11-2023
+The Architecture of Open Source Applications
+Bourne Again Shell
+Chet Ramey
+- This text is the best description of what's going on inside bash and describes how the various features are implemented to form a usable system
+	- arrays, trees, singly-linked lists, doubly-linked lists, hash tables form the basis for nearly all bash constructs
+	- WORD_DESC - basic data structure that passes information from one stage to the next
+	- words are combined into various forms, example arguments list, using simple linked lists
+	-
+
+Data Structures - Applications
+
+Trees
+	- Like a file system, hierarchal storage system
+	- rapid information retrieval, organizational structure
+		- used in binary search trees, achieves faster search results
+		- used in heaps, often applied in queues to establish priority, also heap sort
+		- used in syntax trees, determines the order of operations in mathematical expressions for example
+	- Summary - It seems any system that requires a hierarchal order to the information of the system could potentially benefit from a tree structure, and is likely using
+	something like a tree structure already. There are computational benefits to using tree structures, reduction in the amount of processing by eliminating portions of 
+	the given data, ensuring rules of a stated hierarchy are applied evenly across given data, establishing priority in data
+Singly-Linked List 
+	- Nodes containing some data, with a pointer or link to the next node in the list. Ends with a null statement. Each node has 1 pointer, only to the next node. 
+	- The main benefit is the enforced order of the structure, you must start at the beginning and procede down the list in the order given by the pointers. This 
+	simplicity is useful in building out various other data structures.	
+		- Used to build stacks and queues
+		- A queue has a FIFO structure, when we want to add something to the queue it's added to the tail of list, the front of the queue (priority )is the head. 
+		- Used to create hash tables
+		- used in memory management
+		- used in browser history simple
+		- access time is linear compared to a tree
+	- Summary - A simple structure that is important for it's flexibility and use in the construction of more complex data structs. It ensures steps are being followed. 
+Doubly-Linked List
+	- Nodes containing some data, with pointers to the next and the previous node. Both head and tail of list are null. 
+		- Used when you need to traverse forwards and backwards in a list of given data points. 
+		- Example would be a playlist of songs, where you want to be able to jump forward and backwards between songs. 
+		- Example would be the forward and back buttons in a browser. 
+		- Used when insertion into the list is neccesary
+		- Downsides are, it takes up more space than a singly-linked list because it stores double the amount of pointers. During insertion/deletion, more links 
+		will need to be updated.
+ 		- 
+Hash Tables
+	- Used to index large amounts of data, in database indexing, compilers, caching, password authentification, and more
+	- Maps keys to values in an associative array. If you have a series of item numbers for instance, that map to various kinds of product data, hash tables would assign
+	each key value with an index number created through some algorithmic processing of the key value.
+	- Key - the value that is being stored and is searched for
+	- Index - assigned to each key in the table 
+	- Algorithm - used to create the index of the key 
+	- Hash table - a key and its associated index number
+	- Hash map - a key, its index, and the key values that are associated with the key. 
+	- Hash algorithm - Calculation done to the key to retrieve the index of the key, or its address in the table
+		- minimizes collisions
+		- uniform distrobution
+		- easily caluclated
+	- Collisions - your algorithm produces different keys with the same index. 
+		- open addressing - linear probing - try the next index address until empty slot is found
+		- plus 3 rehash - quadratic probing - double hashing 
+		- closed addressing - chaining - creating a linked list at the shared index
+		- 
+	- Load factor - total number of items stored / the size of the array
+	- Summary - Hash tables give searchable values index numbers algorithmically so that when information is input the hash function can reference its search table 
+	according to a value it knows instantly, based on the algorithm used to index the values. 
+Arrays 
+	- ordered list. Each element of the list has a number representing its position in the array, an index. 
+	- store and data sequentially, lookup table (ohyah), buffers 
+	- an array is a fixed size, so adding to or inserting data is known to be somewhat costly computationally. 
+Dynamic Arrays 
+	- AKA array lists, resizable arrays, vectors - they do not declare their size at creation, and handle variable sized data 
+	- Putting things onto the end of the array is efficient
+	- If you don't know the amount of data going in for storage, this is the struct to use
+	- often used in stacks and queues as an underlying data struct
+	- 
+Learning Awk
+	- is related to sed, ed, is a stream editor but not a line editor
+
+printf
+printf format-string [arguments ...]
+- example - printf "The first program always prints '%s, %s!'\n" Hello World
+- returns - The first program always prints 'Hello, world!'
+
+Positional Arguments - Bash
+finduser=who | grep $1 - call who, pipe to grep, use the first argument as input
+finduser Frank - runs the command with Frank as the first argument
+
+Execution Tracking - Should follow up on this some more, actually have not seen anything on it yet
+- set -x turns on tracing 
+- set +x turns off tracing
+- run commands between to track each command as its run
+- run on command line as - sh -x argument
+	- This is extremely useful for debugging and improving scripts
+
+
+Using sort more specifically
+- Apparently sort is top 10 UNIX programs, so we should give it more attention than we have been.
+	- Good options
+	- b - ignore leading whitespace
+	- c - check if input is correctly sorted?
+	- d - dictionary order, only alnum and whitespace are important
+	- g - general numeric value: compare fields as floats
+	- f - fold letters implicitly to a common lettercase
+	- i - ignore non-printable characters
+	- k - define the sort key field - this one is really good and has high customization
+	- m - merge already-sorted input fields into a sorted output stream
+	- n - compare fields as integers
+	- o - write output to a specified file, instead of stdout
+	- r - reverse to descending, rather than ascending default
+	- t char - uses single character in place of char as default field separator
+	- u - unique records only, only key fields matter,
+- Sort stability refers to whether the type of sorting used maintains the position of all the entries.
+- 
+
+sed & awk - basics
+
+sed
+command - instruction - 
+- instructions - pattern, procedure /regularexpression/procedure
+- procedure should be surrounded by braces
+	- separate instructions sent separated by semi-colon
+	- precede each instruction with -e, each instruction wrapped in single quotes
+	- multiline entry, where the initial command ends with an open single quote and ends with the 
+	closing quote. 
+- Options - sed
+	- e - separates multiple instruction sets, use regular expressions
+	- f - sed -f scriptfile file -  specifies a script to run as editing commands
+	- n - suppress output of l
+- Examples - 
+supply multiple numeric addresses - sed '/200/,/201/s/Aleve/Banana/g'
+last line address - $
+delete blank lines - /^$/d
+delete from numeric address to end of input - 50,$d
+
+awk
+- command, instruction, files
+- instructions are in single quotes
+- same multi-line entry as sed
+- pattern, instruction, I/O
+
+- 
+
+
+
+
+- syntax
+	- regex - returns a set span of characters
+	- n and m are integers between 0 and 255
+	- example - 10\{2,4\}1 - matches zeroes between 10 and 1, specifying no fewer than 2 no more than
+	4 of that character. 
+	\{n,m\} - grep, sed
+	{n,m}   - egrep, awk
+- Options - awk
+	- f - invoke script as instructions for input
+	- F - change field separator to following character, as in -F, for a comma
+	- v - variable, as -v var=value
+- Builtins - 
+	- ARGC - number of command-line arguments
+	- ARGV - array of command-line arguments
+	- FILENAME - name of current input file
+	- FNR - record number in current file
+	- FS - input field separator
+	- NF - number of fields in current record 
+	- NR - number of records read so far
+	- OFMT - out format for numbers
+	- OFS - out field separator
+	- ORS - out record separator
+	- RLENGTH - length of string matched by match function
+	- RS - input record separator
+	- RSTART - start of string matched by 
+	- SUBSEP - subscript separator
+- Math builtins -
+	- atan2(y,x)
+	- cos(x)
+	- exp(x)
+	- int(x)
+	- log(x)
+	- rand()
+	- sin(x)
+	- sqrt(x)
+	- srand(x)
+- String builtins - 
+	- gsub(r,s) - subst. s for r globally in $0, return # of subst. made
+	- gsub(r,s,t) - subst. s for r globally in string t, return # of subst. made
+	- index(s,t) - return first position of string t in s, or 0 if t is not present
+	- length(s) - return number of characters in s
+	- match(s,r) - test whether s contains a substring matched by r; return index or 0
+	sets RSTART and RLENGTH
+	- split(s,a) - split s into array a on FS, return number of fields
+	- split(s,a,fs) - split s into array a on field separator fs, return number of fields
+	- sprintf(fmt,expr-list) - return expr-list formatted according to format string fmt
+	- sub(r,s) - subst. s for the leftmost longest substring of $0 matched by r; return 
+	number of subst. made.
+	- sub(r,s,t) - subst. s for the longest substring of t matched by r, return # of 
+	of substitutions made. 
+	- substr(s,p) - return suffix of s starting at position p
+	- substr(s,p,n) - return substring of s of length n starting at position p
+	-
+- Types - 
+	- Strings - string literals
+	- Numbers - +1 1. 0 1e0 1e+1 10E-1 001
+	-  
+- Expressions - 
+	- assignment - =, +=, -=, *=, /=, %=, ^=
+		- ++ - add 1 to variable, increment by variable, as x = x + 1, x += 1, or x++, 0 is default variable value
+		- -- - subtract 1 from variable
+		- += - assign result of addition
+		- -= - assign result of subtraction
+		- *= - assign result of multiplication
+		- /= - assign result of division
+		- %= - assign result of modulo
+		- ^= - assign result of exponentiation
+		- **= - assign result of exponentiation 
+		- the position if incrementor matters, before variable means increment before return, after means increment after
+	
+	- conditional - ?:
+- Boolean Statements
+	- logical OR - ||
+	- logical AND - &&
+		- parenthesis control precedence - 
+		(NR > 1 && NF >= 2) || $1 ~ /\t/ - the left hand side would process with this precedence by default
+		NR > 1 && (NF >= 2 || $1 ~ /\t/) - the left must be true and either option inside the parenthesis must be true
+		! (NR > 1 && NF > 3) - the ! inverts the meaning of the match, saying everything except the pattern
+		
+	- array membership - in
+	- matching - ~ !~
+	- relational - <, <=, ==, !=, >=, >
+	- concatenation - no explicit operator - "string1" "string23"
+	- add, subtract - +, -, - x + y
+	- multiply, divide, mod - *, /, %, - 
+	- unary plus and minus - +, -, -
+	- logical not - ! - !$1
+	- exponentiation - ^ - x ^ y
+	- increment, decremement - ++, --, - 
+	- field - $
+	- grouping - (  ) 
+- Control Flow - 
+	- syntax is as C
+	- if/else
+	- while 
+	- for
+- Arrays - 
+	- Arrays are one dimensional
+	- For strings or numbers
+	- arrays and elements do not need to be declared
+	- all arrays are associative
+	- iterate with: for(variable in array)
+	- delete element: delete array[subscript]
+	- set or replace element (string key): array["one"] = 2
+	- set or replace element (integer key): array[5] = "two"
+	- even with the integer key, the array is still associative
+	- 
+- printf % characters -
+	- c - ASCII char
+	- d - decimal int
+	- e - [-]d.ddddddE[+-]dd
+	- f - [-]ddd.dddddd
+	- g - e or f conversion, whichever is shorter, with nonsignificant zeroes suppressed
+	- o - unsigned octal number
+	- s - string
+	- x - unsigned hex number
+	- % - print a %, no argument is consumed
+- variables can be written to - 
+	- you can write your own
+	- you can write to builtins
+- can call functions - 
+	- { some function } 
+	END { print someFunction, a, b, c }
+
+- Examples
+	- awk -F, '{ print $1; print $2; print $3 }' sampleMail.txt
+	- awk '/MA/ { print $1 }' sampleMail.txt
+	- awk '/MA/' sampleMail.txt
+	- echo "Hello World" | awk '{ print $1 $2 }'
+- write to files - (pattern) { print "expression" > "file name" }
+- pipe is available as - (pattern) { print "expression" | "command" }
+- print fields with line #'s - awk -F, '{ print NR " - " $1 " " $6}' < tableDataPract.csv
+- show basic pattern/action - echo "\n\n\n" | awk /^$/'{ print "This is a blank line." }'
+- adding parameters - awk '$1 == search' search=$1 targetFile
+	- awk is invoked, inside '' awk assigns the value of search to a match performed on the first field, then assigns search the first value
+	passed to the shell script at the command line, and the name of the targetFile is hardcoded here.
+
+
+- Structure & Syntax - 
+	- a command is structured: pattern/action, which designates a pattern to match against and an action to run for each match
+	- all awk scripts have three stages fundamentally: BEGIN, main input loop, END
+	- BEGIN is run once before any input is read
+	- main input loop runs on every line of input and stops when there are no more lines
+	- END is executed after all input is read
+- ~ - 
+	- used to test a pattern against a specific field
+	- !~ - used to match inverse statement: match everything besides pattern
+	- 
+- Fields - 
+	- NF - This variable controls the number of fields. 
+	- $NF - This will select the last field
+	- The character that separates fields is called a delimiter
+	- operator: $X, as: $0, $1, $2
+	- 
+- Records - A row
+	- awk will process every line, including blank lines
+	- 
+

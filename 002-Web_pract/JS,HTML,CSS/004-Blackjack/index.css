@@ -1,0 +1,29 @@
+body {
+
+font-family: Trebuchet MS;
+color: white;
+background-image: url("table.jpeg");
+background-size: cover;
+font-weight: bold;
+text-align: center;
+}
+
+h1 {
+	color: goldenrod;
+	font-size: 3rem;
+}
+
+#message-el {
+	font-style: italic;
+
+}
+button {
+background-color: goldenrod;
+padding: 5px;
+margin: 5px;
+font-weight: bold;
+width: 150px;
+color: green;
+border-style: hidden;
+border-radius: 2px; /* this controls the corner rounding */
+}

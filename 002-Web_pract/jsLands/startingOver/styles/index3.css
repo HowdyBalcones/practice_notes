@@ -1,0 +1,90 @@
+/* Graphics & Color */
+
+thead,
+tfoot {
+	background: url(../images/cheetah_print.jpeg);
+	color: orange;
+	text-shadow: 1px 1px 1px black;
+}
+
+thead th,
+tfoot th,
+tfoot td {
+	background: linear-gradient(to bottom, rgba(200,0,0,0.3), rgba(0,0,0,0.6));
+	border: 3px solid purple;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #EC73FF;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #EC50B4;
+}
+
+table {
+	background-color: #ff33cc;
+}
+
+/* Typography */
+
+html {
+	font-family: "helvetica neue", helvetica, arial, sans-serif;
+	color: white;
+}
+
+thead th,
+tfoot th {
+	font-family: "Rock Salt", cursive;
+}
+
+th {
+	letter-spacing: 2px;
+}
+
+td {
+	letter-spacing: 1px;
+}
+
+tbody td {
+	text-align: center;
+}
+
+tfoot th {
+	text-align: right;
+}
+
+/* Basic Formatting */
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	border: 3px solid purple;
+	text-align: left;
+}
+
+
+
+
+thead th:nth-child(1) {
+	width: 30%;
+}
+
+thead th:nth-child(2) {
+	width: 20%;
+}
+
+thead th:nth-child(3) {
+	width: 15%;
+}
+
+thead th:nth-child(4) {
+	width: 35%;
+}
+
+th,
+td {
+	padding: 20px;
+}
+

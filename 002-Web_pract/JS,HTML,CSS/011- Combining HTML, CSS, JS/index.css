@@ -1,0 +1,122 @@
+.primary_banner {
+background: green;
+}
+
+span {
+	color: green;
+}
+
+li {
+	color: blue;
+	font-size: 1.2rem;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: bold;
+}
+nav {
+	font-size: 2rem;
+	font-weight: bolder;
+}
+.notSquare {
+	display: flexbox;
+	width: 60%;
+	height: 45%;
+}
+
+.sizeVaries {
+	height: 25%;
+	width: 25%;
+	padding: .05em;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+
+/*flexbox tutorial*/
+.container { 
+
+	background: pink;
+	height: 50vh;
+	width: 50vw;
+	padding: .5em;
+	margin: 25vh auto 0;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+/*	flex-flow: column nowrap;*/
+	
+/*	justify-content: center;*/
+	justify-content: center;
+/*	align-items: flex-start;*/
+/*	align-items: stretch;*/
+
+/*This one is similair to justify-content, conflicts with align items*/
+/*	align-content: space-between;*/
+
+	align-items: stretch;
+
+}
+
+.item {
+	background: lightblue;
+	margin: .5em;
+/*How fast the item grows or shrinks to fill the space*/
+
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 250px;
+
+/*This can be surmised in flex:;*/
+
+flex: 0 1 250px;
+justify-content: center;
+
+/*This is useful for mobile*/
+
+order: 0;
+
+/*	flex-grow: ;
+	flex-shrink: ;
+	flex-basis: ;
+	order: ;
+	align-self: ;
+	flex: ;*/
+}
+
+
+.big {
+	font-size: 2rem;
+	background: lightblue;
+	margin: .5em;
+	align-self: stretch;
+}
+
+
+
+.self {
+	display: flex;
+
+}
+
+.gall {
+
+}
+
+.wordSplash {
+	padding: 2em;
+	height: 50%;
+	align-self: center;
+}
+
+
+
+
+
+
+

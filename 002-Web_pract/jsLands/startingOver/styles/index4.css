@@ -1,0 +1,159 @@
+p {
+	color: blue;
+}
+
+.classTest {
+	color: red;
+}
+
+#idTest {
+	color: orange;
+}
+
+p[title] {
+	color: green;
+}
+
+p:hover {
+	size: 1.5rem;
+	color: lightgreen;
+}
+
+div {
+	width: 50%;
+}
+
+div p::first-line {
+	font-size: 2.5rem;
+}
+
+.combinator > p {
+	font-size: 125%;
+	color: red;
+}
+
+.universal * {
+	color: red;
+	background-color: yellow;
+	padding: 5px;
+}
+
+p.universal {
+	background-color: green;
+	color: white;
+	border: 5px solid lightgreen;
+	padding: 10px;
+}
+
+div :first-child {
+	font-weight: bold;
+}
+
+.classOnClass {
+	background-color: orange;
+}
+
+.classOnClass.first {
+	background-color: lightblue;
+}
+
+article h1:first-child::first-line {
+	font-size: 120%;
+	color: red;
+}
+
+
+.super {
+	color: orange;
+	font-size: 20px;
+	padding: 20px;
+	border: 5px solid blue;
+	width: 75%;
+	transition: 0.3s;
+}
+
+.super:hover::before {
+	content: "This is some text that appears when you hover over the things";
+	font-size: .75rem;
+	border: 5px dashed black;
+}
+
+.super h4 {
+	font-size: 300%;
+	color: black;
+}
+
+ul > li {
+	border-top: 5px solid red; 
+	font-size: 2.5rem;
+	color: blue;
+}
+
+p + div {
+	font-size: 150%;
+	color: red;
+	font-weight: bold;
+}
+
+h1 + div {
+	font-size: 150%;
+
+}
+
+h1 ~ p {
+	color: green;
+	font-size: 300%;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.moving-text {
+	font-family: "Raleway Black", bold;
+	font-size: 2rem;
+	white-space: nowrap;
+	animation: moveText 8s linear infinite;
+	
+}
+
+@keyframes moveText {
+	0% {	
+		opacity: 0;
+		color: orange;
+		transform: translateX(-100%);
+
+	}
+
+	100% {
+		opacity: 1;
+		color: blue;
+		transform: translateX(200%);
+	}
+}
+
+.moving-box {
+	width: 75%;
+	height: 100px;
+	background-color: orange;
+	animation: moving-box-one 3s ease-in infinite;
+	padding: 10px;
+	margin: 10px;
+}
+
+@keyframes moving-box-one {
+	0% {
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(200%);
+	}
+}

@@ -1,0 +1,46 @@
+Modem vs. Router
+- Modem bring internet into home, modulates analog signal into digital signal, and in reverse.
+- Router Business and home routers. Job is to pass internet connection to all devices in a given area. Connects between Modem and these devices. 
+
+
+Types of Modems
+Cable - COAX cable attaches to Modem. 
+DSL Modems - connected via phone line
+Modem & Router combo - both modem and router in a single device. 
+
+Hubs and Switches 
+- Most routers have a built in switch already, making a separate switch unneccesary. 
+- Extends ports of a given router
+LAN
+	- Hub - purpose of a hub is to connect all network devices together. Doesnt filter data, doesn't redirect data. All it knows is if a device is connected. Data is copied to all other ports. 
+	- Switch - connects devices in a network, but is considered intelligent. It can filter data. These are sorted via Mac Addresses. More secure, more efficient bandwidth usage. Data is sent from one port to target port. Data is not copied between every port. 
+Outside Network connection
+	- Router - forwards data based on IP address. Gateway of a network. 
+Hubs and switches create networks, while routers connect different networks.
+
+Wireless access point vs Routers
+- Wifi router - Has switches, ports, and wireless connection. Connects to a modem. Has a built in firewall. Has auto DHCP. Directly assigns devices IP addresses. Harder to manage many routers. 
+- WAP - connects directly to a router, connects devices to router. Often used to extend range of a router. Has much simpler manageability. Has no ports. 
+No firewall. 
+
+DNS - Domain Name System
+- Resolves names to numbers, such as domain names to IP addresses
+- Resolver Server - talks between machine making query and various servers hosting that data - checks its cache memory to see if it can resolve DNS request
+- Root Server - the prime host server that runs the internet address protocols, 13 in the world - only if Resolver can't find a DNS request - unique IP, sends resolver to TLD server.
+- TLD Server - the .com domain, stands for top level domains, sends to name server
+- Name Server - Authoritative Name Server - actually sends the IP back to the resolver server. Now your machine can connect to that IP. The Resolver stores that data in its cache memory for later if neccesary. 
+
+Aut. Name Servers - Store DNS Records
+- Needs to know what name server to ask before it can access records, goes through the Root and then DNS servers to determine this. 
+- Within the DNS Name server, the records are contained within Zone Files
+- Different types of DNS Records
+	- Type A - has a name - has IP Add. - hase TTL (Time To Live) - name to IP
+	- Type AAAA - has name - has IPv6 - has TTL - name to IP
+	- Type CNAME - has name - has alias - TTL
+	- Type MX Record - has Priority - has name - has Host email server - has TTL ; these are email server records
+	- Type SOA Record - has MNAME - has RNAME - has Serial # - has retry # - has TTL
+	- Type NS record - has name value - has second name value - has TTL
+	- Type SRV - has Priority - has service name - port number - name of server - has weight - has TTL
+	- Type PTR - IP Address - example name - TTL ; known as pointer records, resolves IP to Domain, the opposite of A or AAAA  
+	- Type TXT - has name - has value, text data, various information on website - has TTL
+DNS Zones - 

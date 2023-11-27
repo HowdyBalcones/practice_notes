@@ -1,0 +1,10 @@
+cat prodLog.txt | awk 'BEGIN { FS=","}{OFS="\n" } 
+
+$1 ~ /[Dd]ispenser/ {
+printf ("Description: \t%s\nItem_#:\t%18s\nDispenser_UPC:\t%s\nCase_UPC:\t%s\n\n", $1, $2, $3, $5)
+} 
+ 
+$1 ~ /[Bb]lister/ { 
+printf ("Description: \t%s\nItem_#:\t%17s\nEach_UPC:\t%s\nSleeve_UPC:\t%s\nCase_UPC:\t%s\n\n", $1, $2, $3, $4, $5)
+}
+'

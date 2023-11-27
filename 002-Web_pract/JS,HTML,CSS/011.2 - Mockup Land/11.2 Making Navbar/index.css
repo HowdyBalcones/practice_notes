@@ -1,0 +1,10 @@
+.primary_header {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 10%;
+}
+
+.primary_header div {
+	background: pink;
+	size: 10px;
+}
