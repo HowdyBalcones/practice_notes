@@ -3,6 +3,20 @@
 dailyWork ~ Notes from day to day.
 researchNotes ~ Notes for remembering details later. Covers lots.
 
+We've added a gitHub repo! Push to that from now on so we can have the same notes everywhere. 
+
+# pull the latest changes
+git pull origin master
+
+# stage the changes
+git add <dir> or <file>
+
+# commit the changes
+git commit -m "Some notes on the commit"
+
+# finally push it !
+git push origin master
+
 
 @dailyWork ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
