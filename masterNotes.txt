@@ -1,4 +1,6 @@
-/@name ~~~ Denotes a category to search
+@name ~~~ Denotes a category to search
+== ~~~ Denotes a subcategory, a topic
+
 
 dailyWork ~ Notes from day to day.
 researchNotes ~ Notes for remembering details later. Covers lots.
@@ -24,65 +26,17 @@ Notes
 
 Long Term Project Board: 
 
+- Oversees contractors handling a somewhat complicated implementation that requires communication with 
+our office in the states. Should be totally fine. 
+
+
 - Website - all implementation and maintenance should be well understood and compiled into SOP
-	- Complete all images -- need to find what's missing, as in make sure a photo for everything is there
-
-- basically my goal for the next few months is to build a robust asset library of icons, drawings, photography, and branded components
-for marketing material that can be used in current and  future projects. The time invested becomes a long term set of modular and 
-reusable graphical components that the company can refer back to for years and even decades. It saves future development time. 
-It promotes consistency across marketing channels and establishes tone for current and future designers. 
-
-It's also important to understand the usefullness of a designer comes from their skill in a fairly wide variety of areas. 
-Communication, illustration, photo, typography, color theory, creative writing, copy writing, organization and attention to detail, 
-web development (frontend), animation, various standards for maintaining a digital asset library, research and analytical ability,
-willingness to accept new ideas and trends into their own "style", and more. The only way to keep up to date on all these areas is to
-constantly revaluate the practice, and to keep practicing. 
-
-Some days there will be no direct explanation for the work besides "it was for practice." And that's why I negotiated research time
-into my job description. 
-
-- Task - Make a dieline that was never put on record for some reason. Seems like a stock thing we could just purchase. Maybe that's
-why they want to get it custom, it's likely cheaper. I'll give this an hour of my time. On monday.  
-
-
-
-Another useless task that will have no follow up, excellent. 
-- Task - T&T generic dispenser dieline ingest. Trace and send to Shaan. 
-- update prodS2 to include product type
 	- 
-
 - We need to ensure all product have photos, that there are web and print photos, that the two types are quarantined separately
 - Priority -- blister package form redesign
 	- Twofold strategy - push folds to top of blister paper, increase flap size to edge of blister, increase overall blister
 	height. -- adjusted to move the side flap to default height, there's a problem with the printers in production.
 	- noFold strategy - all tricks and removals to get the DFL to fit, then implement other indicia as needed only
-- Missing images -- Need updating
-	- 21884 Advil Dual
-	- 21797 Advil Liquigel
-	- 21834 Bayer
-	- 21956 Motrin
-	- 21924 Zantac 360
-	- 11984 Old Spice
-	- 11971 Scope Original
-	- 11977 secret
-	- 12020 Colgate
-	- 12036 Tres Shampoo
-	- 12038 Tres Condit
-	- 12040 Renu
-	- 12050 Tres Hairspray Pump
-	- 12052 Tres Aerosol
-	- 12056 Gillette Foamy
-	- 12062 Jergens
-	- 12076 PrimeAid Bandages
-	- 12090 Colgate w/ travel brush
-	- 12127 Fixodent
-	- 13786 Prime Aid Bandages big box 
-	- 02951 Tylenol PM Disp 50ct
-	- 01945 Telnol ES Disp 25ct
-	- 
-	- All imports
-	- 01062
-	- 
 Monthly Research Goals -- 
 - We want better pictures
 - How do we leverage the product traces for more varied purposes --
@@ -97,6 +51,12 @@ Monthly Research Goals --
 	- Graphics builds the template, aesthetic look, and copy writing for the newsletter every two weeks
 	- Sales should be met with weekly to determine what is going on, what the intiatives are
 --------------------------------------------------------------------------------------------------------------------------------------
+2023-11-28
+- we have returned to the notes!
+- SMS magic - headache
+- website meeting
+- 
+
 10-19-2023
 - Calebs stuff for ccl
 - SPOONS!
@@ -1566,6 +1526,13 @@ rsync ->
 
 @researchNotes ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+2023-11-28
+Using sed
+
+Working with several commands lately. Using small files for testing.
+Run as -f fileWithCommands fileToChange
+
+
 
 Bash
 Meta-Characters
@@ -1666,8 +1633,7 @@ Introduction - Setting up the shell scripting environment
 	- use source ~.zshrc to update the shell
 
 What is: Variable Slicing: ${var:0:1}
-	- shorthand notation for specifying positions within a given string. It takes the first number given and returns the string until the end, 
-	or until the end of the second number provided. 
+	- shorthand notation for specifying positions within a given string. It takes the first number given and returns the string until the end, or until the end of the second number provided. 
 	- example: var="ThisIsAString that is for an example"
 	- ${var:10} - This would return the string starting from the tenth character until the end of the string. 
 		- returns as: "ing that is for an example."
@@ -2519,7 +2485,7 @@ Using sort more specifically
 - Sort stability refers to whether the type of sorting used maintains the position of all the entries.
 - 
 
-sed & awk - basics
+== sed & awk - basics
 
 sed
 command - instruction - 
@@ -2533,11 +2499,49 @@ command - instruction -
 	- e - separates multiple instruction sets, use regular expressions
 	- f - sed -f scriptfile file -  specifies a script to run as editing commands
 	- n - suppress output of l
+	
+- Commands 
+	- r - read, reads the contents of a file and inserts the output stream somewhere else
+		+ sed '3r otherfile.txt' filename.txt
+		> this would insert otherfile.txt immediately after line 3 of filename.txt
+		+ sed '/pattern/r otherfile.txt' filename.txt
+		> inserts otherfile.txt after every match
+		
+ 
+	- w - write
+	- l - list
+	- 
+	- a\ - append, requires literal newlines, \ at the end of every newline
+		+ sed '/pattern/a\
+		line to be appended\'
+		> the above matches an address, then appends a line after the matched line. 
+
+	- i\ - insert, requires literal newlines, \ at the end of every newline
+		+ sed '/pattern/i\
+		this is the line that is inserted\'
+		> places a line above the pattern that is matched. Multiple lines possible. 
+	- c\ - change
+	- t - transform, alters characters or words by position
+		+ sed 'y/abc/123' fileToChange.txt
+		+ sed '/pattern/y/abc/123' file.txt 
+		> this matches a pattern then performs the action
+		+ 
+	- for loops? -
+		+ sed ':a;N;$!ba;y/\n/ /' filename.txt
+		> :a is a label, used with branching commands
+		> ; starts a new command
+		> N; appends the next line to the pattern space with its newline, now a single line
+		> $!ba; $! checks if the end of the file has not been reached
+		> ba; branches, jumps back to label :a
+		> y/ is the transform command, similar to tr
+		> altogether, transform newlines into spaces, 
 - Examples - 
 supply multiple numeric addresses - sed '/200/,/201/s/Aleve/Banana/g'
 last line address - $
 delete blank lines - /^$/d
 delete from numeric address to end of input - 50,$d
+
+
 
 awk
 - command, instruction, files
