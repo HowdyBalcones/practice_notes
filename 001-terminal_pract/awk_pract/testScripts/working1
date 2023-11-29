@@ -1,0 +1,7 @@
+# This is how you set the field separator
+BEGIN {FS=","}
+{print $1"\n\n"$2}
+
+# This is how you set the output field separator
+# BEGIN {OFS=","}
+

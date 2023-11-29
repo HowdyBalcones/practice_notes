@@ -2526,7 +2526,7 @@ command - instruction -
 		+ sed '/pattern/y/abc/123' file.txt 
 		> this matches a pattern then performs the action
 		+ 
-	- for loops? -
+	- loops? -
 		+ sed ':a;N;$!ba;y/\n/ /' filename.txt
 		> :a is a label, used with branching commands
 		> ; starts a new command
@@ -2535,6 +2535,10 @@ command - instruction -
 		> ba; branches, jumps back to label :a
 		> y/ is the transform command, similar to tr
 		> altogether, transform newlines into spaces, 
+	- n,N - 
+		> n means to process the pattern space then move the next line into the pattern space
+		> N creates a multiline pattern space, 
+	- 
 - Examples - 
 supply multiple numeric addresses - sed '/200/,/201/s/Aleve/Banana/g'
 last line address - $
@@ -2758,3 +2762,12 @@ Aut. Name Servers - Store DNS Records
 	- Type PTR - IP Address - example name - TTL ; known as pointer records, resolves IP to Domain, the opposite of A or AAAA  
 	- Type TXT - has name - has value, text data, various information on website - has TTL
 DNS Zones - 
+
+@math notes typed! ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+==Pythagorean Theorem
+	+ A^2+B^2=C^2
+	+ deals with right angle triangles
+	+ hypotenuse is the longest side of a right triangle
+	+ do algebra to find the different sides with incomplete information
+	- Should learn square root arithmetic more thoroughly 
+
