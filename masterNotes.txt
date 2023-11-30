@@ -1526,6 +1526,67 @@ rsync ->
 
 @researchNotes ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+== C++ notes
+Reading Programming Principles and Practices Using C++ (2015)
+
+Chapt 0 Excercises
+1. Watching Youtube -- The phone I use to watch youtube, the servers that host the service, the router and modem that direct that data, all the people using machines and computers to produce all the components of those routers, phones, servers.
+2. Design -- Designers today use a variety of computer aided techniques and software packages to complete their job, with specialized design roles for building interfaces entirely for digital user experience. 
+4. Sending emails at work. Calling or texting my wife at work. Scanning documents, watching youtube, writing these notes, reading this book, pirating this book, etc
+5. A large variety every day, my entire life requires technology to function as is. GPS, Search, Web browsers, AI chat, media streaming, gaming, instant messaging, email, local infrastructure, dining, transactions,
+6. Figure drawing with graphite and paper, running a mile, counting to ten, memorizing the alphabet, reading a paper book, holding my breath, watching the clouds, walking through a park, cooking dinner, sex!
+7. All of the things I previously listed could be done with computers in the future, VR is gonna be crazy in 20 years.
+8. I want to be a computer programmer because the challenge of solving problems and designing solutions is what drove me to art and design initially. While my understanding of that drive has evolved and improved over time, at the core of my interest in any work comes from a fascination with solving problems. 
+9. Definitely if the programming is a dud, I would go into UX design. While this might require some level of coding the understanding of user needs is what interests me. 
+10. Hell yah, it's gonna get craazy. Humanity won't recognize itself in two centuries. 
+11. Understands the big picture while still retaining the essential details. Knows how to start. Understands how to work fast. Good at testing and finding problems early. Takes feedback well, removes most of their ego from the equation. Understands the scientific method. 
+12. My interest is largely within the field of graphics and machine vision. Any programming within that field would be interesting for me. Other than graphics, the next two would be programming within biology or in embedded systems. Embedded systems seems like assured employment for the rest of my life. Biology seems like the opposite but actually helping people with my work. 
+13. 5kb for the page, 150kb for the chapter, 6M for all of Shakespeares work.    
+14. 72gb, 1TB,  
+
+Chapter 1
+Hello World
+
+Review
+1. To print Hello, World! to the screen. But also to teach compilation and setup.
+2. What are the 4 parts of a function -- return type, here int; name, here main; parameter list, blank in helloWorld; function body, between the {}. 
+3. int main() {} !
+4. It means that the program returned a value of 0 on success.
+5. To transform source code into objects that link to library resources, and then build an executable file. It checks our work in the process. 
+6. To indicate libraries that will be called within main () {} 
+7. A header file
+8. A source file is your ideas in code, what you typed into the text editor, it has not been compiled. An object file is something created by the compiler. Pre and Post compilation, respectively. 
+9. It lets me edit programs, inspect source code, take notes, etc.
+10. What does a linker do -- It links your program in the compilation process to the relevant libraries you called in the #include directive. 
+11. So you encode the information into your brain more deeply. So that the small details of practical use get covered. So you don't become a theory snob in an ivory tower. 
+
+Chapter Vocab
+// -- comment
+<< -- output symbol
+C++ -- a programming language, the one we are studying?
+comment -- denoted by //, not executed by your program
+compiler -- prepares your source code for execution
+compile-time-error -- an error during compilation stage
+cout -- standard output, character output stream
+executable -- a program that will run on its own
+function -- some container of program instructions
+header -- contains directions to required libraries and instructions
+IDE -- Integrated Development Environment -- a fancy text editor
+#include -- the actual include directive that you would write in your source code. Would be followed by the path to your library to be included, use ""
+library -- predefined modules of code
+linker -- a temporary file, or part of the object file, that does the actual linking between your program and libraries during compilation. 
+main() -- a function to be included in all C++ programs. 
+object code -- code that is beyond the stage of source code, has gone through compilation, on its way to being an executable file
+output -- data that is returned by your program
+program -- code that does something 
+source code -- code that is written but has not gone through compilation
+statement -- actions that the program is to perform
+
+Chatper 2 -- OBjects, Types, and Values
+
+
+
+
 2023-11-28
 Using sed
 
@@ -2214,6 +2275,9 @@ Back from vacation, got to rest and recover my sense of urgency.
 	- Review regex notes
 	- Start up mastering UNIX Shell Scripting
 	- Perl?
+
+== Shell Scripting
+
 Work business is out of the way, got to play in embedded windows for a bit. None of these commands transfer
 from UNIX, of course. Besides whoami at least. 
 	- Bash Functions - 
@@ -2229,6 +2293,11 @@ from UNIX, of course. Besides whoami at least.
 	something before it exists.
 	- gonna write a template script - written, createNewScript, puts a copy of the script template 
 	into the current working dir
+
+	- Running a function 
+	+ function sampleIdea {}
+	> sampleIdea "$arg1" 
+
 - Bash Control Structures - 
 - if statements
 	- if [ test_command  ]
@@ -2335,6 +2404,7 @@ examples-
 	- remember that the data coming out of the here document must be exact, spaces and other whitespace
 	might cause the program to work unexpectedly or fail.
 	- 
+
 - Shell Script Commands - 
 	- we can execute almost any command inside a shell script. 
 	- The purpose of a shell script is to automate a string of tasks that would otherwise require
