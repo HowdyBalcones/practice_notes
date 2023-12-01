@@ -1529,6 +1529,9 @@ rsync ->
 == C++ notes
 Reading Programming Principles and Practices Using C++ (2015)
 
+COMPILE WITH: c++ -std=c++11 helloWorld2.cpp -o helloWorld2
+
+
 Chapt 0 Excercises
 1. Watching Youtube -- The phone I use to watch youtube, the servers that host the service, the router and modem that direct that data, all the people using machines and computers to produce all the components of those routers, phones, servers.
 2. Design -- Designers today use a variety of computer aided techniques and software packages to complete their job, with specialized design roles for building interfaces entirely for digital user experience. 
@@ -1562,9 +1565,9 @@ Review
 
 Chapter Vocab
 // -- comment
-<< -- output symbol
+<< -- insertion operator
 C++ -- a programming language, the one we are studying?
-comment -- denoted by //, not executed by your program
+comment -- denoted by // or /*  */, not executed by your program
 compiler -- prepares your source code for execution
 compile-time-error -- an error during compilation stage
 cout -- standard output, character output stream
@@ -1582,7 +1585,22 @@ program -- code that does something
 source code -- code that is written but has not gone through compilation
 statement -- actions that the program is to perform
 
-Chatper 2 -- OBjects, Types, and Values
+Chapter 2 -- OBjects, Types, and Values
+
+Definitions
+cin
+definition
+variables
+
+string
+int
+double
+char
+bool
+
+Objects
+values
+<= 
 
 
 
