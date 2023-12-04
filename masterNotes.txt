@@ -1526,26 +1526,51 @@ rsync ->
 
 @researchNotes ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== C++ notes
+== C++ notes -- latest chapters at the top of this section
 Reading Programming Principles and Practices Using C++ (2015)
 
+
 COMPILE WITH: c++ -std=c++11 helloWorld2.cpp -o helloWorld2
+HEADER: #include "libs/std"
+
+Chapter 2 -- OBjects, Types, and Values
+
+Definitions
+cin -- character input stream
+>> -- get from
+<< -- send to
+
+definition -- statement that sets aside memory for holding a string of characters
+variables -- container for types of data
+
+string -- line of alphanumeric characters
+int -- whole number value
+double -- decimal number value
+char -- single character
+bool -- true or false
 
 
-Chapt 0 Excercises
-1. Watching Youtube -- The phone I use to watch youtube, the servers that host the service, the router and modem that direct that data, all the people using machines and computers to produce all the components of those routers, phones, servers.
-2. Design -- Designers today use a variety of computer aided techniques and software packages to complete their job, with specialized design roles for building interfaces entirely for digital user experience. 
-4. Sending emails at work. Calling or texting my wife at work. Scanning documents, watching youtube, writing these notes, reading this book, pirating this book, etc
-5. A large variety every day, my entire life requires technology to function as is. GPS, Search, Web browsers, AI chat, media streaming, gaming, instant messaging, email, local infrastructure, dining, transactions,
-6. Figure drawing with graphite and paper, running a mile, counting to ten, memorizing the alphabet, reading a paper book, holding my breath, watching the clouds, walking through a park, cooking dinner, sex!
-7. All of the things I previously listed could be done with computers in the future, VR is gonna be crazy in 20 years.
-8. I want to be a computer programmer because the challenge of solving problems and designing solutions is what drove me to art and design initially. While my understanding of that drive has evolved and improved over time, at the core of my interest in any work comes from a fascination with solving problems. 
-9. Definitely if the programming is a dud, I would go into UX design. While this might require some level of coding the understanding of user needs is what interests me. 
-10. Hell yah, it's gonna get craazy. Humanity won't recognize itself in two centuries. 
-11. Understands the big picture while still retaining the essential details. Knows how to start. Understands how to work fast. Good at testing and finding problems early. Takes feedback well, removes most of their ego from the equation. Understands the scientific method. 
-12. My interest is largely within the field of graphics and machine vision. Any programming within that field would be interesting for me. Other than graphics, the next two would be programming within biology or in embedded systems. Embedded systems seems like assured employment for the rest of my life. Biology seems like the opposite but actually helping people with my work. 
-13. 5kb for the page, 150kb for the chapter, 6M for all of Shakespeares work.    
-14. 72gb, 1TB,  
+Objects -- the "place" in memory where we store data
+Variable -- the named object in memory
+values -- the data inside the named object
+
+Initialization -- giving a variable its initial value
+Assignment -- giving a variable some new value
+
+
+<= -- comparison operator for strings
+* -- multiply for ints or doubles
+Memory
+
+
+
+2023-11-28
+Using sed
+
+Working with several commands lately. Using small files for testing.
+Run as -f fileWithCommands fileToChange
+
+
 
 Chapter 1
 Hello World
@@ -1585,31 +1610,22 @@ program -- code that does something
 source code -- code that is written but has not gone through compilation
 statement -- actions that the program is to perform
 
-Chapter 2 -- OBjects, Types, and Values
-
-Definitions
-cin
-definition
-variables
-
-string
-int
-double
-char
-bool
-
-Objects
-values
-<= 
+Chapt 0 Excercises
+1. Watching Youtube -- The phone I use to watch youtube, the servers that host the service, the router and modem that direct that data, all the people using machines and computers to produce all the components of those routers, phones, servers.
+2. Design -- Designers today use a variety of computer aided techniques and software packages to complete their job, with specialized design roles for building interfaces entirely for digital user experience. 
+4. Sending emails at work. Calling or texting my wife at work. Scanning documents, watching youtube, writing these notes, reading this book, pirating this book, etc
+5. A large variety every day, my entire life requires technology to function as is. GPS, Search, Web browsers, AI chat, media streaming, gaming, instant messaging, email, local infrastructure, dining, transactions,
+6. Figure drawing with graphite and paper, running a mile, counting to ten, memorizing the alphabet, reading a paper book, holding my breath, watching the clouds, walking through a park, cooking dinner, sex!
+7. All of the things I previously listed could be done with computers in the future, VR is gonna be crazy in 20 years.
+8. I want to be a computer programmer because the challenge of solving problems and designing solutions is what drove me to art and design initially. While my understanding of that drive has evolved and improved over time, at the core of my interest in any work comes from a fascination with solving problems. 
+9. Definitely if the programming is a dud, I would go into UX design. While this might require some level of coding the understanding of user needs is what interests me. 
+10. Hell yah, it's gonna get craazy. Humanity won't recognize itself in two centuries. 
+11. Understands the big picture while still retaining the essential details. Knows how to start. Understands how to work fast. Good at testing and finding problems early. Takes feedback well, removes most of their ego from the equation. Understands the scientific method. 
+12. My interest is largely within the field of graphics and machine vision. Any programming within that field would be interesting for me. Other than graphics, the next two would be programming within biology or in embedded systems. Embedded systems seems like assured employment for the rest of my life. Biology seems like the opposite but actually helping people with my work. 
+13. 5kb for the page, 150kb for the chapter, 6M for all of Shakespeares work.    
+14. 72gb, 1TB,  
 
 
-
-
-2023-11-28
-Using sed
-
-Working with several commands lately. Using small files for testing.
-Run as -f fileWithCommands fileToChange
 
 
 
