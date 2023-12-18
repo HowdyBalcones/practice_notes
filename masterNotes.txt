@@ -1533,7 +1533,72 @@ Reading Programming Principles and Practices Using C++ (2015)
 COMPILE WITH: c++ -std=c++11 helloWorld2.cpp -o helloWorld2
 HEADER: #include "libs/std"
 
-Chapter 2 -- OBjects, Types, and Values
+Chapter 4 -- Computation
+
+Review 
+1 -- Counting, arithmetic, calculation of figures and functions.
+2 -- Data that exists prior to computation and is the starting point for a program, and data that leaves that program.
+3 -- 3 requirements of a programmer = Express computation simply, clearly, efficiently
+4 -- expressions computes a value from a number of operands. Smaller than statements, usually components of statements.
+5 -- statements are compound expressions that are delimited by ;
+6 -- lval = values that appear on the left of assignment, if = is initialization then lvalue  is the name of the value.
+7 -- a constant value is something that is defined and does not change. 
+8 -- A literal is anything enclosed by 'single quotes'
+9 -- a named object which you can't change the value of after initialization
+10 -- A magic constant is a lval that is so terse it causes confusion about what it is supposed to do. x = ... y2 = ... etc
+11 -- operators are symbols such as +, -, /, *, <, >, etc
+12 -- modulo works only for ints, not doubles
+13 -- strings work with <, >, ==, !=, +, 
+14 -- switches are a little more clear when dealing with multiple set conditions
+15 -- that you can't pass in strings as case labels, must be constexpr, can't have the same value for two labels
+16 -- for (int i = 0; i < 10; ++i) == delimited by ;, first section initializes the loop var, second variable sets the range of the loop, the final section sets the iteration amount for the loop
+17 -- while loops are simpler, potentially faster, better when less control is needed. For loops are for when the task doesn't fit a predefined logic and needs something more tailored to the situation.
+18 -- printing the numeric value of a char using +x, where x is defined as a char and is converted into an int by +
+19 -- char foo(int x) -- foo is a function definition that returns a char and int x is a parameter that can be passed into the function
+20 -- You should define a separate function when there is a distinct need within the design of the program for the given function, and especially if it is a need that will need to be revisited.  
+21 -- arithmetic, numerical comparison, iteration, modulo, various assignments like multiply then assign, divide then assign
+22 -- A string can be assigned, concatenated, added to the end, compared against, alphabetized
+23 -- vectorName[2] would be the third element of a vector. 
+24 -- for(x:vectorName){cout << vectorName[x] << '\n';}
+25 -- prints the 27th character in a vector named alphabet
+26 -- push_back() adds a new element to the end of a vector
+27 -- vectors member size returns the length of the vector
+28 -- it is smaller than an array, vectors can change size during runtime, automatically manages memory, has lots of member functions, they are easier to use than an array
+29 -- sort(vectorName);
+
+24 --  
+
+> Remember to break large complicated problems into smaller simpler problems. 
+> Abstraction. Put messy details behind a simple interface. 
+
+
+Input - user input, output from another program, device input
+I/O - input/output
+Arguments - input from something
+Data - state, information in variables
+Expressions - building block of programs
+	> literal values -- 10, 'a', 2.14, "Norah"
+	> int length = 20;
+	> above, there are two key distinctions to make
+	> lvalue -- the named object, the value of the object length
+	> ivalue -- the value stored inside the object length, the length value in length
+	> an expression statement is an expression followed by a semi-colon -- a = b;
+	> 	
+
+Constants - like a variable, but does not change and cannot be changed once declared
+	> constexpr int max = 17; -- this is a constant
+	> int val = 19; -- this is a normal variable
+	> max+2 -- a constant expression (a const plus a literal)
+	> val+2 -- not a constant expression, as it contains a variable 
+	> Magic constants -- poorly named constants. Context matters!
+	> constants need a value at compile time or will throw an error
+Const - similar to constexpr
+	> allows the value of the constant to be unknown at compile time
+
+Function - 
+
+
+Chapter 3 -- OBjects, Types, and Values
 
 Definitions
 cin -- character input stream
@@ -1557,20 +1622,36 @@ values -- the data inside the named object
 Initialization -- giving a variable its initial value
 Assignment -- giving a variable some new value
 
+1. Asking the user for input
+2. <<
+3. cout << "Enter a number: \n";
+   cin >> number;
+4. newline, to create a character that stands in for a new line. 
+5. Whitespace 
+6. Whitespace
+7. cout << "Hello, " << first_name << "!\n";
+8. An object is a place in memory reserved for typed data with a label
+8.1 A variable is an object with a name
+
+9. The value of a given type
+10. Integer, Floating point, boolean, Character, String, pointer, 
+11. A name that has been assigned some value
+12. char = 8, int = 4, double = 8
+13. bits
+14. = is assignment, == is equivalent to
+15. A declaration that sets aside memory for an object
+16. Initialization is what value exists during declaration, assignment is when that value is changed
+17. "STRING1" + "STRING2";
+18. This_little_pig, MiniMineMine, number, the others have spaces, start with numbers or _, or have illegal characters
+19. _Testing (reserved), ALLCAPS (for macros), x (too short, non descriptive), hello_this_is_a_name_2_x_4 (too long), struct (reserved)
+20. camel case, starts with lowercase, _ only to replace whitespace, describes succinctly what it is used for
+21. The scope of different types will vary. Some are meant to only hold so much data, so when you dump a larger type into the a smaller, then there is potential to lose data or cause error later in the program. 
+22. Because int will round down differently than double
+23.  
 
 <= -- comparison operator for strings
 * -- multiply for ints or doubles
 Memory
-
-
-
-2023-11-28
-Using sed
-
-Working with several commands lately. Using small files for testing.
-Run as -f fileWithCommands fileToChange
-
-
 
 Chapter 1
 Hello World
