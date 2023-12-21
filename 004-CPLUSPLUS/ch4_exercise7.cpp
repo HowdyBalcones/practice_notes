@@ -1,5 +1,9 @@
 #include "libs/std_lib_facilities.h"
 
+// The goal was to create a program that would do basic calculator math even if you 
+// spelled out the numbers. So one + one would return 2. A bonus I thought of would 
+// be to have input return 2 + 2 = four, which we haven't done yet.
+
 int convertNumber (const string& userInput) {
 	if (userInput == "One" || userInput == "one") {
 		return  1; 
@@ -56,6 +60,10 @@ int main() {
 
 
 	while (cin >> convertedUserX >> opps >> convertedUserY) {
+
+		// here the string convertedUserX and Y are passed to the convertNumber, which takes strings
+		// and turns them into ints, so this conversion makes sense. 
+		
 		userX = convertNumber(convertedUserX);	
 		userY = convertNumber(convertedUserY);
 
