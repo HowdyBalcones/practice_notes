@@ -1533,6 +1533,80 @@ Reading Programming Principles and Practices Using C++ (2015)
 COMPILE WITH: c++ -std=c++11 helloWorld2.cpp -o helloWorld2
 HEADER: #include "libs/std"
 
+Chapter 5 -- Errors
+
+Compile Time Error - problem when the program is compiled, syntax or Type errors
+Link Time Error - errors found by the linker when trying to combine object files into an executable
+Run Time Error - errors when the program runs, caused by the computer, library, or user code
+Logic Error - problem found by programmer looking for cause of erroneous results
+
+Assume the following regarding error handling. Programs should:
+	1. produce the desired result for all legal inputs
+	2. give reasonable error messages for all illegal inputs
+	3. Don't worry about misbehaving hardware
+	4. Don't worry about misbehaving software
+	5. Is allowed to terminate after finding an error.
+
+To avoid bugs:
+	- Organize software to minimize errors
+	- Eliminate most of the errors we made through the debugging and testing process
+	- Make sure all remaining errors are not serious
+
+Sources of Errors:
+	- Poor specification -- do you have your outline? Do you know the objectives? where is the rubric? 
+	- Incomplete programs -- it may not be as complete as expected
+	- Unexpected arguments -- if a function is passed an argument that causes it to meet failure conditions, unexpected
+	conditions work in the same fashion. 
+	- Unexpected input -- maybe the user hits the wrong key or is misbehaving intentionally.
+	- Unexpected state -- programs often work on data. Is that data incomplete, incorrect, or etc? 
+	- Logical errors -- the code written does not do what we wanted the imagined code to do. 
+	
+Run Time Errors -- Should the caller or callee handle the errors? 
+	- Functions should handle errors for their own arguments. 
+	- sometimes, this is not possible. In those cases, errors are handled by the Caller rather than Callee.
+	
+Handling errors -- Basics
+	- std_lib has the error("Text for Error") function
+	- Exceptions -- try, catch
+	- check the functions arguments
+
+Caller deals with errors -- Should the function calling another function handle the errors of the called function? 
+
+Callee deals with errors -- Should the called function perform its own error handling? 
+
+Exceptions -- Separation between detection of error and the handling of the error.
+ - Detection occurs within the called function itself. 
+ - Handling occurs in the calling function
+ 
+	> Bad Arguments
+	-- test conditions on the arguments of the given function. Throw if failure condition is met. Try function to run.
+	Catch a class for the failure, and run whatever fix is meant for the error, if any. 
+	> Range Errors
+	-- for example, you run through to the end of a vector. There is an out_of_range member function to vector, that 
+	can be tested as a condition in a catch statement. 
+	> Bad Input
+	-- Testing the input itself as 
+	if(cin) { //code if success } else { //error code };
+	if(!cin) error("There was an input error\n");
+	> Narrowing Error
+	-- when a change in type shortens the given data altering it. 
+
+Vocab
+ - Throws
+ - Catch
+ - Try
+ - Range Error
+ - Off by One Error
+ - error()
+ - catch() {}
+ - return 0
+ - return nonZeroNumber
+ - run_time_error
+ - keep_window_open
+ - out_of_range
+
+
+
 Chapter 4 -- Computation
 
 Review 

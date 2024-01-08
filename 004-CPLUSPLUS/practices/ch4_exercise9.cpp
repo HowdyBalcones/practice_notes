@@ -1,4 +1,4 @@
-#include "libs/std_lib_facilities.h"
+#include "../libs/std_lib_facilities.h"
 
 string whoWins (char &pick, string &player2) {
 
@@ -65,12 +65,12 @@ int main() {
 			cout << whoWins(pick, player2) << '\n';
 			break;
 		case 'b':
-			cout << "Your pick was: " << scissors << "\n";
+			cout << "Your pick was: " << paper << "\n";
 			cout << "Your opponent played: " << player2 << '\n';
 			cout << whoWins(pick, player2) << '\n';
 			break;
 		case 'c':
-			cout << "Your pick was: " << paper << "\n";
+			cout << "Your pick was: " << scissors << "\n";
 			cout << "Your opponent played: " << player2 << '\n';
 			cout << whoWins(pick, player2) << '\n';
 			break;

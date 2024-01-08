@@ -1,3 +1,80 @@
+Todays Notes: 2024-01-08
+- Why doesn't makeJob just create an alias to the original resource? 
+	-- b/c we're a scrub that's why
+- I can see single panel blisters for miles around me. 
+
+
+>> End of the Errors chapter, then blister revisions all day. 
+- how time flies. Completed single and multi for Tyl ES and Zantac 360 for single panel form. Interesting!
+- Written Oahspe, from a reference to the book of the same name in a John Fahey performance at The New Varsity in the 80's. 
+
+
+Todays Notes: 2024-01-05
+- Monday we are jumping entirely into making the single panel artworks. 
+	
+	> Priority is getting them onto single panel. It may be possible for 75% of them. High volume items count for 5-10x
+	the savings a low volume item might. 
+	> List of required components
+	> Make all the initial artworks as R0
+	> Send them out to the MFGs who will take the longest to reply first
+	> Make sure all dielines are in order obviously
+	> Track with Salesforce ? There has to be a way to log that data so this is easier logistically next time. 
+	>> Dual Panel
+	> Same process for the single panel but we have much more room to work with. This format is exclusively for 
+	items with extensive DFL and other information. 
+	
+
+Todays Notes: 2024-01-03
+- Need a list of the artworks by MFG so we can know what blisters will need approval. 
+	> list of common components between each artwork, pre-pre-flight checklist 
+	> artwork implementation -- the MFGs that require approval should happen first. Ideally, in batches so they don't get lost
+	> Approval Stage -- This will happen when the first batch is ready. We'll complete each batch and then start the 
+	approval cycle. There will be revisions most likely. Some companies will comply more than others. 
+	> Production stage -- once approved, clarifying the ordering process with Rhonda and getting the new artworks to 
+	the printer will be priority. Need to make it extremely visible when something is 1 panel or 2 panel. 
+
+
+- Read about perlfaq9
+- more salesforce training? The documentation is not great, well designed website and unhelpful information. 
+- What kind of reports can we pull out today? Should look into making the holiday list. -- made the holiday list
+	> average order amount annual
+	> customer status 
+	> holidays observed
+	> account type 
+	> date of last order
+	
+	needs more data
+	> account source 
+	> website
+	> Customer groups
+	> holidays observed
+	> Requires order Approval -- lots of unknowns
+	> Frequency of orders
+	> last order 
+	>  
+
+Todays Notes: 2024-01-02
+- Had to replace some of the website images, there was a copy error. Pay more attention to the words meaning ! -- done
+- made the notes script  -- done
+- Going to work more with salesforce 
+- Going to research quadratic equations
+- Ask Aly what he wants to do about the blister revamp. -- no response
+- Ask Scott to add the prop 64 custom field -- asked 
+- make prop 64 custom field
+
+- Marketing goals: 
+	> Have a plan
+	> stick to plan
+	> schedule for plan
+	> VIPs are the target
+
+
+Salesforce Reports that could be useful -- working
+	> by Geography
+	> volume report by account -- this is the most important base to start with
+		>> volume by region, volume by product, volume by account
+	> 
+
 selectgraphics
 Graphics2
 
