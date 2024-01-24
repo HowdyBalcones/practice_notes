@@ -1543,8 +1543,8 @@ Logic Error - problem found by programmer looking for cause of erroneous results
 Assume the following regarding error handling. Programs should:
 	1. produce the desired result for all legal inputs
 	2. give reasonable error messages for all illegal inputs
-	3. Don't worry about misbehaving hardware
-	4. Don't worry about misbehaving software
+	3. Don't worry about misbehaving hardware (do later)
+	4. Don't worry about misbehaving software (do later)
 	5. Is allowed to terminate after finding an error.
 
 To avoid bugs:
@@ -1592,6 +1592,8 @@ Exceptions -- Separation between detection of error and the handling of the erro
 	-- when a change in type shortens the given data altering it. 
 
 Vocab
+error("SomeCondition == SomeConstant");
+	>> 
  - Throws
  - Catch
  - Try
@@ -1604,6 +1606,83 @@ Vocab
  - run_time_error
  - keep_window_open
  - out_of_range
+
+Review
+1. 
+Compile Time Error -- when you compile a program, the compiler will let you know if there has been a mistake 
+Run Time Error -- when you run the program, your system will let you know of a missing resource or config error
+Link Time Error -- When the linker runs, there is an error in your headers or how you call to other resources
+Logic Error -- You have made the program thinking it does one thing, when in fact it is doing another thing entirely. 
+
+2. What kinds of errors to ignore as a beginner? 
+Misbehaving hardware
+Misbehaving software
+Terminating after finding error 
+
+3. What are guarantees all your programs should offer? 
+Produce desired results for all legal inputs
+should give reasonable errors for all illegal inputs
+
+4. Three approaches to eliminate errors in programs?
+Organize software to minimize errors
+Eliminate most errors we made through debugging and testing
+make sure the rest of our errors or not serious
+
+5. Why hate debugging?
+It takes a long time, it requires inspecting our mistakes in high detail, it is often tedious
+
+6. what is a syntax error 
+A syntax error is a spelling or grammar mistake 
+
+7. what is a type error
+A type error is a misuse of the type system
+
+8. what is a linker error
+An error made by the linker 
+
+9. What is a logic error
+A mistake in your visualization of the problem the program is supposed to be solving.
+
+10. Four potential sources of errors in your programs? 
+Poor specification -- if there is a shoddy plan, you will have shoddy results
+Incomplete programs -- it's not as done as you thought
+unexpected arguments -- if there is an argument your function cannot handle, this can cause bugs
+unexpected input -- the users will do everything you don't want them to, is your program built for that? 
+Unexpected state
+Logical Error
+
+11. 
+It depends on what your program is supposed to do. If you are calculating area, a negative number for the area would 
+be a problem the compiler wouldnt pick up on without asking it to. So, have you specified what thep program is for? If so, 
+that entails you understand what is successful input/output. Testing also helps. 
+
+12. Compare caller vs callee error handling in functions
+Caller handles errors -- The function invoking some other function detects and handles errors for the called function. 
+This could quickly become redundant when having to add the error handling to every function calling the function in question.
+It's used when you don't have the choice to handle the error from within the callee. 
+
+Callee handles errors -- The function that is to be called handles the detection and/or the handling itself of errors.
+
+13. Why use exceptions rather than error()?
+You separate the detection of the error from the handling of the error. This is important because you might want to detect the same error in multiple places, but want to do something different in each place. Modularity!
+
+14. How do you test if input is correct/valid? 
+Check if input is in a good state, as if (cin) then // code... 
+
+15. How are exceptions thrown and caught ?  
+Using throw, try, and catch blocks. 
+In the callee, throw an error of some type if the failure conditions are met. 
+In main, place the given function or code in the try block. 
+Create catch blocks below the try that handle different types of errors. 
+
+16. Why with vector v, is v[v.size()] a range error? What should be the result of calling this exactly? 
+Because vectors are 0 indexed and you're calling for one past the actual size of the vector as a result. 
+If you intend to return the last element of a vector, you could do v[v.size()-1] 
+
+17. Define pre-condition and post-condition
+Testing your input and output data against the spefication of the program. If you are calculating the volume of water in different types of containers, you would test that the numbers into your program aren't negative and the result of your calculations of the volume are also non-negative, or handle negative numbers in some special way. 
+
+18.
 
 
 

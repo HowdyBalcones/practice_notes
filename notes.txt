@@ -1,3 +1,161 @@
+Todays Notes: 2024-01-24
+Todays Notes: 2024-01-23
++ basically, despite the self inflicted punishment that is learning and practicing c++ deeply, it seems like the most valuable
+way to be using my time. There is no better introduction into programming and understanding fundamentally software architecture
+and design patterns. 
+
+
+Todays Notes: 2024-01-22
+- completed -
++ fixed and resent banner artwork. Slow af process. 
++ print a check for Aly. Wrote down the steps since its a meaningless task I won't remember.
++ Asked rhonda to order that charger. 
+
+- working - 
+* fishbowl and salesforce fully working together
+	- currently, the sales order object in FB isn't talking to the Opportunity object in SF correctly. 
+	- test with some limited case using the product tree, or something similar. 
+	- research how this has been handled in the past. 
+* finishing blister conversions
+	- apparently this is low priority for MGMT
+	- we are about 40% done with just the artwork conversion. Havent started reaching out to MFGs yet. 
+
+- practice - 
++ C++, lets do 2-3 practices from Error Handling finals, review notes, continue reading the new chapter. 
++ Salesforce training. Honestly, learning the backend/frontend of this bullshit is unfortunately valuable af. 
++ Postman and basics of APIs, seems like good material to cover
+
+
+- crazy ideas -
++ web scraping that dumps information into a mySQL database and lets you view it dynamically, then build application to 
+view and manipulate said data on top of the SQL db. The point would be to build something that lets me organize different 
+scraping jobs into portfolios of work, potentially modules of data that have different structure and procedures associated.
+So you could set up a scrape for a competitors web presence, collect all sorts of shit in a structured manner, make it retrievable
+and then set up a general template used for all portfolios of data to use. 
+
+
+Todays Notes: 2024-01-18
+- artwork and coding today
+- need a new coding project that my brain actually wants to work through. 
+	>> Ideas 
+	-- data extraction for sports websites
+	-- botting in runescape
+	-- simple 2D platforming game, using game engines
+	-- randomness in drawing programs
+	>> Scripts
+	-- separate pdf pages into separate pdf pages, nothing else changes
+	-- what have the customers not purchased based on order history -- automated
+
++++++ Website Training: ++++++
+Software you need open -- Fishbowl, Internet browser
+
+Front End -- https://www.selectcorp.net/login
+Back End -- https://www.selectcorp.net/admin/login.php
+
+Notes 
+-- Fishbowl is the key record. Website, Salesforce, future software, will all work on top of Fishbowl. That means if there is something you want changed, do it in Fishbowl first. Fishbowl pushes up to our other software. That software does not push down to Fishbowl until there is a sync.
+-- selectcorp.net
+-- selectcorporation.net
+
+Fishbowl 
+-- Use Customer and Product modules primarily, "Custom" tab for both
+
+How to Login 
+Front End -- 
+-- employees have user accounts 
+   >> Username = Email
+   >> password = first time, admin password, otherwise user set password
+-- logging into backend will prompt for dual auth
+-- it should be sent to your accounts associated email
+Back End -- 
+-- should be the same process, follow the link and use work email for any credentials
+-- here you can view your account as well as others. If a customer needs help log into their account from here. 
+   that is under Customers > Edit (drop down) > "Login As"
+
+Sync
+-- syncing: if there is something new in Fishbowl, you need to sync the backend for the front end website to know about it. 
+   This includes new Accounts, New pricing, new product, new inventory, etc etc. If you are in any way worried data from Fishbowl
+   is out of date on the website, push a sync from here. 
+   Sync > Status > Clock symbol (drop down)
+
+Approving Customers 
+-- Multi Step process
+1 - Receive request for account through website
+  >> This should be through the orders@selectcorporation.net email -- double check
+
+2 - Receive all paperwork, internal review of account if a fresh lead
+
+3 - If mgmt has approved the account, then we approve their website user application
+    >> Customer > Edit (customer account drop down) > SET YOUR SALESPERSON > Approve Customer Account > SET PASSWORD > SAVE >>
+    done
+4 - Then we grant web access in Fishbowl
+    >> Sales > Customer > Custom (tab) > Distributor Portal - Grant Web Access > Dist Portal Prod view set to "Case" > SAVE >>
+    done
+
+5 - Move to processing first order
+
+If they already have an account with Select, follow steps 3 - 4. 
+
+How to view available products
+-- products are either visible to customers or not. 
+   >> There are two places to check. >> Product > Custom > Product View Restrictions 
+   >> We've been here before >> Customer > Custom (tab) > Dist Portal Prod View Restrict
+   >> These both need to be TRUE before the customer can see anything on the website.  
+-- checking what products are visible >> Our Products > All Products >> if you cannot see anything, something is set wrong. 
+
+How to view order history 
+-- There will be multiple workflows for this at the moment. It is our goal to get to a point where there are fewer more efficient and reliable ways to accomplish customer history review. 
+>> Home > My Account > My Orders >> You can look here at all the orders a customer has placed through the website only. 
+>> Quick Order >> Home > My Account > Quick Order
+
+>> Salesforce > This needs to happen at some point
+>> You could also look at past invoices if you so desired.
+Seeing past invoices
+>> Home > My Account > My Invoices (under My Invoices) 
+
+How to Shop
+>> Our products, add desired items to cart
+>> search bar, use item numbers, send customer a catalog or have them enter Item Numbers from a previous SO, PO
+>> Express Order, pretty much the same as the search bar but with fewer steps, not as much depth. 
+
+Steps for check out
+-- Using an order template
+   >> All you do is preconfigure common items the customer may want or to have them create them independently 
+   >> Home > My Account > My Order Templates > Your_Given_Template
+-- requesting a quote
+   >> They set up a "Quote" which is just a special shopping cart that won't actually effect our inventory. 
+   >> Home > My Account > My Quotes > Given_Quote
+   >> We internally approve that quote
+   >> Home > Quotes > Given_Quote >> approve/deny based on review
+-- checkout 
+   >> Basic cart checkout, like any other webstore. If you are ordering for anyone else this is the point where you double check
+   your work, because this will put an order into motion. 
+
+Things to Review in the future -- Back Orders
+ 
+Todays Notes: 2024-01-17
+- alka is done
+- have a fixed pile to do
+- finished banner design gonna send it in to Sean -- done
+- nazims card is otw 
+- SMS magic call, waste of time
+- 
+
+
+
+Todays Notes: 2024-01-16
+- alka seltzer multi to pick up
+- fix muckinecks
+- coding tomorrow. Fix brain. 
+
+
+Todays Notes: 2024-01-15
+- wow, the flu sucks.
+- working on blister conversions
+- emails
+- website stuff from Scott
+
+
 Todays Notes: 2024-01-08
 - Why doesn't makeJob just create an alias to the original resource? 
 	-- b/c we're a scrub that's why
