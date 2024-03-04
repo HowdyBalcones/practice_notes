@@ -1,0 +1,108 @@
+.vimrc 
+"
+set linebreak
+set wrap
+set confirm
+
+let mapleader=">"
+nnoremap <leader>ai :!osascript -e 'tell application "Adobe Illustrator" to do javascript (read POSIX file "%")'<CR>
+
+call plug#begin()
+
+Plug 'preservim/nerdtree'
+Plug 'tpope/vim-commentary'
+Plug 'preservim/vim-markdown'
+Plug 'jiangmiao/auto-pairs'
+Plug 'vim-autoformat/vim-autoformat'
+Plug 'dense-analysis/ale'
+Plug 'ycm-core/YouCompleteMe'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
+call plug#end()
+
+set backspace=indent,eol,start
+let g:UltiSnipsExpandTrigger="<c-l>"
+
+"
+.zshrc
+
+"
+source ~/.zsh-plugs/zsh-autocomplete.plugin.zsh;
+
+#colors for command prompt
+PROMPT='%F{cyan}%n@%m %F{yellow}%~ %F{green}%# %f'
+
+#colors for ls
+alias ls='ls -G';
+export LSCOLORS='ExFxCxDxBxegedabagacad';
+
+
+REP_OPTIONS="--color=always";export GREP_OPTIONS
+neofetch; date ; cal ; echo "\nHello SelectGraphics, how may I assist you?"
+
+export PATH="/usr/local/bin:/Users/selectgraphics/scripts:/Applications/Adobe\ Illustrator\ 2023:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init --path)"
+fi
+
+#manageAssets
+alias syncMarketing='rsync -av /Volumes/Graphics/Select\ III/003_Product_Images/001-allPhotos/WEB/ /Volumes/Marketing/001-            graphics_to_marketing/001-allPhotos/'
+alias updateMarketing='rm /Volumes/Marketing/001-graphics_to_marketing/001-allPhotos/*.png  ; cp /Volumes/Graphics/Select\ III/       003_Product_Images/001-allPhotos/WEB/*.png /Volumes/Marketing/001-graphics_to_marketing/001-allPhotos/ '
+alias removeMarketing='rm /Volumes/Marketing/001-graphics_to_marketing/001-allPhotos/*.png'
+#combos
+alias l='ls -lAF'
+alias dsk='du -h -d 1'
+alias sizList="du -h -d 1 | sed -E 's/^([[:space:]]*[0-9]*\.*[0-9])/\1 \@ /g' | sort -t \@ -k2"
+alias sc='ls -laF | grep -i '
+alias daily='vim /Users/selectgraphics/Desktop/002-Coding_Notes/notesFold/dailyNotes.txt'
+alias tasks='cd /Users/selectgraphics/Desktop/009-Tasks_Notes/ ; vim Task_List.txt'
+alias noteS='vim /Users/selectgraphics/Desktop/002-Coding_Notes/notesFold/notes.txt'
+alias illU='open -a "Adobe Illustrator"'
+alias photoU='open -a "Adobe Photoshop 2024"'
+alias brand='open -a "Adobe Illustrator" /Volumes/Graphics/Select\ III/011_Select\ Branding/all_Branding_Assets-Select_Corporation.ai'
+alias cpp='open -n ~/Desktop/007_Book/Computa/Stroustrup,\ Bjarne\ -\ Programming_\ principles\ and\ practice\ using\ C++-Addison-    Wesley\ \(2015\).pdf'
+alias reVim='source ~/.vimrc'
+alias reZsh='source ~/.zshrc'
+
+
+#moveArounds
+alias select='cd /Volumes/Graphics/Select\ III/'
+alias gMarket='cd /Volumes/Graphics/Select\ III/005_Marketing'
+alias market='cd /Volumes/Marketing'
+alias pract='cd ~/Desktop/002-Coding_Notes'
+alias daily='vim ../notesFold/dailyNotes.txt'
+alias where="pwd | sed 's/ /\\\\ /g'"
+alias illustratorScript='cd /Applications/Adobe\ Illustrator\ 2024/Presets.localized/en_US/Scripts'
+
+#illustrator
+alias illustratorApp='/Applications/Adobe\ Illustrator\ 2024/Adobe\ Illustrator.app/Contents/MacOS/Adobe\ Illustrator'
+
+#sources
+alias makeJob='. makeJob'
+"
+
+brew 
+
+"
+==> Formulae
+aom			ghostscript		liblqr			m4			ruby
+autoconf		giflib			libmpc			mpdecimal		screenresolution
+automake		glib			libogg			mpfr			sfml
+berkeley-db		gmp			libomp			ncurses			shared-mime-info
+berkeley-db@5		highway			libpng			neofetch		sqlite
+brotli			htop			libraw			openexr			tldr
+btop			imagemagick		libsodium		openjpeg		vim
+ca-certificates		imath			libtiff			openssl@3		webp
+cmake			isl			libtool			pcre2			x265
+flac			jasper			libvmaf			perl			xz
+fontconfig		jbig2dec		libvorbis		pkg-config		zsh-autocomplete
+freetype		jpeg-turbo		libyaml			pyenv			zsh-syntax-highlighting
+fzf			jpeg-xl			libzip			python@3.11		zstd
+gcc			libde265		little-cms2		python@3.12
+gdbm			libheif			lua			readline
+gettext			libidn			lz4			rename
+
+==> Casks
+iterm2	mactex	sf	vlc
+"
