@@ -1,4 +1,149 @@
+Todays Notes: 2024-03-04
+- open path to file open in illustrator
+- everything we made needs to go into github today
+- we are gonna finish artwork assembly today. want to focus this valuable time on worthy efforts. 
+
+Todays Notes: 2024-03-01
+- artworks and some scripting today. 
+- javascript? That was forever ago. But practice could be good. 
+- C++?
+
+Todays Notes: 2024-02-29
+Todays Notes: 2024-02-28
+- integrating shell scripts into applescripts so that we can handle the details of certain applications more precisely. 
+This opens up a lot of possibilities. The use case I have right now is for opening UPCs in the active document in Illustrator.
+- remember osascript and embedding apple scripts into shell scripts
+	+ illustrator automation
+	+ ease of use with other applications
+	+ verify data between different applications
+	+ checking data in old files
+	+ labeling, "variable data"
+	+ small mundane tasks 
+	
+
+Todays Notes: 2024-02-27
+Todays Notes: 2024-02-26
+- Back BB 
+- ask LG to reset graphics2 password, gonna log in and forward all traffic to graphics, then we're gonna switch to gmail
+web app. Too many tools to pass up on. 
+- get started on converting the rest of the two panel blisters -- this should be done by the end of the week
+- SMS Magic is still a mess. 
+- Reed tech reached out, status of NDCs? 
+- Aly had some website questions
+	- how can we set free freight always on for a customer even if they don't make freight
+	- out of stock considered low stock, apparently it's something on their end
+	- someone got set up as a master sales rep? Shouldn't have happened, I know that's incorrect, dunno what happened.
+	- 
+TODO LIST FOR ALY
+- SMS Magic problems, cost, use case -- done
+	+ gmail forwarding is easy for what we need
+- graphics2 password gmail reset -- done
+- Reed tech reached out, forwarded to Aly, is this handled? -- done, don't use them
+- P&G graphics -- everything will likely be changing once we move to approval with the MFGs
+- website questions -- what problems did we have, Scott is offering customization to fix one of them
+	+ scott added backorder to inventory status
+- salesforce -- automation, reports, marketing, what else are we using it for? 
+- 
+
+Todays Notes: 2024-02-07
+-- we are finishing flyers today for feb, march, april, and then import promotion flyers -- done
+
+Todays Notes: 2024-02-06
+- there are so many notes :(
+- grammars 
+- I'm about to be gone for two weeks. 
+- the D&D application would just be a very fast character generator. 
+
+-- photos for remaining imports -- done
+-- catalog page with new imports , as flyer and as catalog page -- done
+-- march promo flyer , need items on promo -- done
+-- send new artwork for banner to shaan, adjusted sizes, small revisions -- done
+-- new fishbowl shipping integration -- unfinished
+
+
+Todays Notes: 2024-02-05
+- we need a script that can pull up the different common components for certain types of deliverables. 
+- 
+
+Todays Notes: 2024-02-01
+- not much to do today, most of the work remains from previous days.
+- a real note taking app would do something like
+	> store notes from the day
+	> next day, store notes in archive
+	> be able to organize by topics and details, then tasks
+	> be able to add all three types of notes directly from CLI
+	> 
+- reach out to FB technical support
+	> 1-800-774-7085 ext. 3, option 3
+	> case #00166621
+- crazy idea
+	> continuing with the idea of web scraping data into sandbox 
+	> we need a secure point of access, then a secure database storage
+	> the application would focus on sports data
+	> it would leverage various tools to interpret data as predictions
+	> would allow for simulations of competition 
+	> would store historical results and automate updates for contemporary events
+	# problems: 
+	> the web scraping part sounds like a mess
+	> the data storage is fine, managing the information over time shouldn't be impossible, but updating is hard
+	> actually making the predictive analysis -- we have 0 statistics background lmao 
+	> lots of work, tiny brain
+- select idea
+	> comparison of products across WH distributors to understand inventory requirements and conditions better
+	> reports on categories of products across wholesale industry, list prices and product specs referenced
+	> conditions of wholesale market by geography and relationships 
+	> implement intel gathering through mostly automated workflow, current procedures
+	> 
+
+Todays Notes: 2024-01-31
+- salesforce -- sms magic gotta send screenshots of problem -- done
+	> then we work on flow builder and getting data over to SF
+	> send Kerrie an email. Tired of this shit lol. 
+	> how do we make sure sample out account gets separated within opportunities
+	> what is the scope of the different licenses
+	> 
+
+- gotta send images to this guy -- done
+- artwork for diapers, need to send aly dieline with measurements, need to get the printer out of him perhaps so I can just talk
+to him. -- done
+- need to make a script to pick images from web images based on a list generated through prodS2, would take this from 10 minutes
+to 2 minutes probably. 
+	> also need to make sure it doesn't pick company boxes
+	> something like : for file in webFiles, ${file:0:5}, do some awk thing that matches file against 2nd col in prodlog,
+	cp matches from web files into customer folder
+
+Todays Notes: 2024-01-26
+- putting contacts onto the cell phone
+	> salesforce account needs to be one with pertinent privileges
+- whats left to do from today: 
+	> blister conversions, srs business next week, if I can avoid nonsense
+	> send to MFG
+	> SMS magic. what a shit show. Remaining: All of our problems. Nothing is solved, broken software, poor relationship. 
+	> coding in c++ -- we seriously need to do something with the language everyday, for at least an hour. SO VALUABLE.
+	> That's it honestly. 
+
+
+Todays Notes: 2024-01-25
+- need to investigate gabbys sf account and understand what's offered between the limited license and the expanded license
+- fishbowl replied 
+- J&J sent revisions notices on all their products, at least that's how it seems
+- SMS magic replied, still broken, what even man 
+
+-- going to work on artworks and coding after lunch. 1 revision a day mr bailey.
+-- research the sf cli tools and what's possible
+-- research what is possible with apex and if its worth the time
+
+
 Todays Notes: 2024-01-24
+- Sent SMS Magic our complaints
+- he's saying make a new dieline for the blister shell, but nothing is wrong with the current one
+- sales call rating system 
+- explore lightning app builder 
+- quadratics
+- blister conversions
+
+
+
 Todays Notes: 2024-01-23
 + basically, despite the self inflicted punishment that is learning and practicing c++ deeply, it seems like the most valuable
 way to be using my time. There is no better introduction into programming and understanding fundamentally software architecture

@@ -1,7 +1,5 @@
 #include "libs/std_lib_facilities.h"
 
-
-
 int main() 
 {
 
@@ -18,9 +16,10 @@ int main()
 		listScores.push_back(score);
 		cout << '\n';	
 
-		// this is for listing the names as we go, mostly for debugging 
+		// this is for listing the names as we go, checking name list for various things
 		for(int i = 0; i < listNames.size(); ++i) {
-		cout << listNames[i] << " " << score << '\n';
+			if (i != 0 && name == listNames[i-1]) error("Duplicate name in listNames") ;  
+			cout << listNames[i] << " " << listScores[i] << '\n';
 		}
 
 	}

@@ -18,9 +18,12 @@ function toggleDropdown() {
 
 var ul = document.getElementById("myList");
 var li = document.createElement("li");
-var text = document.createTextNode("ListItem5");
-var text2 = document.createTextNode("ListItem6");
-var text3 = document.createTextNode("ListItem7");
+var text = document.createTextNode("ListItem5\n");
+var li = document.createElement("li");
+var text2 = document.createTextNode("ListItem6\n");
+var li = document.createElement("li");
+var text3 = document.createTextNode("ListItem7\n");
+var li = document.createElement("li");
 
 li.appendChild(text);
 li.appendChild(text2);
