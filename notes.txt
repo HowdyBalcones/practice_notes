@@ -1,3 +1,56 @@
+Todays Notes: 2024-03-14
+- another day another dollar folks
+- vimspector
+- how to get the path without URL meta characters is the main problem of the day. 
+
+ 
+Todays Notes: 2024-03-12
+- so labx is just an xml printer wrapper, which doesn't surprise me somehow. Seems like it should be programmable. 
+	+ the use case is quick accurate adjustments to all labels in production, which is huge a flexibility upgrade.
+	+ in dreamland, you'd pull the latest FB data, then pass it to your re-label program,
+	then we can do whatever we want. Audit all label contents, refill variables based on conditions, 
+	update rev codes according to latest inventory, etc etc. 
+	+ honestly i'd just do this on my own, too good an idea. 
+- another reason to work on some sort've basic XML parser would be to prep for an application that pulled DFL and specs from 
+the Dailymed database, based on our product list. 
+	+  
+- same program as the image fetcher but for UPCs
+	+ 
+
+Todays Notes: 2024-03-11
+- auto connect to server
+- iterm2 in 2024-setup
+- report writer? Specification
+- the primeaids
+
+
+Todays Notes: 2024-03-08
+- need to remove the spaces from format block report and prodS2, they are annoying. 
+
+Todays Notes: 2024-03-07
+- adjust notes script to leave space for notes under date
+- illustrator script to export a pdf, a png, and a jpg, based on the contents of the artboard, and then send them 
+to the main folders. 
+- some system for tracking updated photos based on rev codes, again might need to consider rearranging the artwork DB. 
+- a script to convert images using illustrator or photoshop
+	+ target files, open them in illustrator, perform exports in various formats, perform saves in various formats
+	+ you can use the variables object to place data into illustrator that can be turned into just about whatever you need
+	+ 
+
+Todays Notes: 2024-03-06
+- need to update the graphics server with the imports. Maybe need to rethink how it's laid out. There are some automations and 
+definitely some normalizing we can do that would make it more useable and prepare it for a more elaborate 
+Todays Notes: 2024-03-05
+- fix products going into SF - TIxHI needs an object connection, maybe why it's not pushing
+- get gabby to normalize names
+- get gabby to input condom upcs to fishbowl
+- rest of artwork 
+- RAM Wholesale
+- fix spacing in prodS2 and formatBlockReport, less is best camden
+- make a getImages for condoms, either fix original or make second script for them specifically 
+	+ just fix condom naming please
+- application to generate rev codes based on item number, store them, check them
+
 Todays Notes: 2024-03-04
 - open path to file open in illustrator
 - everything we made needs to go into github today
