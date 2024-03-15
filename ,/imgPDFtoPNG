@@ -2,12 +2,12 @@
 
 # SCRIPT: Script_Template
 # AUTHOR: Camden Bailey
-# DATE: 09-12-2023
+# DATE: 07-03-2023
 # REV: 1.1.A
 #
 # PLATFORM: UNIX Based, zsh
 #
-# PURPOSE: Remove the description in file names -- convention is item#[-_]description-etc 
+# PURPOSE: This leverages imagemagick to change PDFs into PNGs and substring expansion (bash) to remove the .pdf
 #
 # REV LIST:
 #	DATE: DATE_of_REVISION
@@ -33,19 +33,8 @@
 #			 BEGINNING OF MAIN
 ########################################################################
 
-for file in *; do
-	if [[ "$file" =~ [Ss]leeve ]]; then
-		new_name=$(echo "$file" | awk -F"[-_]" '{print $1 "_2.png"}')
-	else
-		new_name=$(echo "$file" | awk -F"[-_]" '{print $1 "_1.png"}')
-	fi
 
-	if [ "$new_name" == "$file" ]; then
-		mv "$file" "${new_name}_copy"
-	elif [ "$new_name" != "$file" ]; then
-		mv "$file" "$new_name"
-	fi
+for img in *.pdf; do
+
+	magick "$img" -density 300 -quality 100 "${img%.pdf}.png"
 done
-
-
-

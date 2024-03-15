@@ -27,7 +27,7 @@
 
 echo "Please Enter Item Numbers Separated by a Space"
 read productNum
-productNum=$(echo "$productNum" | sed -E 's/ |  |	/\|/g') # this is to turn user input into something readable for bash
+productNum=$(echo "$productNum" | sed -E $'s/[ \t]+/\\|/g') # this is to turn user input into something readable for bash
 prodLog="prodLog.txt"
 field1array=()
 field2array=()
@@ -49,7 +49,7 @@ formattedf1array=()
 
 searchProdId () {
 
-	egrep --color=none "\b($productNum)\b" /Volumes/Graphics/Select\ III/010_ProductData/AllProducts/AllProdSpecs.csv | sed "s/\*\* SPECIAL COUNT \*\*//g" | awk -F ',' '{print $6 ", " $1 ", " $14 ", " $15 ", " $16 ", " $7 ", " $8 }'
+	egrep --color=none "\b($productNum)\b" /Volumes/Graphics/Select\ III/010_ProductData/AllProducts/AllProdSpecs.csv | sed -e "s/\*\* SPECIAL COUNT \*\*//g" -e 's/\*\* COMPANY BOXES \*\*//g' | awk -F ',' '{print $6 "," $1 "," $14 "," $15 "," $16 "," $7 "," $8 }'
 
 }
 
@@ -108,11 +108,10 @@ formatFirstField () {
 makeRowsFromArrays () {
 # here we are appending each index of each array to distinct lines
 
-	echo -e "DESCRIPTION, ITEM NUMBER, EACH UPC, SLEEVE UPC, CASE UPC, PACK TYPE, COUNT\n"
 
 	for ((i=0; i<${#field1array[@]}; i++)); do
 		
-		echo -e "${field1array[$i]}" "${field2array[$i]}" ", " "${field3array[$i]}" ", " "${field4array[$i]}" ", " "${field5array[$i]}" ", " "${field6array[$i]}" ", " "${field7array[$i]}\n"
+		echo -e "${field1array[$i]}""${field2array[$i]}"",""${field3array[$i]}"",""${field4array[$i]}"",""${field5array[$i]}"",""${field6array[$i]}"",""${field7array[$i]}"
 	done
 
 }

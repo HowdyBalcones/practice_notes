@@ -7,7 +7,8 @@
 #
 # PLATFORM: UNIX Based, zsh
 #
-# PURPOSE: For squaring images using imagemagick, only does jpgs atm 
+# PURPOSE: make opening notes faster and more consistent. 
+#
 #
 # REV LIST:
 #	DATE: DATE_of_REVISION
@@ -24,30 +25,27 @@
 ########################################################################
 
 
+currentDate=$(date "+%Y-%m-%d")
+topLine=$(cat ~/Desktop/002-Coding_Notes/notes.txt | head -n 1)
 ########################################################################
 #		       DEFINE FUNCTIONS HERE	
 ########################################################################
 
 
+startNotes() {
+	# if first line contains todays date, simply open notes. 
+if [[ "$topLine" == "Todays Notes: ${currentDate}" ]]; then
+	vim ~/Desktop/002-Coding_Notes/notes.txt;
+else
+	# have to use special macos syntax for sed here, specifying in place editing
+	sed -i '' $'1s/^/'"Todays Notes: ${currentDate}"$'\\\n/' ~/Desktop/002-Coding_Notes/notes.txt;
+	vim ~/Desktop/002-Coding_Notes/notes.txt;
+fi
+}
+
 ########################################################################
 #			 BEGINNING OF MAIN
 ########################################################################
 
-
-for img in *.jpg; do
-	
-# Get dimensions of the image
-	dimensions=$(magick identify -format "%wx%h" "$img")
-	width=$(echo $dimensions | cut -dx -f1)
-	height=$(echo $dimensions | cut -dx -f2)
-# Determine the longer side
-	if [ $width -gt $height ]; then
-		size="${width}x${width}"
-	else
-		size="${height}x${height}"
-	fi
-# Resize the canvas without changing the aspect ratio of the image
-	magick convert "$img" -gravity center -background grey -extent $size "square_$img"
-	#magick convert "$img" -gravity center -background grey -extent 1250x1250 "square_$img";
-done
+startNotes;
 

@@ -7,11 +7,8 @@
 #
 # PLATFORM: UNIX Based, zsh
 #
-# PURPOSE: Create the job folder for any resource requests in the graphics department. 
-# It should make a folder in the proper location according to job type, client name. 
-# There should be a way to select job type, current customers. Then it makes a dated folder after
-# navigation. 
-# 
+# PURPOSE: make opening notes faster and more consistent. 
+#
 #
 # REV LIST:
 #	DATE: DATE_of_REVISION
@@ -27,31 +24,28 @@
 # 		   DEFINE FILES AND VARIABLES HERE
 ########################################################################
 
-moveTo () {
-cd /Volumes/Graphics/Select\ III/007_Resource-Requests/
-source ~/scripts/showList
 
-}
-
-makeFolder () {
-echo "Please enter job description:"
-
-read job
-currentDate=$(date "+%d-%m-%Y-$job")
-
-mkdir "$currentDate"
-cd "$currentDate"
-}
-
+currentDate=$(date "+%Y-%m-%d")
+topLine=$(cat ~/Desktop/002-Coding_Notes/notes.txt | head -n 1)
 ########################################################################
 #		       DEFINE FUNCTIONS HERE	
 ########################################################################
 
 
+startNotes() {
+	# if first line contains todays date, simply open notes. 
+if [[ "$topLine" == "Todays Notes: ${currentDate}" ]]; then
+	vim ~/Desktop/002-Coding_Notes/notes.txt;
+else
+	# have to use special macos syntax for sed here, specifying in place editing
+	sed -i '' $'1s/^/'"Todays Notes: ${currentDate}"$'\\\n/' ~/Desktop/002-Coding_Notes/notes.txt;
+	vim ~/Desktop/002-Coding_Notes/notes.txt;
+fi
+}
+
 ########################################################################
 #			 BEGINNING OF MAIN
 ########################################################################
-moveTo
-source ~/scripts/showList
-makeFolder
+
+startNotes;
 

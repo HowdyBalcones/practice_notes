@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 # SCRIPT: Script_Template
 # AUTHOR: Camden Bailey
@@ -7,7 +7,7 @@
 #
 # PLATFORM: UNIX Based, zsh
 #
-# PURPOSE: This is a quick commit script to update our github repo for notes	
+# PURPOSE: This leverages imagemagick to change PDFs into PNGs and substring expansion (bash) to remove the .pdf
 #
 # REV LIST:
 #	DATE: DATE_of_REVISION
@@ -33,13 +33,8 @@
 #			 BEGINNING OF MAIN
 ########################################################################
 
-cd /Users/selectgraphics/Desktop/002-Coding_Notes/ ;
-git pull origin master;
 
-git add . ;
+for img in *.pdf; do
 
-echo "What is the description for this commit?"
-read description
-
-git commit -m "$description" ;
-git push origin master ; 
+	magick "$img" -density 300 -quality 100 "${img%.pdf}.png"
+done

@@ -43,10 +43,10 @@ showList () {
 	echo "$i) Exit"
 	echo "$((i + 1))) Make New Folder"
 	
-	print -n "Enter your choice [1-$((i+1))]: " 
+	echo -n "Enter your choice [1-$((i+1))]: " 
 	read choice	
 
-	if [[ $choice -ge 1 && $choice -lt $i ]]; then
+	if [[ $choice -ge 0 && $choice -lt $i ]]; then
 		chosen_dir=${dirs[$((choice))]}
 		echo "You selected: $chosen_dir"
 		cd "$chosen_dir"

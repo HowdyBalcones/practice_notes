@@ -7,8 +7,8 @@
 #
 # PLATFORM: UNIX Based, zsh
 #
-# PURPOSE: Make a folder in the current dir with the current date.
-# 
+# PURPOSE: Creating a template for every script made at Select Corporation. Should document the production of these tools for 
+# future designers, should they be interested. 
 #
 # REV LIST:
 #	DATE: DATE_of_REVISION
@@ -23,11 +23,7 @@
 ########################################################################
 # 		   DEFINE FILES AND VARIABLES HERE
 ########################################################################
-echo "Please enter job description:"
-read job
-currentDate=$(date "+$job-%d-%m-%Y")
-#echo "$currentDate"
-mkdir "$currentDate"
+
 
 ########################################################################
 #		       DEFINE FUNCTIONS HERE	

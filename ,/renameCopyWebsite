@@ -1,0 +1,55 @@
+#!/bin/bash
+
+# SCRIPT: Script_Template
+# AUTHOR: Camden Bailey
+# DATE: 07-03-2023
+# REV: 1.1.A
+#
+# PLATFORM: UNIX Based, zsh
+#
+# PURPOSE: Creating a template for every script made at Select Corporation. Should document the production of these tools for 
+# future designers, should they be interested. 
+#
+# REV LIST:
+#	DATE: DATE_of_REVISION
+#	BY:AUTHOR_of_MODIFICATION
+#	MODIFICATION: Describe what was modified
+#
+#
+# set -n #Uncomment to check syntax, without execution
+# 	 #remember to re-comment or the script won't execute
+# set -x #Uncomment to debug this shell script
+#
+########################################################################
+# 		   DEFINE FILES AND VARIABLES HERE
+########################################################################
+
+
+########################################################################
+#		       DEFINE FUNCTIONS HERE	
+########################################################################
+
+
+########################################################################
+#			 BEGINNING OF MAIN
+########################################################################
+
+
+for file in *; do
+
+
+
+	if [[ "$file" =~ ^01 || "$file" =~ ^02 && ! "$file" =~ [Ss]leeve && ! -d "$file" ]]; then
+		cp assets/caseDesc-dispenser.png "${file}_3.png";
+	
+	elif [[ "$file" =~ ^11 || "$file" =~ ^12 || "$file" =~ ^22 || "$file" =~ ^21 && ! "$file" =~ [Ss]leeve && ! -d "$file" ]]; then 
+		cp assets/caseDesc-blister.png "${file}_3.png";
+	
+	elif [[ ! "$file" =~ [Ss]leeve  && ! -d "$file" ]]; then
+	
+		cp assets/caseDesc-generic.png "${file}_3.png";
+	
+	fi
+
+
+done
