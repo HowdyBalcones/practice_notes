@@ -1,3 +1,16 @@
+// we are making a report writing program. 
+// - split the page into fifths separated by a black line, 1.5pt stroke -- should these be "cells"? 
+// 	+ the top/bottom of the line and the sides of the artboard function as a cell atm
+// - place images evenly into each section of the page -- how to place the image in each section
+// - place upcs evenly into each section of the page -- same problem as above 
+// - place text from a formatted block report into each section -- read from prodLog into text box variables
+// 	+ we really need an array of text boxes that each contain individual product specs
+// - make sure each section has information only for the given product
+// - export to ingest
+
+// need something to calculate the page into fifths and pass them as variables into the line generator
+
+
 #include "/Applications/Adobe Illustrator 2024/Presets.localized/en_US/Scripts/get-IllParam.jsx"
 
 var doc = app.activeDocument;
@@ -7,22 +20,16 @@ var savePath = "/Volumes/Graphics/Select III/003_Product_Images/000-Ingest/";
 var saveFile = new File(savePath + sourceName);
 
 var reportDirectory = readParameterFile();
-
-// we are making a report writing program. 
-// - split the page into fifths separated by a black line, 1.5pt stroke -- should these be "cells"? 
-// 	+ the top/bottom of the line and the sides of the artboard function as a cell atm
-// - place images evenly into each section of the page -- how to place the image in each section
-// - place upcs evenly into each section of the page -- same problem as above 
-// - place text from a formatted block report into each section -- read from prodLog into text box variables
-// - make sure each section has information only for the given product
-// - export to ingest
-
-// need something to calculate the page into fifths and pass them as variables into the line generator
+var targetReport = "/reportLog.txt"
 
 // getting artboard dimensions
 
 var artboard = app.activeDocument.artboards[0];
 var abBounds = artboard.artBoardRect;
+
+String.prototype.trim = function () {
+	return this.replace(/^\s+|\s+$/g, '');
+}
 
 function makeSections(abBounds) 
 {
@@ -63,38 +70,69 @@ function makeSections(abBounds)
 
 function decodePath(reportDirectory)
 {
-	var decodedPath = path.replace(/%20/g, ' ').replace(/%OA/g, '').trim();
+	var decodedPath = reportDirectory.replace(/\n/g, '');
 	return decodedPath;
 }
 
+// find the report based on the temp file that's adjusted by the bash script that runs this whole mess
+// then output the contents of the report to whatever.
 function getReportText()
 {
-reportDirectory = decodePath(reportDirectory);
-// var prodLog = new File("/Applications/Adobe Illustrator 2024/Presets.localized/en_US/Scripts/prodLog.txt");
-// var prodLog = new File(reportDirectory + "/prodLog.txt");
-var prodLogContents = prodLog.read();
-prodLog.close();
-
-	alert(reportDirectory);
-
-//	if (prodLog.open("r")) {
-//		var prodLogContents = prodLog.read();
-//		prodLog.close();
-//		return prodLogContents;
-//	} else {
-//		alert("Failed to open prodLog in working directory, may be missing.")
-//		return null;
-//	}
+	// just a path to the reportLog.txt
+	var targetReportPath = decodePath(reportDirectory) + targetReport;
+	// this should be the file
+	var reportLog = new File(targetReportPath);
+	if (reportLog.open("r")) {
+		var targetReportContents = reportLog.read();
+		reportLog.close();
+		return targetReportContents;
+	} else {
+		alert("Failed to open prodLog in working directory, may be missing.")
+		return null;
+	}
 
 }
 
-function placeReportText()
+function spaceReportText() 
+{
+	var groups = [];
+	var tempGroup = [];
+	var targetReportPath = decodePath(reportDirectory) + targetReport;
+
+	// this just reads the reportLog into a variable and trims spaces. 
+	// consider turning into a callback. 
+	if (reportLog.open("r")) {
+		var targetReportContents = reportLog.read();
+		reportLog.close();
+		var lines = targetReportContents.split('\n');
+	}
+
+	// this is what tokenizes each paragraph from the reportLog
+	for (var i = 0; i < lines.length; ++i) {
+		if (lines[i].trim() === '' && tempGroup.length > 0) {
+			groups.push(tempGroup);
+			tempGroup = [];
+			continue;
+		}
+		if (tempGroup.length < 4) {
+			tempGroup.push(lines[i]);
+		}
+		if (tempGroup.length === 4 || i === lines.length - 1) {
+			groups.push(tempGroup);
+			tempGroup = [];
+		}
+	}
+	return groups;
+}
+
+function placeReportText(groups)
 {
 	var reportText = doc.textFrames.add();
-	reportText.contents = "Hello World!"
+	
+	reportText.contents = groups;
 }
 
 // MAIN
 // makeSections(artboard.artboardRect);
 // placeReportText();
-getReportText();
+placeReportText(getReportText(reportDirectory));
