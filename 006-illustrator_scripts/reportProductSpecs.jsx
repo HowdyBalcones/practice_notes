@@ -68,6 +68,32 @@ function makeSections(abBounds)
 
 }
 
+
+// TODO: need to figure out how to make more artboards based on the number of entries in the report. 
+// get the initial artboard bounds into variables
+// multiply 
+function makeArtboards(abBounds, itemCount)
+{
+	var left = abBounds[0];
+	var top = abBounds[1];
+	var right = abBounds[2];
+	var bottom = abBounds[3];
+
+	var artboardWidth = right - left; //width
+	var artboardHeight  = top - bottom; //height
+
+
+	var xOffset = 250;
+	var yOffset = 250;
+	var boardNumber = (itemCount/5)+1;
+	for (var i=0; i < boardNumber; ++i) {
+		if (itemCount >= 5) {
+			var leftNext = left + xOffset*i;
+		}	
+	}
+	
+}
+
 function decodePath(reportDirectory)
 {
 	var decodedPath = reportDirectory.replace(/\n/g, '');
@@ -98,41 +124,58 @@ function spaceReportText()
 	var groups = [];
 	var tempGroup = [];
 	var targetReportPath = decodePath(reportDirectory) + targetReport;
-
+	var reportLog = new File(targetReportPath);
 	// this just reads the reportLog into a variable and trims spaces. 
-	// consider turning into a callback. 
 	if (reportLog.open("r")) {
 		var targetReportContents = reportLog.read();
 		reportLog.close();
 		var lines = targetReportContents.split('\n');
+	} else {
+		alert("Failed to open prodLog in working directory.")
+		return null;
 	}
 
 	// this is what tokenizes each paragraph from the reportLog
 	for (var i = 0; i < lines.length; ++i) {
-		if (lines[i].trim() === '' && tempGroup.length > 0) {
+		var line = lines[i].trim();
+
+		if (line === '') {
+			if (tempGroup.length > 0) {
 			groups.push(tempGroup);
 			tempGroup = [];
-			continue;
+			}
+		} else {
+			tempGroup.push(line);
 		}
-		if (tempGroup.length < 4) {
-			tempGroup.push(lines[i]);
-		}
-		if (tempGroup.length === 4 || i === lines.length - 1) {
-			groups.push(tempGroup);
-			tempGroup = [];
-		}
+	}
+	if (tempGroup.length > 0) {
+		groups.push(tempGroup);
 	}
 	return groups;
 }
 
-function placeReportText(groups)
+function placeReportText(targetReportContents)
 {
-	var reportText = doc.textFrames.add();
+	var artboardIndex = 0;
+	var counter = 0;
 	
-	reportText.contents = groups;
+	for (var i = 0; i < targetReportContents.length; ++i) {
+		if (counter >= 5) {
+			artboardIndex++;
+			doc.artboards.add([0,0,100,100]);
+			counter = 0;
+		}
+		var textFrame = doc.textFrames.add();
+		textFrame.contents = targetReportContents[i].join("\n");
+		textFrame.position = [10, -10 * (counter + 1)];
+		counter++;
+	}
+
 }
 
 // MAIN
 // makeSections(artboard.artboardRect);
 // placeReportText();
-placeReportText(getReportText(reportDirectory));
+//placeReportText(getReportText(reportDirectory));
+placeReportText(spaceReportText(reportDirectory));
+
