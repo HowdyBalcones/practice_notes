@@ -35,6 +35,5 @@
 
 
 for img in *.pdf; do
-
 	magick "$img" -density 300 -quality 100 "${img%.pdf}.jpg"
 done

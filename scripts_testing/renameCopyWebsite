@@ -36,20 +36,11 @@
 
 
 for file in *; do
-
-
-
 	if [[ "$file" =~ ^01 || "$file" =~ ^02 && ! "$file" =~ [Ss]leeve && ! -d "$file" ]]; then
 		cp assets/caseDesc-dispenser.png "${file}_3.png";
-	
 	elif [[ "$file" =~ ^11 || "$file" =~ ^12 || "$file" =~ ^22 || "$file" =~ ^21 && ! "$file" =~ [Ss]leeve && ! -d "$file" ]]; then 
 		cp assets/caseDesc-blister.png "${file}_3.png";
-	
 	elif [[ ! "$file" =~ [Ss]leeve  && ! -d "$file" ]]; then
-	
 		cp assets/caseDesc-generic.png "${file}_3.png";
-	
 	fi
-
-
 done

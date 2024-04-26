@@ -1,0 +1,10 @@
+// Checking Orders over a certain threshold
+"SELECT Name, Amount, Description, Pricebook2Id, AccountID, CloseDate FROM Opportunity
+WHERE Amount > 4000
+ORDER BY Amount, CloseDate"
+
+// Dot Notation
+"SELECT Contact.Firstname, Contact.Lastname, Contact.Account.Name FROM Contact
+ORDER BY Account.Name"
+
+

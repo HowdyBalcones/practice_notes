@@ -7,8 +7,7 @@
 #
 # PLATFORM: UNIX Based, zsh
 #
-# PURPOSE: Make a folder in the current dir with the current date.
-# 
+# PURPOSE: slightly improved search given directory.
 #
 # REV LIST:
 #	DATE: DATE_of_REVISION
@@ -23,11 +22,7 @@
 ########################################################################
 # 		   DEFINE FILES AND VARIABLES HERE
 ########################################################################
-echo "Please enter descriptive folder name:"
-read folder
-currentDate=$(date "+%Y-%m-%d-$folder")
-#echo "$currentDate"
-mkdir "$currentDate"
+
 
 ########################################################################
 #		       DEFINE FUNCTIONS HERE	
@@ -37,6 +32,12 @@ mkdir "$currentDate"
 ########################################################################
 #			 BEGINNING OF MAIN
 ########################################################################
+if [ $# -eq 0 ]; then
+	echo "Usage: $0 pattern"
+	exit 1
+fi
 
+userInput="$@"
+filteredInput=$(echo "$userInput" | sed -E 's/ /\\ /g')
 
-
+ls -laF | egrep -i "$filteredInput"

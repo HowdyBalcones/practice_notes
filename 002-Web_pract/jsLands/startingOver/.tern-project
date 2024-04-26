@@ -1,0 +1,25 @@
+{
+	"ecmaVersion": 6,
+		"libs": [
+		"browser",
+		"jquery"
+		], 
+	"plugins": {
+		"node": {},
+		"es_modules": {}	
+	},
+	"loadEagerly": [
+		"/Users/selectgraphics/Desktop/002-Coding_Notes/002-Web_pract/jsLands/startingOver"
+	],
+	"dontLoad": [
+		"node_modules/**"
+	],
+	"exclude": [
+		"**/node_modules/**",
+		"**/dist/**",
+		"**/build/**"
+	],
+	"modules": {
+		"dontLoad": true
+	}
+}

@@ -1,0 +1,152 @@
+- Metrics for New Hire Training
+	Get them up to speed on the following:	
+	- File system, graphics server, shared server, version control practices
+	- Artwork approval work flows
+		- Proofing
+		- Revisions
+		- hard change vs soft change
+		- Tracking what's out and what's complete
+		- Best practices for getting things consistent when doing an update
+			- Templates
+			- Requesting assets vs constructing graphics
+			- understanding research and its role
+			- using dailyMed
+		- Physical filing system 
+	- APR Dry run
+	- Dry run a complete packaging update
+	- Fishbowl standards
+		- Naming conventions, modules, how to find what a designer will need
+	- All neccesary software
+		- Barcode maker
+		- Teams, Excel, Word, Powerpoint
+		- Connect Fonts
+		- WASP label maker
+		- Gmail, Google Drive
+		- Understanding how Select uses Adobe tools, Illustrator, Photoshop, Lightroom, Indesign
+	- Website image upload process
+	- Branding standards
+		- Product Standards	
+			- Blisters
+			- Dispensers	
+			- H & B 
+			- Imports 
+			- Dielines
+		- Photo standards
+			- Lighting
+			- Placement 
+			- Basic camera operation
+		- Graphical Standards
+			- Type
+			- Placement 
+			- The Select Brand Family
+			- Marketing Templates and future plans 
+			- website asset standards
+			- motifs
+		- Print Standards
+			- Outlines
+			- Bleed
+			- What is visible to whom
+			- color profiles, acceptable color variation
+			- soft proof vs hard proof
+			- 
+	- Understand vendor communications
+		- MFG communication
+		- Printer communication
+		- Client communication (specs, images)
+	- Packaging Inspection and Receiving 
+		- barcodes and UPCs
+		- Rev codes
+		- DFL
+		- legal copy
+		- counts
+		- dosage
+		- receiving log
+		- Color standards, profiles
+		- Receiving in Fishbowl
+		- Physical Inspection
+	- Warehouse Printing 
+		- Production Printers
+		- Warehouse label printer
+		- setting up UPCs for case printers
+
+>> SERVER ORGANIZATION
+
+-- There are various servers hosted at Select. The graphic designer uses:
+	- Graphics -- primary storage of all Graphical assets. Packaging artworks, product photos, branding assets, etc.
+	- Labels -- storage for production labels. Case labels, sleeve labels, warehouse labels. 
+	- Marketing -- Marketing assets for Sales. There is a duplicate of the WEB images in /003-Product_Images/001-allPhotos/WEB
+	Whenever you update photos from the MASTER list into WEB, you have to update the marketing photos as well. 
+	- Shared -- there is a graphics folder in shared that is for anything that needs to be shared that doesn't go in the previous
+	three folders.
+
+>> Graphics Server
+Graphics/Select III/...
+-- Naming conventions and folders
+	- Graphics Server === Select III
+	- Folders are prefixed with numbers so they appear in a consistent order. 
+
+	- Creating long trees of folders makes things difficult to find. If you can store many things of the same type in one place, 
+	it ends up being more efficient to simply apply a naming convention to files rather than create many separate folders. 
+	Keeping to this rule will make organizing simpler. The times where we break this rule is when isolating files is important. 
+	
+	001-Components
+	- Production Artworks are in 001-Components - These are artworks for every individual package form, often called "paper". 
+	They are organized by the "product family", which is usually a common product that goes into the various package forms.
+	
+		- Inside a component folder: 	
+		+ Various folders organized by COMPONENT NUMBER, that contain the folders for
+		the components of individual production artworks.
+		
+		example: OS02945-Tylenol_PM/ 
+			 	02943-Tylenol_PM-Dispenser-20ct/
+					Approvals/
+						Expired_Approvals/
+					Expired_Graphics/
+					Pending/
+					Print/
+					Assets/
+						Expired_Assets/
+					2002943056-Tylenol_PM-20ct.ai
+
+				02945-Tylenol_PM-Dispenser-25ct/
+				02951-Tylenol_PM-Dispenser-50ct/
+				12951-Tylenol_PM-Single_Blister/
+				22951-Tylenol_PM-Multi_Blister/
+				Reference_Graphics/	
+					Expired_Reference/
+		000-Staging
+		+ Artworks that are in production are kept here. "In Production" just means we are making it for the first
+		time. After proofing, they are moved into their given component folders. 
+		+ Folders here are for keeping various projects organized. 
+			- They should be dated and have a descriptive name related to the product(s) being updated. 
+			- Once the artwork has been sent to approval, move that artwork to its pending folder.
+			- You can keep the folder as a record. 
+	
+	- 003-Product_Images
+		-
+
+-- Artwork Update Process
+	- What is an update
+	- What typically changes
+	- Hard vs Soft change
+	- Graphics Request vs Graphics Construction
+
+-- Artwork Approval Process
+	- Refer to the Approval flow chart
+		1 Order for changes comes through
+		2 Update Job Board with latest order
+		3 Update pending with template using Graphics Server naming conventions
+		4 Verify REV Code, all three UPCs, Dates, Specs of item, Dieline Number, Reference Graphic
+		5 Place these onto the pending artwork or into the reference graphics folder in server
+		6 Complete changes for the given update
+-- APR Procedure
+Fishbowl Recipe =
+Part Module 
+Picking 
+Manufacture Order
+
+Search given Item Number in manufacture order
+Search given manufacture order in picking 
+refer to part for most current rev code and description
+
+

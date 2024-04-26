@@ -2,9 +2,7 @@
 
 echo "Enter Product ID - 5 digit identifier: "
 echo "If looking for Each UPC, Enter Component ID - 5 digit identifier:"
+
 read prodID
-
-find -E /Volumes/Graphics/Select\ III/003_Product_Images/998-UPC_Data/UPCS -regex ".*$prodID.\..*" | sed 's/ /\\ /g' | sort
-
-
+find -E /Volumes/Graphics/Select\ III/003-Product_Images/998-UPC_Data/UPCS -regex ".*$prodID.\..*" | sed 's/ /\\ /g' | sort
 echo "$prodID"

@@ -34,6 +34,6 @@ template="/Users/selectgraphics/scripts/bashTemplate.sh";
 ########################################################################
 #			 BEGINNING OF MAIN
 ########################################################################
-cp $template ./$name;
+cp $template /Users/selectgraphics/scripts/$name;
 
 

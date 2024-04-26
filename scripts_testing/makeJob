@@ -28,7 +28,7 @@
 ########################################################################
 
 moveTo () {
-cd /Volumes/Graphics/Select\ III/007_Resource-Requests/
+cd /Volumes/Graphics/Select\ III/007-Resource-Requests/
 source ~/scripts/showList
 
 }
