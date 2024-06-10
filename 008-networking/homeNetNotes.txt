@@ -1,0 +1,18 @@
+++ Reference
+- https://blog.hubspot.com/website/what-is-dns-server
+
+++ DNS
+-- tools
+scutil --dns
+dnsmasq
+iproute2
+ufw
+traceroute
+tcpdump
+nmap
+rsyslog
+
+++ VPN
+openvpn
+easy-rsa
+

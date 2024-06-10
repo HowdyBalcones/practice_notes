@@ -1,0 +1,981 @@
+-- Structured Query Language
++ Tools 
+	- cli - mysql3 - man pages
+
++ Practical Applications
+	Funnels - track usage of applications at certain points
+	Churn - predicting customer conversion/loss at given points
+	Web Traffic Attribution 
+	 - UTM Parameters
++ Syntax
+	; - always end statements with a semicolon
+	CREATE TABLE <table_name> - make a new table
+	SELECT - indicates statement is a query
+	FROM - specifies the name of the table for the query
+	INSERT - insert a new row (record) into a table
+	INSERT INTO - clause, adds specified row or rows into a table
+	VALUES - clause, identifies the columns the data will be inserted into
+	ALTER TABLE - make changes to a table
+	ADD COLUMN - add a column when altering specific table(s)
+	UPDATE <table> - edit a row in a table
+	SET <column> = <value> - change a record on the table, combined with WHERE often
+	DELETE FROM <table> - delete something from a given table
+	WHERE <record, value> = <value> - indicates which row to target with a given command
+	CREATE INDEX <index name>
+	ON <table name> (column1, column2, ...)
+	AS - returns value under an alias, often used to rename columns for output 
+	COUNT
+	DISTINCT - only returns unique values
+	ROUND
+	WHEN
+	THEN
+	CASE 
+	END - closes a case statement 
+	AND
+	OR
+	IS <command, value> - when a condition IS met, or IS returns true 
+	NULL
+	JOIN - combine multiple tables
+	GROUP BY - used with aggregate functions, arranges identical data into groups, after WHERE before ORDER BY, LIMIT
+	HAVING - filters groups, similar to WHERE but for groups instead of rows
+	ORDER BY - sorts by a given column
+	DESC - ordered high to low or Z-A
+	ASC - ordered low to high or A-Z
+	LIMIT <int> (not always valid syntax depending no RDMS)
+	COUNT() - count number of rows
+	SUM() - sum values of a column
+	MAX() - largest value
+	MIN() - smallest value
+	AVG() - average the values of a column
+	ROUND() - round the values of a column
+	
+	strftime()
+	date()
+	time()
+	datetime()
+	julianday()
+	unixepoch()
+
++ Types
+	INTEGER -- +- whole num
+	TEXT -- string
+	DATE -- date formatted YYYY-MM-DD
+	REAL -- decimal, float
+	NULL -- missing or unknown value, new columns with no data have this by default
++ Constraints -- invoked after specifying the data types for a column when creating or adjusting a table
+	PRIMARY KEY - uniquely identifies rows, attempts to add identical rows with same unique id throws error "constraint violation"
+	UNIQUE - records should not contain duplicates in given column
+	NOT <value match>  - should not match given value, IE NOT NULL (shouldn't be empty)
+	DEFAULT	- columns take additional argument the is assumed value if nothing is provided
+
++ Wild Cards -- think regex and bash wildcards but with different flavor
+	* - all, every match
+	_ - any single character
+	% - anchor, A% starts with, %A ends  with, %A% begins and ends with	
+
++ Definitions
+- Relational Database
+	Database - data stored on a computer.
+	Relational Database - Type of database, access data in relation to other pieces of data in said database. Often with tables.
+	Rows and Columns - A row is a record, a column is a data type with a specific name
+	- name - age - country
+	- travis - 23 - America
+	- natalie - 34 - Britain
+	- rick - 74 - Earth
+- Relational Database Management System (RDBMS)
+	Create, update, administer a relational database
+	- Examples
+	MySQL - Used to be open source, now owned by Oracle, industry standard
+	PostgreSQL - Open source, similar to MySQL
+	Oracle DB - Oracle
+	SQL Server - Microsoft
+	SQLite - preferred
+	- Extensions
+	.sqlite = SQLite
+	.sql = PostgreSQL
+	- Types
+	SQLite and PostgreSQL have slightly different types. Recorded as we go below:
+	
+-- Examples
+
+++ 1
+SELECT * FROM celebs;
+// Select every record from the celebs table
+
+++ 2
+CREATE TABLE table_name (
+	column_1 data_type,
+	column_2 data_type,
+	column_3 data_type
+	);
+// make a table called table_name with three columns with given data types
+
+++ 3
+INSERT INTO celebs (id, name, age)
+VALUES (1, 'Justin Bieber', 29); 
+// insert data into 3 columns from the celebs table
+// data is 1, 'Justin Bieber', 29
+
+++ 4
+ INSERT INTO celebs (id, name, age)
+ VALUES (2, 'Beyonce Knowles', 42);
+
+ INSERT INTO celebs (id, name, age)
+ VALUES (3, 'Jeremy Lin', 35);
+
+ INSERT INTO celebs (id, name, age)
+ VALUES (4, 'Taylor Swift', 33);
+// add more data to the celebs table
+
+++ 5
+ALTER TABLE celebs
+ADD COLUMN twitter_handle TEXT;
+// alter the celebs table, add a column named twitter_handle with type of TEXT
+
+++ 6 
+UPDATE celebs
+SET twitter_handle = '@taylorswift13'
+WHERE id = 4;
+
+SELECT * FROM celebs;
+// choose table to update, choose column to set the data to, specify the row to update based on WHERE match
+
+++ 7
+DELETE FROM celebs
+WHERE twitter_handle IS NULL;
+SELECT * FROM celebs;
+// initiate delete command on celebs table, where column twitter_handle has value null, then output the new table/
+
+++ 8 
+CREATE TABLE celebs (
+	id INTEGER PRIMARY KEY,
+	name TEXT UNIQUE,
+	date_of_birth TEXT NOT NULL,
+	date_of_death TEXT DEFAULT 'Not Applicable'
+);
+// makes a new table with constraints as a third parameter after name, type. 
+// constraints limit the types of data that can be entered into the record, as well as 
+// perform logic and script onto the record during input
+
+++ 9 -- putting it together practice
+CREATE TABLE friends (
+  id INTEGER,
+  name TEXT,
+  birthday DATE
+);
+
+INSERT INTO friends (id, name, birthday)
+VALUES (1, 'Ororo Munroe', '1940-05-30');
+
+INSERT INTO friends (id, name, birthday)
+VALUES (2, 'Tajah Lee', '1998-11-15');
+
+INSERT INTO friends (id, name, birthday)
+VALUES (3, 'Hunter Guevarra', '1995-08-14');
+
+UPDATE friends 
+SET name = 'Storm' 
+WHERE id = 1;
+
+ALTER TABLE friends
+ADD COLUMN email TEXT DEFAULT '@';
+
+UPDATE friends
+SET email = 'tajahEmail@email.com'
+WHERE id = 2;
+
+UPDATE friends
+SET email = 'hunterEmail@email.com'
+WHERE id = 3;
+
+UPDATE friends
+SET email = 'storm@codecademy.com'
+WHERE id = 1;
+
+DELETE FROM friends
+WHERE NAME IS 'Storm';
+
+SELECT * FROM friends;
+
+++ 10 - select
+SELECT column1, column2
+FROM table_name;
+
+SELECT name, genre
+FROM movies;
+
+SELECT name, genre, year // the order of these columns determines output
+FROM movies; 
+
+++ 11 - as
+SELECT name AS 'Titles'
+FROM movies;
+
+SELECT name AS 'Pineapple'
+FROM movies;
+
+++ 12 - distinct
+SELECT DISTINCT tools 
+FROM inventory;
+
+SELECT DISTINCT genre
+FROM movies;
+
+++ 13 - where
+SELECT * 
+FROM movies
+WHERE imbd_rating > 8;
+
+SELECT * 
+FROM movies
+WHERE year > 2014;
+
+SELECT * 
+FROM movies
+WHERE imdb_rating < 5;
+
+++ 14 - like
+SELECT * 
+FROM movies
+WHERE name LIKE 'Se_en'; // contains a wildcard, _ means any single character, similar to . in regex
+
+SELECT * 
+FROM movies
+WHERE name LIKE 'Se_en';
+
+++ 15 - like 2
+SELECT * 
+FROM movies
+WHERE name LIKE 'A%';
+
+SELECT * 
+FROM movies
+WHERE name LIKE '%man%';
+
+SELECT *
+FROM movies
+WHERE name LIKE 'The %';
+
+++ 16 - is null // null equates to empty or unknown values
+SELECT name 
+FROM movies
+WHERE imdb_rating IS NOT NULL;
+
+SELECT name 
+FROM movies
+WHERE imdb_rating is NULL;
+
+++ 17 - between / where // using characters returns alphabetical list up to (right before) lower bound
+SELECT *
+FROM movies
+WHERE year BETWEEN 1990 AND 1999;
+
+SELECT * 
+FROM movies
+WHERE name BETWEEN 'D' AND 'E';
+
+SELECT * 
+FROM movies
+WHERE name BETWEEN 'E' AND 'G';
+
+++ 18 - and // possible to chain AND statements, as booleans, imagine there is OR as well
+SELECT *
+FROM movies
+WHERE year BETWEEN 1990 AND 1999
+	AND genre = 'Romance';
+// consider this like overlapping circles in a Ven Diagram
+
+SELECT *
+FROM movies
+WHERE year BETWEEN 1970 AND 1979
+AND imdb_rating > 8;
+
+SELECT *
+FROM movies
+WHERE year < 1985
+AND genre = 'horror';
+
+++ 19 - or // boolean conditional
+SELECT *
+FROM movies
+WHERE year > 2014
+OR genre = 'action';
+// this is like including two circles and their overlap in a venn diagram
+
+++ 20 - order by 
+SELECT *
+FROM movies
+ORDER BY name;
+
+SELECT *
+FROM movies
+ORDER BY year DESC
+
+SELECT name, year
+FROM movies
+ORDER BY name;
+
+SELECT name, year, imdb_rating
+FROM movies
+ORDER BY imdb_rating DESC;
+
+++ 21 - limit - goes at the end
+SELECT *
+FROM movies
+ORDER BY imdb_rating DESC
+LIMIT 3;
+
+SELECT * 
+FROM movies
+LIMIT 10;
+
+++ 22 - case statements, then, when, else, end
+SELECT name,
+	CASE 
+	WHEN imdb_rating > 8 THEN
+	'Fantastic'
+	WHEN imdb_rating > 6 THEN 
+	'Poorly Received' 
+	ELSE 'Avoid at All Costs'
+	END
+FROM movies;
+
+SELECT name,
+        CASE
+        WHEN imdb_rating > 8 THEN
+        'Fantastic'
+        WHEN imdb_rating > 6 THEN
+        'Poorly Received'
+        ELSE 'Avoid at All Costs'
+        END AS 'Review'
+FROM movies;
+
+SELECT name,
+  CASE 
+    WHEN genre = 'romance' 
+    OR genre = 'comedy'
+    THEN 'Chill'
+    ELSE 'Intense'
+  END AS 'Mood'
+FROM movies;
+
+++ 23 - Putting it together 
+
+SELECT name, number
+FROM babies
+WHERE name = 'Lillian'
+
+SELECT DISTINCT name
+FROM babies
+WHERE name LIKE 'S%'
+LIMIT 20;
+
+SELECT name, gender, number
+FROM babies
+WHERE year = 1880
+ORDER BY number DESC
+LIMIT 10;
+
+ SELECT *
+ FROM NEWS
+ WHERE title LIKE '%bitcoin%';
+
+ SELECT * FROM news
+ WHERE category = 'b'
+ ORDER BY timestamp DESC
+ LIMIT 20;
+
+ SELECT name FROM babies
+ WHERE name LIKE '%Camden%';
+
+ SELECT COUNT (name) FROM babies
+COUNT WHERE name LIKE '%Camden%';
+
+SELECT * FROM nomnom
+ORDER BY review DESC
+LIMIT 5;
+
+++ 24 - New York Restaurants
+cols = name, neighborhood, cuisine, review, price, health
+table = nomnom
+
+distinct cuisine = Steak
+Korean
+Chinese
+Pizza
+Ethiopian
+Vegetarian
+Italian
+Japanese
+American
+Mediterranean
+Indian
+Soul Food
+Mexican
+
+distinct neighborhood = Brooklyn
+Midtown
+Chinatown
+Uptown
+Queens
+Downtown
+
+SELECT DISTINCT neighborhood FROM nomnom;
+
+SELECT * FROM nomnom
+WHERE cuisine = 'Chinese' 
+AND review > 4;
+
+SELECT * FROM nomnom
+WHERE cuisine = 'Italian' 
+AND price = '$$$';
+
+SELECT * FROM nomnom
+WHERE name LIKE '%meatball%';
+
+SELECT * FROM nomnom
+WHERE neighborhood LIKE 'Midtown' 
+OR neighborhood LIKE 'Downtown'
+OR neighborhood LIKE 'Chinatown'
+ORDER BY neighborhood;
+
+SELECT * FROM nomnom
+WHERE health IS NULL; 
+
+SELECT * FROM nomnom
+ORDER BY review DESC
+LIMIT 10;
+
+SELECT *,
+  CASE 
+    WHEN review > 4.5 THEN 'Extraordinary'
+    WHEN review > 4 THEN
+    'Excellent'
+    WHEN review > 3 THEN 
+    'Good'
+    WHEN review > 2 THEN 
+    'Fair'
+    ELSE 
+    'POOR'
+    END AS 'Review_Assessment'
+  FROM nomnom
+  ORDER BY review DESC;
+
+++ 25 - Financial Data Analysis
+SELECT * FROM transaction_data 
+LIMIT 10;
+
+// cols = id, full_name, email, zip, ip_address
+SELECT * FROM transaction_data
+WHERE zip LIKE '30%'
+OR zip LIKE '31%'
+ORDER BY zip DESC;
+
+SELECT * FROM transaction_data
+WHERE full_name LIKE 'John%'
+AND ip_address LIKE '120.%';
+
+SELECT * FROM transaction_data
+WHERE email LIKE '%temp_email.com';
+
+SELECT * FROM transaction_data
+WHERE ip_address LIKE '10.%';
+
+SELECT * FROM transaction_data
+WHERE full_name = 'Art Vandelay'
+OR full_name LIKE '% der %';
+
+SELECT * FROM transaction_data
+WHERE zip = 20252;
+
+SELECT * FROM transaction_data
+LIMIT 10;
+
+++ 26 - RPA customer segmentation
+cols = id, email, campaign, test, created_at, birthday
+
+SELECT * FROM users
+LIMIT 20;
+
+SELECT * FROM users
+WHERE birthday BETWEEN '1980-01-01' 
+AND '1989-12-31'
+ORDER BY birthday
+LIMIT 5;   
+
+SELECT * FROM users
+WHERE created_at < '2017-05-01'
+ORDER BY created_at
+LIMIT 5;
+
+SELECT * FROM users
+WHERE test = 'bears'
+LIMIT 5;
+
+SELECT * FROM users
+WHERE campaign LIKE 'BBB%'
+ORDER BY campaign
+LIMIT 10;
+
+SELECT * FROM users
+WHERE campaign LIKE '%-2'
+ORDER BY campaign
+LIMIT 20;
+
+SELECT * FROM users
+WHERE campaign IS NOT NULL
+AND test IS NOT NULL;
+
+** CHALLENGE
+-- 8
+-- Challenge
+-- One of the members of the marketing team had an idea of calculating
+-- how old users were when they signed up.
+
+-- subtract birthday from created_at date, return years/months/days, or only days
+-- SELECT timediff(birthday, created_at);
+-- SELECT created_at, birthday,
+  -- julianday(created_at) - julianday(birthday) AS Difference
+-- FROM users;
+
+-- SELECT created_at, birthday,
+  -- timediff(created_at, birthday) AS Difference
+-- FROM users;
+
+SELECT created_at, birthday,
+  strftime('%Y', created_at) - strftime('%Y', birthday) AS Years_Difference
+FROM users
+ORDER BY Years_Difference DESC;
+
+++ 27 - Davies Burgers Subway Ad
+-- cols = id, user_id, order_date, restaurant_id, item_name, special_instructions
+
+SELECT special_instructions AS Notes, id AS '#'
+FROM orders 
+WHERE special_instructions IS NOT NULL
+AND special_instructions LIKE '%box%'
+ORDER BY special_instructions ASC
+LIMIT 10;
+
+SELECT special_instructions
+FROM orders 
+WHERE special_instructions IS NOT NULL
+AND special_instructions LIKE '%box%'
+ORDER BY special_instructions ASC
+LIMIT 10;
+
+SELECT special_instructions
+FROM orders 
+WHERE special_instructions IS NOT NULL
+AND special_instructions LIKE '%door%'
+ORDER BY special_instructions ASC
+LIMIT 10;
+
+SELECT special_instructions
+FROM orders 
+WHERE special_instructions IS NOT NULL
+AND special_instructions LIKE '%sauce%'
+LIMIT 10;
+
+SELECT special_instructions
+FROM orders 
+WHERE special_instructions IS NOT NULL
+ORDER BY special_instructions ASC
+LIMIT 10;
+
+SELECT special_instructions
+FROM orders 
+WHERE special_instructions IS NOT NULL
+LIMIT 10;
+
+SELECT special_instructions
+FROM orders
+LIMIT 10;
+
+SELECT DISTINCT order_date
+AS unique_orders
+FROM orders
+LIMIT 5;
+
+SELECT * FROM orders
+LIMIT 10;
+
+++ 28 - aggregates, doing arithmetic 
+-- cols = id, name, category, downloads, price
+-- count
+SELECT COUNT(*) FROM fake_apps
+WHERE price = 0.0;
+-- sum
+SELECT SUM(downloads)
+FROM fake_apps;
+-- max/min
+SELECT MIN(downloads)
+FROM fake_apps;
+
+SELECT MAX(price)
+FROM fake_apps;
+
+-- avg
+SELECT AVG(downloads)
+FROM fake_apps;
+
+SELECT AVG(price)
+FROM fake_apps;
+
+-- round
+SELECT name, ROUND(price, 0) AS avg_price
+FROM fake_apps
+ORDER BY avg_price;
+
+-- nesting functions
+SELECT ROUND(AVG(price), 2)
+FROM fake_apps;
+
+-- GROUP BY
+SELECT year, AVG(imdb_rating) FROM movies
+GROUP BY year
+ORDER BY year;
+
+SELECT price, COUNT(*)
+FROM fake_apps
+WHERE downloads > 20000
+GROUP BY price;
+
+SELECT category, SUM(downloads)
+FROM fake_apps
+GROUP BY category;
+
+-- GROUP BY 2
+SELECT ROUND(imdb_rating), COUNT(name)
+FROM movies
+GROUP BY ROUND(imdb_rating)
+ORDER BY ROUND(imdb_rating);
+-- equivalent to 
+SELECT ROUND(imdb_rating), COUNT(name)
+FROM movies
+GROUP BY 1
+ORDER BY 1;
+-- These are COLUMN REFERENCES
+
+SELECT category, price, AVG(downloads)
+FROM fake_apps
+GROUP BY 1, 2;
+
+-- HAVING
+SELECT year, genre, COUNT(name)
+FROM movies
+GROUP BY 1, 2
+HAVING COUNT(name) > 10;
+
+++ 29 -- challenges and review for aggregates
+-- cols = id, first_name, last_name, email, password
+
+SELECT COUNT(*) FROM users
+WHERE email LIKE '%.com';
+
+SELECT first_name, 
+  COUNT(*) AS 'Number of Names'
+  FROM users
+  GROUP BY first_name
+  ORDER BY 2 DESC;
+
+SELECT 
+  ROUND(watch_duration_in_minutes, 0),
+  COUNT(*)
+FROM watch_history
+  GROUP BY 1
+  ORDER BY 1 ASC;
+
+
+SELECT 
+  user_id, 
+  SUM(amount) AS 'Total Spent', 
+  COUNT(user_id) AS 'Num of Payments'
+FROM payments
+  WHERE status = 'paid'
+  GROUP BY user_id
+  ORDER BY 3 DESC;
+
+SELECT 
+  user_id,
+  SUM(watch_duration_in_minutes) AS total_minutes
+FROM watch_history
+  GROUP BY user_id
+  HAVING total_minutes > 400
+  ORDER BY 2 DESC;
+
+SELECT 
+ROUND(SUM(watch_duration_in_minutes), 0) AS total_minutes_all_users
+FROM watch_history;
+
+SELECT 
+  pay_date,
+  SUM(amount) AS total
+FROM payments
+  WHERE status = 'paid'
+  GROUP BY 1
+  ORDER BY total DESC;
+
+SELECT 
+  AVG(amount) AS average_payment
+FROM payments
+  WHERE status = 'paid';
+
+SELECT 
+  MAX(watch_duration_in_minutes) AS max,
+  MIN(watch_duration_in_minutes) AS min
+FROM watch_history;
+
+++ 30 - Trends in Startups Challenge
+-- cols = name, location, category, employees, raised, valuation, founded, stage, ceo, info
+
+SELECT 
+DISTINCT COUNT(name)
+FROM startups;
+
+SELECT 
+SUM(valuation)
+FROM startups;
+
+SELECT 
+MAX(raised) 
+FROM startups;
+
+SELECT 
+MAX(raised) 
+FROM startups
+WHERE stage = 'Seed';
+
+SELECT 
+MIN(founded)
+FROM startups
+
+SELECT
+ROUND(AVG(valuation), 2)
+FROM startups
+
+SELECT
+  category,
+  ROUND(AVG(valuation),2)
+FROM startups
+  GROUP BY category
+  ORDER BY 1;
+
+SELECT
+  category,
+  ROUND(AVG(valuation),2) AS 'Average Valuation'
+FROM startups
+  GROUP BY category
+  ORDER BY 2 DESC;
+
+SELECT 
+  category, 
+  COUNT(name) AS total
+FROM startups
+  GROUP BY 1
+  HAVING total > 3;
+
+SELECT 
+  location,
+  AVG(employees) AS avg_size
+FROM startups
+  GROUP BY 1
+  HAVING avg_size > 400
+  ORDER BY 2 DESC;
+
+++ 31 - Challenge - Met Museum
+-- cols = id, department, category, title, artist, date, medium, country
+
+ SELECT 
+  COUNT(*)
+ FROM met
+  WHERE department = 'American Decorative Arts';
+-- how many pieces in a given collection
+
+SELECT 
+  COUNT(*),
+  country
+FROM met
+  GROUP BY country
+  ORDER BY 1 DESC;
+  LIMIT 10;
+-- find top ten countries of origin for works
+
+SELECT 
+  COUNT(*) AS total,
+  category
+FROM met
+  GROUP BY category
+  HAVING total > 100
+  ORDER BY 1 DESC;
+-- categories with more than 100 items 
+
+SELECT 
+  COUNT(*),
+  medium
+FROM met
+  WHERE medium LIKE '%gold%'
+  OR medium LIKE '%silver%'
+  GROUP BY medium
+  ORDER BY 1 DESC;
+-- number of pieces where medium contains silver or gold
+
+++ 32 -- analyzing hacker news trends
+-- cols = title, user, score, timestamp, url
+
+ SELECT 
+  title,
+  score
+FROM hacker_news
+  ORDER BY score DESC
+  LIMIT 5;
+
+SELECT 
+  SUM(score) AS user_score,
+  user
+FROM hacker_news
+  GROUP BY user
+  HAVING user_score > 200
+  ORDER BY 1 DESC;
+-- users with scores greater than 200, with their total score
+
+SELECT ROUND((517 + 309 + 304 + 282) / 6366.0, 2);
+-- find percentage of total score for top four users
+
+SELECT 
+  user,
+  url,
+  COUNT(user)
+FROM hacker_news
+  WHERE url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+  GROUP BY user;
+-- number of times a user has posted a rick roll link
+
+SELECT 
+  COUNT(*),
+  CASE
+  WHEN url LIKE '%github.com%' THEN
+  'Github'
+  WHEN url LIKE '%medium.com%' THEN
+  'Medium'
+  WHEN url LIKE '%nytimes.com%' THEN
+  'New York Times'
+  END AS 'Source'
+FROM hacker_news
+  WHERE Source IS NOT NULL
+  GROUP BY 2;
+-- case statement to group by urls
+
+SELECT 
+  timestamp,
+  strftime('%H', timestamp) AS hours,
+  ROUND(AVG(score)),
+  COUNT(*)
+FROM hacker_news
+  WHERE timestamp IS NOT NULL
+  GROUP BY 2
+  ORDER BY hours DESC
+  LIMIT 25;
+-- best hours to post on hacker_news (6pm)
+
+++ 33 -- Challenge Crypto Currency Exchange
+-- cols = id, user_id, date, currency, money_in, money_out
+
+SELECT 
+  SUM(money_in),
+  SUM(money_out)
+FROM transactions;
+-- totals
+
+SELECT
+  COUNT(money_in) AS total_in,
+  currency
+FROM transactions
+  WHERE currency = 'BIT';
+-- number of BITcoins coming in
+
+SELECT 
+  MAX(money_in) AS big_in,
+  MAX(money_out) AS big_out
+FROM transactions;
+-- largest transaction, in and out
+
+SELECT 
+  ROUND(AVG(money_in)),
+  currency
+FROM transactions
+  WHERE currency = 'ETH';
+-- average money in for ethereum
+
+++ 34 - intro to multiple tables - JOIN
+
+SELECT * FROM orders 
+LIMIT 5;
+
+SELECT * FROM subscriptions
+LIMIT 5;
+
+SELECT * FROM customers
+LIMIT 5;
+
+SELECT *
+FROM orders
+JOIN customers
+  ON orders.customer_id
+  = customers.customer_id;
+-- dot syntax = table_name.column_name
+
+SELECT 
+  orders.order_id,
+  customers.customer_name
+FROM orders
+JOIN customers
+  ON orders.customer_id 
+  = customers.customer_id;
+-- dot syntax can also be used in a SELECT
+
+SELECT *
+FROM orders
+JOIN subscriptions
+  ON orders.subscription_id
+  = subscriptions.subscription_id
+WHERE description = 'Fashion Magazine';
+
+++ 35 - INNER JOIN -- also regular JOIN in sqlite, does not include rows that don't match
+SELECT COUNT(*)
+FROM newspaper;
+
+SELECT COUNT(*)
+FROM online;
+
+SELECT COUNT (*)
+FROM newspaper
+JOIN online
+  ON newspaper.id
+  = online.id; 
+
+++ 36 - LEFT JOIN - keeps rows of the first table when there is no match
+SELECT * 
+FROM table1
+LEFT JOIN table2
+  ON table1.c2
+  = table2.c2;
+-- where happens here
+
+SELECT *
+FROM newspaper
+LEFT JOIN online
+  ON newspaper.id
+  = online.id;
+-- simple left join
+
+SELECT *
+FROM newspaper
+LEFT JOIN online
+  ON newspaper.id
+  = online.id
+  WHERE online.id IS NULL;
+-- find lines that DON'T match
+
+
+

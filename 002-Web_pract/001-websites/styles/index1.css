@@ -1,0 +1,44 @@
+html {
+	font-family: "Raleway", sans-serif;
+}
+body {
+	color: black;
+	background-color: #fff0f0;
+
+}
+
+#true-header {
+	text-align: center;
+	margin: 0;	
+	padding: 10px;
+}
+
+#nav-bar {
+	display: flex;
+	height: 60px;
+	width: 100%;
+	background-color: black;
+	color: #fff0f0;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	border-radius: 15px;
+}
+
+#nav-bar > a {
+	color: #fff0f0;
+	text-decoration: none;
+	flex: 1;
+	align-content: center;
+	text-align: center;
+	height: 100%;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin: 0;
+	padding: 0 5px 0 5px;
+}
+
+#nav-bar > a:hover {
+	background-color: #fff0f0;
+	color: black;
+}
