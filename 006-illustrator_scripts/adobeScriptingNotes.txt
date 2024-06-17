@@ -1,0 +1,143 @@
+++ ExtendScript syntax and rules
+- extend script is a proprietary scripting language developed by Adobe. It runs under the hood of their software. 
+- This language is based on the ECMAScript 3 version of Javascript, so newer methods generally won't be usable. 	
+
+	+ Global functions
+	- eval() - evaluates return value as a string
+	- parseInt(string, radix) - parses a string and returns an integer, radix means base number of counting system
+	- parseFloart(string) - parses decimal number from string
+	- isNaN(value) - determines if value is not a number
+	- isFinite(value) - determines if a value is a finite number
+	- escape(string) - encodes a string for inclusion in a URL 
+	// "Hello World!" = "Hello%20World%21"
+	- unescape(string) - the opposite of escape, removes escape characters
+	- decodeURI(uri) - 
+	- encodeURI(uri) - 
+	- decodeURIComponent(uriComponent) -
+	- encodeURIComponent(uriComponent) -	
+
+	+ array methods 
+	- concat()
+	- join()
+	- pop()
+	- push()
+	- reverse()
+	- shift()
+	- slice()
+	- sort()
+	- splice() 
+	- toString()
+	- unshift()
+	These are the default methods available. If we need something like map() or forEach(), they can be 
+	manually implemented. 
+	
+	+ string methods
+	- charAt(index)
+	- charCodeAt(index)
+	- concat(str1, str2, ... strN)
+	- indexOf(searchValue, fromIndex)
+	- lastIndexOf(searchValue, fromIndex)
+	- match(regexp)
+	- replace(searchvalue, newValue)
+	- search(regexp)
+	- slice(beginIndex, endIndex)
+	- split(separator, limit)
+	- substring(startIndex, endIndex)
+	- toLowerCase()
+	- toUpperCase()
+	- toString()
+	- valueOf()
+
+	+ Math object methods
+	- Math.abs(x) - returns absolute value
+	- Math.ceil(x) - returns smallest integer greater than or equal to x
+	- Math.floor(x) - returns largest integer less than or equal to x
+	- Math.round(x) - returns value of x rounded to the nearest integer
+	- Math.max(10, 20, 30) - returns largest of zero or more numbers
+	- Math.min(10, 20, 30) - returns the smallest of zero or more numbers
+	- Math.random() - returns pseudo random number between 0 and 1
+	- Math.sqrt(x) - returns the square root of x
+	- Math.pow(base, exponent) - returns base to the power of exponent 
+	
+	+ Date Object Methods
+	- Date() - create a new Date object
+	// var now = new Date();
+	- Date.parse(dateString) - returns number of milliseconds since Jan 1, 1970, 00:00:00 UTC
+	// var milli = Date.parse("2023-06-15");
+	- Date.UTC(year, month, day, hours, minutes, seconds, milliseconds) - returns milliseconds between specified date
+	// var utcMilli = Date.UTC(2023, 06, 15);
+	Date.getTime() - get amount of time since Jan 1, 1970, UTC 0
+	// var now = new Date(); var timeSince = now.getTime();
+	Date.getFullYear() - return year of date according to local time
+	Date.getMonth() - return month of date according to local time
+	Date.getDate() - return day of the month according to local time
+	Date.getDay() - returns the day of the week according to local time (zero indexed lol)
+	Date.getHours() - returns hour of the day according to local time
+	Date.getMinutes - returns the minutes of the hours according to local time
+
+	+ Object Methods
+	- constructor
+	var obj = {};
+	var constructor = obj.constructor;
+	
+	- hasOwnProperty(property)
+	var obj = { key: "Value" }
+	var hasKey = obj.hasOwnProperty("key");
+	// hasKey = true
+	
+	- isPrototypeOf(object)
+	function Person() {}
+	var person = new Person();
+	var isPrototype = Person.prototype.isPrototypeOf(person);
+	// isPrototype = true;
+	
+	- toLocaleString() 
+	var obj = { key: 'value' };
+	var localeStr = obj.toLocaleString();
+	
+	- toString() 
+	var obj = { key: 'value' };
+	var str = obj.toString();
+	
+	- valueOf()
+	var obj = { key: 'value' };
+	var value = obj.valueOf();
+	
+	+ Builtin Objects
+	- Global 
+	- Object object
+	- Function 
+	- Array
+	- String
+	- Boolean 
+	- Number
+	- Math
+	- Date
+	- RegExp
+	- Error
+	- EvalError
+	- RangeError 
+	- ReferenceError
+	- SyntaxError
+	- TypeError	
+	- URIError
+		
+	+ "modules"
+	- need to understand Namespaces, Encapsulation, IIFE to create modular code. This will be important 
+	once we get past a certain scale of code, but right now it's not too important. Will require a rewrite most 
+	likely. 
+	
+	
+
+++ UI methods and patterns
+
+++ Our script library 
+	- inDesign-identify.jsx
+	This script will list the properties of an object
+	Need to adjust so it can take arguments from outside the script itself, IE so we can call it from the UI with 	
+	more flexible targeting. 
+
+++ TODO
+	- adjust the identify script to recursively list the parents of a given object.
+	- add to identify a way to inspect methods
+	
