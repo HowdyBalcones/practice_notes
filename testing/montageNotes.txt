@@ -1,0 +1,66 @@
+++ Resources 
+https://imagemagick.org/Usage/montage/
+https://imagemagick.org/Usage/layers/
+
+
+++ Presiding Goal 
+Creating a series of tools on top of the imagemagick cli to automate collaging images in various ways. 
+We'll play with this to see if it might be better than writing some jsx or flat js for the same purpose. 
+
+++ Notes
+- We'll need to relearn the inspect image script again in order to account for different aspect ratios.
+- Still wonder of the cropping and montaging script. Randomly crop sections, random number of times, over random array of images.
+Then copy each section into a montage, at random. 
+- need to make something that sets up the folders correctly as well, so that we have a reference library that is copied to
+a new working folder where the images are then cut up and such. 
+- seems like we'll want to concat all the images in rows then the rows into a single image. 
+   + Problem: If we are cropping random selections, we can resize the images horizontally but not vertically, or vice versa. 
+   This will lead to gaps in the arrangement of the images. 
+   + A simple solution would be to set the selections to be consistent in on dimension, but that would be less interesting 
+   visually. 
+   + Append could be another route here, it seems to ahve the ability to overlap images a bit more dynamically. 
+   + The draw command is another effective and simple solution. 
+   
+Step 1 -- get cropped clips from each source image and save them to some naming scheme. 
+- need to get the bounds of each image
+- need to perform the operation multiple times to each image
+- need to save the output in a separate folder
+- need to crop the image according to its bounds
+- need to append each cropped image into a single image   
+
+++ Examples
+
++ magick montage
++ 1 -- create an array of input images as output image
+magick montage doctor.png golf.png montage.png
+
++ 2 -- adjust the frame around the images with +2+2
+magick montage doctor.png golf.png -geometry +2+2 montage.png
+
++ 3 -- resize each image to fit 48x48
+magick montage doctor.png golf.png -geometry 48x48+2+2 montage.png
+
++ 4 -- resize only images larger than given size, escaped > sym
+magick montage doctor.png golf.png -geometry 48x48\>+2+2 montage.png 
+
+++ 5 -- this one is to our interest, we can overlap images
+magick montage doctor.png golf.png -geometry 100x100-10-10 montage.png
+
++ 6 -- only resize smaller images 1x1\<
+magick montage doctor.png golf.png -geometry 1x1\<+2+2 montage.png
+
++ 7 
+
++ magick identify -- if we need information about an image, use identify and store that info in memory. 
+This allows for testing of images by a script for some purpose. 
+
++ 8 -- use identify to get the width and height only 
+magick identify -format "%wx%h" montage.png
+
++ magick -crop
++ 9 
+magick rose: -crop 40x30+10+10 output.gif
+
++ 10 -- this is how to avoid cropping without the canvas leftover 
+magick rose: -crop 40x30+10+10 +repage output.gif
+

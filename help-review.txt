@@ -17,9 +17,9 @@ grep - a very powerful way to search for files, contents of files, regex compati
   + egrep -i 'search term'
   + 
 sed - a line editor and filter program, regex compatible, quite handy
-awk - a programming language for text, powerful and arcane
+++ awk - a programming language for text, powerful and arcane
 cp - copy a file at one point in file hierarchy to another point in the file hierarchy
-rsync - copy many files to a directory, offers additional utility such as ignoring duplicates
+++ rsync - copy many files to a directory, offers additional utility such as ignoring duplicates
 cron - set commands, programs, scripts, etc to run on a schedule while the machine is active
 crontab - view the existing cron commands in a table
 head - view the top section of a file or output, default 10 lines

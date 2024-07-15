@@ -5,12 +5,16 @@
 
         var doc = app.activeDocument;
         var typeArr = [];
+        var groupNameArr = [];
     // search functions
     try {
         // push onto itemArr
         function addText(textItem) {
            typeArr.push(textItem);
         };
+       function addGroupName(group) {
+           groupNameArr(group); 
+       }
         // recursive search for groups and group contents
         function loopGroup(group) {
            for (var i = 0; i < group.groupItems.length; ++i) {
@@ -18,6 +22,7 @@
               if (item.typename === "TextFrame") {
                  addText(item);
               } else if (item.typename === "GroupItem") {
+
                  loopGroup(item);
               } 
            }
@@ -36,7 +41,7 @@
 
         // need to create something similar to loop group/page, but for objects
         // also need a better way to display them. UI ? 
-
+         
         function inspectObjArr(array) {
             loopPage(doc);
             var propertiesArr = [];
@@ -46,9 +51,8 @@
                        try {
                             if (obj.hasOwnProperty(key)) {
                                 propertiesArr.push(key + " -- " + obj[key]);
-                            } else if (key instanceof Object) {
-                                
                             }
+
                     } catch(e) { 
                         if (key.enumerable === false) {
                              propertiesArr.push(key + " is not enumerable");

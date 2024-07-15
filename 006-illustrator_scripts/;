@@ -1,0 +1,71 @@
+(function () {
+   try {
+      var thisDoc = app.activeDocument;
+      var testText = 'dog, cat, bird, plane, Dog, hog';
+      var typeArr = [];
+   } catch(e) {
+      alert('Location: Initializers ' + e)
+   }
+
+   try {
+      function findIllText(targetContainer) {
+         
+      };
+   } catch(e) {
+      alert("Location: findIllText " + e);
+   }
+
+   try {
+      function addText(textItem) {
+         typeArr.push(textItem);
+      };
+
+      function loopPage(container) {
+
+      };
+
+      function loopGroup(group) {
+         for (var i = 0; i < group.pageItems.length; ++i) {
+           
+         }
+      };
+
+      function searchIllGroups(targetContainer) {
+         for (var i = 0; i < targetContainer.pageItems.length; ++i) {
+            var item = targetContainer.pageItems[i];
+            if (item.typename === "TextFrame") {
+               typeArr.push(item.contents);
+            } else if (item.typename === "GroupItem") {
+               searchIllGroups(item);
+            }
+         }
+      };
+   } catch(e) {
+      alert("Location: searchIllGroups " + e);
+   }
+
+   try {
+      function matchIllText(targetContainer) {
+         var regex = new RegExp(/TESTING/gi);
+         searchIllGroups(thisDoc);
+         var docText = typeArr.join(' ');
+         var matches = docText.match(regex);
+         if (matches === null) {
+            alert("There were no matches!")
+         } else {
+            alert(matches.length);
+         }
+            alert(typeArr.length);
+      }
+   } catch(e) {
+      alert("Location matchIllText " + e);
+   }
+
+   try {
+     matchIllText(thisDoc);
+     // searchIllGroups(thisDoc);
+   } catch(e) {
+      alert("Location: function calls " + e);
+   }
+
+})();
