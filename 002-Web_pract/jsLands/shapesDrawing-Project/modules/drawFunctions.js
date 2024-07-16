@@ -5,6 +5,7 @@
  * - if we are using modules in a script we need to run an http-server with npm for security reasons
  *   command = cd ./projectFolder; http-server
  * - if the browser doesn't seem to be updating the code, hard refresh the cache with cmd + shift + R 
+ *   http-server -c 1
  */
 import { AnimatedShape, Square, Rectangle, Circle, Triangle, RegularPolygon, animateShapes, spawnShapes } from './shapeFunctions.js';
 const canvasFunc = () => {

@@ -36,6 +36,8 @@
 	IS <command, value> - when a condition IS met, or IS returns true 
 	NULL
 	JOIN - combine multiple tables
+    CROSS JOIN - pairs each row from one table with another table, can be constrained with WHERE
+    UNION - Stack columns on top of one another, conditions = same num of columns, columns have same types in the same order
 	GROUP BY - used with aggregate functions, arranges identical data into groups, after WHERE before ORDER BY, LIMIT
 	HAVING - filters groups, similar to WHERE but for groups instead of rows
 	ORDER BY - sorts by a given column
@@ -55,6 +57,10 @@
 	datetime()
 	julianday()
 	unixepoch()
++ Concepts
+    Primary key vs Foreign Key
+    - A primary key is a unique identifier for a row in a given table. 
+    - When a primary key from a different table is in a given table alongside a primary key, it is known as a foreign key
 
 + Types
 	INTEGER -- +- whole num
@@ -977,5 +983,84 @@ LEFT JOIN online
   WHERE online.id IS NULL;
 -- find lines that DON'T match
 
+++ 36 - Primary vs Foreign keys
+SELECT * FROM classes
+    JOIN students
+    ON classes.id
+    = students.class_id;
+
+++ 37 - Cross Joins
+// sometimes we want to combine all rows from one table to another.
+
+SELECT shirts.shirt_color,
+       pants.pants_color
+FROM shirts
+CROSS JOIN pants;
+
+// list subscribers within a constraint
+SELECT COUNT(*)
+FROM newspaper
+WHERE start_month <= 3
+AND end_month >= 3;
+
+// this will list all subscribers, including on months they were not subscribed
+SELECT * 
+FROM newspaper
+CROSS JOIN months;
+
+// this will list only subscribers while they were subscribed
+SELECT *
+FROM newspaper
+CROSS JOIN months
+WHERE start_month <= month
+AND end_month >= month;
+
+// This will count the number of subscribers in each month
+SELECT month
+    COUNT(*)
+FROM newspaper
+CROSS JOIN months
+WHERE start_month <= month
+AND end_month >= month
+GROUP BY month;
+
+++ 38 -- UNION
+
+SELECT * FROM table1
+UNION
+SELECT * FROM table2;
+
+// number of columns needs to be the same and the types and order of types needs to be the same
+
+++ 39 -- WITH
+
+SELECT customer_id,
+    COUNT(subscription_id) AS 'subscriptions'
+FROM orders
+GROUP BY customer_id;
+
+WITH previous_results AS (
+    SELECT ...
+    ...
+    ...
+)
+SELECT *
+FROM previous_results
+JOIN customers
+    ON ... = ...;
+
+WITH previous_query AS (
+    SELECT customer_id,
+        COUNT(subscription_id) AS 'subscriptions'
+    FROM orders
+    GROUP BY customer_id
+)
+SELECT customers.customer_name,
+    previous_query.subscriptions
+FROM previous_query
+JOIN customers
+    ON previous_query.customer_id = customers.customer_id;
+
+// important to remember that joins will generally refer to primary or foreign keys
 
 
