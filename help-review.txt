@@ -107,14 +107,19 @@ sqlite3 -- for many languages, bash/zsh compatible
 	- functionName () {}
   + for in loop 
 	- for <var> in "target"; do done
+   - for ((i = 0; i < "$length"; ++i)) {}
+
   + declare array 
 	- <varName>=("item1" "item2" "item3")
 	- echo "${<varName>[0]}" - print "item1"
 	- echo "${<varName>[@]}" - 
+
   + declare associative array - typeset
 	- typeset -A
+
   + positional parameters
 	- ${1..9} 
+
   + special parameters
 	- $# number of positional parameter
 	- $@ all positional parameters (individually quoted)
@@ -124,10 +129,12 @@ sqlite3 -- for many languages, bash/zsh compatible
 	- $! process id of the last background shell
 	- $- current options set for the shell
 	- $_ last argument of the previous shell
+
   + if statements
 	- if [[ conditional boolean ]]; then
 	  elif [[ second conditional ]]; then
 	  fi
+
   + IFS - a list of characters that separate fields; used when the shell splits words as part of expansion
   
 
