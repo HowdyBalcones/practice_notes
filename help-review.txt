@@ -48,6 +48,45 @@ tar -xzf targetArchive.tar.gz path/to/file-s
 mount 
 unmount
 
+++ networking
+
+
+netstat -r 
+ifconfig -- very powerful networking tool. Can change/filter MAC addresses. 
+dig
+traceroute
+ping
+
+++ hardware information
+system_profiler
+   + SPSoftwareDataType
+   + SPHardwareDataType
+   + SPNetworkDataType
+diskutil list
+df -h
+df -f # print information regarding disk space usage in a readable format
+top
+vm_stat
+
+++ system configuration
+sysctl
+dmesg
+ioreg
+system_setup
+csrutil
+spctl
+launchctl
+pmset -g
+
+uname
+hostname
+sw_vers
+uptime
+
+
+
+
+
 magick
 magick convert
 convert

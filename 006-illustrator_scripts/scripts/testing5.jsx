@@ -19,8 +19,8 @@ var rules = {
 };
 
 var generations = getRandomInt(2,2);
-var angle = getRandomInt(90,90);
-var length = getRandomInt(5,5);
+var angle = getRandomInt(45,90);
+var length = getRandomInt(1,5);
 
 function applyRules(input) {
 	var output = "";

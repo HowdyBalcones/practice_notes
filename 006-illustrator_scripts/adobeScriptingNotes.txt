@@ -5,7 +5,7 @@
 	+ Global functions
 	- eval() - evaluates return value as a string
 	- parseInt(string, radix) - parses a string and returns an integer, radix means base number of counting system
-	- parseFloart(string) - parses decimal number from string
+	- parseFloat(string) - parses decimal number from string
 	- isNaN(value) - determines if value is not a number
 	- isFinite(value) - determines if a value is a finite number
 	- escape(string) - encodes a string for inclusion in a URL 

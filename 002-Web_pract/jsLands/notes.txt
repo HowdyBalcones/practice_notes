@@ -1,3 +1,471 @@
+10-22-2024
+Stacks 
+   + contains data nodes
+   + 
+   + Methods = Push, Pop, Peek - similar to array methods, push something onto the stack, pop something off the stack, look at stack
+   + Can have a limit to the size of the stack
+   + LIFO, last in first out
+   + Can be implemented using a linked list because they are often more efficient than arrays. 
+   + has overflow and underflow
+   + 
+
+Examples 
+class Stack {
+   constructor(maxSize = Infinity) {
+      this.stack = new LinkedList();
+      this.maxSize = maxSize;
+      this.size = 0;
+   }
+   hasRoom() {
+      if (this.size < this.maxSize) {
+         return true;
+      } else {
+         return false;
+      }
+   }
+   isEmpty() {
+      return this.size === 0;
+   }
+   push(value) {
+      if (this.hasRoom()) {
+         this.stack.addToHead(value);
+         ++this.size;
+      } else {
+         throw new Error("Stack is full.");
+      }
+   }
+   pop() {
+      if (!this.isEmpty()) {
+         const value = this.stack.removeHead();
+         --this.size;
+         return value;
+      } else {
+         console.log('Stack is empty!');
+      }
+   }
+   peek() {
+      if (!this.isEmpty()) {
+         return this.stack.head.data;
+      } else {
+         return null;
+      }
+   }
+}
+10-18-2024
+
+Queues
+   + Many ways to implement, often uses singly linked lists
+   + It enqueus and dequeues items from a linked list. 
+   + Works like a line at a grocery store. 
+   + Enqueue - adds data to the tail of the list
+   + Dequeue - removes the head of the list
+   + Peek - reveals data at the head of the list
+   + FIFO
+   + usually relinking or reordering the nodes of a list is restricted in some specific way
+   + there is often a length limit in a bounded queue
+   + Adding to a full list is overflow, removing from an empty list is underflow
+  
+Examples 
+class Queue {
+   constructor(maxSize = Infinity) {
+      this.queue = new LinkedList();
+      this.maxSize = maxSize;
+      this.size = 0;
+   }
+   isEmpty() {
+      return this.size === 0;
+   }
+   hasRoom() {
+      return this.size < this.maxSize;
+   }
+   enqueue(data) {
+      if (this.hasRoom()) {
+         this.queue.addToTail(data);
+         ++this.size;
+      } else {
+         throw new Error("Queue is full!");
+      }
+   }
+   dequeue() {
+      if (!this.isEmpty()) {
+         const data = this.queue.removeHead();
+         --this.size;
+         return data;
+      } else {
+         throw new Error("Queue is empty!");
+      }
+   }
+} 
+
+10-14-2024
+Continuing data structures
+Linked lists - Doubly and Singly
+
+Doubly Linked 
+   + Has a head and tail in the constructor
+   + both are set to null
+   + methods include adding nodes to both ends, removing nodes from both ends, finding and removing nodes anywhere in the list,
+   traversing the list 
+   + basically need to add the previous pointer to a singly linked list implementation
+   + needs an updated node object, one with a set previous node method and a get previous node
+    
+
+Examples
+//////
+Two pointers in parallel - what if we want to find Nth item in a linked list
+- Solution 1
+   + just add each element to an array and then get the index of the desired position in the list
+   + duplicated data, doesn't scale
+const arrayNthLast = (list, n) => {
+   const linkedListArray = [];
+   let currentNode = list.removeHead();
+   while (currentNode) {
+      linkedListArray.push(currentNode);
+      currentNode = currentNode.getNextNode();
+   }
+   return linkedListArray[linkedListArray.length - n];
+}
+
+- Solution 2
+   + set a delayed counter behind an iterating variable that goes to the end of the list
+   + this will give you a node X away from the start of the list
+
+   const nthLastNode = (linkedList, n) => {
+      let current = null;
+      let tailSeeker = linkedList.head;
+      let count = 0;
+      while (tailSeeker) {
+         tailSeeker = tailSeeker.next;
+         if (count >= 0) {
+            if (!current) {
+               current = linkedList.head;
+            }
+            current = current.next;
+         }
+         count ++
+      }
+      return current;
+   }
+
+- Solution 3
+   + Pointers of different speed 
+   + two pointers, the first twice as fast as the second. By the time the first reaches the end of the linkedList,
+   the second will always be at the middle of the chain.
+const findMiddle = linkedList => {
+   let fastPointer = linkedList.head;
+   let slowPointer = linkedList.head;
+   while (fastPointer !== null) {
+      fastPointer = fastPointer.getNextNode();
+      if (fastPointer !== null) {
+         fastPointer = fastPointer.getNextNode();
+         slowPointer = slowPointer.getNextNode();
+      }   
+   }
+   return slowPointer; // this will always be the middle of the list since it moves half speed
+}
+
+//////
+
+swapping nodes 
+- Four variables initialized
+- two iterator variables, they stand for the current node being checked for given data
+- two variables for the previous nodes of the checked nodes, so that when the swap occurs we can fix the pointers
+- loop through the chain until data is matched or nothing is found for both node1 and node2
+- swap the pointers for the previous nodes to the matched nodes (node1Prev > node2, node2Prev > node1)
+- swap the pointers for the matched nodes themselves, using next nodes and a temp variable 
+- handle edge cases where there are no matches, the nodes to swap are heads, or the data being swapped is the same.
+
+//////
+const LinkedList = require('./LinkedList.js')
+
+const testList = new LinkedList();
+for (let i = 0; i <= 10; i++) {
+  testList.addToTail(i);
+}
+
+testList.printList();
+swapNodes(testList, 2, 5);
+testList.printList();
+
+function swapNodes(list, data1, data2) {
+  console.log(`Swapping ${data1} and ${data2}:`);
+  
+  let node1Prev = null;
+  let node2Prev = null;
+  let node1 = list.head;
+  let node2 = list.head;
+
+  if (data1 === data2) {
+    console.log('Elements are the same - no swap to be made');
+    return;
+  }
+  
+  while (node1 !== null) {
+    if (node1.data === data1) { 
+      break;
+    }
+    node1Prev = node1;
+    node1 = node1.getNextNode();
+  }
+  
+  while (node2 !== null) {
+    if (node2.data === data2) {
+      break;
+    }
+    node2Prev = node2;
+    node2 = node2.getNextNode();
+  }
+  
+  if (node1 === null || node2 === null) {
+    console.log('Swap not possible - one or more element is not in the list');
+    return;
+  }
+
+  if (node1Prev === null) {
+    list.head = node2;
+  } else {
+    node1Prev.setNextNode(node2);
+  }
+
+  if (node2Prev === null) { 
+    list.head = node1;
+  } else {
+node2Prev.setNextNode(node1);
+  }
+  
+  let temp = node1.getNextNode();
+  node1.setNextNode(node2.getNextNode());
+  node2.setNextNode(temp); 
+}
+//////
+doubly linked list, bidirectional linked list
+const Node = require('./Node');
+
+class DoublyLinkedList {
+  constructor() {
+    this.head = null;
+    this.tail = null;
+  }
+
+  addToHead(data) {
+    const newHead = new Node(data);
+    const currentHead = this.head; 
+    if (currentHead) {
+      currentHead.setPreviousNode(newHead);
+      newHead.setNextNode(currentHead);
+    }
+    this.head = newHead;
+    if (!this.tail) {
+      this.tail = newHead;
+    }
+  }
+
+  addToTail(data) {
+    const newTail = new Node(data);
+    const currentTail = this.tail;
+    if (currentTail) {
+      currentTail.setNextNode(newTail);
+      newTail.setPreviousNode(currentTail);
+    }
+    this.tail = newTail;
+    if (!this.head) {
+      this.head = newTail;
+    }
+  }
+
+  removeHead() {
+    const removedHead = this.head;
+    if (!removedHead) {
+      return;
+    }
+    this.head = removedHead.getNextNode();
+    if (this.head) {
+      this.head.setPreviousNode(null);
+    }
+    if (removedHead === this.tail) {
+      this.removeTail();
+    }
+    return removedHead.data;
+  }
+
+  removeTail() {
+    const removedTail = this.tail;
+    if (!removedTail) {
+      return;
+    }
+    this.tail = removedTail.getPreviousNode();
+    if (this.tail) {
+      this.tail.setNextNode(null);
+    }
+    if (removedTail === this.head) {
+      this.removeHead();
+    }
+const    return removedTail.data;
+  }
+
+  removeByData(data) {
+    let nodeToRemove;
+    let currentNode = this.head;
+    while (currentNode !== null) {
+      if (currentNode.data === data) {
+        nodeToRemove = currentNode;
+        break;
+      }
+      currentNode = currentNode.getNextNode();
+    }
+    if (!nodeToRemove) {
+      return null;
+    }
+    if (nodeToRemove === this.head) {
+      this.removeHead();
+    } else if (nodeToRemove === this.tail) {
+      this.removeTail();
+    } else {
+      const nextNode = nodeToRemove.getNextNode();
+      const previousNode = nodeToRemove.getPreviousNode();
+      nextNode.setPreviousNode(previousNode);
+      previousNode.setNextNode(nextNode);
+    }
+    return nodeToRemove;
+  }
+
+  printList() {
+    let currentNode = this.head;
+    let output = '<head> ';
+    while (currentNode !== null) {
+      output += currentNode.data + ' ';
+      currentNode = currentNode.getNextNode();
+    }
+    output += '<tail>';
+    console.log(output);
+  }
+}
+const subway = new DoublyLinkedList()
+
+
+module.exports = DoublyLinkedList;
+
+Singly
+const Node = require('./Node'); // modern JS require syntax for including other code. Modular. 
+
+class LinkedList {
+   constructor(data) {
+      this.head = null;
+   }
+   addToHead(data) {
+      const newHead = new Node(data); // make new node
+      const currentHead = this.head; // store node we are replacing
+      this.head = newHead;          // replace head with new node
+      if (currentHead !== null) {
+         this.head.setNextNode(currentHead); // check if old head is connected, if so set new head to link to old head.
+      }
+   }
+   // add to end of list
+   addToTail(data) {
+      let tail = this.head; // start at front
+      if (tail === null) { // if front is empty then 
+         this.head = new Node(data); // make new head node
+      } else {
+         while (tail.getNextNode() !== null) { // while loop, condition is check the next key of current tail node isn't null
+            tail = tail.getNextNode() // set the current tail node to the next node if not null
+         }
+         tail.setNextNode(new Node(data)); // once the condition exits we should be at the end of the list so make the new tail node
+      }
+   }
+   // remove the current head, or first node
+   removeHead() {
+      const removedHead = this.head; // store head to be removed
+      if (!removedHead) {           // check if the head exists, if not stop the function
+         return;
+      }
+      this.head = removedHead.getNextNode(); // set head to the next node in line
+      return removedHead.data;       // return the removed heads data
+   }
+   // print entire list from head to tail
+   printList() {
+      let currentNode = this.head; // temp variable that changes as we go down the list
+      let output = '<head> '; // start of the formatted string
+      while (currentNode) { // loop while the currentNode exists, isn't null
+         output += currentNode.data + ' '; // add the currentNodes data key to the format string
+         currentNode = currentNode.getNextNode(); // change currentNode to the next node in the list, next key of currentNode
+      }
+      output += '<tail>'; // once the loop finishes that should be the end of the list so add tail to the format string end
+      console.log(output); // output the complete list to the console.
+   }
+}
+
+
+10-11-2024
+Working with Data Structures in JS
+
+DS handle four main functions:
+   + Inputting information
+   + Processing information
+   + Maintaining info
+   + Retrieving info
+Always consider
+   + What is the intended purpose for the data? Data can be arbitrary, but rarely is used arbitrarily 
+   + Do you need to control memory while handling the data? 
+   + Is there another data structure that could handle a given task more efficiently? 
+
+API and Structures 1
+   + Objects are hash mapped when retrieving, compare to Arrays where each retrieval requires traversing the whole array
+   + API = Application Programming Interface
+   + Public vs private functions of classes - review
+   
+Examples
+   + basic stack  
+   class Stack {
+      constructor() {
+         this._array = [];
+      }
+      push(newValue) {
+         this._array.push(newValue);
+      }
+      pop() {
+         this._array.pop();
+      }
+   }
+
+API and Structures 2 - Nodes
+   + Nodes are fundamental aspects of many other data structures, IE linked lists, stacks, queues, trees, and more
+   + A node has two essential parts: Some value contained in the node, and at least 1 link to the next node in sequence.
+   + They can have multiple nodes, especially two. Uses could be to refer to the previous node, or connect to another sequence. 
+   
+Example
+class Node
+{
+   constructor(value) {
+      this.value = value;
+      this.next = null;
+   }      
+   setNextNode(node) {
+      this.next = node;
+   }
+   
+   setNextNode(node) {
+   if (node instanceof Node || node === null) {
+      this.next = node;
+   } else {
+      throw new Error("That's not a node!")
+   }
+}
+   getNextNode() {
+      return this.next;
+   }
+}      
+
+const firstNode = new Node(69)
+
+traversing nodes
+currentNode = firstNode;
+while (currentNode != null) {
+   console.log(currentNode.data);
+   currentNode = currentNode.next;
+}
+
+
+
 09-14-2023
 - Working on DOM manipulation, essential terms, concepts
 
@@ -15,3 +483,5 @@ the user to work with HTML and XML
 	- getElementsByClassName() -- document.getElementByClassName("myClass"); -- what is NodeList
 	- querySelector() -- document.querySelector(".myClass") -- retrieves first element matching provided CSS selector
 	- 
+
+
