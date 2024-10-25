@@ -178,8 +178,12 @@ function renameGroup(newName) {
       for (var i = 0; i < rows.length; ++i) {
          cols.push(rows[i].split(",")); 
       }
+      for (var i = 0; i < cols.length; ++i) {
+         // here we can target each line with some operation
+         // so there is opportunity to construct functions that fit in here
+      }
       
-      newText.contents = cols[0][1];
+      newText.contents = cols;
       // var rows = data;
       // alert(rows);
 
