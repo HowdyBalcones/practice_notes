@@ -1,3 +1,136 @@
+10-29-2024
+Recursion - oh shit brother!
+
+
+10-28-2024
+Hash Maps - woohoo
+   ? Can hash maps store objects other than linked lists? What other objects exist for hash maps and what is their use case? 
+   A - Yes this is a common use of hashmaps, so much so there isn't really a specific term for the types of objects used in this 
+   way. It is a generic object that suits the purposes of the hash table in it's context. 
+   ? There must still be patterns that arise here. Worth following up on to see variations of objects as the data value of a node. 
+   
+
+   + very efficient for storing and retrieving data of various kinds
+   + The efficiency comes from the position of the data being stored on creation
+   + maps are effectively key-value pairs of various length
+   EG: Dogs-Breeds-Size
+       Trees-Range-Size
+       Fruits-Calories-Cost
+       Etc-Etc-Etc
+   + There need to be unique keys, with arbitrary values
+   + Hashing functions return the index of a value based on some interpretation of the value in that index
+   This could mean that the value is converted into some numerical code that will be unique to that position. 
+   
+   + Sits on top of an array in this instance
+   + Need to know the size of the array at all times
+   + The hash function should return an array index 
+   + Shouldnt be able to reverse the hashing function once interpreted
+   - That implies to me the value and name should be stored separately from the hash
+   + The storage location at the index given by the hash is a hash bucket
+   + When we make two of the same key, this is called a collision 
+   - One strategy to handle this is called separate chaining 
+   This is essentiall an array of linked lists
+   If the index of the hash is empty, make a new linked list with the data as its head
+   If not empty, then append the data to the end of the linked list
+   - Another collision strategy is called open addressing
+   One way this is implemented is to use Probing, which checks each indice in the array to see if it's empty or not
+   - Quadratic probing 
+   This is used to avoid clustering, by adding increasingly large numbers to the hash code
+   
+   Synopsis: 
+   + Hash-Map = a key-value store that uses an array and a hashing function to save and retrieve values.
+   + Key = identifier given to a value for later retrieval 
+   + Hash-Function = a function that takes some input and returns a number
+   + Compression function = a function that transforms its inputs into some smaller range of possible inputs 
+   
+   + Recipe for saving to a hash table: 
+   - Take the key and plug it into the hash-function, returning the hash code
+   - Modulo the hash code by the length of the underlying array, returning the array index
+   - Check if the array at the given index is empty, if so save the value/key pair to that index
+   - if the array is full at that index continue to the next possible position depending on your collision strategy
+   
+   + Recipe for retrieving from a hash table:
+   - Take the key and plug it into the hash function, getting the hash code. 
+   - Modulo that hash code by the length of the underlying array, return the index
+   - Check if the array at that index has contents, if so check the key saved there. 
+   - If the key matches the one you're looking for, return the value. 
+   - If the keys don't match, continue to the next position depending on your collision strategy. 
+   + There are two well known collision strategies
+   - Separate chaining - where each index of the hash-map points to a linked list
+   - Open addressing - where if the index of the map is occupied, it moves to another spot in the list until an empty spot is found
+
+   Questions: 
+// Question 1: How would you delete a key-value pair from this hash-map? 
+// answer: create a new method called delete or something that uses the retrieve method 
+// and finds the given value to then delete it. It adjusts the given linked list as needed. 
+
+// Question 2: Are there other strategies besides separate chaining? What would 
+// be advantages/disadvantages for a method other than separate chaining? 
+// answer: this method is called open addressing, where if an index is occupied
+// the assign function will look for the next available indice. The advantages to this
+// are in avoiding the shortcomings of linked lists. If you know there will be many 
+// objects on the same indice in the hashmap open addressing can be more efficient. 
+
+   Example 
+   // this uses a node and linkedlist class for our hashmap class
+   // each key of the hashmap is a linkedlist, meaning this has a separate chaining collision strategy
+   // the data portion of each node contains a key-value pair object 
+   // Worth noting the constructor here: utilizing the parameters of the constructor as well as not using this. syntax for 
+   // constructors is new to me. Should understand that implementation better. 
+
+   
+   const LinkedList = require('./LinkedList');
+const Node = require('./Node');
+class HashMap {
+  constructor(size = 0) {
+    this.hashmap = new Array(size)
+      .fill(null)
+      .map(() => new LinkedList());
+  }
+
+  hash(key) {
+    let hashCode = 0;
+    for (let i = 0; i < key.length; i++) {
+      hashCode += hashCode + key.charCodeAt(i);
+    }
+    return hashCode % this.hashmap.length;
+  }
+
+  assign(key, value) {
+    const arrayIndex = this.hash(key);
+    const linkedList = this.hashmap[arrayIndex];
+    if (linkedList.head === null) {
+      linkedList.addToHead({ key, value });
+      return;
+    }
+    let current = linkedList.head;
+    while (current) {
+      if (current.data.key === key) {
+        current.data = { key, value };
+      }
+      if (!current.next) {
+        current.next = new Node({ key, value });
+        break;
+      }
+      current = current.next;
+    }
+  }
+
+  retrieve(key) {
+    const arrayIndex = this.hash(key);
+    let current = this.hashmap[arrayIndex].head;
+    while (current) {
+      if (current.data.key === key) {
+        return current.data.value;
+      }
+      current = current.getNextNode();
+    }
+    return null;
+  }
+}
+
+module.exports = HashMap;  
+
 10-22-2024
 Stacks 
    + contains data nodes
@@ -10,6 +143,99 @@ Stacks
    + 
 
 Examples 
+// this is implementation of a stack class
+const Stack = require('./Stack.js');
+const prompt = require('prompt-sync')();
+// ------------------------------
+// Initialization
+// ------------------------------
+const backPages = new Stack();
+const nextPages = new Stack();
+let currentPage;
+let finish = false;
+let showBack = false;
+let showNext = false;
+
+// ------------------------------
+// Helper Functions
+// ------------------------------
+function showCurrentPage(action) {
+  console.log(`\n${action}`);
+  console.log(`Current Page = ${currentPage}`);
+  console.log(`Back Page = ${backPages.peek()}`);
+  console.log(`Next Page = ${nextPages.peek()}`);
+}
+
+function newPage(page) {
+  backPages.push(currentPage);
+  currentPage = page;
+  while (!nextPages.isEmpty()) {
+    nextPages.pop();
+  }
+  showCurrentPage('NEW: ');
+}
+
+function backPage() {
+  nextPages.push(currentPage);
+  currentPage = backPages.pop();
+  showCurrentPage('BACK: ');
+}
+
+function nextPage() {
+  backPages.push(currentPage);
+  currentPage = nextPages.pop();
+  showCurrentPage('NEXT: ');
+}
+
+
+/*
+ * The following strings are used to prompt the user
+ */
+const baseInfo = '\nEnter a url';
+const backInfo = 'B|b for back page';
+const nextInfo = 'N|n for next page';
+const quitInfo = 'Q|q for quit';
+const question = 'Where would you like to go today? ';
+
+// ------------------------------
+// User Interface Part 1
+// ------------------------------
+showCurrentPage('DEFAULT: ');
+
+while(!finish) {
+  let instructions = baseInfo;
+  let answer = prompt(`${question}`);
+  let lowerCaseAnswer = answer.toLowerCase();
+
+  if (backPages.peek() !== null) {
+    instructions += ", " + backInfo;
+    showBack = true;
+  } else {
+    showBack = false;
+  }
+  if (nextPages.peek() !== null) {
+    instructions += `, ${nextInfo}`;
+    showNext = true;
+  } else {
+    showNext = false;
+  }
+  instructions += `, ${quitInfo}.`
+  console.log(instructions);
+  if ((lowerCaseAnswer !== 'n') && (lowerCaseAnswer !== 'b') && (lowerCaseAnswer !== 'q')) {
+    newPage(answer);
+  } else if ((showBack === true) && (lowerCaseAnswer === 'b')) {
+    backPage();
+  } else if ((showNext === true) && (lowerCaseAnswer === 'n')) {
+    nextPage();
+  } else if (lowerCaseAnswer === 'n') {
+    console.log('Invalid Input: No Next Page.');
+  } else if (lowerCaseAnswer === 'b') {
+    console.log('Invalid Input: No Previous Page.');
+  } else if (lowerCaseAnswer === 'q') {
+    finish = true;
+  }
+}
+// this is a basic stack class
 class Stack {
    constructor(maxSize = Infinity) {
       this.stack = new LinkedList();

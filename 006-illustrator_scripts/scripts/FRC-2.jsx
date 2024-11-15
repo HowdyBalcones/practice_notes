@@ -1,20 +1,7 @@
 (function() {
-   
-   // consider the use of createFromFile();
-   // thinking the template system will need to be split apart. Meaning, one file one sign template. 
-   // svg? ai? 
-   //
-   // this script set will focus on groups
-   // moving objects into a groupi +
-   // creating a new group +
-   // arranging items inside of a group
-   // nested groups
-   // renaming groups +
-   // copying and pasting groups 
-   // pasting groups from one file to another
-
+      
    try {
-      doc = app.activeDocument;
+      var doc = app.activeDocument;
    } catch(e) {
       alert(e.name + ": " + e.message + "\nNo active document");
    }
@@ -24,9 +11,24 @@
    }
    // removes leading whitespace, 1 or more spaces with 1 space
    function trimAndCollapse(string) {
-      return string.replace(/^ +| +$/g, "").replace(/ +/g, " ");
+      return string.replace(/^ +| +$/g, "");
+   }
+
+   function normalizeNewLines(data) {
+      return data.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
    }
    
+   function readFile(filePath) {
+      var file = new File(filePath);
+      if (file.open('r')) {
+         var fileContent = file.read();
+         file.close();
+         return fileContent;
+      } else {
+         alert("Failed to open the file.");
+      }
+   }
+
    // This makes an empty group, cycles through the current selection, for each item in selection it adds it to the new group. 
    function makeGroup() {
       if (app.activeDocument.selection.length > 0) {
@@ -66,6 +68,32 @@ function renameGroup(newName) {
       return newCMYKColor;
    }
 
+   function giveRgb(r,g,b) {
+      var newRGBColor = new RGBColor();
+      var rgbValues = [r,g,b];
+      var colorProperties = ['red', 'green', 'blue'];
+      for (var i = 0; i < colorProperties.length; ++i) {
+         newRGBColor[colorProperties[i]] = rgbValues[i];
+      }
+      return newRGBColor;
+   }
+
+   function giveLab(l,a,b)  {
+      var newLabColor = new LabColor();
+      var labValues = [l,a,b];
+      var colorProperties = ['l','a','b'];
+      for (var i = 0; i < colorProperties.length; ++i) {
+         newLabColor[colorProperties[i]] = labValues[i];
+      }
+      return newLabColor;
+   }
+
+   function giveGray(saturation) {
+      var newGrayColor = new GrayColor();
+      newGrayColor.gray = saturation;
+      return newGrayColor;
+   }
+
    function checkCmyk(target1, target2) {
       var t1Cyan = target1.cyan.toFixed(2);
       var t1Magenta = target1.magenta.toFixed(2);
@@ -101,7 +129,41 @@ function renameGroup(newName) {
       }
    }
 
-   // lets rename the group based on the color of that group, maybe by the CMYK values here. 
+   function setColor(list, colorVal) {
+      var len = list.length;
+      var colSpace = doc.documentColorSpace;
+      for (var i = 0; i < len; ++i) {
+         var item = list[i];
+         var colorType = item.fillColor;
+         if (item.fillColor) {
+            var newColor;
+            switch(colSpace) {
+               case DocumentColorSpace.RGB:
+                  newColor = giveRgb(colorVal[0], colorVal[1], colorVal[2]);
+                  break;
+               case DocumentColorSpace.CMYK:
+                  newColor = giveCmyk(colorVal[0], colorVal[1], colorVal[2], colorVal[3]);
+                  break;
+            }
+            item.fillColor = newColor;
+         }  else if (item.typename === "GroupItem" || item.typename === "CompoundPathItem") {
+               setColor(item.pageItems, colorVal);
+         } else {
+            alert("No fill color value for " + item.name + "\n");
+         }
+      }     
+   }
+
+   function setRandomRgb(item) {
+      var ran1 = giveRandomInt(0, 255);
+      var ran2 = giveRandomInt(0, 255); 
+      var ran3 = giveRandomInt(0, 255); 
+      var newRgb = new RGBColor(); 
+      newRgb.red = ran1;
+      newRgb.green = ran2;
+      newRgb.blue = ran3;
+      item.fillColor = newRgb;
+   }
 
    function renameAndGroupByColor() {
       var currentSelection = doc.selection;
@@ -127,7 +189,6 @@ function renameGroup(newName) {
          if (!colorExists) {
             var newGroup = doc.groupItems.add();
             newGroup.name = cRound + "-" + mRound + "-" + yRound + "-" + bRound;
-           // this line is what adds objects to the colorsList  
             colorsList.push({
                color: item.fillColor,
                group: newGroup
@@ -137,10 +198,11 @@ function renameGroup(newName) {
          }
          item.move(targetGroup, ElementPlacement.PLACEATEND);
       }
-      // alert(colorsList[0].cyan + "\n" + colorsList[1].cyan + "\n" + colorsList[2].cyan)
    }
-
-   // working list start
+   
+   function makeShape(shape, count) {
+      // something to make a shape based on the name passed to function and returns a number of that shape
+   }
 
    function gimmeType() {
       var currentSelection = doc.selection;
@@ -156,38 +218,52 @@ function renameGroup(newName) {
       alert(output);
    }
 
-   // need a way to target the CSV file creating the groups based on their section 
-   // function for creating documents for each section 
-   // function for separating the unit id's into their own file
-   // maybe a macro for excel  (disgusting) that will format and copy the usual contracts into something easily read
-   // 
-   var testData = "name,age,city\nAlice, A,25,New York, NY\nBob,30,Chicago";
-   function makeList(data) {
-      // this is going to make the list object that the other functions will end up using as a parameter
-      // The list object will come from the contract so there needs to be some method for making the contract 
-      // comprehensible. For now we do basic CSV parsing. We cannot rely on any third party packages. 
-      var testOurTrim = trimAndCollapse(data);
-//      alert(testOurTrim);
-      var rows = data.split("\n");
-      
-      var newText = doc.textFrames.add();
-      newText.name = "DATA_TEST";
-      
-      var cols = [];
+   function parser(data) {
+      var rows = [];
+      var currentRow = [];
+      var currentCell = '';
 
-      for (var i = 0; i < rows.length; ++i) {
-         cols.push(rows[i].split(",")); 
-      }
-      for (var i = 0; i < cols.length; ++i) {
-         // here we can target each line with some operation
-         // so there is opportunity to construct functions that fit in here
-      }
-      
-      newText.contents = cols;
-      // var rows = data;
-      // alert(rows);
+      var insideQuote = false;
+      var length = data.length;
 
-   }
+      for (var i = 0; i < length; ++i) {
+         var character = data[i];
+         var nextChar = data[i + 1];
+         
+         if (character === '"' && (!insideQuote || nextChar === '"')) {
+            // if the current character is a quote, and if not already inside a quote or the next char is another quote
+            if (insideQuote && nextChar === '"') {
+               // if inside a quote and the next char is a quote, escape the quote by adding a quote
+               // then skip the added quote
+               currentCell += '"';
+               ++i;
+            } else {
+               // toggle quote state - note, this doesn't mean turn to false, it means turn to opposite
+               // so that's a good pattern ! Handles state of quotes with one line. 
+               insideQuote = !insideQuote;
+            }
+         } else if (character === ',' && !insideQuote) {
+            // if not inside a quote, count comma as cell separator and push the cell onto currentRow
+            currentRow.push(trimAndCollapse(currentCell));
+            currentCell = '';
+         } else if (character === '\n' && !insideQuote) { 
+            // if newline, push the cell onto currentRow, push currentRow onto row, clear currentCell/Row
+            currentRow.push(trimAndCollapse(currentCell));
+            rows.push(currentRow);
+            currentRow = [];
+            currentCell = '';
+         } else {
+            // append char to currentCell string
+            currentCell += character;
+         }
+      }
+
+      if (currentCell || currentRow.length > 0) {
+         currentRow.push(trimAndCollapse(currentCell));
+         rows.push(currentRow);
+      }
+      return rows;
+   } 
 
    function label() {
       var labelName = prompt('Please enter your label name: ', 'Label will be applied to selected group.');
@@ -242,9 +318,7 @@ function renameGroup(newName) {
          newText.contents += "\n" + groupName + " - " + "Count: " + groupCounter[groupName];
       }
       newText.position = [0,0];
-      // alert();
    }
-   //alert(newText);
 
    function testingColor() {
       var testColor = giveCmyk(100,50,25,0);
@@ -256,10 +330,117 @@ function renameGroup(newName) {
       var name = prompt("Please enter sign type name: ", "IE: LCES-Door Vinyl");
       alert("Your sign name is: " + name)
    }
+   
+   function simpleTest(item) {
+      if (item) {
+         alert(item.name)
+      } else {
+         alert("No item name.")
+      }
+   }
+
+   function simpleTestEach(list) {
+      var len = list.length;
+      for (var i = 0; i < len; ++i) {
+         var item = list[i];
+         alert(item.typename);
+      }
+   }
+
+   function loopView(selection, func) {
+      // goal is to pass this function a selection, it will go through each item and center the camera on it, prompting for each
+   if (selection.length > 0) {
+      for (var i = 0; i < selection.length; ++i) {
+         var item = selection[i];
+            var bounds = item.visibleBounds;
+            var centerX = (bounds[0] + bounds[2]) / 2;
+            var centerY = (bounds[1] + bounds[3]) / 2;
+            var activeView = doc.activeView;
+            activeView.centerPoint = [centerX, centerY];
+            activeView.zoom = .75;
+            var answer = confirm("Apply to this object?");
+         if (answer) {
+            func(item);
+         } else {
+            ++i;
+         }
+      }
+     } else {
+       alert("No items in selection.")
+     }
+   }
+
+   function rasterPlanGrey(items) {
+      var raster_options = {
+         resolution: 100,
+         transparency: false,
+      }
+      for (var i = 0; i < items.length; ++i) {
+         var item = items[i];
+         var rasterItem = doc.rasterize(item, item.geometricBounds, raster_options);
+      }
+      $.gc();
+   }
+
+   function processInChunks(items, chunkSize, delay) {
+      for (var i = 0; i < items.length; i += chunkSize) {
+         var chunk = items.slice(i, i + chunkSize);
+         rasterPlanGrey(chunk);
+         $.sleep(delay);
+      }
+   }
+
+   function applyRandomly(list, callback) {
+      var len = list.length;
+      var randomUpBound = giveRandomInt(1,len);
+      for (var i = 0; i < len; ++i) {
+         var item = list[i];
+         if (item.typename === "GroupItem" || item.typename === "CompoundItem") {
+            applyRandomly(item.pageItems, callback);
+         } else {
+            var ran = giveRandomInt(1,randomUpBound-1);
+            var randomItem = list[ran];
+            for (var j = 0; j < ran; ++j) {
+               callback(randomItem);
+            }
+         }
+      }
+   }
+
+   function giveRandomInt(min, max) {
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+   }
+
+   function testObjColor() {
+      var item = doc.selection[0];
+      var colSpace = doc.documentColorSpace;
+      alert(item.typename);
+      // alert(item.fillColor instanceof CMYKColor);
+      // alert(colSpace == "DocumentColorSpace.CMYK");
+   }
+
+   function typeSizeIncrement(item) {
+      item = doc.selection[0];
+      if (item.typename === "TextFrame") {
+         var charCount = item.textRange.characters.length;
+         var size = 100;
+         for (var i = 0; i < charCount; ++i, size *= 1.2) {
+            item.textRange.characters[i].characterAttributes.verticalScale = size;
+            item.textRange.characters[i].characterAttributes.horizontalScale = size;
+         }
+      } else {
+         alert("Not a TextFrame!")
+      }
+   } 
+
+   function typeTest() {
+      alert(doc.selection[0].typename);
+   }
 
 
-
-
+// ---- Function Testing ----
 // testingPrompt();
 // dollarSign();
 // makeGroup();
@@ -270,5 +451,14 @@ function renameGroup(newName) {
 // workingListMake();
 // testingColor();
 //   label();
-   makeList(testData);
-})();
+   // makeList(testCsv);
+   // alert(readFile(testFilePath));
+// loopView(doc.selection, simpleTest);
+// rasterPlanGrey();
+// processInChunks(selection, 2, 400);
+ // testObjColor();
+//  setColor(doc.selection,[50,100,75,0]);
+// applyRandomly(doc.selection, setRandomRgb)
+// simpleTestEach(doc.selection);
+typeSizeIncrement();
+  })();
