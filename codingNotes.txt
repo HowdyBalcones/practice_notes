@@ -1,0 +1,150 @@
+Todays Programming Notes: 2024-11-13
+- asymptotic notation
+   + Used to understand the total number of instructions a program will require. 
+   + Theta, O, and Omega are used to represent N^2
+   + Use the most dominant term in the formula, which means the most computationally significant. 
+   + Big ol Theta: use when there is only has one case in terms of runtime
+   function(n) 
+      count = 0
+      while N/2 !== 0;
+         increment count
+         N = N/2;
+      return count
+   Counting these iterations will give you Asymptotic notation.
+   For the above pseudo code, you get Theta log2 N
+   + Common runtimes: 
+   0(1) - constant run
+   0(log N) - logarithmic run
+   0(N) - linear run
+   0(N log N) - used in sorting
+   0(N^2) - polynomial run time
+   0(2^N) - exponential run time
+   0(N!)  - factorial run time
+
+
+- Recursion
+   + calling a function or method from within itself. 
+   + We've done this a few times, and watched several tutorials that used recursion for data structures. 
+   + pseudo: 
+   define the function, speller
+      if there are no more letters // this is the "Base case" or an exit condition
+         print all done
+      print the first letter
+      call speller with the given name - the first letter
+   + compared to an iterative approach, you don't need a loop or to know the length of the target beforehand. 
+   + recursion works via the call stack, a stack data structure that all of your functions get piled onto. 
+   The last function you call is the first to be executed. 
+   + pseudo:
+   sum_list(arr) {
+      if arr empty? 
+      return 0;
+      
+      return first + sum_list(arr-1);
+   }
+   + example of a linked list method for finding matching node data recursively. 
+  findNodeRecursively(data, currentNode = this.head) {
+    if (currentNode === null) {
+      return null;
+    } else if (currentNode.data === data) {
+      return currentNode;
+    } else {
+      return this.findNodeRecursively(data, currentNode.next);
+    }
+  }
+
+}
+
+
+Todays Notes: 2024-11-12
+
++++ General Plans +++ 
+- This will be a general repository for script ideas, programming knowledge, program outlines, and the like. 
+We were having problems separating our regular notes from the program related rambling. 
+
+- Separate by language 
+   + Separate by project 
+
++++ Denotes Section +++ 
+- Denotes Subsection
+   + Denotes topic in subsection 
+   - Follows a topic in subsection
+   + This would be a new topic or idea
+
+
++++Javascript+++
+- sheetjs
+   + Links 
+   - https://docs.sheetjs.com/docs/
+   - an extensively used open source library of javascript for manipulating xls files into generic table data. 
+   
+- Extendscript and ecmascript 3
+   + Links
+   - https://ai-scripting.docsforadobe.dev/introduction/whatIsScripting.html
+   - https://yearbook.github.io/esdocs/#/Illustrator/Application
+
+   + Adobe scripting API based on a legacy Javascript format. Extensive customization. 
+   
+   + FRC scripting - Our library of scripts developed at Fource. Uses mostly Extendscript compatible JS.
+   
+   + Custom UI - building windows, panels, and groups using the built in UI functions for extendscript. 
+   
+   + Leveraging builtin Adobe features - the programs Illustrator, Photoshop, and inDesign have many useful tools
+   baked into the software already. Combining and extending those tools is a great place to start, continue. 
+   
+   + LLMs are fairly useful for debugging and getting started, examples and research is really where 
+   I use them the most. 
+
+   + General scripting directions
+   - Labeler -- this is meant to be a program that will take a selection of objects in illustrator and prompt the user to 
+   define a label for each object. The labels are well formed according to a composition hierarchy. The specifics are geared 
+   towards defining the composition of signs and not any and all things that could be made in illustrator. 
+   Eventually the goal is to have functions that help the designer in automating repetitive tasks based on the data held in 
+   each label. Where the labels are stored and how they correlate with objects in the document are my main problems right now. 
+
+      - The naming definitions -- JOB_ID-SECTION_CLASS-SECTION_ID-SIGN_CLASS-COUNT
+      - JOB_ID -- The specific job identification number. Should be available off the contract. 
+      - SECTION_CLASS -- section for the given sign. This can come from the file name but always the contract. 
+      - SECTION_ID -- The letter associated with the line item in each section. It's just a key for signs on the contract. 
+      - SIGN_CLASS -- Something more general than an exact sign name but still specific enough to know what the sign is. 
+      - COUNT -- the number of the given object to be made. 
+
+      - Problems -- 
+      Count -- determining whether the count should be made of exact or unique copies. 
+      Defining the GUI -- most of this work is done since we're working with an API that has GUI functions builtin 
+      
+
+      - Benefits and Abilities 
+      Drop signs from production artwork into sign book automatically
+      Build profile views of signs from "flat" artwork. 
+      Generate builds from profile view
+      Generate flat artwork from build and sign class
+      Generate descriptions from build, profile, sign class
+      
+   
+   - Parser -- just a basic CSV parser. It's related to labeler because its purpose here is to read through contract data. 
+      + If we can get consistently clean data from the contract in an automated way there will be a lot more work we can start. 
+      Basically all of the data needed to generate the naming hierarchy for labels will come from the contract. 
+      
+      + Problems -- currently the parser function isn't changing quote states correctly. It's flipping to true when there is 
+      no more quotation. I have a feeling the data is fucked so there is more cleaning to do so our program works through it 
+      reasonably well. 
+      Not sure need to test.       
+
+- Questions and Research 
+   + Application Obj. - The parent for all objects in the Extendscript DOM
+   - Parent of Documents
+   Handles matrices
+   Preferences
+   Printing
+   Configuration details - version num, AdobeID, path to the application
+   Main font list
+   - Methods
+   aAT... notation - don't understand the use for some of these. Don't really know what the sequencer is. 
+   Can be used to prompt for dialogs, redraw documents, undo changes, and a lot more from what I can tell.
+    
+
++++CPP+++
+
++++Bash+++
+
+

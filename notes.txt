@@ -1,0 +1,1624 @@
+Todays Notes: 2024-11-14
+- Worked on Jefferson north ranch today, left it off at the elevation spotting for buildings. We'll complete spotting tomorrow. 
+- sort've hit the motherload today with the tables for indesign. Extremely flexible. Can be linked to a separate xlsx file. 
+Has robust formatting. Is automatically threaded and plays well inside its text box. Good tool. 
+   + need to learn how to place them from the pages panel 
+   + need to understand when the separate lists are connected vs not connected.  
+   + and I know there has to be tricks with the graphic cells, because that looks too useful to not have tricks. 
+
+Todays Notes: 2024-11-12
+
+- holy moly. Their data is giga fucked. Who let this happen? It's like people have been throwing every piece of paperwork 
+onto the floor of a random room in an abandoned building and forgetting about it for twenty years. 
+- So this is the worst case scenario. Or one of them. There is no data. There is no SOP. The most tech they have is a local server
+where people have been dumping stuff. There are folders and such but they haven't been cleaned in a million years.
+
+- the first step would have to be normalizing the organization of the server. That would probably have to occur without permission. 
+   + Which is hardly an option. So a duplicate of the contract directory. 
+- then we'd assess methods for finding and separating all of the sheets from the directory. Which means identifying 
+what sheets matter. There are dummy sheets that are just duplicates, filled with false information, or have data for something
+other than the contract entirely.
+- once the meaningful sheets are separated from the chaff, we would write a sheetjs script to pull out sections and client name and
+place them into a single repository. As in one table. 
+- If all of that happens, we can actually work with the data now. We can do things like reference past sign types, estimate
+build costs of upcoming contracts, understand unique sign builds better.
+
+
+- the more I think about it, the more external packages would be useful. What functionality exactly needs to be ecmascript 3 standard?
+
+- lets do mostly coding today, and I want to take an abstract planning step. Brainstorming, charts, no limits until ideating
+is complete. It will be important over the next few months and possibly years. 
+
+   + go through scripts list 
+   + go through bash script list
+   + basically we need an ongoing notes repository that will concern itself only with documenting progress and working 
+   through ideas in programming. It should probably run parallel with the notes program, like it also opens another text file at
+   the same time. 
+
+Todays Notes: 2024-11-11
+- accumlated script ideas 
+INDESIGN WISHLIST
+   + fully object styled arrow templates
+   + better ways to link text, preferably in a generic template
+   + better ways to drop in styles from other documents
+   + labels from contract script would be interesting, along with list from contract
+
+   + can we scan a text box and remove the A. letters from a sign list?
+   - regex search, match A., replace with ""
+   + links and rasterItems collection today
+   - how to embed links, use their path, relink broken links
+   - rasterize vector,
+   + a temp script would get me hard for all of next year.
+
+   + lean away from OO
+   + can we get NPM packages to play with scripts? The scripts would call regular javascript that is attached to libraries.
+   + The problem there obviously is we have users so there needs to be a central location (server)
+   + Their server is probably off limits for that sort of thing right now, though we could just do a local version
+   to prove the point. It depends on how much time the packages would save compared to writing out everything that
+   I would otherwise need.
+   + lets play with symbols next. The CSV parser is important. Linked scripts is big. But symbols could solve a lot of problems.
+
+   + an insanely powerful utility would be a master list of all the contracts in a single document
+   solely for the purpose of searching it for examples to reference. Like oh what's this random fuck sign, currently
+   the system is ask people until they all tell you to go to M3. So x3-x100 work. I'd rather do a ten minute search.
+
+   + Great leeps and significant falls. Today we unearthed the .prototype method.
+   - What does this mean? We can create the functionality of classes in extendscript despite the lack of modern conveniences.
+   - The general idea here is: Make a series of classes that encapsulate one another down to the lowest common denominator.
+   - That would be the individual sign components themselves.
+   - We started with the Section class and that went farely well.
+   - The problem arises from how we split newlines in our makeList function. There are newlines inside a number of cells.
+   - This means we will process the CSV file character by character! Which will give us more flexibility in the end and doesn't
+   look terribly complicated. But it's a lot more than our current makeList lol.
+   - Keep brainstorming about this OO direction. It makes sense to me, given the API is OO.
+   - But is it. Clean? Fast? Easy? Elegant? NO.
+
+   + ok since the API is OO we should consider using OO methodology. There is a lot of prebuilt code we won't have to write again.
+   + using Object.prototype notation will take some practice
+   + Section and Sign objects should give us a lot of functionality.
+   + The question is how should the list be passed to the Section object, should the object handle parsing the list
+   - the answer is no I think, because the object itself is mostly just a container for information that's been cleaned.
+   - a function cleans a contract and outputs simple tabular data. It creates a list of Section objects from data.
+   - another function would add the signs of a section to the Section object.
+   - we can call the Section object when we want to now if it has a specific sign, want to do something with the list of signs.
+   - there may be an argument for creating a Contract object.
+
+   + excellent progress today, despite all the failure.
+     - added a helper function to read files and return their content
+     - added to makeList, properly works through rows and cells so we can match txt
+     - need to add some way to turn the line items into objects
+     - would like to abstract the makeList "mapping" utility, so basically implement map.
+     - want to be able to target the row, col, cell of any given table data more easily than writing the nested loop each time
+
+   + finally have a vision for the export script
+   - state export criterion
+   - implement functions for each criterion
+   - need to call the group overlapping script first
+   - then iterate through all the object groups
+   - for each object check against the export criterion
+   - every object that doesn't meet a given criterion run the appropriate function
+   - space each object according to it's position in the contract for that section (horizontal offset across pasteboard)
+
+   + Working on labeler when I get a moment.
+
+   + Everything worth using relies on the tagging script working for a document. Need tagging UI, tagging scheme, naming scripts
+   ++ This one is priority, its essential functions will become a foundation.
+   - consider global  edit according to tag 0.0
+
+   + WAREHOUSE
+   + MGMT needs some control knobs that make it easy to version control within the library.
+   + There needs to be a scheme for storing things in the warehouse and sorting them to our needs
+   + Will have to keep reiterting what a warehouse is for - allowing scripts to interact with data.
+   Your templates are just data. Your job list is data. Your contract, concept books, filing "system", etc
+   All of it is data that could be quarantined and SOP defined.
+   + relinking broken path script - the point is for when files are transferred from a different file tree
+      - part of share control bash script potentially
+   + Copy and archive bash script for moving production artwork files into share folders
+   - copy artwork files, case if Section copy to relative path from PAW to given Section folder - if existing PAW rename w/ rev, date
+   + group unique, create order, assign groups by order - use case is fixing z position errors in bulk
+   - sort unique page items, create group for each, move page items to groups, sort groups according to order
+   + also worth investigating matrice transformations and their general application. Seems to make bulk transforms much faster.
+   + This one is a stretch - double copy for book page asset spreads - one is link to production art and another copies the link w/
+   dims from cad tools. Need to explore the reverse linking process.
+   Good tools are ones built for a context.
+   + Wow this isn't built in to 2024 indesign - a way to select all of same link throughout document
+   - loop through all pages, for each page loop through all links, or just loop through all links of document, match link to selected
+   link, delete and/or other command input
+   + Create dimension from artwork - create spread for dimension copy
+   + create layer diagram from artwork - separated and dimensioned layers from unique artworks
+   + all of this procludes a labeling system that can identify sign types according to a contract
+   - the problem is contracts are unreliable documents - they don't contain every sign by default
+   Some is better than none however. The issue of contracts can be adjusted manually through user input.
+   - will need UI, basic data handling (OO), and a method for dimming artworks
+   + Is cad tools scriptable? Does the plugin conform to the illustrator api? - does not support scripting from api
+   - so making the spreads for dimensions and separated layers would be worth it, and we can manually add dims or they can idc
+   - copy tagged production art - rules for separating layers, rules for creating spread artboards
+   + ugh another idea - order artboards according to name - meaning you can name alphabetically or numerically and rely on that order
+
+- workflow ideas
+   + do a list of builds at the start on first turn, and create dimmed artwork just for unique builds. Will save time. 
+   + do a list of unique signs by level for everything on the first turn, will reduce repetitions. 
+   + all spotting first as normal 
+   + elevations inbetween step, after spotting but before full scale artwork starts
+   - the reason is because you don't make the building id spreads until FS-AW phase, but you need the AW to spot on elevations. 
+- finished the rylan fulfillment, just waiting on confirmation to export everything at once
+- gonna coode
+
+   + tagging
+   + logging
+   + templating and generic sign classes
+   + warehousing
+   + generation
+   + file handling
+   - Goal = ensure consistency, encourage collaboration, allow for oversight in art direction.
+
+
+
+Todays Notes: 2024-11-10
++ uh rylan 
+   - we need to spot all the buildings including elevations
+   - then it's just adding signs from the first turn into the main book
+   - scaling and putting in the pages
+   + Lets review monarch and see what we were thinking template wise 
+   + there are some script ideas I should add to one list 
+
+   + are the plans labeled wrong? There is an overall for building 2 that should be building 3, confirmed by detail plans later
+   in the book that show building 2 correctly labeled. -- it's a printers error, because the section is out of order. Someone 
+   must've had to replace that section or otherwise reorder the file. Because they put bldg 3 in front of bldg 2. 
+
+   + stair/level/exit
+   - int to ext
+   occasionally ext to int
+   - ada
+   braille
+   dimensions
+   - placed adjacent to portal for stairwell, opposite the hinges typically. 
+   
+   + stairwells - refer to ryans template in library
+   + Hallway directionals - there are no rules, refer to the address plan and previous examples. 
+      - simple over complicated for each decision
+      - good contrast
+      - cheap end of build, single plate with vinyl. 
+   + fire signs - refer to ryans template file 
+   + stair access - ext access, stair number required on tactile so unique copies
+      - ada
+      - semantic
+   + 
+
++ INDESIGN WISHLIST
+   + fully object styled arrow templates
+   + better ways to link text, preferably in a generic template
+   + better ways to drop in styles from other documents
+   + labels from contract script would be interesting, along with list from contract
+   
+
++ add to / create sop 
+   - order of operation
+      + Spotting
+      + Generic book template
+      + Full scale artwork to specifications
+      + Scaled artwork w/ dimensions for book, to fabrication specifications
+      + Book composition, notes for production, notes on edits made by clients, checklist of all signs
+         - ToC would be extremely useful, need to understand the method
+      + Edits from quality teams, which means AW and CT + CH. They do a thorough check according to their needs. 
+      + Final book edits, sections, page numbers, etc.
+      + Exports - not just print ready but build ready according to book specifications (descriptions)  
+
+Todays Notes: 2024-11-08
+- critiquing my own scripts should be more important. I'll get better this way. 
+   + perhaps the direction of the last few weeks has been a bit off. The CSV parser would be huge, but not for illustrator.
+   It's better suited for the work in indesign. Why? Because we have to paste like 30+ tables into indesign for every book. 
+- finish and polish this sinclair beast 
+- uh we should reference our rabbit hole from last night, because there was some really interesting tech in there to explore.
+- these are for myself on the weekend, rylan fulfillment then but slow the roll on that one for sanity and time to write more. 
+
+
+
+Todays Notes: 2024-11-07
+- scripts to do
+   + the setColor function sets the color according to the list of provided objects, but the recursion isn't working. 
+   Not sure why. I think maybe the recursive call isn't receiving the initial parameters, or the list parameter isn't 
+   being used correctly in the recursive call. Will think of a way to test. 
+ 
+
+- color type names in AI
+   + CMYKColor
+   + RGBColor
+   + GrayColor
+   + I think all the other colors are calculated from RGB/CMYK 
+   + just going to handle the top three then
+
+- utterly distracted by thoughts of beauty and frivolity, disgusting !
+- 
+- can we do a random selection based on groups? 
+   + for group item in group, 
+     roll random number,
+     add matching index to selection, 
+     if already in selection pick the next index instead
+     
+
+Todays Notes: 2024-11-06
+- I get too angry about incompetence. It's just not personal. 
+- if it is, then being angry will likely not be helpful. 
+
+- script ideas
+   + can we scan a text box and remove the A. letters from a sign list? 
+   - regex search, match A., replace with ""
+   + links and rasterItems collection today
+   - how to embed links, use their path, relink broken links 
+   - rasterize vector, 
+
+   + a temp script would get me hard for all of next year. 
+
+Todays Notes: 2024-11-05
+- this day was not fun lmao 
++ Why ? Unclear communication combined with no SOP. That's literally it. Could've been thirty minutes and done, instead it's been
+three workdays. 
+
+
+
+- Sinclair
+   + everything is ready, just have to compile the book. How hard could it possibly be!
+
+
+Todays Notes: 2024-11-04
+- energy! Momentum! Stimulants!
+- Lets compare what's left of the monarch changes and what's left for the sinclair 
+- maybe scripting today but I'd rather get this stuff out of the way
+- 
+
+- Sinclair
+   + Amenity - made, scaled
+   - all signs need to be made 
+   - scaled
+   - booked
+   + site - made, scaled
+   - site directional opposite faces
+   - lake signs
+   + Sky Deck - made, scaled
+   - made
+   - scaled 
+   - booked
+   + Fakking egress for bldg 5 === tomorrows problem
+   
+   
+- M3 
+   + Siena has some very simple temps that need to get made - the temp files should be made. 
+   + The permanents he wants to design by hand. Pull example from verdant. 
+   
+
+
+- scripting ideas from the weekend
+   + lean away from OO
+   + can we get NPM packages to play with scripts? The scripts would call regular javascript that is attached to libraries. 
+   + The problem there obviously is we have users so there needs to be a central location (server)
+   + Their server is probably off limits for that sort of thing right now, though we could just do a local version 
+   to prove the point. It depends on how much time the packages would save compared to writing out everything that
+   I would otherwise need. 
+   + lets play with symbols next. The CSV parser is important. Linked scripts is big. But symbols could solve a lot of problems.    
+
+Todays Notes: 2024-11-01
+- to does
+   + fulfillment for the sinclair 
+   + temps and addons for m1+2
+   + the changes to monarch (fun)
+- finished the temps, sinclair
+   + There is fulfillment left
+- lets work with the csv parser
+
+Todays Notes: 2024-10-31
+- well the csv parser is acting up, not sending things to rows and cells correctly. 
+will diagnose this weekend. I've been slackin!
+
+- to does
+   + spot site signs
+   + make site signs
+   + make amenity signs
+   + scale all signs
+   + dim all unique signs
+   + create templates for similar pages
+   + duplicate all similar pages
+   + drop in appropriate assets to each page
+   
+- scripting notes
+   + an insanely powerful utility would be a master list of all the contracts in a single document
+   solely for the purpose of searching it for examples to reference. Like oh what's this random fuck sign, currently
+   the system is ask people until they all tell you to go to M3. So x3-x100 work. I'd rather do a ten minute search. 
+   
+
+Todays Notes: 2024-10-30
+- use tuesdays left off for the mundane toils
+- scripting left off
+   + Great leeps and significant falls. Today we unearthed the .prototype method. 
+   - What does this mean? We can create the functionality of classes in extendscript despite the lack of modern conveniences. 
+   - The general idea here is: Make a series of classes that encapsulate one another down to the lowest common denominator. 
+   - That would be the individual sign components themselves. 
+   - We started with the Section class and that went farely well. 
+   - The problem arises from how we split newlines in our makeList function. There are newlines inside a number of cells. 
+   - This means we will process the CSV file character by character! Which will give us more flexibility in the end and doesn't 
+   look terribly complicated. But it's a lot more than our current makeList lol.
+   - Keep brainstorming about this OO direction. It makes sense to me, given the API is OO. 
+   - But is it. Clean? Fast? Easy? Elegant? NO.
+
+-scripting notes
+   + ok since the API is OO we should consider using OO methodology. There is a lot of prebuilt code we won't have to write again. 
+   + using Object.prototype notation will take some practice
+   + Section and Sign objects should give us a lot of functionality. 
+   + The question is how should the list be passed to the Section object, should the object handle parsing the list
+   - the answer is no I think, because the object itself is mostly just a container for information that's been cleaned. 
+   - a function cleans a contract and outputs simple tabular data. It creates a list of Section objects from data. 
+   - another function would add the signs of a section to the Section object. 
+   - we can call the Section object when we want to now if it has a specific sign, want to do something with the list of signs.  
+   - there may be an argument for creating a Contract object.    
+
+Todays Notes: 2024-10-29
+- left off
+   + some george nonsense - my own fault, part of growing pains from earlier jobs. Ended up forking the book revisions
+   in two different directions by mistake. Always use one book copy, until the job is ready to and been export/fabricated. 
+   + continue with sinclair - spotting done for amenity and buildings, the site signage is left then remainder of FS signs. 
+   + After FS signs for sinclair we will scale and template the first pages. Will have to match the sign pages to the 
+   building type in this one so the layouts are generally similair. 
+   + Might just bust the temps out in the morning, not sure. The coding time has been incredibly valuable already. 
+   - left the scripts off at the makeList function, we were able to read in an entire CSV file and attach it to a text frame obj
+   - Now the nitty gritty of the CSV parsing remains: What do we need to do with the rows and cells for this script? 
+   There is a lot that is possible but we need to narrow down what our end goal is for this first working example. 
+   Because we will need to have something to show for it. 
+   - Basically the line items need to be turned into unique groups with the appropriate template for that sign. 
+   - Bring in contract. Parse sections. Parse signs. Make files from sections. Fill section files by sign. 
+   - SAVE BY JOB ID -- tricky. Anything on the server is gonna be tricky because I have poor access. 
+   - also they probably don't want me hosting this sort've thing on their server without proof it works. 
+
+   - 
+
+- scripting notes
+   + excellent progress today, despite all the failure. 
+     - added a helper function to read files and return their content
+     - added to makeList, properly works through rows and cells so we can match txt 
+     - need to add some way to turn the line items into objects
+     - would like to abstract the makeList "mapping" utility, so basically implement map. 
+     - want to be able to target the row, col, cell of any given table data more easily than writing the nested loop each time
+
+   + finally have a vision for the export script
+   - state export criterion 
+   - implement functions for each criterion
+   - need to call the group overlapping script first
+   - then iterate through all the object groups 
+   - for each object check against the export criterion 
+   - every object that doesn't meet a given criterion run the appropriate function 
+   - space each object according to it's position in the contract for that section (horizontal offset across pasteboard)
+   
+
+Todays Notes: 2024-10-28
+- howdy doo dee 
+- some rylan stuff then print - DONE
+- fulfillment for the Sinclair - ITS NOT THAT MUCH - IN PROGRESS
+- Waiting on monarch suspect that it comes back today 
+- Allegedly there are temps 
+- Ok we are leaving off on Sinclair adding the elevations for the unit spread ID's into the book 
+   + currently done = 11-2 
+   + the ones with more than 2 signs on the face need a detail showing the additional signs, it's spotted just
+   needs to be added to the given spread
+   + make sure to update the desc. with the correct amounts
+   + then spot the remainder of the unit types 
+   + spot sky lounge 
+   + spot the site signs
+   + spot the amenity signs 
+   + should be good to go ahead and scale everything 
+   + can use the dim copies that are identical from building to building based on bldg 1 artwork 
+   + Might, MIGHT, get all of spotting and dimmed copies done tomorrow. If I'm feeling inervated. 
+- workflow notes
+   + There is a point at which copies need to be based on the production artwork (fullscale, correct build) 
+   and then a point after that where copies are solely for easing the job for production. 
+
+Todays Notes: 2024-10-25
+- Hmm what to do, exports are done and I'm not starting the fulfillment for sinclair on a friday I know that 
+   + CODE
+   + TEMPLATE UPKEEP
+   + RYLAN??
+   + 
+- Scripting notes
+   + the basic labeling of groups is complete
+   
+
+
+Todays Notes: 2024-10-24
+- so the egress map worktable needs to be setup so that print files are easier to make, could use some scripting here. 
+   + Needs a live copy, sign copy, and raster copy
+- Grandscape
+   + remaining export is waiting for review
+- Sinclair 
+   + edits then export
+- Rylan
+   + medium edits then return - they have boring taste but that's probably fear of the client
+- Monarch
+   + Currently on the chopping block, waiting for return
+
+- Scripts today 
+   + Working on labeler when I get a moment.
+
+
+
+Todays Notes: 2024-10-23
+- tomorrow aka today 
+   + look at grandscape export file for bldg 5 and use those print templates for the remainder, add as needed
+   + should finish the export in the morning then go into sinclair in the afternoon
+
+- sign design
+   + can the copy on an F/E sign be the raised portion of the engrave? Would this count as tactile? 
+   + 
+
+- working on revisions today for 
+   + Alta monarch - done
+   + Rylan creative revisions - done
+   + Then prepping things for export in Grandscape - there are paper revisions! I cannot access! Telekinesis wanted!
+   + mmm sinclair needs revisions but those are also on paper 
+   + updating templates and adding known changes to grandscape -> circling back, pivoting, dynamically problem solving, wow
+   + 
+   + 
+- Script idea
+
+   + Everything worth using relies on the tagging script working for a document. Need tagging UI, tagging scheme, naming scripts
+   ++ This one is priority, its essential functions will become a foundation. 
+   - consider global  edit according to tag 0.0
+
+   + WAREHOUSE
+   + MGMT needs some control knobs that make it easy to version control within the library. 
+   + There needs to be a scheme for storing things in the warehouse and sorting them to our needs
+   + Will have to keep reiterting what a warehouse is for - allowing scripts to interact with data. 
+   Your templates are just data. Your job list is data. Your contract, concept books, filing "system", etc
+   All of it is data that could be quarantined and SOP defined. 
+   
+   + relinking broken path script - the point is for when files are transferred from a different file tree 
+      - part of share control bash script potentially 
+   + Copy and archive bash script for moving production artwork files into share folders
+   - copy artwork files, case if Section copy to relative path from PAW to given Section folder - if existing PAW rename w/ rev, date
+   + group unique, create order, assign groups by order - use case is fixing z position errors in bulk
+   - sort unique page items, create group for each, move page items to groups, sort groups according to order
+   + also worth investigating matrice transformations and their general application. Seems to make bulk transforms much faster. 
+   + This one is a stretch - double copy for book page asset spreads - one is link to production art and another copies the link w/ 
+   dims from cad tools. Need to explore the reverse linking process. 
+   Good tools are ones built for a context. 
+   + Wow this isn't built in to 2024 indesign - a way to select all of same link throughout document 
+   - loop through all pages, for each page loop through all links, or just loop through all links of document, match link to selected
+   link, delete and/or other command input
+   + Create dimension from artwork - create spread for dimension copy 
+   + create layer diagram from artwork - separated and dimensioned layers from unique artworks
+   + all of this procludes a labeling system that can identify sign types according to a contract
+   - the problem is contracts are unreliable documents - they don't contain every sign by default
+   Some is better than none however. The issue of contracts can be adjusted manually through user input. 
+   - will need UI, basic data handling (OO), and a method for dimming artworks 
+   + Is cad tools scriptable? Does the plugin conform to the illustrator api? - does not support scripting from api
+   - so making the spreads for dimensions and separated layers would be worth it, and we can manually add dims or they can idc 
+   - copy tagged production art - rules for separating layers, rules for creating spread artboards
+   + ugh another idea - order artboards according to name - meaning you can name alphabetically or numerically and rely on that order
+   
+   
+   
+   
+- Workflow notes
+   + It's worth saying, the method where you callout the backer as a separate plate saves the time of drawing it X amount of times
+   + It also encourages uniformity between backers, time and material saving
+   - case and point, I have three different backers to draw and add to book copies (6 total revisions) because of 
+   an ultimately aesthetic concern
+   - there is no semantic reason, other than page spacing in edge cases. 
+   - though, it opens up the reasoning for creating iteration objects, meaning copies of production art with specific contexts. 
+   - it does simplify page layout in more than edge cases having the outlined backer, though it misaligns with how the C's 
+   tend to think about this I would argue (don't know for sure) - they break unique layers of signs into groups before sending
+   to the fabricator. The book is largely for them to tally off the signs that way. Layout with that in mind to me is a design
+   constraint. 
+   
+   
+   
+Todays Notes: 2024-10-22
+- There are definitely some incorrect dims in monarch and rylan, but that's the game. 
+- we are going to code this morning until it is inconvenient to do so.
+- When the brain is in the right space might as well take advantage of that energy. 
+
+- Scripting ! 
+   + What can we do in regards to a labeler
+   + What is possible just with selection scripts ? 
+   + Also just playing with structures and figuring out what all we can do is still good. 
+   + A concrete plan ? Labeler and making something with a linked list structure. 
+   
+- Design ! 
+   + Have some minor adjustments to grandscape and then a full export. Expect three hours.
+   + Need to review monarch with ryan, that should take 30 min max. 
+   + There is a sign team meeting today. Ask about the Sinclair, update her on Grandscape. 
+   + I could be getting ahead on anything that's open.
+
+Todays Notes: 2024-10-18
+- fixing dims
+
+Todays Notes: 2024-10-17
+- fix some dims on monarch tomorrow
+
+
+Todays Notes: 2024-10-16
+- What a day 
+- Rylan at Gateway 
+   + Units 
+   + LEFT ON THE BUILDING SIGNS THAT ARE GODZILLA SIZED
+   + remember to change dims 
+- Monarch
+   + Still need to dim most of the artwork and compile the book. 
+   + BLDG 1 and LCIS are dimmed, its LCES for now + units for each building
+
+Todays Notes: 2024-10-14
+- regarding alta monarch - the perf plates will need some sort've box but idk how the fabricators will get that done, ask Carla!
+- continue with data structures
+- get through section, review scripts
+- today we start the csv parser for extendscript. 
+   + Goal is to have a "live" report going for signs included in the document.
+   + Use case is for fulfillment. Each sign group is labelled according to it's line item (contract) and 
+   a list is constructed automatically as groups are added/deleted. 
+   + shouldn't recognize scaled artworks as part of the list. 
+   + added functionality later would be: 
+   select full line and jump to object
+   create sign templates from list
+- we made some good codecademy progress, got through the linked list section 
+- learned how to make a text box in our script, how to access it's properties, and we made a basic helper function 
+to look at the types within the selection 
+
+Todays Notes: 2024-10-11
+Todays Notes: 2024-10-10
+- some nonsense changes, a few client changes, a few legit mistakes on my part. 
+   + What's left = Sinclair and Grandscape 
+   + Grandscape needs printing and replacing of pages in the book (fun!)
+   + Sinclair needs the pole added to the fire signs, with a clamp and illustration for both
+   + scripting - made a cool one today, we are unrusting according to plan right now. 
+   + have fun future me!
+Todays Notes: 2024-10-09
+- scripting went well, even though we only wrote three functions. 
+   + The grouping by color led to some interesting needs, like having a dedicated comparison function for colors
+   + we also worked with objects and arrays in a practical way
+   + the actual script that orders the groups by colors could use a bit of polish, like a group for each color found
+   + a naming feature would be cool, name the color based on the CMYK properties. 
+- Monarch has all the plans together and ready for spotting, artwork. Last is the elevations for the buildings. 
+
+
+- export all of grandscape tomorrow 
+   + they want sections, don't see the point, gonna dump the whole thing
+
+
+- we will work for a few hours on coding, but need to start monarch today. 
+   + worked with layers a bit
+   + worked with groups a bit, need to continue understanding how they're useful
+   + how can I open, read, copy from other illustrator files 
+
+
+Todays Notes: 2024-10-08
+- we left off working with groups in FRC-2
+   + the goal is to be able to comfortably manipulate GroutItem, GroupItems in different ways
+   + not all will be immediately useful, it's more to understand the scripting environment and the tools I can leverage. 
+- what are labels and how can we apply them to groups within illustrator? 
+   + 
+we need to go over all the basics again. 
+   - make an artboard
+   - make a rectangle
+   - rename a layer
+   - group selection
+   - list everything selected
+   - rename a group
+   - copy and paste selected group
+   - copy and paste a group from another file 
+
+Todays Notes: 2024-10-04
+- The goal of the scripts at Fource: 
+   + Build tools to enable construction of data warehouse from existing asset library
+   + Construct the warehouse and test run
+   + Implement the warehouse with existing assets
+   + add scripting functionality on top of warehouse to interface with adobe programs with relative ease
+   
+   + What is a template library? 
+A single repository, organized strictly with restricted access, that design heads can update individually. 
+It is possible to pull individual sign templates directly into files as copies.    
+
+The first serious program will be the labeler. Basically make group from selection or use a current group.
+Then add a label to the outermost object of that group. That label should correspond with section and line 
+items from the contract directly. 
+   + Why? 
+Eventually there will be a lot of templates we want to easily add to new documents according to the contract. 
+
+
+
+Todays Notes: 2024-10-01
+- LCES for rylan
+- descriptions for rylan
+- Last check 
+- PDF review with ryan
+   + assuming revisions
+- complete revisions
+
+- Grandscape todo
+
+
+Todays Notes: 2024-09-30
+- relink rylan
+- drop in artwork for rylan
+update sheet
+descriptions
+proof again
+elevations bldg 1 
+run garage and bldg signs by ryan 
+
+
+Todays Notes: 2024-09-23
+- time today is 8:45 - 12:30, 2-7
+- tired ! Wow remote is productive though. If the server were slightly more permissive to an authorized remote user it'd be easy. 
+   + Art for Grandscape is largely done and in place. Need scaled and book comp now. 
+   + Siena changes. Should do those tomorrow morning now that grandscape is in a good spot. 
+   + Rylan is almost all spotted. Next is iterate the artwork up until the turn scope. Then scaled, book comp. 
+   + The reason we're going over the first turn scope is just to avoid mass edits, and to ensure art direction. 
+- programattically, there is a lot we can do. 
+   + tagging 
+   + logging 
+   + templating and generic sign classes
+   + warehousing
+   + generation
+   + file handling
+   - Goal = ensure consistency, encourage collaboration, allow for oversight in art direction.  
+
+- since remote will happen a lot, need to consider the file hierarchy again. 
+   + Add section for sharing version control
+   + Add section for copied production files in shared only, to avoid cross contamination
+   + This should be part of the makeJob build in the works
+   + Any AI or INDD files must go through this until it's safe to save on the remote machine. 
+   + Quarantine for artwork means no linking, only the transfer of links that do not change from the original file or files that are 
+   unlinked should be permitted by procedure, later through the construction of better tooling. 
+   + 
+
+Todays Notes: 2024-09-18
+- pull spotting for each floor, building and pg
+- spot each sign for temps 
+- make each sign fullsize copy
+- format for temps 
+- dimension fullsize
+- format book
+
+done with the temps and added artwork to the sections. Gonna format the book tomorrow. Connect PC tonight. 
+- George pool temps, they're made but I need a look from m3. 
+- Programming tomorrow. We're looking into catching back up on terminal and JS over the next few months. 
+   - the goal is getting tooling ready for myself. speed up and automate various things so I can program more. 
+   - sharing will come later and implementation of sharing later later. 
+
+Todays Notes: 2024-09-17
+- grandscape fulfillment for the remainder of 1A to the 6th floor
+- might as well do the rest of the spotting but I don't have the book for M3's notation :)
+can base what I have off of Olivias spotting but again the plans have changed since then
+- Compare contract to newest plans and give "fresh" spotting a try. 
+- TEMPS ? FROM DOWNTOWN !
+
+Todays Notes: 2024-09-16
+- 2 - 6, 10, 16, 23 - 32, 35
+
+Todays Notes: 2024-09-11
+- Complete the remainder of Siena tomorrow
+- Temps for Siena
+- Export for the George
+- Grandscape revisions
+- the sinclair is with the client
+
+
+Todays Notes: 2024-09-06
+- finish the template 
+- finish sinclair changes 
+
+- building a better indesign template because I have time and the inclination. 
+   + Basically lets arrange empty frames we drop the artwork into, and reduce the amount of time we are recomping. 
+   + Then lets compare different strategies for arranging artwork in illustrator. The goal is to align the processes
+   between both programs very closely so that there isn't a lot of double work between the two. 
+   
+   Example: if the artboards are inconsistent in illustrator, then we have to align things manually with indesign again. 
+   Solution: uniformly layout artwork with illustrator, with predefined templates for indesign that are simply drag and drop. 
+   
+   + Template the bubble list so it's faster. We have a working solution but I'm sure it can be better, considering 
+   object styles and potentially the story feature. "Threaded text" as in illustrator may also be useful.
+   
+   + Pages order for books
+   - Notes:
+   - Aluminum signs should go together. 
+   - There is only so much the template can predict. It needs to be generic enough so it can change to the specific job. 
+   Separate sign classes here. This will begin the ground work for scripting. Organization through classes. 
+   - It's becoming clear the editing to artwork done with indesign is a poor choice. Takes too long when compared to 
+   artwork readymade for a template. 
+   - spreads should be made in contract order and on a single artboard everytime. Reduces arrangement/recomping
+   - It also removes a lot of scaling when dropping images onto the page, gonna want an object style to speed up fitting
+    
+
+      - LCES
+      canopy signs
+      parking signs, address numerals -- parking signs go on a single artboard now
+      door vinyl signs
+      
+      elevation spotting
+      top down spotting
+
+      - LCIS
+      FoH signs
+      Restroom signage
+      Policy signage
+      BoH signage
+      Max occ
+      Fire Code signage
+
+      top down spotting
+      
+      - Fitness - so far has been wrapped into lcis
+      - club - so far has been wrapped into lcis
+      
+      - Building X Lvl X Signage
+      FoH signage
+      BoH signage
+      Hallway direcionals
+      Stairwell, stair id
+      entrances
+      Fire code signage
+      
+      elevation spotting
+      top down spotting
+      
++ The layout is mostly aesthetic right now. Not especially semantic. 
+   - box with image
+   - box with description of sign class, amount, then build. 
+   - bubble for image with amt
+   - bubble list for description which is a row of bubbles
+   
+      
+
+Todays Notes: 2024-08-27
+- May just remake the artworks and book for Jefferson Grandscape. So many things are changing and I don't want my work to be next
+  to OB's. Not because hers is bad. Perhaps the opposite. I just don't want the distinction present at all. 
+- Don't understand her production artwork pages. There are likely reasons they are laid out this way but it isn't apparent to me. 
+
+- Yah remaking book. The artwork is made and dimmed so it's about reorganizing and doing another layout.
+   + This might freak Alissa out too much, if the books are super different. 
+   + Follow the same order but use my spotting and book template.
+
+Todays Notes: 2024-08-26
+- rockin it so far, they will witness this method 
+- plenty of things to improve. Again, we aren't even at the scripting part. Nothing is automated. 
+- No template library. No Coordinated CRM. No communication between production and design. 
+  I'm baffled anything gets done on a certain level. My default is almost out of the question here. 
+  Like just suggesting we proof digitally until we have a working copy would likely piss certain ppl off. 
+  That's square -1. Wtf are we printing revisions for. 
+- We have a regular order right now.   
+   + Checklist from contract - with macros from template
+   + Spot
+   + Gather images for spotting
+   + Gather plans for spotting
+   + read through the P A P E R notes
+   + Create addressing plan if not present
+   + Parking plan if not present
+   + Bubble all spotting pages in the book (INDD)
+
+   + Create all the art files by section
+   + Fullscale for scope
+   + Scaled for scope
+   + 
+
+   + Place art into book before spotting images
+   + Detailed description review
+   + Page numbering and sections (gross)
+   + DIGITAL PROOF to Ryan 
+   
+   + Complete review with comments
+   + Repeat until we both think it's gucci 
+
+   + Send to Alissa for her notes
+   + complete the PAPER NOTES
+   + PRINT THE PAPER RETURNED REVISIONS
+   + ORDER EVERYTHING BY HAND LOLL
+   + wait
+   + repeat until Alissa ok's it for the client
+   
+
+Todays Notes: 2024-08-19
+- whenever we get the go ahead for the remainder of the siena, need to watch the stairwell signs and adjust the levels. 
+   + Also need to create the remainder of the working production files for that job. 
+   + adjust the egress maps to have that extra 1/8th plate for the map print itself
+   + spot the building unit spreads on the elevation and the site plan for redundancy
+   + ADD MAX OCCS
+- FIX SIENA 
+   + FORGOT TO ADD HOURS TO SIGN LIST ON LCES PAGE
+   
+
+Todays Notes: 2024-08-15
+- Continue with the sinclair, finish the needed spotting, then judge if we should spot everything 
+- need to add the max occs to the spotting pages whenever we make the artwork 
+- ok need to figure out the stairlevel vs stairwell placement 
+   + apply uniformly
+   
+
+Todays Notes: 2024-08-14
+- Worked on sinclair spotting, got most of the first turn out of the way. 
+   + Daunting thing is the unit numbers, but that shouldn't be too big of a monstser. 
+   Really just need to figure out how to find many there are total, then a consistent scheme for the naming. 
+   + Work on the first residence bldg from contract, probably want to get some of the other buildings out of the way
+   but also don't want to have to rework too many things across each bldg
+   
+
+Todays Notes: 2024-08-13
+- passed siena over to ryan
+- given The Sinclair to work on until that review is passed 
+   + Make contract
+   + assess what's done already
+   + Make artwork, scale
+   + get book template ready 
+
+
+Todays Notes: 2024-08-12
+- we diid it, we diiid it, yah
+- onto the SIENA FINALLY ?!?
+Every day is like can I just remake all my template based on my newfound knowledge
+The answer is no so we need to pick our battles here. Have time in the morning to make some adjustments for the siena. 
+Coping the master pages from the George would be good. An alternative means to adding prefixes across master pages would 
+be preferable, but there isn't one I can think of immediately. 
+
+Script ideas -- we really need a definite work flow before any scripting is worth the investment. 
+   + The best one now would be for initial job creation. 
+      - make job folder - done
+      - make book template with pages based on contract
+      - make artwork templates based on contract
+      - format working contract from their contract
+
+
+- Back into the George, need to make up for missing Friday. 
+   + Amenity descriptions
+   + Pull examples for site signage signs
+   + Construct and scale site signage 
+   + Build out pages for sigte signage
+   + Then we can play with egress maps
+   + elevations for grill policy, fire pit policy, enter/exit on bldg 7,
+   + fence backer illustration
+   + 
+   "Owner & Management not responsible for accident or injury caused by non-compliance"
+
+
+Todays Notes: 2024-08-08
+- most of the book is complete now. 
+   + Amenity descriptions
+   + Site signage artworks for -- enter/exit signs
+   + Site signage descriptions and placement in book. 
+   + Rework the egress map design. Apparently this is a non-boilerplate type. 
+   It's a map so lets consider navigation designs. Reference some books. Do some research. 
+   Want to push the type hierarchy to be more extreme while maintaning the semantic purpose of each 
+   piece of data. 
+   We could also do some work on the symbols, they aren't the most interesting graphics ever but they 
+   could be more custom. 
+   
+
+Todays Notes: 2024-08-07
+continue george
+   + amenity artwork and scaled
+   + elevation spotting for trash pickup sign on bldg 7
+   + start putting frames into book 
+   + compile descriptions and add bubbles
+made all the artwork for each residence and the site signage today
+also all the carports lol. They fret over the easy parts. I'm getting stuck on questions. Communication is the barrier for me so far. 
+No one is on the same page from what I can tell. Not in an obvious way. It's this subtle sorta chaos. 
+
+
+Todays Notes: 2024-08-06
+- just finish spotting the site signage and we're gooch
+
+- maybe thursday lol 
+tomorrow we can focus on actually making the signs 
+fun <|:^)
+
+- we are finishing the rest of the george today and tomorrow
+   + for the trash enclosure, goes above garage and needs elevation as well for spotting 
+   
+
+Todays Notes: 2024-08-05
+- soo apparently despite the contract saying that fitness and club are together they should be separated so that's the task this morn
+- then it's gonna be a final description audit because DAMN
+   + add screenshot of photo
+   + change elevation for club & fitness
+   + for the future, diagrammatic spotting = indesign, elevation spotting = illustrator
+- Then we are gonna make a template for all the new shit they informed me of on this round of stuff
+- then it's on to siena 
+   + list of siena remainder 
+   
+
+Todays Notes: 2024-08-01
+- NEEDED FOR SIENA
+   + Description audit
+   + max occupancy method
+   + put max occs onto the spotting
+   + fix page numbering to their syntax
+   +
+
+Todays Notes: 2024-07-31
+- WE did a fair amount of the Siena today, descriptions and remainder of revisions to go
+- will get them to review with Ryan before bringing them to Alyssa. Probs friday.
+
+Todays Notes: 2024-07-29
+- Finalize the george revisions today 
+   + What is left ? 
+   + Adding the canopy signs and the leasing center monolith 
+   - Ok the whole sign has changed. They are doing a pan with vinyl and then acrylic letters flush against the wall. 
+   ADD DIMS TO GRADE
+   FROM TOP TO GRADE
+   AND LETTERS TO ELEVATION
+   DIMS TO LETTERING, HORIZONTAL AND VERTICAL AND ALSO SPREAD THE LETTERS OUT MORE
+
+
+Todays Notes: 2024-07-26
+- Working on this monolith sign
+- Got it basically approved, but there is a question on a grey color
+   It looks like concrete to me, but if there is a match needed I don't want to guess. Or don't want to be the one to guess. 
+   
+
+Todays Notes: 2024-07-25
+- Plans o plans today
+   + George 
+   + Finish George and begin Siena, that's optimistic -- GEORGE APPROACHING   
+   + The page header changes are left, and the unmade signs. Make a monolith-post and panel for the leasing then some 
+   standup letters for fitness and club. I'm gonna find some way to play with the typography. 
+   + 
+  
+
+Todays Notes: 2024-07-24
+- Feedback was actually good today. Much of it is still cosmetic rather than content focused, but now I have a formal explanation
+of the style Ryan prefers. 
+   Takeaways
+   - imagine two columns per book page, then two rows. Dimensioned images go on top row, spreads on bottom. Different builds 
+   go into different columns. 
+   - smaller bubbles
+   - Need a good middle ground for the dimension arrows
+   - title block needs frutiger fonts
+   - the grid border I have needs to be about .75"
+   - imply nothing, even though they imply so much all the time
+   - get all the grading and etc textures and drop them into the template
+  - "Complaining" is usually valid insofar as it identifies a problem. If the immediate reaction is don't "complain" when someone 
+makes a point about improvement, there is a clear insecurity regarding failure. That insecurity is a weakness so long as it remains
+unaddressed. 
+- Should establish better procedure for getting through revisions. They don't have a method. 
+   + Take down revision details, page number, and status in a sheet with the working contract. 
+   + Check them off one by one
+   - Problem - What are the priorities? Getting the fastest stuff out of the way, then anything that has to simmer for 
+   some time, and then making any artwork. 
+   - Problem - Why was yesterday slow? Lots of remaking things. I don't have a definitive source for many of the signs, and don't
+   have an idea where I might find examples without digging through our poorly organized server. 
+   Some people say this way, others say that, and then Murphy gets it and is actually like we don't do any of that, but
+   why aren't these other ten things done instead? 
+   + Answers - Do our own research. Rely on people for research questions rather than production questions for the most part. 
+   When asking a question, it's aimed at a general response. Production questions are for people with real authority, in the sense
+   that they are an authority on the subject. 
+   Go through the server and create some links when I find something useful. Should keep it in the library directory. 
+   Use the contract, use the contract, and use the contract. 
+   
+   - Problem - What are the limits to using the contract? For example, it doesn't tell me there is a specific Arizona 
+   No Smoking sign instead of a custom no smoking sign that was a complete waste of time to build out. 
+   It doesn't tell me to use a specific build for fire signs, as opposed to the generics that have been given to me.
+   
+   It does tell me when something is missing from the build. 
+   It does tell me names, quantities, and sections. 
+   What does tell me there is a specific sign in arizona builds? Or specifics to the fire signs there?
+   Reviews from Alyssa and Murphy. It needs humans attention, and these humans have a workflow that is legacy more than 
+   practicality. 
+   
+   I said what I said!
+   Another idea - only make scaled artwork. Start at 1/4th, and save a fullscale copy from the scaled artwork. 
+   Rather than the inverse. We can check dimensions with cad tools. Could be problems with this. 
+    
+
+Todays Notes: 2024-07-23
++ SO SLOW TODAY
++ CHANGES ARE SO INEFFICIENT
+-- Anyway --
+we got a lot of the leg work done, but there were signs completely missing and I have to go through and make them now without
+as much support. About half the changes are implemented, I would say another day to complete them and compile them to the book. 
+There are faster ways I don't understand the preference for paper plans. It's like million dollar businesses run in the 18th century 
+still in certain respects. 
+
++ King George
+
+
+Todays Notes: 2024-07-22
+- They are picky about weight and scale of things on the page more so than the details, 
+so we should just use the standard process there. 
+
+- George revisions first thing
+   ++ adding to new book template
+   ++ fixing dimensions -- done
+   ++ changing composition 
+   ++ fixing spreads in scaled artwork -- done
+   ++ adding descriptions in indesign --
+   ++    
+
+   + Hallway directionals are all different -- LOST SQUARE, CHANGED NUMBERS
+   + Go through and re-add glass backers -- 
+   + Garage #'s = G2-01 -- 11 -- done
+   + Storages the same -- done
+   + Club House = Social Club all instances -- done
+   + Change policy verbage -- done, redimensioned
+   + Fitness Studio = Fitness Center all instances -- done
+   + Leasing center post and panel
+   + Add rail letters
+   + Add fitness letters
+   + Add building numerals
+   + Arizona specific no smoking sign, check other arizona projects, spot at entry portals, reference TRG - Anne Flagstaff
+   + Fire Riser -- needs addy, diamond grade vinyl, rounded corners, Soltra Kierland
+   + Max Occs are filled in -- GL-101
+   + Max Occs filled in - GL-101
+   + Hours sign is wall mounted -- need to tweak build ask ryan or find example
+   + Correct summer/winter hours -- done
+   + Vinyls -- lower on door frame -- done
+   add door always unlocked to right door -- done
+   They want different spotting, housing address elevation -- added
+   + They got the website back -- added
+   + Respot the hours sign -- added
+  
+   + Social Club policy -- pull from SWC - Crystal Springs - Speakeasy 
+   + 
+   + Figure out N on spotting sheets for Fitness and Social Club
+
+   + Spotting pages get list not images
+
+
+      + 
+   
+
+- The remainder of Siena
+
+
+Todays Notes: 2024-07-19
+- crpProj1 today
+- we need to figure out the actual cropping mechanism today
+
+Todays Notes: 2024-07-18
+- need a paint color chart to match rowmark against
+- need process for egress maps
+
+-- scaled artwork done
+-- just need to compose the book, should work on that tomorrow, might even get it done. 
+   + The lessons from the george helped speed this up immensely. 
+   + really just reducing unnecessary work was most of it. Small tricks in illustrator and indesign. Templating with new 
+   knowledge. Not even scripting yet, and there is truly enormous potential there. Just the thought of having SQL tables 
+   with all the components I've made so far could mean saving so much time. The idea of building the tools is honestly
+   more interesting than the design aspect of the job so far. Really I feel as if this is largely like being a penciler
+   or assistant to an animator, artist, etc. The heads do a lot of the interesting work, the helping hands finish it. 
+   - That's ok for now. When I get this going fast I will have my time back. It's already picking up speed. 
+-- Some rough estimates of what I'll need to do this well
+   - Extendscript routines for parsing SQL
+   - SQL to JSON
+   - Parse CSV to SQL   
+      + Specifically parse these ugly af contracts
+   - generic object maker
+   - generic grouper
+   - generic namer
+   - procedure for profile views 
+   - procedure for descriptions
+   - UI for loading objects into database.
+   - loading items into database -- this sounds hard but maybe that's just me 
+   - there is a lot we can do here. honestly just having the database with reused components will be good to start. 
+   
+
+Todays Notes: 2024-07-17
+- still chugging through casa siena
+- carve out time for coding ! It is valuable !
+   + The better / faster we get at the sign design and spotting the more time is allotted for coding. 
+- remaining signs for today are the 
+   + water room
+   Stair Level
+   Stairwell 
+   Egress Map
+   Building ID with unit spread -- got questions
+  
+Nice fullscale largely done, jumping onto scaled tomorrow
+Lets just remember the lessons from the george, try and recognize modularity when it's possible,
+and use our checklist system to make sure each piece gets in there. 
+
+But yah it's looking good.  
+
+Todays Notes: 2024-07-16
+- tomorrow
+   + policies -- done
+   + doors numbers -- ongoing
+   + hallway directionals -- ongoing
+   + building numbers -- need spotting, have questions
+      - how to spot
+      - if it's a wrap which units go where
+      - What part of exterior? 
+- more spotting questions
+- lets complete the checklist for peregrine
+
+
+Todays Notes: 2024-07-15
+- We continue with Casa Siena -- finished what spotting I can find, have some questions for the remainder. 
+   + full scale artwork tomorrow. Pull from concept, past works. 
+   + by section, no artboards
+      - reason being its a waste of time
+      - the artboards would get changed later during scaled artwork phase, then become generally useless when
+      transferring to a book. The names of the boards don't show up in the place command for indesign. 
+      If there were a script to place them programmatically, that would be another story. 
+   + get full scale approved with Ryan before the scaled artwork again.
+   + 
+
+- Need to update Peregrine 
+   + Leasing hour signs - LCES.01.00
+   + Fulfill remainder -- as in the rest of the contract? 
+   + Lets complete that change to the unit door #'s that Olivia started
+ 
+- continue crpProj1 after lunch time
+
+
+Todays Notes: 2024-07-12
+- monday -- continue crpProj1 
+- If we are doing spotting in indesign moving forward, then there is no reason to do it in illustrator. 
+This just creates a gap in the process, meaning we have to link another document. 
+   - Checklist 
+      + Make a checklist from the contract using the template we built in excel
+   - Spotting = indesign
+      + refer to plans, check the plan pages, screenshot ingest in the job folder
+   - fullscale artwork = illustrator
+      + work from concept artworks
+      + find descriptions from concept, keep them in the checklist. 
+      + build descriptions with care. there is specific formatting they want, refer to previous jobs. 
+      + Generally, keep the different sections together so bringing it into the scaled artwork is easy.
+      + No artboards yet.  
+      + Ryan is saying to split this artwork up into separate folders for Carla.
+      This split happens according to section essentially. 
+      So she can quickly do her thing to each section? 
+      + I think the best way to handle this is to keep each section on its own layer
+      Then save copies of the production artwork into each folder
+      Then delete the uneccesary layers. 
+
+   - scaled artwork = illustrator
+      + Scale to 1:4 with cadTools
+      + Create the profile views here
+      + Dimension every layer of the profile, dimension the height and width from the artwork 
+      + spreads = only need copies of the artwork if there is unique text. So unit numbers, garage numbers, etc.
+      + spreads cont = if there is only one of the artwork, then simply spot bubble the dimensioned artwork. 
+      + call out hardware as neccesary
+      + baseplates will need to be dimensioned and shown along with their respective poles
+      + There are pre-built fire code signs, refer to those. 
+      Alyssa actually showed me a code section as well, multi use 2.0/8-Code Research
+      + 
+   - book creation = indesign, use book with spotting already done. 
+
+Todays Notes: 2024-07-11
+:^0
+0^:
+The book is polished, gonna check it a few more times. 
+- Goal next time is to build an indesign template that speeds this nonsense along
+   + Needs bubbling shapes
+   + Needs swatches 
+   + Type and Paragraph styles for the text boxes
+
+- We also need a separate illustrator template for the dimensioning phase
+- Happy to say the book is up for a final review, the next books will go so much faster. 
+- We're going to work on some coding today and tomorrow before/after final review. 
+ 
+
+Todays Notes: 2024-07-10
+- there are revisions from ryan on the artbook, follow his size and type hierarchy as well as arrangement
+   + no more copies for spreads, only same build/same class/different text get copies
+   + bubbles should be smaller
+   + no page identifiers for sections
+   + the spotting pages don't need the artwork as long as it's listed in a coherent way. 
+   + if there is only one of the sign place the spotting on the dimensioned artwork 
+- We have to prep the rest of the scaled down artwork
+- Then there is the book to make. 
+
+Todays Notes: 2024-07-09
+Todays Notes: 2024-07-08
+- questions on the parking signs
+   + need to know the material descriptions for the sign itself 
+
+- Work today -- we need an indesign template for the sign book -- ask Alex when he gets in.
+- Confirm scaled artwork with Ryan
+- Determine work left for 
+   + Presidium Casa Siena
+   + Same for Aura Arts District
+   + made the checklists for both, Aura was mostly done, Casa Siena had nothing? Check for concept
+   + Finish a peregrine update, its adding the middle plate to the door number signs, its a combine
+- My assessment of problem points here: 
+   + People are talented, but bogged down in detail. 
+   + Organization handles some of that detail, but relies on people too much
+   + There are too many different procedures for the same thing
+   + There isn't a library of components. Should run the server like a warehouse. 
+   + 
+- What scripting can handle: 
+   + Still to be determined. There are a lot of things it could too, too many right now. 
+   + Small tools to begin with. Automate basics. Understand the scripting API more deeply. 
+   +  
+- My adobe account isn't working -- complete
+   + Need to register email 
+   + Need to reset all the workspaces, yay
+   + Need to get CAD Tools going
+   + That was surprisingly painless
+
+-- Script ideas
+   + Basics
+   - Create artboards with names of sections, layers with names of sections
+   - Break text threads, Convert all area type to point type in document
+   - Remove trailing spaces from last line in all text boxes in document
+   - scale artwork and artboards 
+   - auto generate bubbles with correct colors from csv -- this probably saves thirty minutes
+   - 
+
+-- Workflow notes
+   - Fullscale artwork
+   - Split into sections for production
+   - Dimension for production? 
+   - Bookscale artwork for book
+   - Dimension for sign book
+   - Create and version sign book, inDesign
+   - Place spotting in sign book
+   - Place artwork in sign book
+   - Audit sign book, make any changes to production artwork 
+   -- To Remember 
+   - Use links until everything is checked. Revisions can be costly. 
+   -
+   + Improvements
+   - lets aim to get most of the formatting done in fullscale production
+   - try and stuff everything possible into the fullscale artwork. 
+   - scaled artwork should get spotting bubbles, so we need a template similar to the spotting template
+   - even the copies should be made, organized by sections, because I won't want the scaled artwork to be
+   so different from the full scale artwork
+   - consider doing spotting in the same file as the scaled artwork. That way everything comes from one place
+   when I'm putting the book together.  
+   - probably keep the spotting and scaled down artwork separate. Eventually this gets linked in inDesign, idk if a second layer
+   of links will be worth the instability potential 
+   - we need a third column in our templates moving forward, this one for scaled down  artwork checklist
+   - use the Architxt font for dimensions
+   - metal signs use decimal notation for sizes, not inches (terrible)
+   - somewhat expectedly, there is not a consistent process for each stage. 
+      + Full scale artwork, every copy. 
+      + Scaled artwork. Dimension. Arrange for book. Need dimension, and spreads. This means -- two columns, one of dimensions
+      and another with the non-dimensioned spreads. There will be times for both in the book. 
+      + InDesign book. Bubble. Descriptions. 
+   -- LATEST 
+   - The bubbling should happen in inDesign, as well as descriptions. To control sizing and composition mostly. 
+   - 
+Todays Notes: 2024-07-05
+- if the typical workflow is to separate a full scale artwork into chunks so people know what's done,
+then links are the best practice while revisions are still frequent. 
+   + This means a script for embedding the links while maintaining groups would be extremely useful. 
+   - reason being, this is usually the copy that gets sent to production, and they need to be able to make their own edits 
+   to their files based on this copy. So they'll need something live. 
+   - Problem is, embedding a link will fuck the artwork rather badly. It removes grouping, expands text in odd ways, etc
+   - So we need a better embed link script. I imagine this exists already, we need one adapted for our own purposes. 
+   
+
+- continue working on signBookJob -- adapted to work on the current directory, use with caution
+
+- set up the template for the indesign books -- 
+
+- check on links to the main production artwork 
+- make checklist template -- it worked pretty well for the george, so how do we make it repeatable? 
+   -- made the template, can save macros to it easily now. 
+- made the checklists for Casa Azul and Aura Arts District
+   - There isn't anything done for Casa Azul
+   - Most everything is done for Aura Arts District
+   - The George -- Fullscale artwork done, need scaled, need book
+
+-- Need indesign template, ask Ryan
+
+
+" VBA MACRO 
+Sub InsertCheckBoxesInSelection()
+    Dim ws As Worksheet
+    Set ws = ActiveSheet
+
+    Dim chkBox As CheckBox
+    Dim cell As Range
+    Dim rng As Range
+
+    ' Set the range to the current selection
+    Set rng = Selection
+
+    ' Loop through each cell in the selected range
+    For Each cell In rng
+        ' Add a check box to each cell
+        Set chkBox = ws.CheckBoxes.Add( _
+            Left:=cell.Left, _
+            Top:=cell.Top, _
+            Width:=cell.Width, _
+            Height:=cell.Height)
+        
+        ' Set the properties for each check box
+        chkBox.Caption = ""
+        chkBox.LinkedCell = cell.Address
+    Next cell
+End Sub
+"
+
+"
+Sub RemoveCheckBoxesFromRange()
+    Dim ws As Worksheet
+    Set ws = ActiveSheet
+    
+    Dim chkbox As CheckBox
+    Dim cell As Range
+    Dim rng As Range
+    
+    Set rng = Selection
+    
+    For Each cell In rng
+        For Each chkbox In ws.CheckBoxes
+            If chkbox.TopLeftCell.Address = cell.Address Then
+                chkbox.Delete
+            End If
+        Next chkbox
+    Next cell
+End Sub
+"
+
+
+
+Todays Notes: 2024-07-03
+- finish signBookJob -- just making folders for server with a prompt for client and job names
+- change clubhouse text 
+
+
+- What are the problems with the folders on the server? 
+   + Lack of clarity
+   + Too many folders
+      - There isn't a consistent place for anything. 
+   + no consistent naming convention, there are conventions but they differ
+   + No dedicated place for the contract
+   + No dedicated place for job id 
+   + 
+
+- My working version
+   + Production_Assets - contains subfolders fonts, contract, renderings, Textures, potentially Concept 
+   + Plans - contains Current and Old folders
+   + 
+
+
+Todays Notes: 2024-07-02
+- What is left for The George ?
+   + Refer to working contract
+   LCES good
+   LCIS good
+   
+
+
+Sign Class
+   + Sign Category - FoH, ID, Blade Sign, Illuminated, etc
+   + Sign Content - Text in the Sign? 
+   + Number of Lines - Number of lines for text on sign
+   + Description - The description used in the signbook it was released with
+   + Dimensions Overall - Total Width x Height x Depth
+   + Materials - Breakdown of description
+      - Number of Plates
+      - Dimensions of each plate
+      - Material ID
+      - Notes
+   + Job ID
+      - Client ID
+      - Location Address
+   + ADA 
+   + IFC
+   + Link to asset -- the end goal would be generating assets from this class, 
+   but it would be faster in many cases to simply retrieve a previous asset. 
+   So we'll probably want to link all the signs to a database like this one. 
+   
+Sign Class Tools
+   + Sqlite 
+   + Scripts - JSX
+   + JS, Node - We will have to build the database on something more substantial than JSX, 
+   I don't want to make it on something like C++ or Python, since we'll need JSX to interact 
+   with the database in some ways. Entering all the data will be the time consuming aspect. 
+      - JSON from objects made from the sign class
+      - Objects placed into illustrator from scripts
+      - 
+   - A script with UI that lets you enter a new sign or pick from a previous sign within Illustrator 
+   - Another one that could just record information from signs labeled in a discrete way
+   
+
+Todays Notes: 2024-07-01
+- Spotting is largely done for this first turn, need to start building the signs. 
+   + Grab what has been concepted, what Olivia has already built 
+   + Look through previous jobs
+   One thing at a time. 
+
+ASK RYAN
+- Need to ask Ryan about the Hallway Directional spotting. 
+   + Hallway Directional Construction
+   + Ask Ryan about the Building Numbers 
+FINISH GEORGE
+   + Create book scale artwork
+      - Add Dimensions
+      - Add spotting bubbles
+      - Prepare for book
+      - scale premades? have to check
+      + Add the premade artwork into the book, that's building numbers and exterior signs
+- Good references for the George
+   + The Atwell
+   + 
+- Learned the door number symbol marker for plans - search the door schedule for the number or code 
+Copies
+
+THIS DOOR TO REMAIN UNLOCKED 
+WHEN THIS SPACE IS OCCUPIED.
+
+OFFICE HOURS
+Mon, Wed, & Fri
+8:00am-5:00pm
+Tue & Thur
+8:30am-5:30pm
+Sat & Sun
+12:00pm-5:00pm
+
+XXX.XXX.XXXX
+DomainURL.com
+
+Todays Notes: 2024-06-27
+- got the excel template down, needed a vba script to make the checkboxes, actually very close to JSX but with different classes
+- working on spotting the George
+   + LCES, LCIS, BUILDING 1
+   + Site Plan 
+   + Leasing Center Elevation, Floorplan
+   + Does leasing center include clubhouse and fitness center? 
+   + 
+- Spotting pages, Fullscale artwork, Scaled Artwork, separate illustrator files
+- Book is constructed from illustrator links, inDesign
+
+
+Todays Notes: 2024-06-26
+- today we start working on the George
+- excel contract template
+   + going to look into tools that convert the document into csv and format it how I'd prefer. 
+   + Could convert and then just use awk, that would be a good project. 
+   + Match columns by the section categories, fill in all the other columns until the next section, etc
+   + Use cases: 
+      - I don't want to use paper. Paper is slow. Digital tables are fast.
+      - Can keep track of many things based on a single sheet of data.
+      - when a job is done or requires revisions it's easy to duplicate 
+      - I can data merge information into illustrator, indesign
+      - Scripting is actually possible with ordered data. 
+      - progress checklist is now something I can share with others, IE Ryan and Alyssa
+      - can gain insight into the jobs themselves. Start creating DAM procedures from data. 
+
+Todays Notes: 2024-06-25
+- So hard to actually get any practice here, so much for training. -- for now!
+We have about an hour. Going to work with a copy of a contract in excel and try to get a checklist working.
+If there is time left I want to start looking at the paper plans for The George
+
+- Checklist
+   + makeJob can be adjusted here
+   + things to improve -- cd needs to change the parent shell, date needs to be after job name
+- Paper plan overview
+   + Look for what pages have notes
+   + Look for pages that we'll need for spotting
+- Folder setup for a new project
+- Book template 
+- Artwork Templates
+   + Full Scale
+   + 1/4 scale, or "book" scale
+
+
+Todays Notes: 2024-06-17
+in 8:16
+out
+lunch
+
+-- really need to set up direct deposit and all that
+- newest scripts and such
+- studying architectural plans -- 30-40 min this morning with notes
+- following Olivia and watching her workflow 
+
+
+Todays Notes: 2024-06-14
+in at 815am
+out at 300pm
+lunch 30min
+
+- dynamic applescript and bash - applescript templates for placing paths into currently open finders, bash for placing variables
+
+- go see Marcia about a fingerprint
+- WorkEasy bookmark
+- scripts for jumping to relevant parts of the server 
+
+- Olivia is in today
+	+ What is her process for spotting
+	+ Adobe workflows
+	+ Book preparation
+
+Todays Notes: 2024-06-13
++ Trial Book
+	- Spotting first
+	- Artwork generation
+	- Book creation
+	++ based on outline in production artwork 0
++ Workflows
+	- Reference Materials
+		+ Everything is on the server
+		+ Sign Concept Book - this is a general overview of the styles and branding for major elements of the job
+		+ Sign Book - this goes into more detail about the actual components for signage on a property
+		+ Contract - This will have a mostly accurate listing of ID, description, and placement for the components
+		+ The physical plans themselves - Architectural, Elevation, Addressing
+	- Spotting - placing all components onto their relevant plan images
+		+ Templates for the title block - check the code in the bottom right, should correlate with the contract
+		+ Pages for the book, inDesign templates, use links from illustrator 
+		+ It looks like the sign book will have material descriptions for the components
+		+ Need to pull images for each section that will have spotting, so plan referencing
+		+ Start with General for the overview of the entire site
+		+ Then each floor of each building
+		+ Leasing Office/Clubhouse
+		+ These are common components, often there will be specific components added by hand to the plans
+		+ When we work with physical plans, grab a list of the likely digital plans first to give me an idea
+		of what is going to actually be pertinent. 
+		++ Getting accurate measurements of dimensions from the plans
+		+ Using the scale from the physical plans, we can get pretty close if not dead on. Trace the plans and 
+		then scale up accordingly. The CAD tools scale is very useful for this 
+	- Reading Plans - company/Signs/Sign Books/<(client acronym)>
+		+ Find the client on the server 
+		+ Find the necessary pages for the given sections in the contract
+		+ General will have complete overview -- generally!
+		+ Architectural should have most of what I need, then a few pages from the other sections
+		+ 
+	- Sign Component Implementation
+	- Book Construction
+++ Potential Scripts
+	- open list and pass to adobe acrobat
+	- set the screenshot folder later
+
+
+
+in at 8:15
+out at 540
+30 min lunch
+
+TODO
++ we should look through some plans and see if we can determine placement of signs
++ should look through the material they gave me yesterday and see what I see
+	- ask questions
++ explore scripting resources
++ finish configuring adobe products
++ finish vimPlug setup
+
+++ need to get finger print id set up
+++ recording time, but need to tell someone so I get paid
+++ printer configuration, fiery
+ 
+
+Todays Notes: 2024-06-12
+in at 8:20
+out at 5:30
+30 min lunch
+- TODO
++ We have to stress understanding process, they are very in their flow and I have a million questions
++ Stages so far - we get book > development gets sectioned off to each designer > review Client Sign Book, Contract Plans, 
+Client folder > Spotting for signs within scope of job per designer > ___ probably want to stage all templates from components >
++ setup applescripts for starting, upload tonight
+
+
+
++ When does my job start? 
+	- Book comes in from __
+	- That book should include: Contract, Plans, Sign Book
+	- There will be a list of components on the contract
+	- There will be a directory on the server with everything in it
+		- /Volumes/company/Signs/Sign Books/<client names>/
+		- /Artwork/ -- this is where I will be a lot of the time
++ How do I know what components will go into a job
+	- Check the contract
+	- Understand the scope of the tasks assigned to me, they appear to be split between the team depending on the job
+
++ Where do I get dimensions for the signs for a given client
+	- This is stated in a number of places 
+	1. Client Sign Books
+	2. Development Plans 
+	3. 
+
++ Placing signs on the plans - this is called Spotting
+	- Where to find the placement on the plans -- practice reading plans 
+	- There are often hand written notes from Murphy or Ryan that detail exactly where signs will go 
+	- spotting is something that happens before artwork construction 
+	- these are used in the building of the book for review
+		
+
++ Understanding architectural plans -- oh BPS
+	- Floors
+	- Symbols
+	- Acronyms
+	- reading pages
+	- understanding what is relevant for my position, so I don't have to read an entire plan (all the time)
+
+
+HELLO WORLD
