@@ -1,4 +1,309 @@
 Todays Programming Notes: 2024-11-13
++ General for the day: 
+    - these won't be methods they will just be functions, the object will just hold the data. 
+    - a big shift would just to use modern javascript for most of it and only call extendscript functions for UI and triggers
+    - I think getting a simple UI functioning, attaching it to a labeling system, and binding it together with a 
+    useful object that is intuitive to build on top of. Rather than rely on the contract to begin with, lets just demonstrate
+    that the programs aren't some hoax you know.
+    - The functionality for organizing the signs into a book, contract, or other format can come after and will be immediately 
+    understandable as useful. 
+    - Contract is just an object of lists
+    - cleaned contract will just be aoa, other structured format
+    Contract {
+        constructor(job_id) {
+            this.job_id = job_id;
+            this.contract_list = [];
+            this.section_list = [];
+            this.sign_list = [];
+            this.build_list = [];
+            this.labels_list = [];
+        }
+        sheet-create_clean_contract (data) {
+            // will invoke sheetJs magic and return a simple aoa
+        }
+        import_contract (contract) {
+            // turns a formatted contract into:
+            contract_list, section_list, sign_list.
+        }
+        export_contract () {
+            // will export the contract_list as a csv or xlsx (brave)
+        }
+        reorganize_contract () {
+            // if there are deleted items on the contract, update the key values of the list.
+        }
+        display_contract() {
+            // interacts with the UI to show the current sign_list
+        }
+        update_contract(current_contract) {
+            // this will change the contract_list based on whatever UI state the user has
+            // checks for changes, calls add_revision
+        }
+        add_revision(current_contract) {
+            // once a build or label has changed, increment the revision property of that object
+        }
+        add_build (build_text) {
+            // there is a build list because there are only so many unique builds 
+            // in a contract and parsing that information before creating the book will save time down the chain
+            // will take values from UI and add them to a build object in the build_list;
+            // see build UI to understand that formatting more clearly 
+        }
+        edit_build (target_build) {
+            // change an existing build to a new build based on UI state
+        }
+        delete_item (target_item) {
+            // for removing items from a list
+        }
+        sort_build (build_list) {
+            // will compare the build list objects in build_list for unique builds, deleting duplicates
+            
+        }
+        add_label (label_list) {
+            // push a new label onto the label list from the UI state
+        }
+        delete_label (label_list) {
+            // delete a given label from the label list
+        }
+        edit_label (target, label_list) {
+            // change the fields of a label in the label list
+        }
+        
+        update_labels (label_list) {
+            // change the current label list according to label_list UI state
+        }
+        create_labels_from_section (section_list) {
+            // create labels from the section table, so if you have imported the contract
+            // you will have a preset list on display in the UI
+            // you can of course add a label
+        }
+        search_label (target, label_list) {
+            // search the labels list and return matched label fields
+        }
+        
+        ui-build_ui (sign_list) {
+            // a list of unique builds for the given job 
+            // a build is a stack of materials, each index in the stack has a layer_name
+            // a material is a material_name, thickness
+            // shows layers n with 
+            // for each layer display the material and thickness
+        }
+        ui-label_ui (label_list) {
+            // a user can create a label
+            // the label will have fields that will allow for adding it to the contract
+            // the label_list will be displayed, you can duplicate, edit, add new labels
+            // the fields are sign key, count, sign name,  
+            
+        }
+        
+        
+    }
+- Heaps 
+    + a binary tree with a maximum and minimum value.
+    + min heap - the root is the minimum value of the dataset, every child value is greater than or equal to its parent
+    + max heaps - the root is the maximum value of the dataset, every child value is less than or equal to its parent
+    + max heaps and min heaps are considered separate structures
+    
+- Binary Tree
+    + has the following properties: 
+    Data
+    depth value - top level is 1, everything greater than 1 is lower in the tree
+    left pointer - points to the left child of the tree, itself a binary tree, and must have data lesser than the root nodes data
+    right pointer - points to right child of the tree, itself a binary tree, must have data greater than the root nodes data
+    + traversing a binary tree
+    Three methods: Preorder, Inorder, Postorder. 
+    Preorder - current node, left child node, then right child node
+    Inorder - left child node, current node, right child node -- this will give you a sorted list of the tree values
+    Postorder - left child node, right child node, current node
+    
+    + searching a binary tree
+    + insert method example:
+  insert(value) {
+    if (value < this.value) {
+        if (this.left) {
+          this.left.insert(value);
+        } else {
+          this.left = new BinaryTree(value, this.depth + 1);
+        }
+    } else {
+      if (this.right) {
+        this.right.insert(value);
+      } else {
+        this.right = new BinaryTree(value, this.depth + 1);
+      }
+    }
+  }
+    + testing insert method example
+    bt.insert(50);
+    bt.insert(125);
+    bt.insert(75);
+    bt.insert(25);
+    console.log(bt)
+
+    + testing search by value
+      getNodeByValue(value) {
+    if (value === this.value) {
+      return this;
+    } else if (this.left && value < this.value) {
+      return this.left.getNodeByValue(value);
+    } else if (this.right && value > this.value) {
+      return this.right.getNodeByValue(value);
+    } else {
+      return null;
+    }
+  }
+    + testing search by value
+    console.log(bt.getNodeByValue(75));
+    console.log(bt.getNodeByValue(55));
+    
+    + example of binary tree traversal 
+      depthFirstTraversal() {
+    if (this.left) {
+      this.left.depthFirstTraversal();
+    }
+    console.log(`${this.value}, ${this.depth}`);
+    if (this.right) {
+      this.right.depthFirstTraversal();
+    }
+  }
+
+
+
+
+- Binary Search -- using tree structure for search
+    + Requires a sorted data set. 
+    + Check the middle of the dataset
+    if match return data
+    + if middle < target
+    start at step 1 using right half of list
+    + if middle > target
+    start at steo 1 using left half of list
+    Binary Search -- using tree structure for search
+    + Requires a sorted data set. 
+    + Check the middle of the dataset
+    if match return data
+    + if middle < target
+    start at step 1 using right half of list
+    + if middle > target
+    start at steo 1 using left half of list
+    // we know this is a logarithmic time complexity without considering the sorting. 
+    // you are looking at half as much of a list each time you iterate. 
+    + With the sorting, we resort to linear search O(N) speed complexity
+    
+    + binary search example: 
+const binarySearch = (arr, target) => {
+  let left = 0;
+  let right = arr.length;
+  
+  while (right > left) {
+    const indexToCheck = Math.floor((left + right) / 2);
+    const checking = arr[indexToCheck];
+    console.log(`indexToCheck equals: ${indexToCheck}`)
+  
+    if (checking === target) {
+      return indexToCheck;
+    } else if (target > checking) {
+        left = indexToCheck + 1;
+    } else {
+        right = indexToCheck;
+    }
+  }
+  return null;
+} 
+- tree data structures
+    + has a root, the topmost element of the tree
+    + they are structured, pointing down a tree splits. The left split is always less than it's parent, and the right is always
+    greater. This structure ensures efficient access to child elements of the root. This is called binary search. 
+    + composed of nodes related by reference to other nodes: parent -> child relationship. elements within the child are known
+    as leaves.
+    + Leaves do not have references to any other nodes; they have no children. 
+    + Children are held as references to parent nodes. 
+    + Parents may be related to other parents, children, and leaves. 
+    + Roots are not held as reference to any other node
+    + Use cases: hierarchical information, organizational charts, genealogical trees, computer file systems, HTML elements "DOM", 
+    state diagrams, and etc
+    + Tree has nodes, nodes are a simple structure with data and a list of children, children are also tree nodes
+    + Functions of a tree are adding and removing data, and traversing the tree in two ways: 
+    + Depth first
+    + Breadth First.
+
+    + pseudo:
+    class treeNode
+        constructor (data)
+        this.data = data;
+        this.children = [];
+        
+        addChild(child) 
+            if (child instanceof TreeNode) 
+               children.push(child)
+            else
+            children.push(new TreeNode(child))
+        
+        removeChild(childToRemove) 
+    + removeChild method: 
+    // this uses newer JS syntax, which I should know but for projects right now isn't as flexible. 
+    // Worth knowing both well!
+            removeChild(childToRemove) {
+    const length = this.children.length;
+    this.children = this.children.filter(child => {
+      if (childToRemove instanceof TreeNode) {
+        return childToRemove !== child;
+      } else {
+        return child.data !== childToRemove;
+      }
+    });
+    if (length === this.children.length) {
+      this.children.forEach(child => child.removeChild(childToRemove))
+    }
+  }             
+    
+      print(level = 0) {
+    let result = '';
+    for (let i = 0; i < level; i++) {
+      result += '-- ';
+    }
+    console.log(`${result}${this.data}`);
+    this.children.forEach(child => child.print(level + 1));
+  }
+    // this use of recursion on objects is trippin me out
+    depthFirstTraversal() {
+    console.log(this.data);
+    this.children.forEach(child => child.depthFirstTraversal());
+  }
+
+ breadthFirstTraversal() {
+    let queue = [ this ];
+    while (queue.length > 0) {
+      const current = queue.shift();
+      console.log(current.data);
+      queue = queue.concat(current.children);
+    }
+  }
+menu.print();
+menu.removeChild("BBQ Chicken");
+menu.removeChild("Yogurt");
+menu.children[2].addChild("BBQ Chicken");
+menu.children[0].addChild("Yogurt");
+
+// Need a lot more practice with trees, but they already seem like an incredible tool to know. 
+
+    
+
+- Space complexity 
+    + space or memory used in the run time of a program
+    That literally means how many spots in memory are registered for the use of the given function
+    So if the size of the register is variable it will be larger than O(1)
+    + passing by reference doesn't increase the space complexity for recursive functions, JS passes by reference
+    In C++ you do have to specify passing by reference 0.0
+    + 
+    + Examples:
+    function findMin(inputArray) {
+        let min = inputArray[0];
+        for (let i = 0; i < inputArray.length; ++i) {
+            if (inputArray[i] < min) {
+                min = inputArray[i];
+            }
+        }
+        return min;
+    }
 - asymptotic notation
    + Used to understand the total number of instructions a program will require. 
    + Theta, O, and Omega are used to represent N^2

@@ -118,6 +118,10 @@ git push origin master
   + pull from repo for new workstation
 git fetch origin
 git pull
+git pull --rebase // useful
+
+# check out useful repo information
+git status
 
 ++ Databases
 sqlite -- for c and c++ probably, very flexible
