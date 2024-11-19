@@ -1,0 +1,62 @@
+
+   function Client() {
+       this.client_name = "";
+       this.active_jobs = [];
+       this.archived_jobs = [];
+       this.client_information = [];    
+    }
+   function Job() {
+      this.job_number = "";
+      this.job_name = "";
+   }
+
+   function Contract(contract_name, job_id, data) {
+      this.data = data;
+      this.job_id = job_id;
+      this.revision = 0;
+      this.contract_name = contract_name;
+      this.contract_list = [];
+      this.section_list = [];
+      this.sign_list = [];
+      this.build_list = [];
+      this.labels_list = [];
+    }
+
+
+// These get pushed onto the section_list of the contract object
+// 
+function Section(section_name, job_id) {
+      this.section_name = section_name;
+      this.sign_list = [];
+}
+
+   function Sign(section, item_key, count, description) {
+      this.build = [];
+      this.height = null;
+      this.width = null;
+      this.section = section;
+      this.item_key = item_key;
+      this.count = count;
+      this.description = description;
+      this.attached_label = null;
+   }
+
+// This brings information from the contract list into the section object
+//    Section.prototype.filterSections = function(list) {
+//        var mainList = parser(list);
+//        this.signList.push(mainList[2]);
+//     }
+//
+//     Section.prototype.alertSections = function() {
+//      alert(this.signList.toString());
+//     }
+//
+//   Section.prototype.makeBox = function() {
+//      var newBox = doc.textFrames.add();
+//      newBox.name = this.name + "-testing";
+//      newBox.contents = this.signList;
+//   }
+
+
+
+

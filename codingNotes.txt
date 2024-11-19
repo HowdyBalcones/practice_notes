@@ -1,3 +1,14 @@
+Todays Programming Notes: 2024-11-18
+- so the coding notes have been more frequent than the dates would indicate, but our notes script isn't setup between hosts. 
+- continue with implementing some of the pseudo code that we wrote out last night. Want to dabble with some UI today.
+- lets try and put that object together
+   + object of lists, aoa's
+   + 
++ the immediate problems
+   - how do we handle calling for external functions from .jsx files? 
+   - basically everything will be extendscript except the javascript for parsing xslx files
+    
+
 Todays Programming Notes: 2024-11-13
 + General for the day: 
     - these won't be methods they will just be functions, the object will just hold the data. 

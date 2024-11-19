@@ -1,0 +1,57 @@
+    var test_aoa = [
+        ["LCES", "A.", 1, "Sign_Name-00"],
+        ["LCES", "B.", 1, "Sign_Name-01"],
+        ["LCES", "C.", 2, "Sign_Name-02"],
+        ["LCES", "D.", 4, "Sign_Name-03"],
+        ["LCES", "E.", 2, "Sign_Name-04"],
+
+        ["LCIS", "A.", 2, "Sign_Name-01"],
+        ["LCIS", "B.", 1, "Sign_Name-02"],
+        ["LCIS", "C.", 1, "Sign_Name-03"],
+        ["LCIS", "D.", 4, "Sign_Name-04"],
+        ["LCIS", "E.", 1, "Sign_Name-05"],
+        ["LCIS", "F.", 10, "Sign_Name-06"],
+        ["LCIS", "G.", 15, "Sign_Name-07"],
+        ["LCIS", "H.", 3, "Sign_Name-08"],
+        ["LCIS", "I.", 1, "Sign_Name-09"],
+
+        ["Site Signage", "A.", 5, "Sign_Name-01"],
+        ["Site Signage", "B.", 8, "Sign_Name-02"],
+        ["Site Signage", "C.", 90, "Sign_Name-03"],
+        ["Site Signage", "D.", 3, "Sign_Name-04"],
+        ["Site Signage", "E.", 3, "Sign_Name-05"],
+        ["Site Signage", "F.", 1, "Sign_Name-06"],
+
+        ["Building_1-Level_1", "A.", 5, "Sign_Name-01"],
+        ["Building_1-Level_1", "B.", 2, "Sign_Name-02"],
+        ["Building_1-Level_1", "C.", 3, "Sign_Name-03"],
+        ["Building_1-Level_1", "D.", 1, "Sign_Name-04"],
+        ["Building_1-Level_1", "E.", 1, "Sign_Name-05"],
+        ["Building_1-Level_1", "F.", 15, "Sign_Name-06"],
+        ["Building_1-Level_1", "G.", 100, "Sign_Name-07"],
+        ["Building_1-Level_1", "H.", 1, "Sign_Name-09"],
+        ["Building_1-Level_1", "I.", 2, "Sign_Name-10"],
+        ["Building_1-Level_1", "J.", 4, "Sign_Name-11"],
+        ["Building_1-Level_1", "K.", 2, "Sign_Name-12"],
+        ["Building_1-Level_1", "L.", 1, "Sign_Name-13"],
+        ["Building_1-Level_1", "M.", 5, "Sign_Name-14"],
+        ["Building_1-Level_1", "N.", 1, "Sign_Name-15"],
+
+        ["Building_1-Level_2", "A.", 8, "Sign_Name-01"],
+        ["Building_1-Level_2", "B.", 2, "Sign_Name-02"],
+        ["Building_1-Level_2", "C.", 100, "Sign_Name-03"],
+        ["Building_1-Level_2", "D.", 2, "Sign_Name-04"],
+
+        ["Building_1-Level_3", "A.", 8, "Sign_Name-01"],
+        ["Building_1-Level_3", "B.", 4, "Sign_Name-01"],
+        ["Building_1-Level_3", "C.", 90, "Sign_Name-01"],
+        ["Building_1-Level_3", "D.", 2, "Sign_Name-01"],
+
+        ["Amenity_Signage", "A.", 1, "Sign_Name-01"],
+        ["Amenity_Signage", "B.", 1, "Sign_Name-02"],
+        ["Amenity_Signage", "C.", 1, "Sign_Name-03"],
+        ["Amenity_Signage", "D.", 4, "Sign_Name-04"],
+        ["Amenity_Signage", "E.", 2, "Sign_Name-05"],
+        ["Amenity_Signage", "F.", 9, "Sign_Name-06"]
+      ]
+
