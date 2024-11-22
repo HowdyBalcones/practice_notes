@@ -522,30 +522,36 @@ function renameGroup(newName) {
          var sign = contract.sign_list[i];
          var sign_desc = sign.description;
          var sign_count = sign.count;
-         var match_indexes = "";
-         // don't think this is working, bring home tonight! 
-         for (var j = 0; j < contract.sign_list.length; ++j) {
+         var j = i + 1; // check next item
+         
+         while (j < contract.sign_list.length) {
             var sign_comparison = contract.sign_list[j];
             if (sign_desc === sign_comparison.description) {
                sign.count += sign_comparison.count;
-               // delete the matched sign
-               contract.sign_list.splice(j,1);
-               // match_indexes += j + " - ";
+               contract.sign_list.splice(j, 1);
+            } else {
+               j++;
             }
          }
-         // alert(match_indexes);
       }
    }
 
    function export_contract (contract) {
       // your current contract object will be exported to csv or xlsx
+      // this will require an understanding of sheetJs for xlsx support
+      // csv is very possible
    }
    function reorganize_contract () {
       // check latest contract state with previous contract state
       // if new state detected, then update the keys of the contract
    }
+   // *** 11.22 -- finish this next, so the program starts to be something tangible
    function display_contract () {
       // interaction between UI and contract object to display information to the user
+      // display the rows and columns of the latest revision of the contract list. 
+      // make each cell editable with a double click
+      // update the contract object after each edit
+      // update any signs attached via labels to the contract
    }
    function update_contract () {
       // will change the contract object when the user alters and confirms the UI state
@@ -554,7 +560,12 @@ function renameGroup(newName) {
       // take a contract state and create  a revision copy of that state
    }
    function sign_create (target) {
-      // will take the currently se
+      // will take the currently selected item from the contract object and create a sign from an existing template
+      // if there is no existing template for the line item then it will let the user know which signs don't have a template
+      // should list all missing templates at once rather than one at a time
+   }
+   function display_builds (contract) {
+      // a tab in the UI for builds, similar to the display_contract func
    }
    function build_add (build_text) {
      // take values from UI fields and create a build object
@@ -564,6 +575,9 @@ function renameGroup(newName) {
    }
    function build_sort (build_list) {
       // checks the current contract build_list for duplicates and alerts the user before deleting
+   }
+   function display_labels (contract) {
+      // like the other display functions, another tab in the UI just for labels
    }
    function label_add (label_name) {
       // will create a new label based on UI state
