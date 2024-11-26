@@ -45,9 +45,9 @@ function import_data (path) {
       blankrows: false
    });
 
-   let filtered_data = raw_data.filter(row => row.some(cell => cell !== null && cell !== ''));
+   const filtered_data = raw_data.filter(row => row.some(cell => cell !== null && cell !== ''));
    filtered_data = contract_filter(filtered_data);
-   filtered_data = filter_below_match(filtered_data, "SUBTOTAL");
+   filtered_data = filter_below_match(filtered_data);
    return filtered_data;
 }
 

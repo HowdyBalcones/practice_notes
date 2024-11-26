@@ -1,3 +1,59 @@
+Todays Programming Notes: 2024-11-26
+- Javascript array methods
+   + .filter
+   + .some
+   + .map 
+
+
+Todays Programming Notes: 2024-11-25
+- back again, Learning about heaps. 
++ Binary Sort 
+   - sorting algorithm 
+   - bubble sort, merge sort, and quicksort 
+   - Bubble Sort:
+      + according to the sort criteria, swaps elements to shift elements to beginning or end of list
+      + sorts elements e through Starting position and End Position
+      + creates an ascending or descending list of elements
+      + ascending = e1 > e2
+      + descending = e1 < e2
+      + multiple assignment -- list[index1], list[index2] = list[index2], list[index1];       
+      + temp variable to enable the swapping of e
+      + Pseudo:
+      while array is not sorted 
+         for each value in the array
+            if current value > next value 
+               swap current with next value
+      return array 
+      + Example: 
+      const swap = require('./swap');
+
+const bubbleSort = input => {
+  let swapping = true;
+  
+  while (swapping) {
+    swapping = false;
+    for (let i = 0; i < input.length - 1; i++) {
+      if (input[i] > input[i + 1]) {
+        console.log(`Swapping pair ${input[i]}, ${input[i+1]} in [${input}]`);
+        swap(input, i, i + 1);
+        swapping = true;
+      }
+    }
+  }
+  return input;
+};
+
+module.exports = bubbleSort;
+
+      Helper: 
+const swap = (arr, indexOne, indexTwo) => {
+  const temp = arr[indexTwo];
+  arr[indexTwo] = arr[indexOne];
+  arr[indexOne] = temp;
+};
+
+module.exports = swap;
+
 Todays Programming Notes: 2024-11-18
 - so the coding notes have been more frequent than the dates would indicate, but our notes script isn't setup between hosts. 
 - continue with implementing some of the pseudo code that we wrote out last night. Want to dabble with some UI today.
@@ -112,6 +168,106 @@ Todays Programming Notes: 2024-11-13
     + min heap - the root is the minimum value of the dataset, every child value is greater than or equal to its parent
     + max heaps - the root is the maximum value of the dataset, every child value is less than or equal to its parent
     + max heaps and min heaps are considered separate structures
+    + heapify up - when an element that breaks the fundamental rules of a given heap is passed up the tree, replacing it's parent,
+    until the conditions of the tree are met. 
+    + heapify down - when the least value is the topmost node, if we want to replace that node we heapify down. 
+    take the bottom right node with no children and replace the root. Then shift the new root with the least value between 
+    it's new children until the conditions of the tree are met. 
+    + heaps are good for knowing the maximum and minimum of a dataset. 
+    + often uses arrays under the hood
+    + the explanation of this is pretty bad. 
+    - Heapify Up -- when the tree is a MIN HEAP, and you are replacing the ROOT NODE with the bottom right-most node. 
+    The node will then descend the "tree". While the parent node is lesser than both it's children, it will replace
+    the child with the least value until the new node is the least value child. 
+    - Heapify Down - when the tree is a MAX HEAP, and you are replacing the ROOT NODE, 
+Example: min-heap
+   class MinHeap {
+  constructor() {
+    this.heap = [ null ];
+    this.size = 0;
+  }
+
+  popMin() {
+    if (this.size === 0) {
+      return null
+    }
+    console.log(`\n.. Swap ${this.heap[1]} with last element ${this.heap[this.size]}`);
+    this.swap(1, this.size);
+    const min = this.heap.pop();
+    this.size--;
+    console.log(`.. Removed ${min} from heap`);
+    console.log('..',this.heap);
+    this.heapify();
+    return min;
+  }
+
+  add(value) {
+    console.log(`.. adding ${value}`);
+    this.heap.push(value);
+    this.size++;
+    this.bubbleUp();
+    console.log(`added ${value} to heap`, this.heap);
+  }
+
+  bubbleUp() {
+    let current = this.size;
+    while (current > 1 && this.heap[getParent(current)] > this.heap[current]) {
+      console.log(`.. swap ${this.heap[current]} with parent ${this.heap[getParent(current)]}`);
+      this.swap(current, getParent(current));
+      console.log('..', this.heap);
+      current = getParent(current);
+    }
+  }
+
+  heapify() {
+    console.log('Heapify');
+    let current = 1;
+    let leftChild = getLeft(current);
+    let rightChild = getRight(current);
+
+    while (this.canSwap(current, leftChild, rightChild)) {
+      if (this.exists(leftChild) && this.exists(rightChild)) {
+        if (leftChild < rightChild) {
+          this.swap(current, leftChild);
+          current = getLeft(current);
+        } else {
+          this.swap(current, rightChild);
+          current = getRight(current);
+        }
+      } else {
+        this.swap(current, leftChild);
+        current = getLeft(current);
+      }
+      leftChild = getLeft(current);
+      rightChild = getRight(current);
+    }
+  }
+
+  exists(index) {
+    return index <= this.size;
+  }
+
+  canSwap(current, leftChild, rightChild) {
+    // Check that one of the possible swap conditions exists
+    return (
+      this.exists(leftChild) && this.heap[current] > this.heap[leftChild]
+      || this.exists(rightChild) && this.heap[current] > this.heap[rightChild]
+    );
+  }
+
+  swap(a, b) {
+    [this.heap[a], this.heap[b]] = [this.heap[b], this.heap[a]];
+  }
+
+}
+
+const getParent = current => Math.floor((current / 2));
+const getLeft = current => current * 2;
+const getRight = current => current * 2 + 1;
+
+module.exports = MinHeap;
+ 
+    
     
 - Binary Tree
     + has the following properties: 

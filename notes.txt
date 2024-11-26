@@ -1,3 +1,85 @@
+Todays Notes: 2024-11-26
+- indesign notes
+   + The Goal: 
+      - Learn in depth about the indesign program. We know all the basic features and many of the these advanced techniques.
+      But the application is important. Is reflowing text something we can leverage more, is GREP replace useful in the FOURCE
+      context, etc. The linked tables are certainly interesting and useful, probably the best example of knowledge meeting practice
+      so far. They should just be easier to use. 
+      - rebuild the excel job worksheet template to be simpler and more compatible with other programs. May just make a CSV version. 
+      
+   + libraries 
+   + stroke styles
+   + paragraph styles connect with the table of content feature
+   + some details about tables, it's easy to just link a simple table from excel. Doesn't work with xlsm
+   + anchor objects 
+   + grep to replace custom tags 
+      - text formatting for specific patterns
+      - using the GREP paragraph style 
+      - using nested styles
+      - use to create material callouts in descriptions with more emphasis 
+      - 
+   + using nested styles and style sequences 
+      - combine with object styling 
+      - keep options
+      - span and split commands for text reflowing 
+      - you can import styles from the style panel, hit the hamburger and then simply load styles from a document. 
+   + exploring object styles 
+      -
+   + 
+   + 
+
+- 11/26 m3 to RF office, maybe three minutes looking through stuff on desk. 
+
+- should take a look into the template library. There are assets that just don't work very well. 
+   + Remove clipping masks
+   + Check for duplicate lines
+   + Fill any strokes that aren't essential
+   + variations in sizes
+   + groups that make sense
+   + labels 
+   + consolidate assets into files that make sense -- too much shit in templates folder
+   + descriptions repo
+   + materials repo and wiki
+      - trick here is to make it something we can easily drop into indesign and work from there.   
+      Something like a tagging system that would be replacable. Like knowing there are only 10 unique builds
+      would make that very possible. 
+      - then having something on the server that is consolidated. 
+      - adobe libraries
+   + 
+
+   + STEPS FOR LINKING XLSX TO INDESIGN
+      - Preferences/File Handling -> Press the Create links when placing text and spreadsheet files
+
+Todays Notes: 2024-11-25
+- Use Anki for flashcards
+   + Need to make sets for array, string methods
+   + make a set for general javascript knowledge and tricks
+   + make a set for data structures: refer to notes and we will add them as we go.
+   + 
+- making our notes a bit more engaging to work with. Something where we can embed images and then jump to topics more easily. 
+   + take current notes and bring them into this new context
+   + understand and template adding images to the notes sections
+   + make a natural typographic transition for each section in notes
+
+- generally, we just need to get better at programming. This means doing practice problems, reviewing notes, doing practical
+projects in different environments, doing tutorials, reading advanced books with problems and solutions. 
+   + Everything needs to be faster. Better recall of language patterns, immediate understanding of the context for a given problem. 
+   + 
+- solutions 
+   + flashcard problems, separated in a way that will grow well. Array patterns, object patterns, data structures, general language
+   + review notes. There should be dedicated time each day for a notes review. Should go back at least a few days. To stay fresh. 
+   + Practice problems with LeetCode and Codecademy. These introduce use to many new concepts. They could be fleshed out more, 
+   but that is a matter to follow up on with other methods.
+   + Practical implementation. Understanding how these patterns are applied in the real world, to actually solve problems.    
+   + Projects. These are longer term projects that can have any goal, but generally exist to test theory and practice. 
+   + Reading documentation. There is sooo much documentation that we can go through, but language specific docs that deal with 
+   the concepts we are currently focusing on will be helpful. Like can we implement all the array methods in JS? Do we know how to
+   use each with confidence? The same with strings, objects, etc. 
+   + Libraries. A lot of the learning with Javascript seems to lie in the libraries people have made. There are so many lessons  
+   waiting in that documentation, and even more in the projects I build with them. 
+   + That's plenty to start with. Need a good flashcard site, maybe eventually we can make a project to build one. 
+   
+
 Todays Notes: 2024-11-21
 - check libraries
 - leaving this north ranch business at the building 1 fire door do not block signs, need a profile and should be plastic. 
