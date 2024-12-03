@@ -1,3 +1,373 @@
+Todays Programming Notes: 2024-12-03
+- Gonna work through more codecademy today, then look through LB-1
+- Reading through yesterdays notes for thirty 
+- need to sync my flashcards for anki 
+
+- scripting ideas
+   + need a sorting script for placing objects into a frame of given size. There are becoming many instances where 
+   I would like to not have to do that manually. 
+   
+
+- Graphs with Javascript 
+   + A data structure to represent data points, or vertices, that are connected by edges.
+   + Used in maps where each location is a vertex, each path or road is an edge. 
+   + Features: Directed or undirected, weighted or unweighted, vertices, edges
+      - Nodes/Vertices: Represent entities within the graph. 
+      - Edges: Represent relationships or connections between vertices. 
+      - Paths: A series of edges connected by vertices. 
+      There can be multiple edges between vertices. 
+      - Types of Graph: Directed, Undirected, Weighted, Unweighted, Sparse, Dense, Cyclic, Acyclic
+      - Directed & Undirected: 
+         * Directed -> edges have a direction. A -> B, where A is connected to B but not neccesarily the inverse.
+         * Undirected -> Bidirectional. A <-> B, where both are connected.
+      - Weighted & Unweighted:
+         * Weighted -> edges have associated weights or costs.
+         * Unweighted -> All edges are treated equally, with no weights.
+      - Sparse & Dense:
+         * Sparse -> Few edges relative to vertices. 
+         * Dense -> Many edges relative to vertices. 
+      - Disconnected -> no edges between a pair or more of vertices. 
+      - Cyclic & Acyclic: 
+         * Cyclic -> Contains cycles
+         * Acyclic -> Does not contain cycles
+   + Cycles: where connecting edges return to the initial vertice
+   + Adjacency List: A table. Both columns and rows are the same list of vertices. 
+      - to find a connection or relationship, you find the point of connection in the table. 
+      - You could show this as a traditional table, a graph, or an adjacency list (an object here).
+   + Pseudo Vertex, Edge, Graph classes
+   Vertex: Stores any data, maintains a list of connections to other vertices, represented by a list of edges instances.
+   Can add and remove edges going to another vertex. 
+   Graph: Stores all of its vertices, a list of vertex instances. 
+   Knows if the graph itself is directed or undirected.
+   Knows if the graph is weighted or unweighted. 
+   A graph can add/remove its own vertices. 
+   The graph can also add and remove edges between stored vertices. 
+   
+   - Implementing  Graph, Edge, Vertice classes      
+const Edge = require('./Edge.js');
+const Vertex = require('./Vertex.js');
+
+class Graph {
+  constructor(isWeighted = false, isDirected = false) {
+    this.vertices = [];
+    this.isWeighted = isWeighted;
+    this.isDirected = isDirected;
+  }
+
+  addVertex(data) {
+    const newVertex = new Vertex(data);
+    this.vertices.push(newVertex);
+
+    return newVertex;
+  }
+
+  removeVertex(vertex) {
+    this.vertices = this.vertices.filter(v => v !== vertex);
+  }
+
+  addEdge(vertexOne, vertexTwo, weight) {
+    const edgeWeight = this.isWeighted ? weight : null;
+
+    if (vertexOne instanceof Vertex && vertexTwo instanceof Vertex) {
+      vertexOne.addEdge(vertexTwo, edgeWeight);
+    if (!this.isDirected) {
+      vertexTwo.addEdge(vertexOne, edgeWeight);
+    }
+    } else {
+      throw new Error('Expected Vertex arguments.');
+    }
+  }
+
+  removeEdge(vertexOne, vertexTwo) {
+    if (vertexOne instanceof Vertex && vertexTwo instanceof Vertex) {
+      vertexOne.removeEdge(vertexTwo);
+    if (!this.isDirected) {
+      vertexTwo.removeEdge(vertexOne);
+    }
+    } else {
+      throw new Error('Expected Vertex arguments.');
+    }
+  }
+
+  print() {
+    this.vertices.forEach(vertex => vertex.print());
+  }
+}
+
+const trainNetwork = new Graph(false, true);
+const atlantaStation = trainNetwork.addVertex('Atlanta');
+const newYorkStation = trainNetwork.addVertex('New York');
+trainNetwork.addEdge(atlantaStation, newYorkStation);
+trainNetwork.removeEdge(atlantaStation, newYorkStation);
+
+trainNetwork.print();
+
+module.exports = Graph;
+
+Vertex class
+const Edge = require('./Edge.js');
+
+class Vertex {
+  constructor(data) {
+    this.data = data;
+    this.edges = [];
+  }
+
+  addEdge(vertex, weight) {
+    if (vertex instanceof Vertex) {
+      this.edges.push(new Edge(this, vertex, weight));
+    } else {
+      throw new Error('Edge start and end must both be Vertex');
+    }
+  }
+
+  removeEdge(vertex) {
+    this.edges = this.edges.filter(edge => edge.end !== vertex);
+  }
+
+  print() {
+    const edgeList = this.edges.map(edge =>
+        edge.weight !== undefined ? `${edge.end.data} (${edge.weight})` : edge.end.data) || [];
+
+    const output = `${this.data} --> ${edgeList.join(', ')}`;
+    console.log(output);
+  }
+}
+
+module.exports = Vertex;
+
+Edge class
+
+class Edge {
+  constructor(start, end, weight = null) {
+    this.start = start;
+    this.end = end;
+    this.weight = weight;
+  }
+}
+
+module.exports = Edge;
+
+implementing and using the code
+const Graph = require('./Graph.js');
+let trainNetwork = new Graph(true, true);
+const losAngeles = trainNetwork.addVertex("Los Angeles");
+const sanFrancisco = trainNetwork.addVertex("San Francisco");
+const newYork = trainNetwork.addVertex("New York");
+const atlanta = trainNetwork.addVertex("Atlanta");
+const denver = trainNetwork.addVertex("Denver");
+const calgary = trainNetwork.addVertex("Calgary");
+
+trainNetwork.addEdge(sanFrancisco, losAngeles, 400);
+trainNetwork.addEdge(losAngeles, sanFrancisco, 400);
+trainNetwork.addEdge(newYork, denver, 1800);
+trainNetwork.addEdge(denver, newYork, 1800);
+trainNetwork.addEdge(calgary, denver, 1000);
+trainNetwork.addEdge(denver, calgary, 1000);
+trainNetwork.addEdge(losAngeles, atlanta, 2100);
+trainNetwork.addEdge(atlanta, losAngeles, 2100);
+
+trainNetwork.removeEdge(calgary, denver);
+trainNetwork.removeEdge(denver, calgary);
+trainNetwork.removeEdge(newYork, denver);
+trainNetwork.removeVertex(calgary);
+
+trainNetwork.print();
+
+
+
+
+Todays Programming Notes: 2024-12-02
+- Merge Sort
+   + Done in two steps: Splitting data into "runs" or smaller components, and then recombining runs into sorted lists.
+   + Call sort on the list, which cuts that list in half. Recursively call sort on those two halves, until each 
+   list only has a single element. Then begin merging. 
+   + While merging single element lists, compare their values. 
+   + Return each element list with the smaller element followed by the larger. 
+   + Merging larger pre-sorted lists
+      - Two lists, left and right. 
+      - Final merged list called both. 
+      - to merge, iterate through both with a two indices, left_index and right_index
+      - left_index and right_index both point to their smallest value at the start
+      - Compare left_index with right_index and the smaller of the two is added to both. 
+      - Whichever list had the smallest index, check the next element in that list against the first element of the other list. 
+      - In this example: Left had the smaller value at index 0
+      - Compare left[1] against right[0]
+      - Whichever is smaller is now both[1];
+      - Reminder that both lists need to be pre sorted.
+      - Small correction here. The lists are all 1 element long, so the lists themselves don't iterate as if in a standard
+      array. The comparisons are made between two arrays at maximum 1 element long. Both is a standard array of N length.
+   + Time complexity:
+      - Worst Case: O(n*log(n));
+      - Best case: O(N);
+   + Does not mutate the array since it creates a new array (Both)
+   + Pseudo for merge sort:
+   Base case
+   function merge_sort(arr) {
+      if (arr.length === 1) {
+         return arr;
+      }
+   }
+   middle_index = floor of int. of (left + right) / 2
+   left_arr = arr from 0 to middle_index;
+   right_arr = arr from middle_index to end;
+
+   // recursive call
+   mergeSort(leftArray);
+   mergeSort(rightArray);
+   // everything above will accomplish step one; split the array into single value arrays.
+
+   // this will do the recursive splitting and the final merge at once
+   return merge(mergeSort(leftArray), mergeSort(rightArray));
+   
+   + Pseudo for merge function:
+   function merge(leftArr, rightArr) {
+      sortedArray = [];
+      while (leftArr.length && rightArr.length > 0) {
+         if (leftArr[0] < rightArr[0]) {
+            sortedArray.push(leftArr[0]);
+            remove leftArr[0] from leftArr;
+         } else {
+            sortedArray.push(rightArr[0]);
+            remove rightArr[0] from rightArr;
+         }
+      }
+      return sortedArray with concatenated leftArr + rightArr;
+   }
+   
+   + JS implementation of merge sort: 
+// This will create an array of single element arrays, leftArray and rightArray, using recursion. 
+   const mergeSort = (startArray) => {
+  const length = startArray.length;
+  if (length === 1) {
+    return startArray;
+  }
+  
+  const mid = Math.floor(length / 2);
+  const leftArray = startArray.slice(0, mid);
+  const rightArray = startArray.slice(mid, length);
+
+  return merge(mergeSort(leftArray), mergeSort(rightArray))
+}
+
+// Once the recursion is complete, merge will compare each single element array and order each element into a new array
+// It then deletes the first array in the outer array, "dropping" the next value to the head for comparison. 
+// The concatenation at the end occurs because either array may not be empty, only one of them is needed to be empty for
+// the program to return. In that case, the final array needs to be a composite of all arrays as below. 
+const merge = (leftArray, rightArray) => {
+  const sortedArray = [];
+  while (leftArray.length > 0 && rightArray.length > 0) {
+    if (leftArray[0] < rightArray[0]) {
+      sortedArray.push(leftArray[0]);
+      leftArray.shift();
+    } else {
+      sortedArray.push(rightArray[0]);
+      rightArray.shift();
+    }
+  }
+  return sortedArray.concat(leftArray).concat(rightArray);
+}
+
+
+const inputArr = [3, 5, 2, 90, 4, 7];
+
+console.log(mergeSort(inputArr));
+
+module.exports = {
+  mergeSort
+};
+
+- Quicksort
+   + Divide and conquer 
+   + recursive
+   + Pivot = random value of the array 
+   + Partition = create sub arrays based on lesser than / greater than the pivot value
+   + Choose pivot from input array. 
+     - Sub array of lesser than / greater than the pivot values. 
+     - repeats until the sub arrays contain zero or 1 element. 
+     - the LT is never compared to the GT group
+   + Runtime of: O(N log(N))
+   + Worst case runtime of: O(N^2) -- when the pivot is greatest or least value in the list each time
+   + If the data set is already sorted, then it's often the worst case runtime.
+   + Pseudo: 
+   if (given_arr.length > 1) {
+      find pivot index through partitioning
+         if (left_pointer < pivot_index) {
+            recursive call to quick_sort(given_array.slice(left_pointer, pivot_index));
+         } else if (pivot_index < right_pointer) {
+            recursive call to quick_sort(given_array.slice(right_pointer, pivot_index));
+         }
+   }
+
+   Partitioning Pseudo:
+   start with middle_index
+   while you haven't looked through the whole array (leftIndex < rightIndex);
+   move leftIndex up until you encounter value > pivot
+   move rightIndex down until you encounter value < pivot
+   swap those found elements
+   return the last left element index
+   
+   + Pivot can be:
+   First element of the array
+   Last element of the array
+   Middle element of the array
+   Random element of the array
+   
+   Implementation: 
+const swap = require('./swap');
+
+const quicksort = (array, leftBound = 0, rightBound = array.length - 1) => {
+  if (rightBound > leftBound) {
+    const pivotIndex = partition(array, leftBound, rightBound);
+    quicksort(array, leftBound, pivotIndex - 1);
+    quicksort(array, pivotIndex, rightBound);
+  }
+  return array;
+}
+
+// Thinking in states. The outer while loop is a base case. There are two inner while loops that move past each element in the
+// given array if it passes the comparision. Then a final if statement handles when neither element passes the test. 
+// making the swap between smaller/larger elements in the given array. 
+const partition = (array, leftIndex, rightIndex) => {
+  const pivot = array[Math.floor((rightIndex + leftIndex) / 2)];
+  while (leftIndex <= rightIndex) {
+    while (array[leftIndex] < pivot) {
+      leftIndex++;
+    }
+    while (array[rightIndex] > pivot) {
+      rightIndex--;
+    }
+    if (leftIndex <= rightIndex) {
+      swap(array, leftIndex, rightIndex);
+      leftIndex++;
+      rightIndex--;
+    }
+  }
+  return leftIndex;
+}
+
+module.exports = {
+  partition,
+  quicksort
+};
+
+// helper
+const swap = (arr, indexOne, indexTwo) {
+   const temp = arr[indexTwo];
+   arr[indexTwo] = arr[indexOne];
+   arr[indexOne] = temp;
+}
+
+
+- Review notes for thirty minutes
+- Continue code academy learning paths
+- lets diagram more for our program
+   + need to look towards next functions
+   + understand the UI workflow
+   + A lightweight database package 
+   + how to make this work for everyone at once: Docker? 
+   + 
+- work on sheetJs filters
 Todays Programming Notes: 2024-11-26
 - Javascript array methods
    + .filter
@@ -17,6 +387,7 @@ Todays Programming Notes: 2024-11-25
       + ascending = e1 > e2
       + descending = e1 < e2
       + multiple assignment -- list[index1], list[index2] = list[index2], list[index1];       
+        ** relatively new feature
       + temp variable to enable the swapping of e
       + Pseudo:
       while array is not sorted 
@@ -63,7 +434,9 @@ Todays Programming Notes: 2024-11-18
 + the immediate problems
    - how do we handle calling for external functions from .jsx files? 
    - basically everything will be extendscript except the javascript for parsing xslx files
-    
+   ** this has changed, we are exploring the functionality of modern javascript interacting with extendscript. 
+   The ease of use makes up for some of the missing compatibility. Need to write more to understand the exact
+   extent of that compatibility.  
 
 Todays Programming Notes: 2024-11-13
 + General for the day: 
@@ -72,6 +445,9 @@ Todays Programming Notes: 2024-11-13
     - I think getting a simple UI functioning, attaching it to a labeling system, and binding it together with a 
     useful object that is intuitive to build on top of. Rather than rely on the contract to begin with, lets just demonstrate
     that the programs aren't some hoax you know.
+    ** So this was prescient, but we discovered that sheetJs and vanilla modern JS is quite powerful so many of the 
+    extendscript functions are redundant for this project. They were good practice? I guess. 
+    
     - The functionality for organizing the signs into a book, contract, or other format can come after and will be immediately 
     understandable as useful. 
     - Contract is just an object of lists
