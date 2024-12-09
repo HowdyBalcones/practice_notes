@@ -506,8 +506,11 @@ function renameGroup(newName) {
       var len = contract.contract_list.length;
       var latest_revision = contract.contract_list[len - 1];
       var unique_sections = [];
+     
       
       for (var i = 0; i < latest_revision.length; ++i) {
+         // so this will create an array of unique sections from the section column, which is 
+         // expected to have many unordered strings.
          var name = latest_revision[i][0];
          if (!contains(unique_sections, name)) {
             unique_sections.push(name);
@@ -525,6 +528,7 @@ function renameGroup(newName) {
          var item_key = latest_revision[i][1];
          var item_count = latest_revision[i][2];
          var item_description = latest_revision[i][3];
+         // more descriptive name for index_of_section
          var matching_section_index = index_of_section(contract.section_list, item_section);
          contract.section_list[matching_section_index].sign_list.push(new Sign(item_section, item_key, item_count, item_description)); 
          contract.sign_list.push(new Sign(null, null, item_count, item_description));

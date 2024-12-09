@@ -12,7 +12,7 @@ function filter_section_column (data) {
 }
 
 function filter_below_match (data, term_match) {
-   // find the row with the matching term, delete everything underneath that row.
+   // find the row with the matching term, return everything ABOVE the term 
    let match_index = -1;
    for (let i = 0; i < data.length; ++i) {
       if (data[i].includes(term_match)) {
@@ -25,7 +25,7 @@ function filter_below_match (data, term_match) {
 }
 
 function contract_filter (data) {
-   // filter first column, only return rows that don't containt the given string
+   // filter first column, only return rows that don't contain the given string
    return data.filter(row => row[0] !== "FOURCE COMMUNICATIONS");
 }
 
