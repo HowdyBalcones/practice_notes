@@ -473,6 +473,19 @@ function renameGroup(newName) {
       return false;
    }
 
+   function count_words() {
+      var selected = doc.selection;
+      for (var i = 0; i < selected.length; ++i) {
+         var item = selected[i];
+         if (item instanceof TextFrame) {
+            alert(item.words.length);
+            // alert(item.typename);
+         } else {
+            alert("not text");
+         } 
+      }
+   }
+
    
 
 // ---- Object Functions ----
@@ -656,10 +669,12 @@ function renameGroup(newName) {
       alert(test_sign_list);
    }
 
-  var test_contract = new Contract("Jefferson Mars Inc.", "24RAM0123S", test_aoa);
-  import_contract(test_contract);
+//  var test_contract = new Contract("Jefferson Mars Inc.", "24RAM0123S", test_aoa);
+//  import_contract(test_contract);
 //  obj_test(test_contract);
-  contract_test_full(test_contract);
+//  contract_test_full(test_contract);
+
+count_words();
 
 
 // ---- Function Testing ----
