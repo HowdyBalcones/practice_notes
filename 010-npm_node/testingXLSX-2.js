@@ -2,13 +2,39 @@ const XLSX = require('xlsx');
 
 const file = "./2211AM01S Fairmount Signage REV 1.xlsx";
 
+// reference
+// https://docs.sheetjs.com/docs/csf/sheet/
+// https://docs.sheetjs.com/docs/csf/general/
+
 const CSV_options_00 = {
    
 }
 
+function insert_col(data, columnIndex, columnData) {
+   const range = XLSX.utils.decode_range(data['!ref']); // get data range, ignores blank rows
+   const numRows = range.e.r - range.s.r + 1;
+   const startCol = columnIndex;
+
+   // this will shift the rows to the right from the insertion point
+   for (let R = range.s.r; R <= range.e.r; ++R) {
+      for (let C = range.e.c; C >= startCol; --C) {
+         const oldCell = XLSX.utils.encode_cell({ r: R, c: C });
+         const newCell = XLSX.utils.encode_cell({ r: R, c: C + 1 });
+         data[newCell] = data[oldCell]; 
+         delete data[oldCell];
+      }
+   }
+
+   for (let R = range.s.r; R <= range.e.r; ++R) {
+      const newCell = XLSX.utils.encode_cell({ r: R, c: startCol });
+      data[newCell] = { t: "s", v: columnData[R - range.s.r] || "" };
+   }
+   range.e.c += 1;
+   data['!ref'] = XLSX.utils.encode_range(range);
+}
+
 // left off here.
 function filter_section_column (data) {
-   const filtered_data; 
 }
 
 function filter_below_match (data, term_match) {
@@ -73,5 +99,6 @@ function extractData(filePath) {
 }
 
 const data = import_data(file);
+insert_col(data, 0, "TESTING");
 export_data(data);
 console.log(data);

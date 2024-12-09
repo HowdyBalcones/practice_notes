@@ -1,3 +1,23 @@
+Todays Programming Notes: 2024-12-09
+- Git is great, need to learn more about it. Flashcards would be a good idea. 
+- Coding review for thirty minutes then we are getting back into LB-1
+- list of things for LB-1 
+   + want to pull the customer info block, cut it onto a new sheet, remove the empty columns its creating on sign data sheet
+   + would like to rearrange the columns to be in the order of standard contract
+      - currently the each, total costs are in the wrong order
+      - should go: section, key, qty, desc, each val, total val
+      - space between sections for my sanity 
+   + A tricky-ish thing, need to create the section column and correctly apply each section name to it, then delete 
+   the section name/section total row. 
+      - sort've did this in the Escript object, review
+   + After we get that stuff working, need a means to run the script on multiple files at once. 
+      - test with 10 files, then 100, then 1000. 
+      - need a way to pull the files quickly off the server into our sandbox
+   + once we can process files in batch, it will be time to decide the method for dumping this into a database 
+   so we aren't reliant on excel.  
+      - probably run a mySQL server either locally or on the company server and slowly add things to it.
+      Even with just five years of data, we'd be in the money. 
+
 Todays Programming Notes: 2024-12-06
 Todays Programming Notes: 2024-12-03
 - Gonna work through more codecademy today, then look through LB-1
