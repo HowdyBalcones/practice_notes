@@ -1,9 +1,12 @@
 Todays Programming Notes: 2024-12-09
+- ah ok so a definitive use for the labeler, a reason to actually call it a labeling program.
+    + create sheet from labels, so that a contract is trule live based on the spotting.
+    + tags - a label that is associated with an object inside illustrator. 
 - Git is great, need to learn more about it. Flashcards would be a good idea. 
 - Coding review for thirty minutes then we are getting back into LB-1
 - list of things for LB-1 
    + want to pull the customer info block, cut it onto a new sheet, remove the empty columns its creating on sign data sheet
-   + would like to rearrange the columns to be in the order of standard contract
+   + would like to rearrange the columns to be in the order of standard contract -- working here 
       - currently the each, total costs are in the wrong order
       - should go: section, key, qty, desc, each val, total val
       - space between sections for my sanity 
