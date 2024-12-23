@@ -1,0 +1,241 @@
+Resources
+"Javascript: The Definitive Guide, 7th Edition"
+
+
+Notes - Main
+- we aren't going to put the whole book into notes, just the thing we don't already have a good grip on. 
+- The practice excercises will be contained in separate files, organized by chapter. 
+
+Origins
+   - Netscape developed Javscript, submitted it to ECMA, earning the title "ECMAScript". This is what Extendscript is based on. 
+   - ES5 is the compatibility standard baseline. 
+
+Types
+   - Primitive Types: numbers, strings, booleans, null, undefined, Symbol (ES6)
+   - Object Types: Everything that is not a primitive type.
+
+   - Numbers
+   + 64 bit floating point, or a double in C++, Java, etc
+   + Recognizes hexadecimal values: 0x or 0X followed by 1-9 and/or A-F (a-f)
+   + allows scientific notation: [digits][.digits][(E|e)[(+|-)]digits]
+   6.02e23
+   1.4738223E-32
+   + you can use underscores to separate long number sequences for easier reabability. 
+   + infinity and -infinity are special numbers for when a float exceeds max or min value
+   + Number object
+   Number.parseInt() // same as global parseInt() func
+   Number.parseFloat() // = global parseFloat() func
+   Number.isNaN(x) // returns bool on x === NaN
+   Number.isFinite(x) // is x a number and finite
+   Number.isInteger(x) // is x an int
+   Number.isSafeInteger(x) // is x an integer -(2**53) < x < 2**53
+   Number.MIN_SAFE_INTEGER 
+   Number.MAX_SAFE_INTEGER
+   Number.EPSILON // smallest difference between numbers
+   + NaN: will never have equality with another number
+   This means x === NaN is invalid. Use Number.isNaN(x) or x !== x
+   + Because of binary, fractions are not always rounded the same way. 
+   + BigInt can represent more numbers than the standard Number
+   written as a string of digits followed by a lowercase n
+   they can also be in base 2, 6, 8
+   1234n
+   0b111111n
+   0o7777n
+   0x8000000000000n
+
+
+   - Dates ch. 11.4
+   + is a class with its own methods
+   
+   - Text: Strings ch. 3.3
+   + an immutable ordered sequence of 16-bit values, each usually a Unicode character. 
+   + Length of a string is the number of 16-bit values it contains. 
+   + 0 indexed
+   + Empty strings have a length of 0
+   + There is no char in JS. use a string with the len of 1 (a single 16 sequence)
+   + Most characters will be included in the "multi-lingual plane" of Unicode. EG, they fit in a 16-bit sequence.
+   + When a Unicode character does not fit in a 16-bit sequence, it is expanded into a surrogate-pair (two appended 16-bit seq.)
+   + String literals are strings contained within "" or ''. Don't mix them, like "' or '"
+   + Template literals are enclosed in `` and allow embedding arbitrary expressions into a formatted string
+   Refer to ch. 3.3.4
+      - Tagged template literals are new to me, check example on 14.5 and review with MDN
+      Apparently useful for escaping SQL or HTML 
+   
+   + You can break a single string literal onto multiple lines with the use of \
+   + Has escape characters, like Bash
+   \0 // the NUL character (\u0000)
+   \b // Backspace (\u0008)
+   \t // Horizontal tab (\u009)
+   \n // Newline (\u000A)
+   \v // Vertical tab (\b\u000B)
+   \f // Form feed (\u000C)
+   \r // Carriage return (\u000D)
+   \" // Double quote (\u0022)
+   \' // Apostrophe or single quote (\u0027)
+   \\ // Backslash (\u0027)
+   \xnn // Unicode character specified by two hexadecimal digits nn
+   \xnnnn // Unicode character specified by the four hexadecimal digits
+   \u{n} // Above, specified by the codepoint n, where n is one to six hexadecimal digits between 0 and 10FFFF
+   If the \ is used before any other character, it is effectively ignored by JS
+   + Concatenation of strings: "What" + "String?"
+   + Equality operators compare the exact sequence of the 16-bit values between two strings
+   see ch. 11.7.3 for additional string comparison technique
+   + String methods
+   let s = "Hello World";
+   s.substring(1,4)
+   s.slice()
+   s.split(", ")
+   s.indexOf()
+   s.lastIndexOf()
+   s.startsWith()
+   s.endsWith()
+   s.includes()
+   s.replace()
+   s.toLowerCase()
+   s.toUpperCase()
+   s.normalize() // Unicode NFC normalization: ES6
+   s.charAt()
+   s.charCodeAt()
+   s.codePointAt()
+   s.padStart()
+   s.padEnd()
+   s.trim()
+   s.trimStart()
+   s.trimEnd()
+   s.concat()
+   s.repeat(n) // concats n copies of s; ES6  
+   + You can access a string as a read only array
+   + Regex is something that can be passed to many of these methods. 
+   Refer to ch. 
+    
+
+   - Objects
+      + accessing properties
+      let book = {
+         topic: "Javascript",
+         edition: 7
+      }
+      // accessible in several ways
+      book.topic;
+      book["edition"];
+      // add a new property
+      book.author = "Flanagan";
+      book.contents = {};
+      // conditionally access properties
+      book.contents?.ch01?.sect1 // returns undefined, has no .ch01 property. 
+
+   - Classes 
+      + basic class: Point
+       class Point {
+          constructor (x, y) {
+            this.x = x;
+            this.y = y;
+          }               
+          distance() {
+             return Math.sqrt(this.x** + this.y**);
+          }
+       }
+      
+Functions
+   - arrow function syntax
+      + const plus1 = x => x + 1;
+      + const square = x => x * x;
+      + initilizer = parameter or (parameters) => some code;
+
+Control Structures
+   - let x of array
+   function sum(array) {
+      let sum = 0;
+      for (let x of array) {
+         sum += x;
+      }
+      return sum;
+   } // sum the elements of an array and return total
+   
+   - while loop
+   function factorial(n) {
+      let product = 1;
+      while (n > 1) {
+         product *= n;
+         n--;
+      }
+      return product;
+   }
+
+   - for loop
+   function factorial(n) {
+      let product = 1;
+      for (let i = 2; i <= n; ++i) {
+         product *= i;
+      }
+      return product;
+   }
+
+Lexical Structure
+   - JS is case senstive
+   - Comments: /* Multiline */ and // Single line
+   - Literals: data value that appears directly in the program EG 12, 1.2, "hello world", true, false, etc
+   - Identifiers: constants, variables, properties, functions, classes, labels for certain loops. 
+   Must begin with a letter, an underscore, or a dollar sign. 
+   - Reserved words: These are part of the JS langauge by default
+   as, async, await
+   break
+   case, catch, class, const, continue
+   debugger, default, delete, do
+   else, export, extends
+   false, finally, for, from, function
+   get
+   if, import, in, instanceof
+   let
+   new, null
+   of
+   return
+   set, static, super, switch
+   target, this, throw, true, try, typeof
+   var, void
+   while, with
+   yield
+   - Unicode: JS uses Unicode characters except emojis. This means JS in any language should be valid. 
+   + Escape sequences: for older systems that don't have full Unicode support. 
+   caf\u00e9 or caf\u{E9} : the \u followed by a 4 digit hexadecimal number
+   + While it is standard to use ASCII characters only, be aware that Unicode has multiple ways to encode the same characters. 
+   So there could be an instance where the same Idenfitifier is being interpreted as two separate values. 
+   - Optional semicolons: 
+   Just use semicolons when you finish a statement. Don't understand the need to get into the weeds on this issue. 
+   Worth noting: Arrow syntax; the arrow must be on the same line as the parameters for the function.
+   
+
+Math Object 
+   Math.pow(2,53);
+   Math.round(.6);
+   Math.ceil(.6);
+   Math.floor(.6);
+   Math.abs(-5) // absolute value
+   Math.max(x,y,z) // return the largest argument
+   Math.min(x,y,z) // return the smallest arg
+   Math.random() // return pseudo random number x where 0 <= x < 1.0
+   Math.PI // circumference of a circle / diameter
+   Math.E // the base of the natural logarithm
+   Math.sqrt(3) // square root
+   Math.pow(x,y) // x to the power of y
+   Math.sin(0) // Trig
+   Math.cos 
+   Math.atan
+   Math.log(10)
+   Math.exp(3) 
+   ES6
+   Math.cbrt(27) // cube root
+   Math.hypot(3, 4) // square root of sum of squares of all arguments
+   Math.log10(100) // Base-10 logarithm
+   Math.log2(1024) Base-2 logarithm
+   Math.log1p(x)
+   Math.expm1(x)
+   Math.sign(x)
+   Math.imul(2,3) // optimized for multiplication for 32 bit integers
+   Math.clz32(0xf) // number of leading zero bits in a 32 bit integer
+   Math.trunc(3.9) // convert to an int by dropping fractional section
+   Math.fround(x) // round to the nearest 32 bit float number
+   Math.sinh(x)
+   Math.asinh(x)
+   
+   
