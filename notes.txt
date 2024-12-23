@@ -1,3 +1,92 @@
+Todays Notes: 2024-12-23
+- stepping back from the rush jobs for the next three weeks. 
+   + Refocus on the coding and database project. We are going to commit to learning and implementation. 
+   + The end goal is a functional prototype that we can show off to garner interest from MGMT. 
+   + Also we have a show next year and need to be researching. That's largely unrelated, but our reading 
+   can include artistic and design related resources that we follow up on later. 
+   + might be time to call it on the cadecademy stuff. They are generally good lessons, but we need to step up the 
+   rigor before we can call ourselves a programmer. If this is something I'm doing to make money and build serious software 
+   I need to reorient my mind towards an engineering perspective, a mathematical perspective, while keeping hold of my 
+   creative context. 
+
+
+Todays Notes: 2024-12-22
+- pick up on descriptions, elevations for building ids
+
+Todays Notes: 2024-12-20
+- working through stoobs
+   + 
+
+Todays Notes: 2024-12-19
+- It's worth always putting the builds in LCIS first, then in Building X
+   + Just because of the order of the books. 
+
+Todays Notes: 2024-12-18
+- I don't want to put anything in the book before I show it to Ryan, b/c I am so short on time. Having to remake 
+copies of prod artwork is silly. 
+   + This raises the question: do we need scaled copies? 
+   + Yes, there are issues with the fully scaled artwork also being the book artwork. 
+- left off adding builds to lcis in lakeview or lakehaven or w/e the fk
+- drop in artwork, add desc, print and SHIP IT BROTHER
+
+Todays Notes: 2024-12-17
+- about 1 step away from putting listeners on every file I work on to monitor who uses them when. 
+- lakehaven is on track to be done by friday. need to dim and book things tomorrow after meeting with ryan. 
+
+Todays Notes: 2024-12-16
+- worth thinking about reusable book pages, rather than reusable assets. Or just both at once. 
+   + templates are good but are they faster than dropping assets in the typical way? 
+   + some things, like desktop packages, rarely if ever change. So creating a static book page for them would be much faster.
+- T altered my time card today. Crazy she can just do that and there aren't any repercussions. 
+   + You'd get 3 warnings and then we'd be looking for a new person who can use the software properly. 
+   + She's still trying to say I did something wrong when it's literally on record of her changing it. So nuts. 
+   + Tacara tonight when we get home. 
+
+Todays Notes: 2024-12-15
+- no more copy fucking paste from excel fuck me, and fuck you adobe
+- working on a sunday, i'm goin to purgatory
+- left off on spotting for amenity, site, bldg 2, barn reno
+   + suspect they'll want either site or amenity in the first set of revisions
+   + we have time during the week and another weekend with fewer responsibilities, so handle the JPI job this week.
+Todays Notes: 2024-12-14
+- Working on a weekend smh
+- Goals for template today:
+   + useful ToC that will export bookmarks with a pdf 
+      - change the sign class p style to something the toc logic can use
+      - create separate turn p styles so there can be multiple toc's in the same document
+   + exploring useful interactivity features and brainstorming their potential application at fource (and in general)
+   + making the standard template more complete, adjusting certain features to be closer to the final product 
+   Remember to bring the template back over to this machine. 
+   + potentially using the snippet and content collector, though doesn't seem especially useful here. 
+   + running into a potential problem where the page numbering system is likely doing too many things at once. 
+      - supposedly handling revisions, which is stupid. 
+      - page numbers - which it doesn't do because they want things in sections, but the method makes the book harder to navigate.
+      - section title - this could just be a running footer or header element, would accomplish the same thing.
+      - whether it's a spotting page or not, again this should just be a running header/footer
+
+
+Todays Notes: 2024-12-12
+- so the sheet scrubbing program works almost completely on a fresh contract.
+   + slight issue with the regex that replaces "continued" where the previous contract had pages. 
+   + next steps: create the function that will call the file system handler, and a function to process multiple selected files
+   As well, a case statement that will handle different file types. 
+   + There is a need to include data besides the sign line items, like job number, client, etc. There needs to be a plan for that.
+   + 
+
+Todays Notes: 2024-12-11
+- interesting day. to find our center, we must recite our goals and motivation. There is a project unfolding at our will. This 
+project is larger than us, the trivialities of the moment, the mundane to horrid interactions with the people around us. 
+We are here to preserve a future for our loved ones and for ourselves. The nonsense of each day is just a whisper in the hurricane. 
+
+- steubing - 
+   + lets test node programs on the contract. great first trial. 
+   + let
+
+- working on LB-1 today and finishing the alta monarch remainder in the second half
+- music is wonderful for the spirit but it takes so much attention 
+- should create the job folder for tacara stuebing
+
+
 Todays Notes: 2024-12-10
 - export monarch first turn
 - complete the dimensions for monarch 2nd turn

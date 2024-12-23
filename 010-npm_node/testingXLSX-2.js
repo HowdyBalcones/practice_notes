@@ -1,6 +1,9 @@
 const XLSX = require('xlsx');
 
 const file = "./2211AM01S Fairmount Signage REV 1.xlsx";
+const file2 = "./2404CDL01S Tacara Steubing Heights REV 1.xlsx";
+const file3 = "./2212JPI01S Jefferson Loyd Park Ph. 1 Signage REV 4.xlsx";
+
 
 // reference
 // https://docs.sheetjs.com/docs/csf/sheet/
@@ -45,16 +48,77 @@ function insert_col(worksheet, columnIndex, columnData) {
    return worksheet;
 }
 
-function insert_col2(data, columnIndex, columnData) {
+function insert_col2(data, columnIndex, list) {
    // this works on 2D arrays not sheet objects
    for (let i = 0; i < data.length; ++i) {
       let row = data[i];
-      row.splice(columnIndex, 0, columnData);
+      row.splice(columnIndex, 0, list[i]);
    }
    return data;
 }
 
 // left off here.
+
+function filter_column_headers (data) {
+   const fource_headers = ["SECTION_ID", "SPOTTING_KEY", "SIGN_COUNT", "SIGN_DESCRIPTION", "EACH_COST", "TOTAL_COST"];
+   let headerRow = data[0];
+   for (let i = 0; i < headerRow.length; ++i) {
+      switch(headerRow[i]) {
+         case "0": 
+            headerRow[i] = fource_headers[0];
+            break;
+         case "1":
+            headerRow[i] =  fource_headers[1];
+            break;
+         case "2":
+            headerRow[i] = fource_headers[2];
+            break;
+         case "3":
+            headerRow[i] = fource_headers[3];
+            break;
+         case "7":
+            headerRow[i] = fource_headers[4];
+            break;
+         case "9":
+            headerRow[i] = fource_headers[5];
+            break;
+         default:
+            break;
+      }
+   }
+   return data;
+}
+
+function filter_add_column_headers (data) {
+   const headers = ["SECTION_ID", "SPOTTING_KEY", "SIGN_COUNT", "SIGN_DESCRIPTION", "EACH_COST", "TOTAL_COST"];
+   const headerRow = data[0];
+   const columnMapping = {
+      0: headers[0],
+      1: headers[1],
+      2: headers[2],
+      3: headers[3],
+      7: headers[4],
+      9: headers[5]
+   }
+   console.log(headerRow.length);
+   for (let i = 0; i < headerRow.length; ++i) {
+      if (columnMapping[i] !== undefined) {
+         headerRow[i] = columnMapping[i];
+      } 
+   }
+   headerRow.push(null);
+   headerRow.push(headers[5]);
+
+   return data;
+}
+
+
+function remove_last_subtotal (data) {
+   data.pop();
+   data.shift();
+   return data;
+}
+ 
 function filter_section_column (data, sectionColumn, targetColumn) {
    let currentSection = null;
    const sectionRegex = /^#\d+:/;
@@ -128,16 +192,17 @@ function contract_filter (data) {
 
 function export_data (work_book, options) {
    // makes a new xlsx file, this can be changed easily. Worth adding a case statement here to handle other extensions. 
-   const worksheet = XLSX.utils.json_to_sheet(work_book, {
-      header: ["Section", "Count", "ETC"]
+   let worksheet = XLSX.utils.json_to_sheet(work_book);
+   let tempWorksheet = XLSX.utils.sheet_to_json(worksheet, {
+      header: 1
    });
+   // here we can map to the number key for headers, because doing it during import is the worst.
+   tempWorksheet = filter_column_headers(tempWorksheet);
+   tempWorksheet = XLSX.utils.json_to_sheet(tempWorksheet);
+   console.log(tempWorksheet[0]);
    const new_workbook = XLSX.utils.book_new();
-   XLSX.utils.book_append_sheet(new_workbook, worksheet, "Testing-00");
+   XLSX.utils.book_append_sheet(new_workbook, tempWorksheet, "Testing-00");
    XLSX.writeFile(new_workbook, "Testing_Book.xlsx", { compression: true });
-
-   // XLSX.write(wb, opts) -- attempts to write the workbook and return the file
-   // XLSX.writeFile(wb, filename, opts) -- attempts to write wb to a local filename
-   // const prez = raw_data.filter(row => row.terms.some(term => term.type === "prez")); <-- consider
 }
 
 
@@ -160,23 +225,15 @@ function import_data (path) {
    filtered_data = filter_above_match(filtered_data, "SIGNAGE PROGRAM:"); // remove the headers, could use this data later.
    filtered_data = filter_extra_descriptions(filtered_data, 3); // merge cells where rows were made to complete a sentence (lol)
    filtered_data = filter_section_column(filtered_data, 1, 0);
+   // filtered_data = filter_add_column_headers(filtered_data);
+   filtered_data = remove_last_subtotal(filtered_data);
    return filtered_data; 
 }
 
 
-
-function extractData(filePath) {
-   // this was a test at the very start it doesn't get used currently. 
-   const workbook = XLSX.read(file);
-   const sheetNames = workbook.SheetNames;
-   
-   const sheet = workbook.Sheets[sheetNames[0]];
-   
-   let data = XLSX.utils.sheet_to_json(sheet, { header: 1 });
-   return sheet;
-}
-
 const data = import_data(file);
+const dataSteu = import_data(file3);
 //insert_col(data, 0, "TESTING");
-export_data(data);
-console.log(data);
+//export_data(data);
+export_data(dataSteu);
+console.log(data[0]);
