@@ -7,12 +7,109 @@ Notes - Main
 - The practice excercises will be contained in separate files, organized by chapter. 
 
 Origins
-   - Netscape developed Javscript, submitted it to ECMA, earning the title "ECMAScript". This is what Extendscript is based on. 
+   - Netscape (Sun Microsystems, later Oracle) developed Javscript, submitted it to ECMA, earning the title "ECMAScript". This is what 
+   Extendscript is based on. 
    - ES5 is the compatibility standard baseline. 
 
 Types
    - Primitive Types: numbers, strings, booleans, null, undefined, Symbol (ES6)
    - Object Types: Everything that is not a primitive type.
+   
+   - Boolean ch. 3.4, 4.10
+   + True or False
+   + Generally the result of a comparison
+   + Any javascript value can be converted to a boolean
+   These will typically evaluate to false: 
+   undefined, null, 0, -0, NaN, "" 
+   + Every other value will generally convert to true. This is truthy and falsey. 
+   
+
+   - Null, undefined
+   + null implies an absence of value, it is the only object of its class. 
+   + also NULL, nil, or None
+   + undefined implies that a variable has not been initialized, or that a given value no longer exists. 
+   Also the return value of functions that don't explicitly return a value
+   and the value of function parameters where no value is passed in. 
+   + == considers null and undefined equivalent, strict equality or === distinguishes between the two
+   + 
+   
+   - Symbols ch. 3.6
+   + Introduced in ES6 to serve as non-string property 
+   + Objects are unordered collections of properties, and symbols are a way to get non-string properties
+   + Examples: 
+   let symname = Symbol("symbol name");
+   let s = Symbol.for("shared");
+   let t = Symbol.for("shared");
+   s === t // returns true
+   
+   - Global Object ch. 3.7
+   + Properties of this object are available to a Javascript program. 
+   + Whenever the JS interpreter starts, or when a browser loads a new page, it creates a new global object
+   + It defines: 
+   Global constants - undefined, Infinity, NaN
+   Global functions - isNaN(), parseInt(), eval()
+   Constructor functions - Date(), RegExp(), String(), Object(), Array()
+   Global objects - such as Math, JSON(ch. 6.8)
+   
+   - Immutability and Mutability ch. 3.8
+   + Primitives are Immutable, it doesn't make much sense to alter their value.  
+   When they are "altered" by some function or method, a new value is returned without changing the original. 
+   + Objects are different from primitives. They are mutable, their values can altered directly. 
+   + Two objects are not equal, even if they have the same properties and values. 
+   This also holds true for arrays, even if they are the same length and contain the same values.  
+   + Mutability implies that you are referring to a discrete spot in memory, that if two different variables point to the same place
+   altering that memory will change both variables. 
+   + Shallow and Deep copies. A shallow copy will be altered if the point of reference is altered. A deep copy is entirely
+   independent from the source. I think that means it creates a separate distinct space in memory. 
+   + If you want to compare two different objects for equality, you have to test their individual elements. 
+   
+   - Type Conversions ch. 3.9
+   + JS will liberally convert one type into another. 
+   Basically anything can become a string.
+   Numeric conversions are trickier, but notably a string such as "2" * "2" will return 4 
+   Any type can convert to a boolean
+   null and false will convert to 0, true will convert to 1, like in unix
+   + Ways to convert types: 
+   Number("4");
+   String(false);
+   Boolean([])
+   type.toString() // contains an optional parameter to determine the radix (base) for the conversion. 
+                   // This means you can convert numbers into base 2, 6, 8, strings
+   + Converting Objects ch. 3.9
+   + all objects inherity two conversion methods, used in object-to-primitive conversion
+   - toString() 
+      + many classes will define more specific uses of toString()
+   - valueOf()   
+
+   - Variable declaration ch. 3.10
+   - Destructuring ch. 3.10.3
+   + the value of the right side of = is an array or object, and the left side is 1 or more variables that mimics the right side
+   When assignment occurs, one or more of the values are extracted (destructured) from the values on the right side and 
+   initialized into the variables on the left side. 
+   + This can also reinitialize variables. 
+   + the variables on the left do not need to match the values on the right explicitly 
+   + commas can be used in the variables to skip given values on the right
+   + you can pass the remaining values on the right to a single variable on the left using ...variable notation
+   + This destructuring syntax can be used on objects using an iterable object ch. 12
+   + any object that can be used in a for/of loop ch. 5.4.4 can also be destructured
+   
+   + Pseudo example: 
+      Function returns array of some values
+      let [x, y] = function_that_returns_array;
+      - Object example 
+      some object
+      for (const [property1, property2] of Object.entries(some_object)) {
+         console.log(property1, property2);
+      }
+      - Object example 2
+      let transparent = {r: 100, g: 100, b: 200, a: 1.0}
+      let {r, g, b} = transparent
+   + 
+   
+    
+   
+
+   
 
    - Numbers
    + 64 bit floating point, or a double in C++, Java, etc
@@ -35,14 +132,18 @@ Types
    + NaN: will never have equality with another number
    This means x === NaN is invalid. Use Number.isNaN(x) or x !== x
    + Because of binary, fractions are not always rounded the same way. 
-   + BigInt can represent more numbers than the standard Number
+   + BigInt can represent more numbers than the standard Number, but they can only be integers. 
    written as a string of digits followed by a lowercase n
    they can also be in base 2, 6, 8
    1234n
    0b111111n
    0o7777n
    0x8000000000000n
-
+   + Number methods ch. 11.7.1
+      - toFixed()
+      - toExponential()
+      - toPrecision() 
+   
 
    - Dates ch. 11.4
    + is a class with its own methods
@@ -58,8 +159,12 @@ Types
    + String literals are strings contained within "" or ''. Don't mix them, like "' or '"
    + Template literals are enclosed in `` and allow embedding arbitrary expressions into a formatted string
    Refer to ch. 3.3.4
-      - Tagged template literals are new to me, check example on 14.5 and review with MDN
+      - Will always convert the returned values of any included expression into a string
+      - Tagged template literals are new to me, check example on ch. 14.5 and review with MDN
       Apparently useful for escaping SQL or HTML 
+      - They work by placing a function name in front of the backticks. The result of the template literal is then 
+      passed to the given function. 
+      
    
    + You can break a single string literal onto multiple lines with the use of \
    + Has escape characters, like Bash
@@ -105,8 +210,18 @@ Types
    s.concat()
    s.repeat(n) // concats n copies of s; ES6  
    + You can access a string as a read only array
+
    + Regex is something that can be passed to many of these methods. 
-   Refer to ch. 
+   Refer to ch. 11.3 for details on Regex. 
+      - Small examples of use
+      let text = "testing: 1, 2, 3";
+      let pattern = /\d+/g;
+      pattern.test(text);
+      text.search(pattern);
+      text.match(pattern);
+      text.replace(pattern);
+      text.split(/\D+/);
+   
     
 
    - Objects
