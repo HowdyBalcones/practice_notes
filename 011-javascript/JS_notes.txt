@@ -224,7 +224,7 @@ Types
    
     
 
-   - Objects
+   - Objects ch. 6.10, 8, 8.2.2, ch. 9
       + accessing properties
       let book = {
          topic: "Javascript",
@@ -251,7 +251,7 @@ Types
           }
        }
       
-Functions
+Functions ch. 8
    - arrow function syntax
       + const plus1 = x => x + 1;
       + const square = x => x * x;
@@ -354,6 +354,117 @@ Math Object
    Math.asinh(x)
 
 Expressions and Operators ch. 4
-   - Expressions is a phrase of javascript 
-    
+   - Expressions is a phrase of javascript that will return some value. 
+   + Operators are used to create more complex expressions, chaining simple expressions together. 
+   let result = x * y; // here = and * would be operators
+   - Primary expressions are constant or literal values, language keywords, and variable references (initializers)
+   1.23
+   "hello"
+   /pattern/
+   - Some keywords will return a value by themselves
+   true, false, null, this 
+   - references to a variable, constant, or property of the global object
+   i, sum, undefined
+   
+- Object literals & Array literals
+   + Array literals
+   [] // empty array
+   [1+2, 3+4] // two element array
+   let matrix = [[1,2,3],[4,5,6],[7,8,9]];
+   let sparseArray = [1,,,,5]
+
+   + Object literals
+   let p = { x: 2.3, y: -1.2 };
+   let q = {};
+   q.x = 2.3; q.y = -1.2;
+   let rectangle = {
+      upperLeft: { x: 2, y: 2 };
+      lowerRight: { x: 4, y: 5};
+   };
+
+- Property Access Expressions
+   + .notation is used when the name is known beforehand, like with classes or objects already defined
+   + ["expression"] notation is when there is a number, string, or returned expression that is in turn being evaluated on an object
+   + expression.identifier
+   let 0 = {x: 1, y: {z: 3}};
+   o.x
+   o.x.y
+   o["x"]    // property x of object o
+   - if an object expression is followed by [], then the second expression is evaluated and returned as a string   
+
+   + expression [ expression ]
+   let a = [o, 4, [5, 6]];
+   a[1]      
+   a[2]["1"] // element at index 1 of expression a[2] 
+   a[0].x 
+
+   + expression ?. identifier 
+   + expression ?.[ expression ]
+   - These conditional property access notations are used when you want to avoid a TypeError when the property 
+   you're accessing is not already defined. 
+   - They won't access the property if it is undefined or null
+   - AKA optional chaining
+   let a = { b: null };
+   a.b?.c.d // returns undefined
+   - if b exists and does not have the property c, then the above will throw a TypeError
+   a.b?.c?.d // this would guard against c throwing a TypeError
+   - This type of evaluation behaves like a short-circuit conditional statement. 
+   
+- Invocation Expressions
+   + syntax for calling functions 
+   functionName(a, b, c...) { // code to run };
+   + if the function expression calls something that is not a function, it will throw a TypeError
+   + Then parameter arguments are initialized to their identifiers
+   + if you invoke a function expression with property access notation, you invoke a method. 
+   + functions also work with conditional access notation, using ?.()
+   o.m() // regular property access, regular invocation
+   o?.m() // conditional property access, regular invocation
+   o.m?.() // Regular property access, conditional invocation 
+
+- Object creation expression
+   + creates a new object, invokes a function (constructor) to initialize the properties of that object. 
+   new Object() 
+   new Point(2,3)
+   + if no properties are passed to the object, the parethesis can be omitted 
+   new Object
+   new Point
+   
+- Operators
+   ++       // pre or post increment
+   --       // pre or post decrement
+   -        // negate number, subtraction
+   +        // concatenate strings, addition, convert to number 
+   ~        // invert bits
+   !        // invert boolean value
+   delete   // remove a property 
+   typeof   // determine type of operand
+   void     // return undefined value
+   **       // exponentiate
+   *        // multiply
+   /        // divide
+   %        // remainder, modulo
+   <<       // shift left
+   >>       // shift right with sign extension
+   >>>      // shift right with zero extension
+   <, <=, >, >=   // less than, less than or equal to, greater than, greater than or equal to, alphabetical order on strings
+   instanceof     // test object class
+   in       // test whether property exists
+   ==       // non strict equality
+   ===      // strict equality
+   !=       // non strict inequality
+   !==      // strict inequality
+   &        // compute bitwise AND
+   ^        // compute bitwise XOR
+   |        // compute bitwise OR
+   &&       // compute logical AND
+   ||       // compute logical OR
+   ??       // choose 1st defined operand
+   ?:       // choose 2nd or 3rd operand
+   =        // assign, initialize a value to a variable
+   **=, *=, /=, %=, +=, -=, &=, ^=, |=, <<=, >>=, >>>=   // operate and assign
+   ,        // discard 1st operand return 2nd
+
+
+   
+
    
