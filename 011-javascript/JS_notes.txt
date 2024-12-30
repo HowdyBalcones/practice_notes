@@ -76,7 +76,7 @@ Types
    type.toString() // contains an optional parameter to determine the radix (base) for the conversion. 
                    // This means you can convert numbers into base 2, 6, 8, strings
    + Converting Objects ch. 3.9
-   + all objects inherity two conversion methods, used in object-to-primitive conversion
+   + all objects inherit two conversion methods, used in object-to-primitive conversion
    - toString() 
       + many classes will define more specific uses of toString()
    - valueOf()   
@@ -93,8 +93,16 @@ Types
    + This destructuring syntax can be used on objects using an iterable object ch. 12
    + any object that can be used in a for/of loop ch. 5.4.4 can also be destructured
    
-   + Pseudo example: 
-      Function returns array of some values
+   + Pseudo examples:
+      let [x,y] = [1,2];
+      x === 1; y ===2; // returns true
+
+      function toPolar (x,y) {
+         return [Math.sqrt(x*x+y*y), Math.atan(y,x)];
+      } 
+      let [r, theta] = toPolar(1.0, 1.0); // parameters are assigned using destructuring
+
+      // Function returns array of some values
       let [x, y] = function_that_returns_array;
       - Object example 
       some object
@@ -118,7 +126,7 @@ Types
    6.02e23
    1.4738223E-32
    + you can use underscores to separate long number sequences for easier reabability. 
-   + infinity and -infinity are special numbers for when a float exceeds max or min value
+   + infinity and -infinity are special numbers for when a float exceeds max or min value (overflow, underflow)
    + Number object
    Number.parseInt() // same as global parseInt() func
    Number.parseFloat() // = global parseFloat() func
@@ -143,13 +151,13 @@ Types
       - toFixed()
       - toExponential()
       - toPrecision() 
-   
 
    - Dates ch. 11.4
    + is a class with its own methods
    
    - Text: Strings ch. 3.3
    + an immutable ordered sequence of 16-bit values, each usually a Unicode character. 
+   + can be encoded as something other than unicode, especially in older environments.
    + Length of a string is the number of 16-bit values it contains. 
    + 0 indexed
    + Empty strings have a length of 0
@@ -232,7 +240,7 @@ Types
       }
       // accessible in several ways
       book.topic;
-      book["edition"];
+      book["edition"]; // searches object for property with an exact name match
       // add a new property
       book.author = "Flanagan";
       book.contents = {};
@@ -429,7 +437,7 @@ Expressions and Operators ch. 4
    new Object
    new Point
    
-- Operators
+- Operators ch. 4.7 table 4-1
    ++       // pre or post increment
    --       // pre or post decrement
    -        // negate number, subtraction
@@ -464,7 +472,477 @@ Expressions and Operators ch. 4
    **=, *=, /=, %=, +=, -=, &=, ^=, |=, <<=, >>=, >>>=   // operate and assign
    ,        // discard 1st operand return 2nd
 
+   + Operators have precedence, arranged in the above table from highest to lowest precedence. Higher means 
+   evaluated before the lower. 
+   + Property access and invocation expressions have higher priority than any operator in the above table
+   This means when you access some value or return value of an expression, that will happen first then the 
+   operators in the above table will have affect. 
+   + Right to left, and left to right associativity. AKA, the order the expression is evaluated from left to right. 
+   + subexpressions are always evaluated from left to right 
+   meaning x = a + b + y will evaluate x, then a, b, y etc
+   
+   - Arithmetic Expressions
+   + Non numeric operands convert to NaN 
+   + PEMDAS
+   + all numbers will be floating point 
+   + division by zero yields positive or negative infinity, and 0/0 returns NaN
+   + modulo works on whole numbers and floats 
+   + + adds numeric operands or concatenates strings
+   + 
+   
+   - Unary Arithmetic Operators ch, 4.8.2
+   + Pre and post incrementation: ++i vs i++ 
+   The difference is that pre incrementation will increase in value and then return, 
+   while post increment will return and then increase. 
+   let i = 1, j = ++i;  // i and j are both 2
+   let n = 1, m = n++;  // n is 2, m is 1
+   + ++ operator never concatenates strings directly. 
+   
+   + -- works much the same way, with pre and post decrementation. 
+   
+   - Bitwise operators ch. 4.8.3
+   + not often utilized, and I'm not familiar with the binary representation of numbers so. For the future. 
+   
+   - Relational expressions ch. 4.9
+   + equals, less then, property of, returns true or false
+   + == and ===
+   non strict vs strict evaluation, strict will check the type while == will not. 
+   + ! inverts the evaluation, != and !== would be not equals to 
+   + objects are compared by reference not value, so an object is equal to itself, not anther object. 
+   + NaN is never equal to itself
+   + 
+   - comparison operators ch. 4.9.2
+   + <, >, <=, >= 
+   + alphabetic comparisons will sort according to ASCII values, not neccesarily alphabetical order
+   + for more robust string comparison, use String.localeCompare()
 
+   - the "in" operator
+   + expects string, symbol, or value that can be converted to a string on the left, and an object on the right. 
+   example: 
+   let point = {x:1, y:1};
+   "x" in point // true
+   "z" in point // false
+   "toString" in point // true, inherits method
+   
+   let data = [7,8,9];
+   "0" in data // true, there is a value at 0 index
+   1 in data // true, numbers are converted to strings
+   3 in data // false, no element at index 3
+   
+   - the "instanceof" operator ch. 4.9.4
+   + expects object on the left and an operand that identifies a class of objects on the right
+   + evals to true if the object on the right is an instance of the right side class, false otherwise
+   + uses the prototype chain to determine equivalence between objects. 
+   + an object is defined by its constructor. 
+   
+   - Logical expressions ch. 4.10
+   + &&, ||, !
+   AND, OR, NOT
+   aka boolean algebra
+   ch. 4.10.1
+   + AND : may not return the associated righthand value. It checks if the leftmost value is truthy, if so then it returns the right
+   side of the evaluation. 
+   If the rightmost side is falsy, it returns that rightmost value without evaluating the left value. 
+   This property is used in "short-circuiting" 
+   if (a===b) stop();
+   (a===b) && stop();
+   These are equivalent. 
+   So if the first value is truthy, evaluate the right side value. If the left hand value is falsey, return that left value only. 
+   
+   + OR ch. 4.10.2
+   If one or both operands is truthy, it returns a truthy value. 
+   If both operands are falsy, it returns falsy. 
+   + This short circuits in a similar way to AND. 
+   It evaluates from left to right. If the leftmost value evaluates to true, it returns the truthy value without checking 
+   and values further to the right. If the leftmost value evaluates to false, it will check the remaining values until truthy. 
+   + This can be used to create conditional values attached to a variable
+   let max = maxWidth || preferences.maxWidth || 500;
+   Worth noting: if 0 is valid for maxWidth, this will not work correctly since 0 will evaluate as falsy and defer to 
+   preferences.maxWidth
+   
+   + NOT ch. 4.10.3 
+   ! is a unary operator. Its purpose is to invert the boolean value of its operand. 
+   + will always convert its operand to a boolean value before evaluating, meaning it will always return true or false. 
    
 
+   - Assignment expressions ch. 4.11
+   + this is what = means 
+   takes a variable name or identifier on the left and assigns a given value on the right to that variable/identifier
+   + has very low precedence, meaning that it may be required to enclose assignment without parentheses. 
+   + has right to left associativity.
    
+   + assignment with operation 
+      += 
+      -= 
+      *=
+      /=
+      %=
+      **=
+      <<=
+      >>=
+      &=
+      |=
+      ^=
+   x op= y is equivalent to x = x op y
+   
+   - Evaluation expressions 
+   + JS has the ability to interpret strings of JS code, evaluating them to produce some value. 
+   + this is done with eval()
+   eval("3+2") // returns 5
+   + This is powerful, but rarely used. It creates a big security risk, no user input should be passed to eval()
+   This would in effect mean the user could inject arbitrary code into your program, potentially causing damage
+   or leaking data in some manner. 
+   Many websites will disable the eval() feature completely, because there is no sure fire way to completely sanitize
+   arbitrary strings being injected into your code. 
+   + its worth just not using it, or when required using it in very explicit and simple ways. 
+   + can be used in the global context as if the included code were independent top level scripts
+   + strict mode (ch. 5.6.3) will effect the use of eval() and eval even more. 
+   It means eval cannot create new variables or functions within the calling code, it can affect state however. 
+
+   - Misc. Operators ch. 4.13
+
+   + Conditional operator  
+   ?:
+   x > 0 ? x : -x
+   if x is greater than 0, return x if true or -x if false. 
+   + only one of the second and third operators will be returned. Both may be evaluated. Short circuits.
+   + 
+
+   + First defined operator ch. 4.13.3 ES20
+   ??
+   + there is a problem with logical OR in JS: When the first value in a chain of conditional values is falsy, it will
+   ignore that value. The first defined operator can be used in its place if that is not the desired effect. 
+   + It checks for the first defined operand
+   + 
+
+   + delete operator ch. 4.13.4
+   delete operand;
+   delete o.x;
+   "x" in o // false
+   + deleting a nonexistant property will return true 
+   + deleting a literal value will return true
+   + can't delete a variable, will return false outside strict, SyntaxError with strict mode
+   
+   + the await operator ch. 4.13.5, 13
+   related to async functions, promises, and will be covered in detail later. 
+   
+   + the void operator ch. 4.13.6
+   + isn't used just too often in javascript. 
+   + appears before its single operand. 
+   + evaluates its operand, and then discards the value and returns undefined. 
+   + not sure how it gets used in other languages, but in javascript apparently not that useful. I know in C++ it's used 
+   in functions that aren't meant to return a value, only alter the state of the program or used inside other functions. 
+   + 
+ 
+   + the comma , operator
+   + evaluates its left operand, evals the right operand, then returns the value of the right operand. 
+   i=0, j=1, k=2; // evals to 2
+   i = 0; j = 1; k = 2; // this is basically equivalent 
+   + used in for loops to place two variables into the let statement and the increment/decrement statement
+   
+
+- Statements ch. 5
+   + if expressions are phrases, then statements are sentences or commands. 
+   + statements are terminated with a semicolon
+   + if expressions are evaluated, then statements are executed
+   The syntax is much more dire here. 
+   + statements are executed in the order they appear, much like a simple script or procedure. 
+   + types of statements in JS: 
+   conditionals
+      statements like "if" or "switch" the make the JS interpreter execute or skip other statements depending on returned values
+   loops
+      statements like "while" and "for" that execute other statements repetitively
+   jumps
+      statements like "break", "return", and "throw" that cause the interpreter to jump to another part of the program
+   + Basically every javascript program will be a series of statements separated by semicolons. 
+   
+   - Expression Statements
+   + simplest form of expression statements are expressions that have consequences 
+   greeting = "Hello " + name;
+   i *= 3; 
+   counter++;
+   counter--;
+   delete o.x;
+   function(parameter);
+   console.log("deez");
+   cx = Math.cos(x);
+   + each of these examples is separated by a semicolon
+   
+   - compound statements and empty statements ch. 5.2
+   + statement blocks combine multiple statements into a single compound statement within curly braces. 
+   + statement blocks don't typically end with a semicolon
+   + the lines in a statement block are usually indented to show their "depth" compared to the global scope of the program. 
+   
+   + empty statements are used when you want to include no statement where one is expected
+   uses ;
+   This is occasionally applied with loops that have no body as 
+   for(let i = 0; i < a.length; a[i++] = 0); // initialize an array length a
+   This empty statement syntax is known to be confusing at times, and is often avoided. But can be useful for terseness. 
+   
+   - Conditionals ch. 5.3
+   + conditionals execute or skip other statements depending on the value of a specified expression
+   + often known as branches of code. 
+
+   + if ch. 5.3.1
+   + allows a javascript program to execute statements conditionally
+   if (expression) 
+      statement
+   if (username === null) 
+      username = "John Doe";
+   if (!username) username = "John Doe";
+   + parentheses are required around the expression
+   + statement blocks can be used to evaluate a compound statement as a result of the if expression
+   if (!address) {
+      address = "";
+      message = "Please specify an address.";
+   }
+   + second form of if introduces else
+   if (expression) 
+      statement1
+   else 
+      statement2
+   + executes statement1 if expression evals truthy, statement2 if falsy
+   + it's important to include the {} for nested expressions, because other than indentation and a strict reading of 
+   the code, it is hard to spot any potential logic errors. 
+   
+   - else if 
+   + technically there is no else if statement built into javascript, but it is a common idiom (same w/ c++)
+   if (expression) {
+      statement 
+   } else if (expression) {
+      statement
+   } else if (expression) {
+      statement
+   } 
+   + short circuits, meaning the first truthy eval will cause its given statement to run, and then ignore the remaining options. 
+   + it's easier to read than nesting if statements, which can get you the same effect. 
+   
+   - switch ch. 5.3.3
+   + if all of the branches depend on the value of a single expression, if/else becomes redundant and switches should be used. 
+   switch(expression) {
+      statements
+   }
+   switch(n) {
+      case 1:
+      statement
+      break;
+      case 2:
+      statement
+      break;
+      case 3:
+      statement
+      break;
+      default: // if all cases fail, use default case.
+      statement
+      break;
+   }
+
+   + the numbers in the above example can be strings, or even arbitrary expressions. 
+   + switch statements in javascript are much less efficient than their c, c++, java counterparts. 
+   So the difference between if/else and switches, in JS, is largely syntactical 
+   + default can appear anywhere in the switch statement 
+   
+   - Loops ch. 5.4
+   + loops repeat parts of a program a given number of times. 
+   
+   + while ch. 5.4.1
+   while (expression)
+      statement
+   + if expression returns falsy, then the statement is skipped. Exit condition.
+   + if expression returns truthy, then the statement is executed and jumps back to evaluating the expression again. 
+   while (true) would be an infinite loop. Always define a stable exit condition. 
+   example: 
+   let count = 0;
+   while (count < 10) {
+      console.log(count);
+      ++count;
+   }
+   
+   + do while ch. 5.4.2
+   do 
+      statement
+   while (expression)
+   + similar to a while loop, but executes at least once. 
+   + maybe useful in cases where you want to verify or test a value at least once, and if something changes test it again. 
+   function printArray(a) {
+      let len = a.length, i = 0;
+      if (len === 0) {
+         console.log("Empty Array");
+      } else {
+         do {
+            console.log(a[i]);
+         } while (++i < len);
+      }
+   }
+
+   - for ch. 5.4.3
+   + creates a common pattern for loops that can be more convenient than a while loop. 
+   + initialization, test, and the update are each components of a for loop. They are considered separate expressions
+   for (initialize; test; increment) 
+      statement
+      for (let count = 0; count < 10; count++) {
+         console.log(count);
+      }
+   + the for loop is a common place for the comma operator, though not that common. 
+   example: 
+   let i, j, sum = 0;
+   for (i = 0, j = 10; i < 10; i++, j--) {
+      sum += i * j; // there is a math term for this. 
+   }
+   + by far the most often use of a for loop is to traverse some numeric range, though that's not required. 
+   example: 
+   function tail(o) {
+      for (; o.next; o = o.next) ; // Traverse while o.next is truthy
+      return o; 
+   }
+   + for (;;) // this is an infinite loop, similar to while(true);
+   + if you leave out one of the three components in a for loop, the ; is still required to differentiate the remaining statements. 
+   + this last above example is common for traversing nodes in a linked-list structure or something similar. 
+   
+   - for/of ch. 5.4.4 ES6
+   + uses the for keyword, but different than a for or for/in loop. 
+   + works in combination with iterable objects (ch. 12)
+   + arrays, strings, sets, maps are iterable objects in JS
+   example: 
+   let data = [1,2,3,4,5,6,7,8,9], sum = 0;
+   for (let element of data) {
+      sum += element;
+   }
+   return sum;    // 45
+   + arrays are iterated "live", as in they effect the state of your program. 
+   + this above example will sum all the elements of the array. 
+   + you can make this loop infinite by pushing sum onto the target array during each iteration. 
+   
+   + for/of on objects
+   + Objects are not in and of themselves iterable. 
+   + calling for of on a regular object will throw a TypeError runtime error. 
+   example: 
+   let o = { x: 1, y: 2, z: 3 };
+   for (let element of o) {
+      console.log(element)
+   }
+   + iterating through a regular object is usually done with for/in
+   let o = { x: 1, y: 2, z: 3 };
+   let keys = "";
+   for (let k of Object.keys(o)) {
+      keys += k;
+   } 
+   return keys; // "xyz"
+   
+   example:
+   let sum = 0;
+   for (let v of Object.values(o)) {
+      sum += v;
+   }
+   return sum; // 6
+
+   example: 
+   let pairs = "";
+   for (let [k,v] of Object.entries(o)) {
+      pairs += k + v;
+   } 
+   return pairs; // x1y2z3
+   
+   + for/of with strings 
+   + strings are iterable character by character in JS
+   let frequency = {};
+   for (let letter of "mississippi") {
+      if (frequency[letter]) {
+         frequency[letter]++;
+      } else {
+         frequency[letter] = 1;
+      }
+   } 
+   + strings are iterated bay Unicode codepoint, not UTF-16 character. 
+   This would matter with emojis for example, since a string of three emojis would have a length of 6, due to the appended 
+   16 bit integers to create the neccesary unicode value. 
+   + for/of will run three times in this emoji example because it reads codepoints. 
+   
+   + for/of with Set and Map
+   + the builtin Set and Map classes were added in ES6 
+   example: set
+   let text = "Na na na na na na na na Batman!";
+   let wordSet = new Set(text.split(" "));
+   let unique = [];
+   for (let word of wordSet) {
+      unique.push(word);
+   }   
+   return unique // ["Na", "na", "Batman"];
+   
+   example: map 
+   let m = new Map([[1, "one"]]);
+   for (let [key, value] of m) {
+      key // 1
+      value // "one"
+   }
+   + maps are iterated through their key:value pairs
+   + each iteration returns an array of a [key, value]
+   
+   + asynchronous iteration with for/await ch. 12, 13 ES2018
+   + this is known as an asynchronous iterator and a variant of the for/of loop
+   example: 
+   async function printStream(stream) {
+      for await (let chunk of stream) {
+         console.log(chunk);
+      }
+   } 
+   
+   - For/In
+   + while for/of requires an iterable object, for/in works on any object after in
+   + for/in has been part of javascript since the beginning (og)
+   for (variable in object) {
+      statement
+   }
+   for (variable in object)
+      statement
+   example: 
+   for (let p in o) {
+      console.log(o[p]); // print the value of each property
+   }
+
+   + first evaluates the object. If undefined or null, the body of the loop is skipped entirely. 
+   + if not nullish, the body of the loop is executed once for each enumerable property of the object. 
+   + before each iteration, the variable expression is evaluated and assigns the name of the property 
+   to it (string);
+   + the variable can be an arbitrary expression, as long as it evals to something suitable for the left side of an assignment. 
+   example: 
+   let o = { x:1, y: 2, z: 3 };
+   let a = [], i = 0;
+   for (a[i++] in o) ; 
+
+   + arrays are also a specialized object in js and can be enumerated with a for/in 
+   example: 
+   for(let i in a) console.log(i);
+   + it is worth noting, almost always want to use a for/of loop for arrays in modern JS. 
+   But in a scenario like building Extendscript plugins, a for/in might be the  best tool available for a given task. 
+   + ok for/in does not enumerate symbol properties of an object 
+   + many properties of the builtin javascript objects are not enumerable 
+   + all properties and methods defined in your code are enumerable, so custom objects and classes. 
+   + inherited properties are also enumerated by for/in, which is why many programmers prefer to use a for/of loop with Object.keys()
+   + if the body of a for/in loop deletes a property that has not been enumerated, they may or may not be enumerated (pg.112)(ch.6.6.1)
+   
+   - jump statements ch. 5.5
+   + causes the interpreter to jump to a new location in the source code. 
+   + break causes the interpreter to jump to the end of a loop or other statement. 
+   + continue makes the interpreter skip the rest of the body of a loop and jump back to the top of a loop to begin a new iteration. 
+   + JS allows statements to be labeled, and break and continue can identify the target loop or other statement label.
+   + return causes the interpreter to jump from a function invocation back to the code that invoked it, and supplies the 
+   value for invocation. 
+   + throw iterim return from a generator function. It raises or "throws" an exception, and is designed to work with try/catch/finally
+   
+   - Labeled Statements ch. 5.5.1
+   + any statement can be labeled 
+   identifier: statement
+   example: 
+   mainloop: while(token !== null) {
+         // some code
+         continue mainloop; // jumps to the next iteration of mainloop. 
+         }
+   + The identifier cannot be a reserved word
+   + You can use existing variable and function names. Labels and functions/variables are in different namespaces. 
+   + nested statements can have the same label, but distinct statements cannot. 
+   + Statements can have multiple labels. Terrifying. 
+
+   - break ch. 5.5.2
+   + 
+
