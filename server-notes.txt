@@ -70,4 +70,33 @@
         - uploading and syncing files across ssh
             + rsync -avz -e "ssh -p 3328" /Users/23340-webster/Desktop/003-work cdual@192.168.1.164:/home/cdual/240210-LBSH/000-main_portfolio
         
+    - Working with Self hosting 
+        ifconfig, hostname, curl ifconfig.me
+        certbot, nginx, ufw 
+        + todos
+        - currently I think the problem is that our domain is registered through squarespace, and all of our portfolio assets are 
+        on that website. We could replace the dns record and point it to our home server, but no guarantee it'll be functional once done. 
+        Data from our old site could be lost in the process. 
+        Second option is to create a subdomain and point it to our server. There is some problem here though. The subdomain isn't pointing 
+        to our home server correctly. If we can overcome that difficulty then we have a little sandbox hosted on our home server, and we 
+        don't need to throw out everything on the prebuilt site. 
+        Third option is to transfer our DNS to a more flexible provider (cloudflare, nameheap, google domains)
+        
+
+        + nginx
+        systemctl start nginx
+        systemctl enable nginx
+        ** make folders in nginx directory
+        mkdir /var/www/portfolio
+        sudo chown -R $USER:$USER /var/www/portfolio
+        sudo ln -s /etc/nginx/sites-available/portfolio /etc/nginx/sites-enabled/
+        ** test nginx
+        sudo nginx -t
+        sudo systemctl reload nginx
+            
+        + certbot         
+
+    - Debugging on ubuntu
+        + journalctl -xeu name.service
+        eg journalctl -xeu nginx.service
         
