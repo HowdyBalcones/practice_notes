@@ -708,12 +708,14 @@ Expressions and Operators ch. 4
    - else if 
    + technically there is no else if statement built into javascript, but it is a common idiom (same w/ c++)
    if (expression) {
-      statement 
+      statement;
    } else if (expression) {
-      statement
+      statement;
    } else if (expression) {
-      statement
-   } 
+      statement;
+   } else {
+      final statement;
+   }
    + short circuits, meaning the first truthy eval will cause its given statement to run, and then ignore the remaining options. 
    + it's easier to read than nesting if statements, which can get you the same effect. 
    
@@ -818,7 +820,7 @@ Expressions and Operators ch. 4
    + calling for of on a regular object will throw a TypeError runtime error. 
    example: 
    let o = { x: 1, y: 2, z: 3 };
-   for (let element of o) {
+   for (let element of o) { // TypeError, not inherently iterable
       console.log(element)
    }
    + iterating through a regular object is usually done with for/in
@@ -944,5 +946,560 @@ Expressions and Operators ch. 4
    + Statements can have multiple labels. Terrifying. 
 
    - break ch. 5.5.2
-   + 
+   + causes the innermost enclosing loop or switch statement ot immediately exit
+   example:
+   break;
+   + break is only legal inside a loop or switch
+   + often used when a loop meets some condition and is no longer needed
+   example: 
+   for (let i = 0; i < a.length; ++i) {
+      if (a[i] === target) break;
+   } 
+   + you can target a specific labeled jump statement 
+   example: 
+   break labelName;
+   + This can be used to break out of an outer enclosing labeled statement
+   example: 2d array or AoA
+   let matrix = getData();
+   let sum = 0, success = false;
+   computeSum: if (matrix) {
+            for (let x = 0; x < matrix.length; ++x) {
+                     let row = matrix[x];
+                     if (!row) break computeSum;
+                     for (let y = 0; y < row.length; ++y) {
+                        let cell = row[y];
+                        if (isNaN(cell)) break computeSum;
+                        sum += cell;
+                     }
+                  }
+                  success = true;
+            } 
+     
+   - continue ch. 5.5.3
+   + similar to break, instead of leaving the innermost loop entirely, it restarts the loop at the next iteration. 
+   example:
+   continue;
+   continue labelName;
+   + Can only be used inside a loop body
+   example: 
+   for (let i = 0; i < data.length; ++i) {
+      if (!data[i]) continue; 
+      total += data[i];
+   } // this would skip empty array cells, so you aren't trying to sum nullish values
+   
+   - return 5.5.4
+   + return statements within a function specifies the value of invocations of that function. 
+   example
+   return expression;
+   + must be enclosed inside a function
+   + the enclosing function "returns" the value of expression to that functions caller
+   + can be used without expression to return undefined. 
+   example:
+   function displayObject(o) {
+      if (!o) return; 
+   }
+
+   - yield ch. 5.5.5, 12.4.2 ES6
+   + used only in generator functions (ch. 12.3) to produce the next value in a generated sequence of values
+   without actually returning.
+   function* range(from, to) {
+      for (let i = from; i <= to; ++i) {
+         yield i;
+      }
+   }
+   
+   - throw 5.5.6 
+   + an exception is a signal that an exceptional condition or error has occurred. 
+   Throwing an exception is to alert the program about the error. 
+   Catching an exception is what handles the condition. 
+   + JS will throw an exception when there is a runtime error or if there is an explicit throw statement. 
+   example: 
+   throw expression;
+   + expression can eval to any type.
+   + Error is a class with subclasses with useful properties and methods. 
+   example: 
+   function factorial(x) {
+      if (x < 0) throw new Error("x must not be negative"); // throws if x is negative
+      let f;
+      for (f = 1; x > 1; f *= x, x--) ;
+      return f;
+   }
+   factorial(4) // 24
+   + exceptions propogate up through the call stack. 
+   + they will look for the nearest handler before moving up the call stack. 
+   
+   - try/catch/finally 5.5.7
+   + try contains the block of code that is being tested. 
+   + catch is invoked only if there is an exception thrown by its associated try clause. 
+   + finally is optional, contains "cleanup" code that will always be executed regardless of what occurs in the try clause. 
+   example: 
+   try {
+      // some code to run.
+   } catch (e) {
+      // code that will handle any exceptions in the try. 
+      // e refers to the Error object
+      // this block might do nothing, throw a new error, or alter the state of a program. 
+   } finally {
+      // This block will always run, no matter what happens in the try block. 
+      // 1. normally after reaching the bottom of the block
+      // 2. beecause of a break, continue, or return statement
+      // 3. with an exception that is handled by a catch clause
+      // 4. with an uncaught exception that is still propogating
+   }
+   + the value associated with the exception is passed to the parameter of the catch clause
+   Usually an Error object, though not always. 
+   example: 
+   try {
+      let n = Number(prompt("Please enter a positive integer", ""));
+      let f = factorial(n);
+      alert(n + "! = " + f);
+   } catch (ex) {
+      alert(ex);
+   }
+   
+   + finally will execute after a catch, but if there is no catch it will run then any exceptions are passed to the 
+   nearest handler. 
+   + you can call just a try and finally block
+   
+   + bare catch clauses
+   + sometimes there is an exception but its value is irrelevant 
+   example: 
+   function parseJSON(e) {
+      try {
+         return JSON.parse(s);
+      } catch {
+         // no parameter for catch, so we discard the value of the exception and simply return undefined
+         return undefined;
+      }
+   }
+   
+   - Misc. statements
+   + with, debugger, "use strict"
+   
+   - with ch. 5.6.1
+   + runs a block of code as if the properties of the object parameter were variables in scope for that code. 
+   example: 
+   with (object) 
+      statement
+   + is forbidden in strict mode and should be considered deprecated in non-strict
+   + mostly because it is difficult to optimize anything that uses with. 
+   + its used often with deeply nested object properties, but this can be circumvented by initializing properties to variables. 
+   example: 
+   let f = document.forms[0];
+   f.name.value = "";
+   f.address.value = "";
+   f.email.value = "";
+   + with won't create a property in the passed in object if you declare a new variable within its scope. 
+   
+   - debugger ch. 5.6.2
+   + has a number of useful purposes. can be used to print variable values or examine the call stack. 
+   + creates a breakpoint in the code. 
+   
+   - "use strict" ch. 5.6.3
+   + is technically not a statement, it's considered a directive. Close enough for this textbook. 
+   + the quotation is necessary. 
+   + it can appear only at the start of a script or a function 
+   + makes code execute in strict mode. Strict mode is a subset of language fixes that provide stronger error checking and 
+   increased security. 
+   + the significant differences in strict mode compared to standard JS
+   1. the with statement is not allowed. 
+   2. all variables must be declared. ReferenceError is thrown if you assign a value to an identifier that is not a 
+   declared function, variable, function parameter, catch clause parameter, or property of the global object.
+   3. functions invoked as functions rather than methods have a this value defined. 
+   4. assignments to nonwritable properties and attempts to create new properties on non-extensible objects will throw a TypeError. 
+   5. code passed to eval() cannot declare variables or define functions in the callers scope. 
+   Variable and function definitions live in a new scope created for the eval(). This scope is discarded with the eval() returns. 
+   6. SyntaxError is thrown if delete is used on a variable, function, or function parameter. 
+   7. attempts to delete a nonconfigurable property throws a TypeError. 
+   8. object literals cannot declare two or more properties with the same name. 
+   9. functions cannot have two or more parameters with the same name. 
+   10. octal integer literals are not allowed.
+   11. identifiers eval and arguments are treated as keywords, meaning their value cannot be altered. This means they cannot
+   be used as identifiers, declared as variables, use them in function names, parameter names, or as identifiers in catch blocks.
+   12. the ability to examine the call stack is restricted. arguments.caller and arguments.callee both throw a TypeError within a 
+   strict mode function. Strict mode functions also have caller and arguments properties that throw TypeError when read. 
+   
+   - Declarations ch. 5.7
+   + keywords const, let, var, function, class, import, and export are close enough to statements that they are grouped in the book. 
+   + technically, they are considered declarations. They don't make things happen in and of themselves, but serve 
+   an important role in naming statements. 
+   + declarations provide structure to the program. They don't execute, they are processed before the code starts running. 
+   - const, let, var
+   + covered in ch. 3.10
+   + don't use var unless confined to legacy context
+   - function ch. 8, 12.3, 13.3
+   - class ch. 9
+   - import and export ch. 10, 10.3
+   + deals with connecting "modules" of JS together. 
+   examples: 
+   import Circle from './geometry/circle.js';
+   import { PI, TAU } from './geometry/constants.js';
+   imoport { magnitude as hypotenuse } from './vectors/utils.js';
+   + values in a JS module are private unless explicitly exported
+   examples: 
+   const PI = Math.PI;
+   const TAU = 2 * PI;
+   export { PI, TAU };
+   + export can be used as a modifier on other declarations, giving compound delarations that define declarations and export 
+   at the same time. 
+   + when there is only a single value to export, usually done with default
+   examples: 
+   export const TAU = 2 * Math.PI;
+   export function magnitude(x,y) { return Math.sqrt(x*x + y*y); }
+   export default class Circle { class definition }
+
+- Objects ch. 6
+   + the most fundamental datatype in JS
+   + composite values: it aggregates multiple values and allows you to store and retrieve those values by name. 
+   + objects are unordered collections of properties, a property is a name followed by some value. 
+   + property names are usually strings, though they can be Symbols. Properties map names to values. 
+   + also known as hash, hash-table, dictionary, associative array and etc
+   + other than being a string to value map, it inherits properties from another object known as its "prototype"
+   + methods of an object are usually inherited properties. Prototypal inheritance is a major feature of JS. 
+   + JS objects are dynamic, properties can be added and deleted. 
+   + can be defined as static objects AKA structs
+   + can be used to represent sets of strings
+   + any value in JS that is not a string, number, Symbol, true, false, null, or undefined is an object. 
+   + common things to do with objects is to create, set, query, delete, test, and enumerate their properties. 
+   + no object may have two properties of the same name. 
+   + the value may be any valid JS value, or getter and setter functions (ch. 6.10.6)  
+   + it can be useful to determine between inherited and directly defined properties. 
+   Use "Own Property" when this is needed. 
+   + properties have attributes: 
+   1. writable - whether the object can be set. 
+   2. enumerable - whether the property is returned by for/in
+   3. configurable - specifies if the property can be deleted and attributes altered. 
+   + by default all of the objects created by the program are enumerable, writable, and configurable. 
+   
+   - Creating objects ch. 6.2
+   + can be made with object literals, the new keyword, and with Object.create() 
+   
+   - object literals ch. 6.2.1
+   + comma separated list of name:value pairs enclosed by {} brackets
+   examples: 
+   let empty = {};
+   let point = { x: 0, y: 0 };
+   let p2 = { x: point.x, y: point.y };
+   let book = {
+      "main-title": "Javascript",
+      "sub-title": "The Definitive Guide",
+      for: "all audiences",
+      author: { firstname: "David", lastname: "Flannigan" }      
+   };
+   + object literals create a distinct object each time they are evaluated
+   + the value of each property is evaluated each time the literal is evaluated. 
+   + new object literal features are covered in ch. 6.10
+   
+   - creating an object with new
+   + the new operator creates and initializes a new object. Keyword must be followed by a function invocation. 
+   + a function used in this way is called a constructor initializes the newly created object. 
+   examples: 
+   let o = new Object();
+   let a = new Array();
+   let d = new Date();
+   let r = new Map();
+   
+   - prototypes ch. 6.2.3
+   + basically every JS object will have a prototype associated with it. Objects inherit from their prototype. 
+   + all objects created as Object literals will have the same prototype. 
+   + objects made with new Constructor() functions inherit from the prototype property of the constructor function itself
+   examples: 
+   new Array() // would use the Array.prototype
+   new Date() // would use the Date.prototype
+   + Object.prototype doesn't have a prototype
+   + most builtins will inherit from the Object.prototype
+   + This inheritance from one prototype to the next is called the prototype chain (ch. 6.3.2, 9);
+   
+   Object.create() ch. 6.2.4
+   + creates a new object, using its first arg as the prototype of that object
+   examples: 
+   let o1 = Object.create({ x:1, y:2 });
+   o1.x + o1.y // returns 3
+   + can pass null so the new object has no prototype, meaning it has no properties or methods, including builtins.
+   example: 
+   let o2 = Object.create(null);
+   + to create an ordinary object that does builtins, pass in Object.prototype 
+   example: 
+   let o3 = Object.create(Object.prototype);
+   + the second optional argument to Object.create is a list of properties applied to the created object. (ch. 14.1).
+   + an important use of Object.create is to guard against unintended modification 
+   example: 
+   let o = { x: "don't change this value" };
+   library.function(Object.create(o)); // guard against accidental modification
+   
+   - Querying and Setting Properties
+   + to get the value of a property, use dot (.) or square bracket ([]) operators described in ch. 4.4
+   + dot operator must be a simple identifier, square brackets can be an expression that evaluates to a property name.
+   examples: 
+   let author = book.author;
+   let name = author.surname;
+   let title = book["main title"];
+   + to create or set a property use dot or bracket notation, but put them on the lefthand side of the assignment expression
+   book.edition = 7;
+   book["main title"] = "ECMAScript";
+   + when using square bracket notation, the expression must evaluate to a string, value than can convert to a string, or a Symbol
+   It is common to use numbers inside bracket notation (ch. 6.10.3) 
+   
+   - Objects as Associative Arrays
+   + dot notation comes from C and other strongly typed languages. 
+   + object["property"] notation comes from the fact that JS objects are associative arrays
+   + C and other strongly typed languages must have object properties defined at runtime 
+   + JS can add properties to objects all day. 
+   example: 
+   function addStock(portfolio, stockname, shares) {
+      portfolio[stockname] = shares;
+   }
+   function computeValue(portfolio) {
+      let total = 0.0;
+      for (let stock in portfolio) {
+         let shares = portfolio[stock];
+         let price = getQuote(stock);
+         total += shares * price;
+      }
+      return total;
+   }
+   + objects are commonly used as associative arrays
+   + maps may be better suited to the task (ch. 11.1.12)
+   
+   - Inheritance ch. 6.3.2
+   + objects in JS have a set of "own properties" and also inherit from a prototype object. 
+   + if you query for a given property and the first object does not have it, if that object has a prototype, 
+   then that objects prototype is queried for the same property. This proceeds up to the top level Object.prototype 
+   + inheritance occurs only for querying, not for setting. That allows for selectively overriding inherited properties. 
+   example: 
+   let unitCircle = { r:1 };
+   let c = Object.create(unitCircle);
+   c.x = 1; c.y = 1;
+   c.r = 2;
+   unitCircle.r // returns 1, the prototype is not affected. 
+   + there is one exception to the rule that a property assignment fails or creates or sets a property in the original object:
+   If o1 inherits property x, and that property is an accessor property with a setter method, then that setter method is called
+   rather than creating a new property x in o. 
+   + That setter method is called on object o, not its prototype. 
+   
+   - Property Access Errors ch. 6.3.3
+   + Property access expressions do not always return or set a value. 
+   + No error is thrown if you query a property that does not exist. An undefined value is returned. 
+   + It is an error to query an object that itself does not exist. Throws TypeError
+   + proprty access will fail if the left side of . is null or undefined. 
+   example: avoiding this
+   let surname = undefined; 
+   if (book) {
+      if (book.author) {
+         surname = book.author.surname;
+      }  
+   } 
+   
+   example: using conditional property acces (ch. 4.10.1)
+   let surname = book?.author?.surname;
+   + generally property assignment fails under these conditions
+   1. the given property is read only
+   2. the given property is an inherited and read only
+   3. the given object is non extensible, it does not have the property, its prototype chain does not have the property
+   
+   - Deleting Properties ch. 6.4
+   + The delete operator removes a property from an object. 
+   + it deletes the property itself, not the value of the property. 
+   examples: 
+   delete book.author;
+   delete book["main title"];
+   + delete operator only works on own properties
+   + to delete an inherited property, it must by removed from the prototype chain.
+   + returns true if the deletion was sucessful or had no effect, or if used on an expression that doesn't have properties 
+   examples: 
+   let o = { x: 1 };
+   delete o.x // returns true
+   delete o.x // returns true but does nothing
+   delete o.toString // returns true, does nothing (not own property)
+   delete 1 // returns true, has no effect on the value 1
+   + delete cannot effect a property that have the configurable attribute set to false
+   + in strict mode, all deletions of nonconfigurable properties will throw a TypeError
+   + also in strict mode, delete must be specific with its property acces as delete globalThis.x
+   
+   - Testing Properties ch. 6.5
+   + objects are unordered sets of properties. It is useful to test whether properties exist or not, if it has a given name, etc.
+   + this can be done with the "in" operator, hasOwnProperty(), and propertyIsEnumerable(), or simply by querying the property. 
+   + These above methods also work with symbols. 
+   examples: 
+   let o = { x: 1 };
+   "x" in o // true
+   "y" in o // false
+   "toString" in o  // true, inherits from glocal obj
+   
+   o.hasOwnProperty("x") // true
+   o.hasOwnProperty("y") // false
+   o.hasOwnProperty("toString") // false, toString is inherited
+   
+   o.propertyIsEnumerable("x") // true
+   o.propertyIsEnumerable("toString") // false, not an own property
+   Object.prototype.propertyIsEnumerable("toString") // false, not enumerable
+   
+   o.x !== undefined // true
+   o.y !== undefined // false, doesn't have this property
+   o.toString !== undefined // true, inherits property
+   
+   + the "in" operator can distinguish between a property with a value of undefined and a property that does not exist
+   
+   - Enumerating Properties ch. 6.6
+   + sometimes we want a list of all the properties in an object, or to go through every property. 
+   + for/in (ch. 5.4.5) will run the loop body for each enumerable property (own or inherited) of the specified object, 
+   assigning the name of the property to the loop variable. Builtin methods/properties are not enumerable but custom properties are. 
+   example: 
+   let o = { x:1, y:2, z: 3 };
+   o.propertyIsEnumerable("toString"); // false, it's a builtin
+   for (let p in o) {
+      console.log(p); // prints x, y, z, but not toString
+   }
+
+   + you can guard against enumerating inherited properties like so
+   examples: 
+   for (let p in o) {
+      if (!o.hasOwnProperty(p)) continue; // skip inherited properties
+   }
+
+   for (let p in o) {
+      if (typeof o[p] === "function") continue; // skip all methods
+   }
+   
+   function merge(target, ...sources) {
+      for (let source of sources) {
+         for (let key of Object.keys(source)) {
+            if (!(key in target)) {
+               target[key] = source[key];
+            }
+         }
+      }
+      return target;
+   }
+   // this will assign properties to your target object only if they are not also in the source object
+   
+   - Serializing Objects ch. 6.8
+   + object serialization is the process of converting an objects state into a string from which it can be restored. 
+   + functions JSON.stringify() and JSON.parse() serialize and restore objects, respectively. 
+   + JSON stands for JavaScript Object Notation
+   examples: JSON
+   let o = {x:1, y: {z: [false, null, ""]}};
+   let s = JSON.stringify(o); // s == '{"x":1, "y":{"z":[false,null,""]}}'
+   let p = JSON.parse(s);     // p == {x: 1, y: {z: [false, null, ""]}};
+   + not everything in JS can be converted directly to JSON
+   NaN, Infinity, -Infinity are serialized to null
+   Dates are serialized to ISO-formatted date strings, but parse leaves them as strings and doesn't restore the object. 
+   It the property value cannot be serialized, it is simply omitted from the stringified output. 
+   You can pass optional args to both methods that call for certain values to be serialized or stringified. 
+   
+   - Object Methods ch. 6.9
+   + all JS objects inherit from the Object.prototype unless they are made explicitly without a prototype. 
+   + Most of what is inherited are methods so that global methods can be called on objects. 
+   + hasOwnProperty() and propertyIsEnumerable() are two examples
+   
+   - toString() ch. 6.9.1
+   + the toString() method takes no arguments, it returns a string that somehow represents the object it is called upon
+   + JS invokes this method when it has to convert some value to a string. 
+   example: 
+   let s = { x:1, y:1 }.toString(); // returns "[object Object]"
+   + because by default this is not very useful, many objects define their own version of toString() 
+   example: defining your own toString()
+   let point = {
+      x: 1,
+      y: 2,
+      toString: function() { return `(${this.x}, ${this.y})`; }
+   }
+   String(point) // the objects specific toString() method is used
+
+   - toLocaleString() ch. 6.9.2
+   + in addition to toString(), all objects have a toLocaleString() method
+   + it returns a localized representation of that object
+   + the default toLocaleString() doesn't do any localization itself, it just uses the toString() method
+   + Date and Number class define their own custom toLocaleString() for example
+   + Array.toLocaleString() is similar to toString(), except it calls .toLocaleString() on subarrays
+   
+   - valueOf() ch. 6.9.3
+   + this will convert the object to a primitive type other than a string if possible. 
+   + this is useful in the Date class for instance, because .valueOf will convert it to a number, meaning you can compare dates
+   with > and <
+   
+   - toJSON() ch. 6.9.4
+   + Object.prototype actually doesn't define a toJSON() method, but the JSON.stringify() method looks for a JSON() method on 
+   any object it is asked to serialize. If this method exists on the object that is being serialized, it is invoked, and the return 
+   value is serialized, instead of the original object. 
+   + The Date class defines a toJSON() method that returns a serializable string representation of the date. 
+   example: 
+   let point = {
+      x:1, 
+      y:2,
+      toString: function() { return `(${this.x}, ${this.y})` },
+      toJSON: function() { return this.toString(); }
+   };
+   JSON.stringify([point]) // returns '["(1, 2)"]'
+  
+   - Extended Object Literal syntax
+   - Shorthand Properties ch. 6.10.1
+   example: 
+   let x = 1, y = 2;
+   let o = {
+      x: x,
+      y: y
+   };
+   
+   you can drop the colon with shorthand properties
+   let o = {x, y};
+   // the values of the properties are now the values of the variables
+   
+   - computed property names
+   + if there is a property name is not known at compile time, (run time?) then you'll need another approach 
+   example: 
+   const PROPERTY_NAME = "p1";
+   function computePropertyName() { return "p" + 2; }
+   let o = {};
+   o[PROPERTY_NAME] = 1;
+   o[computePropertyName()] = 2;
+
+   + there is an easier way with "computed properties" ES6
+   let p = {
+      [PROPERTY_NAME]: 1,
+      [computePropertyName()]: 2
+   };
+   + with this syntax, the square brackets delimit an arbitrary Javascript expression.
+   That expression is evaluated and the resulting value (converted to a string if required) is used as the property name. 
+   + if you are using a library, it might be more robust to use computed property names. If there is an object that 
+   expects a specific property, you can hardcode this in, but if there is a version change or you mistype the name, 
+   there could be an error. Using this syntax you can initialize your properties outside the object, check them somehow, 
+   and then set their returned value automatically inside the given object. 
+   
+   - symbols as property names ch. 6.10.3
+   + if you can assign a symbol to a variable or constant, that symbol can be assigned as a property using computed property
+   example: 
+   const extension = Symbol("my extension symbol");
+   let o = {
+      [extension]: { /* extension data stored in this  object */ }
+   } ; 
+   o[extension].x = 0; // this won't conflict with other properties of o
+   // lets review / learn for the first time what a symbol actually does 
+   + the use case is if you are calling objects from unknown code that you need to mutate, and want to be sure that you 
+   don't create properties that might conflict with that unknown object. 
+   + no two symbols are the same, even if they are passed the exact same string. This ensures that when you call a certain 
+   symbol that you never conflict with another property in that object. 
+   
+   - spread operator ch. 6.10.4 ES2018
+   + you can copy the properties of an object into another object with the spread operator
+   example: 
+   let position = { x: 0, y: 0};
+   let dimesnions = { width: 100, height: 75 };
+   let rect = { ...positions, ...dimensions };
+   rect.x + rect.y + rect.width + rect.height // returns 175
+   + object literals is the only place where the spread operator does exactly this thing. 
+   + if there is a duplicate property name from the spread, the last one is used. 
+   + only spreads the properties of own properties, not inherited ones
+   + spread is O(n), so if it's in a loop you may be unintentionally making an O(n^2) function. 
+   
+   - Shorthand methods ch. 6.10.5 ES6
+   + it's shorthand for defining methods
+   example: 
+   let square = {
+      area() { return this.side * this.side; },
+      side: 10
+   };
+   vs area: function() { // given code },
+
+
 
