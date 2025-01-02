@@ -1500,6 +1500,334 @@ Expressions and Operators ch. 4
       side: 10
    };
    vs area: function() { // given code },
+   + both of these methods are equivalent. Both create a new "area" property, both initialize its value according to the given code. 
+   + this shorthand can be combined with other shorthand techniques, included computed property shorthand. 
+   example: 
+   const METHOD_NAME = "m";
+   const symbol = Symbol();
+   let weirdMethods = {
+      "method With Spaces"(x) { return x + 1; },
+      [METHOD_NAME](x) { return x + 2; },
+      [symbol](x) { return + 3; } 
+   };
+   weirdMethods["method With Spaces"](1) // 2
+   weirdMethods[METHOD_NAME](1)          // 3
+   weirdMethods[symbol](1)               // 4
+   + symbols are used with Symbol.iterator (ch. 12)
+   
+   - Property Getters and Setters ch. 6.10.6 ES5
+   + objects so far have been shown with data properties; a name and ordinary value. 
+   + JS supports "accessor properties", not having a single value but 1 or 2 accesor methods: a getter / setter
+   + when a program queries the accessor property, it runs the getter/setter method. 
+   The return value is the property access expression. 
+   + when the program sets the value of an accessor property, JS invokes the setter method, passing the value of the righthand 
+   assignment. This method "sets" a property value in the object. The return is ignored in a setter method. 
+   + If a property is a getter/setter, it is a read/write property. 
+   If only a getter, it is a read only property. 
+   If only a setter, it is a write only property. This is not possible with ordinary data properties. Read attempts are undefined.
+   example: 
+   let o = {
+      dataProp: value,
+      get accessorProp() { return this.dataProp; }.      // getter
+      set accessorProp(value) { this.dataProp = value; } // setter
+   };
+   
+   let p = {
+      x: 1.0,
+      y: 1.0,
+      get r() { return Math.hypot(this.x, this.y); },
+      set r(newValue) {
+        let oldValue = Math.hypot(this.x, this.y);
+        let ratio = newValue/oldValue;
+        this.x *= ratio;
+        this.y *= ratio; 
+      },
+      get theta() { return Math.atan(this.y, this.x); }
+   };
+   p.r     // Math.SQRT2
+   p.theta // Math.PI / 4
+   
+   + .this keyword invokes these functions as methods of the object they are defined on, in the above case meaning x, y 
+   + Accessor properties are inherited, so the defined object can be used as a prototype for other objects. 
+   + these aren't quite classes yet, there is no built in constructor function 
+   example: 
+   let q = Object.create(p);
+   q.x = 3; q.y = 4;
+   q.r      // returns 5
+   q.theta  // returns Math.atan(4, 3);
+   
+   + another use of this is to ensure the object conforms to a certain behavior
+   example:
+   const serialNum = {
+      _n: 0,
+      get next() { return this._n++ },
+      set next(n) {
+         if (n > this._n) this._n = n;
+         else throw new Error("serial num. can only be set to a larger value");
+      }
+   };
+   serialNum.next = 10;    // set the starting num
+   serialNum.next;         // 10
+   serialNum.next;         // 11 ; different each time the program invokes next
+   
+   + "magic behavior" properties
+   example: 
+   const random = {
+      get octet() { return Math.floor(Math.random()*256); },
+      get uint16() { return Math.floor(Math.random()*65536); },
+      get int16() { return Math.floor(Math.random()*65536)-32786; }
+   };
+   + these properties will return a random number when invoked. 
+   
+- Arrays ch. 7
+   + Ordered collection of values. 
+   + indices and values, the content of a position in the array. 
+   + May contain many different types. Common examples are AoA's (array of arrays) or AoO's (array of objects)
+   + zero indexed, 32 bit index numbers
+   + JS arrays are dynamic, meaning they don't need to be declared with a specific size. 
+   + JS arrays may be sparse, meaning there can be indices with not value
+   + JS arrays have a length property. Max length is 2^32-2 or 4294967295 elements long. 
+   + JS arrays are specialized objects where property names are numbers with associated values. 
+   + Array inherits from Array.prototype, there are many methods built in, some of them are generic meaning work on array-like objects
+   + Strings behave as arrays of characters (ch. 7.10)
+   + JS defines "typed arrays", which have a fixed length and a fixed numeric element type (ch. 11.2 ES6)
+   
+   - Creating Arrays ch. 7.1
+   + array literals
+   + the ... spread operator on an iterable object
+   + the Array() constructor
+   + the Array.of() and Array.from() factory methods
+   
+   - Array Literals ch. 7.2
+   + simplest way to create an array is an array literal, writing a comma separated list of values enclosed in [] brackets
+   examples: 
+   let empty = [];
+   let primes = [2, 3, 5, 7, 11];
+   let misc = [1.1, true, "a",] // 3 elements of various types, and a trailing comma
+   + the values in an array can be arbitrary expressions
+   examples: 
+   let base = 1024;
+   let table = [base, base+1, base+2, base+3];
+   + can contain object literals or other array literals
+   let b = [[1, {x:1, y:2}], [2, {x:3, y:4}]];
+   + empty indices of an array make the array sparse, they will return undefined if queried. 
+   + optional trailing commas are permitted but do not initialize a new index
+   let undefs = [,,] // length is 2 not 3
+   
+   - Spread ... Operator ch. 7.1.2 ES6
+   + an array can be inserted into another array with the spread operator
+   example: 
+   let a = [1, 2, 3];
+   let b = [0, ...a, 4]; // b === [0, 1, 2, 3, 4]
+   + this a good way to create a shallow copy of an original array
+   example: 
+   let original = [1,2,3];
+   let copy = [...original];
+   copy[0] = 0;
+   original[0] // returns 1
+   
+   + spread operator works on iterable objects (ch. 5.4.4, 12)
+   example:
+   let digits = [..."0123456789ABCDEF"]; 
+   // this would give an array of each character that i'm not typing out here
+   let letters = [..."hello world"];
+   [...new Set(letters)] // array of unique characters
+   
+   - Array() constructor ch. 7.1.3
+   example: 
+   let a = new Array(); // makes an empty array
+   let a = new Array(10); // empty array with a length of 10
+   let a = new Array(1, 2, 3, 4, 5, "testing, testing"); // args are passed into the new array
+   
+   - Array.of() ch. 7.1.4
+   + you can't make an array of a single element with the Array() constructor, because it either makes an arr of specific length
+   or passes the args into values of the array. 
+   + Array.of() addresses this issue, it will pass all args directly into a new array. 
+   
+   - Array.from() ch. 7.1.5 ES6
+   + is a factory method that expects an iterable or array-like object as the first arg. 
+   It returns an array that contains the elements of that object. 
+   example: 
+   let copy = Array.from(original); // makes a copy of another array. 
+   + Array-like objects are non-array objects that have a numeric length property and have values stored with property names 
+   that happen to be integers. 
+   + use cases are when using client side javascript, return values of some web browsers are array-like, and become 
+   easier to work with if converted first to true-arrays
+   example: 
+   let trueArray = Array.from(arrayLike);
+   + second argument in Array.from() is a function that will execute on each element of the input array-like object. 
+   This is like the .map() method, but is more efficient since it operates on the value then initializes the return into the new array.
+  
+   - Reading and Writing Array elements ch. 7.2
+   + access arrays with the [] operator. A reference to the given array should be on the left hand side of the operator. 
+   + arrays automatically track their length. 
+   + negative indices are converted to strings and initialized as properties of the array. 
+   + floats are also converted to integers
+   + since JS arrays are just specialized objects, there won't be "out of bounds" errors, it will return undefined
+   
+   - Sparse Arrays ch. 7.3
+   + an array in which the elements do not have continguous indexes starting at 0
+   + the length property will be greater than the number of elements in the array by definition 
+   examples: 
+   let a = new Array(5);
+   a = [];
+   a[1000] = 0; // adds one element but sets length to 1001
+   + Arrays can be made sparse with the delete() operator 
+   
+   - Array Length ch. 7.4
+   + Every array will have a length property, which is what sets them apart from generic objects in JS
+   + for dense arrays, the length property specifies the number of elements in the array, while the length is that num + 1
+   + An array will never have an index that is greater than its length value 
+   To maintain this axiom, arrays have two special behaviors
+   1. if you assign a value to the array with an index value greater than the length, it's new length is addedIndex + 1
+   2. if you set the length to something smaller than the index of the last value, the values outside the new range are deleted. 
+   If you increase the length of that array after deletion by size, then the new array will be sparse 
+   
+   - Adding and Deleting Array Elements ch. 7.5
+   + simplest way is to assign values to an index
+   + the array.push() method will add a specified value to the end of the array 
+   + array.unshift() will add at the front of the array
+   + array.pop() removes the last element
+   + array.shift() removes the first element 
+   + array.splice() used for inserting, deleting, or replacing array elements. Alters the length property. Shifts values as needed. 
+   
+   - Iterating Arrays ch. 7.6 
+   
+   + simplest means as of ES6 is for/of (ch.5.4.4)
+   example: 
+   let letters = [..."Hello World"];
+   let string = "";
+   for (let letter of letters) {
+      string += letters;
+   }
+   string // returns "Hello World" after being re-assembled
+   + returns elements in ascending order (from 0 to length)
+   + if you want to use a for/of loop and need to know the indice of each value, use the entries() method of the array
+   example: 
+   let everyOther = "";
+   for (let [index, letter] of letters.entries()) {
+      if (index % 2 === 0) everyOther += letter; // letters only at even indexes
+   }
+   everyOther // "Hlowrd"
+   
+   + another method is to use array.forEach(), where you pass a function to forEach that is invoked on each element of the array 
+   ch. 7.8.1
+   example: 
+   let upperCase = "";
+   letters.forEach(letter => {
+      upperCase += letter.toUppercase();
+   });
+   upperCase // returns "HELLO WORLD"
+   + array.forEach iterates the array in order, and passes the index to the function as a second argument.
+   + .forEach is aware of sparse arrays and will not invoked the function on empty indices
+   + 
+   
+   + using a for loop (ch. 5.4.3)
+   example: 
+   let vowels = "";
+   for (let i = 0; i < letters.length; ++i) {
+      let letter = letters[i];
+      if (/[aeiou]/.test(letter)) {
+         vowels += letter;
+      }
+   }
+   // will return a string of each vowel in the order they appear
+   
+   + to skip undefined elements 
+   example: 
+   for (let i = 0; i < a.length; ++i) {
+      of (a[i] === undefined) continue; // jump statement bb
+   }
 
+   - Multi-dimensional Arrays
+   + JS doesn't have a builtin multi-dimensional arrays in 2024
+   + use AoAs to get the same result. 
+   + append the [] operator twice to the array reference. 
+   array[0][0];
+   let row = array[0];
+   let col = row[0]; // this would be the same approach
+   example: 
+   let table = new Array(10);
+   for (let i = 0; i < table.length; ++i) {
+      table[i] = new Array(10); // each row now has 10 cols
+   }
+   // fill the empty table array with values, creating a multiplication table
+   for (let row = 0; row < table.length; ++row) {
+      for (let col = 0; col < table[row].length; ++col) {
+         table[row][col] = row*col;
+      }
+   }
+   table[5][7] // returns 35
+   
+   - Array Methods ch. 7.8
+   + there are a number of builtin methods for arrays in JS. Some change the array, some return a reference, some do both. 
+   + There are several groups of array methods: 
+   1. Iterator methods that loop through elements of an array, typically invoking a function passed in on each element. 
+   2. Stack and Queue methods add and remove array elements to and from the beginning and end of an array
+   3. subarray methods are for extracting, deleting, inserting, filling, and copying contiguous regions of a larger array. 
+   4. searching and sorting methods are for locating elements within an array and for sorting elements
+   
+   - Array Iterator Methods ch. 7.8.1
+   + iterate over arrays, passing elements to a supplied function. 
+   Convenient for iteration, mapping, filters, tests, and reductions
+   + Generalizations about the following methods: 
+   accept a function as their first argument, invoke said function once for each element of the referenced array. 
+   If the array is sparse, the function is not called on the empty indice. 
+   In most cases, the specified function is called with three args
+      1. the value of the array element 
+      2. the index of the array element 
+      3. and the array itself 
+      Usually will not need more than the first argument
+   Most of the iterator methods will take a second argument, which becomes .this inside of the specified function. 
+   None of the methods below will modify the array in and of themselves, but the function passed in can. 
+   
+   + array.forEach() 
+   example: 
+   let data = [1,2,3,4,5], sum = 0; 
+   data.forEach(value  => { sum += value; }); // returns 15
+   data.forEach(function (v, i, a) { a[i] = v + 1; }); // data === [2,3,4,5,6]
+   // the v, i, a parameters are the value, index, and array variables respectively. 
+   + for each does not provide a means for terminating early on its own. There is no equivalent to a break statement.
 
+   + array.map()
+   + passes in each element of the array to the specified function, returning an array of the altered values. 
+   example: 
+   let a = [1,2,3];
+   a.map(x => x*x); // returns [1, 4, 9]
+   + Does not modify the array called upon
+   + If the array is sparse, the function will not be called for missing elements, but the returned array will be 
+   sparse in the same way as the original. Same length and same missing elements. 
+   
+   + array.filter() 
+   + returns an array containing a subset of elements from the invoked array.
+   + the passed in function should be a predicate: a function that returns true or false. 
+   + The predicate is invoked just as forEach() and map(). If the return is true or a value that converts to true, 
+   then the element passed to the predicate is a member of the subset and is added to returned array. 
+   example: 
+   let a = [5,4,3,2,1];
+   a.filter(x => x < 3)    // [2,1] values less than three
+   a.filter((x, i) => i%2 === 0) // [5,3,1] every other value
+   + filter skips missing elements and always returns dense arrays. 
+   example: closing gaps in sparse arrays 
+   let dense = sparse.filter(() => true);
+   // to close gaps and remove nullish elements
+   a = a.filter(x => x !== undefined && x !== null);
+   
+   + array.find() and array.findIndex() 
+   + like .filter in they iterate through an array looking for elements your predicate function returns a truthy value on. 
+   + These methods stop iterating the first time the predicate returns a truthy value. 
+   + Find returns the element, findIndex returns the index. 
+   + If no element returns truthy, find() returns undefined and findIndex() return -1
+   example: 
+   let a = [1,2,3,4,5];
+   a.findIndex(x => x === 3); // 2 
+   a.findIndex(x => x < 0); // -1 no negative numbers in the array
+   a.find(x => x % 5 === 0);  // 5, a multiple of 5 (nice)
+   a.find(x => x % 7 === 0); // undefined, no multiples of 7 in the array 
+   
+   + array.every() and array.some() 
+   + these are array predicates 
+   
 
+      
+   
