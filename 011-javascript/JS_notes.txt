@@ -1192,6 +1192,7 @@ Expressions and Operators ch. 4
    
    - creating an object with new
    + the new operator creates and initializes a new object. Keyword must be followed by a function invocation. 
+   + this can be used to create a new .this instance from a prototype object. 
    + a function used in this way is called a constructor initializes the newly created object. 
    examples: 
    let o = new Object();
@@ -1281,7 +1282,7 @@ Expressions and Operators ch. 4
    + Property access expressions do not always return or set a value. 
    + No error is thrown if you query a property that does not exist. An undefined value is returned. 
    + It is an error to query an object that itself does not exist. Throws TypeError
-   + proprty access will fail if the left side of . is null or undefined. 
+   + property access will fail if the left side of . is null or undefined. 
    example: avoiding this
    let surname = undefined; 
    if (book) {
@@ -1324,7 +1325,7 @@ Expressions and Operators ch. 4
    let o = { x: 1 };
    "x" in o // true
    "y" in o // false
-   "toString" in o  // true, inherits from glocal obj
+   "toString" in o  // true, inherits from global obj
    
    o.hasOwnProperty("x") // true
    o.hasOwnProperty("y") // false
@@ -1827,7 +1828,244 @@ Expressions and Operators ch. 4
    
    + array.every() and array.some() 
    + these are array predicates 
+   + .every() method is like the "for all" quantifier in math. It returns true if and only if the predicate function returns
+   true for every element in the array. 
+   example: 
+   let a = [1,2,3,4,5];
+   a.every(x => x < 10);      // true
+   a.every(x => x % 2 === 0); // false, there are odd numbers
+   + .some() is like the "there exists" quantifier in math. It returns true if there exists at least one element in the array 
+   for which the predicate returns true. It returns false if and only if the predicate returns false for every element. 
+   a.some(x => x%2 === 0); // true, there are some even numbers
+   a.some(isNaN)           // false, there are no non-numbers
+   + both of these methods return as soon as they know what value to give. 
+   + every() returns true and some() returns false on empty arrays. 
    
+   + reduce() and reduceRight() 
+   + combines the elements of the array according to the provided function. 
+   + also known as inject and fold. Used in functional style programming often. 
 
+   + array.reduce() takes two args: the provided function, and an initial value to pass to that function. 
+   + functions used with reduce() are different than forEach() or map(). The usual value, index, array
+   arguments are now the 2nd, 3rd, and 4th arguments. The first is an accumulator that stores the value of the reduction so far. 
+   + if called on an empty array, throws a TypeError. On an array of just 1 value, it will return that value without 
+   running the supplied function. 
+   examples: 
+   let a = [1,2,3,4,5];
+   a.reduce((x,y) => x+y, 0);          // returns 15, sum of numbers
+   a.reduce((x,y) => x*y, 1);          // returns 120, product of numbers
+   a.reduce((x,y) => (x > y) ? x : y); // 5, largest of the values in a
+    
+   + array.reduceRight() 
+  + works similarly to reduce(), except it processes the array from highest to lowest index values. 
+
+   - Flattening arrays with array.flat() and array.flatMap() ES2019
+   + .flat() combines subarrays into the outermost array.
+   + When called with no arguments, it flattens 1 level of nesting. This can be increased by passing a numeric value to flat().
+   
+   + .flatMap() works similarly to .map(), it passes in each element and returns an array of elements altered by a provided function. 
+   The difference is that if there are sub-arrays within the initial array, it will flatten these sub-arrays. 
+   This avoids having to do something like a.map(f).flat(1) // f being a hypothetical function
+   + 
+   
+   - Adding arrays with array.concat()  
+   + concat() returns a new array that contains the elements of the original array, followed by the each of the arguments 
+   passed to concat. If any of the arguments are arrays, the the arg. array elements themselves are concatenated, not the 
+   array itself. 
+   + nested arrays within arg. arrays are not flattened, just the first array passed in. 
+   + concat() produces a new array copy. This can be expensive, so there are sometimes better methods. 
+   
+   - Stacks and Queues with array.push(), array.pop(), array.shift(), and array.unshift()
+   + .push() and .pop() allow you to work with arrays as if they were the data structures Queue and Stack. 
+   + push() appends to the end of an array. Does not flatten array arguments. 
+      > the ... spread operator can be used to explicitly flatten any array arguments
+   + pop() removes the last element of an array and returns its value, and decrements the array length value. 
+   + Both methods modify the array in place, meaning the original array is altered.  
+   
+   + .shift() and .unshift() are similar to push() and pop() but alter the first element in the array. 
+      > unshift() can pass multiple arguments at once in a comma delimited list, and they are added all at once rather than 
+      one at a time. This means it could effect the order they are placed in. 
+   + Both are less efficient than pop() and push() because each element in the array must have its index iterated after a shift.
+   
+   - Subarrays with slice(), splice(), fill(), and copyWithin() 
+   + these methods are used to create subarrays of continguous regions in the referenced array. 
+   
+   + slice() 
+      > takes two arguments, the start and ending index that is to be returned. 
+      > contains the first element specified, up to but not including the final element specified. 
+      > if no second element is specified, it returns the starting element to the end of the array. 
+      > if a negative first arg is passed in, it is relative to the length of the array. It will count from the end to the start. 
+      > does not modify the array on which it is invoked. 
+   example: 
+      let a = [1,2,3,4,5];
+      a.slice(0,3);        // returns [1,2,3];
+      a.slice(3);          // returns [4,5];
+      a.slice(1,-1);       // returns [2,3,4];
+      a.slice(-3, 2);      // returns [3];
+   
+    + splice() 
+      > modifies the array on which it is invoked. 
+      > general purpose method for inserting and removing elements. 
+      > Can insert and remove elements at the same time, or one or the other. 
+      > first arg is where splice() is to begin (index)
+      > second arg is the amount of elements that are to be removed. If omitted, then all elements from start to end are removed.
+      > returns an array of the deleted elements, or an empty array if no elements were deleted. 
+      > every argument after the first two will specify what is being inserted into the array. They are inserted from first to last. 
+      > arrays are inserted whole, without flattening of any kind. 
+    example: 
+      let a = [1,2,3,4,5,6,7,8];
+      a.splice(4);               // returns [5,6,7,8] and a is now [1,2,3,4];
+      a.splice(1,2)              // returns [2,3] and a is [1,4];
+      a.splice(1,1)              // returns [4] and a is [1];
       
    
+   + fill()
+      > sets the elements of an array, or slice of an array, to a specific value. 
+      > mutates the referenced array, and returns the modified array. 
+      > first arg is a value to set array elements to. 
+      > optional second arg specifies the starting index. 
+      > optional third arg specifies the ending index. Elements up to but not including the specified end index. 
+      > negative numbers work as they do in slice() 
+   example: 
+      let a = new Array(5);
+      a.fill(0)               // dense array of 0's
+      a.fill(9, 1)            // [0,9,9,9,9]
+      a.fill(8,2,-1)          // [0,9,8,8,9]
+   
+   + copyWithin() 
+      > copies a slice of the referenced array to a new position within that array. 
+      > modifies the array in place and returns the modified array, but will not change the length of the array. 
+      > first arg specifies the destination index of the first element to be copied. 
+      > second arg specifies the index of the first copied element. If omitted, 0 is used. 
+      > third arg specifies the end of the slice of elements being copied. If omitted, the length of the array is used. 
+      Elements from the start index, up to but not including the last element, will be copied. 
+      > You can use negative numbers as in slice()
+      > Intended to be a high performance method that is useful with typed arrays (ch. 11.2) similar to memmove() from 
+      the C standard lib.
+      > Will work correctly even if there is overlap in the designated regions.
+   example: 
+      let a = [1,2,3,4,5];
+      a.copyWithin(1);        // [1,1,2,3,4] copy array elements up to 1
+      a.copyWithin(2,3,5);    // [1,1,3,4,4] copy last 2 elements to index 2
+      a.copyWithin(0, -2);    // [4,4,3,4,4] negative offsets work as well
+   
+   - Array Searching and Sorting methods ch. 7.8.6
+   + indexOf(), lastIndexOf(), and includes(), sort(), and reverse()
+
+   + indexOf() and lastIndexOf() 
+      > both search an array for an element with a specified value and return the index of the first such element found. 
+      > returns -1 if no matching element was found. 
+      > indexOf() searches from start to end
+      > lastIndexOf() searches from end to start. 
+      > the first arg for both is the element which is being searched for
+      > optional second arg specifies the index which to begin searching from. 
+      > negative indices are permitted as in slice()
+   example: 
+      // this will search an array and return an array of all matches
+   function findall(a, x) {
+      let results = [], len = a.length, pos = 0;
+      while(pos < len) {
+         pos = a.indexOf(x, pos);
+         if (pos === -1) break;
+         results.push(pos);
+         pos = pos + 1;
+      }
+      return results;
+   }
+   
+   + includes() ES2016
+      > takes a single argument, returns true if the array contains that value or false if otherwise. 
+      > does not tell you the index of the value, only if it exists. 
+      > also known as "set membership" test. Arrays are not true sets, so use a set if that's what is required. 
+      > uses strict equality for evaluation, so differently typed elements compared to your search term will be ignored. 
+      > this method does consider NaN equal to itself, normally this is not the case with strict equality. 
+   example: 
+      let a = [1,true,3,NaN];
+      a.includes(true)     // true
+      a.includes(2)        // false
+      a.includes(NaN)      // true
+      a.indexOf(NaN)       // false, returns -1 because indexOf does not eval NaN as equal to itself
+
+   + sort()
+      > sorts the elements of the referenced array in place and returns the sorted array. 
+      > when called with no args, sorts alphabetically, converting elements to strings temporarily if necessary. 
+      > places undefined elements at the end of the array
+      > to sort in some manner other than alphabetically, must pass a comparison function as an argument to sort()
+      This function should decide which of its two args should come first in the sorted array. 
+      If the first arg should come before the second, the comparison func should return a less than zero int
+      If the first arg should come after the second, the comparison func should return a number greater than 0
+      If both args are equivalent, then the comparison func should return 0. 
+      > worth writing and understanding comparator function further if necessary. 
+   example: 
+      // sorting values according to numerical value
+      let a = [33,4,1111,222];
+      a.sort();                  // a === [1111, 222, 33, 4] alphabetical
+      a.sort(function(a,b) {     // pass a comparator function, returning < 0, > 0, or 0 depending on value
+         return a-b;
+      });                        // returns a === [4, 33, 222, 1111] or numerical order
+      a.sort((a,b) => b-a);      // returns a === [1111, 222, 33, 4] or reverse numerical order
+
+      // sorting case-insensitive values 
+      let a = ["ant", "Bug", "cat", "Dog"];
+      a.sort(); // Bug and Dog appear before ant and cat
+      a.sort(function(s,t) {
+         let a = s.toLowerCase();
+         let b = t.toLowerCase();
+         if (a < b) return -1;
+         if (a > b) return 1;
+         return 0;
+      });                        // a == ["ant", "Bug", "cat", "Dog"];
+      
+   + reverse() 
+      > reverses the order of elements in the referenced array and returns the reversed array. 
+      > Operates in place, mutating the array. 
+
+   - Array to String conversions ch. 7.8.7
+   + there are three builtin methods for turning arrays into strings. JSON.stringify(), join(), and toString()
+   
+   + join() 
+      > converts all elements of the given array to strings and concatenates them, returning the result string. 
+      > you can specify an optional string that separates the elements in the resulting string. 
+      > if no string is specified for the output string, a comma is used. 
+      > the inverse of the string.split() method, where a string is split into an array at a given delimiter
+   example: 
+      let a = [1,2,3];
+      a.join()          // returns "1,2,3" 
+      a.join(" ")       // returns "1 2 3"
+      a.join("")        // returns "123"
+      let b = new Array(10);
+      b.join("-");      // returns "---------", a string of 9 hyphens
+      
+   - Static Array Functions ch. 7.8.8
+   + array.from(), array.of() (ch. 7.1), array.isArray()
+   + array.isArray()
+      > checks if an unknown value is an array, similar to a type check
+   example: 
+      Array.isArray([]) // true
+      Array.isArray({}) // false THATS AN OBJECT SIR
+   
+   - Array-Like objects
+   + arrays are just specialized objects that have certain features. 
+      > length property that is automatically updated. 
+      > setting length value to a smaller value truncates the array. 
+      > arrays inherit useful methods from Array.prototype
+      > Array.isArray() returns true for arrays
+   + Array-Likes occur occasionally in practice, builtin JS methods don't work on them but the usual algorithms are still applicable. 
+   + A number of methods for working with HTML documents return array like objects
+      > document.querySelectorAll()
+      > etc
+   example: 
+      let a = {};
+      let i = 0;
+      while (i < 10) {
+         a[i] = i * i;
+         ++i;
+      }
+      a.length = i;
+
+      let total = 0;
+      for (let j = 0; j < a.length; ++j) {
+         total += a[j];
+      }
+   
+
