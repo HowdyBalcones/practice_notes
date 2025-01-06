@@ -3,7 +3,7 @@ const XLSX = require('xlsx');
 const file = "./2211AM01S Fairmount Signage REV 1.xlsx";
 const file2 = "./2404CDL01S Tacara Steubing Heights REV 1.xlsx";
 const file3 = "./2212JPI01S Jefferson Loyd Park Ph. 1 Signage REV 4.xlsx";
-
+const file4 = "./2209JPI02S Addison Heights Signage REV 3.xlsx";
 
 // reference
 // https://docs.sheetjs.com/docs/csf/sheet/
@@ -11,10 +11,13 @@ const file3 = "./2212JPI01S Jefferson Loyd Park Ph. 1 Signage REV 4.xlsx";
 
 // important notes
 // we are working with 2D arrays rather than worksheet objects, so the built in methods for 
-// sheetJS won't work on the data we are passing between functions.
+// sheetJS won't work on the data we are passing between functions. ** Some builtins won't work. 
+// Mainly there was a problem adding headers to the final output. This should all get refactored at some point. 
+// If there is anything that is out of place in the source contract it fails. 
 
 // Left off markers
 // 10-12-2024 - left off trying to format our headers. We are using sheet_to_json to create an AoA. 
+// 06-01-2025 - looking back through this, had to run it for a job. Some good, lots bad. Want to refactor w/ more comments. 
 
 const CSV_options_00 = {
    
@@ -100,7 +103,6 @@ function filter_add_column_headers (data) {
       7: headers[4],
       9: headers[5]
    }
-   console.log(headerRow.length);
    for (let i = 0; i < headerRow.length; ++i) {
       if (columnMapping[i] !== undefined) {
          headerRow[i] = columnMapping[i];
@@ -232,7 +234,7 @@ function import_data (path) {
 
 
 const data = import_data(file);
-const dataSteu = import_data(file3);
+const dataSteu = import_data(file4);
 //insert_col(data, 0, "TESTING");
 //export_data(data);
 export_data(dataSteu);

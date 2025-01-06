@@ -1,3 +1,73 @@
+Todays Notes: 2025-01-06
+- notes to ask AW about regarding this Jefferson Job
+   > the garage floor plates are different than the paper plans. 
+   > 
+
+- here are my workflow thoughts. If it doesn't impede production, as in does not stop the job from progressing and doesn't slow
+things down more than  another process, it is probably a non-issue. If it's just not what certain individuals are used to seeing, 
+then the trade offs need to be evaluated carefully and empirically. hypothesis, testing and experimentation, analysis of results. 
+Because mixed signals can be a cause of confusion, slow down, etc, that is worth taking into account. 
+But if people are being stubborn or resistant to small changes that improve the quality of life for others significantly, that is 
+more of a problem than some confusion during a transition. 
+
+When you're trying to please people rather than fulfill design constraints, then you are basing your work off of the lowest common 
+denominator. What works for everyone is by definition never the best product, most effective method, etc. 
+
+That being said, there are a plethora of innefficiencies here at Fource. From project management, to design, to fabrication, there 
+are too many people saying different things. The unifying problem is that design constraints are being ignored from the inception 
+of a job to the delivery of the final product. 
+
+It needs to be known by the person making a bid that a sign of a certain type will cost a given amount. That means the person 
+making a bid needs to understand what it really takes to fabricate and install these signs. It's a decision that should be based
+in data, and against current cost of doing business. That means materials and labor costs for our fabricators. That means 
+understanding what design options exist already and what space exists for new ideas. That means being able to actually make deals 
+with a client instead of pandering to their every need. 
+
+You wouldn't have to pander to their every need if the jobs didn't take so long. If you could tell them, this will deliver in 6 
+weeks and make good on that  repeatedly over the course of a year, the markup won't be a problem for these people. 
+That is what makes a successful brand. Business that keeps a promise. 
+
+And this circles back to the original point: just because something has been a certain way in the past, does not mean that is 
+what's best for today. "It's always been this way!" is no point at all. So what? Are we 10 years in the past? Are we ordering 
+material from companies that never experienced COVID? Is paper only getting more expensive? Aluminum? Acrylic?
+What is the cheapest thing to change? A procedure. And as designers procedure is what we do all day every day.  We can change
+an entire workflow or asset pipeline in a day, and the gains could be massive. If all it takes to make that happen is certain
+people who've been at the company for a long time changing a few habits, then in a perfect world they'd change immediately. 
+
+Every single department here could be 100% more productive, minimum. That's going from a month per book to two weeks. A whole
+day for revisions to a few hours. That's aligning with production so they are in the loop from the start. That's never printing
+a single thing until it's been approved by a client. That's pricing being precise from the start. That's every job is in a usable
+record that can be accessed by anyone quickly. Complaining about page numbers not looking like you're used to is a waste of my time.
+It's a waste of time for everyone in this building. It's a waste of time for our clients. 
+
+I think when presenting these ideas, it's important to stress that the current situation is a result of years and years of adaptation. 
+People have been adapting to situations to get the job done for decades. But these bandaid solutions cannot last. In 
+fact eventually, these bandaid solutions becoming standard practice hurt more than the original problem.
+By not solving the problem and only temporarily addressing a symptom, you steal time from everyone here in the future. Time that
+could be spent with kids, at home, sleeping, making more money, literally anything more useful than burning it up for nothing.
+As designers we are positioned to address the underlying causes here. 
+
+If it's not emprical, it's opinion. I don't make designs based on opinion. 
+
+
+- our sheet cleaning tool works but I'm worried it's not robust to base the rest of our program on top of. 
+   + It's hard to admit but all of that code is just the first pass on the data. Its one step of the first pass really. 
+   + We need to create "clean" sheets for every contract before we run another script that puts it into mySQL tables. 
+   + That's a huge step. Once we are there it will be much easier to pull JSON data for any future Extendscript nonsense. 
+   I'm imagining entering a job code, or client code(?), and having all of your "tags" generated. All that's needed is 
+   placing them onto assets once complete. 
+      > need a basic UI at this point for testing. 
+      > there are problems with this scenario already, mostly to do with updating to latest revisions. Again I'm the only
+      person using this system, everyone else will still be HAND-WRITING data, scanning it, printing it out again like 
+      this is some Kafkaesque dystopia. 
+      > which brings us to the current problem again. 
+   + We need a bash script that will periodically scan the contract server and make a list of all the excel files that are 
+   newer than 2016. Why 2016? Because that's when the contract become somewhat consistent, and moved from xls to xlsx. 
+   Once that list of path names to those contracts is generated we need to copy it somewhere that won't fk the server up 
+   if I'm not careful. 
+
+   + and a note on XLSX-2.js -- really need to refactor at least the variable names. I don't remember shit. 
+   
 
 - want to make a tool to automaticaly organize and process assets from scans of drawings. 
     + openCV
@@ -1875,6 +1945,7 @@ Client folder > Spotting for signs within scope of job per designer > ___ probab
 	- Acronyms
 	- reading pages
 	- understanding what is relevant for my position, so I don't have to read an entire plan (all the time)
+
 
 
 HELLO WORLD
