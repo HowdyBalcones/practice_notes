@@ -1741,146 +1741,145 @@ Expressions and Operators ch. 4
    }
 
    - Multi-dimensional Arrays
-   + JS doesn't have a builtin multi-dimensional arrays in 2024
-   + use AoAs to get the same result. 
-   + append the [] operator twice to the array reference. 
-   array[0][0];
-   let row = array[0];
-   let col = row[0]; // this would be the same approach
-   example: 
-   let table = new Array(10);
-   for (let i = 0; i < table.length; ++i) {
-      table[i] = new Array(10); // each row now has 10 cols
-   }
-   // fill the empty table array with values, creating a multiplication table
-   for (let row = 0; row < table.length; ++row) {
-      for (let col = 0; col < table[row].length; ++col) {
-         table[row][col] = row*col;
+      > JS doesn't have a builtin multi-dimensional arrays in 2024
+      > use AoAs to get the same result. 
+      > append the [] operator twice to the array reference. 
+   example:
+      array[0][0];
+      let row = array[0];
+      let col = row[0]; // this would be the same approach
+      example: 
+      let table = new Array(10);
+      for (let i = 0; i < table.length; ++i) {
+         table[i] = new Array(10); // each row now has 10 cols
       }
-   }
-   table[5][7] // returns 35
+      // fill the empty table array with values, creating a multiplication table
+      for (let row = 0; row < table.length; ++row) {
+         for (let col = 0; col < table[row].length; ++col) {
+            table[row][col] = row*col;
+         }
+      }
+      table[5][7] // returns 35
    
    - Array Methods ch. 7.8
-   + there are a number of builtin methods for arrays in JS. Some change the array, some return a reference, some do both. 
-   + There are several groups of array methods: 
-   1. Iterator methods that loop through elements of an array, typically invoking a function passed in on each element. 
-   2. Stack and Queue methods add and remove array elements to and from the beginning and end of an array
-   3. subarray methods are for extracting, deleting, inserting, filling, and copying contiguous regions of a larger array. 
-   4. searching and sorting methods are for locating elements within an array and for sorting elements
+      > there are a number of builtin methods for arrays in JS. Some change the array, some return a reference, some do both. 
+      > There are several groups of array methods: 
+      1. Iterator methods that loop through elements of an array, typically invoking a function passed in on each element. 
+      2. Stack and Queue methods add and remove array elements to and from the beginning and end of an array
+      3. subarray methods are for extracting, deleting, inserting, filling, and copying contiguous regions of a larger array. 
+      4. searching and sorting methods are for locating elements within an array and for sorting elements
    
    - Array Iterator Methods ch. 7.8.1
-   + iterate over arrays, passing elements to a supplied function. 
-   Convenient for iteration, mapping, filters, tests, and reductions
-   + Generalizations about the following methods: 
-   accept a function as their first argument, invoke said function once for each element of the referenced array. 
-   If the array is sparse, the function is not called on the empty indice. 
-   In most cases, the specified function is called with three args
-      1. the value of the array element 
-      2. the index of the array element 
-      3. and the array itself 
-      Usually will not need more than the first argument
-   Most of the iterator methods will take a second argument, which becomes .this inside of the specified function. 
-   None of the methods below will modify the array in and of themselves, but the function passed in can. 
+      > iterate over arrays, passing elements to a supplied function. 
+      Convenient for iteration, mapping, filters, tests, and reductions
+      > Generalizations about the following methods: 
+      accept a function as their first argument, invoke said function once for each element of the referenced array. 
+      If the array is sparse, the function is not called on the empty indice. 
+      In most cases, the specified function is called with three args
+         1. the value of the array element 
+         2. the index of the array element 
+         3. and the array itself 
+         Usually will not need more than the first argument
+      Most of the iterator methods will take a second argument, which becomes .this inside of the specified function. 
+      None of the methods below will modify the array in and of themselves, but the function passed in can. 
    
    + array.forEach() 
    example: 
-   let data = [1,2,3,4,5], sum = 0; 
-   data.forEach(value  => { sum += value; }); // returns 15
-   data.forEach(function (v, i, a) { a[i] = v + 1; }); // data === [2,3,4,5,6]
-   // the v, i, a parameters are the value, index, and array variables respectively. 
-   + for each does not provide a means for terminating early on its own. There is no equivalent to a break statement.
+      let data = [1,2,3,4,5], sum = 0; 
+      data.forEach(value  => { sum += value; }); // returns 15
+      data.forEach(function (v, i, a) { a[i] = v + 1; }); // data === [2,3,4,5,6]
+      // the v, i, a parameters are the value, index, and array variables respectively. 
+      + for each does not provide a means for terminating early on its own. There is no equivalent to a break statement.
 
    + array.map()
-   + passes in each element of the array to the specified function, returning an array of the altered values. 
+      > passes in each element of the array to the specified function, returning an array of the altered values. 
    example: 
-   let a = [1,2,3];
-   a.map(x => x*x); // returns [1, 4, 9]
-   + Does not modify the array called upon
-   + If the array is sparse, the function will not be called for missing elements, but the returned array will be 
-   sparse in the same way as the original. Same length and same missing elements. 
+      let a = [1,2,3];
+      a.map(x => x*x); // returns [1, 4, 9]
+      + Does not modify the array called upon
+      + If the array is sparse, the function will not be called for missing elements, but the returned array will be 
+      sparse in the same way as the original. Same length and same missing elements. 
    
    + array.filter() 
-   + returns an array containing a subset of elements from the invoked array.
-   + the passed in function should be a predicate: a function that returns true or false. 
-   + The predicate is invoked just as forEach() and map(). If the return is true or a value that converts to true, 
-   then the element passed to the predicate is a member of the subset and is added to returned array. 
+      > returns an array containing a subset of elements from the invoked array.
+      > the passed in function should be a predicate: a function that returns true or false. 
+      > The predicate is invoked just as forEach() and map(). If the return is true or a value that converts to true, 
+      then the element passed to the predicate is a member of the subset and is added to returned array. 
    example: 
-   let a = [5,4,3,2,1];
-   a.filter(x => x < 3)    // [2,1] values less than three
-   a.filter((x, i) => i%2 === 0) // [5,3,1] every other value
-   + filter skips missing elements and always returns dense arrays. 
-   example: closing gaps in sparse arrays 
-   let dense = sparse.filter(() => true);
-   // to close gaps and remove nullish elements
-   a = a.filter(x => x !== undefined && x !== null);
+      let a = [5,4,3,2,1];
+      a.filter(x => x < 3)    // [2,1] values less than three
+      a.filter((x, i) => i%2 === 0) // [5,3,1] every other value
+      + filter skips missing elements and always returns dense arrays. 
+      example: closing gaps in sparse arrays 
+      let dense = sparse.filter(() => true);
+      // to close gaps and remove nullish elements
+      a = a.filter(x => x !== undefined && x !== null);
    
    + array.find() and array.findIndex() 
-   + like .filter in they iterate through an array looking for elements your predicate function returns a truthy value on. 
-   + These methods stop iterating the first time the predicate returns a truthy value. 
-   + Find returns the element, findIndex returns the index. 
-   + If no element returns truthy, find() returns undefined and findIndex() return -1
+      > like .filter in they iterate through an array looking for elements your predicate function returns a truthy value on. 
+      > These methods stop iterating the first time the predicate returns a truthy value. 
+      > Find returns the element, findIndex returns the index. 
+      > If no element returns truthy, find() returns undefined and findIndex() return -1
    example: 
-   let a = [1,2,3,4,5];
-   a.findIndex(x => x === 3); // 2 
-   a.findIndex(x => x < 0); // -1 no negative numbers in the array
-   a.find(x => x % 5 === 0);  // 5, a multiple of 5 (nice)
-   a.find(x => x % 7 === 0); // undefined, no multiples of 7 in the array 
+      let a = [1,2,3,4,5];
+      a.findIndex(x => x === 3); // 2 
+      a.findIndex(x => x < 0); // -1 no negative numbers in the array
+      a.find(x => x % 5 === 0);  // 5, a multiple of 5 (nice)
+      a.find(x => x % 7 === 0); // undefined, no multiples of 7 in the array 
    
    + array.every() and array.some() 
-   + these are array predicates 
-   + .every() method is like the "for all" quantifier in math. It returns true if and only if the predicate function returns
-   true for every element in the array. 
+      > these are array predicates 
+      > .every() method is like the "for all" quantifier in math. It returns true if and only if the predicate function returns
+      true for every element in the array. 
    example: 
-   let a = [1,2,3,4,5];
-   a.every(x => x < 10);      // true
-   a.every(x => x % 2 === 0); // false, there are odd numbers
-   + .some() is like the "there exists" quantifier in math. It returns true if there exists at least one element in the array 
-   for which the predicate returns true. It returns false if and only if the predicate returns false for every element. 
-   a.some(x => x%2 === 0); // true, there are some even numbers
-   a.some(isNaN)           // false, there are no non-numbers
-   + both of these methods return as soon as they know what value to give. 
-   + every() returns true and some() returns false on empty arrays. 
+      let a = [1,2,3,4,5];
+      a.every(x => x < 10);      // true
+      a.every(x => x % 2 === 0); // false, there are odd numbers
+      + .some() is like the "there exists" quantifier in math. It returns true if there exists at least one element in the array 
+      for which the predicate returns true. It returns false if and only if the predicate returns false for every element. 
+      a.some(x => x%2 === 0); // true, there are some even numbers
+      a.some(isNaN)           // false, there are no non-numbers
+      + both of these methods return as soon as they know what value to give. 
+      + every() returns true and some() returns false on empty arrays. 
    
    + reduce() and reduceRight() 
    + combines the elements of the array according to the provided function. 
    + also known as inject and fold. Used in functional style programming often. 
 
    + array.reduce() takes two args: the provided function, and an initial value to pass to that function. 
-   + functions used with reduce() are different than forEach() or map(). The usual value, index, array
-   arguments are now the 2nd, 3rd, and 4th arguments. The first is an accumulator that stores the value of the reduction so far. 
-   + if called on an empty array, throws a TypeError. On an array of just 1 value, it will return that value without 
-   running the supplied function. 
+      > functions used with reduce() are different than forEach() or map(). The usual value, index, array
+      arguments are now the 2nd, 3rd, and 4th arguments. The first is an accumulator that stores the value of the reduction so far. 
+      > if called on an empty array, throws a TypeError. On an array of just 1 value, it will return that value without 
+      running the supplied function. 
    examples: 
-   let a = [1,2,3,4,5];
-   a.reduce((x,y) => x+y, 0);          // returns 15, sum of numbers
-   a.reduce((x,y) => x*y, 1);          // returns 120, product of numbers
-   a.reduce((x,y) => (x > y) ? x : y); // 5, largest of the values in a
+      let a = [1,2,3,4,5];
+      a.reduce((x,y) => x+y, 0);          // returns 15, sum of numbers
+      a.reduce((x,y) => x*y, 1);          // returns 120, product of numbers
+      a.reduce((x,y) => (x > y) ? x : y); // 5, largest of the values in a
     
    + array.reduceRight() 
-  + works similarly to reduce(), except it processes the array from highest to lowest index values. 
+      > works similarly to reduce(), except it processes the array from highest to lowest index values. 
 
    - Flattening arrays with array.flat() and array.flatMap() ES2019
-   + .flat() combines subarrays into the outermost array.
-   + When called with no arguments, it flattens 1 level of nesting. This can be increased by passing a numeric value to flat().
-   
-   + .flatMap() works similarly to .map(), it passes in each element and returns an array of elements altered by a provided function. 
-   The difference is that if there are sub-arrays within the initial array, it will flatten these sub-arrays. 
-   This avoids having to do something like a.map(f).flat(1) // f being a hypothetical function
-   + 
+      > .flat() combines subarrays into the outermost array.
+      > When called with no arguments, it flattens 1 level of nesting. This can be increased by passing a numeric value to flat().
+      > .flatMap() works similarly to .map(), it passes in each element and returns an array of elements altered by a provided function. 
+      The difference is that if there are sub-arrays within the initial array, it will flatten these sub-arrays. 
+      This avoids having to do something like a.map(f).flat(1) // f being a hypothetical function
    
    - Adding arrays with array.concat()  
-   + concat() returns a new array that contains the elements of the original array, followed by the each of the arguments 
-   passed to concat. If any of the arguments are arrays, the the arg. array elements themselves are concatenated, not the 
-   array itself. 
-   + nested arrays within arg. arrays are not flattened, just the first array passed in. 
-   + concat() produces a new array copy. This can be expensive, so there are sometimes better methods. 
+      > concat() returns a new array that contains the elements of the original array, followed by the each of the arguments 
+      passed to concat. If any of the arguments are arrays, the the arg. array elements themselves are concatenated, not the 
+      array itself. 
+      > nested arrays within arg. arrays are not flattened, just the first array passed in. 
+      > concat() produces a new array copy. This can be expensive, so there are sometimes better methods. 
    
    - Stacks and Queues with array.push(), array.pop(), array.shift(), and array.unshift()
-   + .push() and .pop() allow you to work with arrays as if they were the data structures Queue and Stack. 
-   + push() appends to the end of an array. Does not flatten array arguments. 
+      > .push() and .pop() allow you to work with arrays as if they were the data structures Queue and Stack. 
+      > push() appends to the end of an array. Does not flatten array arguments. 
       > the ... spread operator can be used to explicitly flatten any array arguments
-   + pop() removes the last element of an array and returns its value, and decrements the array length value. 
-   + Both methods modify the array in place, meaning the original array is altered.  
+      > pop() removes the last element of an array and returns its value, and decrements the array length value. 
+      > Both methods modify the array in place, meaning the original array is altered.  
    
    + .shift() and .unshift() are similar to push() and pop() but alter the first element in the array. 
       > unshift() can pass multiple arguments at once in a comma delimited list, and they are added all at once rather than 
@@ -1909,8 +1908,9 @@ Expressions and Operators ch. 4
       > Can insert and remove elements at the same time, or one or the other. 
       > first arg is where splice() is to begin (index)
       > second arg is the amount of elements that are to be removed. If omitted, then all elements from start to end are removed.
-      > returns an array of the deleted elements, or an empty array if no elements were deleted. 
       > every argument after the first two will specify what is being inserted into the array. They are inserted from first to last. 
+      This is a convenient place for the ... spread operator to pass in a list of elements. 
+      > returns an array of the deleted elements, or an empty array if no elements were deleted. 
       > arrays are inserted whole, without flattening of any kind. 
     example: 
       let a = [1,2,3,4,5,6,7,8];
@@ -2047,9 +2047,11 @@ Expressions and Operators ch. 4
    - Array-Like objects
    + arrays are just specialized objects that have certain features. 
       > length property that is automatically updated. 
-      > setting length value to a smaller value truncates the array. 
-      > arrays inherit useful methods from Array.prototype
-      > Array.isArray() returns true for arrays
+      > setting length value to a smaller value truncates the array. If there are elements in the truncated range they are deleted from the array.
+      > arrays inherit useful methods from Array.prototype, these are builtins typically
+      > Array.isArray() returns true for arrays, but not for TypedArrays or array-like objects
+      > Many JS builtin array methods are generic enough to work with array-likes, but they must be called with 
+      Function.call methods. 
    + Array-Likes occur occasionally in practice, builtin JS methods don't work on them but the usual algorithms are still applicable. 
    + A number of methods for working with HTML documents return array like objects
       > document.querySelectorAll()
@@ -2067,5 +2069,317 @@ Expressions and Operators ch. 4
       for (let j = 0; j < a.length; ++j) {
          total += a[j];
       }
+   example: testing for array-likeness
+   function isArrayLike(o) {
+      if (o &&                             // o is not nullish
+          typeof o === "object" &&         // o is an object 
+          Number.isFinite(o.length) &&     // o.length is a finite number
+          o.length >= 0 &&                 // o.length is non-negative
+          Number.isInteger(o.length) &&    // o.length is an integer
+          o.length < 4294967295) {         // o.length < 2^32 - 1
+          return true;                     // then o is array like
+      } else {
+          return false;                    // otherwise it is not array-like
+      }
+   } 
+   example: Function.call methods
+      let a = { "0":"a", "1":"b", "2":"c", length: 3 };  // array-like obj
+      Array.prototype.join.call(a, "+")                  // "a+b+c"
+      Array.prototype.map.call(a, x => x.toUpperCase())  // ["A", "B", "C"]
+      Array.prototype.slice.call(a, 0)                   // ["a", "b", "c"]; a true array copy
+      Array.from(a)                                      // ["a", "b", "c"]; easier array copy (new)
    
+   - Strings as Arrays ch. 7.10
+   + JS strings behave like read-only arrays of UTF-16 Unicode characters. 
+      > this means you can use square bracket notation rather than charAt() method to access individual characters
+      > typeof will return string, not array
+      > isArray() will return false on strings
+      > because strings are array-like, it is possible to call generic array methods on them with Function.call syntax
+      > because strings are immutable (read-only), any method that will mutate the array will fail silently with no error thrown. 
+   example: 
+      let s = "test";
+      s.charAt(0)    // "t"
+      s[1]           // "e"
+      Array.prototype.join.call("Javascript", " ") // "J a v a s c r i p t"
 
+- Functions ch. 8
+   + used in almost all programming languages. AKA subroutines or procedures.
+   + functions are executed or "invoked"
+   + JS functions are parameterized, meaning they take a list of identifiers that work as local variables within that functions scope
+   + Often there is a value "returned" by the executing function. This becomes the value of the function-invocation expression. 
+   + an "invocation-context" is what .this value represents.
+   + functions in an object are known as methods, they are invoked on or through the object, and the object itself is the invocation context
+   of that method. 
+   + Functions designed to initialize a newly created object are called constructors. (ch. 6.2, 9)
+   + In JS functions are objects, meaning they can possess properties and have their own methods (?).
+   + JS function definitions can be nested within other functions, and they have access to variables that are in scope where they are defined. 
+   This means that JS functions are considered closures, which is a powerful feature according to the text 
+
+   - Defining Functions ch. 8.1
+      > can be defined with the function keyword 
+      > using shorthand => arrow syntax
+      > in object literals and classes, there is function shorthand syntax that sets a property to a function (ch. 6.10.5)
+      > get and set keywords in objects are also a form of function syntax (methods) (ch. 6.10.6)
+      > functions can also be declared wusing the Function() constructor (ch. 8.7.7)
+      > function* defines a generator function (ch. 12), and async function defines asynchronous functions (ch. 13)
+     
+   - Function declarations ch. 8.1.1
+      > function keyword followed by these components
+      1. identifier or name, the function object is assigned to this name
+      2. pair of parenthesis around a comma separated list of of zero or more values. These are parameter identifiers.
+      3. a pair of curly braces with zero or more javascript statements inside, the body of the function. 
+      > function definitions are "hoisted" to the top of the enclosing script, function, or block so that code invoked before the 
+      function definition will still operate. 
+      All functions are defined before any function executes in the given block. 
+      > return will stop the function from executing and return the value of its expression. If no return is supplied, 
+      the value of the function expression is undefined. 
+      > prior to ES6, it was not technically legal to define functions in the body of loops, conditionals, or other blocks. 
+      In strict mode ES6 an forward, function definitions are allowed within blocks. A function defined this way only exists within that block. 
+   
+   example: 
+   // print the name and value of each property in o. return undefined. 
+      function printProps(o) {
+         for (let p in o) {
+            console.log(`${p}: ${o[p]}\n`);
+         }
+      }
+      function distance(x1, y1, x2, y2) {
+            let dx = x2 - x1;
+            let dy = y2 - y1;
+            return Math.sqrt(dx*dx + dy*dy);
+      }   
+      
+      function factorial(x) {
+            if (x <= 1) return 1
+            return x * factorial(x-1);
+      }
+   
+   - Function Expressions ch. 8.1.2
+      > function expressions resemble function declarations, but they appear in the context of a larger expression and the name is optional. 
+      > a func declaration will explicitly assign the value of a func to a variable, while a func expression leaves that up the the implementer. 
+      > generally good practice to use const for func expressions so they aren't overwritten later. 
+      > func expressions are not hoisted as func declarations are. They cannot be executed without being assigned to an identifier first. 
+      
+   example: 
+      const square = function(x) {return x*x};
+      const f = function fact(x) {if (x <= 1) return 1; else return x*fact(x-1); };
+      [3,2,1].sort(function(a,b) {return a-b}); // func. expressions can be passed as args to other functions, here as a comparator func
+      let tensquared = (function(x) {return x*x;}(10)); // func. expression here is defined and then immediately invoked.
+       
+
+   - Arrow Functions ch. 8.1.3 ES6
+      > function keyword and name are omitted, as these are func expressions rather than statements
+      > if the body of the arrow func is a single return statement, the curly braces can be omitted
+      > if the arrow func has exactly one parameter the parenthesis can be omitted
+      > if there are no args for the arrow func then empty parenthesis must be included
+      > don't add new lines inbetween the parameters and => arrow. 
+      > if the body of the arrow func is a single return statement but the expression to be returned is an object literal,
+      the the object must be enclosed by curly braces to avoid syntactic ambiguity. 
+      > this arrow func syntax is often used when passing one function to another, a common occurrence with methods like array.map() or array.filter()
+      > arrow func inherit the .this value from the environment in which they are defined, rather than
+      defining their own invocation context as functions defined in other ways do. 
+      > arrow functions do not inherit a prototype property, which means they cannot be used as a constructor function for new classes (ch. 9.2)      
+   examples: 
+      const sum = (x,y) => { return x + y };
+      const sum = (x,y) => x + y;
+      const polynomial = x => x*x + 2*x + 3;
+      const constantFunc = () => 42;
+      const f = x => { return {value: x}; };    // valid, f() returns an object
+      const g = x => ({ value: x });            // valid, returns object
+      const h = x => { value: x };              // technically valid but h() returns nothing here
+      const i = x => { v: x, w:x };             // invalid, throws syntax error
+      let filtered = [1,null,2,3].filter(x => x !== null);     // filtered == [1,2,3];
+      let squares = [1,2,3,4].map(x => x*x);                   // squares == [1,4,9,16];
+
+   - Nested Functions ch. 8.1.4
+      > in JS functions may be nested within other functions. 
+      > the value of this approach is that nested functions inherit parameter and variable scope from their outer functions. (ch. 8.6)
+   example: 
+   function hypotenuse(a, b) {
+      function square(x) { return x*x; }        // internal func
+      return Math.sqrt(square(a) + square(b));  // return of outer func
+   }
+
+   - Invoking Functions ch. 8.2
+   + JS code is not run when defined within the body of a function. It is only run once that function is invoked. 
+   + JS functions are invoked in five different ways: 
+      1. as functions
+      2. as methods
+      3. as constructors
+      4. indirectly through their call() and apply() methods
+      5. implicitly, via JS language features that do not appear like normal function invocations. 
+
+   - Function Invocation ch. 8.2.1
+      > functions are invoked as functions or methods with an invocation expression. 
+      > invocation expressions consist of a function expression that evaluates to a function object followed by an open parenthesis, 
+      a comma separated list of zero or more argument expressions, and a closing parenthesis. 
+      > if the function expr. is a property-access expr., it is a method invocation. 
+      > in an invocation, each arg. expr. is evaluated and the resulting values become args for the func. These values are assigned to
+      the parameters named in the func. definition. 
+      > In the body of the function, a param. reference evals to the corresponding argument value
+      > for normal function invocation, the return value becomes the value of the function expression.
+      > Conditional Invocation: ES2020
+      .? can be inserted after the function expression and before the open parenthesis in a function invocation
+      in order to invoke the function only if it is not nullish. 
+      > for function invocation in non-strict mode, the invocation context (.this value) is the global object. 
+      In strict mode, the invocation context is undefined. 
+      Functions defined using the arrow syntax behave differently, they always inherit the .this value that is in effect where they are defined. 
+      > when calling recursive functions, it is important to remember the call stack. Each time a function is invoked, it is pushed onto the stack. 
+      When it finishes running, it is popped off the stack. This stack adds to the memory overhead of a program. 
+   example:
+      printprops({x:1});                                            // the return values of these function invocations are assigned to variables
+      let total = distance(0,0,2,1) + distance(2,1,3,5);
+      let probability = factorial(5)/factorial(13);
+      f?.(x) == (f !== null && f !== undefined) ? f(x) : undefined; // these are both equivalent statements. 
+
+   - Method invocation ch. 8.2.2
+      > methods are just function that are stored as a property of some object. 
+      > Given function f and object o, a method m of o can be defined as: o.m = f;
+      > methods are invoked the same way as typical functions, but their invocation context is what differs. 
+      Property access expressions consist of two parts: an object reference, and a property name. 
+      In a method-invocation, the object becomes the invocation context, and the function body can refer to that object by using .this
+      > most methods use dot notation for invocation, but property access notation object[expression] also cause method invocation
+      > there is a subjective elegance to using method invocation syntax over typical functional syntax. Personally, both are clear to me. 
+      > it is common to chain methods together when they return objects with their own methods. 
+      see: http://martinfowler.com/dslCatalog/methodChaining.html
+      > if a nested function (that is not an arrow function) is invoked as a method, its .this value is the object it was invoked on. 
+      > if a nested function (that is not an arrow function) is invoked as a function, its .this value is either the global object or undefined
+      It is common to mistakenly assume a nested function within an object method will return that objects .this value. 
+      This is widely considered a flaw in the JS language. 
+      A workaround is to convert any nested functions in object methods to arrow functions, as they will inherit the this value. 
+      > you can also use the .bind(this) method to implicilty invoke a new function on a given object. (ch. 8.7.5)
+   example: 
+      o.m();
+      o.m(x,y);
+      let calculator = {
+         operand1: 1,
+         operand2: 1,
+         add() {
+            this.result = this.operand1 + this.operand2;
+         }
+      };
+      calculator.add();    // 1+1
+      calculator.result    // 2
+      doStepOne().then(doStepTwo).then(doStepThree).catch(handleErrors);      // object method chaining.
+      new Square().x(100).y(100).size(50).outline("red").fill("blue").draw();
+      let o {
+         m: function() {
+            let self = this;    
+            this === o            // true, this is the object o
+            f();
+            
+            function f() {        // a nested function
+               this === o         // false, this is global or undefined
+               self === o         // true, self is the outer this value
+            }
+         }
+      };
+      o.m();
+
+   - Constructor Invocation ch. 8.2.3
+      > if a function or method is preceded by the keyword new, it is a constructor invocation. (ch. 4.6, 6.2.2, 9)
+      > they are different from regular functions and methods in their handling of arguments, invocation context, and return value. 
+      > Arguments expressions are evaluated and passed to the function normally. It's not normal, but the parenthesis can be omitted 
+      when there are no arguments to pass to the constructor. 
+      > A constructor creates a new, empty object that inherits from the object specified by the prototype property of the constructor. 
+      > Constructors are intended to initialize objects. .this will refer to the newly created object. 
+      > Constructors typically do not use the return keyword, they implicitly return the new object. The object will have the values
+      initialized by the constructor expression. 
+      > If there is an explicit return value designated in the constructor that returns an object, that new object is the value of the 
+      constructor invocation expression. 
+      > If there is an explicit return value that has either no value or a primitive value, then the return value is ignored and the new 
+      object is the return value. 
+   example: 
+      o = new Object();
+      o = new Object;
+
+   - Indirect Invocation ch. 8.2.4
+      > JS functions are objects like most other things in JS. This means functions will have builtin methods. 
+      > function.call() and function.apply() invoke functions indirectly, and can be used to call a function on any object 
+      regardless of that function being a method to that object. (ch. 8.7.4) for details. 
+
+   - Implicit Function Invocation ch. 8.2.5
+      > There are various JS features that do not look like function invocations but cause a function to be invoked. 
+      > naturally these can be more difficult to debug with a simple visual review of the code. 
+      > these implicit invocations are:
+         1. If an object has getters/setters. Querying or setting the value of its properties may invoke those methods. (ch. 6.10.6)
+         2. When an object is used in a string context, its toString() method may be called. This applies when objects are used in a numeric context. 
+         3. When a program loops over the elements of an iterable object there are a number of method calls that occur. (ch. 12)
+         4. a tagged template literal is a function invocation in disguise. (ch. 14.5)
+         5. Proxy objects (ch. 14.7) have their behavior completely controlled by functions. Basically any operation involving these will invoke. 
+
+   - Function Arguments and Parameters ch. 8.3
+   + There is no tracking of types or number of arguments by default for JS functions. 
+   + this section goes into testing arguments to ensure the proper values are passed in. 
+   
+   - Optional Parameters and Defaults ch. 8.3.1
+      > When a function is invoked with fewer arguments than declared parameters, the additional parameters are set to a default value 
+      which is normally undefined. 
+      > it's important to place optional arguments at the end of a parameter list. Otherwise they will need to be made undefined when called to skip.
+      > In ES6 and forward the parameters of functions can be initialized in the function definition. Just use typical initialization. 
+      > Parameter default expressions are evaluated each time the function is invoked. 
+      > Parameter defaults are usually constants but this is not a rule. They can be a variable or arbitrary function expression. 
+   example:
+      function getPropertyNames(o, a) {
+         if (a === undefined) a = [];
+         for (let property in o) a.push(property);
+         return a;
+      }
+      let o = {x:1}, p = {y:2, z:3};   // two objects to test
+      let a = getPropertyNames(o);     // ["x"] get o's properties in a new array
+      getPropertyNames(p, a);          // ["x", "y", "z"]; a and o properties have been added to the return value
+      // alternative to the if statement in the function 
+      a = a || []; // meaning the equivalent conditional but more succinct.
+      const rectangle = (width, height=width*2) => ({width, height});
+      rectangle(1);  // {width: 1, height: 2};
+
+   - Rest Parameters and Variable-Length Argument Lists ch. 8.3.2 ES6
+      > Parameter default expressions enable functions to be invoked with fewer arguments than parameters. 
+      > Rest parameters enable the opposite: arbitrarily more arguments than parameters. 
+      > rest parameter is preceded by ... and it must be the last parameter in the function declaration. 
+      > the first args are normal parameters, and then the remaining (rest) are passed into an array that becomes the value of the rest parameter. 
+      > within the body of the function, the rest parameter is an array. The array may be empty but will never be undefined by default. 
+      Because of this, the rest parameter never needs a default value. 
+      > because of its syntactic context the ...rest parameter is not the same as the ...spread parameter (ch. 8.3.4)
+
+   example:
+      function max(first=-Infinity, ...rest) {
+         let maxValue = first;
+         for (let n of rest) {
+            if (n > maxValue) {
+               maxValue = n;
+            }
+         }
+         return maxValue;
+      }
+   
+   - The Arguments Object ch. 8.3.3
+      > Before ES6, varargs functions were written using the Arguments object. 
+      > Within the body of any function, the identifier arguments refers to the Arguments object for that invocation. 
+      > Arguments objects are array-like. which allows argument values passed to the function to be retrieved by number, rather than name. 
+      > This may be applicable to Extendscript. 
+      > This is hard to optimize, because it's old and not quite deprecated. Mostly old code using Arguments can be rewritten using ...rest. 
+      > In strict mode, arguments is treated as a reserved word, meaning no other identifiers can use it. 
+   example: 
+      function max(x) {
+         let maxValue = -Infinity;
+         for (let i = 0; i < arguments.length; ++i) {
+            if (arguments[i] > maxValue) maxValue = arguments[i];
+         }
+      return maxValue;
+      }
+   
+   - The Spread Operator for Function Calls ch. 8.3.4
+      > ... is used to unpack, spread out the elements of an array or other iterable object like strings. 
+      > it can also be used in function invocations. 
+      > not a true operator in the sense it alters a value, it's just a language feature. 
+      > The rest and spread operators are often used in tandem.
+   example: 
+      let numbers = [5,2,10,-1,9,100,1];
+      Math.min(...numbers)     // returns -1
+     
+   function timed(f) {
+      return function(...args) {
+         console.log(`Entering function ${f.name}`)
+      }
+   }
