@@ -1,0 +1,71 @@
+#!/bin/bash
+
+# SCRIPT: Script_Template
+# AUTHOR: Camden Bailey
+# DATE: 09-12-2023
+# REV: 1.1.A
+#
+# PLATFORM: UNIX Based, zsh
+#
+# PURPOSE: Remove the description in file names -- convention is item#[-_]description-etc 
+#
+# REV LIST:
+#	DATE: DATE_of_REVISION
+#	BY:AUTHOR_of_MODIFICATION
+#	MODIFICATION: Describe what was modified
+#
+#
+# set -n #Uncomment to check syntax, without execution
+# 	 #remember to re-comment or the script won't execute
+# set -x #Uncomment to debug this shell script
+#
+########################################################################
+# 		   DEFINE FILES AND VARIABLES HERE
+########################################################################
+dispenserTemplate=/Volumes/Graphics/Select\ III/008-Website/002-Kinein/assets/diagrams/caseDesc-dispenser.png
+blisterTemplate=/Volumes/Graphics/Select\ III/008-Website/002-Kinein/assets/diagrams/caseDesc-blister.png
+genericTemplate=/Volumes/Graphics/Select\ III/008-Website/002-Kinein/assets/diagrams/caseDesc-generic.png
+########################################################################
+#		       DEFINE FUNCTIONS HERE	
+########################################################################
+
+
+########################################################################
+#			 BEGINNING OF MAIN
+########################################################################
+
+for file in *; do
+	# this checks the original photo and stores the new name containing only itemNumber_1.png or itemNumber_2.png for sleeves in
+	# new_name
+	if [[ ! -d "$file" && "$file" =~ [Ss]leeve ]]; then
+		new_name=$(echo "$file" | awk -F"[-_]" '{print $1 "_2.png"}')
+	elif [[ ! -d "$file" ]]; then
+		new_name=$(echo "$file" | awk -F"[-_]" '{print $1 "_1.png"}')
+	fi
+
+	# This does the renaming based on new_name variable
+	if [ "$new_name" == "$file" ]; then
+		mv "$file" "${new_name}_copy"
+	elif [ "$new_name" != "$file" ]; then
+		mv "$file" "$new_name"
+	fi
+done
+
+# this loop copies a template image and renames it according to the pack type, adds a suffix for website image library. 
+
+if [[ -e ${dispenserTemplate} && -e ${blisterTemplate} && -e ${genericTemplate} ]]; then 
+	for file in *_1.png; do
+		if [[ ! -d "$file" && ("$file" =~ ^01 || "$file" =~ ^02) ]]; then
+		# This bit copies the template, removes the current suffix, and replaces the removed piece with _3.png
+		cp /Volumes/Graphics/Select\ III/008-Website/002-Kinein/assets/diagrams/caseDesc-dispenser.png "${file%_1.png}_3.png";
+	elif [[ ! -d "$file" && ("$file" =~ ^11 || "$file" =~ ^12 || "$file" =~ ^21 || "$file" =~ ^22) ]]; then
+		cp /Volumes/Graphics/Select\ III/008-Website/002-Kinein/assets/diagrams/caseDesc-blister.png "${file%_1.png}_3.png";
+	elif [[ ! -d "$file" ]]; then 
+		cp /Volumes/Graphics/Select\ III/008-Website/002-Kinein/assets/diagrams/caseDesc-generic.png "${file%_1.png}_3.png";
+		fi
+	done
+else 
+	echo "Templates are missing. They are normally in /Select\ III/008-Website/002-Kinein/assets/diagrams/"
+fi
+
+

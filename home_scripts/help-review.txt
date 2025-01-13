@@ -1,0 +1,54 @@
+This is a review of Bash and Zsh syntax, useful Unix commands, and references to practical applications of data structures. 
+
+-- Commands
+ls - list directory contents
+cd - move through directory hierarchy 
+mkdir - make a new directory
+rmdir - remove a directory
+rm - remove files, -R for all files, handle with care
+open - open a file, directory, program, etc
+find - a powerful way to search and interact with files
+grep - a very powerful way to search for files, contents of files, regex compatible
+sed - a line editor and filter program, regex compatible, quite handy
+awk - a programming language for text, powerful and arcane
+cp - copy a file at one point in file hierarchy to another point in the file hierarchy
+rsync - copy many files to a directory, offers additional utility such as ignoring duplicates
+cron - set commands, programs, scripts, etc to run on a schedule while the machine is active
+crontab - view the existing cron commands in a table
+head - view the top section of a file or output, default 10 lines
+tail - view the bottom section of a file or output, default 10 lines
+top - view many pieces of information about OS, Machine, current processes, imagine a text based Windows Task Manager but OG 
+btop - an improved top with graphical overlay using ncurses lib
+ps - view processes specifically, defaults to current commands running in the shell
+kill - kill a process via multiple targets and signals
+killall - kill multiple processes via multiple targets and signals 
+
+mount 
+unmount
+
+magick
+magick convert
+convert
+
+brew 
++ search
++ list
++ install
++ uninstall
+
+npm
++ list 
++ list -g
+
+git - complicated
+
+-- Databases
+sqlite -- for c and c++ probably, very flexible
+sqlite3 -- for many languages, bash/zsh compatible 
++ uses standardized sql syntax
++ .syntax for commands
+	.mode
+	.exit
+	.import
+	.output
+	.help -- important, rest of commands here

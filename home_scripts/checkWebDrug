@@ -1,0 +1,128 @@
+#!/bin/zsh
+
+# SCRIPT: checkWebDrug
+# AUTHOR: Camden Bailey
+# DATE: 04-05-2024
+# REV: 1.1.A
+#
+# PLATFORM: UNIX Based, zsh
+#
+# PURPOSE: Learning how to use curl, checking websites for updates, checking on packaging branding automatically
+# Goals: 
+# - Make an archive of MFG webpages containing branding, notify on change. 
+# - Make an archive of competitors branding, compare to MFG, notify on change. 
+# - Make an archive of our own branding, notify on changes. 
+#
+#
+# REV LIST:
+#	DATE: DATE_of_REVISION
+#	BY:AUTHOR_of_MODIFICATION
+#	MODIFICATION: Describe what was modified
+#
+#
+# set -n #Uncomment to check syntax, without execution
+# 	 #remember to re-comment or the script won't execute
+# set -x #Uncomment to debug this shell script
+#
+########################################################################
+# 		   DEFINE FILES AND VARIABLES HERE
+########################################################################
+
+typeset -A mfgUrls
+
+mfgUrls[Bayer-Claritin]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=660ac9df-f1b1-4c89-94dd-9fae0a013f3c"
+mfgUrls[Bayer-Afrin]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0f5ec576-f788-40aa-9088-0dd672e3cc7c"
+mfgUrls[Colgate_Palmolive-Colgate_Regular]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c46add36-1411-589c-187e-efc3932073cb"
+mfgUrls[Procter_and_Gamble-Crest_Regular]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0813171e-bda5-b004-e063-6394a90ad364"
+mfgUrls[Procter_and_Gamble-Old_Spice_Pure_Sport]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b78d6b0d-da07-0ef7-e053-2a95a90abf5f"
+mfgUrls[Johnson_and_Johnson-Visine]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b78d6b0d-da07-0ef7-e053-2a95a90abf5f"
+mfgUrls[Johnson_and_Johnson-Tylenol_PM]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ce58105b-f010-47af-8f31-6dd4ce4e9cba"
+mfgUrls[Bayer-Alka_Seltzer_Plus_Nighttime_PowerFastFizz]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fc754dff-cecd-fc6b-e053-6394a90ab371"
+mfgUrls[Bayer-Alka_Seltzer_Plus_Daytime]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dd7da15a-4e0b-405f-e053-2995a90a06d2"
+mfgUrls[Lil_Drug-Dramamine]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cee22d00-e8a1-d735-e053-2995a90aec04"
+mfgUrls[Johnson_and_Johnson-Benadryl]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=702f9786-7ce9-43e4-921d-e1db09612127"
+mfgUrls[Johnson_and_Johnson-Tylenol_Cold]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=efb3bfc5-72e9-4221-8d03-e48f3d8e3821"
+mfgUrls[Johnson_and_Johnson-Tylenol_Sinus]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7a60184f-91a9-4b85-b243-871deca63450"
+mfgUrls[Johnson_and_Johnson-Pepcid_Complete]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e874118f-b4fe-4c80-aece-99ea20e7e805"
+mfgUrls[Johnson_and_Johnson-Motrin_IB]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d21129f8-4d96-4e36-bc39-a534306dd77e"
+mfgUrls[Johnson_and_Johnson-Tylenol_Extra_Strength]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59773893-09a8-47a2-943a-e9ea9da4458a"
+mfgUrls[Lil_Drug-Zantac_360]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59773893-09a8-47a2-943a-e9ea9da4458a"
+mfgUrls[Chattem-Allegra]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=81c1dcbb-28b3-4ad5-9f3d-9ccc16ddd173"
+mfgUrls[Procter_and_Gamble-Nyquil]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=724d0889-5ba5-3125-e053-2a91aa0a92c1"
+mfgUrls[Procter_and_Gamble-Dayquil]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=724f2833-34bd-6a9e-e053-2991aa0a073d"
+mfgUrls[Procter_and_Gamble-Pepto_Bismol_Chewable]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=06fce961-5e57-b640-e063-6394a90a9e8a"
+mfgUrls[Haleon_US_Holdings-Theraflu_Severe_Cold_Nighttime]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4daca846-8511-4303-9e6c-9469f7f260ba"
+mfgUrls[Haleon_US_Holdings-Theraflu_Severe_Cold_Daytime]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ebbb2f4b-ba84-40ad-96f6-60225119a33b"
+mfgUrls[Haleon_US_Holdings-Advil_Dual_Action]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f5ea858e-76d9-4777-b3dc-5d614f66d485"
+mfgUrls[RB_Health_Mexico-Picot]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=151b9bc9-1a6e-4401-ae58-4b4210ab4505"
+mfgUrls[Haleon_US_Holdings-Excedrin_Migraine_Relief]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dd85f3a7-f4d2-4ea0-a7b6-18ebc0e993d8"
+mfgUrls[Haleon_US_Holdings-Excedrin_Extra_Strength]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=61802b27-c9ec-4386-9d44-45e8b1e558b7"
+mfgUrls[Bayer-Midol]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ce9e6acb-a38b-4c9b-a7e8-3e1c2a49a324"
+mfgUrls[Bayer-Aleve]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a3745850-3e32-4884-b315-161bcb9996ed"
+mfgUrls[Bayer-Alka_Seltzer]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5be36a7f-7d1f-468d-9c29-92c8cd3ef1bc"
+mfgUrls[Lil_Drug-Bayer_Aspirin]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7f5d9ebe-8119-49a2-9380-eca18a5e5e85"
+mfgUrls[Haleon_US_Holdings-Advil_Allergy_and_Congestion]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a6cc97d8-252a-4527-a470-6d9e356342fd"
+mfgUrls[Haleon_US_Holdings-Advil_Regular]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1a665e64-9f30-be37-4a83-38789f1f1e89"
+mfgUrls[Haleon_US_Holdings-Advil_Liquigel]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1f01c10a-9434-91a4-2ee4-352315a6b610"
+mfgUrls[Haleon_US_Holdings-Advil_PM]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=658fc201-47c9-6a6d-8af9-6208298d43b4"
+mfgUrls[Haleon_US_Holdings-Advil_Sinus_Congestion_Pain]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b1e29c19-fe03-4d2b-b966-0adf4eb4b4cf"
+mfgUrls[RB_Health_US-Mucinex_DM]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=70987d06-d206-445f-bd0d-5e1345b8465c"
+mfgUrls[Johnson_and_Johnson-Zyrtec_Allergy]="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6685a843-9dbe-4f9e-b75b-fe0e258f4155"
+
+
+########################################################################
+#		       DEFINE FUNCTIONS HERE	
+########################################################################
+
+
+downloadMfgUrl () {
+	mfgFileDir="/Users/selectgraphics/Desktop/997-Testing/webCrawla"
+
+	for name in "${(@k)mfgUrls}"; do
+		url=${mfgUrls[$name]}
+		filePath="${mfgFileDir}/${name}_page.html"
+
+		if [[ -e $filePath ]]; then 
+			echo "$name ($url) exists in archive, backing up and fetching latest page."
+			mv "$filePath" "${mfgFileDir}/${name}_lastPage.html"
+			curl -s "$url" -o "${name}_page.html"
+		else 
+			echo "Fetching content from: $name ($url)"
+			curl -s "$url" -o "${name}_page.html"	
+		fi
+	done
+}
+
+
+compareMfgArchive () {
+	mfgFileDir="/Users/selectgraphics/Desktop/997-Testing/webCrawla"
+	
+	for name in "${(@k)mfgUrls}"; do
+                url=${mfgUrls[$name]}
+                filePath="${mfgFileDir}/${name}_page.html"
+		backupPath="${mfgFileDir}/${name}_lastPage.html"
+		
+		if [[ -e $filePath && -e $backupPath ]]; then
+			echo "$name ($url) Exists and has backup, comparing"
+			diff -iw "$filePath" "$backupPath" >> compareLog.txt
+		elif [[ ! -e $filePath ]]; then
+			echo "$name does not exist."
+		elif [[ ! -e $backupPath ]]; then
+			echo "$backupPath does not exist."
+		fi
+	done
+
+	# iterate over webpages in archive
+	# compare to most recent page pulled from dailyMed
+	# email changes to graphics 
+}
+
+
+
+########################################################################
+#			 BEGINNING OF MAIN
+########################################################################
+
+downloadMfgUrl
+compareMfgArchive
+

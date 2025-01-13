@@ -1,0 +1,139 @@
+#!/bin/bash
+
+# SCRIPT: Script_Template
+# AUTHOR: Camden Bailey
+# DATE: 07-03-2023
+# REV: 1.1.A
+#
+# PLATFORM: UNIX Based, zsh
+#
+# PURPOSE: The goal is to improve upon the previous prodS script. We'll store each line from each field into it's own array.
+# Then we will be able to re-arrange the information after it has been modified in some way.  
+# 
+#
+# REV LIST:
+#	DATE: 07-19-2023
+#	BY:Camden Bailey
+#	MODIFICATION: Changing Formatting Function
+#
+#
+# set -n #Uncomment to check syntax, without execution
+# 	 #remember to re-comment or the script won't execute
+# set -x #Uncomment to debug this shell script
+#
+########################################################################
+# 		   DEFINE FILES AND VARIABLES HERE
+########################################################################
+
+echo "Please Enter Item Numbers Separated by a Space"
+read productNum
+productNum=$(echo "$productNum" | sed -E $'s/[ \t]+/\\|/g') # this is to turn user input into something readable for bash
+prodLog="prodLog.txt"
+field1array=()
+field2array=()
+field3array=()
+field4array=()
+field5array=()
+field6array=()
+field7array=()
+
+distancearray=()
+differencearrayf1=()
+formattedf1array=()
+
+########################################################################
+#		       DEFINE FUNCTIONS HERE	
+########################################################################
+# This is the function that searches through the table data and prints off specific columns. There are 7 columns.
+# Order of columns is: Description, Item Number, EachUPC, SleeveUPC, CaseUPC, PackType, Number of Eaches in Sleeve
+
+searchProdId () {
+
+	egrep --color=none "\b($productNum)\b" /Volumes/Graphics/Select\ III/010-ProductData/AllProducts/AllProdSpecs.csv | sed -e "s/\*\* SPECIAL COUNT \*\*//g" -e 's/\*\* COMPANY BOXES \*\*//g' -e 's/^ \+//g' -e 's/$ \+//g' | awk -F ',' '{print $6 "," $1 "," $14 "," $15 "," $16 "," $7 "," $8 }'
+
+}
+
+sendFieldsToArray () {
+	searchResult=$(searchProdId)
+	
+	while IFS=, read -r f1 f2 f3 f4 f5 f6 f7; do
+	field1array+=("$f1")
+	field2array+=("$f2")
+	field3array+=("$f3")
+	field4array+=("$f4")
+	field5array+=("$f5")
+	field6array+=("$f6")
+	field7array+=("$f7")
+	done <<< "$searchResult"
+
+	#echo "${field1array[@]}"
+	#echo "${field2array[@]}"
+
+}
+
+formatFirstField () {
+	searchResult=$(searchProdId)
+	longestString=$( echo "$searchResult" | awk -F, '{print length($1)}' | sort -n | tail -n 1) #get the longest string
+	listOfLengths=$( echo "$searchResult" | awk -F, '{print length($1)}' )
+	field1=$( echo "$searchResult" | awk -F, '{print $1}' )
+	index=0
+
+
+# here we take the length of each string in field 1 and put it into the distancearray
+	distancearray+=($listOfLengths)
+# here we do the math to find the difference between length of each string and the longest given string
+	for num in "${distancearray[@]}"; do
+		distance=$[$longestString - $num + 1]
+		differencearrayf1+=($distance)
+	done
+
+# here we take field 1 and add the corresponding difference as spaces to each string, using printf
+	newField1=$(
+	while IFS= read -r line; do
+	printf '%s%*s\n' "$line" "${differencearrayf1[$index]}" ','
+	((index++))
+	done <<< "$field1"
+	)	
+
+# here we clear the field1array to prep it for the reformatted information
+	unset field1array
+
+# here we send the changed information back into the field1array, one string at a time
+	while IFS= read -r f1; do
+		
+		field1array+=("$f1")
+	done <<< "$newField1"
+}
+
+makeRowsFromArrays () {
+# here we are appending each index of each array to distinct lines
+
+
+	for ((i=0; i<${#field1array[@]}; i++)); do
+		
+		echo -e "${field1array[$i]}""${field2array[$i]}"",""${field3array[$i]}"",""${field4array[$i]}"",""${field5array[$i]}"",""${field6array[$i]}"",""${field7array[$i]}"
+	done
+
+}
+
+# make the text log based on input from user and results of program 
+prodLogCheck () {
+	if [[ -f "$prodLog" ]]
+	then
+		echo "$prodLog already exists, appending to current log."
+		makeRowsFromArrays >> $prodLog
+	else
+		echo "$prodLog does not exist, making new log."
+		makeRowsFromArrays >> $prodLog
+	fi
+}
+
+########################################################################
+#			 BEGINNING OF MAIN
+########################################################################
+
+
+sendFieldsToArray
+formatFirstField
+makeRowsFromArrays
+prodLogCheck

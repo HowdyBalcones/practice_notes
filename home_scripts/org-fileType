@@ -1,0 +1,54 @@
+#!/bin/bash
+
+# SCRIPT: Script_Template
+# AUTHOR: Camden Bailey
+# DATE: 07-03-2023
+# REV: 1.1.A
+#
+# PLATFORM: UNIX Based, zsh
+#
+# PURPOSE: This utility places each file inside a directory into a folder named after each unique file extension .
+#
+# REV LIST:
+#	DATE: DATE_of_REVISION
+#	BY:AUTHOR_of_MODIFICATION
+#	MODIFICATION: Describe what was modified
+#
+#
+# set -n #Uncomment to check syntax, without execution
+# 	 #remember to re-comment or the script won't execute
+# set -x #Uncomment to debug this shell script
+#
+########################################################################
+# 		   DEFINE FILES AND VARIABLES HERE
+########################################################################
+
+# notes
+# for each file in given directory, do
+# - check for every unique file extension
+# - create directories for each file extension
+# - move files into matching directories
+# done
+
+# unique list of file extensions
+uniqueExtensions=$(ls | grep '\..*' | awk -F. '/\./ {print $NF}' | sort -u | tr '\n' ' ' ) 
+
+
+
+########################################################################
+#		       DEFINE FUNCTIONS HERE	
+########################################################################
+
+directoryFromExtension() {
+	for ext in $uniqueExtensions; do
+		[ ! -d "$ext" ] && mkdir "$ext"
+		mv *."$ext" "$ext"/
+	done
+}
+
+########################################################################
+#			 BEGINNING OF MAIN
+########################################################################
+
+directoryFromExtension
+
