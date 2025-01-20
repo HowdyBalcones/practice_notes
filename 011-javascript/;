@@ -1,0 +1,20 @@
+let test_obj = {
+      "name": "Test Object",
+      "response": "Hello World",
+      "is_test": true,
+      "is_real": false,
+      "object_array": ["a", "b", "c", "d", "e"],
+      "object_object": {"name": "interior_test_object", "big_justice":"boom"},
+      1: "integer_property",
+      2: "second_integer_property",
+      "final": "last property"
+};
+
+function object_tests(object) {
+   const prototype_test = Object.create(test_obj);
+   console.log(object);
+   console.log(object.hasOwnProperty(1));
+   console.log(prototype_test);
+}
+
+object_tests(test_obj);

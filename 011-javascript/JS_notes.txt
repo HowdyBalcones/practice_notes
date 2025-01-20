@@ -1231,6 +1231,7 @@ Expressions and Operators ch. 4
    - Querying and Setting Properties
    + to get the value of a property, use dot (.) or square bracket ([]) operators described in ch. 4.4
    + dot operator must be a simple identifier, square brackets can be an expression that evaluates to a property name.
+   + when using dot operator, you can't use an integer value. must rely on expression notation.
    examples: 
    let author = book.author;
    let name = author.surname;
@@ -1292,6 +1293,7 @@ Expressions and Operators ch. 4
    } 
    
    example: using conditional property acces (ch. 4.10.1)
+   + this is also called conditional chaining
    let surname = book?.author?.surname;
    + generally property assignment fails under these conditions
    1. the given property is read only
