@@ -2280,6 +2280,7 @@ Expressions and Operators ch. 4
 
    - Constructor Invocation ch. 8.2.3
       > if a function or method is preceded by the keyword new, it is a constructor invocation. (ch. 4.6, 6.2.2, 9)
+         - the new keyword creates a new empty object, sets the objects prototype chain, binds .this to the object, implicitly returns that object
       > they are different from regular functions and methods in their handling of arguments, invocation context, and return value. 
       > Arguments expressions are evaluated and passed to the function normally. It's not normal, but the parenthesis can be omitted 
       when there are no arguments to pass to the constructor. 
