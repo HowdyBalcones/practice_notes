@@ -2,6 +2,7 @@
 const func_expression = function() { console.log("This is a function expression") };
 const arrow_func_example = () => console.log("hello world");
 const arrow_func_example2 = (x,y) => console.log(`${x} + ${y} = ${x+y}`);
+const test_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 function traditional_func () {
    console.log("The good old days");
@@ -90,6 +91,13 @@ function using_rest_parameter(x,y, ...rest) {
    console.log(product, rest.length);
 }
 
+function using_spread_operator(array) {
+   console.log(...array);
+   console.log(`${Math.min(...array)} & ${Math.max(...array)}`);
+
+
+}
+
 arrow_func_example();
 arrow_func_example2(20, 10);
 traditional_func();
@@ -104,3 +112,4 @@ func_expression();
 understanding_this_in_func.describe_hobbies(); // this will have some undefined properties logged, because we are demonstrating losing scope
 solution_func_scope_arrow_func.describe_hobbies();
 using_rest_parameter(2, 2, 10, 10, 10);
+using_spread_operator(test_array);

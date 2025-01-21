@@ -2384,5 +2384,90 @@ Expressions and Operators ch. 4
    function timed(f) {
       return function(...args) {
          console.log(`Entering function ${f.name}`)
-      }
+         let startTime = Date.now();
+         try {
+            return f(...args);
+         }
+         finally {
+            console.log(`Exiting ${f.name} after ${Date.now()-startTime}ms`);
+         }
+      };
    }
+
+   function benchmark(n) {
+      let sum = 0;
+      for (let i = 1; i <= n; ++i) sum += i;
+      return sum;
+   }
+
+   timed(benchmark)(1000000) // returns 5000050000; the sum of the numbers
+
+   - Destructuring Function Arguments into Parameters 8.3.5
+      > The initial phase of invoking functions with arguments is much like assigning values to identifiers (variables)
+      > Variable destructuring (3.10.3) can be leveraged here as a result.
+      > destructuring can also create defaults like in normal parameter assignment
+      > in languages like python, arguments can be assigned values through key=value pairs as in objects, this 
+      is not exactly possible in JS. The closest it has is destructuring an object argument into your function parameters. 
+
+   example: 
+   function vectorAdd(v1, v2) {
+      return [v1[0] + v2[0], v1[1] + v2[1]];
+   }
+   vectorAdd([1,2], [3,4]) // returns [4, 6]. The objects being passed in are simple vector points. 
+   
+   // simpler syntax
+   function vectorAddSimpler ([x1, y1], [x2, y2]) {
+      return [x1 + x2, y1 + y2];
+   }
+   vectorAddSimpler([1,2],[3,4]); // returns [4,6], the same as above
+
+   function vectorMultiply({x, y}, scalar) {
+      return { x: x*scalar, y: y*scalar };
+   }
+   vectorMultiply({x: 1, y:2}, 2); // returns {x:2, y:4};
+  
+   // things can become tricky if there are multiple objects to destructure however
+   function vectorAddComplexer(
+      {x: x1, y: y1},
+      {x: x2, y: y2}
+   )
+   {
+      return { x: x1 + x2, y: y1 + y2 };
+   } 
+   vectorAddComplexer({x: 1, y: 2}, {x: 3, y: 4}) // returns {x:4, y:6};
+   
+   // defaults can also be set using destructuring of parameters
+   
+   // object argument destructuring in parameters. 
+   function arrayCopy ({from, to=from, n=from.length, fromIndex=0, toIndex=0}) {
+      let valuesToCopy = from.slice(fromIndex, fromIndex + n);
+      to.splice(toIndex, 0, ...valuesToCopy);
+      return to
+   }
+   let a - [1,2,3,4,5], b = [9,8,7,6,5];
+   arrayCopy({from: a, n: 3, to: b, toIndex: 4}) // returns [9,8,7,6,1,2,3,5]
+
+   // you can also destructure objects using the rest parameter here
+   function vectorMultiply({x, y, z=0, ...props}, scalar) {
+      return { x: x*scalar, y: y*scalar, z: z*scalar, ...props };
+   }
+   vectorMultiply({x: 1, y: 2, w: -1}, 2) // returns {x: 2, y: 3, z: 0, w: -1} 
+   // note that z is defaulted and w is just copied into the returned object, as the variable is not altered.
+   
+   - Argument Types ch. 8.3.6
+      > there is no type checking in JS, so you are expected to document arguments for functions and use sensible naming schemes. 
+      > it is also worth checking the types being passed into your functions so debugging is easier down the road.
+      > there is also TypeScript (ch. 17.8) which can be layered onto vanilla JS
+      > this is a much larger conversation, especially outside of JS. Consider investigating custom error handling methods and testing 
+      as a side project in the implementation notes. 
+    
+   - Functions as Values 8.4
+      > The most important features of functions are that they can be defined and invoked.
+      > Functions are also considered values in JS, which might not seem impressive but in static languages that is not the case. 
+   example: 
+      function square(x) { return x*x }; // this creates a new function object and assigns it to the variable square.
+      let s = square;
+      square(4);
+      s(4);          // these will output the same, as both refer to the same function object. 
+   
+       
