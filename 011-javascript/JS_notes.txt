@@ -2460,6 +2460,7 @@ Expressions and Operators ch. 4
       > there is also TypeScript (ch. 17.8) which can be layered onto vanilla JS
       > this is a much larger conversation, especially outside of JS. Consider investigating custom error handling methods and testing 
       as a side project in the implementation notes. 
+      > functions can be assigned to object properties as methods
     
    - Functions as Values 8.4
       > The most important features of functions are that they can be defined and invoked.
@@ -2469,5 +2470,128 @@ Expressions and Operators ch. 4
       let s = square;
       square(4);
       s(4);          // these will output the same, as both refer to the same function object. 
+   // functions can be assigned to object properties 
+      let o = {square: function(x) { return x*x; }};
+      let y = o.square(16);
+   // this is bad practice below, but functions don't need names. This happens with generic inline functions often. 
+      let a = [x => x*x, 20];
+      a[0](a[1])     // here calling the function in index 0 on the value of index 1
+
+   // Functions as values is important to the JS language, a useful example is the Array.sort() method. sort() takes a function as an argument.  
+      
+      // define some simple functions
+      function add(x,y) { return x + y };
+      function subtract(x,y) { return x - y };
+      function multiply(x,y) { return x * y };
+      function divide(x,y) { return x / y };
+      // here is a function that takes a function and invokes it on two operands
+      function operate(operator, operand1, operand2) {
+         return operator(operand1, operand2);
+      }
+      let i = operate(add, operate(add, 2, 3), operate(multiply, 4, 5)) // this would compute (2+3) + (4*5);
+      
+      // we could also implement these simple functions as methods
+       const operators = {
+          add: (x,y) => x+y,
+          subtract: (x,y) => x-y,
+          multiply: (x,y) => x*y,
+          divide: (x,y) => x/y,
+          pow: Math.pow
+       };
+
+       function operate2 (operation, operand1, operand2) {
+          if (typeof operators[operation] === "function") {
+             return operators[operation](operand1, operand2);
+          } 
+          else throw "unknown parameter";
+       }
+       operate2("add", "hello", operate2("add", " ", "world")) // returns "hello world"
+       operate2("pow", 10, 2)  // returns 100
    
-       
+   - Defining your own function properties ch. 8.4.1
+      > In JS functions are not primitive values but specialized objects, meaning they can have properties of their own. 
+      This feature is useful when functions need static variables across invocations. 
+      > 
+   example: 
+      unique_integer.counter = 0;
+      function unique_counter() {
+         reuturn unique_integer.counter++;
+      } 
+      unique_integer()  // returns 0;
+      unique_integer()  // returns 1;
+
+   - Functions as namespaces ch. 8.5
+      > variables declared within the functions scope are not visible outside of that function. 
+      > Because of this, sometimes functions are declared simply to avoid polluting the global object. 
+      > this is useful when your code is being called in an environment with many processes interacting with or around your code. 
+      To avoid overwriting important variables for other programs, you can initialize your variables inside functions. 
+      > this is the main purpose of using IIFEs
+      > This is also known as a closure.
+   example: 
+      function chunk_namespace() {
+         // chunk of code goes here
+         // variables are local to this function only
+         // this avoids cluttering the glocal namespace
+      }
+   
+   // this is related to an IIFE, an immediately invoked function expression
+      (function() {
+         // code...
+       }()); // end of code, function is called at the end. 
+   
+   - Closures ch. 8.6
+      > JS uses lexical scoping, meaning functions are executed according to their definition rather than the context where they are called. 
+      > this combination of a function object and a scope (set of variable bindings) in which the functions variables are resolved is a closure.
+      > closures become interesting according to the text when a function is invoked from a different scope than its definition context. 
+      > the binding of a variable local to a function will remain regardless of where the function is invoked. 
+
+   examples:
+      let scope = "global scope";
+      function checkscope() {
+         let scope = "local scope";
+         function f() { return scope; }
+         return f();
+      } 
+      checkscope();     // returns "local scope";
+      
+      let scope = "global scope";
+      function checkscope() {
+         let scope = "local scope";
+         function f() { return scope; }
+         return f;
+      }
+      let s = checkscope()();    // still returns "local scope"
+      
+      // we can rewrite the unique_integer example using an IIFE
+      let unique_integer = (function() {
+         let counter = 0;
+         return function() { return counter++; };
+      }());
+      
+      unique_integer() //  0
+      unique_integer() //  1
+   
+      // variables local to the function are independent, meaning unique invocations will create independent variables even if they 
+      // have the same identifier
+   function counter(n) {
+      return {
+         get count() { return n++; },
+         set count(m) {
+            if (m > n) n = m;
+            else throw Error("Count can only be set to a larger value");
+         }
+      };
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+

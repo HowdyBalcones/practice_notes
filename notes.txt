@@ -1,3 +1,34 @@
+Todays Notes: 2025-01-22
+> continuing the stack of materials idea, there would have to be a phase enforced by the program where builds are defined by the 
+user in some fashion. It could have the ability to read our current description format, but it should be a form that the user 
+enters each material in one at a time and adds them to a build index. This would allow the program to correlate builds with tags,
+which would mean builds could be stored in a database along with contract data and etc consistently. 
+   + the build phase would be during tag generation, which based on the program outline would likely be a table form that's hosted
+   from a server. This means anyone associated with the project could alter a build. That's complicated though. 
+   + i'm thinking a UI where there is the sign class above, a little list box below, there is a plus button on the left hand side,
+   and each plus essentially adds a newline where an entire material description will get placed. 
+   + you can order the different materials in the stack by dragging and dropping them in the UI, or by giving them different numbers.
+   + the program will read their absolute value based on their order in the list, and then can check the tagged asset against 
+   the material stack. This would mean you can audit the builds before even building a book, which sounds like saved time to me. 
+   + during the book generation script, tagged assets would get linked to their respective pages according to like sections
+   and then like builds. That would mean the user can quickly scan the book to make sure nothing broke along the way. 
+   + even if in the beginning the book script only creates the index for assets and for builds, that would save an enormous amount
+   of time. I'm thinking like a glossary of everything at the end of a book template. At that point you are composing your own
+   pages, but everything that's tagged will be included by default. If the program is structured correctly, that would mean 
+   the work of checking the book against the contract is largely done. 
+   
+> tags will just be identifiers defined in the contract, which is another matter. The scripting logic won't deal directly 
+with parsing contracts and other company data, it will simply receive data from the larger program, executing the extendscript. 
+Mostly because extendscript is sluggish to write in, and I don't want it to play with Node nicely. Like essentially, our Node 
+program is just calling pre-written extendscript utilities from a library. By separating the two the Extendscript program
+can be much simpler.
+   + drag and drop tags from a table or list view
+   + assign tags from selection 
+   + assign tags by name? sounds gross. But the end result would be a very organized file. This could be part of assignment. 
+   + part of the tagging table would be an expected count. That way an eventual export script could do auditing for the user. 
+    
+
+
 Todays Notes: 2025-01-21
 well yesterday was eventful, glad nothing broke lmao. 
 

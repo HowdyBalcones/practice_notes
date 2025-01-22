@@ -98,6 +98,25 @@ function using_spread_operator(array) {
 
 }
 
+understanding_function_properties.previous = [];
+function understanding_function_properties (integer_value) {
+   let computed_value = integer_value * Math.floor(Math.random() * 100);
+   if (understanding_function_properties.previous.length >= 100) return;
+   if (!understanding_function_properties.previous.includes(computed_value)) {
+      understanding_function_properties.previous.push(computed_value);
+      return computed_value;
+   }
+   return understanding_function_properties(integer_value);
+} 
+
+function test_understanding_function_properties(integer_amount) {
+   for (let i = 0; i < integer_amount; ++i) {
+     console.log(understanding_function_properties(10));
+   }
+}
+
+
+
 arrow_func_example();
 arrow_func_example2(20, 10);
 traditional_func();
@@ -113,3 +132,4 @@ understanding_this_in_func.describe_hobbies(); // this will have some undefined 
 solution_func_scope_arrow_func.describe_hobbies();
 using_rest_parameter(2, 2, 10, 10, 10);
 using_spread_operator(test_array);
+test_understanding_function_properties(100);
