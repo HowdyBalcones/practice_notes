@@ -2583,9 +2583,133 @@ Expressions and Operators ch. 4
       };
    }
 
+   // this is useful in combination with getters and setters
+      function counter(n) {
+         return {
+            get count() { return n++ };
+            set count(m) {
+               if (m > n) n = m;
+               else throw Error("Count can only be set to a larger value");
+            }
+         };
+      }
+      
+      let c = counter(1000);
+      c.count        // 1000
+      c.count        // 1001
+      c.count = 2000 
+      c.count        // 2000
+      c.count = 2000;   // !Error: Count can only be set to a larger value
 
+   // Summary for this chaper is that function scoping is important. 
+   // the important thing is to remember that the .this value defined in a parent function will not carry into nested functions unless 
+      1. the nested function is an arrow function
+      2. the nested function is used in combination with bind()
+      3. .this value is stored in a variable before moving into the nested function scope. 
+   // there is also some private variable fuckery that can be done, I'm not advanced enough to understand meaningful application of it. Just use classes? 
 
+   - Function Properties, Methods, and Constructor ch. 8.7
+      > functions are values in JS
+      > typeof used on a function will return the string "function", but really in JS they are specialized objects. 
+      > they can have properties and methods, and there is a function constructor - Function()
+   
+   - The length property
+      > read only
+      > counts the number of parameters declared in the parameter list, usually the number of arguments the function will expect.
+      If the function has a rest parameter, it won't count that parameter.
+      
+   - The name property
+      > read only
+      > specifies the name that is used when the function is defined, either the function name itself or the variable that it is assigned to. 
+   
+   - The prototype property 
+      > All functions except arrow functions have a prototype property that refers to a prototype object. 
+      > When a function is used as a constructor, it inherits properties from its prototype like a normal object. (ch. 6.2.3, 9)
 
+   - The call() and apply() methods
+      > both call() and apply() allow you to invoke a function as if it were a method of some other object. 
+      > for both, the first argument is the object in which the function is to be invoked. 
+      This argument becomes the invocation context of the function to be invoked. 
+         // f.call(o);
+         // f.apply(o);
+         // o.m = f;       // assuming o does not have property m, make f a temp method of o
+         // o.m();         // invoke it, passing no arguments
+         // delete o.m;    // remove the temporary method
+      > Arrow functions inherit this values of the context in which they are defined, and this is not overriden by call() or apply()
+      If called on an arrow function the first argument is effectively ignored. 
+      > Arguments to call() past the invocation context are considered arguments passed to the parameters of the given function
+         // f.call(o, 1, 2);
+      > Arguments to apply() are similar, except an array is expected. 
+         // f.apply(o, [1,2]);
+      > a trick used in ES5 and earlier: 
+         // the apply() method allows you to call a function on the contents of an array with arbitrary length. 
+         // this is a technique used in earlier JS to provide functionality similar to the spread operator in ES6 and above
+         // let biggest = Math.max.apply(Math, arrayOfNumbers);
+      > another example of function scoping using the apply() method
+      function trace(o,m) {
+         let original = o[m];
+         o[m] = function(...args) {
+            console.log(new Date(), "Entering:", m);
+            let result = original.apply(this, args);
+            console.log(new Date(), "Exiting:", m);
+            return result;
+         }
+      }
+      
+   - The bind() method ch. 8.7.5
+      > the purpose of bind is to bind a function to an object. 
+      > when bind() is invoked on a function f and pass object o, the method returns a function. 
+      > when the new function is invoked, the original function f is invoked as a method of object o
+      > args passed to the new function are passed to the original function f
+      > bind() doesn't work on arrow functions for the usual reasons
+      > however bind() can be used in "partial application" with arrow functions, called "currying" in FP styles
+      Arguments passed to bind past the first are bound along with the .this value.
+   examples: 
+      function f(y) { return this.x + y; }
+      let o = { x: 1 };
+      let g = f.bind(o);
+      g(2)                    // returns 3
+      let p = { x: 10, g };   // invoke g as a method of this object
+      p.g(2)                  // returns 3; g is still bound to o, not p. 
+      
+      // example of currying 
+      let sum = (x,y) => x + y;     // return the sum of the 2 args
+      let succ = sum.bind(null, 1); // bind the first argument to 1
+      succ(2);                      // returns 3; x is bound to 1, and we pass 2 for the y argument
+      
+      function f(y,z) { return this.x + y + z; }
+      let g = f.bind({x:1}, 2);                    // bind this and y
+      g(3)                                         // returns 6; this.x is bound to 1, y is bound to 2, and z is bound to 3
+      // I don't understand the application of this but I've never written in a functional style 
+      
+   - The toString() method ch. 8.7.6
+      > like all JS objects, functions have a toString() method builtin. 
+      > ECMAScript specs require this method to return a string that follows the syntax of the function declarattion statement. 
+      > In practice, most but not all implementations of this method will return complete source code for the function they refer to. 
+      Builtin functinos typically return a string that includes something like ["native code"] as the function body. 
+      
+   - The Function() Constructor ch. 8.7.7
+      > Because functions are objects, they have a constructor is JS
+      > expects any number of string arguments, the final argument is the text of the function body, which can contain arbitrary JS statements. 
+      > All other args passed through Function() are strings that specify parameter names for the function. 
+      > if the function has no parameters, simply pass the function name to Function();
+      > Function() allows JS functions to be dynamically created and compiled at runtime. 
+      > Function() parses the function body and creates a new function object each time its called. 
+      This can be innefficient. Nested functions won't have the exact same problem. 
+   examples: 
+      const f = new Function("x", "y", "return x*y); // this is equivalent to below
+      const f = function(x,y) { return x*y };     > Anything created with Function() won't have lexical scoping, it's made with global scope. 
+   
+   - Functional Programming ch. 8.8
+      > JS is not a functional language, like Lisp or Haskell. It can be written with a functional flavor, and while this is considered poor form, 
+      for science it is covered in the text. 
+   
+   - Processing arrays with functions ch. 8.8.1
+      
+      
+      
+      
+      
 
 
 
