@@ -1,3 +1,23 @@
+Todays Notes: 2025-01-26
+> alright alright so we are trying a few new things out on this job, mostly around setup. 
+   + single file for all spotting links
+   + working through the build index from the start
+   + LABELING in AI, SPOTTING in indesign. 
+   + we should be thinking through the materials more upfront, especially before we iterate any signs
+     There are guaranteed to be production issues with the files, because they aren't made for production they are made for clients approval. 
+     It is worth noting that these files are in front of M3 and other lead designers and the issues aren't caught or even asked about. 
+   + lets legitimately work through making the node program a simple cli thing. being able to run it anywhere would be delightful. 
+     There is also practical application of this, we can work through some UI problems that will get picked up creating a web app for it.
+
+> it's worth noting that Allied Plastics is just a distributor, they don't have shit in regards
+to product data. They have sale and transaction data, which is useful to them but idgaf about. 
+   + if we were contracted to make some analysis of FRCs purchases, that'd be a different story. 
+
+
+Todays Notes: 2025-01-25
+> so we need to improve the useability of the contract script, just enough so that its got a simple cli
+
+
 Todays Notes: 2025-01-22
 > continuing the stack of materials idea, there would have to be a phase enforced by the program where builds are defined by the 
 user in some fashion. It could have the ability to read our current description format, but it should be a form that the user 

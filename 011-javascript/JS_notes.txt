@@ -2705,7 +2705,262 @@ Expressions and Operators ch. 4
       for science it is covered in the text. 
    
    - Processing arrays with functions ch. 8.8.1
+      > a functional approach to processing arrays
+   examples: 
+      // first a nonfunctional style
+      // find mean
+      let data = [1,1,3,5,5];
+      let total = 0;
+      for (let i = 0; i < data.length; ++i) total += data[i];
+      let mean = total/data.length;
+   
+      // find standard deviation
+      total = 0;
+      for (let i = 0; i < data.length; ++i) {
+         let deviation = data[i] - mean;
+         total += deviation * deviation;
+      }
+
+      // this can be done in a functional style with .map() and .reduce()
+      const sum = (x,y) => x+y;
+      const square = x => x*x;
+   
+      // use those functions with array methods to compute mean and stddev
+      let data = [1,1,3,5,5];
+      let mean = data.reduce(sum)/data.length;  // add each element of the data array, then divide by array length
+      let deviations = data.map(x => x-mean);   // for each element in data, subtract the mean value and return a new array
+      let stddev = Math.sqrt(deviations.map(square).reduce(sum)/(data.length-1));   // on the new array, square each value, divide by number of 
+                                                                                    initial values minus 1
+      stddev // returns 2                                                           // should return 2
+
+      // the approach above still uses object oriented styles, calling methods and such. We can write our own .map() and .reduce()
+      const map = function(a, ...args) { return a.map(...args); };
+      const reduce = function(a, ...args) { return a.reduce(...args); }; // so we make function wrappers for methods lol...
       
+      // new code looks like this
+      const sum = (x,y) => x+y;
+      const square = x => x*x;
+      
+      let data = [1,1,3,5,5];
+      let mean = reduce(data, sum)/data.length;
+      let deviations = map(data, x => x-mean);
+      let stddev = Math.sqrt(reduce(map(deviations, square), sum) / (data.length-1));
+      stddev   // returns 2 still. 
+      // there is a subjective elegance to this, but I'm used to an imperative style here. 
+            
+   - Higher Order Functions ch. 8.8.2
+      > a higher order function is a function that operates on other functions, taking functions as one or more arguments and returns 
+      a new function. 
+   examples: 
+   function not(f) {
+      return function(...args) {
+         let result = f.apply(this, args); // uses this context and apply function method to pass an array to the nested function
+         return !result;
+      };
+   }
+   
+   const even = x => x % 2 === 0;   // a function to determine if a number is even
+   const odd = not(even); // result of even is passed to not as a function, not returns a function where even is passed into result using apply,
+                          // and result is inverted with ! 
+                          // this is used to ensure any context for object methods is maintained. I'm not sure it's needed in this exact example. 
+   // map in a functional style
+   function mapper(f) {
+      return a => map(a, f);
+   }
+   const increment = x => x + 1;
+   const incrementAll = mapper(increment);
+   incrementAll([1,2,3])   // [2,3,4];
+
+   // example taking two functions f() and g() and returns new function that computes f(g());
+   // return a new function that computes f(g(...))
+   // the returned function h passes all of its arguments to g, then passes the return value of g to f, then returns the return value of f
+   // both f and g are invoked with the same this value as h was invoked with.
+   
+   function compose(f, g) {
+      return function(...args) {
+         return f.call(this. g.apply(this, args));
+      };
+   }
+
+   const sum = (x,y) => x+y;
+   const square = x => x*x;
+   compose(square, sum)(2,3)  // returns 25; the square of the sum
+   // that's pretty neat though. 
+
+   - Partial Application of Functions ch. 8.8.3
+      > the bind() method of a function (ch. 8.7.5) returns a new function that invokes f in a specified context and with a specified set of args
+      > it binds the function to an object and partially applies the arguments
+      > bind partially applies arguments on the left, meaning arguments passed to bind() are placed at the start of the argument list that 
+      is passed to the original function. It is also possible to partially apply arguments to the right. 
+   example: 
+      // The arguments to this function are passed on the left
+   function partialLeft(f, ...outerArgs) {
+      return function(...innerArgs) {              // return this function
+         let args = [...outerArgs, ...innerArgs];  // build argument list
+         return f.apply(this, args);               // invoke f with it
+      };
+   }
+   // this is an incomplete chapter, it is worth coming back to in the future. 
+   // we don't write functional programs and there is limited time. Have to move on. 
+   
+   - Summary 
+      > Functions can be defined with the function keyword or ES6 = (arrow) => syntax
+      > you can invoke functions, which can be used as methods and constructors
+      > some ES6 features allow you to define default values for optional function parameters, to gather multiple arguments into an array using a rest
+      parameter, and to destructure object and array arguments in to function parameters. 
+      > you can use the spread ... operator to pass the elements of an array or other iterable object as arguments in a function invocation
+      > a function defined inside of and returned by an enclosing function retains access to its lexical scope and can therefore read and write
+      variables defined inside the outer function. Functions used in this way are called closures, and this is a technique worth understanding. 
+      > functions are objects that can be manipulated by JS, and this enables a functional style of programming
+      
+- Classes ch. 9
+   > classes can define objects that share certain properties. 
+   > members, or instances of a class have their own properties to hold or define their state, they also have methods that define their behavior. 
+   > These methods are defined by the class and shared by all instances. 
+   > In JS classes use prototype based inheritance. If two objects inherit properties (function-value, or methods) from the same prototype, 
+   then we say these objects are of the same class. (ch. 6.2.3, 6.3.2)
+   > If two objects inherit from the same prototype, they typically were created and initialized by the same constructor function or factory function
+   (ch. 4.6, 6.2.2, 8.2.3)
+   > Technically JS has always allowed classes. ES6 introduces the class keyword. 
+   > classical, strongly typed, Object Oriented languages such as C++ and Java have very different classes compared to JS. Many of their 
+   features can be emulated by JS classes. Prototype based inheritance in JS is very different from those languages. 
+
+   - Classes and prototypes ch. 9.1
+      > A class is a set of objects that inherit from the same prototype object. The prototype is therefore a central feature of a class. 
+      > Object.create() returns an object that inherits from a prototype. 
+      > It is common to define a function that creates and initializes new objects. 
+   examples: 
+      // a factory function that returns a new range object
+   9.1 example
+   function range(from, to) {
+      // Use Object.create() to create an object that inherits from the prototype object defined below. The prototype object is stored as a property
+      // of this function, and defines the shared methods (behavior) for all range objects. 
+      let r = Object.create(range.methods);
+      
+      // Store the start and end points (state) of this new range object
+      // these are noninherited properties that are unique to this object
+      r.from = from;
+      r.to = to;
+
+      // return the new object
+      return r;
+   }
+
+   range.methods = {
+      // return true if x is in the range, false otherwise      
+      // this method works for textual and Date ranges as well as numeric
+      includes(x) { return this.from <= x && x <= this.to; },
+      
+      // a generator function that makes instances of the class iterable.
+      // note that it onl works for numeric ranges
+      *[Symbol.iterator]() {
+         for(let x = Math.ceil(this.from); x <= this.to; ++x) yield x;
+      },
+      toString() { return "(" + this.from + "..." + this.to + ")"; }
+   };
+
+   let r = range(1,3);  // create a range object
+   r.includes(2);       // returns true: 2 is in the range
+   r.toString();        // returns "(1...3)"
+   [...r]               // returns [1, 2, 3]; convert to array via iterator
+
+   // This code defines a factory function range() for creating Range objects
+   // It uses the methods property of this range() function as a convenient place to store the prototype object that defines the class. 
+   There is nothing special or idiomatic about putting the prototype object here. 
+   // The range() function defines from and to properties on each Range object. These are the unshared, noninherited properties that define the
+   unique state of each individual Range object. 
+   // The range.methods object uses the ES6 shorthand syntax for defining methods, which is why there is no function keyword anywhere. (ch. 6.10.5)
+   // One of the methods of the range object has the computed name (ch. 6.10.2) Symbol.iterator, which means that it is defining an iterator for Range obj
+   The name of this method is prefixed with *, meaning that it is a generator function instead of a regular function. Iterators and Generators are covered
+   in (ch. 12). For now, the upshot is that instances of this Range class can be used with the for/of loop and with the ... spread operator. 
+   // The shared, inherited methods defined in range.mathods all use the from and to properties that were initialized in the range() factory function. 
+   In order to refer to them, they use the this keyword to refer to the objet through which they were invoked. This use of this is a funcamental
+   characteristic of the methods of any class. 
+   
+   - Classes and Constructors ch. 9.2 
+      > the above method is a simple means to construct a class, but not the idiomatic way. It is a factory function that creates a new instance of 
+      an object with arguments passed into property values and internal methods defined in the Range object. 
+      > A typical class will have a constructor. 
+      > A constructor is a function designed for the initilization of newly created objects. Constructors are invoked using the new keyword (ch. 8.2.3)
+      > constructor invocation automatically create the new object, so the constructor itself only needs to initialize the state of the new object. 
+      > Important: constructor invocations have a prototype, and this is what is used as the prototype of the new object. 
+      > While almost all objects have a property, only a few have prototype properties. 
+      These are known as function objects that have a prototype property. This means that all objects created with the same constructor function
+      inherit from the same object and are therefore members of the same class. 
+      > Older JS code won't have the class keyword, and there are idiomatic ways of defining classes in this syntax. It also helps understand new syntax.
+      > 9.1 example demonstrates how to use a factory function, whereas 9.2 demonstrates using a constructor function instead. 
+      9.2 is also an example of how to define classes in older JS syntax. 
+      > by convention constructors start with a capital letter, and regular functions are lowercase. 
+      > factory functions use typical function invocation, whereas constructors use the new keyword or constructor invocation
+      > because of Range() being called with new, it does not call Object.create(), or take any action to create a new object. 
+      The new object is automatically created before the constructor is called, and it is accessible as the this value.
+      new Range() simply initializes this. 
+      > Constructors don't even need to explicitly return the new object. Constructor invocation does these things automatically: 
+         1. creates a new object
+         2. invokes the constructor as a method of that object
+         3. returns the new object. 
+      > within a function body, a contructor invocation can be distinguished by using new.target. If the value of that expression is defined, then
+      the function was invoked as a constructor using the new keyword. This effects subclasses (ch. 9.5) b/c new.target is not always a reference 
+      to the constructor it is used in. It might refer to the constructor function of a subclass. 
+      If new.target is undefined, then the containing function was invoked as a function without the new keyword. 
+      > JS's various error constructors can be invoked without new, this can be emulated in custom constructors
+      > the above technique is only applicable to the classic style of constructors in JS, constructors made with the Class keyword require new. 
+      > in 9.1, the prototype was range.methods, an arbitrary name that is descriptive. 
+      in 9.2, the prototype is Range.prototype, which is mandatory. Any invocation of Range() constructor automatically uses this Range.prototype
+      as the prototype of the new range object. 
+      > neither implementation uses arrow functions, because they strip the prototype property from the function and cannot be constructors. 
+      They also inherit this from the context which they are defined in, rather than the object through which they are invoked. This makes them
+      useless for methods because the defining characteristic of methods is that they use this to refer to the instance on which they are invoked. 
+      
+   examples: 
+      // this is a constructor function that initializes a new Range object
+      // note that it does not create or return the object. It just initializes its use. 
+   9.2 example
+   function Range(from, to) {
+      this.from = from;
+      this.to = to;
+   }
+
+   // now all Range objects inherit from this object
+   // note that the property name must be "prototype" for this to work
+   Range.prototype = {
+      // Return true if x is in the range, false otherwise
+      // This method works for textual and Date ranges as well as numeric. 
+      includes: function(x) { return this.from <= x && x <= this.to; },
+      [Symbol.iterator]: function*() {
+         for (let x = Math.ceil(this.from); x <= this.to; ++x) yield x;         
+      },   
+      toString: function() { return "(" + this.from + "..." + this.to + ")"; }
+   };
+   let r = new Range(1,3);    // create a range object, using new
+   r.includes(2);             // returns true
+   r.toString()               // returns "(1...3)"
+   [...r]                     // [1, 2, 3]; convert to an array via iterator
+
+   // creating a constructor that doesn't require new keyword
+   function C() {
+      if (!new.target) return new C();
+      // initializing code goes here
+   }  
+   // remember, this technique only applies to constructors defined in this old fashioned way. Classes created with the class keyword do not allow
+   // their constructors to be invoked without new. 
+    
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
       
       
       
