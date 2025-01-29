@@ -2945,10 +2945,40 @@ Expressions and Operators ch. 4
    // remember, this technique only applies to constructors defined in this old fashioned way. Classes created with the class keyword do not allow
    // their constructors to be invoked without new. 
     
-
-
+   - Constructors, Class Identity, and instanceof 
+      > the prototype object is fundamental to the identity of a class: two objects are of the same class only if they inherit from the same prototype. 
+      > The constructor that initializes the state of the new object is not fundamental: two constructor functions may have prototype properties 
+      that point to the same Prototype Object. In that case both constructors can be used to create instances of the same class. 
+      > a constructor serves as the "face" of a class. 
+      > instanceof checks the prototype of an object, not the constructor used to create that object. 
+      > to check the constructor, can use the isPrototypeOf() method
+   examples: 
+      r instanceof Range // returns true, r inherits from Range.prototype
+      object_to_test instanceof class_to_check_for // returns boolean; the syntax for instanceof  
+      function Strange() {}
+      Strange.prototype = Range.prototype;
+      new Strange() instanceof Range   // returns true
+      range.methods.isPrototypeOf(r)   // range.methods is the prototype object from 9.1, so this is true
       
-
+   - The constructor property ch. 9.2.2
+      > in example 9.2, Range.prototype was set to a new object that contained the methods for our class. 
+      While convenient, it was not neccesary to return a new object literal containing those methods. 
+      > Any regular JS function (!arrow, async, or generator functions) can be used as a constructor. 
+      > Constructor invocations need a prototype property.
+      > This all means every regular JS function will automatically have a prototype property. 
+      The value of this property is an object that has a single, non-enumerable constructor property. 
+      The value of the constructor property is the function object. 
+      > the constructor is inherited by the prototype, but all this constructor does is refer to the new instance of said prototype. 
+      
+   example: 
+      let F = function {};    // function object
+      let p = F.prototype;    // This is the prototype object associated with F
+      let c = p.constructor;  // this is the function associated with the prototype 
+      c === F                 // returns true; F.prototype.constructor === F for any F
+      let o = new F();
+      o.constructor === F // returns true, the constructor property specifies the class. 
+      
+      
 
 
 
