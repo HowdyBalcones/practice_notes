@@ -2969,7 +2969,10 @@ Expressions and Operators ch. 4
       The value of this property is an object that has a single, non-enumerable constructor property. 
       The value of the constructor property is the function object. 
       > the constructor is inherited by the prototype, but all this constructor does is refer to the new instance of said prototype. 
-      
+      > function inherits <-- prototype object, <-- which has a constructor property which is itself an object --> that contains the function object
+      The constructor property contains the function object that gets invoked when a new instance of the class is created.       
+      > the 9.2 example overwrites the Range.prototype object explicitly, so the constructor property gets overwritten as well. 
+      This can be added explicitly. 
    example: 
       let F = function {};    // function object
       let p = F.prototype;    // This is the prototype object associated with F
@@ -2978,10 +2981,129 @@ Expressions and Operators ch. 4
       let o = new F();
       o.constructor === F // returns true, the constructor property specifies the class. 
       
+      // adding the contructor property to Range() explicitly 
+      Range.prototype = {
+         constructor: Range,
+         // methods and etc
+      }
+   
+      // another older method is to add methods to the prototype directly 
+      Range.prototype.includes = function(x) {
+         return this.from <= x && x <= this.to;
+      };
       
+      Range.prototype.toString = function() {
+         return `(${this.from}...${this.to})`;
+      };
+       
+   - Classes and the class keyword ch. 9.3
+      > some form of classes have always existed within Javascript, but ES6 introduced keywords for them. 
+      > using the class keyword and the example shown in 9.2 work exactly the same way. The keyword is considered "syntactic sugar"
+      > class > name of class > { constructor(args) { this.args = args } classMethods(){ ... ;} }
+      > methods are defined using the same syntax as object method shorthand, but classes cannot store key: value pairs, and commas are not used. 
+      > subclasses, or classes that inherit from another class, use the extends keyword (ch. 9.5)
+      > sublcasses are a topic on their own, discussed in later chapters. 
+      > like functions, classes have statement and expression forms. This isn't used much. 
+      > all code inside a class declaration is implicitly in strict mode. That means not octal integers, with statements, and TypeErrors
+      > classes are not hoisted, so not part of the first-class citizen model that functions utilize
 
+   examples: 
+   class Range {
+      constructor(from, to) {
+         this.from = from;
+         this.to = to;
+      }
+      includes(x) { return this.from <= x && x <= this.to; }
+      *[Symbol.iterator]() {
+         for(let x = Math.ceil(this.from); x <= this.to; ++x) yield x;
+      }
+      toString() { return `(${this.from}...${this.to})`; }
+   }      
+   let r = new Range(1,3);    // create range object
+   r.includes(2);             // returns true
+   r.toString()               // "(1...3)"
+   [...r]                     // [1, 2, 3]; convert to array via iterator
 
+   // using the extends keyword
+   class Span extends Range {
+      constructor(start, length) {
+         if (length >= 0) {
+            super(start, start + length);
+         } else {
+            super(start + length, start);
+         }
+      }
+   }
+   
+   // function and class expressions
+   let square = function(x) { return x*x; };
+   square(3);  // returns 9
 
+   let Square = class { constructor(x) { this.area = x*x; } };
+   new Square.area   // returns 9 as well, and we get the new square object
+
+   - Static Methods ch. 9.3.1
+      > static methods can be defined in the class body prefixing the method declaration with the static keyword
+      static method_name() { etc; }
+      > a static method is defined as a property of the constructor function rather than the prototype object.
+      This means in order to utilize the method it must be called on the constructor object rather than its instance. 
+      > as a result using .this almost never makes sense in a static method.
+      > static methods are also sometimes called class methods because they are invoked using the name of the class/constructor. 
+   example: 
+   static parse(s) {
+      let matches = s.match(/^\((\d+)\.\.\.(\d+)\)$/);
+      if (!matches) {
+         throw new TypeError(`Cannot parse Range from "${s}".`)
+      }
+      return new Range(parseInt(matches[1]), parseInt(matches[2]));
+   }  
+
+   let r = Range.parse('(1...10)');    // returns a new Range object
+   r.parse('(1...10)');                // TypeError: r.parse is not a function 
+   
+   - Getters, Setters, and other Method forms
+      > within a class body getters and setters can be defined as in an object literal body
+      > the main difference is that in a class body there are no commas separating methods, getters, or setters. 
+      > in general, all shorthand syntax in object literals is allowed in class bodies. This includes generator methods marked with *
+      and methods whose names are the value of an expression in square brackets. 
+      There was an example of this in 9.2 that made the Range class iterable
+   example: 
+      *[Range.iterator]() {
+         for(let x = Math.ceil(this.from); x <= this.to; ++x) yield x;
+      }   
+
+   - Public, Private, and Static Fields ch. 9.3.3
+      > to define fields (properties synonym) inside a class, it must be initialized in the constructor. 
+      > to define a static field, it must be added after the class is defined. 
+      > in 2020 there is a standard that has been implemented allowing for static and standard fields to be defined within the class. 
+      This standard is common within React and the Babel transpiler. 
+      > .this can be excluded in the new syntax, but you must use .this to refer to those properties later when accessing the object
+      > these fields are initialized just like standard variables in JS, so they don't need to be created with a value, though this is good practice. 
+      > private instance fields can be created prefixing the field name (identifier) with a #, as 
+      #identifier = value; 
+      > a private field in a class definition will make whichever value it's associated with immutable, it can't be accessed or altered outside 
+      of its initial class definition. 
+      > 
+   example: 
+      class Buffer {
+         constructor() {
+            this.size = 0;
+            this.capacity = 4096;
+            this.buffer = new Uint8Array(this.capacity);
+         } 
+      }
+   // with the new field syntax, you could write 
+      class Buffer {
+         size = 0;
+         capacity = 4096;
+         buffer = new Uint8Array(this.capacity);
+    }
+   // using private class fields, you can create a read only field for the class. 
+      class Buffer {
+         #size = 0; 
+         get size() { return this.#size; }
+      }
+      
 
 
 
