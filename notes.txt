@@ -1,3 +1,68 @@
+> We are going to fully dive in to making this tool for ourselves. I was taking too much input from the team and not doing enough observation. 
+This is something that needs to be developed separately from the input of mgmt. They actually don't understand the problems that need to be solved. 
+If they understood the problems at hand, why are those same problems still plaguing the company? These people in mgmt have been here for 5+ years and yet
+the issues remain unsolved. It is time for thinking outside the box and implementing effective change, with or without permission to do so. I am so tired
+of wasting my time on petty trivialities and technical debt. Having to convince someone to just use screenshots over slack instead of printing off a
+paper page and walk across the building to show me what's on it is crazy. Having to show someone that they just use the latest revision number for a file
+is silly, when this person has been there longer than most. It's just not affordable to limit ourselves to the abilities of the lowest common denominator. 
+I can make something that does the job of ten people. Lets do that. 
+
+> The goals
+   > single database that is searchable and informative, IE we can search for a sign type by job, a job for a given sign type, sign type by sections, etc.
+   > it would also be useful to be able to point where a given asset is on the server from a database query, being able to arrange files in a way 
+   that makes that easier in the future. 
+   > generating indesign templates from job data - filling in pages with descriptions and spotting labels, naming pages based on section, filling in 
+   customer and job information automatically, storing these files on the server in a structured manner. 
+   > pre-building illustrator files based on sections, adding templates of signs according to a concept package, pulling past examples of jobs into 
+   a single form so the operator can have access to past changes or notes that were made for the client, pre-filling sign verbiages
+   > a library of extendscript programs that can be run from the browser to pull data from live illustrator files, perform operations on files, 
+   automate placing assets into an indesign document. 
+   > 
+
+
+> The outline 
+   + Data is the beginning and end for this project. 
+   + Currently all the data is trapped inside excel files. It needs to all get unwrapped and put into a single repository.
+      1. Unwrapping the data - this is done, we have the script that scrubs all the garbage from the contracts and makes a new, structured  excel file. 
+      2. Data repository - we need a place to put all the data, something that is flexible and fast. Needs to work with node. 
+         > MySQL is on npm 
+         > PostgreSQL is on npm
+         > SQLite
+         > NoSQL
+         > Redis
+      3. Need a script to find all the contracts in the server and scrub them in batch. Need to back them up first. 
+      4. then a script to drop the scrubbed contracts into the database. 
+      5. something to visualize the data in a browser
+      6. search, filters, editable lines, updates to the database repo, and something to mark job completion 
+      7. make it shareable with other users, at least in read only format to start. So proj mgmt can happen between operator and mgmt. 
+      8. something to prep the data for being used in adobe scripts. Need some custom objects, serializing to JSON. 
+      9. a place to add build descriptions
+      10. something to display unique signs 
+      11. single repository display - ability to search through all the data if requested. That means signs for every job for the past ten years. 
+      12. basic user accounts - need designers and project managers to have access but differing privileges. 
+      13. something to back up the data in case there are problems
+      14. revision tracking and simpler reconcilliation with the initial contract. 
+      15. labeling sign types / classes at the database level 
+   + The templates and asset management
+      1. format template according to variables in the job data. 
+      1.2 label sections of book with spotting bubbles
+      1.3 create frames of given size according to sign type, asset size
+      1.4 create text boxes for sign name 
+      2. load build descriptions from user input in the live contract application
+      2.1 create index pages from unique builds
+      3. build illustrator files from section data
+      3.1 create tags that can be applied to the assets within a given file. Tags have an "applied" or "un-applied" state. 
+      3.2 tags have their own layer, they appear on screen but can be hidden or removed manually. 
+      3.2.1 tags will need a mechanism to attach to the asset that isn't a group 
+      3.3 multiple instances of the same tags will assume unique assets are being tagged, and will number each asset with the contract key (A:1, A:2, etc)
+      3.3.1 
+      4. load concept templates into illustrator files
+      4.1 concept specific tags
+      4.2 a feature that would let you transfer tagged assets from one file to another 
+      5. load assets from illustrator files into book template
+      6. crossreference with live contract to check for levels of completion
+       
+
 Todays Notes: 2025-01-29
 > alternatives to "Creative Directors"
    + homogenizing creative output is a goal for business, because it makes production and profit more reliable. 

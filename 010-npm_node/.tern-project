@@ -1,0 +1,12 @@
+{
+   "libs": ["browser", "ecmascript"],
+   "plugins": {
+      "ecma":{}
+      "node":{}
+   },
+   "defs": [
+      {
+              
+      }
+   ]
+}

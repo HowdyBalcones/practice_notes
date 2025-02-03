@@ -1,0 +1,35 @@
+> setting up postgresql w/ brew or installing from source
+   + installing from source? 
+      https://www.postgresql.org/docs/17/installation.html
+      https://www.postgresql.org/docs/17/install-getsource.html
+   + installing with homebrew? 
+      https://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/
+      1. brew install postgresql@17 // or some other version
+      2. brew link postgresql@17
+      3. brew services start postgresql@17
+      4. brew services list         // should list postgresql@17 as a running service, this can be automated to run at start
+   + install the pg npm plugin and ensure it's added to the package file. 
+   + The goal here is to be able to send excel data into the postgres server without too much pain. 
+   
+   + commands for postgresql
+   createdb - creates a database
+   dropdb - deletes a database
+   psql given_database_name - interactive editor for the database
+   
+   + commands in psql
+      https://www.postgresql.org/docs/17/app-psql.html
+   \h - list available commands
+   help - help text
+   \? - more help
+   \l, \list - will show you the available databases and tables
+   \c, \connect - switch between different databases
+   \dt - inspect created tables 
+   CREATE TABLE weather (
+    city            varchar(80),
+    temp_lo         int,           -- low temperature
+    temp_hi         int,           -- high temperature
+    prcp            real,          -- precipitation
+    date            date
+   ); - creating a table, this is from the command line but could be run from a file. 
+   INSERT INTO weather (city, temp_hi, temp_lo, prcp, date) VALUES('New York', 36, 44, 0.4, '1996-01-16'); - define columns, insert into columns
+   
