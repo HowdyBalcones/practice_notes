@@ -229,7 +229,8 @@ function batch_contract_clean(directory, destination) {
 }
 
 const file = "./00-contract_samples/2206JPI02S Anna Waters Creek REV 3 Signage.xlsx";
-const data = import_data(file);
+const file2 = "./00-contract_samples/2108EP03S Bel Aire Revision 2- Corrected Math.xlsx";
+const data = import_data(file2);
 export_data(data);
 console.log(data[0]);
 
