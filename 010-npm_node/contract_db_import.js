@@ -1,28 +1,19 @@
+// the goal of this program is to rewrite the contract filter program to handle many files at once and store them in a coherent manner. 
+// the next goal is to be able to write these files into a postgres database. 
+// then I want a simple cli interface for adding new contracts to the database.
+// 
+// TODO 
+// > add contract number / quote number to the data
+// > add client name 
+// > add contract dates 
+// > will create metadata files for this information -- basically this information needs to be siphoned into separate tables 
+// > write a function to batch operate on every .xslx file in the current directory
+//   needs to name the cleaned contract after the file it came from but with our file syntax
+//   needs to put them in a single repository for cleaned contract daya
+// > write a set of functions to test the cleaned contracts for errors. 
+// > 
+
 const XLSX = require('xlsx');
-
-const file = "./2211AM01S Fairmount Signage REV 1.xlsx";
-const file2 = "./2404CDL01S Tacara Steubing Heights REV 1.xlsx";
-const file3 = "./2212JPI01S Jefferson Loyd Park Ph. 1 Signage REV 4.xlsx";
-const file4 = "./2209JPI02S Addison Heights Signage REV 3.xlsx";
-const file5 = "./2206JPI02S Anna Waters Creek REV 3 Signage.xlsx";
-
-// reference
-// https://docs.sheetjs.com/docs/csf/sheet/
-// https://docs.sheetjs.com/docs/csf/general/
-
-// important notes
-// we are working with 2D arrays rather than worksheet objects, so the built in methods for 
-// sheetJS won't work on the data we are passing between functions. ** Some builtins won't work. 
-// Mainly there was a problem adding headers to the final output. This should all get refactored at some point. 
-// If there is anything that is out of place in the source contract it fails. 
-
-// Left off markers
-// 10-12-2024 - left off trying to format our headers. We are using sheet_to_json to create an AoA. 
-// 06-01-2025 - looking back through this, had to run it for a job. Some good, lots bad. Want to refactor w/ more comments. 
-
-const CSV_options_00 = {
-   
-}
 
 function insert_col(worksheet, columnIndex, columnData) {
    // this works on sheet objects not 2D arrays
@@ -38,7 +29,7 @@ function insert_col(worksheet, columnIndex, columnData) {
       for (let C = range.e.c; C >= startCol; --C) {
          const oldCell = XLSX.utils.encode_cell({ r: R, c: C });
          const newCell = XLSX.utils.encode_cell({ r: R, c: C + 1 });
-         worksheet[newCell] = worksheet[oldCell]; 
+         worksheet[newCell] = worksheet[oldCell];
          delete worksheet[oldCell];
       }
    }
@@ -51,17 +42,6 @@ function insert_col(worksheet, columnIndex, columnData) {
    worksheet['!ref'] = XLSX.utils.encode_range(range);
    return worksheet;
 }
-
-function insert_col2(data, columnIndex, list) {
-   // this works on 2D arrays not sheet objects
-   for (let i = 0; i < data.length; ++i) {
-      let row = data[i];
-      row.splice(columnIndex, 0, list[i]);
-   }
-   return data;
-}
-
-// left off here.
 
 function filter_column_headers (data) {
    const fource_headers = ["SECTION_ID", "SPOTTING_KEY", "SIGN_COUNT", "SIGN_DESCRIPTION", "EACH_COST", "TOTAL_COST"];
@@ -93,35 +73,16 @@ function filter_column_headers (data) {
    return data;
 }
 
-function filter_add_column_headers (data) {
-   const headers = ["SECTION_ID", "SPOTTING_KEY", "SIGN_COUNT", "SIGN_DESCRIPTION", "EACH_COST", "TOTAL_COST"];
-   const headerRow = data[0];
-   const columnMapping = {
-      0: headers[0],
-      1: headers[1],
-      2: headers[2],
-      3: headers[3],
-      7: headers[4],
-      9: headers[5]
-   }
-   for (let i = 0; i < headerRow.length; ++i) {
-      if (columnMapping[i] !== undefined) {
-         headerRow[i] = columnMapping[i];
-      } 
-   }
-   headerRow.push(null);
-   headerRow.push(headers[5]);
-
-   return data;
-}
-
-
+// literally just removes the first and last element of the contract. Must be a header or something. 
+// this can get removed I think. 
 function remove_last_subtotal (data) {
    data.pop();
    data.shift();
    return data;
 }
- 
+
+// this uses the first column for the section name, replacing anything already in there.
+// could be more generic. 
 function filter_section_column (data, sectionColumn, targetColumn) {
    let currentSection = null;
    const sectionRegex = /^#\d+:/;
@@ -146,13 +107,13 @@ function filter_extra_descriptions (data, targetColumn) {
    for (var i = 1; i < data.length; ++i) {
       let currentRow = data[i];
       let previousRow = data[i - 1];
-      
+
       // this checks the row, matches targetColumn to the column index, checks if the cell exists, returns boolean
-      let isExtraRow = currentRow.every((cell, colIndex) => 
+      let isExtraRow = currentRow.every((cell, colIndex) =>
          (colIndex === targetColumn && cell || !cell)
       );
       // this runs if isExtraRow returns true, appends the "extra" cell to the cell immediately above it
-      // then deletes the now empty row and decrements the iterator to account for the mutated array. 
+      // then deletes the now empty row and decrements the iterator to account for the mutated array.
       if (isExtraRow) {
          previousRow[targetColumn] += `- ${currentRow[targetColumn] || ''}`.trim();
          data.splice(i, 1);
@@ -193,6 +154,31 @@ function contract_filter (data) {
    return data.filter(row => row[1] !== "FOURCE COMMUNICATIONS");
 }
 
+// maybe a more generic filter by rows by matching terms in a given column
+function filter_rows_by_column_match(data, col_num, term_match) {
+   if (typeof col_num !== 'number') throw new Error("col_num must be a number");
+   return data.filter(row => row[col_num] !== `${term_match}`);
+}
+
+// for taking data in a row below where it needs to be and also in a different col and placing it into the row above in the right col
+function filter_data_in_wrong_colum(data, targetColumn, properColumn) {
+   for (let i = 1; i < data.length; ++i) {
+      let currentRow = data[i];
+      let previousRow = data[i-1];
+      let cell_to_change = currentRow[targetColumn];
+      let cell_to_append = previousRow[properColumn];
+
+      if (cell_to_change !== null && cell_to_change !== '' && cell_to_change !== undefined) {
+         cell_to_append = `${cell_to_append} ${cell_to_change}`;
+         data[i-1][properColumn] = cell_to_append;
+         data.splice(i, 1);
+         i--;
+      }
+   }
+   return data;
+}
+
+// this will write the data to a new XLSX file. Should re-write a version of this to simply write the data into a JSON file. 
 function export_data (work_book, options) {
    // makes a new xlsx file, this can be changed easily. Worth adding a case statement here to handle other extensions. 
    let worksheet = XLSX.utils.json_to_sheet(work_book);
@@ -209,8 +195,8 @@ function export_data (work_book, options) {
 }
 
 
+// this is where all the filters are run on the passed in data.  
 function import_data (path) {
-   // this is what brings in data from a target table. Generic, so file extension is slightly flexible. 
    const workbook = XLSX.readFile(path);
    const sheet_name = workbook.SheetNames[0];
    let sheet = workbook.Sheets[sheet_name];
@@ -221,7 +207,7 @@ function import_data (path) {
       header: 1,
       blankrows: true
    });
-   // these are where the filter functions are applied to the raw data from your target table. 
+   // these are where the filter functions are applied to the raw data from your target table.
    let filtered_data = raw_data.filter(row => row.some(cell => cell !== null && cell !== '')); // don't import empty rows
    filtered_data = contract_filter(filtered_data); // remove the page labels from the contract
    filtered_data = filter_below_match(filtered_data, "SUBTOTAL"); // remove the legal jargon at the bottom of a contract
@@ -230,14 +216,20 @@ function import_data (path) {
    filtered_data = filter_section_column(filtered_data, 1, 0);
    // filtered_data = filter_add_column_headers(filtered_data);
    filtered_data = remove_last_subtotal(filtered_data);
-   return filtered_data; 
+   filtered_data = filter_data_in_wrong_colum(filtered_data, 5, 3);  // filters description details that are getting put into the wrong place
+   return filtered_data;
 }
 
+function process_xlsx(file, destination) {
+   
+}
 
+function batch_contract_clean(directory, destination) {
 
+}
+
+const file = "./00-contract_samples/2206JPI02S Anna Waters Creek REV 3 Signage.xlsx";
 const data = import_data(file);
-const dataSteu = import_data(file5);
-//insert_col(data, 0, "TESTING");
-//export_data(data);
-export_data(dataSteu);
+export_data(data);
 console.log(data[0]);
+

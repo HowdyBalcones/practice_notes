@@ -1,0 +1,11 @@
+-- SELECT * FROM cities;
+-- INSERT INTO cities (name, location)
+--    VALUES ('New York', '(99.2, -45.6)');
+-- SELECT name, location FROM cities;
+-- SELECT name AS City, location AS point FROM cities;
+-- SELECT * FROM cities
+--    ORDER BY name;
+-- SELECT DISTINCT name
+--    FROM cities
+--    ORDER BY name;
+
