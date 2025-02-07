@@ -11,7 +11,10 @@
 //   needs to name the cleaned contract after the file it came from but with our file syntax
 //   needs to put them in a single repository for cleaned contract daya
 // > write a set of functions to test the cleaned contracts for errors. 
-// > 
+// > write a regex to pull the file name and the file path. 
+//   for the file name, it should replace spaces with underscores and separate fields with hyphens
+//   something like, capture from the first front slash any amount of chars until the final char
+//   then, from the last char to the first encountered front slash
 
 const XLSX = require('xlsx');
 
@@ -136,6 +139,43 @@ function filter_below_match (data, term_match) {
    return filtered_data;
 }
 
+function filter_below_match_new(data, term_match) {
+   let match_index = -1;
+   for (let i = 0; i < data.length; ++i) {
+      if (term_match.some(term => data[i].includes(term))) {
+         match_index = i;
+         break;
+      }
+   }
+   const filtered_data = match_index !== -1 ? data.slice(0, match_index + 1) : data;
+   return filtered_data;
+}
+
+function filter_below_match_flex(data, term_match) 
+{
+   // allows for multiple types to be passed through term_match for different purposes. Consider using this pattern elsewhere. 
+   let match_index = -1;
+   for (let i = 0; i < data.length; ++i) {
+      let isMatch = false;
+      if (Array.isArray(term_match)) {
+         isMatch = term_match.some(term => data[i].includes(term));
+      } else if (term_match instanceof RegExp) {
+         isMatch = term_match.test(data[i]);
+      } else if (typeof term_match === "function") {
+         isMatch = term_match(data[i]);
+      } else {
+         isMatch = data[i].includes(term_match);
+      }
+      if (isMatch) {
+         match_index = i;
+         break;
+      }
+   }
+   // this part returns the data above the match
+   const filtered_data = match_index !== -1 ? data.slice(0, match_index + 1) : data;
+   return filtered_data;
+}
+
 function filter_above_match (data, term_match) {
    // find the row with the matching term, return everything below the term.
    let match_index = null;
@@ -179,7 +219,7 @@ function filter_data_in_wrong_colum(data, targetColumn, properColumn) {
 }
 
 // this will write the data to a new XLSX file. Should re-write a version of this to simply write the data into a JSON file. 
-function export_data (work_book, options) {
+function export_data (work_book, file_name, options) {
    // makes a new xlsx file, this can be changed easily. Worth adding a case statement here to handle other extensions. 
    let worksheet = XLSX.utils.json_to_sheet(work_book);
    let tempWorksheet = XLSX.utils.sheet_to_json(worksheet, {
@@ -190,7 +230,7 @@ function export_data (work_book, options) {
    tempWorksheet = XLSX.utils.json_to_sheet(tempWorksheet);
    console.log(tempWorksheet[0]);
    const new_workbook = XLSX.utils.book_new();
-   XLSX.utils.book_append_sheet(new_workbook, tempWorksheet, "Testing-00");
+   XLSX.utils.book_append_sheet(new_workbook, tempWorksheet, file_name);
    XLSX.writeFile(new_workbook, "Testing_Book.xlsx", { compression: true });
 }
 
@@ -210,7 +250,7 @@ function import_data (path) {
    // these are where the filter functions are applied to the raw data from your target table.
    let filtered_data = raw_data.filter(row => row.some(cell => cell !== null && cell !== '')); // don't import empty rows
    filtered_data = contract_filter(filtered_data); // remove the page labels from the contract
-   filtered_data = filter_below_match(filtered_data, "SUBTOTAL"); // remove the legal jargon at the bottom of a contract
+   filtered_data = filter_below_match_flex(filtered_data, ["SUBTOTAL", "SUBTOTAL:"]); // remove the legal jargon at the bottom of a contract
    filtered_data = filter_above_match(filtered_data, "SIGNAGE PROGRAM:"); // remove the headers, could use this data later.
    filtered_data = filter_extra_descriptions(filtered_data, 3); // merge cells where rows were made to complete a sentence (lol)
    filtered_data = filter_section_column(filtered_data, 1, 0);
@@ -220,12 +260,15 @@ function import_data (path) {
    return filtered_data;
 }
 
-function process_xlsx(file, destination) {
-   
+function process_xlsx(path, destination) {
+   const path_regex = //;
+   const data = import_data(path);
+   let file_name = path.replace(path_regex);
+   export_data(file, file_name);
 }
 
 function batch_contract_clean(directory, destination) {
-
+  
 }
 
 const file = "./00-contract_samples/2206JPI02S Anna Waters Creek REV 3 Signage.xlsx";
