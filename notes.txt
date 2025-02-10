@@ -1,3 +1,28 @@
+Todays Notes: 2025-02-10
+> tooling progress was good this past weekend. Need to get the cli aspect locked down, and understanding a procedure for batching the files. 
+   + still need a means for archiving, but we've done something like that in bash before. Worth reviewing that code. 
+   + speaking of bash, we need a way to find and then reference a list of file paths on the server. Want to create a reference for finding 
+   contracts without having to use the server too much. If we have to manually copy them that's fine. Not sure about our permissions. 
+   Nothing nefarious obviously, and would rather do tests on a few local copies before running the program at scale. Need 100 samples to start.  
+   Or honestly, 10 sets of 100 random samples. That would be best. 
+   + the batching shouldn't be terribly hard. Basically, from the cli we can load a destination to copy the cleaned contracts to, and an arbitrary list 
+   of files. Since we have put making this tool for others on the shelf, can just put the script into our path somehow and call it a day. 
+   + Lets consider Carmac and his legacy. The level of focus and drive is really what I care about, his politics are shit. 60 hr weeks his entire career. 
+   No public facing burnout. Pacing yourself and getting stronger, better endurance is the first part. Then getting more done with less time. Being nimble 
+   and constantly in charge of your own fate, not allowing the corporate bullshit to stop your progress. Just getting  the work done, in the 
+   clever way, in the efficient and lasting way.  
+   + should work on design stuff today. need to get lakehaven along, the second turn has been sitting. Even though production just got to the first. 
+   +  
+> Lakehaven 
+   + spotting for remainder
+   + remainder of buildings, amenity, site. 
+   + lets find what we can copy from bldg 1 first
+   + make sure the live art relects any changes we've made. 
+   + then we can do elevations for the unit spreads
+   + then dimension and scale...
+   + and finally we can comp the book. 
+   + todos - got through the spotting for everything, fullscale for all buildings 
+
 Todays Notes: 2025-02-03
 > pickup design tomorrow
    + adding assets to North Ranch book, need to spot building ids on elevations, tomorrow we finish the book. 
