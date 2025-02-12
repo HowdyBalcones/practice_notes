@@ -3,19 +3,14 @@
 // then I want a simple cli interface for adding new contracts to the database.
 // 
 // TODO 
-// > add contract number / quote number to the data
-// > add client name 
-// > add contract dates 
-// > will create metadata files for this information -- basically this information needs to be siphoned into separate tables 
+// > will create metadata files for metadata -- basically this information needs to be siphoned into separate tables 
 // > write a function to batch operate on every .xslx file in the current directory
 //   needs to name the cleaned contract after the file it came from but with our file syntax
-//   needs to put them in a single repository for cleaned contract daya
+//   needs to put them in a single repository for cleaned contract data
 // > write a set of functions to test the cleaned contracts for errors. 
-// > write a regex to pull the file name and the file path. 
-//   for the file name, it should replace spaces with underscores and separate fields with hyphens
-//   something like, capture from the first front slash any amount of chars until the final char
-//   then, from the last char to the first encountered front slash
-// > need to scrub the initial files of hyphens lol
+// > need to scrub the initial files of hyphens lol - that was harder than expected!
+// > 
+
 const XLSX = require('xlsx');
 const fs = require('fs');
 const path = require('path');
@@ -220,16 +215,19 @@ function filter_data_in_wrong_colum(data, targetColumn, properColumn) {
    return data;
 }
 
-function export_data (work_book, file_path) {
-   // makes a new xlsx file, this can be changed easily. Worth adding a case statement here to handle other extensions. 
+function export_data (work_book, file_path, destination_path) {
+   // json data to sheet object
    let worksheet = XLSX.utils.json_to_sheet(work_book);
+   // and then back to json
    let tempWorksheet = XLSX.utils.sheet_to_json(worksheet, {
       header: 1
    });
-   // here we can map to the number key for headers, because doing it during import is the worst.
+   // align the headers correctly
    tempWorksheet = filter_column_headers(tempWorksheet);
+   // and then back to sheet!?
    tempWorksheet = XLSX.utils.json_to_sheet(tempWorksheet);
-   console.log(tempWorksheet[0]);
+   // console.log(tempWorksheet[0]);
+   // make the workbook name, the sheet, add the sheet to the book, add name in the write method
    const new_workbook_name = normalize_contract_names(file_path); 
    console.log(new_workbook_name);
    const new_workbook = XLSX.utils.book_new();
@@ -268,38 +266,47 @@ function normalize_contract_names(path_name) {
    const spaces_regex = /\s+/g;
    const file_name_regex = /[A-Za-z0-9\s]+\.xlsx$/;
    const job_identifier_regex = /^[A-Za-z0-9_]+/;
-   const job_name_regex = /^[A-Za-z0-9]+\s+(.*?)\s+REV\s+\d+[A-Za-z0-9\s]+?\.xlsx$/;
-   const revision_num_regex = /\s+(REV\s+\d+)\s+[A-Za-z0-9]+?\.xlsx$/;
-   const etc_after_revision_regex = /REV\s+\d+\s([A-Za-z0-9\s]+?)\.xlsx$/;
+   const job_name_regex = /^[A-Za-z0-9]+\s+(.*?)\s(Revision|revision|REV|Rev).+\.xlsx$/;
+   const revision_num_regex = /\s+(Revision|revision|REV|Rev)\s+(\d+)\s+.*\.xlsx$/;
+   const etc_after_revision_regex = /\s+\d+\s([A-Za-z0-9\s]+?)\.xlsx$/;
+   const removing_hyphens_regex = /\-+/g;
 
    if (!path_name.match(path_name_regex)) console.error("Path name regex invalid", `${path_name}`);
    let matched_path_name = path_name.match(path_name_regex);
-   let matched_file_name = matched_path_name[0].match(file_name_regex);
+
+   matched_path_name = matched_path_name[0].replace(removing_hyphens_regex, '');
+   let matched_file_name = matched_path_name.match(file_name_regex);
+
    if (matched_file_name === null) return "file name didn't match";
-   console.log(matched_file_name);
+
    let job_id = matched_file_name[0].match(job_identifier_regex);
-   if (job_id === null) return "can't find job id";
+   if (job_id === null) return `Can't find job id: ${matched_file_name[0]}`;
 
    let job_name = matched_file_name[0].match(job_name_regex);
-   if (job_name === null) return "can't find job name";
+   if (job_name === null) return `Can't find job name: ${matched_file_name[0]}`;
 
    let rev_num = matched_file_name[0].match(revision_num_regex);
-   if (rev_num === null) return "can't find revision number";
-   
+   if (rev_num === null) return `Can't find revision number: ${matched_file_name[0]}`;
+
    let etc_after_rev = matched_file_name[0].match(etc_after_revision_regex);
    if (etc_after_rev === null) return "can't find etc after revision number";
 
-   let file_name_components = [job_id[0],job_name[1].replace(spaces_regex, "_"),rev_num[1].replace(spaces_regex, "_"), etc_after_rev[1].replace(spaces_regex, "_")];
-   let formatted_file_name = `${file_name_components[0]}-${file_name_components[1]}-${file_name_components[2]}-${file_name_components[3]}.xlsx`
+   let file_name_components = [job_id[0],
+                               job_name[1].replace(spaces_regex, "_"),
+                               `${rev_num[1].replace(spaces_regex, "_")}_${rev_num[2]}`, 
+                               etc_after_rev[1].replace(spaces_regex, "_")
+                              ];
+   let formatted_file_name = `${file_name_components.join('-')}.xlsx`
 
    return formatted_file_name;
 }
 
 // the goal of this function is to run the cleaning and export xlsx functions on each file passed in as arguments using node builtins
 // it should take argv as input, for each file in argv, run the correct functions, it should also take an arg for the destination
-function batch_contract_clean(destination_path) {
+function batch_contract_clean() {
    // we are ignoring node, script, destination arg here
    const file_paths = process.argv.slice(3);  
+   const destination_path = process.argv[2];
    if (file_paths.length === 0) {
       console.error('No files provided. Usage: node script.js file1 file2 etc...');
       process.exit(1);
@@ -312,8 +319,7 @@ function batch_contract_clean(destination_path) {
             return;
          }
          const clean_contract = import_data(full_path);
-         const clean_contract_name = normalize_contract_names(full_path);
-         const new_file_path = path.join(path.dirname(full_path), clean_contract_name);
+         const new_file_path = path.join(destination_path, clean_contract_name);
          fs.writeFileSync(new_file_path, clean_contract);
          console.log(`Processed file saved: ${new_file_path}`)
          
@@ -321,12 +327,12 @@ function batch_contract_clean(destination_path) {
          console.log("Error processing file: ", e);
       }
    } 
+   for 
 }
 
 const file = "./00-contract_samples/2206JPI02S Anna Waters Creek REV 3 Signage.xlsx";
-const file2 = "./00-contract_samples/2108EP03S Bel Aire Revision 2- Corrected Math.xlsx";
-
-const data = import_data(file);
-export_data(data, file);
+const file2 ="./00-contract_samples/2108EP03S Bel Aire Revision 2- Corrected Math.xlsx" 
+const data = import_data(file2);
+export_data(data, file2);
 // console.log(data[0]);
 
