@@ -9,7 +9,7 @@
 //   needs to put them in a single repository for cleaned contract data
 // > write a set of functions to test the cleaned contracts for errors. 
 // > need to scrub the initial files of hyphens lol - that was harder than expected!
-// > 
+// > lets explore file.basename(file_path) for node at some point soon
 
 const XLSX = require('xlsx');
 const fs = require('fs');
@@ -215,7 +215,7 @@ function filter_data_in_wrong_colum(data, targetColumn, properColumn) {
    return data;
 }
 
-function export_data (work_book, file_path, destination_path) {
+function export_data (work_book, file_path) {
    // json data to sheet object
    let worksheet = XLSX.utils.json_to_sheet(work_book);
    // and then back to json
@@ -226,13 +226,13 @@ function export_data (work_book, file_path, destination_path) {
    tempWorksheet = filter_column_headers(tempWorksheet);
    // and then back to sheet!?
    tempWorksheet = XLSX.utils.json_to_sheet(tempWorksheet);
-   // console.log(tempWorksheet[0]);
+
    // make the workbook name, the sheet, add the sheet to the book, add name in the write method
-   const new_workbook_name = normalize_contract_names(file_path); 
-   console.log(new_workbook_name);
+   // const new_workbook_name = normalize_contract_names(file_path); 
+
    const new_workbook = XLSX.utils.book_new();
    XLSX.utils.book_append_sheet(new_workbook, tempWorksheet, "Sheet 1");
-   XLSX.writeFile(new_workbook, new_workbook_name, { compression: true });
+   XLSX.writeFile(new_workbook, file_path, { compression: true });
 }
 
 
@@ -264,10 +264,10 @@ function import_data (path) {
 function normalize_contract_names(path_name) {
    const path_name_regex = /^(\/|\.|\.\.).*/;
    const spaces_regex = /\s+/g;
-   const file_name_regex = /[A-Za-z0-9\s]+\.xlsx$/;
-   const job_identifier_regex = /^[A-Za-z0-9_]+/;
-   const job_name_regex = /^[A-Za-z0-9]+\s+(.*?)\s(Revision|revision|REV|Rev).+\.xlsx$/;
-   const revision_num_regex = /\s+(Revision|revision|REV|Rev)\s+(\d+)\s+.*\.xlsx$/;
+   const file_name_regex = /[A-Za-z0-9\s\.]+\.xlsx$/;
+   const job_identifier_regex = /^[A-Za-z0-9_\.]+/;
+   const job_name_regex = /^[A-Za-z0-9_\.]+\s+(.*?)\s(Revision|revision|REV|Rev).+\.xlsx$/;
+   const revision_num_regex = /\s+(Revision|revision|REV|Rev)\s+?(\d+).*\.xlsx$/;
    const etc_after_revision_regex = /\s+\d+\s([A-Za-z0-9\s]+?)\.xlsx$/;
    const removing_hyphens_regex = /\-+/g;
 
@@ -280,16 +280,16 @@ function normalize_contract_names(path_name) {
    if (matched_file_name === null) return "file name didn't match";
 
    let job_id = matched_file_name[0].match(job_identifier_regex);
-   if (job_id === null) return `Can't find job id: ${matched_file_name[0]}`;
+   if (job_id === null) return `${matched_file_name[0]}`;
 
    let job_name = matched_file_name[0].match(job_name_regex);
-   if (job_name === null) return `Can't find job name: ${matched_file_name[0]}`;
+   if (job_name === null) return `${matched_file_name[0]}`;
 
    let rev_num = matched_file_name[0].match(revision_num_regex);
-   if (rev_num === null) return `Can't find revision number: ${matched_file_name[0]}`;
+   if (rev_num === null) return `${matched_file_name[0]}`;
 
    let etc_after_rev = matched_file_name[0].match(etc_after_revision_regex);
-   if (etc_after_rev === null) return "can't find etc after revision number";
+   if (etc_after_rev === null) return `${matched_file_name[0]}`;
 
    let file_name_components = [job_id[0],
                                job_name[1].replace(spaces_regex, "_"),
@@ -307,6 +307,7 @@ function batch_contract_clean() {
    // we are ignoring node, script, destination arg here
    const file_paths = process.argv.slice(3);  
    const destination_path = process.argv[2];
+   console.log(destination_path)
    if (file_paths.length === 0) {
       console.error('No files provided. Usage: node script.js file1 file2 etc...');
       process.exit(1);
@@ -315,24 +316,28 @@ function batch_contract_clean() {
       try {
          const full_path = path.resolve(file_path);
          if (!fs.existsSync(full_path)) {
-            console.error(`File not found: ${full_path}`);
+            console.error(`File not found: ${file_path}`);
             return;
          }
+         // separated concerns here, let node function handle the path stuff, normalize names just renames a file, let export just do the export
+         // const filtered_data = match_index !== -1 ? data.slice(0, match_index + 1) : data;
          const clean_contract = import_data(full_path);
+         const clean_contract_name = normalize_contract_names(full_path); 
          const new_file_path = path.join(destination_path, clean_contract_name);
-         fs.writeFileSync(new_file_path, clean_contract);
+         export_data(clean_contract, new_file_path);
          console.log(`Processed file saved: ${new_file_path}`)
          
       } catch(e) {
          console.log("Error processing file: ", e);
       }
-   } 
-   for 
+   }
+   file_paths.forEach((path) => process_file(path));
 }
+
+batch_contract_clean();
 
 const file = "./00-contract_samples/2206JPI02S Anna Waters Creek REV 3 Signage.xlsx";
 const file2 ="./00-contract_samples/2108EP03S Bel Aire Revision 2- Corrected Math.xlsx" 
-const data = import_data(file2);
-export_data(data, file2);
+// const data = import_data(file2);
+// export_data(data, file2);
 // console.log(data[0]);
-
