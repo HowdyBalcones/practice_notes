@@ -1,0 +1,220 @@
+// HELPERS
+// Populate dropdown menu with all the available genres
+const populateGenreDropdown = (genres) => {
+    const select = document.getElementById('genres')
+
+    for (const genre of genres) {
+        let option = document.createElement("option");
+        option.value = genre.id;
+        option.text = genre.name;
+        select.appendChild(option);
+    }
+};
+
+// Returns the current genre selection from the dropdown menu
+const getSelectedGenre = () => {
+    const selectedGenre = document.getElementById('genres').value;
+    return selectedGenre;
+};
+
+// Displays the like and dislike buttons on the page
+const showBtns = () => {
+    const btnDiv = document.getElementById('likeOrDislikeBtns');
+    btnDiv.removeAttribute('hidden');
+};
+
+// Clear the current movie from the screen
+const clearCurrentMovie = () => {
+    const moviePosterDiv = document.getElementById('moviePoster');
+    const movieTextDiv = document.getElementById('movieText');
+    moviePosterDiv.innerHTML = '';
+    movieTextDiv.innerHTML = '';
+}
+
+// After liking a movie, clears the current movie from the screen and gets another random movie
+const likeMovie = () => {
+    clearCurrentMovie();
+    showRandomMovie();
+};
+
+// After disliking a movie, clears the current movie from the screen and gets another random movie
+const dislikeMovie = () => {
+    clearCurrentMovie();
+    showRandomMovie();
+};
+
+// Create HTML for movie poster
+const createMoviePoster = (posterPath) => {
+    const moviePosterUrl = `https://image.tmdb.org/t/p/original/${posterPath}`;
+
+    const posterImg = document.createElement('img');
+    posterImg.setAttribute('src', moviePosterUrl);
+    posterImg.setAttribute('id', 'moviePoster');
+  
+    return posterImg;
+};
+
+// Create HTML for movie title
+const createMovieTitle = (title) => {
+    const titleHeader = document.createElement('h1');
+    titleHeader.setAttribute('id', 'movieTitle');
+    titleHeader.innerHTML = title;
+  
+    return titleHeader;
+};
+
+// Create HTML for movie overview
+const createMovieOverview = (overview) => {
+    const overviewParagraph = document.createElement('p');
+    overviewParagraph.setAttribute('id', 'movieOverview');
+    overviewParagraph.innerHTML = overview;
+  
+    return overviewParagraph;
+};
+
+// Returns a random movie from the first page of movies
+const getRandomMovie = (movies) => {
+    const randomIndex = Math.floor(Math.random() * movies.length);
+    const randomMovie = movies[randomIndex];
+    return randomMovie;
+};
+
+// Uses the DOM to create HTML to display the movie
+const displayMovie = (movieInfo) => {
+    const moviePosterDiv = document.getElementById('moviePoster');
+    const movieTextDiv = document.getElementById('movieText');
+    const likeBtn = document.getElementById('likeBtn');
+    const dislikeBtn = document.getElementById('dislikeBtn');
+  
+    // Create HTML content containing movie info
+    const moviePoster = createMoviePoster(movieInfo.poster_path);
+    const titleHeader = createMovieTitle(movieInfo.title);
+    const overviewText = createMovieOverview(movieInfo.overview);
+  
+    // Append title, poster, and overview to page
+    moviePosterDiv.appendChild(moviePoster);
+    movieTextDiv.appendChild(titleHeader);
+    movieTextDiv.appendChild(overviewText);
+  
+    showBtns();
+    likeBtn.onclick = likeMovie;
+    dislikeBtn.onclick = dislikeMovie;
+};
+
+// HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Film Finder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400&family=Fredoka+One&family=Questrial&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/style.css">
+    <script defer src="https://kit.fontawesome.com/e918d10e90.js" crossorigin="anonymous"></script>
+    <script defer src="public/helpers.js"></script>
+    <script defer src="public/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="appTitle">🍿Film Finder🍿</h1>
+    </header>
+    <form id="genreForm">
+      <label>Choose a genre:</label>
+      <select name="genres" id="genres">
+      </select>
+    </form>
+    <button id="playBtn">Let's Play!</button>
+    <div id="movieInfo">
+      <div id="moviePoster"></div>
+      <div id="movieText"></div>
+    </div>
+    <div id="likeOrDislikeBtns" hidden>
+      <button id="likeBtn"><i class="fa-solid fa-thumbs-up"></i></button>
+      <button id="dislikeBtn"><i class="fa-solid fa-thumbs-down"></i></button>
+    </div>
+  </body>
+</html>
+
+// MAIN JS
+
+const tmdbKey = '5df738e85491134374d182555f707268';
+const tmdbBaseUrl = 'https://api.themoviedb.org/3';
+const playBtn = document.getElementById('playBtn');
+
+
+
+const getGenres = async () => {
+  const genreRequestEndpoint = '/genre/movie/list';
+  const requestParams = `?api_key=${tmdbKey}`
+  const urlToFetch = `${tmdbBaseUrl}${genreRequestEndpoint}${requestParams}`
+  // console.log(urlToFetch);
+  try {
+    const response = await fetch(urlToFetch);
+    if (response.ok) {
+      const jsonResponse = await response.json();
+      const genres = jsonResponse.genres;
+      //console.log(jsonResponse.genres)
+      //console.log(jsonResponse)
+      return genres;
+    }
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+const getMovies = async () => {
+  const selectedGenre = getSelectedGenre();
+  const discoverMovieEndpoint = '/discover/movie'
+  const requestParams = `?api_key=${tmdbKey}&with_genres${selectedGenre}`
+  urlToFetch = `${tmdbBaseUrl}${discoverMovieEndpoint}${requestParams}`
+  try {
+    const response = await fetch(urlToFetch);
+    if (response.ok) {
+      const jsonResponse = await response.json();
+      const movies = jsonResponse.results;
+      return movies;
+      // console.log(movies);
+    }
+  } catch (error) {
+    console.log(error);
+  }
+
+};
+
+const getMovieInfo = async (movie) => {
+const movieId = movie.id;
+const movieEndpoint = `/movie/${movieId}`;
+const requestParams = `?api_key=${tmdbKey}`;
+const urlToFetch = `${tmdbBaseUrl}${movieEndpoint}${requestParams}`;
+// console.log(urlToFetch)
+try {
+const response = await fetch(urlToFetch);
+// console.log(response);
+if (response.ok) {
+  const movieInfo = await response.json();
+  // console.log(movieInfo);
+  return movieInfo;
+  }
+} catch (error) {
+  console.log(error)
+}
+
+};
+
+
+// Gets a list of movies and ultimately displays the info of a random movie from the list
+const showRandomMovie = async () => {
+  const movieInfo = document.getElementById('movieInfo');
+  if (movieInfo.childNodes.length > 0) {
+    clearCurrentMovie();
+  };
+  const movies = await getMovies();
+  const randomMovie = getRandomMovie(movies);
+ // console.log(randomMovie);
+  const info = await getMovieInfo(randomMovie);
+  displayMovie(info);
+};
+
+getGenres().then(populateGenreDropdown);
+playBtn.onclick = showRandomMovie;

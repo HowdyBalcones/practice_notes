@@ -1,0 +1,50 @@
+++ Shell Utils
+- brew
+  + package manager
+  + zsh-syntax-highlighting
+- xcode
+  + Xcode and BSD tools
+  + xcode-select --install
+  + https://en.wikipedia.org/wiki/Xcode
+- .zshrc
+  + configure local shell
+
+- vim
+  + text editor
+- vimplug
+  + make vim fly
+  + YCM is a pain in the ass, setup everything else first
+  + ultisnips
+  + airline
+  + auto-pairs
+  + ale
+
+- .vim 
+  + configure vim
+- git 
+  + download code repo with notes
+- imagemagick
+  + cli image editor
+- iTerm2
+  + terminal emulator with tmux and shortcuts and tons of features
+- pyenv
+- npm
+
+
+++ Scripting
+- path
+  + create a local script dir and add it to the path var
+- review current lib and it's possible applications and modularity
+- understand more deeply the zsh environment and configs
+- review essential syntax and control structures Zsh and Bash
+- extendScript
+  + review script libraries and brainstorm initial projects
+- reset the adobeVim script to work anywhere
+  + runIllScript
+- 
+++ Resources
+- create dir for all educational resources regarding scripting in the git repo 
+
+ 
+
+

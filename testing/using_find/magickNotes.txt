@@ -1,0 +1,344 @@
+# These are some notes on image magick - basics
+
+-- These are links to resources I'm citing here
+# https://imagemagick.org/script/command-line-options.php
+# https://imagemagick.org/Usage/canvas/
+# https://imagemagick.org/Usage/canvas/#tile_memory
+# https://imagemagick.org/Usage/masking/#alpha
+# https://imagemagick.org/Usage/color_basics/#processing
+# https://imagemagick.org/Usage/color_mods/#sigmoidal
+
+
+-- Canvas Basics, useful operators and arguments --
+
+-- All about canvases --
+
+magick -size 100x100 canvas:khaki canvas-khaki.png
+	-- command target-image -operator options output-photo.etc
+
+
+magick -size 100x100 xc:wheat canvas-wheat.png -- xc: is a shorthand argument to make a canvas of a given color. 
+convert -size 100x100 xc:red red.png
+
+magick 'xc:Salmon[100x100!]' canvas-salmon.png -- here xc: is used with image read modifiers, gives size and color
+
+magick canvas-khaki.png -fill tomato -opaque khaki canvas-tomato.png -- with a given canvas, change the color with opaque
+
+magick rose: -crop 1x1+40+30 +repage -scale 100x100\! canvas-rose-red.png -- crop to single pixel, scale it to new canvas
+	-- rose is a builtin image for IM. 
+
+magick test.png -alpha Opaque +level-colors Sienna color-levelc.png
+	-- there is -level-colors and +level-colors, both control levels
+	-- alpha here makes the image visible, apparently that's not default
+
+magick test.png -alpha off -fill Chocolate -colorize 100% color-colorize.png
+	-- an older tech was to use colorize argument
+	-- for reasons of old IM always turn alpha off when using colorize
+
+magick test.png -alpha Off -sparse-color Voronoi '0,0 Peru' color-sparse.png
+	-- sparse-color option is worth exploring
+
+magick test.png -fill Tan -draw 'color 0,0 reset' color-reset.png
+	-- draw is worth exploring
+
+magick test.png -background Wheat -compose Dst -flatten color-flatten.png
+	-- compose Dst only reads the background canvas and ignores pixel colors of the original
+	-- what is flatten?
+
+magick test.png -background LemonChiffon -compose Dst -extent 100x100 color-extent.png
+	-- still using Dst method to ignore foreground image
+	-- extent is being used here to maintain image data, such as labels or comments, and replace the image itself with a 
+	given color from the background. -extent is worth looking into. 
+
+magick test.png -bordercolor Khaki -compose Dst -border 0 color-border.png
+	-- uses the -border argument and sets the -bordercolor to change the canvas color. 
+	-- note this method is not backwards compatible
+
+magick test.png -alpha off -fx Gold color-fx-constant.png
+	-- this uses the FX, DIY Operator
+	-- make sure to turn off transparency, as FX by default doesn't touch the transparency channel
+
+magick test.png -alpha off -fx "Gold*.7" color-fx-math.png
+	-- here fx is being used to do some color math, getting about a 70% darker gold
+
+-- All of the above methods can fill using fully opaque colors, and also fill using transparency. Check for the transparency 
+channel before hand. 
+
+magick test.png -alpha set -fill '#FF00040' -draw 'color 0,0 reset' color-semitrans.png
+	-- this sets the canvas to a semi-transparent red, using the draw argument
+	-- when using -fx remember to set the -channel to modufy the RGBA colors. 
+
+-- Blanking Image with Picked Color -- 
+	-- choose a specific pixel and create the canvas from that point. 0,0 is a common choice. 
+
+magick rose: -fx 'p{0,0}' color-pick-fx.png
+	-- uses -fx to select a pixel at given coordinates
+	-- slow apparently
+
+magick rose: -sparse-color voronoi '0,0 %[pixel:p{40,30}]' color-pick-sparse.png
+	-- this only selects the pixel one time, speeding up the process a lot.
+	-- uses the fx formula as an argument to Sparse Color
+
+magick rose: \( +clone -crop 1x1+64+22 -write MPR:pixel +delete \) -fill mpr:pixel -draw 'color 0,0 reset' color-pick-draw.png
+	-- this crops a pixel and tiles it across the image, using more advanced tech
+	-- see Tiling with an Image already in Memory link at top
+
+magick rose: -set options:distort:viewport '%wx%h+0+0' -crop 1x1+10+25 +repage -distort SRT 0 color-pick-distory.png
+	-- apparently this does the same as the above, there was no description for it.
+
+-- Other Canvas Tech -- 
+	-- These are less reliable but still usable techniques. They are less reliable because they are complicated and unclear 
+	in how they function making it harder to discern what's going on months/years later.
+
+magick test.png -threshold 100% -alpha off black-threshold.png
+	-- creates a black canvas using -threshold, then turns alpha off
+
+magick test.png -level 100%,100% -alpha off black-level.png
+	-- uses -level operator with arguments the same for black and white points, still need to turn off alpha
+
+magick test.png -fx 0 -alpha off black-fx.png
+	-- here we use the -fx operator to clear the pixels to zero
+	-- still need to set the alpha channel to make it fully opaque
+
+magick test.png -evaluate set 0 -alpha off black-evaluate.png
+	-- this is faster than the next above, apparently
+
+magick test.png -gamma 0 -alpha off black-gamma.png
+	-- apparently a misuse of the -gamma operator
+
+magick test.png -posterize 1 -alpha off black-posterize.png 
+	-- posterizes the image with too few color levels, only 1 color is used (black). 
+
+magick test.png -alpha transparent -alpha extract black-alpha.png
+	-- not sure about this one, makes image transparent then 'extract's the images mask, using -alpha operator
+
+-- White Canvas -- 
+
+magick test.png -threshold -1 -alpha off white-threshold.png
+	-- the traditional method, using -threshold operator.
+	-- the value of -threshold must be a negative number, to ensure all colors are mapped to white
+
+magick test.png -level -1,-1 -alpha off white-level.png
+	-- passing -level operator both the same negative values will accomplish the same thing
+
+magick test.png -fx 1.0 -alpha off white-fx.png
+	-- pixels can be set directly using the -fx operator
+
+magick test.png -evaluate set 100% -alpha off white-evaluate.png
+	-- should be faster than -fx operator, especially on larger images
+
+magick test.png -posterize 1 -alpha off -negate white-posterize.png
+	-- negate a black canvas
+
+magick test.png -alpha opaque -alpha extract white-alpha.png
+	-- makes image entirely opaque and then extracts the image mask with -alpha operator
+
+-- Transparent Canvas -- 
+	-- probably the most important canvas to make
+
+magick test.png -alpha transparent trans-alpha.png
+	-- directly clears the image to transparency
+	-- is a recent addition, not available everywhere
+
+magick test.png null: -alpha set -compose Clear -composite -compose Over trans-compose.png
+	-- makes a fully transparent black canvas using the Clear alpha composition operator with an overlay image of a single 
+	pixel, null: in this case, as it will be ignored
+	-- worth looking into the Clear alpha composition operator
+	-- and the -compose operator 
+
+magick test.png -alpha set -fill none -draw 'matte 0,0 reset' color-matte.png
+	-- uses -draw matte operator to replace the matte (transparency) channel value with the trans value of the current 
+	-fill operator in this case it makes it fully transparent
+
+magick test.png -alpa set -channel A -fx 0 +channel trans-fx.png
+	-- using fx operator
+
+magick test.png -alpha set -channel A -evaluate set 0 +channel trans-evaluate.png
+	-- faster than fx
+
+magick test.png -channel A -threshold -1 +channel trans-threshold.png
+	-- uses -threshold operator, limits its effect to just the transparency channel
+	-- apparently this deals with the matte channel, using threshold to set it to the maximum value
+	-- the value -1 is used instead of 101%
+
+magick trans-fx.png -alpha off trans-fx-alpha-off.jpg
+	-- here the command reads in an above image, and turns off the matte/alpha channel so the colors are visible again
+-- many of the above methods rely on the image having an alpha channel already, if it doesn't use the -alpha On operator and argument
+in which case consider the -alpha Transparent operator/arg
+-- see Controlling Image Transparency in the links
+
+-- Misc Canvas Coloring -- 
+
+magick test.png -gamma -1,-1,0 -alpha off yellow-gamma.png
+	-- gamma is the only operator flexible enough to generate a color on its own, without calling for a specific color
+	-- this makes a single colored canvas
+
+magick test.png +level 40%,40% -alpha off grey-level
+	-- +level operator can set the grey level for all the color channels
+	-- not the most backwards compatible
+
+-- Gradients of Color --
+	-- a very useful operator is gradient:
+
+magick -size 100x100 gradient: gradient.jpg
+	-- creates default, white top to black bottom gradient
+	-- you can choose a different color, or two different colors
+
+magick -size 100x100 gradient: blue		gradient-range1.png
+magick -size 100x100 gradient: yellow		gradient-range2.png
+magick -size 100x100 gradient: green-yellow	gradient-range3.png
+magick -size 100x100 gradient: red-blue		gradient-range4.png
+magick -size 100x100 gradient: tomato-steelblue	gradient-range5.png
+	-- can make non-greyscale gradients as above
+	-- with one color provided, you get white or black for the other range, whichever is a farther distance from the given color
+	-- there can be problems with the color interpretation going on in the transition between colors. 
+	-- check Processing Real Images in the links for more info.
+	-- gradient currently only understands sRGB color space. 
+
+magick -size 10x120 gradient:snow-navy			gradient-ice_sea.png
+magick -size 10x120 gradient:gold-firebrick		gradient-burnished.png
+magick -size 10x120 gradient:yellow-limegreen		gradient-grassland.png
+magick -size 10x120 gradient:khaki-tomato		gradient-sunset.png
+magick -size 10x120 gradient:darkcyan-snow		gradient-snow_escape.png
+	-- These are some nice ones from the authors preference
+
+-- gradient options --
+	-- gradient:angle=angle(in degrees)
+	-- gradient:bounding-box=WxH+X+Y
+	-- gradient:center=x,y
+	-- gradient:direction=value
+	-- gradient:extent=value
+	-- gradient:radii=x,y
+	-- gradient:vector=x1,y1,x2,y2
+
+-- Radial Gradients -- 
+
+magick -size 100x100 radial-gradient: rgradient.png
+	-- default radial gradient
+	-- clipping will occur if the canvas is not square, as below
+
+magick -size 100x60 radial-gradient: rgradient-clip.png
+	-- this will clip the gradient
+	-- the diameter is set to fit the larger between X & Y
+
+magick -size 100x142 radial-gradient: -gravity center -crop 100x100+0+0 rgradient-crop.png
+	-- the above where the size is based upon the largest side allows for us to gen a square radial-gradient
+	-- making one side 1.42 (sqrt 2) times larger than the other will yield the square RG
+
+magick -size 100x100 radial-gradient:blue		rgradient-range1.png
+magick -size 100x100 radial-gradient:yellow		rgradient-range2.png
+magick -size 100x100 radial-gradient:green-yellow	rgradient-range3.png
+magick -size 100x100 radial-gradient:red-blue		rgradient-range4.png
+magick -size 100x100 radial-gradient:tomato-steelblue	rgradient-range5.png
+	-- These are some nice gradient colors in the radial format
+
+-- Gradients with Transparency -- 
+	-- bot radial and standard gradients support transparency
+
+magick -size 100x100 gradient:none-firebrick gradient-transparent.png
+	-- the only difference here is there is a color transition going on
+
+magick -size 100x100 gradient:none-black -fill firebrick -colorize 100% gradient-trans-colorize.png
+	-- There is an issue with colors defaulting towards transparent black
+	-- The above avoids such issues
+
+-- Gradients by Histogram Adjustment --
+
+magick -size 100x100 gradient: -sigmoidal-contrast 6,50% gradient-sigmoidal.png
+	-- this produces a smoother transition throughout the gradient
+	-- is good for overlapping photos
+	-- see sigmoidal contrast, overlapping photos, included in links
+
+-- Evaluate/Function Gradients -- 
+
+magick -size 100x100 gradient: -evaluate cos 0.5 -negate gradient-cosine.png
+	-- using the Evaluate operator and related Function Operator to modify a simple linear gradient
+	-- the command above does a similar thing to the -sigmoidal-contrast gradient
+
+magick -size 100x100 gradient: -function Polynomial -4,4,0 gradient-peak.png
+	-- this creates a smooth parabolic peak in the center of the image
+
+magick -size 100x100 gradient: -function sinusoid 4,-90 gradient-bands.png
+	-- this is a banded ripple pattern
+
+-- Distorted Gradients --
+-- Rotated Gradient --
+
+magick -size 142x142 gradient: -rotate -45 -gravity center -crop 100x100+0+0 +repage gradient-diagonal.png
+	-- not the most compatible command
+	-- will rotate any linear gradient
+	-- increases size, multiply by 1.42, then rotate 90 degrees, and crop to its final size
+
+magick -size 100x100 gradient: -distort SRT 60 gradient-srt.png
+	-- another syntax for creating rotated gradients, is shorter but newer (less compatible)
+	-- uses Virtual Pixel, Edge 
+	-- Distort Viewport can be used to map the distorted gradient onto another image
+
+-- Warping Gradients -- 
+	-- There are lots to do with gradients beyond simple rotation
+
+magick -size 100x100 gradient: -swirl 180 gradient-swirl.png
+	-- there is a -swirl operator, it swirls the image according to provided degrees
+
+magick -size 100x100 gradient: -rotate -90 -distort Perspective '0,0 40,0 99,0 59,0 0,99 -10,99 99,99 109,99' gradient-trapezoid.png
+	-- remap the gradient into a trapezoidal shape
+
+magick -size 100x100 gradient: -distort Arc '180 0 50 0' gradient-arc.png
+magick -size 100x100 gradient: -distory Arc '360 0 50 0' gradient-circle.png
+	-- wrap gradient into arcs and circles
+	-- radial-gradient is similar to what the second script produces
+
+magick -size 1x1000 gradient: -rotate 90 -distort Arc '360 -90 50 0' +repage -gravity center -crop 76x76+0+0 +repage gradient-angle-even.png
+	-- This is for making a polar angle gradient
+	-- the discontinuity, where the highest and lowest values roll over, is handled at the -90 point in the Arc
+	-- this method makes a canvas of even size	
+
+magick -size 1x1000 gradient: -rotate 90 +distort Polar '36.5,0,.5,.5' +repage -transverse gradient-angle-odd.png
+	-- similar results can be attained through Polar Distort
+	-- see +repage, what is that doing?
+	-- this makes a canvas of odd size
+
+magick -size 100x100 radial-gradient: -background black -wave -28x200 -crop 100x100+0+0 +repage gradient-triangle.png
+	-- makes something roughly triangle shaped, beginning to appear organic
+
+magick -size 100x100 radial-gradients: +distort Polar '49' +repage gradient-bird.png
+	-- makes something roughly bird shaped
+
+-- Gradients by Composition --
+
+magick -size 100x100 gradient: \( +clone +clone \) -background gray50 -compose ModulusAdd -flatten gradient-venetian.png
+	-- don't understand the parenthesis function
+	-- creates venetian blind style effect
+	-- ModulusAdd is the important function here
+
+magick -size 100x100 gradient: \( gradient: -rotate -90 \) \( -clone 0--1 -clone 0--1 \) -background gray50 -compose ModulusAdd -flatten gradient-vent-diag.png
+	-- the above can be attained as a diagonal
+
+magick -size 100x100 gradient:yellow-blue \( gradient:black-lime -rotate -90 \) -compose CopyGreen -composite gradient-colormap.png
+	-- this blends two color gradients using either Channel Copy or Mathematical blending
+	-- gens colorful 2 dimensional colormap gradients
+
+-- Gradients in other Colorspaces --
+
+magick -size 30x600 xc:red -colorspace HSB gradient: -compose CopyRed -composite -colorspace RGB -rotate 90 gradient-rainbow.png
+	-- gradient: generator cannot handle colorspace outside non-linear sRGB
+	-- the above transfers the gradient into a different color space after generation
+
+
+
+	
+--- Going Rogue --- practicing on my own
+
+-- fun distortions, tiling --
+
+magick banana.png -resize 100x100 -density 300 newishBanana.png
+magick -size 400x400 tile:newBanana.png -rotate 30 tileBanana2.png
+magick -size 1000x1000 tile:newBanana.png -distort Arc '360 360 360 ' tileBanana2.png
+
+
+
+
+
+ 
+
+

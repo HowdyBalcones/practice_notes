@@ -4,12 +4,14 @@
 // 
 // TODO 
 // > will create metadata files for metadata -- basically this information needs to be siphoned into separate tables 
-// > write a function to batch operate on every .xslx file in the current directory
-//   needs to name the cleaned contract after the file it came from but with our file syntax
-//   needs to put them in a single repository for cleaned contract data
 // > write a set of functions to test the cleaned contracts for errors. 
-// > need to scrub the initial files of hyphens lol - that was harder than expected!
+//   + we now have a set of contract path names to play with, stored in a .txt file 
+//   + 
 // > lets explore file.basename(file_path) for node at some point soon
+// > now we need a bash script or maybe something with node that will gather all the raw contracts in a single place. 
+//   + find script is done, but it has revealed a new issue. 
+//   + there is important data that needs to be captured in these pathnames. The path name is the most convenient place
+//   to pull the client and job names from, which should be added to the contracts themselves. 
 
 const XLSX = require('xlsx');
 const fs = require('fs');

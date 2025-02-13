@@ -1,0 +1,134 @@
+//document.getElementById("count-el").innerText = 9999999
+
+//Some way to store the count
+//vairables to store count in
+
+//let count=5+12
+//console.log(count)
+
+//let myAge=27
+//console.log(myAge)
+
+// let firstBatch = 5
+// let secondBatch = 7
+// let count = firstBatch + secondBatch
+
+// console.log(count)
+
+// let myAge=27
+// let humanDogRatio=7
+// let myDogAge=humanDogRatio*myAge
+
+// console.log(myDogAge)
+
+
+//count+1
+// let count = 3
+// let count = 5
+// count=count+1
+// console.log(count)
+
+// let bonusPoints=50
+// bonusPoints=bonusPoints+50
+// console.log(bonusPoints)
+// bonusPoints=bonusPoints-75
+// console.log(bonusPoints)
+// bonusPoints=bonusPoints+45
+// console.log(bonusPoints)
+
+//initialize the count as 0
+//listen for clicks on the increment button
+// increment the count variable when the button is clicked
+//change the count-el in the HTML to relect the new count
+
+// function increment() {
+// 	console.log("The button was clicked")
+// }
+
+// set up race
+
+// function countdown(){
+// console.log(5)
+// console.log(4)
+// console.log(3)
+// console.log(2)
+// console.log(1)
+// }
+
+// countdown()
+
+// // go!
+// // Players are running the race
+// // race is finished
+
+// // Get ready for the new race
+// countdown()
+
+//How to avoid repetition
+
+// // create function that logs out the number 42 to the console
+// //call or invoke the function
+
+// function dogBone() {
+// 	console.log(42)
+// }
+
+// dogBone()
+
+// let lap1 = 34
+// let lap2 = 33
+// let lap3 = 36
+
+// //create function that logs out the sum of all the lap times
+
+// // function blackAdder(){
+// // 	console.log(lap1+lap2+lap3)
+// // }
+// // blackAdder()
+
+// //alternatively
+// function blackAdder(){
+// 	let totalTime = lap1 + lap2 + lap3
+// 	console.log(totalTime)
+// }
+// blackAdder()
+
+
+//document.getElementById("count").innerText = 5
+
+// let count=0
+// let countEl= document.getElementById("count-el") // this is called passign in a function
+// console.log(countEl)
+
+// function increment() {
+// 	count = count + 1
+// 	countEl.innerText = count
+// 	console.log(count)
+// }
+
+//initialize count var as 0
+// grab count-el and place into var countEl and log it after
+//create increment function, attach countEl to inner text, set it equal to count
+//log within the function
+
+// let count=0
+// console.log(count)
+
+// let countEl= document.getElementById("count-el")
+// console.log(countEl)
+
+// let saveBtn= document.getElementById("save-btn")
+
+// function increment(){
+// 	count=count+1
+// 	countEl.innerText = count 
+// 	console.log(count)
+// 	saveBtn.innerTxt = "Save"
+// }
+
+// function save(){
+// 	saveBtn.innerText = "Saved"
+// 	console.log("Saved" + " " + count)
+// 	count = 0
+	
+// }

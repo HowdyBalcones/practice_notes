@@ -1,0 +1,1027 @@
+Todays Programming Notes: 2024-12-23
+- Started with "Javascript: The Definitive Guide, 7th Edition" today. We are moving away from CodeCademy. 
+- refer to 011-JS_notes.txt onwards for js related topics.
+
+
+Todays Programming Notes: 2024-12-09
+- ah ok so a definitive use for the labeler, a reason to actually call it a labeling program.
+    + create sheet from labels, so that a contract is trule live based on the spotting.
+    + tags - a label that is associated with an object inside illustrator. 
+- Git is great, need to learn more about it. Flashcards would be a good idea. 
+- Coding review for thirty minutes then we are getting back into LB-1
+- list of things for LB-1 
+   + want to pull the customer info block, cut it onto a new sheet, remove the empty columns its creating on sign data sheet
+   + would like to rearrange the columns to be in the order of standard contract -- working here 
+      - currently the each, total costs are in the wrong order
+      - should go: section, key, qty, desc, each val, total val
+      - space between sections for my sanity 
+   + A tricky-ish thing, need to create the section column and correctly apply each section name to it, then delete 
+   the section name/section total row. 
+      - sort've did this in the Escript object, review
+   + After we get that stuff working, need a means to run the script on multiple files at once. 
+      - test with 10 files, then 100, then 1000. 
+      - need a way to pull the files quickly off the server into our sandbox
+   + once we can process files in batch, it will be time to decide the method for dumping this into a database 
+   so we aren't reliant on excel.  
+      - probably run a mySQL server either locally or on the company server and slowly add things to it.
+      Even with just five years of data, we'd be in the money. 
+
+Todays Programming Notes: 2024-12-06
+Todays Programming Notes: 2024-12-03
+- Gonna work through more codecademy today, then look through LB-1
+- Reading through yesterdays notes for thirty 
+- need to sync my flashcards for anki 
+
+- scripting ideas
+   + need a sorting script for placing objects into a frame of given size. There are becoming many instances where 
+   I would like to not have to do that manually. 
+   
+
+- Graphs with Javascript 
+   + A data structure to represent data points, or vertices, that are connected by edges.
+   + Used in maps where each location is a vertex, each path or road is an edge. 
+   + Features: Directed or undirected, weighted or unweighted, vertices, edges
+      - Nodes/Vertices: Represent entities within the graph. 
+      - Edges: Represent relationships or connections between vertices. 
+      - Paths: A series of edges connected by vertices. 
+      There can be multiple edges between vertices. 
+      - Types of Graph: Directed, Undirected, Weighted, Unweighted, Sparse, Dense, Cyclic, Acyclic
+      - Directed & Undirected: 
+         * Directed -> edges have a direction. A -> B, where A is connected to B but not neccesarily the inverse.
+         * Undirected -> Bidirectional. A <-> B, where both are connected.
+      - Weighted & Unweighted:
+         * Weighted -> edges have associated weights or costs.
+         * Unweighted -> All edges are treated equally, with no weights.
+      - Sparse & Dense:
+         * Sparse -> Few edges relative to vertices. 
+         * Dense -> Many edges relative to vertices. 
+      - Disconnected -> no edges between a pair or more of vertices. 
+      - Cyclic & Acyclic: 
+         * Cyclic -> Contains cycles
+         * Acyclic -> Does not contain cycles
+   + Cycles: where connecting edges return to the initial vertice
+   + Adjacency List: A table. Both columns and rows are the same list of vertices. 
+      - to find a connection or relationship, you find the point of connection in the table. 
+      - You could show this as a traditional table, a graph, or an adjacency list (an object here).
+   + Pseudo Vertex, Edge, Graph classes
+   Vertex: Stores any data, maintains a list of connections to other vertices, represented by a list of edges instances.
+   Can add and remove edges going to another vertex. 
+   Graph: Stores all of its vertices, a list of vertex instances. 
+   Knows if the graph itself is directed or undirected.
+   Knows if the graph is weighted or unweighted. 
+   A graph can add/remove its own vertices. 
+   The graph can also add and remove edges between stored vertices. 
+   
+   - Implementing  Graph, Edge, Vertice classes      
+const Edge = require('./Edge.js');
+const Vertex = require('./Vertex.js');
+
+class Graph {
+  constructor(isWeighted = false, isDirected = false) {
+    this.vertices = [];
+    this.isWeighted = isWeighted;
+    this.isDirected = isDirected;
+  }
+
+  addVertex(data) {
+    const newVertex = new Vertex(data);
+    this.vertices.push(newVertex);
+
+    return newVertex;
+  }
+
+  removeVertex(vertex) {
+    this.vertices = this.vertices.filter(v => v !== vertex);
+  }
+
+  addEdge(vertexOne, vertexTwo, weight) {
+    const edgeWeight = this.isWeighted ? weight : null;
+
+    if (vertexOne instanceof Vertex && vertexTwo instanceof Vertex) {
+      vertexOne.addEdge(vertexTwo, edgeWeight);
+    if (!this.isDirected) {
+      vertexTwo.addEdge(vertexOne, edgeWeight);
+    }
+    } else {
+      throw new Error('Expected Vertex arguments.');
+    }
+  }
+
+  removeEdge(vertexOne, vertexTwo) {
+    if (vertexOne instanceof Vertex && vertexTwo instanceof Vertex) {
+      vertexOne.removeEdge(vertexTwo);
+    if (!this.isDirected) {
+      vertexTwo.removeEdge(vertexOne);
+    }
+    } else {
+      throw new Error('Expected Vertex arguments.');
+    }
+  }
+
+  print() {
+    this.vertices.forEach(vertex => vertex.print());
+  }
+}
+
+const trainNetwork = new Graph(false, true);
+const atlantaStation = trainNetwork.addVertex('Atlanta');
+const newYorkStation = trainNetwork.addVertex('New York');
+trainNetwork.addEdge(atlantaStation, newYorkStation);
+trainNetwork.removeEdge(atlantaStation, newYorkStation);
+
+trainNetwork.print();
+
+module.exports = Graph;
+
+Vertex class
+const Edge = require('./Edge.js');
+
+class Vertex {
+  constructor(data) {
+    this.data = data;
+    this.edges = [];
+  }
+
+  addEdge(vertex, weight) {
+    if (vertex instanceof Vertex) {
+      this.edges.push(new Edge(this, vertex, weight));
+    } else {
+      throw new Error('Edge start and end must both be Vertex');
+    }
+  }
+
+  removeEdge(vertex) {
+    this.edges = this.edges.filter(edge => edge.end !== vertex);
+  }
+
+  print() {
+    const edgeList = this.edges.map(edge =>
+        edge.weight !== undefined ? `${edge.end.data} (${edge.weight})` : edge.end.data) || [];
+
+    const output = `${this.data} --> ${edgeList.join(', ')}`;
+    console.log(output);
+  }
+}
+
+module.exports = Vertex;
+
+Edge class
+
+class Edge {
+  constructor(start, end, weight = null) {
+    this.start = start;
+    this.end = end;
+    this.weight = weight;
+  }
+}
+
+module.exports = Edge;
+
+implementing and using the code
+const Graph = require('./Graph.js');
+let trainNetwork = new Graph(true, true);
+const losAngeles = trainNetwork.addVertex("Los Angeles");
+const sanFrancisco = trainNetwork.addVertex("San Francisco");
+const newYork = trainNetwork.addVertex("New York");
+const atlanta = trainNetwork.addVertex("Atlanta");
+const denver = trainNetwork.addVertex("Denver");
+const calgary = trainNetwork.addVertex("Calgary");
+
+trainNetwork.addEdge(sanFrancisco, losAngeles, 400);
+trainNetwork.addEdge(losAngeles, sanFrancisco, 400);
+trainNetwork.addEdge(newYork, denver, 1800);
+trainNetwork.addEdge(denver, newYork, 1800);
+trainNetwork.addEdge(calgary, denver, 1000);
+trainNetwork.addEdge(denver, calgary, 1000);
+trainNetwork.addEdge(losAngeles, atlanta, 2100);
+trainNetwork.addEdge(atlanta, losAngeles, 2100);
+
+trainNetwork.removeEdge(calgary, denver);
+trainNetwork.removeEdge(denver, calgary);
+trainNetwork.removeEdge(newYork, denver);
+trainNetwork.removeVertex(calgary);
+
+trainNetwork.print();
+
+
+
+
+Todays Programming Notes: 2024-12-02
+- Merge Sort
+   + Done in two steps: Splitting data into "runs" or smaller components, and then recombining runs into sorted lists.
+   + Call sort on the list, which cuts that list in half. Recursively call sort on those two halves, until each 
+   list only has a single element. Then begin merging. 
+   + While merging single element lists, compare their values. 
+   + Return each element list with the smaller element followed by the larger. 
+   + Merging larger pre-sorted lists
+      - Two lists, left and right. 
+      - Final merged list called both. 
+      - to merge, iterate through both with a two indices, left_index and right_index
+      - left_index and right_index both point to their smallest value at the start
+      - Compare left_index with right_index and the smaller of the two is added to both. 
+      - Whichever list had the smallest index, check the next element in that list against the first element of the other list. 
+      - In this example: Left had the smaller value at index 0
+      - Compare left[1] against right[0]
+      - Whichever is smaller is now both[1];
+      - Reminder that both lists need to be pre sorted.
+      - Small correction here. The lists are all 1 element long, so the lists themselves don't iterate as if in a standard
+      array. The comparisons are made between two arrays at maximum 1 element long. Both is a standard array of N length.
+   + Time complexity:
+      - Worst Case: O(n*log(n));
+      - Best case: O(N);
+   + Does not mutate the array since it creates a new array (Both)
+   + Pseudo for merge sort:
+   Base case
+   function merge_sort(arr) {
+      if (arr.length === 1) {
+         return arr;
+      }
+   }
+   middle_index = floor of int. of (left + right) / 2
+   left_arr = arr from 0 to middle_index;
+   right_arr = arr from middle_index to end;
+
+   // recursive call
+   mergeSort(leftArray);
+   mergeSort(rightArray);
+   // everything above will accomplish step one; split the array into single value arrays.
+
+   // this will do the recursive splitting and the final merge at once
+   return merge(mergeSort(leftArray), mergeSort(rightArray));
+   
+   + Pseudo for merge function:
+   function merge(leftArr, rightArr) {
+      sortedArray = [];
+      while (leftArr.length && rightArr.length > 0) {
+         if (leftArr[0] < rightArr[0]) {
+            sortedArray.push(leftArr[0]);
+            remove leftArr[0] from leftArr;
+         } else {
+            sortedArray.push(rightArr[0]);
+            remove rightArr[0] from rightArr;
+         }
+      }
+      return sortedArray with concatenated leftArr + rightArr;
+   }
+   
+   + JS implementation of merge sort: 
+// This will create an array of single element arrays, leftArray and rightArray, using recursion. 
+   const mergeSort = (startArray) => {
+  const length = startArray.length;
+  if (length === 1) {
+    return startArray;
+  }
+  
+  const mid = Math.floor(length / 2);
+  const leftArray = startArray.slice(0, mid);
+  const rightArray = startArray.slice(mid, length);
+
+  return merge(mergeSort(leftArray), mergeSort(rightArray))
+}
+
+// Once the recursion is complete, merge will compare each single element array and order each element into a new array
+// It then deletes the first array in the outer array, "dropping" the next value to the head for comparison. 
+// The concatenation at the end occurs because either array may not be empty, only one of them is needed to be empty for
+// the program to return. In that case, the final array needs to be a composite of all arrays as below. 
+const merge = (leftArray, rightArray) => {
+  const sortedArray = [];
+  while (leftArray.length > 0 && rightArray.length > 0) {
+    if (leftArray[0] < rightArray[0]) {
+      sortedArray.push(leftArray[0]);
+      leftArray.shift();
+    } else {
+      sortedArray.push(rightArray[0]);
+      rightArray.shift();
+    }
+  }
+  return sortedArray.concat(leftArray).concat(rightArray);
+}
+
+
+const inputArr = [3, 5, 2, 90, 4, 7];
+
+console.log(mergeSort(inputArr));
+
+module.exports = {
+  mergeSort
+};
+
+- Quicksort
+   + Divide and conquer 
+   + recursive
+   + Pivot = random value of the array 
+   + Partition = create sub arrays based on lesser than / greater than the pivot value
+   + Choose pivot from input array. 
+     - Sub array of lesser than / greater than the pivot values. 
+     - repeats until the sub arrays contain zero or 1 element. 
+     - the LT is never compared to the GT group
+   + Runtime of: O(N log(N))
+   + Worst case runtime of: O(N^2) -- when the pivot is greatest or least value in the list each time
+   + If the data set is already sorted, then it's often the worst case runtime.
+   + Pseudo: 
+   if (given_arr.length > 1) {
+      find pivot index through partitioning
+         if (left_pointer < pivot_index) {
+            recursive call to quick_sort(given_array.slice(left_pointer, pivot_index));
+         } else if (pivot_index < right_pointer) {
+            recursive call to quick_sort(given_array.slice(right_pointer, pivot_index));
+         }
+   }
+
+   Partitioning Pseudo:
+   start with middle_index
+   while you haven't looked through the whole array (leftIndex < rightIndex);
+   move leftIndex up until you encounter value > pivot
+   move rightIndex down until you encounter value < pivot
+   swap those found elements
+   return the last left element index
+   
+   + Pivot can be:
+   First element of the array
+   Last element of the array
+   Middle element of the array
+   Random element of the array
+   
+   Implementation: 
+const swap = require('./swap');
+
+const quicksort = (array, leftBound = 0, rightBound = array.length - 1) => {
+  if (rightBound > leftBound) {
+    const pivotIndex = partition(array, leftBound, rightBound);
+    quicksort(array, leftBound, pivotIndex - 1);
+    quicksort(array, pivotIndex, rightBound);
+  }
+  return array;
+}
+
+// Thinking in states. The outer while loop is a base case. There are two inner while loops that move past each element in the
+// given array if it passes the comparision. Then a final if statement handles when neither element passes the test. 
+// making the swap between smaller/larger elements in the given array. 
+const partition = (array, leftIndex, rightIndex) => {
+  const pivot = array[Math.floor((rightIndex + leftIndex) / 2)];
+  while (leftIndex <= rightIndex) {
+    while (array[leftIndex] < pivot) {
+      leftIndex++;
+    }
+    while (array[rightIndex] > pivot) {
+      rightIndex--;
+    }
+    if (leftIndex <= rightIndex) {
+      swap(array, leftIndex, rightIndex);
+      leftIndex++;
+      rightIndex--;
+    }
+  }
+  return leftIndex;
+}
+
+module.exports = {
+  partition,
+  quicksort
+};
+
+// helper
+const swap = (arr, indexOne, indexTwo) {
+   const temp = arr[indexTwo];
+   arr[indexTwo] = arr[indexOne];
+   arr[indexOne] = temp;
+}
+
+
+- Review notes for thirty minutes
+- Continue code academy learning paths
+- lets diagram more for our program
+   + need to look towards next functions
+   + understand the UI workflow
+   + A lightweight database package 
+   + how to make this work for everyone at once: Docker? 
+   + 
+- work on sheetJs filters
+Todays Programming Notes: 2024-11-26
+- Javascript array methods
+   + .filter
+   + .some
+   + .map 
+
+
+Todays Programming Notes: 2024-11-25
+- back again, Learning about heaps. 
++ Binary Sort 
+   - sorting algorithm 
+   - bubble sort, merge sort, and quicksort 
+   - Bubble Sort:
+      + according to the sort criteria, swaps elements to shift elements to beginning or end of list
+      + sorts elements e through Starting position and End Position
+      + creates an ascending or descending list of elements
+      + ascending = e1 > e2
+      + descending = e1 < e2
+      + multiple assignment -- list[index1], list[index2] = list[index2], list[index1];       
+        ** relatively new feature
+      + temp variable to enable the swapping of e
+      + Pseudo:
+      while array is not sorted 
+         for each value in the array
+            if current value > next value 
+               swap current with next value
+      return array 
+      + Example: 
+      const swap = require('./swap');
+
+const bubbleSort = input => {
+  let swapping = true;
+  
+  while (swapping) {
+    swapping = false;
+    for (let i = 0; i < input.length - 1; i++) {
+      if (input[i] > input[i + 1]) {
+        console.log(`Swapping pair ${input[i]}, ${input[i+1]} in [${input}]`);
+        swap(input, i, i + 1);
+        swapping = true;
+      }
+    }
+  }
+  return input;
+};
+
+module.exports = bubbleSort;
+
+      Helper: 
+const swap = (arr, indexOne, indexTwo) => {
+  const temp = arr[indexTwo];
+  arr[indexTwo] = arr[indexOne];
+  arr[indexOne] = temp;
+};
+
+module.exports = swap;
+
+Todays Programming Notes: 2024-11-18
+- so the coding notes have been more frequent than the dates would indicate, but our notes script isn't setup between hosts. 
+- continue with implementing some of the pseudo code that we wrote out last night. Want to dabble with some UI today.
+- lets try and put that object together
+   + object of lists, aoa's
+   + 
++ the immediate problems
+   - how do we handle calling for external functions from .jsx files? 
+   - basically everything will be extendscript except the javascript for parsing xslx files
+   ** this has changed, we are exploring the functionality of modern javascript interacting with extendscript. 
+   The ease of use makes up for some of the missing compatibility. Need to write more to understand the exact
+   extent of that compatibility.  
+
+Todays Programming Notes: 2024-11-13
++ General for the day: 
+    - these won't be methods they will just be functions, the object will just hold the data. 
+    - a big shift would just to use modern javascript for most of it and only call extendscript functions for UI and triggers
+    - I think getting a simple UI functioning, attaching it to a labeling system, and binding it together with a 
+    useful object that is intuitive to build on top of. Rather than rely on the contract to begin with, lets just demonstrate
+    that the programs aren't some hoax you know.
+    ** So this was prescient, but we discovered that sheetJs and vanilla modern JS is quite powerful so many of the 
+    extendscript functions are redundant for this project. They were good practice? I guess. 
+    
+    - The functionality for organizing the signs into a book, contract, or other format can come after and will be immediately 
+    understandable as useful. 
+    - Contract is just an object of lists
+    - cleaned contract will just be aoa, other structured format
+    Contract {
+        constructor(job_id) {
+            this.job_id = job_id;
+            this.contract_list = [];
+            this.section_list = [];
+            this.sign_list = [];
+            this.build_list = [];
+            this.labels_list = [];
+        }
+        sheet-create_clean_contract (data) {
+            // will invoke sheetJs magic and return a simple aoa
+        }
+        import_contract (contract) {
+            // turns a formatted contract into:
+            contract_list, section_list, sign_list.
+        }
+        export_contract () {
+            // will export the contract_list as a csv or xlsx (brave)
+        }
+        reorganize_contract () {
+            // if there are deleted items on the contract, update the key values of the list.
+        }
+        display_contract() {
+            // interacts with the UI to show the current sign_list
+        }
+        update_contract(current_contract) {
+            // this will change the contract_list based on whatever UI state the user has
+            // checks for changes, calls add_revision
+        }
+        add_revision(current_contract) {
+            // once a build or label has changed, increment the revision property of that object
+        }
+        add_build (build_text) {
+            // there is a build list because there are only so many unique builds 
+            // in a contract and parsing that information before creating the book will save time down the chain
+            // will take values from UI and add them to a build object in the build_list;
+            // see build UI to understand that formatting more clearly 
+        }
+        edit_build (target_build) {
+            // change an existing build to a new build based on UI state
+        }
+        delete_item (target_item) {
+            // for removing items from a list
+        }
+        sort_build (build_list) {
+            // will compare the build list objects in build_list for unique builds, deleting duplicates
+            
+        }
+        add_label (label_list) {
+            // push a new label onto the label list from the UI state
+        }
+        delete_label (label_list) {
+            // delete a given label from the label list
+        }
+        edit_label (target, label_list) {
+            // change the fields of a label in the label list
+        }
+        
+        update_labels (label_list) {
+            // change the current label list according to label_list UI state
+        }
+        create_labels_from_section (section_list) {
+            // create labels from the section table, so if you have imported the contract
+            // you will have a preset list on display in the UI
+            // you can of course add a label
+        }
+        search_label (target, label_list) {
+            // search the labels list and return matched label fields
+        }
+        
+        ui-build_ui (sign_list) {
+            // a list of unique builds for the given job 
+            // a build is a stack of materials, each index in the stack has a layer_name
+            // a material is a material_name, thickness
+            // shows layers n with 
+            // for each layer display the material and thickness
+        }
+        ui-label_ui (label_list) {
+            // a user can create a label
+            // the label will have fields that will allow for adding it to the contract
+            // the label_list will be displayed, you can duplicate, edit, add new labels
+            // the fields are sign key, count, sign name,  
+            
+        }
+        
+        
+    }
+- Heaps 
+    + a binary tree with a maximum and minimum value.
+    + min heap - the root is the minimum value of the dataset, every child value is greater than or equal to its parent
+    + max heaps - the root is the maximum value of the dataset, every child value is less than or equal to its parent
+    + max heaps and min heaps are considered separate structures
+    + heapify up - when an element that breaks the fundamental rules of a given heap is passed up the tree, replacing it's parent,
+    until the conditions of the tree are met. 
+    + heapify down - when the least value is the topmost node, if we want to replace that node we heapify down. 
+    take the bottom right node with no children and replace the root. Then shift the new root with the least value between 
+    it's new children until the conditions of the tree are met. 
+    + heaps are good for knowing the maximum and minimum of a dataset. 
+    + often uses arrays under the hood
+    + the explanation of this is pretty bad. 
+    - Heapify Up -- when the tree is a MIN HEAP, and you are replacing the ROOT NODE with the bottom right-most node. 
+    The node will then descend the "tree". While the parent node is lesser than both it's children, it will replace
+    the child with the least value until the new node is the least value child. 
+    - Heapify Down - when the tree is a MAX HEAP, and you are replacing the ROOT NODE, 
+Example: min-heap
+   class MinHeap {
+  constructor() {
+    this.heap = [ null ];
+    this.size = 0;
+  }
+
+  popMin() {
+    if (this.size === 0) {
+      return null
+    }
+    console.log(`\n.. Swap ${this.heap[1]} with last element ${this.heap[this.size]}`);
+    this.swap(1, this.size);
+    const min = this.heap.pop();
+    this.size--;
+    console.log(`.. Removed ${min} from heap`);
+    console.log('..',this.heap);
+    this.heapify();
+    return min;
+  }
+
+  add(value) {
+    console.log(`.. adding ${value}`);
+    this.heap.push(value);
+    this.size++;
+    this.bubbleUp();
+    console.log(`added ${value} to heap`, this.heap);
+  }
+
+  bubbleUp() {
+    let current = this.size;
+    while (current > 1 && this.heap[getParent(current)] > this.heap[current]) {
+      console.log(`.. swap ${this.heap[current]} with parent ${this.heap[getParent(current)]}`);
+      this.swap(current, getParent(current));
+      console.log('..', this.heap);
+      current = getParent(current);
+    }
+  }
+
+  heapify() {
+    console.log('Heapify');
+    let current = 1;
+    let leftChild = getLeft(current);
+    let rightChild = getRight(current);
+
+    while (this.canSwap(current, leftChild, rightChild)) {
+      if (this.exists(leftChild) && this.exists(rightChild)) {
+        if (leftChild < rightChild) {
+          this.swap(current, leftChild);
+          current = getLeft(current);
+        } else {
+          this.swap(current, rightChild);
+          current = getRight(current);
+        }
+      } else {
+        this.swap(current, leftChild);
+        current = getLeft(current);
+      }
+      leftChild = getLeft(current);
+      rightChild = getRight(current);
+    }
+  }
+
+  exists(index) {
+    return index <= this.size;
+  }
+
+  canSwap(current, leftChild, rightChild) {
+    // Check that one of the possible swap conditions exists
+    return (
+      this.exists(leftChild) && this.heap[current] > this.heap[leftChild]
+      || this.exists(rightChild) && this.heap[current] > this.heap[rightChild]
+    );
+  }
+
+  swap(a, b) {
+    [this.heap[a], this.heap[b]] = [this.heap[b], this.heap[a]];
+  }
+
+}
+
+const getParent = current => Math.floor((current / 2));
+const getLeft = current => current * 2;
+const getRight = current => current * 2 + 1;
+
+module.exports = MinHeap;
+ 
+    
+    
+- Binary Tree
+    + has the following properties: 
+    Data
+    depth value - top level is 1, everything greater than 1 is lower in the tree
+    left pointer - points to the left child of the tree, itself a binary tree, and must have data lesser than the root nodes data
+    right pointer - points to right child of the tree, itself a binary tree, must have data greater than the root nodes data
+    + traversing a binary tree
+    Three methods: Preorder, Inorder, Postorder. 
+    Preorder - current node, left child node, then right child node
+    Inorder - left child node, current node, right child node -- this will give you a sorted list of the tree values
+    Postorder - left child node, right child node, current node
+    
+    + searching a binary tree
+    + insert method example:
+  insert(value) {
+    if (value < this.value) {
+        if (this.left) {
+          this.left.insert(value);
+        } else {
+          this.left = new BinaryTree(value, this.depth + 1);
+        }
+    } else {
+      if (this.right) {
+        this.right.insert(value);
+      } else {
+        this.right = new BinaryTree(value, this.depth + 1);
+      }
+    }
+  }
+    + testing insert method example
+    bt.insert(50);
+    bt.insert(125);
+    bt.insert(75);
+    bt.insert(25);
+    console.log(bt)
+
+    + testing search by value
+      getNodeByValue(value) {
+    if (value === this.value) {
+      return this;
+    } else if (this.left && value < this.value) {
+      return this.left.getNodeByValue(value);
+    } else if (this.right && value > this.value) {
+      return this.right.getNodeByValue(value);
+    } else {
+      return null;
+    }
+  }
+    + testing search by value
+    console.log(bt.getNodeByValue(75));
+    console.log(bt.getNodeByValue(55));
+    
+    + example of binary tree traversal 
+      depthFirstTraversal() {
+    if (this.left) {
+      this.left.depthFirstTraversal();
+    }
+    console.log(`${this.value}, ${this.depth}`);
+    if (this.right) {
+      this.right.depthFirstTraversal();
+    }
+  }
+
+
+
+
+- Binary Search -- using tree structure for search
+    + Requires a sorted data set. 
+    + Check the middle of the dataset
+    if match return data
+    + if middle < target
+    start at step 1 using right half of list
+    + if middle > target
+    start at steo 1 using left half of list
+    Binary Search -- using tree structure for search
+    + Requires a sorted data set. 
+    + Check the middle of the dataset
+    if match return data
+    + if middle < target
+    start at step 1 using right half of list
+    + if middle > target
+    start at steo 1 using left half of list
+    // we know this is a logarithmic time complexity without considering the sorting. 
+    // you are looking at half as much of a list each time you iterate. 
+    + With the sorting, we resort to linear search O(N) speed complexity
+    
+    + binary search example: 
+const binarySearch = (arr, target) => {
+  let left = 0;
+  let right = arr.length;
+  
+  while (right > left) {
+    const indexToCheck = Math.floor((left + right) / 2);
+    const checking = arr[indexToCheck];
+    console.log(`indexToCheck equals: ${indexToCheck}`)
+  
+    if (checking === target) {
+      return indexToCheck;
+    } else if (target > checking) {
+        left = indexToCheck + 1;
+    } else {
+        right = indexToCheck;
+    }
+  }
+  return null;
+} 
+- tree data structures
+    + has a root, the topmost element of the tree
+    + they are structured, pointing down a tree splits. The left split is always less than it's parent, and the right is always
+    greater. This structure ensures efficient access to child elements of the root. This is called binary search. 
+    + composed of nodes related by reference to other nodes: parent -> child relationship. elements within the child are known
+    as leaves.
+    + Leaves do not have references to any other nodes; they have no children. 
+    + Children are held as references to parent nodes. 
+    + Parents may be related to other parents, children, and leaves. 
+    + Roots are not held as reference to any other node
+    + Use cases: hierarchical information, organizational charts, genealogical trees, computer file systems, HTML elements "DOM", 
+    state diagrams, and etc
+    + Tree has nodes, nodes are a simple structure with data and a list of children, children are also tree nodes
+    + Functions of a tree are adding and removing data, and traversing the tree in two ways: 
+    + Depth first
+    + Breadth First.
+
+    + pseudo:
+    class treeNode
+        constructor (data)
+        this.data = data;
+        this.children = [];
+        
+        addChild(child) 
+            if (child instanceof TreeNode) 
+               children.push(child)
+            else
+            children.push(new TreeNode(child))
+        
+        removeChild(childToRemove) 
+    + removeChild method: 
+    // this uses newer JS syntax, which I should know but for projects right now isn't as flexible. 
+    // Worth knowing both well!
+            removeChild(childToRemove) {
+    const length = this.children.length;
+    this.children = this.children.filter(child => {
+      if (childToRemove instanceof TreeNode) {
+        return childToRemove !== child;
+      } else {
+        return child.data !== childToRemove;
+      }
+    });
+    if (length === this.children.length) {
+      this.children.forEach(child => child.removeChild(childToRemove))
+    }
+  }             
+    
+      print(level = 0) {
+    let result = '';
+    for (let i = 0; i < level; i++) {
+      result += '-- ';
+    }
+    console.log(`${result}${this.data}`);
+    this.children.forEach(child => child.print(level + 1));
+  }
+    // this use of recursion on objects is trippin me out
+    depthFirstTraversal() {
+    console.log(this.data);
+    this.children.forEach(child => child.depthFirstTraversal());
+  }
+
+ breadthFirstTraversal() {
+    let queue = [ this ];
+    while (queue.length > 0) {
+      const current = queue.shift();
+      console.log(current.data);
+      queue = queue.concat(current.children);
+    }
+  }
+menu.print();
+menu.removeChild("BBQ Chicken");
+menu.removeChild("Yogurt");
+menu.children[2].addChild("BBQ Chicken");
+menu.children[0].addChild("Yogurt");
+
+// Need a lot more practice with trees, but they already seem like an incredible tool to know. 
+
+    
+
+- Space complexity 
+    + space or memory used in the run time of a program
+    That literally means how many spots in memory are registered for the use of the given function
+    So if the size of the register is variable it will be larger than O(1)
+    + passing by reference doesn't increase the space complexity for recursive functions, JS passes by reference
+    In C++ you do have to specify passing by reference 0.0
+    + 
+    + Examples:
+    function findMin(inputArray) {
+        let min = inputArray[0];
+        for (let i = 0; i < inputArray.length; ++i) {
+            if (inputArray[i] < min) {
+                min = inputArray[i];
+            }
+        }
+        return min;
+    }
+- asymptotic notation
+   + Used to understand the total number of instructions a program will require. 
+   + Theta, O, and Omega are used to represent N^2
+   + Use the most dominant term in the formula, which means the most computationally significant. 
+   + Big ol Theta: use when there is only has one case in terms of runtime
+   function(n) 
+      count = 0
+      while N/2 !== 0;
+         increment count
+         N = N/2;
+      return count
+   Counting these iterations will give you Asymptotic notation.
+   For the above pseudo code, you get Theta log2 N
+   + Common runtimes: 
+   0(1) - constant run
+   0(log N) - logarithmic run
+   0(N) - linear run
+   0(N log N) - used in sorting
+   0(N^2) - polynomial run time
+   0(2^N) - exponential run time
+   0(N!)  - factorial run time
+
+
+- Recursion
+   + calling a function or method from within itself. 
+   + We've done this a few times, and watched several tutorials that used recursion for data structures. 
+   + pseudo: 
+   define the function, speller
+      if there are no more letters // this is the "Base case" or an exit condition
+         print all done
+      print the first letter
+      call speller with the given name - the first letter
+   + compared to an iterative approach, you don't need a loop or to know the length of the target beforehand. 
+   + recursion works via the call stack, a stack data structure that all of your functions get piled onto. 
+   The last function you call is the first to be executed. 
+   + pseudo:
+   sum_list(arr) {
+      if arr empty? 
+      return 0;
+      
+      return first + sum_list(arr-1);
+   }
+   + example of a linked list method for finding matching node data recursively. 
+  findNodeRecursively(data, currentNode = this.head) {
+    if (currentNode === null) {
+      return null;
+    } else if (currentNode.data === data) {
+      return currentNode;
+    } else {
+      return this.findNodeRecursively(data, currentNode.next);
+    }
+  }
+
+}
+
+
+Todays Notes: 2024-11-12
+
++++ General Plans +++ 
+- This will be a general repository for script ideas, programming knowledge, program outlines, and the like. 
+We were having problems separating our regular notes from the program related rambling. 
+
+- Separate by language 
+   + Separate by project 
+
++++ Denotes Section +++ 
+- Denotes Subsection
+   + Denotes topic in subsection 
+   - Follows a topic in subsection
+   + This would be a new topic or idea
+
+
++++Javascript+++
+- sheetjs
+   + Links 
+   - https://docs.sheetjs.com/docs/
+   - an extensively used open source library of javascript for manipulating xls files into generic table data. 
+   
+- Extendscript and ecmascript 3
+   + Links
+   - https://ai-scripting.docsforadobe.dev/introduction/whatIsScripting.html
+   - https://yearbook.github.io/esdocs/#/Illustrator/Application
+
+   + Adobe scripting API based on a legacy Javascript format. Extensive customization. 
+   
+   + FRC scripting - Our library of scripts developed at Fource. Uses mostly Extendscript compatible JS.
+   
+   + Custom UI - building windows, panels, and groups using the built in UI functions for extendscript. 
+   
+   + Leveraging builtin Adobe features - the programs Illustrator, Photoshop, and inDesign have many useful tools
+   baked into the software already. Combining and extending those tools is a great place to start, continue. 
+   
+   + LLMs are fairly useful for debugging and getting started, examples and research is really where 
+   I use them the most. 
+
+   + General scripting directions
+   - Labeler -- this is meant to be a program that will take a selection of objects in illustrator and prompt the user to 
+   define a label for each object. The labels are well formed according to a composition hierarchy. The specifics are geared 
+   towards defining the composition of signs and not any and all things that could be made in illustrator. 
+   Eventually the goal is to have functions that help the designer in automating repetitive tasks based on the data held in 
+   each label. Where the labels are stored and how they correlate with objects in the document are my main problems right now. 
+
+      - The naming definitions -- JOB_ID-SECTION_CLASS-SECTION_ID-SIGN_CLASS-COUNT
+      - JOB_ID -- The specific job identification number. Should be available off the contract. 
+      - SECTION_CLASS -- section for the given sign. This can come from the file name but always the contract. 
+      - SECTION_ID -- The letter associated with the line item in each section. It's just a key for signs on the contract. 
+      - SIGN_CLASS -- Something more general than an exact sign name but still specific enough to know what the sign is. 
+      - COUNT -- the number of the given object to be made. 
+
+      - Problems -- 
+      Count -- determining whether the count should be made of exact or unique copies. 
+      Defining the GUI -- most of this work is done since we're working with an API that has GUI functions builtin 
+      
+
+      - Benefits and Abilities 
+      Drop signs from production artwork into sign book automatically
+      Build profile views of signs from "flat" artwork. 
+      Generate builds from profile view
+      Generate flat artwork from build and sign class
+      Generate descriptions from build, profile, sign class
+      
+   
+   - Parser -- just a basic CSV parser. It's related to labeler because its purpose here is to read through contract data. 
+      + If we can get consistently clean data from the contract in an automated way there will be a lot more work we can start. 
+      Basically all of the data needed to generate the naming hierarchy for labels will come from the contract. 
+      
+      + Problems -- currently the parser function isn't changing quote states correctly. It's flipping to true when there is 
+      no more quotation. I have a feeling the data is fucked so there is more cleaning to do so our program works through it 
+      reasonably well. 
+      Not sure need to test.       
+
+- Questions and Research 
+   + Application Obj. - The parent for all objects in the Extendscript DOM
+   - Parent of Documents
+   Handles matrices
+   Preferences
+   Printing
+   Configuration details - version num, AdobeID, path to the application
+   Main font list
+   - Methods
+   aAT... notation - don't understand the use for some of these. Don't really know what the sequencer is. 
+   Can be used to prompt for dialogs, redraw documents, undo changes, and a lot more from what I can tell.
+    
+
++++CPP+++
+
++++Bash+++
+
+

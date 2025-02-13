@@ -47,17 +47,53 @@ console.log([...constructor_range]);
 
 
 class Testing {
+   field1 = "Field 1";
+   field2 = 200;
+   field3 = null;
    constructor(string) {
-      this.string = string;
+      this.string = string !== undefined ? string : "No string provided.";
    }
    say_something() { return this.string };
    say_your_mom() { return `Your Mom, and ${this.string}` };
 }
 
+class Not_Testing {
+   constructor(string) {
+      this.string = string !== undefined ? string : "No string provided.";
+   }
+   not_testing() { return this.string };
+   not_saying_your_mom() { return `Your Mom, and ${this.string}` };
+}
+
+const testing_obj = {
+   name: "testing",
+   year: Date()
+}
+
+let testing_obj2 = new Object(testing_obj);
+
 let hw = new Testing("Hello World");
+let not_hw = new Not_Testing("Hello Solar System");
+
+// using instanceof
+console.log(not_hw instanceof Not_Testing);
+console.log(not_hw instanceof Testing);
+
+// using methods defined in class
 console.log(hw.say_something());
 console.log(hw.say_your_mom());
 
+// testing objects and prototype chains
+console.log(new Testing());
+console.log(testing_obj.year);
+console.log(testing_obj2);
 
+// testing static fields in classes
+console.log(hw.field1, hw.field2, hw.field3);
+
+// viewing the prototype of a class or object
+console.log(Object.getPrototypeOf(hw));
+console.log(Object.getPrototypeOf(testing_obj));
+console.log(Object.getPrototypeOf(testing_obj2))
 
 

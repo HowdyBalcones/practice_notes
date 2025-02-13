@@ -1,0 +1,6 @@
+CREATE TABLE hello_world (
+   test1    varchar(80),
+   test2    int,
+   test3    real,
+   test4    date
+   );
