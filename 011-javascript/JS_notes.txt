@@ -3163,7 +3163,13 @@ Expressions and Operators ch. 4
 
    - Subclasses and Prototypes ch. 9.5.1
       > we are extending the Range class from previous examples. 
-      > 
+      > ES6 and later uses the super keyword to create sub and super classes
+      > if using extends, then super must be called within the constructor for the subclass
+      > if no constructor is defined in the subclass, one is implicitly created, and it accepts whatever values are passed to it. 
+      > .this cannot be used before the super constructor has been invoked
+      > new.target is undefined in functions that are invoked without the new keyword, except in constructor functions. 
+      In constructors, new.target references the invoked constructor. When a subclass constructor is invoked and uses super() to invoke the superclass 
+      constructor, that superclass constructor will see the subclass constructor as the value of new.target.
    examples: 
       // this is the constructor function for the subclass, the older method in pre-ES6
    function Span(start, span) {
@@ -3188,9 +3194,77 @@ Expressions and Operators ch. 4
       return `(${this.from}... +${this.to - this.from})`;
    };
    
+   class EZArray extends Array {
+      get first() { return this[0]; }
+      get last() { return this[this.length-1]; }
+   }   
+   let a = new EZArray();
+   a instanceof EZArray    // returns true
+   a instanceof Array      // also true
+   a.push(1,2,3,4);        // a.length === 4; inherited methods work 
+   a.pop();                // more inherited methods
+   a.first                 // 1: first getter defined by subclass
+   a.last                  // 4: last getter defined by subclass
+   a[1]                    // regular array access syntax works
+   Array.isArray(a)        // true, subclass instance is an array
+   EZArray.isArray(a)      // true, subclass inherits static methods as well
+   Array.prototype.isPrototypeOf(EZArray.prototype)   // true
+   Array.isPrototypeOf(EZArray)                       // also true
    
-   
+   // example of a Typed Map, something that checks the values of a map for their typing 
+   // super is like the constructor for the superclass but just for inside the subclass 
 
+   class TypedMap extends Map {
+      constructor(keyType, valueType, entries) {
+         if (entries) {
+            for (let [k, v] of entries) {
+               if (typeof k !== keyType || typeof v !== valueType) {
+                  throw new TypeError(`Wrong type for entry [${k}, ${v}]`);
+               }
+            }
+         }
+         super(entries);
+         this.keyType = keyType;
+         this.valueType = valueType;
+      }
+      set(key, value) {
+         if (this.keyType && typeof key !== this.keyType) {
+            throw new TypeError(`${key} is not of type ${this.keyType}`);
+         }
+         if (this.valueType && typeof value !== this.valueType) {
+            throw new TypeError(`${value} is not of type ${this.valueType}`);
+         }
+         // notice overriding the inherited method, but then calling the same method from the super afterwards to set the values
+         return super.set(key, value);
+      }
+   }   
+
+   - Delegation Instead of Inheritance ch. 9.5.3
+      > usually, creating instanced of class from within a "wrapper" class definition has more utility. 
+   examples: 
+      Histogram.js: a Set-like class implemented with delegation
+      Set-like class that tracks how many times a value has been added. Call add() and remove() like you would for set. 
+      Call count() to find out how many times a given value has been added. The default iterator yields the values that have been added
+      at least once. Use entries() if you want to iterate [value, count] pairs. 
+      class Histogram {
+         constructor() { this.map = new Map(); }
+         count(key) { return this.map.get(key) || 0; }
+         has(key) { return this.count(key) > 0; }
+         get size() { return this.map.size; }
+         add(key) { this.map.set(key, this.count(key) + 1); }
+         delete(key) {
+            let count = this.count(key);
+            if (count === 1) {
+               this.map.delete(key);
+            } else if (count > 1) {
+               this.map.set(key, count - 1);
+            }
+         }
+         [Symbol.iterator]() { return this.map.keys(); }
+         keys() { return this.map.keys(); }
+         values() { return this.map.values(); }
+         entries() { return this.map.entries(); }
+      }
 
 
 
