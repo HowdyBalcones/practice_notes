@@ -29,6 +29,8 @@
 //       - temp sign contracts - for temporary signage, similar to website contract
 //       - 
 
+
+
 const XLSX = require('xlsx');
 const fs = require('fs');
 const path = require('path');
@@ -206,6 +208,42 @@ function filter_above_match (data, term_match) {
    return filtered_data;
 }
 
+function filter_for_metadata(data) {
+   const metadata = [];
+   const composed_metadata = [];
+   let data_string = '';
+   let found_keyword = false;
+   const kw = ['CLIENT:', 'ATTN:', 'QUOTE #:', 'DATE:', 'SIGNAGE PROGRAM:'];
+   const raw_meta_data = filter_below_match_flex(data, "SIGNAGE PROGRAM:");
+   for (let i = 0; i < raw_meta_data.length; ++i) {
+      let row = raw_meta_data[i];
+      row.forEach((cell) => {
+         if (cell) metadata.push(cell);
+      })
+   }
+   // this checks for keyword matches and appends the match and each item until the next match, pushing the string onto the composed_metadata array 
+   // upon finding the next match. lets fine tune this over the coming days. 
+   for (let i = 0; i < metadata.length; ++i) {
+      let item = metadata[i];
+      let isKeyword = kw.some(keyword => item.includes(keyword));
+
+      if (isKeyword) {
+         if (found_keyword && data_string.length > 0) {
+            composed_metadata.push(data_string);
+            data_string = '';
+         }
+         found_keyword = true;
+      }
+      if (found_keyword) {
+         data_string += `${item} `;
+      }
+   }
+   if (data_string.length > 0) {
+      composed_metadata.push(data_string);
+   }
+   console.log(composed_metadata);
+}
+
 function contract_filter (data) {
    // filter first column, only return rows that don't contain the given string
    return data.filter(row => row[1] !== "FOURCE COMMUNICATIONS");
@@ -218,7 +256,7 @@ function filter_rows_by_column_match(data, col_num, term_match) {
 }
 
 // for taking data in a row below where it needs to be and also in a different col and placing it into the row above in the right col
-function filter_data_in_wrong_colum(data, targetColumn, properColumn) {
+function filter_data_in_wrong_column(data, targetColumn, properColumn) {
    for (let i = 1; i < data.length; ++i) {
       let currentRow = data[i];
       let previousRow = data[i-1];
@@ -272,12 +310,13 @@ function import_data (path) {
    let filtered_data = raw_data.filter(row => row.some(cell => cell !== null && cell !== '')); // don't import empty rows
    filtered_data = contract_filter(filtered_data); // remove the page labels from the contract
    filtered_data = filter_below_match_flex(filtered_data, ["SUBTOTAL", "SUBTOTAL:"]); // remove the legal jargon at the bottom of a contract
+   filter_for_metadata(filtered_data);
    filtered_data = filter_above_match(filtered_data, "SIGNAGE PROGRAM:"); // remove the headers, could use this data later.
    filtered_data = filter_extra_descriptions(filtered_data, 3); // merge cells where rows were made to complete a sentence (lol)
    filtered_data = filter_section_column(filtered_data, 1, 0);
    // filtered_data = filter_add_column_headers(filtered_data);
    filtered_data = remove_last_subtotal(filtered_data);
-   filtered_data = filter_data_in_wrong_colum(filtered_data, 5, 3);  // filters description details that are getting put into the wrong place
+   filtered_data = filter_data_in_wrong_column(filtered_data, 5, 3);  // filters description details that are getting put into the wrong place
    return filtered_data;
 }
 
@@ -358,6 +397,8 @@ batch_contract_clean();
 
 const file = "./00-contract_samples/2206JPI02S Anna Waters Creek REV 3 Signage.xlsx";
 const file2 ="./00-contract_samples/2108EP03S Bel Aire Revision 2- Corrected Math.xlsx" 
+
+module.exports = { insert_col, filter_column_headers, remove_last_subtotal, filter_section_column, filter_extra_descriptions, filter_below_match, filter_below_match_flex, filter_above_match, contract_filter, filter_data_in_wrong_column, export_data, import_data, normalize_contract_names, batch_contract_clean };
 // const data = import_data(file2);
 // export_data(data, file2);
 // console.log(data[0]);
