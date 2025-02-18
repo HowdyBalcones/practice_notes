@@ -2,16 +2,32 @@
 // the next goal is to be able to write these files into a postgres database. 
 // then I want a simple cli interface for adding new contracts to the database.
 // 
+// WINS
+// > the basic filter for new contracts is done, there are kinks but it does most of the work it needs to.
+// > the function to call the script from the cli is done, it works great and is fast. 
+// > bash script to find files and pull them from the server in a coherent way is done. 
+// > 
+//
 // TODO 
-// > will create metadata files for metadata -- basically this information needs to be siphoned into separate tables 
+// > Metadata into cols is priority. With that created, we can dump the clean contracts into a sql db and start running fast
+// The tests are important, but also idgaf about the other form types. I don't work in those departments. 
 // > write a set of functions to test the cleaned contracts for errors. 
-//   + we now have a set of contract path names to play with, stored in a .txt file 
-//   + 
-// > lets explore file.basename(file_path) for node at some point soon
-// > now we need a bash script or maybe something with node that will gather all the raw contracts in a single place. 
-//   + find script is done, but it has revealed a new issue. 
-//   + there is important data that needs to be captured in these pathnames. The path name is the most convenient place
-//   to pull the client and job names from, which should be added to the contracts themselves. 
+//    + test exact columns required
+//    + test for no empty rows 
+//    + how to test for different forms? because there are standards, but they aren't explicit
+//    + it would be nice if we could check the total number of line items from the original to the clean copy, that will take some brainblasting
+//    + does the section col exist? Are there any gaps in the section col? 
+//    + also pretest the raw contract against a template to determine form type -- this seems promising
+//       - test headers and footers against template
+//       - test rows for section keywords
+//       - 
+//    + types of forms - 
+//       - main signage contract - the form we've been working with, meant for sign designers
+//       - addon tracking form - created after a book is complete, reconciles altered qtys 
+//       - website contract - used for billing a website design job 
+//       - misc contract - small jobs, usually under ten signs. they are extremely random in layout. 
+//       - temp sign contracts - for temporary signage, similar to website contract
+//       - 
 
 const XLSX = require('xlsx');
 const fs = require('fs');
@@ -90,12 +106,14 @@ function filter_section_column (data, sectionColumn, targetColumn) {
    const sectionRegex = /^#\d+:/;
    const cellRegex = /\*.*$/;
    const cellPageRegex = /CONT\.?/;
+   const inued_regex = /INUED/;
    for (let i = 0; i < data.length; ++i) {
       let row = data[i];
       let sectionCell = row[sectionColumn];
       if (sectionCell && sectionRegex.test(sectionCell)) {
          currentSection = sectionCell.replace(cellRegex, "");
          currentSection = currentSection.replace(cellPageRegex, "");
+         currentSection = currentSection.replace(inued_regex, "");
          data.splice(i, 1);
          i--;
       } else if (currentSection) {
@@ -317,6 +335,7 @@ function batch_contract_clean() {
    function process_file(file_path) {
       try {
          const full_path = path.resolve(file_path);
+         const file_name = path.basename(file_path);
          if (!fs.existsSync(full_path)) {
             console.error(`File not found: ${file_path}`);
             return;
@@ -324,8 +343,7 @@ function batch_contract_clean() {
          // separated concerns here, let node function handle the path stuff, normalize names just renames a file, let export just do the export
          // const filtered_data = match_index !== -1 ? data.slice(0, match_index + 1) : data;
          const clean_contract = import_data(full_path);
-         const clean_contract_name = normalize_contract_names(full_path); 
-         const new_file_path = path.join(destination_path, clean_contract_name);
+         const new_file_path = path.join(destination_path, file_name);
          export_data(clean_contract, new_file_path);
          console.log(`Processed file saved: ${new_file_path}`)
          

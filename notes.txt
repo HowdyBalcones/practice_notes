@@ -1,3 +1,13 @@
+Todays Notes: 2025-02-17
+> the script shouldn't bother with renaming files, the data is too fucked. 
+> need to pull the metadata header out and add columns for it
+> then we work on creating different form filters. It's crazy they function. 
+> 
+
+> to create a directory of source files that links to the user files, we would have to store production files where people don't 
+expect them to be. The added effort isn't worth the extra control over versions and usage. Simply locking files that shouldn't move
+will have to be enough for now. 
+
 Todays Notes: 2025-02-11
 > more lakehaven today, working through amenity and site
 > dimensions added to most, need to upload my prod to bu tonight
