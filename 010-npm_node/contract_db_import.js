@@ -11,6 +11,8 @@
 // TODO 
 // > Metadata into cols is priority. With that created, we can dump the clean contracts into a sql db and start running fast
 // The tests are important, but also idgaf about the other form types. I don't work in those departments. 
+//    + so we have a metadata object now
+//    + need to write the function to add the columns according to the object keys.
 // > write a set of functions to test the cleaned contracts for errors. 
 //    + test exact columns required
 //    + test for no empty rows 
@@ -125,6 +127,16 @@ function filter_section_column (data, sectionColumn, targetColumn) {
    return data;
 }
 
+// goal is to create columns filled with the value at each key of the passed in object
+function generic_fill_col(data, target_column, object) {
+   let cols_to_add = Object.keys(object);
+   for (let i = 0; i < cols_to_add.length; ++i) {
+      let object_value = object[`${cols_to_add[i]}`];
+      
+   }
+   console.log(data, target_column, cols_to_add);
+}
+
 function filter_extra_descriptions (data, targetColumn) {
    for (var i = 1; i < data.length; ++i) {
       let currentRow = data[i];
@@ -208,6 +220,7 @@ function filter_above_match (data, term_match) {
    return filtered_data;
 }
 
+// might work better as a key value map, where the first map is a key and the subsequent string is the value until the next key. 
 function filter_for_metadata(data) {
    const metadata = [];
    const composed_metadata = [];
@@ -247,6 +260,40 @@ function filter_for_metadata(data) {
 function contract_filter (data) {
    // filter first column, only return rows that don't contain the given string
    return data.filter(row => row[1] !== "FOURCE COMMUNICATIONS");
+}
+
+function filter_for_metadata_obj(data) {
+   const metadata = [];
+   let data_obj = {};
+   const raw_meta_data = filter_below_match(data, "SIGNAGE PROGRAM:");
+   const kw = ['CLIENT:', 'ATTN:', 'QUOTE #:', 'DATE:', 'SIGNAGE PROGRAM:'];
+   let found_keyword = false;
+   let current_key = '';
+   let data_string = '';
+
+   // this flattens the data to a 1 dimensional array and removes empty cells 
+   for (let i = 0; i < raw_meta_data.length; ++i) {
+      let row = raw_meta_data[i];
+      row.forEach((cell) => {
+         if (cell) metadata.push(cell);
+      });
+   }
+   // the loop below pulls the metadata into a key/value map using the kw array to set the keys
+   for (let i = 0; i < metadata.length; ++i) {
+      let item = metadata[i];
+      // this checks the index value against an array of keywords, if the value at the index contains the keyword init isKey to true;
+      let is_key = kw.some(keyword => item.includes(keyword));
+      if (is_key) {
+         if (current_key && data_string) {
+            data_obj[current_key] = data_string.trim();
+         }
+         current_key = item.replace(':', '').trim();
+         data_string = '';
+      } else {
+         data_string += `${item} `;
+      }
+   }
+   return data_obj;
 }
 
 // maybe a more generic filter by rows by matching terms in a given column
@@ -308,12 +355,13 @@ function import_data (path) {
    });
    // these are where the filter functions are applied to the raw data from your target table.
    let filtered_data = raw_data.filter(row => row.some(cell => cell !== null && cell !== '')); // don't import empty rows
+   let filtered_metadata = filter_for_metadata_obj(filtered_data);
    filtered_data = contract_filter(filtered_data); // remove the page labels from the contract
    filtered_data = filter_below_match_flex(filtered_data, ["SUBTOTAL", "SUBTOTAL:"]); // remove the legal jargon at the bottom of a contract
-   filter_for_metadata(filtered_data);
    filtered_data = filter_above_match(filtered_data, "SIGNAGE PROGRAM:"); // remove the headers, could use this data later.
    filtered_data = filter_extra_descriptions(filtered_data, 3); // merge cells where rows were made to complete a sentence (lol)
    filtered_data = filter_section_column(filtered_data, 1, 0);
+   generic_fill_col('test', 1, filtered_metadata); 
    // filtered_data = filter_add_column_headers(filtered_data);
    filtered_data = remove_last_subtotal(filtered_data);
    filtered_data = filter_data_in_wrong_column(filtered_data, 5, 3);  // filters description details that are getting put into the wrong place
