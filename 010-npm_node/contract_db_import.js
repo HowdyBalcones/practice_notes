@@ -11,8 +11,13 @@
 // TODO 
 // > Metadata into cols is priority. With that created, we can dump the clean contracts into a sql db and start running fast
 // The tests are important, but also idgaf about the other form types. I don't work in those departments. 
-//    + so we have a metadata object now
-//    + need to write the function to add the columns according to the object keys.
+//    + create metadata object -- done
+//    + need to write the function to add the columns according to the object keys. -- done
+//    + write something that appends each processed file into a single text doc -- done
+//    + need to create a col for the file name 
+// > all the added data columns makes it important to be able to export only specific columns. 
+//    + an export function that will only target specific columns - 
+//
 // > write a set of functions to test the cleaned contracts for errors. 
 //    + test exact columns required
 //    + test for no empty rows 
@@ -66,7 +71,7 @@ function insert_col(worksheet, columnIndex, columnData) {
 }
 
 function filter_column_headers (data) {
-   const fource_headers = ["SECTION_ID", "SPOTTING_KEY", "SIGN_COUNT", "SIGN_DESCRIPTION", "EACH_COST", "TOTAL_COST"];
+   const fource_headers = ["SECTION_ID", "SPOTTING_KEY", "SIGN_COUNT", "SIGN_DESCRIPTION", "EACH_COST", "TOTAL_COST", "CLIENT", "CONTACT", "CONTRACT_NUMBER", "REVISIONS"];
    let headerRow = data[0];
    for (let i = 0; i < headerRow.length; ++i) {
       switch(headerRow[i]) {
@@ -87,6 +92,18 @@ function filter_column_headers (data) {
             break;
          case "9":
             headerRow[i] = fource_headers[5];
+            break;
+         case "10":
+            headerRow[i] = fource_headers[6];
+            break;
+         case "11":
+            headerRow[i] = fource_headers[7];
+            break;
+         case "12":
+            headerRow[i] = fource_headers[8];
+            break;
+         case "13":
+            headerRow[i] = fource_headers[9];
             break;
          default:
             break;
@@ -128,13 +145,24 @@ function filter_section_column (data, sectionColumn, targetColumn) {
 }
 
 // goal is to create columns filled with the value at each key of the passed in object
-function generic_fill_col(data, target_column, object) {
+// data should be 2d array of contract data
+function fill_col_object_val(data, object) {
    let cols_to_add = Object.keys(object);
    for (let i = 0; i < cols_to_add.length; ++i) {
       let object_value = object[`${cols_to_add[i]}`];
-      
+      data.forEach((row) => {
+         row.push(object_value);
+      }); 
    }
-   console.log(data, target_column, cols_to_add);
+   return data;
+}
+
+function fill_col_src_file(data, file_name) {
+   for (let i = 0; i < data.length; ++i) {
+      let row = data[i];
+      row.push(file_name);
+   }
+   return data;
 }
 
 function filter_extra_descriptions (data, targetColumn) {
@@ -237,8 +265,12 @@ function filter_for_metadata(data) {
    // this checks for keyword matches and appends the match and each item until the next match, pushing the string onto the composed_metadata array 
    // upon finding the next match. lets fine tune this over the coming days. 
    for (let i = 0; i < metadata.length; ++i) {
-      let item = metadata[i];
-      let isKeyword = kw.some(keyword => item.includes(keyword));
+      try {
+         let item = metadata[i];
+         let isKeyword = kw.some(keyword => item.includes(keyword));
+      } catch(e) {
+         
+      }
 
       if (isKeyword) {
          if (found_keyword && data_string.length > 0) {
@@ -280,7 +312,10 @@ function filter_for_metadata_obj(data) {
    }
    // the loop below pulls the metadata into a key/value map using the kw array to set the keys
    for (let i = 0; i < metadata.length; ++i) {
-      let item = metadata[i];
+      let item = `${metadata[i]}`;
+      if (!item) {
+         return "";
+      }
       // this checks the index value against an array of keywords, if the value at the index contains the keyword init isKey to true;
       let is_key = kw.some(keyword => item.includes(keyword));
       if (is_key) {
@@ -294,6 +329,18 @@ function filter_for_metadata_obj(data) {
       }
    }
    return data_obj;
+}
+
+// this is going to be a rudimentary way to start searching through the data.
+// there's a lot that could be done in it's place, but we wanna get rolling. 
+function flatten_and_write_txt(data) {
+   let filtered_data = '';
+   for (let i = 0; i < data.length; ++i) {
+      let row = data[i];
+      let line_of_text = row.join("\t"); 
+      filtered_data += `${line_of_text}\n`;
+   }
+   return filtered_data;
 }
 
 // maybe a more generic filter by rows by matching terms in a given column
@@ -342,9 +389,10 @@ function export_data (work_book, file_path) {
 
 
 // this is where all the filters are run on the passed in data.  
-function import_data (path) {
+function import_data (path, file_name) {
    const workbook = XLSX.readFile(path);
    const sheet_name = workbook.SheetNames[0];
+
    let sheet = workbook.Sheets[sheet_name];
    // here we insert a column. Start of creating section names.
    sheet = insert_col(sheet, 0, "");
@@ -361,10 +409,11 @@ function import_data (path) {
    filtered_data = filter_above_match(filtered_data, "SIGNAGE PROGRAM:"); // remove the headers, could use this data later.
    filtered_data = filter_extra_descriptions(filtered_data, 3); // merge cells where rows were made to complete a sentence (lol)
    filtered_data = filter_section_column(filtered_data, 1, 0);
-   generic_fill_col('test', 1, filtered_metadata); 
    // filtered_data = filter_add_column_headers(filtered_data);
    filtered_data = remove_last_subtotal(filtered_data);
    filtered_data = filter_data_in_wrong_column(filtered_data, 5, 3);  // filters description details that are getting put into the wrong place
+   filtered_data = fill_col_object_val(filtered_data, filtered_metadata);
+   filtered_data = fill_col_src_file(filtered_data, file_name);
    return filtered_data;
 }
 
@@ -419,6 +468,17 @@ function batch_contract_clean() {
       console.error('No files provided. Usage: node script.js file1 file2 etc...');
       process.exit(1);
    }
+   function create_txt_archive(data) {
+      let flat_data = flatten_and_write_txt(data);
+      const archive_path = path.join(destination_path, "testing_archive.txt");
+      fs.appendFile(archive_path, flat_data, (e) =>{
+         if (e) {
+            console.error('Error appending to file.', e);
+         } else {
+            console.log('Data appended to archive');
+         }
+      })
+   }
    function process_file(file_path) {
       try {
          const full_path = path.resolve(file_path);
@@ -429,9 +489,10 @@ function batch_contract_clean() {
          }
          // separated concerns here, let node function handle the path stuff, normalize names just renames a file, let export just do the export
          // const filtered_data = match_index !== -1 ? data.slice(0, match_index + 1) : data;
-         const clean_contract = import_data(full_path);
+         const clean_contract = import_data(full_path, file_name);
          const new_file_path = path.join(destination_path, file_name);
          export_data(clean_contract, new_file_path);
+         create_txt_archive(clean_contract);
          console.log(`Processed file saved: ${new_file_path}`)
          
       } catch(e) {
