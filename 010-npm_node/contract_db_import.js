@@ -9,27 +9,28 @@
 // > 
 //
 // TODO 
-// > Metadata into cols is priority. With that created, we can dump the clean contracts into a sql db and start running fast
-// The tests are important, but also idgaf about the other form types. I don't work in those departments. 
+// > Metadata into cols 
 //    + create metadata object -- done
 //    + need to write the function to add the columns according to the object keys. -- done
 //    + write something that appends each processed file into a single text doc -- done
-//    + need to create a col for the file name 
+//    + need to create a col for the file name -- done
+//    + signage program name needs a col -- done, found bugs and fixed 
 // > all the added data columns makes it important to be able to export only specific columns. 
 //    + an export function that will only target specific columns - 
 //
 // > write a set of functions to test the cleaned contracts for errors. 
 //    + test exact columns required
-//    + test for no empty rows 
-//    + how to test for different forms? because there are standards, but they aren't explicit
-//    + it would be nice if we could check the total number of line items from the original to the clean copy, that will take some brainblasting
+//    + test for no gaps in rows -- priority
 //    + does the section col exist? Are there any gaps in the section col? 
 //    + also pretest the raw contract against a template to determine form type -- this seems promising
-//       - test headers and footers against template
-//       - test rows for section keywords
-//       - 
+//       - test rows for section keywords -- we did this in a few ways, removing subtotals and other lines
+//       - test for page layout view -- refer to the WBProps key of the workbook object
+//       - the best one is gonna be testing for a metadata section. if there is none then don't process the document. 
+//       - next best is testing if the section names start with the usual section numbers, rather than arbitrary strings
 //    + types of forms - 
-//       - main signage contract - the form we've been working with, meant for sign designers
+//       - main signage contract - the form we've been working with, meant for sign designers -- priority, if we have this the other things can be filtered
+//       This is done, we can test a file to see if it's the main signage contract. It filters out the other forms and doesn't export them unless they 
+//       match the sign form conditions. 
 //       - addon tracking form - created after a book is complete, reconciles altered qtys 
 //       - website contract - used for billing a website design job 
 //       - misc contract - small jobs, usually under ten signs. they are extremely random in layout. 
@@ -71,7 +72,7 @@ function insert_col(worksheet, columnIndex, columnData) {
 }
 
 function filter_column_headers (data) {
-   const fource_headers = ["SECTION_ID", "SPOTTING_KEY", "SIGN_COUNT", "SIGN_DESCRIPTION", "EACH_COST", "TOTAL_COST", "CLIENT", "CONTACT", "CONTRACT_NUMBER", "REVISIONS"];
+   const fource_headers = ["SECTION_ID", "SPOTTING_KEY", "SIGN_COUNT", "SIGN_DESCRIPTION", "EACH_COST", "TOTAL_COST", "CLIENT", "CONTACT", "CONTRACT_NUMBER", "REVISIONS", "PROJECT_NAME", "CONTRACT_FILE"];
    let headerRow = data[0];
    for (let i = 0; i < headerRow.length; ++i) {
       switch(headerRow[i]) {
@@ -105,6 +106,12 @@ function filter_column_headers (data) {
          case "13":
             headerRow[i] = fource_headers[9];
             break;
+         case "14":
+            headerRow[i] = fource_headers[10];
+            break;
+         case "15":
+            headerRow[i] = fource_headers[11];
+            break;
          default:
             break;
       }
@@ -112,16 +119,27 @@ function filter_column_headers (data) {
    return data;
 }
 
-// literally just removes the first and last element of the contract. Must be a header or something. 
-// this can get removed I think. 
-function remove_last_subtotal (data) {
-   data.pop();
+function remove_kw_bottom_up (data, keyword) {
+   const test_row = (element) => {
+      return typeof element === 'string' && element.includes(keyword);
+   }
+   for (let i = data.length - 1; i >= 0; --i) {
+      let row = data[i];
+      if (row.some(test_row)) {
+         data.splice(i, 1);
+      }
+   };
+   return data;
+}
+
+function remove_last_subtotal(data) {
+   // data.pop();
    data.shift();
    return data;
 }
 
-// this uses the first column for the section name, replacing anything already in there.
-// could be more generic. 
+// this checks where the section col is in the raw form, filters the text there, then creates a col at the start of the doc
+// then appends the section name that was last filtered until it encounters the next section. 
 function filter_section_column (data, sectionColumn, targetColumn) {
    let currentSection = null;
    const sectionRegex = /^#\d+:/;
@@ -157,6 +175,7 @@ function fill_col_object_val(data, object) {
    return data;
 }
 
+// takes a literal file name and adds it to the last col at time of invocation
 function fill_col_src_file(data, file_name) {
    for (let i = 0; i < data.length; ++i) {
       let row = data[i];
@@ -165,6 +184,8 @@ function fill_col_src_file(data, file_name) {
    return data;
 }
 
+// in out raw form people have been trained to add new lines to a cell below their line item. 
+// function appends these extra lines to a single line in the description, the actual line item field. 
 function filter_extra_descriptions (data, targetColumn) {
    for (var i = 1; i < data.length; ++i) {
       let currentRow = data[i];
@@ -194,7 +215,7 @@ function filter_below_match (data, term_match) {
          break;
       }
    }
-   const filtered_data = match_index !== -1 ? data.slice(0, match_index + 1) : data;
+   const filtered_data = match_index !== -1 ? data.slice(0, match_index + 1) : new Error("Couldn't filter below");
    return filtered_data;
 }
 
@@ -206,7 +227,7 @@ function filter_below_match_new(data, term_match) {
          break;
       }
    }
-   const filtered_data = match_index !== -1 ? data.slice(0, match_index + 1) : data;
+   const filtered_data = match_index !== -1 ? data.slice(0, match_index + 1) : new Error("Couldn't filter below");
    return filtered_data;
 }
 
@@ -231,7 +252,7 @@ function filter_below_match_flex(data, term_match)
       }
    }
    // this part returns the data above the match
-   const filtered_data = match_index !== -1 ? data.slice(0, match_index + 1) : data;
+   const filtered_data = match_index !== -1 ? data.slice(0, match_index + 1) : new Error("Couldn't filter below");
    return filtered_data;
 }
 
@@ -289,11 +310,13 @@ function filter_for_metadata(data) {
    console.log(composed_metadata);
 }
 
+// cells that contain company logo and such, deleted here
 function contract_filter (data) {
    // filter first column, only return rows that don't contain the given string
    return data.filter(row => row[1] !== "FOURCE COMMUNICATIONS");
 }
 
+// this reworks the former metadata function, returns an object that takes headers as keys and their data as values 
 function filter_for_metadata_obj(data) {
    const metadata = [];
    let data_obj = {};
@@ -302,23 +325,28 @@ function filter_for_metadata_obj(data) {
    let found_keyword = false;
    let current_key = '';
    let data_string = '';
-
+   // console.log("raw metadata arr", raw_meta_data);
    // this flattens the data to a 1 dimensional array and removes empty cells 
+   if (!raw_meta_data) {
+      return;
+   }
    for (let i = 0; i < raw_meta_data.length; ++i) {
       let row = raw_meta_data[i];
       row.forEach((cell) => {
          if (cell) metadata.push(cell);
       });
    }
+   // console.log("metadata arr", metadata);
    // the loop below pulls the metadata into a key/value map using the kw array to set the keys
-   for (let i = 0; i < metadata.length; ++i) {
+   for (let i = 0; i <= metadata.length; ++i) {
+      //console.log(current_key, data_string);
       let item = `${metadata[i]}`;
       if (!item) {
          return "";
       }
       // this checks the index value against an array of keywords, if the value at the index contains the keyword init isKey to true;
       let is_key = kw.some(keyword => item.includes(keyword));
-      if (is_key) {
+      if (is_key || i === metadata.length) {
          if (current_key && data_string) {
             data_obj[current_key] = data_string.trim();
          }
@@ -328,19 +356,20 @@ function filter_for_metadata_obj(data) {
          data_string += `${item} `;
       }
    }
+   // console.log(data_obj)
    return data_obj;
 }
 
 // this is going to be a rudimentary way to start searching through the data.
 // there's a lot that could be done in it's place, but we wanna get rolling. 
 function flatten_and_write_txt(data) {
-   let filtered_data = '';
+   let flattened_data = '';
    for (let i = 0; i < data.length; ++i) {
       let row = data[i];
       let line_of_text = row.join("\t"); 
-      filtered_data += `${line_of_text}\n`;
+      flattened_data += `${line_of_text}\n`;
    }
-   return filtered_data;
+   return flattened_data;
 }
 
 // maybe a more generic filter by rows by matching terms in a given column
@@ -367,6 +396,28 @@ function filter_data_in_wrong_column(data, targetColumn, properColumn) {
    return data;
 }
 
+function test_page_layout(workbook, sheet_name) {
+   const worksheet = workbook.Sheets[sheet_name];
+   const directory = workbook.Directory;
+   const views = workbook.WBProps;
+   console.log(views, workbook.Workbook);
+   if (worksheet && worksheet.pageLayout) {
+      console.log("pg layout yes");
+   } else {
+      console.log("pg layout no");
+   }
+}
+
+function test_section_col(data) {
+   for (let i = 0; i < data.length; ++i) {
+      let row = data[i];
+      if (!row[0]) {
+         return null;
+      }
+   }
+}
+
+// this aligns headers and writes the file. It takes a 2D array as input. 
 function export_data (work_book, file_path) {
    // json data to sheet object
    let worksheet = XLSX.utils.json_to_sheet(work_book);
@@ -392,7 +443,7 @@ function export_data (work_book, file_path) {
 function import_data (path, file_name) {
    const workbook = XLSX.readFile(path);
    const sheet_name = workbook.SheetNames[0];
-
+   // test_page_layout(workbook, sheet_name);
    let sheet = workbook.Sheets[sheet_name];
    // here we insert a column. Start of creating section names.
    sheet = insert_col(sheet, 0, "");
@@ -404,19 +455,36 @@ function import_data (path, file_name) {
    // these are where the filter functions are applied to the raw data from your target table.
    let filtered_data = raw_data.filter(row => row.some(cell => cell !== null && cell !== '')); // don't import empty rows
    let filtered_metadata = filter_for_metadata_obj(filtered_data);
-   filtered_data = contract_filter(filtered_data); // remove the page labels from the contract
-   filtered_data = filter_below_match_flex(filtered_data, ["SUBTOTAL", "SUBTOTAL:"]); // remove the legal jargon at the bottom of a contract
-   filtered_data = filter_above_match(filtered_data, "SIGNAGE PROGRAM:"); // remove the headers, could use this data later.
-   filtered_data = filter_extra_descriptions(filtered_data, 3); // merge cells where rows were made to complete a sentence (lol)
-   filtered_data = filter_section_column(filtered_data, 1, 0);
-   // filtered_data = filter_add_column_headers(filtered_data);
-   filtered_data = remove_last_subtotal(filtered_data);
-   filtered_data = filter_data_in_wrong_column(filtered_data, 5, 3);  // filters description details that are getting put into the wrong place
-   filtered_data = fill_col_object_val(filtered_data, filtered_metadata);
-   filtered_data = fill_col_src_file(filtered_data, file_name);
-   return filtered_data;
+   if (Object.keys(filtered_metadata).length === 0) {
+      console.log(`Not processed, metadata not found: ${file_name}`);
+      return;
+   }
+   try {
+      filtered_data = contract_filter(filtered_data); // remove the page labels from the contract
+      filtered_data = filter_below_match_flex(filtered_data, ["SUBTOTAL", "SUBTOTAL:"]); // remove the legal jargon at the bottom of a contract
+      filtered_data = filter_above_match(filtered_data, "SIGNAGE PROGRAM:"); // remove the headers, could use this data later.
+      filtered_data = filter_extra_descriptions(filtered_data, 3); // merge cells where rows were made to complete a sentence (lol)
+      filtered_data = filter_section_column(filtered_data, 1, 0);
+      // filtered_data = filter_add_column_headers(filtered_data);
+      filtered_data = remove_last_subtotal(filtered_data);
+      filtered_data = filter_data_in_wrong_column(filtered_data, 5, 3);  // filters description details that are getting put into the wrong place
+      filtered_data = fill_col_object_val(filtered_data, filtered_metadata);
+      filtered_data = fill_col_src_file(filtered_data, file_name);
+      filtered_data = remove_kw_bottom_up(filtered_data, "SUBTOTAL");
+      // console.log(filtered_data);
+      const testing_section = test_section_col(filtered_data);
+      if (testing_section === null) {
+         console.log(`Not processed, section column missing data: ${file_name}`);
+         return;
+      }
+      return filtered_data;
+   } catch(e) {
+      console.log(`Import Error: ${e}, ${file_name}`);
+   }
 }
 
+// this was an attempt to re-arrange the file names into something more useable. It just causes problems. 
+// there is utility in creating new file names for the cleaned contracts but it's low priority. Fun regex though. 
 function normalize_contract_names(path_name) {
    const path_name_regex = /^(\/|\.|\.\.).*/;
    const spaces_regex = /\s+/g;
@@ -457,10 +525,10 @@ function normalize_contract_names(path_name) {
    return formatted_file_name;
 }
 
-// the goal of this function is to run the cleaning and export xlsx functions on each file passed in as arguments using node builtins
-// it should take argv as input, for each file in argv, run the correct functions, it should also take an arg for the destination
+// this is the cli utility function. Lets you run the script with arguments, which should be a destination followed by a list of files for input. 
 function batch_contract_clean() {
-   // we are ignoring node, script, destination arg here
+   // order of args: node, script, destination, files...
+   // this slice means we ignore the first three in the argv array. 
    const file_paths = process.argv.slice(3);  
    const destination_path = process.argv[2];
    console.log(destination_path)
@@ -487,12 +555,13 @@ function batch_contract_clean() {
             console.error(`File not found: ${file_path}`);
             return;
          }
-         // separated concerns here, let node function handle the path stuff, normalize names just renames a file, let export just do the export
-         // const filtered_data = match_index !== -1 ? data.slice(0, match_index + 1) : data;
          const clean_contract = import_data(full_path, file_name);
+         if (!clean_contract) {
+            return;
+         }
          const new_file_path = path.join(destination_path, file_name);
          export_data(clean_contract, new_file_path);
-         create_txt_archive(clean_contract);
+         // create_txt_archive(clean_contract);
          console.log(`Processed file saved: ${new_file_path}`)
          
       } catch(e) {
@@ -507,7 +576,5 @@ batch_contract_clean();
 const file = "./00-contract_samples/2206JPI02S Anna Waters Creek REV 3 Signage.xlsx";
 const file2 ="./00-contract_samples/2108EP03S Bel Aire Revision 2- Corrected Math.xlsx" 
 
-module.exports = { insert_col, filter_column_headers, remove_last_subtotal, filter_section_column, filter_extra_descriptions, filter_below_match, filter_below_match_flex, filter_above_match, contract_filter, filter_data_in_wrong_column, export_data, import_data, normalize_contract_names, batch_contract_clean };
-// const data = import_data(file2);
-// export_data(data, file2);
-// console.log(data[0]);
+module.exports = { insert_col, filter_column_headers, remove_kw_bottom_up, filter_section_column, filter_extra_descriptions, filter_below_match, filter_below_match_flex, filter_above_match, contract_filter, filter_data_in_wrong_column, export_data, import_data, normalize_contract_names, batch_contract_clean };
+
