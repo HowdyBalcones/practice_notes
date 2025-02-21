@@ -471,7 +471,6 @@ function export_data (work_book, file_path) {
 function import_data (path, file_name) {
    const workbook = XLSX.readFile(path);
    const sheet_name = workbook.SheetNames[0];
-   // test_page_layout(workbook, sheet_name);
    let sheet = workbook.Sheets[sheet_name];
    // here we insert a column. Start of creating section names.
    sheet = insert_col(sheet, 0, "");
@@ -480,6 +479,7 @@ function import_data (path, file_name) {
       header: 1,
       blankrows: true
    });
+
    // these are where the filter functions are applied to the raw data from your target table.
    let filtered_data = raw_data.filter(row => row.some(cell => cell !== null && cell !== '')); // don't import empty rows
    let filtered_metadata = filter_for_metadata_obj(filtered_data);
@@ -594,7 +594,7 @@ function batch_contract_clean() {
          return;
       }
    }
-
+   
    function process_file(file_path) {
       try {
          const full_path = path.resolve(file_path);
