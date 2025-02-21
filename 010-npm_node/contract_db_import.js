@@ -19,9 +19,10 @@
 //    + an export function that will only target specific columns - 
 //
 // > write a set of functions to test the cleaned contracts for errors. 
-//    + test exact columns required
 //    + test for no gaps in rows -- priority
-//    + does the section col exist? Are there any gaps in the section col? 
+//    + test for clean contract -- priority
+//    + writing logs based on errors -- priority
+//    + does the section col exist? Are there any gaps in the section col? -- we wrote this test, it checks for section nums
 //    + also pretest the raw contract against a template to determine form type -- this seems promising
 //       - test rows for section keywords -- we did this in a few ways, removing subtotals and other lines
 //       - test for page layout view -- refer to the WBProps key of the workbook object
@@ -372,6 +373,15 @@ function flatten_and_write_txt(data) {
    return flattened_data;
 }
 
+function write_to_log(data, error_row_arr, file_name) {
+   let txt_string = '';
+   for (let i = 0; i < error_row_arr.length; ++i) {
+      let idx = error_row_arr[i];
+      txt_string += `${file_name}: Error at row ${idx}: ${data[idx].join(",")}\n`;
+   }
+   return txt_string; 
+}
+
 // maybe a more generic filter by rows by matching terms in a given column
 function filter_rows_by_column_match(data, col_num, term_match) {
    if (typeof col_num !== 'number') throw new Error("col_num must be a number");
@@ -414,6 +424,24 @@ function test_section_col(data) {
       if (!row[0]) {
          return null;
       }
+   }
+}
+
+// take a 2D array and run a test that accepts each sub-array as a value and tests for empty element values
+function test_complete_row(data) {
+   const empty = (element) => element == null || undefined || '';
+   let empty_arr = [];
+   for (let i = 0; i < data.length; ++i) {
+      let row = data[i];
+      if (row.some(empty)) {
+         console.log(i, row);
+         empty_arr.push(i);
+      }
+   }
+   if (empty_arr.length > 0) {
+      return empty_arr;
+   } else {
+      return 0;
    }
 }
 
@@ -531,14 +559,15 @@ function batch_contract_clean() {
    // this slice means we ignore the first three in the argv array. 
    const file_paths = process.argv.slice(3);  
    const destination_path = process.argv[2];
+   const archive_path = path.join(destination_path, "000-log.txt");
    console.log(destination_path)
    if (file_paths.length === 0) {
       console.error('No files provided. Usage: node script.js file1 file2 etc...');
       process.exit(1);
    }
+
    function create_txt_archive(data) {
       let flat_data = flatten_and_write_txt(data);
-      const archive_path = path.join(destination_path, "testing_archive.txt");
       fs.appendFile(archive_path, flat_data, (e) =>{
          if (e) {
             console.error('Error appending to file.', e);
@@ -547,6 +576,25 @@ function batch_contract_clean() {
          }
       })
    }
+
+   function create_append_log(data, file_name) {
+      let error_arr = test_complete_row(data);
+      console.log(error_arr);
+      console.log(file_name, data);
+      let error_msg = error_arr !== 0 ? write_to_log(data, error_arr, file_name) : 0;
+      if (error_msg !== 0) {
+          fs.appendFile(archive_path, error_row, (e) => {
+             if (e) {
+                console.error('Error appending to log file.', e);
+             } else if (error_row) {
+                console.log('Row missing data, file and row logged.');
+             }
+          })      
+      } else {
+         return;
+      }
+   }
+
    function process_file(file_path) {
       try {
          const full_path = path.resolve(file_path);
@@ -560,8 +608,7 @@ function batch_contract_clean() {
             return;
          }
          const new_file_path = path.join(destination_path, file_name);
-         export_data(clean_contract, new_file_path);
-         // create_txt_archive(clean_contract);
+         create_append_log(clean_contract, file_name);
          console.log(`Processed file saved: ${new_file_path}`)
          
       } catch(e) {
