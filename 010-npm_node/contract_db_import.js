@@ -185,7 +185,7 @@ function fill_col_src_file(data, file_name) {
    return data;
 }
 
-// in out raw form people have been trained to add new lines to a cell below their line item. 
+// in our raw form people have been trained to add new lines to a cell below their line item. 
 // function appends these extra lines to a single line in the description, the actual line item field. 
 function filter_extra_descriptions (data, targetColumn) {
    for (var i = 1; i < data.length; ++i) {
@@ -201,6 +201,25 @@ function filter_extra_descriptions (data, targetColumn) {
       if (isExtraRow) {
          previousRow[targetColumn] += `- ${currentRow[targetColumn] || ''}`.trim();
          data.splice(i, 1);
+         i--;
+      }
+   }
+   return data;
+}
+
+// will need to create something more generic for the extra_descriptions func, items are being added in various cols
+function filter_extra_descriptions_generic(data, targetColumn) {
+   // the main problem is that previous iteration puts the data into the row above, but it should just dump it into description. 
+   for (let i = 1; i < data.length; ++i) {
+      let current_row = data[i];
+      let previous_row = data[i-1];
+
+      let is_extra_row = current_row.every((cell, col_idx) => 
+         (col_idx === targetColumn && cell || !cell) 
+      );
+      if (is_extra_row) {
+         previous_row[targetColumn] += `- ${current_row[targetColumn] || ''}`.trim();
+         data.splice(i,1);
          i--;
       }
    }
@@ -491,9 +510,10 @@ function import_data (path, file_name) {
       filtered_data = contract_filter(filtered_data); // remove the page labels from the contract
       filtered_data = filter_below_match_flex(filtered_data, ["SUBTOTAL", "SUBTOTAL:"]); // remove the legal jargon at the bottom of a contract
       filtered_data = filter_above_match(filtered_data, "SIGNAGE PROGRAM:"); // remove the headers, could use this data later.
-      filtered_data = filter_extra_descriptions(filtered_data, 3); // merge cells where rows were made to complete a sentence (lol)
+      // filtered_data = filter_extra_descriptions(filtered_data, 3); // merge cells where rows were made to complete a sentence (lol)
+      filtered_data = filter_extra_descriptions_generic(filtered_data, 3); // found examples where the 4th col needs this
+      filtered_data = filter_extra_descriptions_generic(filtered_data, 3); // this 
       filtered_data = filter_section_column(filtered_data, 1, 0);
-      // filtered_data = filter_add_column_headers(filtered_data);
       filtered_data = remove_last_subtotal(filtered_data);
       filtered_data = filter_data_in_wrong_column(filtered_data, 5, 3);  // filters description details that are getting put into the wrong place
       filtered_data = fill_col_object_val(filtered_data, filtered_metadata);
@@ -608,7 +628,8 @@ function batch_contract_clean() {
             return;
          }
          const new_file_path = path.join(destination_path, file_name);
-         create_append_log(clean_contract, file_name);
+         export_data(clean_contract, new_file_path);
+         // create_append_log(clean_contract, file_name);
          console.log(`Processed file saved: ${new_file_path}`)
          
       } catch(e) {

@@ -1,3 +1,22 @@
+Todays Notes: 2025-02-24
+> we are going to continue working through the testing suite this week. It will save time in the long run, being able to verify contracts before
+passing them onto a human. 
+> Main challenges will be moving the verified data into a SQL db and then writing the mechanisms to retrieve that data for the programs we want 
+to be writing in the future. For example, how do we get Extendscript to run node programs without passing them through the adobe interpreter? 
+If there are going to be any utilities that leverage the database, that challenge must be met. Another would be pushing all of this data into 
+an interface that others will not complain about too much. I don't really look forward to writing that aspect, as it's the only part mgmt is 
+vaguely familiar with. They will attempt to exert their influence as a result. If we get ahead of their needs and implement according to actual
+constraints and not their personal feelings then I won't have to change too much. Again this is about doing something correctly, not doing something
+that makes them feel in charge. 
+> Writing the SQL will be interesting and a good skill to reinforce. We have notes that cover most of the basics, should review. Postgres is different then SQLite, 
+but the fundamentals will largely be transferable. 
+> What tests did we leave off with? We are working through verifying contracts that have been processed. There are three main errors I'm seeing: 
+   + An issue pushing the section column, there appears to be a text match that isn't catching on more than half the documents. 
+   + There is a row that is filled with garbage that keeps getting pushed onto the clean contract. Unsure why. 
+   + A line item is dedicated to DESIGN/LAYOUT/PRODUCTION, should get stripped off the final form probably. 
+   This is a document for the sign team, not for billing or anything else yet. That can happen later. If it's not a sign IDGAF. 
+   + Another problem is that lines are not being appended to their above cell sometimes. Mostly in entry signage. 
+
 Todays Notes: 2025-02-21
 > CREATE, READ, UPDATE, DELETE -- CRUD
 > BACKEND FIRST -- FRONT END IS LIBRARIAN, BACKEND IS THE LIBRARY ITSELF
