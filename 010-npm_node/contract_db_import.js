@@ -143,7 +143,7 @@ function remove_last_subtotal(data) {
 // then appends the section name that was last filtered until it encounters the next section. 
 function filter_section_column (data, sectionColumn, targetColumn) {
    let currentSection = null;
-   const sectionRegex = /^#\d+:/;
+   const sectionRegex = /^#\d+[\:\-\_\ ]/;
    const cellRegex = /\*.*$/;
    const cellPageRegex = /CONT\.?/;
    const inued_regex = /INUED/;

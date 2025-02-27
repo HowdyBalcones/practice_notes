@@ -5,11 +5,14 @@ const path = require('path');
 
 // TODO
 // > export function that doesn't add needless numbered headers to the file
+//    + important to remember, we are dealing with arrays of objects when bringing in a clean contract. 
 // > pick up working on the new export function. There are some problems we didn't forsee. 
 //    + issue with header numbers
 //    + issue parsing sparse rows, our check isn't working or the removal, can't tell
 //    + when we write a new file after removing the sparse rows, we need to remove any 
 //    extra headers that may have been added. 
+
+
 
 function write_to_log(data, error_row_arr, file_name) {
    let txt_string = '';
@@ -44,6 +47,52 @@ function test_complete_row(data) {
    return data; 
 }
 
+function check_sparse(row) {
+   console.log(row.length);
+   for (let j = 0; j < row.length; ++j) {
+      let element = row[j];
+      if (element === undefined || element === null || element === '') {
+         return true;
+      } 
+   }
+   return false;
+}
+
+function show_row(data) {
+   let i = 0;
+   while (i < data.length) {
+      let row = data[i];
+      const nullish = (element) => element === null || element === undefined || element === '';
+      // if (row) console.log(typeof row);
+      // if (Object.entries(row).length > 12 || Object.entries(row).length < 12) console.log(`Row: ${i} Length: ${Object.entries(row).length}`)
+
+      console.log(`Row: ${i} Nullish: ${Object.entries(row).some(nullish)}`);
+      ++i;
+   }
+   console.log(data[195]);
+}
+
+// this removes long rows, usually rows where desc information is getting appended incorrectly. It will take the extra cells off the header. 
+function remove_long_rows_while(data, file) {
+   let i = 0;
+   while (i < data.length) {
+      let row = data[i];
+      let row_len = Object.entries(row).length;
+      if (row_len > 12 || row_len < 12 && i === 0) {
+         let row_key_arr = Object.keys(row);
+         for (let j = 0; j < row_key_arr.length; ++j) {
+            if (row_key_arr[j] > 11) delete row[row_key_arr[j]];
+         }
+         ++i;
+      } else if (row_len > 12 || row_len < 12) {
+         data.splice(i, 1);
+         console.log(`Removed row: ${i} From file: ${file}`);
+      } else {
+         ++i;
+      }
+   }
+   return data;
+}
 
 function create_append_log(data, file_name) {
    let error_arr = test_complete_row(data);
@@ -63,6 +112,8 @@ function create_append_log(data, file_name) {
    }
 }
 
+
+
 // this will be where the tests are applied to the exported files.
 function import_clean_contract(path, file_name) {
    const workbook = XLSX.readFile(path);
@@ -72,8 +123,14 @@ function import_clean_contract(path, file_name) {
       blankrows: true
    });
    let filtered_data = raw_data;
-   filtered_data = test_complete_row(filtered_data);
-   
+   // filtered_data = test_complete_row(filtered_data);
+   try {
+      // filtered_data = remove_sparse_while(filtered_data, check_sparse());
+      // show_row(filtered_data);
+      filtered_data = remove_long_rows_while(filtered_data, file_name);
+   } catch(e) {
+      console.log(`Import Error: ${e}`);
+   }
    return filtered_data;
 }
 
@@ -88,6 +145,14 @@ function test(path, file_name) {
    console.log(path, file_name);
 }
 
+function json_file_name(data) {
+   let row = data[2];
+   let job_num = row["8"];
+   let job_name = row["10"];
+   let file_name = `json_data/${job_num}--${job_name}.json`; 
+   return file_name;
+}
+
 // this will be the function for cli interface 
 function batch_test_clean_contracts() {
    const file_paths = process.argv.slice(3);
@@ -98,17 +163,36 @@ function batch_test_clean_contracts() {
       process.exit(1);
    }
 
+   function write_json_lib(data, file_path) {
+      const full_path = path.resolve(file_path);
+      try {
+         const new_data = JSON.stringify(data);
+         const json_name = json_file_name(data);
+         const file_name = path.basename(full_path);
+         const new_path = path.join(destination_path, json_name);
+         fs.writeFile(new_path, new_data, (error) => {
+            if (error) {
+               console.error('Error writing json file:', error);
+            } else {
+               console.log('Json file written successfully.');
+            }
+         });
+      } catch(e) {
+         console.log(`Failure to write json file: ${e}`);
+      }
+   }
 
    function process_file(file_path) {
+      const full_path = path.resolve(file_path);
       try {
-         const full_path = path.resolve(file_path);
          const file_name = path.basename(file_path);
          const new_file_path = path.join(destination_path, file_name);
          if (!fs.existsSync(full_path)) {
-            console.error(`File not found: ${full_path}`);
+            console.error(`File not found: ${file_path}`);
             return;
          }
          const target_data = import_clean_contract(full_path, file_name);
+         write_json_lib(target_data, full_path);
          export_data(target_data, new_file_path);
          console.log(`Processed clean contract, saved to: ${new_file_path}`)
          // console.log(target_data);

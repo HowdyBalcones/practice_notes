@@ -1,4 +1,36 @@
+Todays Notes: 2025-02-27
+> the contract object 
+0: section_id
+1: spotting_key
+2: sign_count
+3: sign_description
+4: ea_cost
+5: total_cost
+6: client
+7: contact
+8: contract_number
+9: revisions
+10: project_name
+11: contract_file
+
+
+> we are pivoting. Now that clean contract alpha is stable enough to work on top of, it's time for making the 
+adobe scripting happen. 
+   + book template. 
+   + file creation
+   + 
+> need to ask Jose about where he pulls the pricing for signs from. will be useful later. 
+> back to the testing suite. 
+> we need to be able to pull in clean contracts without much fuss anyway so there is that aspect of it. 
+
+Todays Notes: 2025-02-26
+> we are coding for the rest of the week starting tomorrow morning
+> the benefits outway any problems cutting it close with book timings. m wants to get ahead on their end so they put us behind and never allow
+time for adjustment, improvement, etc.
+> 
+
 Todays Notes: 2025-02-24
+> pickup at site and dims tomorrow
 > we are going to continue working through the testing suite this week. It will save time in the long run, being able to verify contracts before
 passing them onto a human. 
 > Main challenges will be moving the verified data into a SQL db and then writing the mechanisms to retrieve that data for the programs we want 
