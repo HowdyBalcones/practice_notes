@@ -20,19 +20,21 @@
    }
   
    try {
-      var home_dir = Folder.desktop;
       // var full_path = File(decodeURI(home_dir.absoluteURI) + "/clean_contract_db_l2/json_data/2003ITG01S--ZANG FLATS.json")
       // var full_path = File(home_dir.fsName + "/clean_contract_db_l2/json_data/2003ITG01S--ZANG FLATS.json");
-      var full_path = File(decodeURI(test_file));
       // var full_path = File.openDialog(prompt="Pick a file");
-      if (!full_path.exists) {
-         throw new Error('File does not exist: ' + full_path);
+      var home_dir = Folder.desktop;
+      var new_file = home_dir + "/clean_contract_db_l2/json_data/2002MCR01S--MODERA KATY TRAIL.json";
+      new_file = File(decodeURI(new_file));
+      if (!new_file.exists) {
+         throw new Error('File does not exist: ' + new_file);
       }
-      alert(full_path.absoluteURI);
+      alert(new_file.absoluteURI);
 
-     var json_file = new File(full_path);
+     var json_file = new File(new_file);
      if (!json_file.open("r")) {
-        throw new Error('Cannot open file:' + full_path);
+        err = new Error("Cannot open file:" + full_path.absoluteURI);
+        alert(err);
      }
      json_file.open("r");
      var json_string = json_file.read();

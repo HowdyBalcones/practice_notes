@@ -1,0 +1,92 @@
+--MakeTable.applescript
+--An InDesign AppleScript
+--
+--Shows how to create a table.
+my main()
+on main()
+	mySetup()
+	mySnippet()
+	myTeardown()
+end main
+on mySetup()
+	tell application "Adobe InDesign 2024"
+		--Create an example document.
+		set myDocument to make document
+		set myString to "Table 1" & return
+		set myString to myString & "Column 1" & tab & "Column 2" & tab & "Column 3" & return
+		set myString to myString & "1a" & tab & "1b" & tab & "1c" & return
+		set myString to myString & "2a" & tab & "2b" & tab & "2c" & return
+		set myString to myString & "3a" & tab & "3b" & tab & "3c" & return
+		set myString to myString & "Table 2" & return
+		set myString to myString & "Column 1,Column 2,Column 3;1a,1b,1c;2a,2b,2c;3a,3b,3c" & return
+		set myString to myString & "Table 3" & return
+		set myPage to page 1 of myDocument
+		tell myPage
+			set myTextFrame to make text frame with properties {geometric bounds:my myGetBounds(myDocument, myPage), contents:myString}
+		end tell
+	end tell
+end mySetup
+on mySnippet()
+	tell application "Adobe InDesign 2024"
+		set myDocument to document 1
+		--![Make table.]
+		--Given a document "myDocument" containing a story...
+		set myStory to story 1 of myDocument
+		tell myStory
+			set myStartCharacter to index of character 1 of paragraph 7
+			set myEndCharacter to index of character -2 of paragraph 7
+			set myText to object reference of text from character myStartCharacter to character myEndCharacter
+			--The convertToTable method takes three parameters:
+			--[column separator as string]
+			--[row separator as string]
+			--[number of columns as integer] (only used if the column separator
+			--and row separator values are the same)
+			--In the last paragraph in the story, columns are separated by commas
+			--and rows are separated by semicolons, so we provide those characters
+			--to the method as parameters.
+			tell myText
+				set myTable to convert to table column separator "," row separator ";"
+			end tell
+			set myStartCharacter to index of character 1 of paragraph 2
+			set myEndCharacter to index of character -2 of paragraph 5
+			set myText to object reference of text from character myStartCharacter to character myEndCharacter
+			--In the second through the fifth paragraphs, colums are separated by
+			--tabs and rows are separated by returns. These are the default delimiter
+			--parameters, so we don't need to provide them to the method.
+			tell myText
+				set myTable to convert to table column separator tab row separator return
+			end tell
+			--You can also explicitly add a table--you don't have to convert text to a table.
+			tell insertion point -1
+				set myTable to make table
+				set column count of myTable to 3
+				set body row count of myTable to 3
+			end tell
+		end tell
+		--![Make table.]
+	end tell
+end mySnippet
+on myTeardown()
+end myTeardown
+on myGetBounds(myDocument, myPage)
+	tell application "Adobe InDesign 2024"
+		tell document preferences of myDocument
+			set myPageWidth to page width
+			set myPageHeight to page height
+		end tell
+		tell margin preferences of myPage
+			if side of myPage is left hand then
+				set myX2 to left
+				set myX1 to right
+			else
+				set myX1 to left
+				set myX2 to right
+			end if
+			set myY1 to top
+			set myY2 to bottom
+		end tell
+		set myX2 to myPageWidth - myX2
+		set myY2 to myPageHeight - myY2
+		return {myY1, myX1, myY2, myX2}
+	end tell
+end myGetBounds

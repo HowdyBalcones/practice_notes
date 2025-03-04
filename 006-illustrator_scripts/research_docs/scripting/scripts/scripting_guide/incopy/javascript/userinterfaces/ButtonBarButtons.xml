@@ -1,0 +1,14 @@
+<buttons>
+	<button>
+		<buttonType>text</buttonType>
+		<buttonName>FindChangeByList</buttonName>
+		<buttonFileName>/c/buttons/FindChangeByList.jsx</buttonFileName>
+		<buttonIconFile></buttonIconFile>
+	</button>
+	<button>
+		<buttonType>text</buttonType>
+		<buttonName>SortParagraphs</buttonName>
+		<buttonFileName>/c/buttons/SortParagraphs.jsx</buttonFileName>
+		<buttonIconFile></buttonIconFile>
+	</button>
+</buttons>

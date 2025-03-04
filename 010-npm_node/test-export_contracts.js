@@ -25,6 +25,7 @@ function write_to_log(data, error_row_arr, file_name) {
 
 // this will loop explicitly over the row and check each element. Can't use array methods 
 // because they don't handle sparse arrays very well. 
+// the issue with this was that the data is an AoO, not AoA
 function test_complete_row(data) {
    let empty_arr = [];
    let element_arr = [];
@@ -78,22 +79,23 @@ function remove_long_rows_while(data, file) {
    while (i < data.length) {
       let row = data[i];
       let row_len = Object.entries(row).length;
-      if (row_len > 12 || row_len < 12 && i === 0) {
+      if (row_len > 12 || row_len < 12 && i === 0) {                 // remove extra cells from header if data has extra row
          let row_key_arr = Object.keys(row);
          for (let j = 0; j < row_key_arr.length; ++j) {
             if (row_key_arr[j] > 11) delete row[row_key_arr[j]];
          }
          ++i;
-      } else if (row_len > 12 || row_len < 12) {
+      } else if (row_len > 12 || row_len < 12) {                     // then remove the extra row from the body of the data
          data.splice(i, 1);
          console.log(`Removed row: ${i} From file: ${file}`);
-      } else {
+      } else {                                                       // then increment
          ++i;
       }
    }
    return data;
 }
 
+// repurpose, use with the remove_long_rows_while function
 function create_append_log(data, file_name) {
    let error_arr = test_complete_row(data);
    console.log(error_arr);
