@@ -10,9 +10,10 @@
 
 (function() {
    var doc = app.activeDocument;
-   var json_path = "~/Desktop/clean_contract_db_l2/json_data/";
-   // var test_file = "/Users/camdenbailey/Desktop/clean_contract_db_l2/json_data/2003SWC01S--AUGUSTA FLATS.json";
-   var test_file = "~/Desktop/clean_contract_db_l2/json_data/2002MCR01S--MODERA KATY TRAIL.json";
+   // var test_file_path = Folder.desktop + "/testing_text.txt";
+   // var test_file_path = "/Volumes/Macintosh HD/Users/camdenbailey/Desktop/testing_text.txt";
+   var test_file_path = "/Volumes/Macintosh HD/Users/camdenbailey/Desktop/testing_text2.txt";
+   var test_file = new File(test_file_path);
    try {
       // #include "/Users/camdenbailey/Desktop/practice_notes/006-illustrator_scripts/scripts/FRC-obj.jsxinc";
    } catch(e) {
@@ -20,34 +21,53 @@
    }
   
    try {
-      // var full_path = File(decodeURI(home_dir.absoluteURI) + "/clean_contract_db_l2/json_data/2003ITG01S--ZANG FLATS.json")
-      // var full_path = File(home_dir.fsName + "/clean_contract_db_l2/json_data/2003ITG01S--ZANG FLATS.json");
-      // var full_path = File.openDialog(prompt="Pick a file");
-      var home_dir = Folder.desktop;
-      var new_file = home_dir + "/clean_contract_db_l2/json_data/2002MCR01S--MODERA KATY TRAIL.json";
-      new_file = File(decodeURI(new_file));
-      if (!new_file.exists) {
-         throw new Error('File does not exist: ' + new_file);
+      if (!test_file.exists) {
+         throw new Error("File does not exist: " + test_file.fsName);
       }
-      alert(new_file.absoluteURI);
+      alert("File Path: " + test_file.fsName);
+      alert("File exists: " + test_file.exists);
+      alert("Is readable: " + test_file.length);
+      alert("Full Path: " + test_file.absoluteURI);
+      alert("Type: " + typeof test_file);
+      alert("Permissions: " + test_file.openPermission);
+      alert("Readable: " + test_file.readonly);
+      test_file.readonly = true;
+      alert("Readable Edited: " + test_file.readonly);
 
-     var json_file = new File(new_file);
-     if (!json_file.open("r")) {
-        err = new Error("Cannot open file:" + full_path.absoluteURI);
-        alert(err);
-     }
-     json_file.open("r");
-     var json_string = json_file.read();
-     json_file.close();
-     alert(json_string);
-     alert("test");
-     // var test = parse_JSON(json_string);
-     // alert(test[0][0]);
-     // var test_format = parse_json_array(test);
-     // alert(test_format);
-     // var test_aoo_to_aoa = aoo_to_aoa(test);
-     // array_to_text_box(test_aoo_to_aoa);  
-     // // alert(test_aoo_to_aoa);
+      test_file.encoding = "UTF-8";
+      alert(test_file.encoding);
+      for (var key in test_file) {
+         alert("Property and Key: " + test_file[key]);
+      }
+
+      alert("property test: " + test_file.hasOwnProperty("readonly"))
+      alert(Object.getOwnPropertyNames(test_file));
+
+      alert(prop_names);
+      if(test_file.open("r")) {
+         alert("fak");
+      } else {
+         test_file = File.openDialog("Pick:");
+         alert(test_file.fsName);
+
+         // alert("Problem reading file:" + test_file.error)
+         // alert("System Error: " + File.systemErrorMessage);
+      }
+  //   if (!test_file.exists) {
+  //      throw new Error('File does not exist: ' + test_file.fsName);
+  //      alert(test_file.absoluteURI);
+  //   } else {
+  //      alert("test file exists");
+  //      if (!test_file.open("r")) {
+  //         alert("not opening the file")
+  //         alert("File object: " + test_file);
+  //         for (var key in test_file) {
+  //            alert(key + ": " + test_file[key]);
+  //         }
+  //         alert("File size: " + test_file.length);
+  //         alert("File encoding: " + test_file.encoding);
+  //      }
+  //   }
    } catch(e) {
       throw new Error("Error writing files" + e + "\n" + e.message + "\n" + $.line);
    }
