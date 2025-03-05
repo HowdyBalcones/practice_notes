@@ -151,8 +151,92 @@ function json_file_name(data) {
    let row = data[2];
    let job_num = row["8"];
    let job_name = row["10"];
-   let file_name = `json_data/${job_num}--${job_name}.json`; 
+   let file_name = `000-json_data/${job_num}--${job_name}.json`; 
    return file_name;
+}
+
+function xml_file_name(data) {
+   let data_row = data[2];
+   let job_num = data_row["8"];
+   let job_name = data_row["10"];
+   let file_name = `000-xml_data/${job_num}--${job_name}.xml`;
+   return file_name;
+}
+
+function build_xml_object(data) {
+   const header_row = data[1];
+   const data_row = data[2];
+   
+   const client_name = data_row["6"];
+   const job_num = data_row["8"];
+   const project_name = data_row["10"];
+   const contract_name = data_row["11"];
+
+   let unique_sections = [];
+   let section_map = new Map();
+   let xml_object = '';
+
+   function build_key_obj(row) {
+      let key_obj = {
+         "key": row["1"],
+         "count": row["2"],
+         "description": row["3"],
+         "cost": row["4"],
+         "total_cost": row["2"] * row["4"]
+      }
+      return key_obj;
+   }
+
+   for (let i = 0; i < data.length; ++i) {
+      let row = data[i];
+      let section_name = row["0"];
+      if (!unique_sections.includes(section_name)) {
+         unique_sections.push(section_name);
+      } 
+      if (!section_map.has(section_name)) {
+         section_map.set(section_name, []);
+      }
+      section_map.get(section_name).push(build_key_obj(row));
+   }
+
+   for (let j = 0; j < unique_sections.length; ++j) {
+      let section_name = unique_sections[j];
+      let section_items = section_map[section_name];
+      xml_object += serialize_sections(section_name, section_items);
+   }
+   return xml_object;
+}
+
+   
+
+
+function serialize_sections(section_name, items) {
+   const escapeXML = (str) => {
+      if (!str) return "";
+      return str.toString()
+         .replace(/&/g, "&amp;")
+         .replace(/</g, "&lt;")
+         .replace(/>/g, "&gt;")
+         .replace(/\"/g, "&quot;")
+         .replace(/\'/g, "&apos;");
+   };
+
+   const itemsXML = items.map(item => `
+      <${escapeXML(item.key)}>
+         <description>${escapeXML(item.description)}</description>
+         <count>${escapeXML(item.count)}</count>
+         <cost>${escapeXML(item.cost)}</cost>
+         <total_cost>${escapeXML(item.total_cost}</total_cost>
+      </${escapeXML(item.key)}>
+      `).join("");
+
+   const section_info = `
+   <${section_name}>
+   ${itemsXML}
+   </${section_name}>
+   `;
+
+   return section_info;
 }
 
 // this will be the function for cli interface 
@@ -163,6 +247,20 @@ function batch_test_clean_contracts() {
    if (file_paths.length === 0) {
       console.error('No files provided: Usage node script destination files...');
       process.exit(1);
+   }
+
+   function make_folder(folder_name) {
+      const folder_path = path.join(destination_path, `/${folder_name}`);
+      fs.access(folder_path, fs.constants.F_OK, (err) => {
+         if (err) {
+            console.log(`${folder_name} does not exist, creating.`);
+            fs.mkdir(folder_path, (err) => {
+               if (err) {
+                  console.log("Making folder failed.");
+               }
+            });
+         } 
+      });
    }
 
    function write_json_lib(data, file_path) {
@@ -181,6 +279,15 @@ function batch_test_clean_contracts() {
          });
       } catch(e) {
          console.log(`Failure to write json file: ${e}`);
+      }
+   }
+   
+   function write_xml_lib(data, file_path) {
+      const full_path = path.resolve(file_path);
+      try {
+         const file_name =          
+      } catch(err) {
+         console.log(`Failure to construct XML file: ${err}`);
       }
    }
 

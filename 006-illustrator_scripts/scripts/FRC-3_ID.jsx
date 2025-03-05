@@ -16,60 +16,119 @@
    var test_file = new File(test_file_path);
    try {
       // #include "/Users/camdenbailey/Desktop/practice_notes/006-illustrator_scripts/scripts/FRC-obj.jsxinc";
+      #include "/Users/camdenbailey/Desktop/practice_notes/006-illustrator_scripts/scripts/001-examples/inDesign-identify.jsxinc";
    } catch(e) {
       console.log("Error including modules");
    }
   
    try {
-      if (!test_file.exists) {
-         throw new Error("File does not exist: " + test_file.fsName);
-      }
-      alert("File Path: " + test_file.fsName);
-      alert("File exists: " + test_file.exists);
-      alert("Is readable: " + test_file.length);
-      alert("Full Path: " + test_file.absoluteURI);
-      alert("Type: " + typeof test_file);
-      alert("Permissions: " + test_file.openPermission);
-      alert("Readable: " + test_file.readonly);
-      test_file.readonly = true;
-      alert("Readable Edited: " + test_file.readonly);
-
-      test_file.encoding = "UTF-8";
-      alert(test_file.encoding);
-      for (var key in test_file) {
-         alert("Property and Key: " + test_file[key]);
-      }
-
-      alert("property test: " + test_file.hasOwnProperty("readonly"))
-      alert(Object.getOwnPropertyNames(test_file));
-
-      alert(prop_names);
-      if(test_file.open("r")) {
-         alert("fak");
+      // test_obj(test_file);
+      var json_db_files = auth_json_db();
+      if (typeof json_db_files === "array") {
+         alert("array")
+      } else if (typeof json_db_files === "object") {
+         alert("object")
       } else {
-         test_file = File.openDialog("Pick:");
-         alert(test_file.fsName);
-
-         // alert("Problem reading file:" + test_file.error)
-         // alert("System Error: " + File.systemErrorMessage);
+         alert(typeof json_db_files);
       }
-  //   if (!test_file.exists) {
-  //      throw new Error('File does not exist: ' + test_file.fsName);
-  //      alert(test_file.absoluteURI);
-  //   } else {
-  //      alert("test file exists");
-  //      if (!test_file.open("r")) {
-  //         alert("not opening the file")
-  //         alert("File object: " + test_file);
-  //         for (var key in test_file) {
-  //            alert(key + ": " + test_file[key]);
-  //         }
-  //         alert("File size: " + test_file.length);
-  //         alert("File encoding: " + test_file.encoding);
-  //      }
-  //   }
+      // alert(obj_count_keys(json_db_files));
+      // var json_array = read_obj_keys(json_db_files);
+      // alert(json_array[0]);
+      // obj_show_keys(json_array[0]); // this will target row objects 
+      // obj_show_keys(json_db_files);
+      alert_selection(doc.selection);
    } catch(e) {
       throw new Error("Error writing files" + e + "\n" + e.message + "\n" + $.line);
+   }
+
+   function auth_json_db() {
+      var file_arr = [];
+      var files = File.openDialog("Select json files for authorization: ", undefined, true);
+      return files; 
+   }
+
+   function obj_count_keys(obj) {
+      var i = 0;
+      for (var key in obj) {
+         ++i;
+      }
+      return i;
+   }
+
+   function obj_show_keys(obj) {
+      for (var key in obj) {
+         alert("Property: " + key + "\n" + "Key: " + obj[key] + "\n");
+      }
+   } 
+
+   function read_obj_keys(obj) {
+      var json_array = [];
+      for (var key in obj) {
+         var path = obj[key];
+         var file = new File(path);
+         file.open("r");
+         var json_string = file.read();
+         file.close();
+         json_string = parse_JSON(json_string);
+         json_array.push(json_string);
+      }
+      return json_array;
+   }
+
+   function get_title_block_info(json_string) {
+
+   }
+
+   function alert_selection(sel) {
+      var xml_tag = doc.xmlTags.itemByName("TestTag");
+      if (!xml_tag.isValid) {
+         xml_tag = doc.xmlTags.add({ name: "TestTag" });
+      }
+
+      if (sel.length > 0) {
+         for (var i = 0; i < sel.length; ++i) {
+            var item = sel[i];
+            // alert(typeof sel[i]);
+            // sel[i].constructor.label = "testing";
+            // alert(sel[i].constructor.label);
+            item.xmlElements.add(xml_tag);
+
+
+         }
+      }
+   } 
+
+   function test_obj(obj) {
+      try {
+        if (!test_file.exists) {
+           throw new Error("File does not exist: " + test_file.fsName);
+        }
+        // displayObjProperties(doc.pages[0]);
+        alert("File Path: " + test_file.fsName);
+        alert("File exists: " + test_file.exists);
+        alert("Is readable: " + test_file.length);
+        alert("Full Path: " + test_file.absoluteURI);
+        alert("Type: " + typeof test_file);
+        alert("Permissions: " + test_file.openPermission);
+        alert("Readable: " + test_file.readonly);
+        alert("Encoding: " + test_file.encoding);
+        for (var key in test_file) {
+           alert("Property and Key: " + test_file[key]);
+        }
+
+        alert("property test: " + test_file.hasOwnProperty("readonly"))
+        alert(Object.getOwnPropertyNames(test_file));
+
+        alert(prop_names);
+        if(test_file.open("r")) {
+           alert("fak");
+        } else {
+           test_file = File.openDialog("Pick:");
+           alert(test_file.fsName);
+         }
+      } catch(e) {
+           throw new Error("Error testing object: " + e);
+      }
    }
 
    function parse_JSON(json_string) {
