@@ -3,14 +3,13 @@ const fs = require('fs');
 const path = require('path');
 // const { export_data } = require("./contract_db_import.js");
 
-// TODO
+// NOTES
 // > export function that doesn't add needless numbered headers to the file
 //    + important to remember, we are dealing with arrays of objects when bringing in a clean contract. 
-// > pick up working on the new export function. There are some problems we didn't forsee. 
-//    + issue with header numbers
-//    + issue parsing sparse rows, our check isn't working or the removal, can't tell
-//    + when we write a new file after removing the sparse rows, we need to remove any 
-//    extra headers that may have been added. 
+// TODO
+// > we implemented the first version of the write xml library function, need to run tests in the morning. 
+// > check the make folder function, it looks sketchy. 
+// > figure out validating an xml file. 
 
 
 
@@ -226,7 +225,7 @@ function serialize_sections(section_name, items) {
          <description>${escapeXML(item.description)}</description>
          <count>${escapeXML(item.count)}</count>
          <cost>${escapeXML(item.cost)}</cost>
-         <total_cost>${escapeXML(item.total_cost}</total_cost>
+         <total_cost>${escapeXML(item.total_cost)}</total_cost>
       </${escapeXML(item.key)}>
       `).join("");
 
@@ -270,22 +269,33 @@ function batch_test_clean_contracts() {
          const json_name = json_file_name(data);
          const file_name = path.basename(full_path);
          const new_path = path.join(destination_path, json_name);
-         fs.writeFile(new_path, new_data, (error) => {
-            if (error) {
-               console.error('Error writing json file:', error);
+         fs.writeFile(new_path, new_data, (err) => {
+            if (err) {
+               console.error('Error writing json file:', err);
             } else {
                console.log('Json file written successfully.');
             }
          });
-      } catch(e) {
-         console.log(`Failure to write json file: ${e}`);
+      } catch(err) {
+         console.log(`Failure to write json file: ${err}`);
       }
    }
    
    function write_xml_lib(data, file_path) {
       const full_path = path.resolve(file_path);
+      make_folder("xml-data");
       try {
-         const file_name =          
+          let xml_data = build_xml_object(data);
+          const xml_name = xml_file_name(data) 
+          const file_name = path.basename(full_path);
+          const new_path = path.join(destination_path, xml_name);
+          fs.writeFile(new_path, xml_data, (err) => {
+            if (err) {
+               console.error('Error writing xml file: ', err);
+            } else {
+               console.log('xml file written successfully.');
+            }
+          });
       } catch(err) {
          console.log(`Failure to construct XML file: ${err}`);
       }
@@ -302,12 +312,13 @@ function batch_test_clean_contracts() {
          }
          const target_data = import_clean_contract(full_path, file_name);
          write_json_lib(target_data, full_path);
+         write_xml_lib(target_data, full_path);
          export_data(target_data, new_file_path);
          console.log(`Processed clean contract, saved to: ${new_file_path}`)
          // console.log(target_data);
          // console.log(test_complete_row(target_data))
-      } catch(e) {
-         console.log(`Process Error: ${e}, ${full_path}`)
+      } catch(err) {
+         console.log(`Process Error: ${err}, ${full_path}`)
       }
    }
    file_paths.forEach((path) => process_file(path));
