@@ -8,6 +8,9 @@ const path = require('path');
 //    + important to remember, we are dealing with arrays of objects when bringing in a clean contract. 
 // TODO
 // > we implemented the first version of the write xml library function, need to run tests in the morning. 
+//    + writing xml files successfully, can test if they are valid in chrome
+//    + left off writing the unique signlist function. Should be something that gets run once and stores the information 
+//    when we first go over the data, and doesn't need to repeat. 
 // > check the make folder function, it looks sketchy. 
 // > figure out validating an xml file. 
 
@@ -113,7 +116,31 @@ function create_append_log(data, file_name) {
    }
 }
 
+function separate_revision_rows(data) {
+   const revision_regex = /revision[\s]?[\d]+/ig
+   const rev_regex = /rev[\s]?[\d]+/ig
+   for (i = 0; i < data.length; ++i) {
+      let row = data[i];
+      let rev_cell = row["9"];
+      if (revision_regex.test(rev_cell)) {
+         row["9"] = rev_cell.replace(revision_regex, (match) => `${match.trim()}\n`);
+      } else if (rev_regex.test(rev_cell)) {
+         row["9"] = rev_cell.replace(rev_regex, (match) => `${match.trim()}\n`);
+      }
+   }
+   return data;
+}
 
+function filter_contract_num(data) {
+   const contract_num_regex = /^[A-Za-z0-9]+ ?/i
+   for (i = 0; i < data.length; ++i) {
+      let row = data[i];
+      let contract_num = row["8"];
+      let clean_contract_num = contract_num.match(contract_num_regex);
+      row["8"] = clean_contract_num[0];
+   }
+   return data;
+}
 
 // this will be where the tests are applied to the exported files.
 function import_clean_contract(path, file_name) {
@@ -126,9 +153,10 @@ function import_clean_contract(path, file_name) {
    let filtered_data = raw_data;
    // filtered_data = test_complete_row(filtered_data);
    try {
-      // filtered_data = remove_sparse_while(filtered_data, check_sparse());
-      // show_row(filtered_data);
+      // remove_long_rows needs to happen first in the filtering
       filtered_data = remove_long_rows_while(filtered_data, file_name);
+      filtered_data = filter_contract_num(filtered_data);
+      filtered_data = separate_revision_rows(filtered_data);
    } catch(e) {
       console.log(`Import Error: ${e}`);
    }
@@ -167,14 +195,16 @@ function build_xml_object(data) {
    const data_row = data[2];
    
    const client_name = data_row["6"];
-   const job_num = data_row["8"];
+   const contract_num = data_row["8"];
    const project_name = data_row["10"];
-   const contract_name = data_row["11"];
+   const contract_file = data_row["11"];
 
    let unique_sections = [];
    let section_map = new Map();
    let xml_object = '';
-
+   let xml_sections = '';
+   
+   // this is what a row from the contract becomes, only includes essential cells but is flexible what can be included. 
    function build_key_obj(row) {
       let key_obj = {
          "key": row["1"],
@@ -185,10 +215,10 @@ function build_xml_object(data) {
       }
       return key_obj;
    }
-
+   try {
    for (let i = 0; i < data.length; ++i) {
       let row = data[i];
-      let section_name = row["0"];
+      let section_name = row["0"].trim();
       if (!unique_sections.includes(section_name)) {
          unique_sections.push(section_name);
       } 
@@ -197,29 +227,80 @@ function build_xml_object(data) {
       }
       section_map.get(section_name).push(build_key_obj(row));
    }
+   
+   // here we destructure the map object (contract body content) and serialize the data into xml
+   const section_map_array = Array.from(section_map);
+   for (let j = 0; j < section_map_array.length; ++j) {
+      let section_arr = section_map_array[j];
+      let section_name = section_arr[0];
+      let section_row_arr = section_arr[1];
+      xml_sections += serialize_sections(section_name, section_row_arr); 
+   }
 
-   for (let j = 0; j < unique_sections.length; ++j) {
-      let section_name = unique_sections[j];
-      let section_items = section_map[section_name];
-      xml_object += serialize_sections(section_name, section_items);
+   // metadata section serialized here 
+   const metadata = `
+   <contract_num>${contract_num}</contract_num>
+   <contract_file>${contract_file}</contract_file>
+   <client_name>${client_name}</client_name>
+   <project_name>${project_name}</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   `
+   const unique_sign_list = `
+      <unique_sign_list>${escapeXML(unique_sign_list.join(","))}</unique_sign_list>
+   `
+   // content inside root is arranged here    
+   xml_object = `
+      <job_info>
+      <contract>
+      <contract_name>${escapeXML(contract_file)}</contract_name>
+      ${xml_sections}
+      </contract>
+      <metadata>
+      ${metadata}
+      </metadata>
+      </job_info>
+      `
+
+   } catch(err) {
+      console.log(`Error serializing XML: ${err}`);
    }
    return xml_object;
 }
 
-   
+const unique_signs = (data) => {
+   // actually somewhat challenging to visualize, 
+   // 1 - unique sign descriptions, with count and section data for each
+   // 2 - for each unique desc, push onto the map, increment count, add to section list
+   // 3 - return map 
+   let sign_list = new Map();
+   let unique_sign_obj = {
+      "section": '',
+      "count": '',
+      "desc": ''
+   }
+   for (i = 1; i < data.length; ++i) {
+      let row = data[i];
+      let section = row["0"];
+      let count = row["2"];
+      let desc = row["3"];
+      if (sign_list.includes())
+   }
+}
+
+const escapeXML = (str) => {
+   if (!str) return "";
+   return str.toString()
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/\"/g, "&quot;")
+      .replace(/\'/g, "&apos;");
+};
 
 
 function serialize_sections(section_name, items) {
-   const escapeXML = (str) => {
-      if (!str) return "";
-      return str.toString()
-         .replace(/&/g, "&amp;")
-         .replace(/</g, "&lt;")
-         .replace(/>/g, "&gt;")
-         .replace(/\"/g, "&quot;")
-         .replace(/\'/g, "&apos;");
-   };
-
+   // expects an array of objects, key objects in this instance.
    const itemsXML = items.map(item => `
       <${escapeXML(item.key)}>
          <description>${escapeXML(item.description)}</description>
@@ -228,11 +309,12 @@ function serialize_sections(section_name, items) {
          <total_cost>${escapeXML(item.total_cost)}</total_cost>
       </${escapeXML(item.key)}>
       `).join("");
-
+   
    const section_info = `
-   <${section_name}>
+   <section>
+   <section_name>${escapeXML(section_name)}</section_name>
    ${itemsXML}
-   </${section_name}>
+   </section>
    `;
 
    return section_info;
@@ -247,9 +329,10 @@ function batch_test_clean_contracts() {
       console.error('No files provided: Usage node script destination files...');
       process.exit(1);
    }
+   make_folder()
 
    function make_folder(folder_name) {
-      const folder_path = path.join(destination_path, `/${folder_name}`);
+      const folder_path = path.join(destination_path, `/${"000-json_data"}`);
       fs.access(folder_path, fs.constants.F_OK, (err) => {
          if (err) {
             console.log(`${folder_name} does not exist, creating.`);
@@ -283,11 +366,11 @@ function batch_test_clean_contracts() {
    
    function write_xml_lib(data, file_path) {
       const full_path = path.resolve(file_path);
-      make_folder("xml-data");
+      const file_name = path.basename(full_path);
+      make_folder("000-xml_data");
       try {
           let xml_data = build_xml_object(data);
           const xml_name = xml_file_name(data) 
-          const file_name = path.basename(full_path);
           const new_path = path.join(destination_path, xml_name);
           fs.writeFile(new_path, xml_data, (err) => {
             if (err) {
@@ -297,7 +380,7 @@ function batch_test_clean_contracts() {
             }
           });
       } catch(err) {
-         console.log(`Failure to construct XML file: ${err}`);
+         console.log(`Failure to construct XML file: ${err} \n File: ${file_name}`);
       }
    }
 
@@ -311,7 +394,7 @@ function batch_test_clean_contracts() {
             return;
          }
          const target_data = import_clean_contract(full_path, file_name);
-         write_json_lib(target_data, full_path);
+         //write_json_lib(target_data, full_path);
          write_xml_lib(target_data, full_path);
          export_data(target_data, new_file_path);
          console.log(`Processed clean contract, saved to: ${new_file_path}`)

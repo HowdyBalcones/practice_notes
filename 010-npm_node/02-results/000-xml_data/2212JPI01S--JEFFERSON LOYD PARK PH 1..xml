@@ -1,0 +1,956 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2212JPI01S Jefferson Loyd Park Ph. 1 Signage REV 4.xlsx</contract_name>
+      
+   <section>
+   <section_name>SECTION_ID</section_name>
+   
+      <SPOTTING_KEY>
+         <description>SIGN_DESCRIPTION</description>
+         <count>SIGN_COUNT</count>
+         <cost>EACH_COST</cost>
+         <total_cost></total_cost>
+      </SPOTTING_KEY>
+      
+   </section>
+   
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <A.>
+         <description>SINGLE FACE MONUMENT SIGN - ILLUMINATED W/ CHANNEL- LETTERS &amp; PUSH-THRU ACRYLIC. LOCATED @ MAIN ENTRY ON- FRONTAGE ROAD- *STRUCTURE AND POWER TO LOCATION BY OTHERS*</description>
+         <count>1</count>
+         <cost>10900</cost>
+         <total_cost>10900</total_cost>
+      </A.>
+      
+      <B.>
+         <description>SINGLE FACE MONOLITH DIRECTIONAL SIGN</description>
+         <count>1</count>
+         <cost>1265</cost>
+         <total_cost>1265</total_cost>
+      </B.>
+      
+      <C.>
+         <description>ILLUMINATED WALL SIGN - LOCATED ON BUILDING 4 FACING HWY 360- *BLOCKING AND POWER TO LOCATION BY OTHERS*</description>
+         <count>1</count>
+         <cost>11900</cost>
+         <total_cost>11900</total_cost>
+      </C.>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: LEASING CENTER- EXTERIOR SIGNAGE</section_name>
+   
+      <A.>
+         <description>LEASING / PROJECT SINGLE - FACE NON - ILLUMINATED</description>
+         <count>1</count>
+         <cost>2800</cost>
+         <total_cost>2800</total_cost>
+      </A.>
+      
+      <B.>
+         <description>HOURS SIGN W/ CHANGEABLE HOURS</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </B.>
+      
+      <C.>
+         <description>ADDRESS NUMERALS - DIMENSIONAL</description>
+         <count>1</count>
+         <cost>610</cost>
+         <total_cost>610</total_cost>
+      </C.>
+      
+      <D.>
+         <description>CUSTOM HANDICAP PARKING W/BASEPLATE</description>
+         <count>2</count>
+         <cost>715</cost>
+         <total_cost>1430</total_cost>
+      </D.>
+      
+      <E.>
+         <description>CUSTOM FUTURE RESIDENT PARKING SIGN W/BASEPLATE</description>
+         <count>3</count>
+         <cost>715</cost>
+         <total_cost>2145</total_cost>
+      </E.>
+      
+      <F.>
+         <description>USPS PARKING W/BASEPLATE</description>
+         <count>1</count>
+         <cost>595</cost>
+         <total_cost>595</total_cost>
+      </F.>
+      
+      <G.>
+         <description>LOGO VINYL ON FRONT DOOR</description>
+         <count>1</count>
+         <cost>129</cost>
+         <total_cost>129</total_cost>
+      </G.>
+      
+      <H.>
+         <description>DOORS TO REMAIN UNLOCKED VINYL KIT</description>
+         <count>1</count>
+         <cost>69</cost>
+         <total_cost>69</total_cost>
+      </H.>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER - INTERIOR SIGNAGE</section_name>
+   
+      <A.>
+         <description>MANAGER ID W/BACKER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </A.>
+      
+      <B.>
+         <description>ASSISTANT MANAGER ID W/BACKER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </B.>
+      
+      <C.>
+         <description>EMPLOYEE ONLY (BREAK ROOM)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </C.>
+      
+      <D.>
+         <description>EMPLYEE ONLY (JANITOR)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </D.>
+      
+      <E.>
+         <description>CLUB ROOM ID W/BACKER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </E.>
+      
+      <F.>
+         <description>CLUB ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </F.>
+      
+      <G.>
+         <description>CONFERENCE ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </G.>
+      
+      <H.>
+         <description>FITNESS ID W/BACKER </description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </H.>
+      
+      <I.>
+         <description>FITNESS CENTER POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </I.>
+      
+      <J.>
+         <description>SPIN / YOGA ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </J.>
+      
+      <K.>
+         <description>WOMENS RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </K.>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER - INTERIOR  SIGNAGE</section_name>
+   
+      <L.>
+         <description>MENS RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </L.>
+      
+      <M.>
+         <description>HVAC ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </M.>
+      
+      <N.>
+         <description>MDF ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </N.>
+      
+      <O.>
+         <description>MAX OCCUPANCY ( X1 LEASING, X1 CLUB, X1 AT FITNESS)</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </O.>
+      
+      <P.>
+         <description>JPI DESKTOP PACKAGE (EQ HOUSING, ENG/SPAN, PROPER ID, NO CASH…)</description>
+         <count>1</count>
+         <cost>680</cost>
+         <total_cost>680</total_cost>
+      </P.>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: SITE SIGNAGE</section_name>
+   
+      <A.>
+         <description>ENTER / EXIT / GATE WARNING SIGN COMBO</description>
+         <count>3</count>
+         <cost>335</cost>
+         <total_cost>1005</total_cost>
+      </A.>
+      
+      <B.>
+         <description>TRASH COMPACTOR ID / POLICY</description>
+         <count>2</count>
+         <cost>185</cost>
+         <total_cost>370</total_cost>
+      </B.>
+      
+      <C.>
+         <description>TRASH / RECYCLE ENCLOSURE ID/POLICY </description>
+         <count>3</count>
+         <cost>155</cost>
+         <total_cost>465</total_cost>
+      </C.>
+      
+      <D.>
+         <description>GARAGE BUILDING ID (X10 SINGLE, X16 DOUBLE)</description>
+         <count>26</count>
+         <cost>175</cost>
+         <total_cost>4550</total_cost>
+      </D.>
+      
+      <E.>
+         <description>DETACHED GARAGE DOOR NUMBER</description>
+         <count>156</count>
+         <cost>38</cost>
+         <total_cost>5928</total_cost>
+      </E.>
+      
+      <F.>
+         <description>CARPORTS NUMBERS</description>
+         <count>156</count>
+         <cost>38</cost>
+         <total_cost>5928</total_cost>
+      </F.>
+      
+      <G.>
+         <description>MAIL KIOSK ID </description>
+         <count>2</count>
+         <cost>185</cost>
+         <total_cost>370</total_cost>
+      </G.>
+      
+      <H.>
+         <description>EV CHARGING SIGN - ON POST (X3 HANDICAP)</description>
+         <count>11</count>
+         <cost>335</cost>
+         <total_cost>3685</total_cost>
+      </H.>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: BUILDING #2 (TYPE II) SIGNAGE</section_name>
+   
+      <A.>
+         <description>BUILDING ID W/UNIT SPREAD</description>
+         <count>4</count>
+         <cost>310</cost>
+         <total_cost>1240</total_cost>
+      </A.>
+      
+      <B.>
+         <description>UNIT ACCESS (EXTERIOR)</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </B.>
+      
+      <C.>
+         <description>UNIT NUMBER ( X20 AT LEVEL 1, X24 EACH AT LEVEL 2 / 3)</description>
+         <count>68</count>
+         <cost>50</cost>
+         <total_cost>3400</total_cost>
+      </C.>
+      
+      <D.>
+         <description>STAIR ACCESS (EXTERIOR) </description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </D.>
+      
+      <E.>
+         <description>STAIR / LEVEL (X2 AT EACH LEVEL)</description>
+         <count>6</count>
+         <cost>48</cost>
+         <total_cost>288</total_cost>
+      </E.>
+      
+      <F.>
+         <description>STORAGE ID (X15 AT LEVEL 1, X1 EACH AT LEVEL 2 / 3)</description>
+         <count>17</count>
+         <cost>48</cost>
+         <total_cost>816</total_cost>
+      </F.>
+      
+      <G.>
+         <description>IDF ID (@LVL1)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </G.>
+      
+      <H.>
+         <description>ATTACHED GARAGE DOOR NUMBER (INTERIOR)</description>
+         <count>9</count>
+         <cost>38</cost>
+         <total_cost>342</total_cost>
+      </H.>
+      
+      <I.>
+         <description>ATTACHED GARAGE DOOR NUMBER (EXTERIOR)</description>
+         <count>9</count>
+         <cost>38</cost>
+         <total_cost>342</total_cost>
+      </I.>
+      
+      <J.>
+         <description>FIRE DOOR / DO NOT BLOCK ( X2 AT EACH LEVEL)</description>
+         <count>6</count>
+         <cost>58</cost>
+         <total_cost>348</total_cost>
+      </J.>
+      
+      <K.>
+         <description>FIRE RISER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </K.>
+      
+      <L.>
+         <description>FDC W / ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </L.>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: BUILDING #3 (TYPE I) SIGNAGE</section_name>
+   
+      <A.>
+         <description>BUILDING ID W/UNIT SPREAD</description>
+         <count>4</count>
+         <cost>310</cost>
+         <total_cost>1240</total_cost>
+      </A.>
+      
+      <B.>
+         <description>UNIT ACCESS (EXTERIOR)</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </B.>
+      
+      <C.>
+         <description>UNIT DOOR NUMBER (X24 AT EACH LEVEL)</description>
+         <count>72</count>
+         <cost>50</cost>
+         <total_cost>3600</total_cost>
+      </C.>
+      
+      <D.>
+         <description>STAIR ACCESS (EXTERIOR)</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </D.>
+      
+      <E.>
+         <description>STAIR / LEVEL (X2 AT EACH LEVEL)</description>
+         <count>6</count>
+         <cost>48</cost>
+         <total_cost>288</total_cost>
+      </E.>
+      
+      <F.>
+         <description>STORAGE ID (X7 AT LEVEL 1, X1 AT EACH LEVEL 2 / 3)</description>
+         <count>9</count>
+         <cost>48</cost>
+         <total_cost>432</total_cost>
+      </F.>
+      
+      <G.>
+         <description>IDF ID (@LVL1)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </G.>
+      
+      <H.>
+         <description>FIRE DOOR / DO NOT BLOCK </description>
+         <count>6</count>
+         <cost>58</cost>
+         <total_cost>348</total_cost>
+      </H.>
+      
+      <I.>
+         <description>FIRE RISER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </I.>
+      
+      <J.>
+         <description>FDC W / ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </J.>
+      
+   </section>
+   
+   <section>
+   <section_name>#7: BUILDING #4 (TYPE 1) SIGNAGE</section_name>
+   
+      <A.>
+         <description>BUILDING ID W/UNIT SPREAD</description>
+         <count>4</count>
+         <cost>310</cost>
+         <total_cost>1240</total_cost>
+      </A.>
+      
+      <B.>
+         <description>UNIT ACCESS (EXTERIOR)</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </B.>
+      
+      <C.>
+         <description>UNIT DOOR NUMBER (X24 AT EACH LEVEL)</description>
+         <count>72</count>
+         <cost>50</cost>
+         <total_cost>3600</total_cost>
+      </C.>
+      
+      <D.>
+         <description>STAIR ACCESS (EXTERIOR)</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </D.>
+      
+      <E.>
+         <description>STAIR / LEVEL (X2 AT EACH LEVEL)</description>
+         <count>6</count>
+         <cost>48</cost>
+         <total_cost>288</total_cost>
+      </E.>
+      
+      <F.>
+         <description>STORAGE ID (X7 AT LEVEL 1, X1 AT EACH LEVEL 2 / 3)</description>
+         <count>9</count>
+         <cost>48</cost>
+         <total_cost>432</total_cost>
+      </F.>
+      
+      <G.>
+         <description>IDF ID (@LVL1)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </G.>
+      
+      <H.>
+         <description>FIRE DOOR / DO NOT BLOCK </description>
+         <count>6</count>
+         <cost>58</cost>
+         <total_cost>348</total_cost>
+      </H.>
+      
+      <I.>
+         <description>FIRE RISER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </I.>
+      
+      <J.>
+         <description>FDC W / ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </J.>
+      
+   </section>
+   
+   <section>
+   <section_name>#8: BUILDING #5 (TYPE II) SIGNAGE</section_name>
+   
+      <A.>
+         <description>BUILDING ID W/UNIT SPREAD</description>
+         <count>4</count>
+         <cost>310</cost>
+         <total_cost>1240</total_cost>
+      </A.>
+      
+      <B.>
+         <description>UNIT ACCESS (EXTERIOR)</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </B.>
+      
+      <C.>
+         <description>UNIT NUMBER ( X20 AT LEVEL 1, X24 EACH AT LEVEL 2 / 3)</description>
+         <count>68</count>
+         <cost>50</cost>
+         <total_cost>3400</total_cost>
+      </C.>
+      
+      <D.>
+         <description>STAIR ACCESS (EXTERIOR )</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </D.>
+      
+      <E.>
+         <description>STAIR / LEVEL (X2 AT EACH LEVEL)</description>
+         <count>6</count>
+         <cost>48</cost>
+         <total_cost>288</total_cost>
+      </E.>
+      
+      <F.>
+         <description>STORAGE ID (X15 AT LEVEL 1, X1 EACH AT LEVEL 2 / 3)</description>
+         <count>17</count>
+         <cost>48</cost>
+         <total_cost>816</total_cost>
+      </F.>
+      
+      <G.>
+         <description>IDF ID (@LVL1)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </G.>
+      
+      <H.>
+         <description>ATTACHED GARAGE DOOR NUMBER (INTERIOR)</description>
+         <count>9</count>
+         <cost>38</cost>
+         <total_cost>342</total_cost>
+      </H.>
+      
+      <I.>
+         <description>ATTACHED GARAGE DOOR NUMBER (EXTERIOR)</description>
+         <count>9</count>
+         <cost>38</cost>
+         <total_cost>342</total_cost>
+      </I.>
+      
+      <J.>
+         <description>FIRE DOOR / DO NOT BLOCK ( X2 AT EACH LEVEL)</description>
+         <count>6</count>
+         <cost>58</cost>
+         <total_cost>348</total_cost>
+      </J.>
+      
+      <K.>
+         <description>FIRE RISER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </K.>
+      
+      <L.>
+         <description>FDC W / ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </L.>
+      
+   </section>
+   
+   <section>
+   <section_name>#9: BUILDING #6 (TYPE IV) SIGNAGE</section_name>
+   
+      <A.>
+         <description>BUILDING ID W/UNIT SPREAD</description>
+         <count>4</count>
+         <cost>310</cost>
+         <total_cost>1240</total_cost>
+      </A.>
+      
+      <B.>
+         <description>UNIT ACCESS (EXTERIOR)</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </B.>
+      
+      <C.>
+         <description>UNIT NUMBER (X6 AT LEVEL 1, X14 AT EACH LEVEL 2 / 3)</description>
+         <count>34</count>
+         <cost>50</cost>
+         <total_cost>1700</total_cost>
+      </C.>
+      
+      <D.>
+         <description>STAIR ACCESS (EXTERIOR)</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </D.>
+      
+      <E.>
+         <description>STAIR / LEVEL (X2 AT EACH LEVEL)</description>
+         <count>6</count>
+         <cost>48</cost>
+         <total_cost>288</total_cost>
+      </E.>
+      
+      <F.>
+         <description>STORAGE ID (X18 AT LEVEL 1, X1 AT LEVEL 2, X2 AT LEVEL 3)</description>
+         <count>21</count>
+         <cost>48</cost>
+         <total_cost>1008</total_cost>
+      </F.>
+      
+      <G.>
+         <description>IDF ID (@ LVL2)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </G.>
+      
+      <H.>
+         <description>ATTACHED GARAGE DOOR NUMBER (INTERIOR)</description>
+         <count>16</count>
+         <cost>38</cost>
+         <total_cost>608</total_cost>
+      </H.>
+      
+      <I.>
+         <description>ATTACHED GARAGE DOOR NUMBER (EXTERIOR)</description>
+         <count>16</count>
+         <cost>38</cost>
+         <total_cost>608</total_cost>
+      </I.>
+      
+      <J.>
+         <description>FIRE RISER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </J.>
+      
+      <K.>
+         <description>FDC W / ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </K.>
+      
+   </section>
+   
+   <section>
+   <section_name>#10: BUILDING #7 (TYPE III) SIGNAGE</section_name>
+   
+      <A.>
+         <description>BUILDING ID W/UNIT SPREAD</description>
+         <count>5</count>
+         <cost>310</cost>
+         <total_cost>1550</total_cost>
+      </A.>
+      
+      <B.>
+         <description>UNIT ACCESS (EXTERIOR)</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </B.>
+      
+      <C.>
+         <description>UNIT NUMBER (X20 AT LEVEL 1, X24 AT EACH LEVEL 2 / 3)</description>
+         <count>68</count>
+         <cost>50</cost>
+         <total_cost>3400</total_cost>
+      </C.>
+      
+      <D.>
+         <description>STAIR ACCESS (EXTERIOR)</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </D.>
+      
+      <E.>
+         <description>STAIR / LEVEL (X2 AT EACH LEVEL)</description>
+         <count>6</count>
+         <cost>48</cost>
+         <total_cost>288</total_cost>
+      </E.>
+      
+      <F.>
+         <description>STORAGE ID (X16 AT LEVEL 1, X1 AT EACH LEVEL 2 / 3)</description>
+         <count>18</count>
+         <cost>48</cost>
+         <total_cost>864</total_cost>
+      </F.>
+      
+      <G.>
+         <description>IDF ID (@LVL1)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </G.>
+      
+      <H.>
+         <description>ATTACHED GARAGE DOOR NUMBER (INTERIOR)</description>
+         <count>9</count>
+         <cost>38</cost>
+         <total_cost>342</total_cost>
+      </H.>
+      
+      <I.>
+         <description>ATTACHED GARAGE DOOR NUMBER (EXTERIOR)</description>
+         <count>9</count>
+         <cost>38</cost>
+         <total_cost>342</total_cost>
+      </I.>
+      
+      <J.>
+         <description>FIRE DOOR / DO NOT BLOCK (X2 AT EACH LEVEL)</description>
+         <count>6</count>
+         <cost>58</cost>
+         <total_cost>348</total_cost>
+      </J.>
+      
+      <K.>
+         <description>FIRE RISER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </K.>
+      
+      <L.>
+         <description>FDC W / ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </L.>
+      
+   </section>
+   
+   <section>
+   <section_name>#11: BUILDING #8 (TYPE III) SIGNAGE</section_name>
+   
+      <A.>
+         <description>BUILDING ID W/UNIT SPREAD</description>
+         <count>4</count>
+         <cost>310</cost>
+         <total_cost>1240</total_cost>
+      </A.>
+      
+      <B.>
+         <description>UNIT ACCESS (EXTERIOR)</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </B.>
+      
+      <C.>
+         <description>UNIT NUMBER (X20 AT LEVEL 1, X24 AT EACH LEVEL 2 / 3)</description>
+         <count>68</count>
+         <cost>50</cost>
+         <total_cost>3400</total_cost>
+      </C.>
+      
+      <D.>
+         <description>STAIR ACCESS (EXTERIOR)</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </D.>
+      
+      <E.>
+         <description>STAIR / LEVEL (X2 AT EACH LEVEL)</description>
+         <count>6</count>
+         <cost>48</cost>
+         <total_cost>288</total_cost>
+      </E.>
+      
+      <F.>
+         <description>STORAGE ID (X16 AT LEVEL 1, X1 AT EACH LEVEL 2 / 3)</description>
+         <count>18</count>
+         <cost>48</cost>
+         <total_cost>864</total_cost>
+      </F.>
+      
+      <G.>
+         <description>IDF ID (@LVL1)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </G.>
+      
+      <H.>
+         <description>ATTACHED GARAGE DOOR NUMBER (INTERIOR)</description>
+         <count>9</count>
+         <cost>38</cost>
+         <total_cost>342</total_cost>
+      </H.>
+      
+      <I.>
+         <description>ATTACHED GARAGE DOOR NUMBER (EXTERIOR)</description>
+         <count>9</count>
+         <cost>38</cost>
+         <total_cost>342</total_cost>
+      </I.>
+      
+      <J.>
+         <description>FIRE DOOR / DO NOT BLOCK (X2 AT EACH LEVEL)</description>
+         <count>6</count>
+         <cost>58</cost>
+         <total_cost>348</total_cost>
+      </J.>
+      
+      <K.>
+         <description>FIRE RISER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </K.>
+      
+      <L.>
+         <description>FDC W / ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </L.>
+      
+   </section>
+   
+   <section>
+   <section_name>#12: AMENITY SIGNAGE</section_name>
+   
+      <A.>
+         <description>POOL POLICY</description>
+         <count>1</count>
+         <cost>695</cost>
+         <total_cost>695</total_cost>
+      </A.>
+      
+      <B.>
+         <description>ADDT. TX 2022 POOL POLICY</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </B.>
+      
+      <C.>
+         <description>WARNING NO LIFEGUARD / NO DIVING</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </C.>
+      
+      <D.>
+         <description>911 EMERGENCY PHONE SIGN</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </D.>
+      
+      <E.>
+         <description>POOL GATE W/ HOURS &amp; 911 DIRECTIONAL</description>
+         <count>4</count>
+         <cost>155</cost>
+         <total_cost>620</total_cost>
+      </E.>
+      
+      <F.>
+         <description>GRILL POLICIES (X1 @ POOL, X1 @ DOG PARK)</description>
+         <count>2</count>
+         <cost>335</cost>
+         <total_cost>670</total_cost>
+      </F.>
+      
+      <G.>
+         <description>PET PARK IDS (X1 LARGE, X1 SMALL) - GATE MOUNT</description>
+         <count>2</count>
+         <cost>110</cost>
+         <total_cost>220</total_cost>
+      </G.>
+      
+      <H.>
+         <description>PET PARK POLICIES - FENCE MOUNT</description>
+         <count>1</count>
+         <cost>495</cost>
+         <total_cost>495</total_cost>
+      </H.>
+      
+      <I.>
+         <description>FIRE PIT GUIDELINES PLAQUE (@POOL)</description>
+         <count>2</count>
+         <cost>115</cost>
+         <total_cost>230</total_cost>
+      </I.>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <contract_num>2212JPI01S</contract_num>
+   <contract_file>2212JPI01S Jefferson Loyd Park Ph. 1 Signage REV 4.xlsx</contract_file>
+   <client_name>JPI REALTY, INC. 600 E. LAS COLINAS BLVD., #1800 IRVING, TX 75039</client_name>
+   <project_name>JEFFERSON LOYD PARK PH 1.</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      </job_info>
+      
