@@ -4,228 +4,243 @@
       <contract_name>2108OTH02RS Carina-Westland Revision.xlsx</contract_name>
       
    <section>
-   <section_name>SECTION_ID</section_name>
-   
-      <SPOTTING_KEY>
-         <description>SIGN_DESCRIPTION</description>
-         <count>SIGN_COUNT</count>
-         <cost>EACH_COST</cost>
-         <total_cost></total_cost>
-      </SPOTTING_KEY>
-      
-   </section>
-   
-   <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>MAIN ENTRY MONUMENT- D/F FACES ONLY WITH DIMENSIONAL- GRAPHICS ON EXISTING STRUCTURE</description>
          <count>1</count>
          <cost>7600</cost>
          <total_cost>7600</total_cost>
-      </A.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#2: LEASING CENTER- EXTERIOR SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>LEASING CENTER ID - S/F FACE ON DBL POST</description>
          <count>1</count>
          <cost>1895</cost>
          <total_cost>1895</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ADDRESS SIGN -DIMENSIONAL NUMBERS </description>
          <count>2</count>
          <cost>610</cost>
          <total_cost>1220</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>CUSTOM FUTURE RESIDENT PARKING SIGNS ON POSTS</description>
          <count>3</count>
          <cost>795</cost>
          <total_cost>2385</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>LOGO/HOURS SIGN - VINYL GRAPHICS ON GLASS) </description>
          <count>1</count>
          <cost>129</cost>
          <total_cost>129</total_cost>
-      </D.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#3: LEASING CENTER- INTERIOR SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>MANAGER </description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>UNISEX RESTROOM - 6 X 8 3/4</description>
          <count>1</count>
          <cost>98</cost>
          <total_cost>98</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>FITNESS CENTER ID W/ HOURS</description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>FITNESS CENTER POLICIES - 24X24</description>
          <count>1</count>
          <cost>335</cost>
          <total_cost>335</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>FDC (CODE REQUIRED)</description>
          <count>1</count>
          <cost>110</cost>
          <total_cost>110</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>FIRE SPRINKLER CONTROL (CODE REQUIRED)</description>
          <count>1</count>
          <cost>68</cost>
          <total_cost>68</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>MAX OCCUPANCY</description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </G.>
+      </sign>
       
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>ENTER ONLY/WARNING COMBO</description>
          <count>1</count>
          <cost>210</cost>
          <total_cost>210</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ENTRY/EXIT/EXIT ONLY COMBO</description>
          <count>1</count>
          <cost>210</cost>
          <total_cost>210</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>EXIT ONLY/ WARNING COMBO</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>MAIL CENTER ID</description>
          <count>1</count>
          <cost>110</cost>
          <total_cost>110</total_cost>
-      </D.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#6: BUILDING SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>BUILDING ID&apos;S/ ADDRESS SIGNS - 18X24</description>
          <count>12</count>
          <cost>235</cost>
          <total_cost>2820</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>UNIT DOOR NUMBERS - 7 X 3 1/2W</description>
          <count>232</count>
          <cost>48</cost>
          <total_cost>11136</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>FDC (CODE REQUIRED)</description>
          <count>13</count>
          <cost>110</cost>
          <total_cost>1430</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>FIRE SPRINKLER CONTROL (CODE REQUIRED)</description>
          <count>13</count>
          <cost>68</cost>
          <total_cost>884</total_cost>
-      </D.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#7: AMENITY SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>POOL POLICIES -WALL MOUNT</description>
          <count>1</count>
          <cost>595</cost>
          <total_cost>595</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>TEXAS POOL CODE 2021 SIGN</description>
          <count>1</count>
          <cost>410</cost>
          <total_cost>410</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>WARNING NO LIFEGUARD/ NO DIVIING/MISC INFO COMBO -- WALL MOUNT</description>
          <count>1</count>
          <cost>410</cost>
          <total_cost>410</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>CALL 911ID/PHONE DIRECTIONAL - WALL MOUNT</description>
          <count>1</count>
          <cost>210</cost>
          <total_cost>210</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>911 PHONE ID</description>
          <count>1</count>
          <cost>155</cost>
          <total_cost>155</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>POOL GATE SIGN W/ HOURS, AND W/ BACKER</description>
          <count>1</count>
          <cost>155</cost>
          <total_cost>155</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>POOL EQUIPMENT ROOM - WALL MOUNT</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </G.>
+      </sign>
       
    </section>
    
@@ -240,5 +255,393 @@
    <designer_name></designer_name>
    
       </metadata>
+      <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>MAIN ENTRY MONUMENT- D/F FACES ONLY WITH DIMENSIONAL- GRAPHICS ON EXISTING STRUCTURE</description>
+         <total_count>1</total_count>
+         <each_cost>7600</each_cost>
+         <total_cost>7600</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>LEASING CENTER ID - S/F FACE ON DBL POST</description>
+         <total_count>1</total_count>
+         <each_cost>1895</each_cost>
+         <total_cost>1895</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ADDRESS SIGN -DIMENSIONAL NUMBERS </description>
+         <total_count>2</total_count>
+         <each_cost>610</each_cost>
+         <total_cost>1220</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>CUSTOM FUTURE RESIDENT PARKING SIGNS ON POSTS</description>
+         <total_count>3</total_count>
+         <each_cost>795</each_cost>
+         <total_cost>2385</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>LOGO/HOURS SIGN - VINYL GRAPHICS ON GLASS) </description>
+         <total_count>1</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>129</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>MANAGER </description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>B.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>UNISEX RESTROOM - 6 X 8 3/4</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>C.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>FITNESS CENTER ID W/ HOURS</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>D.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>FITNESS CENTER POLICIES - 24X24</description>
+         <total_count>1</total_count>
+         <each_cost>335</each_cost>
+         <total_cost>335</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>E.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#6: BUILDING SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>FDC (CODE REQUIRED)</description>
+         <total_count>14</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>1540</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>F.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#6: BUILDING SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>FIRE SPRINKLER CONTROL (CODE REQUIRED)</description>
+         <total_count>14</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>952</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>G.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>MAX OCCUPANCY</description>
+         <total_count>2</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>116</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ENTER ONLY/WARNING COMBO</description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>B.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ENTRY/EXIT/EXIT ONLY COMBO</description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>C.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>EXIT ONLY/ WARNING COMBO</description>
+         <total_count>2</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>420</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>D.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>MAIL CENTER ID</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#6: BUILDING SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>BUILDING ID&apos;S/ ADDRESS SIGNS - 18X24</description>
+         <total_count>12</total_count>
+         <each_cost>235</each_cost>
+         <total_cost>2820</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>B.</key>
+            <section>#6: BUILDING SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>UNIT DOOR NUMBERS - 7 X 3 1/2W</description>
+         <total_count>232</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>11136</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#7: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>POOL POLICIES -WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>595</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>B.</key>
+            <section>#7: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>TEXAS POOL CODE 2021 SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>410</each_cost>
+         <total_cost>410</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>C.</key>
+            <section>#7: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>WARNING NO LIFEGUARD/ NO DIVIING/MISC INFO COMBO -- WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>410</each_cost>
+         <total_cost>410</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>D.</key>
+            <section>#7: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>CALL 911ID/PHONE DIRECTIONAL - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>E.</key>
+            <section>#7: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>911 PHONE ID</description>
+         <total_count>1</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>155</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>F.</key>
+            <section>#7: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>POOL GATE SIGN W/ HOURS, AND W/ BACKER</description>
+         <total_count>1</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>155</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>G.</key>
+            <section>#7: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>POOL EQUIPMENT ROOM - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      </unique_sign_list>
       </job_info>
       

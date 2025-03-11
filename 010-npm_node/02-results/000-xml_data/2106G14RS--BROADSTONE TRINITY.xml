@@ -4,87 +4,84 @@
       <contract_name>2106G14RS Broadstone Trinity REV 3.xlsx</contract_name>
       
    <section>
-   <section_name>SECTION_ID</section_name>
-   
-      <SPOTTING_KEY>
-         <description>SIGN_DESCRIPTION</description>
-         <count>SIGN_COUNT</count>
-         <cost>EACH_COST</cost>
-         <total_cost></total_cost>
-      </SPOTTING_KEY>
-      
-   </section>
-   
-   <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>ILLUMINATED WALL SIGN. LOADS TO BLDG A, FACING UNIVERSITY- 30&apos;W</description>
          <count>1</count>
          <cost>16800</cost>
          <total_cost>16800</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>DOUBLE-FACED BANDIT SIGNS: COROPLAST W/ DIGITAL PRINT.- LOADS TO H STAKE. 24&quot;W X 18&quot;H</description>
          <count>15</count>
          <cost>89</cost>
          <total_cost>1335</total_cost>
-      </B.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#2: LEASING CENTER- EXTERIOR / INTERIOR SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>ILLUMINATED PROPERTY ID - TOP LOAD TO ENTRY PORTE-COCHERE</description>
          <count>2</count>
          <cost>8950</cost>
          <total_cost>17900</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>1/2&quot; ACRYLIC &quot;LEASING CENTER&quot; LETTERS. LOADS UNDER ILLUMINATED- PROPERTY ID</description>
          <count>2</count>
          <cost>895</cost>
          <total_cost>1790</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>1/2&quot; ACRYLIC ADDRESS ON PORTE-COCHERE END CAPS, FACING- ROGERS &quot;170&quot;</description>
          <count>1</count>
          <cost>610</cost>
          <total_cost>610</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>DOUBLE-FACED POST &amp; PANEL DIRECTIONAL AT EXIT OF LEASING- DRIVE-THRU / BLDG B GARAGE ENTRY</description>
          <count>1</count>
          <cost>1895</cost>
          <total_cost>1895</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>CUSTOM FUTURE RESIDENT PARKING SIGNS - POLE MOUNT, SHORT</description>
          <count>2</count>
          <cost>795</cost>
          <total_cost>1590</total_cost>
-      </E.>
+      </sign>
       
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>WALL ALUMIGRAPHIC - FACING RIVER - OPTION A OR B</description>
          <count>1</count>
          <cost>1850</cost>
          <total_cost>1850</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>WALL ALUMIGRAPHIC - HEADING SOUTH ON ROGERS RD- OPTION A OR B</description>
          <count>1</count>
          <cost>1850</cost>
          <total_cost>1850</total_cost>
-      </B.>
+      </sign>
       
    </section>
    
@@ -99,5 +96,143 @@
    <designer_name></designer_name>
    
       </metadata>
+      <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ILLUMINATED WALL SIGN. LOADS TO BLDG A, FACING UNIVERSITY- 30&apos;W</description>
+         <total_count>1</total_count>
+         <each_cost>16800</each_cost>
+         <total_cost>16800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>DOUBLE-FACED BANDIT SIGNS: COROPLAST W/ DIGITAL PRINT.- LOADS TO H STAKE. 24&quot;W X 18&quot;H</description>
+         <total_count>15</total_count>
+         <each_cost>89</each_cost>
+         <total_cost>1335</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER- EXTERIOR / INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ILLUMINATED PROPERTY ID - TOP LOAD TO ENTRY PORTE-COCHERE</description>
+         <total_count>2</total_count>
+         <each_cost>8950</each_cost>
+         <total_cost>17900</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER- EXTERIOR / INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>1/2&quot; ACRYLIC &quot;LEASING CENTER&quot; LETTERS. LOADS UNDER ILLUMINATED- PROPERTY ID</description>
+         <total_count>2</total_count>
+         <each_cost>895</each_cost>
+         <total_cost>1790</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER- EXTERIOR / INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>1/2&quot; ACRYLIC ADDRESS ON PORTE-COCHERE END CAPS, FACING- ROGERS &quot;170&quot;</description>
+         <total_count>1</total_count>
+         <each_cost>610</each_cost>
+         <total_cost>610</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER- EXTERIOR / INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>DOUBLE-FACED POST &amp; PANEL DIRECTIONAL AT EXIT OF LEASING- DRIVE-THRU / BLDG B GARAGE ENTRY</description>
+         <total_count>1</total_count>
+         <each_cost>1895</each_cost>
+         <total_cost>1895</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>E.</key>
+            <section>#2: LEASING CENTER- EXTERIOR / INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>CUSTOM FUTURE RESIDENT PARKING SIGNS - POLE MOUNT, SHORT</description>
+         <total_count>2</total_count>
+         <each_cost>795</each_cost>
+         <total_cost>1590</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER- EXTERIOR / INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>WALL ALUMIGRAPHIC - FACING RIVER - OPTION A OR B</description>
+         <total_count>1</total_count>
+         <each_cost>1850</each_cost>
+         <total_cost>1850</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER- EXTERIOR / INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>WALL ALUMIGRAPHIC - HEADING SOUTH ON ROGERS RD- OPTION A OR B</description>
+         <total_count>1</total_count>
+         <each_cost>1850</each_cost>
+         <total_cost>1850</total_cost>
+      </unique_sign>
+      
+      </unique_sign_list>
       </job_info>
       

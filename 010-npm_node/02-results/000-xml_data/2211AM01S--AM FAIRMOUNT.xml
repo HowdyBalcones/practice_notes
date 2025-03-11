@@ -4,2852 +4,3214 @@
       <contract_name>2211AM01S Fairmount Signage REV 1.xlsx</contract_name>
       
    <section>
-   <section_name>SECTION_ID</section_name>
-   
-      <SPOTTING_KEY>
-         <description>SIGN_DESCRIPTION</description>
-         <count>SIGN_COUNT</count>
-         <cost>EACH_COST</cost>
-         <total_cost></total_cost>
-      </SPOTTING_KEY>
-      
-   </section>
-   
-   <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>ILLUMINATED CANOPY SIGN - STAND-UP LETTERS ON RAIL. LOADS - TO CANOPY ON FAIRMOUNT FRONTAGE OVER LEASING ENTRY- *POWER TO LOCATION BY OTHERS*</description>
          <count>1</count>
          <cost>11300</cost>
          <total_cost>11300</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ILLUMINATED CANOPY SIGN - STAND-UP LETTERS ON RAIL. LOADS - TO CANOPY ON CARLISLE FRONTAGE OVER LEASING AREA- *POWER TO LOCATION BY OTHERS*</description>
          <count>1</count>
          <cost>11300</cost>
          <total_cost>11300</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ILLUMINATED FIN SIGN - DOUBLE FACED - FIN IS INTEGRAL PART OF- BUILDING W/ SIGN FAE MOUNTING.- *POWER AND BLOCKING TO LOCATION BY OTHERS*</description>
          <count>1</count>
          <cost>17400</cost>
          <total_cost>17400</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>ILLUMINATED BLADE PARKING SIGN - GUESTS / RETAIL / RESIDENT- *BLOCKING AND POWER TO LOCATION BY OTHERS*</description>
          <count>1</count>
          <cost>9980</cost>
          <total_cost>9980</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>ALAM MANHATTAN - CAST PLAQUE - WALL MOUNT- STUD ATTACHMENT</description>
          <count>1</count>
          <cost>2460</cost>
          <total_cost>2460</total_cost>
-      </E.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#2: LEASING CENTER- EXTERIOR SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>ADDRESS ID - INDIVIDUAL NUMERALS</description>
          <count>1</count>
          <cost>720</cost>
          <total_cost>720</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>DOUBLE DOOR VINYL KIT (HOURS, LOGO, URL, PHONE)</description>
          <count>1</count>
          <cost>139</cost>
          <total_cost>139</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>&quot;DOORS TO REMAIN UNLOCKED…&quot; VINYL KIT</description>
          <count>1</count>
          <cost>69</cost>
          <total_cost>69</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>CUSTOM FUTURE RESIDENT PARKING SIGN - WALL MOUNT</description>
          <count>3</count>
          <cost>385</cost>
          <total_cost>1155</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>CUSTOM HANDICAP PARKING SIGN - WALL MOUNT</description>
          <count>2</count>
          <cost>385</cost>
          <total_cost>770</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>CUSTOM USPS PARKING SIGN - WALL MOUNT</description>
          <count>1</count>
          <cost>385</cost>
          <total_cost>385</total_cost>
-      </F.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#3: LEASING CENTER - INTERIOR SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>LOBBY SIGN ALLOWANCE</description>
          <count>1</count>
          <cost>5400</cost>
          <total_cost>5400</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>MANAGER ID W/ BACKER</description>
          <count>1</count>
          <cost>88</cost>
          <total_cost>88</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ASST. MANAGER ID W/ BACKER</description>
          <count>1</count>
          <cost>88</cost>
          <total_cost>88</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>CONVIENIENCE ROOM ID</description>
          <count>1</count>
          <cost>88</cost>
          <total_cost>88</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>EMPLOYEE ONLY (BOH, JANITOR)</description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>UNISEX RESTROOM (X2 @ LEASE, X1 @ FITNESS, X2 @ CLUB)</description>
          <count>5</count>
          <cost>98</cost>
          <total_cost>490</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>CO-WORK ID</description>
          <count>2</count>
          <cost>88</cost>
          <total_cost>176</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>CO-WORK POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>435</cost>
          <total_cost>435</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>MICRO OFFICE ID </description>
          <count>3</count>
          <cost>58</cost>
          <total_cost>174</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>CONFERENCE ROOM ID</description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </J.>
+      </sign>
       
-      <K.>
+      <sign>
+         <key>K.</key>
          <description>MECHANICAL ID (X1 @ FIT, X2 @ LEASE, X3 @ CLUB)</description>
          <count>6</count>
          <cost>48</cost>
          <total_cost>288</total_cost>
-      </K.>
+      </sign>
       
-      <L.>
+      <sign>
+         <key>L.</key>
          <description>MAILROOM ID</description>
          <count>1</count>
          <cost>88</cost>
          <total_cost>88</total_cost>
-      </L.>
+      </sign>
       
-      <M.>
+      <sign>
+         <key>M.</key>
          <description>FITNESS ID (@LVL10) (X1 @ HALL, X1 POOL TO FITNESS)</description>
          <count>2</count>
          <cost>88</cost>
          <total_cost>176</total_cost>
-      </M.>
+      </sign>
       
-      <N.>
+      <sign>
+         <key>N.</key>
          <description>FITNESS POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>435</cost>
          <total_cost>435</total_cost>
-      </N.>
+      </sign>
       
-      <O.>
+      <sign>
+         <key>O.</key>
          <description>AV ID (@ LVL10)</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </O.>
+      </sign>
       
-      <P.>
+      <sign>
+         <key>P.</key>
          <description>CLUB ROOM ID</description>
          <count>1</count>
          <cost>88</cost>
          <total_cost>88</total_cost>
-      </P.>
+      </sign>
       
-      <Q.>
+      <sign>
+         <key>Q.</key>
          <description>CLUB ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>435</cost>
          <total_cost>435</total_cost>
-      </Q.>
+      </sign>
       
-      <R.>
+      <sign>
+         <key>R.</key>
          <description>SPEAK EASY ID (LVL31)</description>
          <count>1</count>
          <cost>88</cost>
          <total_cost>88</total_cost>
-      </R.>
+      </sign>
       
-      <S.>
+      <sign>
+         <key>S.</key>
          <description>SPEAK EASY POLICY - WALL MOUNT (LVL31)</description>
          <count>1</count>
          <cost>435</cost>
          <total_cost>435</total_cost>
-      </S.>
+      </sign>
       
-      <T.>
+      <sign>
+         <key>T.</key>
          <description>MAX OCCUPANCY (LEASE, CO-WORK, FITNESS , CLUB, SPEAK EASY)</description>
          <count>5</count>
          <cost>58</cost>
          <total_cost>290</total_cost>
-      </T.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>GARAGE TO BUILDING / STAIR / ELEVATOR LOBBY</description>
          <count>1</count>
          <cost>78</cost>
          <total_cost>78</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>BUILDING TO GARAGE</description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>EXIT / STAIR / LEVEL</description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>1</count>
          <cost>210</cost>
          <total_cost>210</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>MAIN ELECTRICAL ID</description>
          <count>1</count>
          <cost>88</cost>
          <total_cost>88</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>MPOE ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>CLEARANCE BAR / WAYFINDING PACKAGE AT GRADE CHANGE</description>
          <count>1</count>
          <cost>985</cost>
          <total_cost>985</total_cost>
-      </I.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#5: PARKING GARAGE - LEVEL 1 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>CLEARANCE BAR PACKAGE (X2) 8&apos; W  BARS ENTER / EXIT</description>
          <count>1</count>
          <cost>335</cost>
          <total_cost>335</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>RETAIL SUITE ID - VINYL ADDRESS</description>
          <count>1</count>
          <cost>24</cost>
          <total_cost>24</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>GARAGE TO BUILIDING </description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>RETAIL TRASH ID </description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>RETAIL TRASH POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>235</cost>
          <total_cost>235</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>LOADING AREA/ DO NOT BLOCK</description>
          <count>2</count>
          <cost>385</cost>
          <total_cost>770</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>FIRE DOMESTIC PUMP ROOM - W/ RED REFLECTIVE</description>
          <count>1</count>
          <cost>110</cost>
          <total_cost>110</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>HANG-DOWN CAUTION / DIRECTIONAL</description>
          <count>1</count>
          <cost>985</cost>
          <total_cost>985</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>DESIGNATED REATIL GUEST PARKING </description>
          <count>40</count>
          <cost>98</cost>
          <total_cost>3920</total_cost>
-      </I.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#6: PARKING GARAGE - LEVEL 2 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>GARAGE TO BUILDING / EXIT / STAIR / LEVEL</description>
          <count>1</count>
          <cost>78</cost>
          <total_cost>78</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>1</count>
          <cost>210</cost>
          <total_cost>210</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>GARAGE TO BUILIDING / ELEVATOR LOBBY</description>
          <count>2</count>
          <cost>68</cost>
          <total_cost>136</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>BUILDING TO GARAGE </description>
          <count>3</count>
          <cost>58</cost>
          <total_cost>174</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>LOADING AREA ID</description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </G.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#7: PARKING GARAGE - LEVEL 3 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>GARAGE TO BUILDING / EXIT / STAIR / LEVEL</description>
          <count>2</count>
          <cost>78</cost>
          <total_cost>156</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>GARAGE TO BUILIDING / ELEVATOR LOBBY</description>
          <count>2</count>
          <cost>68</cost>
          <total_cost>136</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>BUILDING TO GARAGE </description>
          <count>4</count>
          <cost>58</cost>
          <total_cost>232</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>RESIDENT STORAGE ID</description>
          <count>5</count>
          <cost>58</cost>
          <total_cost>290</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>GARAGE TO BUILDING </description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </H.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#8: PARKING GARAGE - LEVEL 4 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>GARAGE TO BUILDING / EXIT / STAIR / LEVEL</description>
          <count>2</count>
          <cost>78</cost>
          <total_cost>156</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>GARAGE TO BUILIDING / ELEVATOR LOBBY</description>
          <count>2</count>
          <cost>68</cost>
          <total_cost>136</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>BUILDING TO GARAGE </description>
          <count>4</count>
          <cost>58</cost>
          <total_cost>232</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>RESIDENT STORAGE ID</description>
          <count>5</count>
          <cost>58</cost>
          <total_cost>290</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>GARAGE TO BUILDING </description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </H.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#9: PARKING GARAGE - LEVEL 5 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>GARAGE TO BUILDING / EXIT / STAIR / LEVEL</description>
          <count>2</count>
          <cost>78</cost>
          <total_cost>156</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>GARAGE TO BUILIDING / ELEVATOR LOBBY</description>
          <count>2</count>
          <cost>68</cost>
          <total_cost>136</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>BUILDING TO GARAGE </description>
          <count>4</count>
          <cost>58</cost>
          <total_cost>232</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>GARAGE TO BUILDING </description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </G.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#10: PARKING GARAGE - LEVEL 6 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>GARAGE TO BUILDING / EXIT / STAIR / LEVEL</description>
          <count>2</count>
          <cost>78</cost>
          <total_cost>156</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>GARAGE TO BUILIDING / ELEVATOR LOBBY</description>
          <count>2</count>
          <cost>68</cost>
          <total_cost>136</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>BUILDING TO GARAGE </description>
          <count>4</count>
          <cost>58</cost>
          <total_cost>232</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>GARAGE TO BUILDING </description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </G.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#11: PARKING GARAGE - LEVEL 7 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>GARAGE TO BUILDING / EXIT / STAIR / LEVEL</description>
          <count>2</count>
          <cost>78</cost>
          <total_cost>156</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>GARAGE TO BUILIDING / ELEVATOR LOBBY</description>
          <count>2</count>
          <cost>68</cost>
          <total_cost>136</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>BUILDING TO GARAGE </description>
          <count>4</count>
          <cost>58</cost>
          <total_cost>232</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>GARAGE TO BUILDING </description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </G.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#12: PARKING GARAGE - LEVEL 8 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>GARAGE TO BUILDING / EXIT / STAIR / LEVEL</description>
          <count>2</count>
          <cost>78</cost>
          <total_cost>156</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>GARAGE TO BUILIDING / ELEVATOR LOBBY</description>
          <count>2</count>
          <cost>68</cost>
          <total_cost>136</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>BUILDING TO GARAGE </description>
          <count>4</count>
          <cost>58</cost>
          <total_cost>232</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>GARAGE TO BUILDING </description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </G.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#13: PARKING GARAGE - LEVEL 9 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>GARAGE TO BUILDING / EXIT / STAIR / LEVEL</description>
          <count>2</count>
          <cost>78</cost>
          <total_cost>156</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>GARAGE TO BUILIDING / ELEVATOR LOBBY</description>
          <count>2</count>
          <cost>68</cost>
          <total_cost>136</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>BUILDING TO GARAGE </description>
          <count>4</count>
          <cost>58</cost>
          <total_cost>232</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>GARAGE TO BUILDING </description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </G.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#14: LEVEL 1 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>ADDRESS / BUILDING ID W/ UNIT SPREAD</description>
          <count>4</count>
          <cost>335</cost>
          <total_cost>1340</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>RETAIL SUITE ID - VINYL FOR X2 RETAIL CONDITIONS</description>
          <count>5</count>
          <cost>24</cost>
          <total_cost>120</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR LOBBY ID</description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIR ACCESS</description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>EXIT / STAIR / LEVEL</description>
          <count>2</count>
          <cost>68</cost>
          <total_cost>136</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>BUILDING TO GARAGE</description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>FIRE COMMAND ROOM ID (4&quot;)</description>
          <count>1</count>
          <cost>110</cost>
          <total_cost>110</total_cost>
-      </I.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#15: LEVEL 2 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>EXIT / STAIR / LEVEL</description>
          <count>1</count>
          <cost>68</cost>
          <total_cost>68</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>GENERATOR ID</description>
          <count>1</count>
          <cost>68</cost>
          <total_cost>68</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>TRASH POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>TRASH PICK-UP / DO NOT BLOCK</description>
          <count>1</count>
          <cost>385</cost>
          <total_cost>385</total_cost>
-      </F.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#16: LEVEL 3 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>EXIT / STAIR / LEVEL</description>
          <count>1</count>
          <cost>68</cost>
          <total_cost>68</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>1</count>
          <cost>210</cost>
          <total_cost>210</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>BUILDING TO GARAGE</description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </C.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#17: LEVEL 4 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>EXIT / STAIR / LEVEL</description>
          <count>1</count>
          <cost>68</cost>
          <total_cost>68</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>1</count>
          <cost>210</cost>
          <total_cost>210</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>BUILDING TO GARAGE</description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </C.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#18: LEVEL 5 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>EXIT / STAIR / LEVEL</description>
          <count>1</count>
          <cost>68</cost>
          <total_cost>68</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>1</count>
          <cost>210</cost>
          <total_cost>210</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>BUILDING TO GARAGE</description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </C.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#19: LEVEL 6 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>EXIT / STAIR / LEVEL</description>
          <count>1</count>
          <cost>68</cost>
          <total_cost>68</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>1</count>
          <cost>210</cost>
          <total_cost>210</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>BUILDING TO GARAGE</description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </C.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#20: LEVEL 7 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>EXIT / STAIR / LEVEL</description>
          <count>1</count>
          <cost>68</cost>
          <total_cost>68</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>1</count>
          <cost>210</cost>
          <total_cost>210</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>BUILDING TO GARAGE</description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </C.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#21: LEVEL 8 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>EXIT / STAIR / LEVEL</description>
          <count>1</count>
          <cost>68</cost>
          <total_cost>68</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>1</count>
          <cost>210</cost>
          <total_cost>210</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>BUILDING TO GARAGE</description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </C.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#22: LEVEL 9 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>EXIT / STAIR / LEVEL</description>
          <count>1</count>
          <cost>68</cost>
          <total_cost>68</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>1</count>
          <cost>210</cost>
          <total_cost>210</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>BUILDING TO GARAGE</description>
          <count>1</count>
          <cost>58</cost>
          <total_cost>58</total_cost>
-      </C.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#23: LEVEL 10 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>EXIT / STAIR / ELEVATOR ACCESS PLAQUE (POOL TO COORIDOR)</description>
          <count>2</count>
          <cost>78</cost>
          <total_cost>156</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#24: LEVEL 11 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#25: LEVEL 12 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#26: LEVEL 14 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#27: LEVEL 15 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#28: LEVEL 16 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>MECHANICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </J.>
+      </sign>
       
-      <K.>
+      <sign>
+         <key>K.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </K.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#29: LEVEL 17 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#30: LEVEL 18 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#31: LEVEL 19 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#32: LEVEL 20 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#33: LEVEL 21 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#34: LEVEL 22 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#35: LEVEL 23 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#36: LEVEL 24 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#37: LEVEL 25 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#38: LEVEL 26 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#39: LEVEL 27 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#40: LEVEL 28 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#41: LEVEL 29 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </J.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#42: LEVEL 30 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>UNIT DOOR NUMBERS - SCONCE / UNIT #- NUMERA &quot;MADELINE&quot; PRODUCT</description>
          <count>6</count>
          <cost>68</cost>
          <total_cost>408</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>HALLWAY DIRECTIONAL</description>
          <count>2</count>
          <cost>120</cost>
          <total_cost>240</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
          <count>3</count>
          <cost>68</cost>
          <total_cost>204</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>BC ID (VERIFY)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </J.>
+      </sign>
       
-      <K.>
+      <sign>
+         <key>K.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </K.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#43: LEVEL 31 SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>UNIT DOOR NUMBERS - SCONCE / UNIT #- NUMERA &quot;MADELINE&quot; PRODUCT</description>
          <count>2</count>
          <cost>68</cost>
          <total_cost>136</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ELEVATOR LOBBY </description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
          <count>2</count>
          <cost>245</cost>
          <total_cost>490</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>EXIT / STAIR / LEVEL (X2 @ EACH STAIR)</description>
          <count>4</count>
          <cost>68</cost>
          <total_cost>272</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>ROOF ACCESS (@STAIR 2)</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
          <count>2</count>
          <cost>210</cost>
          <total_cost>420</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>ELECTRICAL ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PLUMBING ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>EMPLOYEE ONLY (JANITOR)</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>MECHANICAL ID</description>
          <count>3</count>
          <cost>48</cost>
          <total_cost>144</total_cost>
-      </J.>
+      </sign>
       
-      <K.>
+      <sign>
+         <key>K.</key>
          <description>UNISEX RESTROOM</description>
          <count>2</count>
          <cost>98</cost>
          <total_cost>196</total_cost>
-      </K.>
+      </sign>
       
-      <L.>
+      <sign>
+         <key>L.</key>
          <description>CLUB ROOM ID</description>
          <count>1</count>
          <cost>88</cost>
          <total_cost>88</total_cost>
-      </L.>
+      </sign>
       
-      <M.>
+      <sign>
+         <key>M.</key>
          <description>CLUB ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>435</cost>
          <total_cost>435</total_cost>
-      </M.>
+      </sign>
       
-      <N.>
+      <sign>
+         <key>N.</key>
          <description>SPEAK EASY ID</description>
          <count>1</count>
          <cost>88</cost>
          <total_cost>88</total_cost>
-      </N.>
+      </sign>
       
-      <O.>
+      <sign>
+         <key>O.</key>
          <description>SPEAK EASY POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>435</cost>
          <total_cost>435</total_cost>
-      </O.>
+      </sign>
       
-      <P.>
+      <sign>
+         <key>P.</key>
          <description>MAX OCCUPANCY (CLUB, SPEAK EASY)</description>
          <count>2</count>
          <cost>58</cost>
          <total_cost>116</total_cost>
-      </P.>
+      </sign>
       
-      <Q.>
+      <sign>
+         <key>Q.</key>
          <description>TRASH ROOM ID</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </Q.>
+      </sign>
       
-      <R.>
+      <sign>
+         <key>R.</key>
          <description>TRASH ROOM POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>195</cost>
          <total_cost>195</total_cost>
-      </R.>
+      </sign>
       
    </section>
    
    <section>
    <section_name>#44: AMENITY SIGNAGE</section_name>
    
-      <A.>
+      <sign>
+         <key>A.</key>
          <description>POOL POLICY</description>
          <count>1</count>
          <cost>695</cost>
          <total_cost>695</total_cost>
-      </A.>
+      </sign>
       
-      <B.>
+      <sign>
+         <key>B.</key>
          <description>ADDT. TX 2022 POOL POLICY</description>
          <count>1</count>
          <cost>410</cost>
          <total_cost>410</total_cost>
-      </B.>
+      </sign>
       
-      <C.>
+      <sign>
+         <key>C.</key>
          <description>WARNING NO LIFEGUARD / NO DIVING</description>
          <count>1</count>
          <cost>410</cost>
          <total_cost>410</total_cost>
-      </C.>
+      </sign>
       
-      <D.>
+      <sign>
+         <key>D.</key>
          <description>911 EMERGENCY PHONE SIGN</description>
          <count>1</count>
          <cost>155</cost>
          <total_cost>155</total_cost>
-      </D.>
+      </sign>
       
-      <E.>
+      <sign>
+         <key>E.</key>
          <description>LOGO / POOL DESIGNATION W/ HOURS - VINYL KIT</description>
          <count>3</count>
          <cost>155</cost>
          <total_cost>465</total_cost>
-      </E.>
+      </sign>
       
-      <F.>
+      <sign>
+         <key>F.</key>
          <description>GRILL POLICIES (@POOL)</description>
          <count>1</count>
          <cost>385</cost>
          <total_cost>385</total_cost>
-      </F.>
+      </sign>
       
-      <G.>
+      <sign>
+         <key>G.</key>
          <description>PET GROOMING ID (@ LVL 16)</description>
          <count>2</count>
          <cost>48</cost>
          <total_cost>96</total_cost>
-      </G.>
+      </sign>
       
-      <H.>
+      <sign>
+         <key>H.</key>
          <description>PET GROOMING POLICY - WALL MOUNT</description>
          <count>1</count>
          <cost>235</cost>
          <total_cost>235</total_cost>
-      </H.>
+      </sign>
       
-      <I.>
+      <sign>
+         <key>I.</key>
          <description>PET OWNER LOUNGE ID (@ LVL16)</description>
          <count>1</count>
          <cost>48</cost>
          <total_cost>48</total_cost>
-      </I.>
+      </sign>
       
-      <J.>
+      <sign>
+         <key>J.</key>
          <description>DOG RUN ID / POLICY  (@ LVL 16)</description>
          <count>1</count>
          <cost>595</cost>
          <total_cost>595</total_cost>
-      </J.>
+      </sign>
       
-      <K.>
+      <sign>
+         <key>K.</key>
          <description>FIRE PIT GUIDELINES PLAQUE</description>
          <count>1</count>
          <cost>110</cost>
          <total_cost>110</total_cost>
-      </K.>
+      </sign>
       
    </section>
    
@@ -2864,5 +3226,2788 @@
    <designer_name></designer_name>
    
       </metadata>
+      <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ILLUMINATED CANOPY SIGN - STAND-UP LETTERS ON RAIL. LOADS - TO CANOPY ON FAIRMOUNT FRONTAGE OVER LEASING ENTRY- *POWER TO LOCATION BY OTHERS*</description>
+         <total_count>1</total_count>
+         <each_cost>11300</each_cost>
+         <total_cost>11300</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ILLUMINATED CANOPY SIGN - STAND-UP LETTERS ON RAIL. LOADS - TO CANOPY ON CARLISLE FRONTAGE OVER LEASING AREA- *POWER TO LOCATION BY OTHERS*</description>
+         <total_count>1</total_count>
+         <each_cost>11300</each_cost>
+         <total_cost>11300</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ILLUMINATED FIN SIGN - DOUBLE FACED - FIN IS INTEGRAL PART OF- BUILDING W/ SIGN FAE MOUNTING.- *POWER AND BLOCKING TO LOCATION BY OTHERS*</description>
+         <total_count>1</total_count>
+         <each_cost>17400</each_cost>
+         <total_cost>17400</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>D.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ILLUMINATED BLADE PARKING SIGN - GUESTS / RETAIL / RESIDENT- *BLOCKING AND POWER TO LOCATION BY OTHERS*</description>
+         <total_count>1</total_count>
+         <each_cost>9980</each_cost>
+         <total_cost>9980</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>E.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ALAM MANHATTAN - CAST PLAQUE - WALL MOUNT- STUD ATTACHMENT</description>
+         <total_count>1</total_count>
+         <each_cost>2460</each_cost>
+         <total_cost>2460</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ADDRESS ID - INDIVIDUAL NUMERALS</description>
+         <total_count>1</total_count>
+         <each_cost>720</each_cost>
+         <total_cost>720</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>DOUBLE DOOR VINYL KIT (HOURS, LOGO, URL, PHONE)</description>
+         <total_count>1</total_count>
+         <each_cost>139</each_cost>
+         <total_cost>139</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>&quot;DOORS TO REMAIN UNLOCKED…&quot; VINYL KIT</description>
+         <total_count>1</total_count>
+         <each_cost>69</each_cost>
+         <total_cost>69</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>CUSTOM FUTURE RESIDENT PARKING SIGN - WALL MOUNT</description>
+         <total_count>3</total_count>
+         <each_cost>385</each_cost>
+         <total_cost>1155</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>E.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>CUSTOM HANDICAP PARKING SIGN - WALL MOUNT</description>
+         <total_count>2</total_count>
+         <each_cost>385</each_cost>
+         <total_cost>770</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>F.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>CUSTOM USPS PARKING SIGN - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>385</each_cost>
+         <total_cost>385</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>LOBBY SIGN ALLOWANCE</description>
+         <total_count>1</total_count>
+         <each_cost>5400</each_cost>
+         <total_cost>5400</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>B.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>MANAGER ID W/ BACKER</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>C.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ASST. MANAGER ID W/ BACKER</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>D.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>CONVIENIENCE ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>E.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>EMPLOYEE ONLY (BOH, JANITOR)</description>
+         <total_count>2</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>116</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>F.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>UNISEX RESTROOM (X2 @ LEASE, X1 @ FITNESS, X2 @ CLUB)</description>
+         <total_count>5</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>490</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>G.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>CO-WORK ID</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>H.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>CO-WORK POLICY - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>435</each_cost>
+         <total_cost>435</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>I.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>MICRO OFFICE ID </description>
+         <total_count>3</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>174</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>J.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>CONFERENCE ROOM ID</description>
+         <total_count>2</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>116</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>K.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>MECHANICAL ID (X1 @ FIT, X2 @ LEASE, X3 @ CLUB)</description>
+         <total_count>6</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>288</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>L.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>MAILROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>M.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>FITNESS ID (@LVL10) (X1 @ HALL, X1 POOL TO FITNESS)</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>N.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>FITNESS POLICY - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>435</each_cost>
+         <total_cost>435</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>O.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>AV ID (@ LVL10)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>P.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>L.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>CLUB ROOM ID</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>Q.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>M.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>CLUB ROOM POLICY - WALL MOUNT</description>
+         <total_count>2</total_count>
+         <each_cost>435</each_cost>
+         <total_cost>870</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>R.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>SPEAK EASY ID (LVL31)</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>S.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>SPEAK EASY POLICY - WALL MOUNT (LVL31)</description>
+         <total_count>1</total_count>
+         <each_cost>435</each_cost>
+         <total_cost>435</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>T.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>MAX OCCUPANCY (LEASE, CO-WORK, FITNESS , CLUB, SPEAK EASY)</description>
+         <total_count>5</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>290</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>GARAGE TO BUILDING / STAIR / ELEVATOR LOBBY</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>B.</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#14: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#16: LEVEL 3 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#17: LEVEL 4 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#18: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#19: LEVEL 6 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#20: LEVEL 7 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#21: LEVEL 8 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#22: LEVEL 9 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>BUILDING TO GARAGE</description>
+         <total_count>9</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>522</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>C.</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#14: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#15: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#16: LEVEL 3 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#17: LEVEL 4 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#18: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#19: LEVEL 6 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#20: LEVEL 7 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#21: LEVEL 8 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#22: LEVEL 9 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>EXIT / STAIR / LEVEL</description>
+         <total_count>11</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>638</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>D.</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#6: PARKING GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#7: PARKING GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#8: PARKING GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#9: PARKING GARAGE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#10: PARKING GARAGE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#11: PARKING GARAGE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#12: PARKING GARAGE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#13: PARKING GARAGE - LEVEL 9 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#14: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#15: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#16: LEVEL 3 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#17: LEVEL 4 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#18: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#19: LEVEL 6 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#20: LEVEL 7 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#21: LEVEL 8 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#22: LEVEL 9 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#23: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#24: LEVEL 11 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#25: LEVEL 12 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#26: LEVEL 14 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#27: LEVEL 15 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#28: LEVEL 16 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#29: LEVEL 17 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#30: LEVEL 18 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#31: LEVEL 19 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#32: LEVEL 20 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#33: LEVEL 21 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#34: LEVEL 22 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#35: LEVEL 23 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#36: LEVEL 24 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#37: LEVEL 25 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#38: LEVEL 26 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#39: LEVEL 27 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#40: LEVEL 28 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#41: LEVEL 29 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#42: LEVEL 30 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>STAIRWELL - ON PHOTOLUMINESCENT ACRYLIC</description>
+         <total_count>69</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>14490</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>E.</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#6: PARKING GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#7: PARKING GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#8: PARKING GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#9: PARKING GARAGE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#10: PARKING GARAGE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#11: PARKING GARAGE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#12: PARKING GARAGE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#13: PARKING GARAGE - LEVEL 9 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#14: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#23: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#24: LEVEL 11 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#25: LEVEL 12 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#26: LEVEL 14 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#27: LEVEL 15 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#28: LEVEL 16 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#29: LEVEL 17 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#30: LEVEL 18 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#31: LEVEL 19 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#32: LEVEL 20 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#33: LEVEL 21 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#34: LEVEL 22 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#35: LEVEL 23 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#36: LEVEL 24 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#37: LEVEL 25 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#38: LEVEL 26 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#39: LEVEL 27 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#40: LEVEL 28 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#41: LEVEL 29 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#42: LEVEL 30 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
+         <total_count>62</total_count>
+         <each_cost>245</each_cost>
+         <total_cost>15190</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>F.</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#6: PARKING GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#7: PARKING GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#8: PARKING GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#9: PARKING GARAGE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#10: PARKING GARAGE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#11: PARKING GARAGE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#12: PARKING GARAGE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#13: PARKING GARAGE - LEVEL 9 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#23: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#24: LEVEL 11 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#25: LEVEL 12 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#26: LEVEL 14 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#27: LEVEL 15 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#28: LEVEL 16 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#29: LEVEL 17 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#30: LEVEL 18 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#31: LEVEL 19 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#32: LEVEL 20 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#33: LEVEL 21 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#34: LEVEL 22 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#35: LEVEL 23 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#36: LEVEL 24 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#37: LEVEL 25 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#38: LEVEL 26 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#39: LEVEL 27 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#40: LEVEL 28 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>F.</key>
+            <section>#41: LEVEL 29 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#42: LEVEL 30 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ELECTRICAL ID</description>
+         <total_count>30</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>1440</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>G.</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>MAIN ELECTRICAL ID</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>H.</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>MPOE ID</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>I.</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>CLEARANCE BAR / WAYFINDING PACKAGE AT GRADE CHANGE</description>
+         <total_count>1</total_count>
+         <each_cost>985</each_cost>
+         <total_cost>985</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#5: PARKING GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>CLEARANCE BAR PACKAGE (X2) 8&apos; W  BARS ENTER / EXIT</description>
+         <total_count>1</total_count>
+         <each_cost>335</each_cost>
+         <total_cost>335</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>B.</key>
+            <section>#5: PARKING GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>RETAIL SUITE ID - VINYL ADDRESS</description>
+         <total_count>1</total_count>
+         <each_cost>24</each_cost>
+         <total_cost>24</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>C.</key>
+            <section>#5: PARKING GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>GARAGE TO BUILIDING </description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>D.</key>
+            <section>#5: PARKING GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>RETAIL TRASH ID </description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>E.</key>
+            <section>#5: PARKING GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>RETAIL TRASH POLICY - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>235</each_cost>
+         <total_cost>235</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>F.</key>
+            <section>#5: PARKING GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>LOADING AREA/ DO NOT BLOCK</description>
+         <total_count>2</total_count>
+         <each_cost>385</each_cost>
+         <total_cost>770</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>G.</key>
+            <section>#5: PARKING GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>FIRE DOMESTIC PUMP ROOM - W/ RED REFLECTIVE</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>H.</key>
+            <section>#5: PARKING GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>HANG-DOWN CAUTION / DIRECTIONAL</description>
+         <total_count>1</total_count>
+         <each_cost>985</each_cost>
+         <total_cost>985</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>I.</key>
+            <section>#5: PARKING GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>DESIGNATED REATIL GUEST PARKING </description>
+         <total_count>40</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>3920</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#6: PARKING GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#7: PARKING GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#8: PARKING GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#9: PARKING GARAGE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#10: PARKING GARAGE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#11: PARKING GARAGE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#12: PARKING GARAGE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#13: PARKING GARAGE - LEVEL 9 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>GARAGE TO BUILDING / EXIT / STAIR / LEVEL</description>
+         <total_count>15</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>1170</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>C.</key>
+            <section>#6: PARKING GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#7: PARKING GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#8: PARKING GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#9: PARKING GARAGE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#10: PARKING GARAGE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#11: PARKING GARAGE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#12: PARKING GARAGE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#13: PARKING GARAGE - LEVEL 9 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>GARAGE TO BUILIDING / ELEVATOR LOBBY</description>
+         <total_count>16</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>1088</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>E.</key>
+            <section>#6: PARKING GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#7: PARKING GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#8: PARKING GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#9: PARKING GARAGE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#10: PARKING GARAGE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#11: PARKING GARAGE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#12: PARKING GARAGE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#13: PARKING GARAGE - LEVEL 9 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>BUILDING TO GARAGE </description>
+         <total_count>31</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>1798</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>G.</key>
+            <section>#6: PARKING GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>LOADING AREA ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>G.</key>
+            <section>#7: PARKING GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#8: PARKING GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>RESIDENT STORAGE ID</description>
+         <total_count>10</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>580</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>H.</key>
+            <section>#7: PARKING GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#8: PARKING GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#9: PARKING GARAGE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#10: PARKING GARAGE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#11: PARKING GARAGE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#12: PARKING GARAGE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#13: PARKING GARAGE - LEVEL 9 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>GARAGE TO BUILDING </description>
+         <total_count>7</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>406</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#14: LEVEL 1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ADDRESS / BUILDING ID W/ UNIT SPREAD</description>
+         <total_count>4</total_count>
+         <each_cost>335</each_cost>
+         <total_cost>1340</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>B.</key>
+            <section>#14: LEVEL 1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>RETAIL SUITE ID - VINYL FOR X2 RETAIL CONDITIONS</description>
+         <total_count>5</total_count>
+         <each_cost>24</each_cost>
+         <total_cost>120</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>C.</key>
+            <section>#14: LEVEL 1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ELEVATOR LOBBY ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>E.</key>
+            <section>#14: LEVEL 1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>STAIR ACCESS</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>I.</key>
+            <section>#14: LEVEL 1 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>FIRE COMMAND ROOM ID (4&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>C.</key>
+            <section>#15: LEVEL 2 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>GENERATOR ID</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>D.</key>
+            <section>#15: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#23: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#24: LEVEL 11 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#25: LEVEL 12 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#26: LEVEL 14 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#27: LEVEL 15 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#28: LEVEL 16 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#29: LEVEL 17 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#30: LEVEL 18 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#31: LEVEL 19 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#32: LEVEL 20 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#33: LEVEL 21 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#34: LEVEL 22 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#35: LEVEL 23 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#36: LEVEL 24 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#37: LEVEL 25 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#38: LEVEL 26 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#39: LEVEL 27 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#40: LEVEL 28 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#41: LEVEL 29 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#42: LEVEL 30 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>Q.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>TRASH ROOM ID</description>
+         <total_count>22</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>1056</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>E.</key>
+            <section>#15: LEVEL 2 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>TRASH POLICY - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>195</each_cost>
+         <total_cost>195</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>F.</key>
+            <section>#15: LEVEL 2 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>TRASH PICK-UP / DO NOT BLOCK</description>
+         <total_count>1</total_count>
+         <each_cost>385</each_cost>
+         <total_cost>385</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#23: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#24: LEVEL 11 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#25: LEVEL 12 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#26: LEVEL 14 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#27: LEVEL 15 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#28: LEVEL 16 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#29: LEVEL 17 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#30: LEVEL 18 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#31: LEVEL 19 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#32: LEVEL 20 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#33: LEVEL 21 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#34: LEVEL 22 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#35: LEVEL 23 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#36: LEVEL 24 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#37: LEVEL 25 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#38: LEVEL 26 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#39: LEVEL 27 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#40: LEVEL 28 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#41: LEVEL 29 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#42: LEVEL 30 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>HALLWAY DIRECTIONAL</description>
+         <total_count>40</total_count>
+         <each_cost>120</each_cost>
+         <total_cost>4800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>B.</key>
+            <section>#23: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#24: LEVEL 11 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#25: LEVEL 12 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#26: LEVEL 14 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#27: LEVEL 15 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#28: LEVEL 16 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#29: LEVEL 17 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#30: LEVEL 18 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#31: LEVEL 19 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#32: LEVEL 20 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#33: LEVEL 21 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#34: LEVEL 22 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#35: LEVEL 23 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#36: LEVEL 24 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#37: LEVEL 25 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#38: LEVEL 26 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#39: LEVEL 27 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#40: LEVEL 28 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#41: LEVEL 29 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>C.</key>
+            <section>#42: LEVEL 30 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>B.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ELEVATOR LOBBY </description>
+         <total_count>42</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>2436</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>D.</key>
+            <section>#23: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#24: LEVEL 11 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#25: LEVEL 12 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#26: LEVEL 14 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#27: LEVEL 15 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#28: LEVEL 16 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#29: LEVEL 17 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#30: LEVEL 18 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#31: LEVEL 19 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#32: LEVEL 20 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#33: LEVEL 21 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#34: LEVEL 22 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#35: LEVEL 23 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#36: LEVEL 24 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#37: LEVEL 25 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#38: LEVEL 26 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#39: LEVEL 27 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#40: LEVEL 28 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>D.</key>
+            <section>#41: LEVEL 29 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>E.</key>
+            <section>#42: LEVEL 30 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>EXIT / STAIR / LEVEL (X2 @ STAIR 1)</description>
+         <total_count>60</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>4080</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>G.</key>
+            <section>#23: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#24: LEVEL 11 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#25: LEVEL 12 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#26: LEVEL 14 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#27: LEVEL 15 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#28: LEVEL 16 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#29: LEVEL 17 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#30: LEVEL 18 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#31: LEVEL 19 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#32: LEVEL 20 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#33: LEVEL 21 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#34: LEVEL 22 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#35: LEVEL 23 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#36: LEVEL 24 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#37: LEVEL 25 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#38: LEVEL 26 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#39: LEVEL 27 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#40: LEVEL 28 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>G.</key>
+            <section>#41: LEVEL 29 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#42: LEVEL 30 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>BC ID (VERIFY)</description>
+         <total_count>40</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>1920</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>I.</key>
+            <section>#23: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#24: LEVEL 11 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#25: LEVEL 12 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#26: LEVEL 14 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#27: LEVEL 15 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>K.</key>
+            <section>#28: LEVEL 16 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#29: LEVEL 17 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#30: LEVEL 18 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#31: LEVEL 19 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#32: LEVEL 20 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#33: LEVEL 21 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#34: LEVEL 22 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#35: LEVEL 23 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#36: LEVEL 24 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#37: LEVEL 25 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#38: LEVEL 26 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#39: LEVEL 27 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#40: LEVEL 28 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#41: LEVEL 29 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>K.</key>
+            <section>#42: LEVEL 30 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>R.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>TRASH ROOM POLICY - WALL MOUNT</description>
+         <total_count>21</total_count>
+         <each_cost>195</each_cost>
+         <total_cost>4095</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>J.</key>
+            <section>#23: LEVEL 10 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>EXIT / STAIR / ELEVATOR ACCESS PLAQUE (POOL TO COORIDOR)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>H.</key>
+            <section>#24: LEVEL 11 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#25: LEVEL 12 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#26: LEVEL 14 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#27: LEVEL 15 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#28: LEVEL 16 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#29: LEVEL 17 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#30: LEVEL 18 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#31: LEVEL 19 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#32: LEVEL 20 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#33: LEVEL 21 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#34: LEVEL 22 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#35: LEVEL 23 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#36: LEVEL 24 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#37: LEVEL 25 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#38: LEVEL 26 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#39: LEVEL 27 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#40: LEVEL 28 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#41: LEVEL 29 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>I.</key>
+            <section>#42: LEVEL 30 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>H.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>PLUMBING ID</description>
+         <total_count>20</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>960</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>I.</key>
+            <section>#28: LEVEL 16 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>J.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>MECHANICAL ID</description>
+         <total_count>4</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>192</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#42: LEVEL 30 SIGNAGE</section>
+         </section_key>
+         ,
+         <section_key>
+            <key>A.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>UNIT DOOR NUMBERS - SCONCE / UNIT #- NUMERA &quot;MADELINE&quot; PRODUCT</description>
+         <total_count>8</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>544</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>D.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>EXIT / STAIR / LEVEL (X2 @ EACH STAIR)</description>
+         <total_count>4</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>272</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>E.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ROOF ACCESS (@STAIR 2)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>I.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>EMPLOYEE ONLY (JANITOR)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>K.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>UNISEX RESTROOM</description>
+         <total_count>2</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>196</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>N.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>SPEAK EASY ID</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>O.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>SPEAK EASY POLICY - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>435</each_cost>
+         <total_cost>435</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>P.</key>
+            <section>#43: LEVEL 31 SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>MAX OCCUPANCY (CLUB, SPEAK EASY)</description>
+         <total_count>2</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>116</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>A.</key>
+            <section>#44: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>POOL POLICY</description>
+         <total_count>1</total_count>
+         <each_cost>695</each_cost>
+         <total_cost>695</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>B.</key>
+            <section>#44: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>ADDT. TX 2022 POOL POLICY</description>
+         <total_count>1</total_count>
+         <each_cost>410</each_cost>
+         <total_cost>410</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>C.</key>
+            <section>#44: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>WARNING NO LIFEGUARD / NO DIVING</description>
+         <total_count>1</total_count>
+         <each_cost>410</each_cost>
+         <total_cost>410</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>D.</key>
+            <section>#44: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>911 EMERGENCY PHONE SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>155</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>E.</key>
+            <section>#44: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>LOGO / POOL DESIGNATION W/ HOURS - VINYL KIT</description>
+         <total_count>3</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>465</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>F.</key>
+            <section>#44: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>GRILL POLICIES (@POOL)</description>
+         <total_count>1</total_count>
+         <each_cost>385</each_cost>
+         <total_cost>385</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>G.</key>
+            <section>#44: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>PET GROOMING ID (@ LVL 16)</description>
+         <total_count>2</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>96</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>H.</key>
+            <section>#44: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>PET GROOMING POLICY - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>235</each_cost>
+         <total_cost>235</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>I.</key>
+            <section>#44: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>PET OWNER LOUNGE ID (@ LVL16)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>J.</key>
+            <section>#44: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>DOG RUN ID / POLICY  (@ LVL 16)</description>
+         <total_count>1</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>595</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+            
+         <section_key>
+            <key>K.</key>
+            <section>#44: AMENITY SIGNAGE</section>
+         </section_key>
+                  
+         </section_list>
+         <description>FIRE PIT GUIDELINES PLAQUE</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      </unique_sign_list>
       </job_info>
       
