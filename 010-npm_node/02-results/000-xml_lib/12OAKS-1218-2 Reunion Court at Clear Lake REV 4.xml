@@ -1,0 +1,589 @@
+
+      <job_info>
+      <contract>
+      <contract_name>12OAKS-1218-2 Reunion Court at Clear Lake REV 4.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: SITE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING IDS</description>
+         <count>4</count>
+         <cost>285</cost>
+         <total_cost>1140</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>CUSTOM VAN HANDICAP PARKING (X1 AT AL, X1 AT MC)</description>
+         <count>2</count>
+         <cost>795</cost>
+         <total_cost>1590</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS W/ NAME SLIDER</description>
+         <count>34</count>
+         <cost>72</cost>
+         <total_cost>2448</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR IDS (X1 AT EACH N, E, S, W)</description>
+         <count>4</count>
+         <cost>68</cost>
+         <total_cost>272</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR ID / BUILDING ACCESS ID (X1 AT EACH N, E, S) (EXTERIOR)</description>
+         <count>3</count>
+         <cost>68</cost>
+         <total_cost>204</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STAIRWELL SIGNS</description>
+         <count>4</count>
+         <cost>165</cost>
+         <total_cost>660</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>DISCOVERY ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>SALES ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>FOOD &amp; BEVERAGE DIRECTOR</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>EMPLOYEES ONLY / BREAK ROOM</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>ED ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>BOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>STORAGE CLOSET ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>JANITOR ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>MECHANICAL ID (x1 EXTERIOR)</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>KITCHEN ID</description>
+         <count>4</count>
+         <cost>78</cost>
+         <total_cost>312</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>ELEVATOR MACHINE ROOM </description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>FOOD STORAGE</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>R.</key>
+         <description>UNISEX RESTROOM</description>
+         <count>3</count>
+         <cost>98</cost>
+         <total_cost>294</total_cost>
+      </sign>
+      
+      <sign>
+         <key>S.</key>
+         <description>ELECTRICAL ROOM ID (X1 EXTERIOR)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>T.</key>
+         <description>FITNESS CENTER ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>U.</key>
+         <description>FITNESS STORAGE</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>V.</key>
+         <description>BOILER ROOM (EXTERIOR MOUNT)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>W.</key>
+         <description>LINEN ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>X.</key>
+         <description>RESIDENT LAUNDRY ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Y.</key>
+         <description>DINING ROOM ID</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Z.</key>
+         <description>PRIVATE DINING ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>AA.</key>
+         <description>EXIT TO COURYARD</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section_name>
+   
+      <sign>
+         <key>BB.</key>
+         <description>BUILDING ACCESS ID</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>CC.</key>
+         <description>FIRE DOOR - DO NOT BLOCK</description>
+         <count>8</count>
+         <cost>58</cost>
+         <total_cost>464</total_cost>
+      </sign>
+      
+      <sign>
+         <key>DD.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>3</count>
+         <cost>135</cost>
+         <total_cost>405</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS W/ NAME SLIDER</description>
+         <count>40</count>
+         <cost>72</cost>
+         <total_cost>2880</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR IDS</description>
+         <count>4</count>
+         <cost>68</cost>
+         <total_cost>272</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL SIGNS</description>
+         <count>4</count>
+         <cost>165</cost>
+         <total_cost>660</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>ACTIVITY DIRECTOR ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>THEATER ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>STORAGE ID (X2 THEATER ROOM, X1 AVAITOR, X1 BY ELEVATOR)</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>NURSE / MED ROOM</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>RESIDENT LAUNDRY ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>SALON ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>ELECTRICAL</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>TELECOM / ELECTRICAL</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>MENS RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>WOMENS RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>JANITOR ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>R.</key>
+         <description>FOOD STORAGE</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>S.</key>
+         <description>AVIATOR LOUNGE ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>U.</key>
+         <description>HALLWAY DIRECTIONAL</description>
+         <count>1</count>
+         <cost>135</cost>
+         <total_cost>135</total_cost>
+      </sign>
+      
+      <sign>
+         <key>V.</key>
+         <description>FIRE DOOR - DO NOT BLOCK</description>
+         <count>8</count>
+         <cost>58</cost>
+         <total_cost>464</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: MEMORY CARE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS W/ NAME SLIDER</description>
+         <count>23</count>
+         <cost>72</cost>
+         <total_cost>1656</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>MEMORY CARE DIRECTOR ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>RESIDENT LAUNDRY ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>MEMORY CARE JANITOR ID (INSIDE RESIDENT LAUNDRY)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>PANTRY ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>UNISEX RESTROOM</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>FAMILY ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>SALON ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>ELECTRICAL ROOM IDS</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>MEMORY CARE CLOSET</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>NURSE / CHART ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>STAFF RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>MEDICATION ROOM</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>SOLACE ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>FIRE DOORS - DO NOT BLOCK</description>
+         <count>4</count>
+         <cost>58</cost>
+         <total_cost>232</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>WANDERING GARDEN ID</description>
+         <count>3</count>
+         <cost>78</cost>
+         <total_cost>234</total_cost>
+      </sign>
+      
+      <sign>
+         <key>R.</key>
+         <description>MEMORY CARE BUILDING ACCESS</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>12OAKS-1218-2</quote_num>
+   <contract_file>12OAKS-1218-2 Reunion Court at Clear Lake REV 4.xlsx</contract_file>
+   <client_name>Clear Lake Assisted Living c/o Beyer Brown &amp; Assoc. LP - USA (Agent) 822 W Central Blvd Orlando FL 32805</client_name>
+   <project_name>REUNION COURT AT CLEAR LAKE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

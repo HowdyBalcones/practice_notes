@@ -1,0 +1,737 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2308SVC01S The Quinn Signage.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>ILLUMINATED LOGO WALL SIGN ON NORTH ELEVATION- &quot;THE QUINN&quot; COPY ON BLDG FRONTAGE. CHANNEL LETTERS ON CLOUD- FACING SUZIE LANE ABOVE LEASING ENTRY. (PER 1/A4.00)- *POWER AND BLOCKING TO LOCATION BY OTHERS*</description>
+         <count>1</count>
+         <cost>10200</cost>
+         <total_cost>10200</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: LEASING CENTER - EXTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>ADDRESS ID - INDIVIDUAL NUMERALS</description>
+         <count>1</count>
+         <cost>610</cost>
+         <total_cost>610</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>DOUBLE DOOR VINYL KIT (HOURS, LOGO, URL, PHONE)</description>
+         <count>1</count>
+         <cost>139</cost>
+         <total_cost>139</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>&quot;DOORS TO REMAIN UNLOCKED…&quot; VINYL KIT</description>
+         <count>1</count>
+         <cost>69</cost>
+         <total_cost>69</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>CUSTOM FUTURE RESIDENT PARKING SIGN - POST MOUNT- W/ BASEPLATE</description>
+         <count>3</count>
+         <cost>715</cost>
+         <total_cost>2145</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>CUSTOM HANDICAP PARKING SIGN - POST MOUNT- W/ BASEPLATE (X1 VAN, X1 STD)</description>
+         <count>2</count>
+         <cost>715</cost>
+         <total_cost>1430</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>CUSTOM USPS PARKING SIGN - POST MOUNT W/ BASEPLATE- *FOURCE TO SUPPLY CUSTOM PARKING SIGNAGE AT LEASING AREA,- BALANCE TO BE CARRIED UNDER STRIPER SUB CONTRACTORS SCOPE*</description>
+         <count>1</count>
+         <cost>595</cost>
+         <total_cost>595</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER - INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>LEASING ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>EMPLOYEE ONLY (X1 WORK ROOM, X1 JANITOR)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>MEN&apos;S RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>WOMEN&apos;S RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>MAIL ID (X1 INT, X1 EXT)</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>COMMUNITY MARKET ID</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>FITNESS ID (X1 INT, X1 EXT)</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>FITNESS CLASSROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>FITNESS POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>CONFERENCE ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>CLUB ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>CLUB ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>LOUNGE ID </description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>WORKSHARE ID (LEVEL 2)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>WORKSHARE POLICY - WALL MOUNT ( LEVEL 2)</description>
+         <count>1</count>
+         <cost>310</cost>
+         <total_cost>310</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>WORKSHARE OFFICE ID (LEVEL 2)</description>
+         <count>4</count>
+         <cost>58</cost>
+         <total_cost>232</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>MAX OCCUPANCY (LEASE, LOUNGE, CLUB, FITNESS, WORKSHARE)</description>
+         <count>5</count>
+         <cost>58</cost>
+         <total_cost>290</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: SITE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>CARPORT NUMBERS (X2 HCP)</description>
+         <count>160</count>
+         <cost>38</cost>
+         <total_cost>6080</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>DETATCHED GARAGE BUILDING ID W/ UNIT SPREAD</description>
+         <count>2</count>
+         <cost>285</cost>
+         <total_cost>570</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>DETATCHED GARAGE DOOR NUMBERS (X1 HCP)</description>
+         <count>25</count>
+         <cost>38</cost>
+         <total_cost>950</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>DETATACHED GARAGE ACCESS (@ HCP STALL)</description>
+         <count>1</count>
+         <cost>38</cost>
+         <total_cost>38</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>MAINTENANCE ID (@ GARAGE)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>TRASH ENCLOSURE ID / POLICY </description>
+         <count>1</count>
+         <cost>315</cost>
+         <total_cost>315</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: LEVEL 1 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING ID W/ UNIT SPREAD</description>
+         <count>5</count>
+         <cost>310</cost>
+         <total_cost>1550</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BUILDING ACCESS EXT.</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR ACCESS EXT.</description>
+         <count>6</count>
+         <cost>58</cost>
+         <total_cost>348</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>5</count>
+         <cost>110</cost>
+         <total_cost>550</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>UNIT DOOR NUMBERS </description>
+         <count>67</count>
+         <cost>50</cost>
+         <total_cost>3350</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>ATTACHED GARAGE DOOR NUMBERS (INT)</description>
+         <count>28</count>
+         <cost>48</cost>
+         <total_cost>1344</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>ATTACHED GARAGE DOOR NUMBERS (EXT)</description>
+         <count>28</count>
+         <cost>48</cost>
+         <total_cost>1344</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>STAIR / LEVEL</description>
+         <count>6</count>
+         <cost>58</cost>
+         <total_cost>348</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>STAIRWELL</description>
+         <count>6</count>
+         <cost>175</cost>
+         <total_cost>1050</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
+         <count>4</count>
+         <cost>245</cost>
+         <total_cost>980</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>ELEVATOR EQUIPMENT ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>RESIDENT STORAGE ID </description>
+         <count>36</count>
+         <cost>48</cost>
+         <total_cost>1728</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>FIRE DOOR / DO NOT BLOCK </description>
+         <count>12</count>
+         <cost>58</cost>
+         <total_cost>696</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>FIRE SPRINKLER RISER ROOM (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>FACP (VERIFY LOCATION)</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: LEVEL 2 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>84</count>
+         <cost>50</cost>
+         <total_cost>4200</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>5</count>
+         <cost>110</cost>
+         <total_cost>550</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR / LEVEL</description>
+         <count>6</count>
+         <cost>58</cost>
+         <total_cost>348</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STAIRWELL</description>
+         <count>6</count>
+         <cost>175</cost>
+         <total_cost>1050</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
+         <count>4</count>
+         <cost>245</cost>
+         <total_cost>980</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>RESIDENT STORAGE ID </description>
+         <count>13</count>
+         <cost>48</cost>
+         <total_cost>624</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>A/V ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>MDF ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>IDF ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>FIRE DOOR / DO NOT BLOCK </description>
+         <count>14</count>
+         <cost>58</cost>
+         <total_cost>812</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#7: LEVEL 3 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>85</count>
+         <cost>50</cost>
+         <total_cost>4250</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>5</count>
+         <cost>110</cost>
+         <total_cost>550</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR / LEVEL</description>
+         <count>6</count>
+         <cost>58</cost>
+         <total_cost>348</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STAIRWELL</description>
+         <count>6</count>
+         <cost>175</cost>
+         <total_cost>1050</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
+         <count>4</count>
+         <cost>245</cost>
+         <total_cost>980</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>RESIDENT STORAGE ID </description>
+         <count>17</count>
+         <cost>48</cost>
+         <total_cost>816</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>FIRE DOOR / DO NOT BLOCK </description>
+         <count>12</count>
+         <cost>58</cost>
+         <total_cost>696</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#8: LEVEL 4 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>82</count>
+         <cost>50</cost>
+         <total_cost>4100</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>5</count>
+         <cost>110</cost>
+         <total_cost>550</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR / LEVEL</description>
+         <count>6</count>
+         <cost>58</cost>
+         <total_cost>348</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STAIRWELL</description>
+         <count>6</count>
+         <cost>175</cost>
+         <total_cost>1050</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
+         <count>4</count>
+         <cost>245</cost>
+         <total_cost>980</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>ELEVATOR EQUIPMENT ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>RESIDENT STORAGE ID </description>
+         <count>14</count>
+         <cost>48</cost>
+         <total_cost>672</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>IDF ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>FIRE DOOR / DO NOT BLOCK</description>
+         <count>12</count>
+         <cost>58</cost>
+         <total_cost>696</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#9: AMENITY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>POOL POLICY - FENCE MOUNT</description>
+         <count>1</count>
+         <cost>695</cost>
+         <total_cost>695</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ADDT. TX POOL POLICY - FENCE MOUNT</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>WARNING NO LIFEGUARD / NO DIVING - FENCE MOUNT</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>911 EMERGENCY PHONE SIGN</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>POOL GATE W/ HOURS &amp; 911 DIRECTIONAL</description>
+         <count>7</count>
+         <cost>155</cost>
+         <total_cost>1085</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>POOL EQUIPMENT ID (@ POOL CABANA)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>MEN&apos;S RESTROOM (@ POOL CABANA)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>WOMEN&apos;S RESTROOM (@ POOL CABANA)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>STORAGE ID (@ POOL CABANA)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>GRILL POLICIES (@ POOL)</description>
+         <count>2</count>
+         <cost>335</cost>
+         <total_cost>670</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>FIRE PIT GUIDELINES (@ POOL)</description>
+         <count>2</count>
+         <cost>155</cost>
+         <total_cost>310</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>DOG PARK ID / POLICY - FENCE MOUNT</description>
+         <count>1</count>
+         <cost>595</cost>
+         <total_cost>595</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2308SVC01S</quote_num>
+   <contract_file>2308SVC01S The Quinn Signage.xlsx</contract_file>
+   <client_name>SPRING VALLEY CONSTRUCTION 10950 ALDER CR. DALLAS, TX 75238</client_name>
+   <project_name>THE QUINN (ANNA)</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

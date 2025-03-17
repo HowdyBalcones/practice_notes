@@ -1,0 +1,769 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2106BSC01S Hamilton at Garden Valley Signage.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>DOUBLE FACED MONUMENT SIGN - ACRYLIC LETTERS- MOUNTED TO STRUCTURE PROVIDED BY OTHERS</description>
+         <count>1</count>
+         <cost>8900</cost>
+         <total_cost>8900</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: LEASING CENTER- EXTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>LEASING CENTER ID </description>
+         <count>1</count>
+         <cost>2165</cost>
+         <total_cost>2165</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>HOURS SIGN W/ ACRYLIC SUMMER/WINTER HOURS</description>
+         <count>1</count>
+         <cost>425</cost>
+         <total_cost>425</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ADDRESS ID - INDIVIDUAL NUMBERS</description>
+         <count>1</count>
+         <cost>630</cost>
+         <total_cost>630</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>&quot;DOORS TO REMAIN OPEN&quot; - FROSTED VINYL PACKAGE</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>CUSTOM FUTURE RESIDENT PARKING SIGN - POST W/ BASE MOUNT</description>
+         <count>2</count>
+         <cost>695</cost>
+         <total_cost>1390</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>CUSTOM HANDICAP PARKING SIGN (X1 STD, X1 VAN)</description>
+         <count>1</count>
+         <cost>695</cost>
+         <total_cost>695</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>USPS PARKING - POLE MOUNT</description>
+         <count>1</count>
+         <cost>435</cost>
+         <total_cost>435</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>MAIL ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>MEDIA ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>POKER ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>POOL GAME ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L</key>
+         <description>BUILDING ID / ADDRESS / ACCESS SIGN</description>
+         <count>1</count>
+         <cost>235</cost>
+         <total_cost>235</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER- INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A</key>
+         <description>MANAGER ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B</key>
+         <description>ASSISTANT MANAGER ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C</key>
+         <description>EMPLOYEES ONLY (WORKROOM)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D</key>
+         <description>FITNESS ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E</key>
+         <description>FITNESS POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F</key>
+         <description>READING ROOM ID (LIBRARY)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G</key>
+         <description>RECEPTION ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H</key>
+         <description>CLOSING ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I</key>
+         <description>DINING ROOM ID</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J</key>
+         <description>KITCHEN ID</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K</key>
+         <description>MEDIA ROOM ID (THEATER)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L</key>
+         <description>POKER / LOUNGE ROOM ID</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M</key>
+         <description>POKER / LOUNGE POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N</key>
+         <description>MEDIA ROOM POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O</key>
+         <description>GAME ROOM ID</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER- INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>P</key>
+         <description>GAME ROOM POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q</key>
+         <description>GOLF SIMULATOR</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>R</key>
+         <description>GOLF SIMULATOR POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>S</key>
+         <description>MAIL ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>T</key>
+         <description>SALON ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>U</key>
+         <description>MEN&apos;S RESTROOM</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+      <sign>
+         <key>V</key>
+         <description>WOMEN&apos;S RESTROOM</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+      <sign>
+         <key>W</key>
+         <description>MAX OCCUPANCY (LEASE, FIT, READING, DINING, KITCHEN, MEDIA- POKER, GAME, GOLF, SALON)</description>
+         <count>10</count>
+         <cost>58</cost>
+         <total_cost>580</total_cost>
+      </sign>
+      
+      <sign>
+         <key>X</key>
+         <description>STORAGE ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Y</key>
+         <description>HVAC ID</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: SITE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A</key>
+         <description>ENTRY / EXIT . EXIT ONLY GATE SIGN PACKAGE</description>
+         <count>1</count>
+         <cost>330</cost>
+         <total_cost>330</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B</key>
+         <description>EXIT ONLY GATE SIGN PACKAGE</description>
+         <count>1</count>
+         <cost>330</cost>
+         <total_cost>330</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C</key>
+         <description>CALL BOX SIGN - FLAG STYLE</description>
+         <count>1</count>
+         <cost>135</cost>
+         <total_cost>135</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D</key>
+         <description>TRASH POLICY</description>
+         <count>2</count>
+         <cost>135</cost>
+         <total_cost>270</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E</key>
+         <description>GARAGE BUILDING ID</description>
+         <count>3</count>
+         <cost>135</cost>
+         <total_cost>405</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F</key>
+         <description>EXTERIOR GARAGE NUMBERS </description>
+         <count>45</count>
+         <cost>48</cost>
+         <total_cost>2160</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G</key>
+         <description>CARPORT NUMBERS</description>
+         <count>18</count>
+         <cost>48</cost>
+         <total_cost>864</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H</key>
+         <description>MAINTENANCE ID- *NOTE: CUSTOM HANDICAP &amp; CUSTOM VAN HANDICAP PARKING SIGNS- CARRIED BY FOURCE - BALANCE CARRIED IN STRIPER&apos;S SCOPE</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: LEVEL ONE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>45</count>
+         <cost>48</cost>
+         <total_cost>2160</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>6</count>
+         <cost>88</cost>
+         <total_cost>528</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C</key>
+         <description>ELEVATOR EGGRESS MAP</description>
+         <count>2</count>
+         <cost>235</cost>
+         <total_cost>470</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D</key>
+         <description>STAIR ID</description>
+         <count>10</count>
+         <cost>78</cost>
+         <total_cost>780</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E</key>
+         <description>STORAGE / HVAC ID COMBO</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F</key>
+         <description>STORAGE ROOM ID</description>
+         <count>22</count>
+         <cost>42</cost>
+         <total_cost>924</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G</key>
+         <description>HVAC ID</description>
+         <count>4</count>
+         <cost>48</cost>
+         <total_cost>192</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H</key>
+         <description>FIRE DOOR / &quot;DO NOT BLOCK&quot;</description>
+         <count>10</count>
+         <cost>58</cost>
+         <total_cost>580</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I</key>
+         <description>FIRE RISER ROOM (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K</key>
+         <description>INTERIOR GARAGE NUMBERS</description>
+         <count>10</count>
+         <cost>38</cost>
+         <total_cost>380</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L</key>
+         <description>DOG SPA ID</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M</key>
+         <description>DOG SPA POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N</key>
+         <description>WATER HEATER ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O</key>
+         <description>ELECTRICAL ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: LEVEL TWO SIGNAGE</section_name>
+   
+      <sign>
+         <key>A</key>
+         <description>UNIT DOOR NUMBERS </description>
+         <count>64</count>
+         <cost>48</cost>
+         <total_cost>3072</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B</key>
+         <description>HALLWAY DIRECTIONALS </description>
+         <count>7</count>
+         <cost>88</cost>
+         <total_cost>616</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C</key>
+         <description>ELEVATOR EGRESS MAPS</description>
+         <count>2</count>
+         <cost>235</cost>
+         <total_cost>470</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D</key>
+         <description>STAIR ID</description>
+         <count>5</count>
+         <cost>78</cost>
+         <total_cost>390</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E</key>
+         <description>STORAGE / HVAC ID COMBO</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F</key>
+         <description>RESIDENT STORAGE ROOM ID</description>
+         <count>4</count>
+         <cost>42</cost>
+         <total_cost>168</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G</key>
+         <description>RESIDENT STORAGE # ID</description>
+         <count>27</count>
+         <cost>42</cost>
+         <total_cost>1134</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H</key>
+         <description>HVAC ID</description>
+         <count>12</count>
+         <cost>48</cost>
+         <total_cost>576</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I</key>
+         <description>FIRE DOOR / &quot;DO NOT BLOCK&quot;</description>
+         <count>10</count>
+         <cost>110</cost>
+         <total_cost>1100</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#7:LEVEL THREE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A</key>
+         <description>UNIT DOOR NUMBERS </description>
+         <count>64</count>
+         <cost>48</cost>
+         <total_cost>3072</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>7</count>
+         <cost>88</cost>
+         <total_cost>616</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C</key>
+         <description>ELEVATOR EGRESS MAPS</description>
+         <count>2</count>
+         <cost>235</cost>
+         <total_cost>470</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D</key>
+         <description>STAIR ID</description>
+         <count>5</count>
+         <cost>78</cost>
+         <total_cost>390</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E</key>
+         <description>RESIDENT STORAGE ROOM ID</description>
+         <count>4</count>
+         <cost>42</cost>
+         <total_cost>168</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F</key>
+         <description>RESIDENT STORAGE # ID</description>
+         <count>27</count>
+         <cost>42</cost>
+         <total_cost>1134</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G</key>
+         <description>HVAC</description>
+         <count>9</count>
+         <cost>48</cost>
+         <total_cost>432</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H</key>
+         <description>FIRE DOOR / &quot;DO NOT BLOCK&quot;</description>
+         <count>10</count>
+         <cost>110</cost>
+         <total_cost>1100</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I</key>
+         <description>ELECTRICAL ID</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J</key>
+         <description>STORAGE / ELETRICAL / HVAC ID COMBO</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#12: AMENITY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>POOL POLICIES - FENCE MOUNT W/ PVC BACKER</description>
+         <count>1</count>
+         <cost>665</cost>
+         <total_cost>665</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ADDITIONAL TEXAS POOL POLICIES - FENCE MOUNT W/ PVC BACKER</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>WARNING NO LIFEGUARD - FENCE MOUNT W/ PVC BACKER</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>911 EMERGENCY PHONE SIGN</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>POOL GATE W/ HOURS</description>
+         <count>3</count>
+         <cost>155</cost>
+         <total_cost>465</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>POOL EQUIPMENT ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>DOG PARK POLICY</description>
+         <count>1</count>
+         <cost>715</cost>
+         <total_cost>715</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>SPORT COURT POLICY</description>
+         <count>1</count>
+         <cost>715</cost>
+         <total_cost>715</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2106BSC01S</quote_num>
+   <contract_file>2106BSC01S Hamilton at Garden Valley Signage.xlsx</contract_file>
+   <client_name>BROWNSTONE CONSTRUCTION LTD. 415 BREESPORT SAN ANTONIO, TX 78216</client_name>
+   <project_name>HAMILTON AT GARDEN VALLEY</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

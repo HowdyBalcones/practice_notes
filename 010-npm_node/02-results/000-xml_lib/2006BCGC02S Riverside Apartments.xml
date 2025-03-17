@@ -1,0 +1,431 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2006BCGC02S Riverside Apartments.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY / SITE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>DOUBLE-FACED MONUMENT AT CORNER OF RIVERSIDE &amp; MAXWELL.- INTERNALLY ILLUMINATED. 12-14&apos; MONOLITH SIGN W/ CHANNEL- LETTERS ON FOOTER BY OTHERS OR BLADE SIGN W/ CHANNEL- LETTERS &amp; PUSH-THRU ACRYLIC.- *BLOCKING AND POWER TO LOCATION BY OTHERS.</description>
+         <count>1</count>
+         <cost>16800</cost>
+         <total_cost>16800</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STOP SIGN AT EXITING BUILDING/GARAGE AT MAXWELL</description>
+         <count>1</count>
+         <cost>385</cost>
+         <total_cost>385</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>BUILDING IDS</description>
+         <count>2</count>
+         <cost>285</cost>
+         <total_cost>570</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ADDRESS NUMERALS ON RIVERSIDE FRONTAGE - 12&quot;</description>
+         <count>1</count>
+         <cost>610</cost>
+         <total_cost>610</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FACE MOUNT PROJECT / LEASING ID - LOADS ON HEADER NEXT TO- STAIR UP TO LEASING</description>
+         <count>1</count>
+         <cost>2460</cost>
+         <total_cost>2460</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: PARKING GARAGE - LEVEL 1 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>ENTER / EXIT PARKING SIGN W/ CLEARANCE PAN SIGN WITH- DIMENSIONAL GRAPHICS.</description>
+         <count>1</count>
+         <cost>4650</cost>
+         <total_cost>4650</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>CUSTOM HANDICAP PARKING - CABLE MOUNT</description>
+         <count>1</count>
+         <cost>285</cost>
+         <total_cost>285</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>CUSTOM VAN HANDICAP PARKING - CABLE MOUNT</description>
+         <count>1</count>
+         <cost>285</cost>
+         <total_cost>285</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>RESIDENT ENTRY / WARNING GATE COMBO</description>
+         <count>1</count>
+         <cost>210</cost>
+         <total_cost>210</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>EXIT ONLY / WARNING GATE COMBO</description>
+         <count>1</count>
+         <cost>210</cost>
+         <total_cost>210</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>FIRE PUMP ROOM (4&quot;)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>TRASH / MAINTENANCE ROOM</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>TRASH POLICY</description>
+         <count>1</count>
+         <cost>135</cost>
+         <total_cost>135</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>RESIDENT GATE ONLY AT PEDESTRIAN GATE</description>
+         <count>2</count>
+         <cost>135</cost>
+         <total_cost>270</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>POOL EQUIPMENT ID (EXTERIOR)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>GYM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>GYM POLICIES</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>BUILDING ACCESS</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>STAIR / LEVEL / EXIT TO STREET</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: BUILDING - LEVEL 2 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>21</count>
+         <cost>60</cost>
+         <total_cost>1260</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>LEASING ID (WILL LATER BE UNIT 221)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>PACKAGE ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>PROPERTY STORAGE (INSIDE LEASING)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>TRASH CHUTE ID / POLICIES</description>
+         <count>1</count>
+         <cost>115</cost>
+         <total_cost>115</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>UNISEX RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>POOL / CLUB ROOM ID - CABLE MOUNT</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>CLUB ROOM DOOR VINYL</description>
+         <count>1</count>
+         <cost>69</cost>
+         <total_cost>69</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>CLUB ROOM POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>HALLWAY DIRECTIONAL</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: BUILDING - LEVEL 3 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>22</count>
+         <cost>60</cost>
+         <total_cost>1320</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>TRASH CHUTE ID / POLICIES</description>
+         <count>1</count>
+         <cost>115</cost>
+         <total_cost>115</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>HALLWAY DIRECTIONAL</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: BUILDING - LEVEL 4 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>17</count>
+         <cost>60</cost>
+         <total_cost>1020</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>TRASH CHUTE ID / POLICIES</description>
+         <count>1</count>
+         <cost>115</cost>
+         <total_cost>115</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>HALLWAY DIRECTIONAL</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>YOGA POLICY - WALL. MOUNT</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: BUILDING - LEVEL 5 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>5</count>
+         <cost>60</cost>
+         <total_cost>300</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#7: AMENITY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>POOL POLICY - TEXAS CODE 2021 - WALL/FENCE MOUNT</description>
+         <count>1</count>
+         <cost>595</cost>
+         <total_cost>595</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>WARNING NO LIFEGUARD COMBO - WALL/FENCE MOUNT</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>911 PHONE SIGN</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>2021 POOL CODE VERBIAGE PANEL - WALL/FENCE MOUNT</description>
+         <count>1</count>
+         <cost>285</cost>
+         <total_cost>285</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2006BCGC02S</quote_num>
+   <contract_file>2006BCGC02S Riverside Apartments.xlsx</contract_file>
+   <client_name>BARTLETT COCKE GENERAL CONTRACTORS 7901 E RIVERSIDE DRIVE BLDG 100 AUSTIN, TX 78744</client_name>
+   <project_name>RIVERSIDE APARTMENTS</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

@@ -1,0 +1,642 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2010MFG02S SARC - Pine Bluff, AR.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING / WALL SIGN - ILLUMINATED W/ PUSH-THRU ACRYLIC- COPY. LOADS TO DROP SOFFIT AT ENTRY OFF SURGERY CENTER.- *POWER TO LOCATION IN CEILING BY OTHERS. (120V/20AMP HOUSE- POWER ON MASTER TIMER/PHOTOCELL) (SIGN PULLS 3.5AMPS)</description>
+         <count>1</count>
+         <cost>7165</cost>
+         <total_cost>7165</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>DOUBLE-FACED MONUMENT SIGN - PAN W/ DIMENSIONAL - GRAPHICS TO COVER EXISTING SIGN FACES.</description>
+         <count>1</count>
+         <cost>4480</cost>
+         <total_cost>4480</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>MONOLITH-STYLED DIRECTIONAL VALUE SIGNS. (CLINIC CENTER/- SURGERY CENTER)</description>
+         <count>2</count>
+         <cost>985</cost>
+         <total_cost>1970</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: SURGERY CENTER INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>DOUBLE DOOR VINYL KITS</description>
+         <count>2</count>
+         <cost>129</cost>
+         <total_cost>258</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>SINGLE DOOR VINYL KITS</description>
+         <count>1</count>
+         <cost>89</cost>
+         <total_cost>89</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>PATIENTS ONLY BEYOND THIS POINT</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ADDRESS / SUITE VINYL (SURGERY CENTER)</description>
+         <count>1</count>
+         <cost>69</cost>
+         <total_cost>69</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>MENS RESTROOM (WAITING ROOM)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>WOMENS RESTROOM (WAITING ROOM)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>RECEPTION / PLEASE SIGN-IN</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>MANAGERS OFFICE</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>NURSES OFFICE</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>EXIT TO WAITING ROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>DICTATE / OFFICE</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>BREAKROOM / EMPLOYEES ONLY</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>SUPPLY ROOM / EMPLOYEES ONLY</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>INTERVIEW / EXAM ROOM</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>CONSULTATION</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>DICTATION</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>MENS LOCKER ROOM</description>
+         <count>2</count>
+         <cost>88</cost>
+         <total_cost>176</total_cost>
+      </sign>
+      
+      <sign>
+         <key>R.</key>
+         <description>MENS RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>S.</key>
+         <description>WOMENS LOCKER ROOM</description>
+         <count>2</count>
+         <cost>88</cost>
+         <total_cost>176</total_cost>
+      </sign>
+      
+      <sign>
+         <key>T.</key>
+         <description>WOMENS RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>U.</key>
+         <description>PROCEDURE ROOM ID</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>V.</key>
+         <description>STERILE SOILED</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>W.</key>
+         <description>STERILE PROCESSING</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>X.</key>
+         <description>CLEAN LINEN</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Y.</key>
+         <description>MEDICATION / EMPLOYEES ONLY</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: SURGERY CENTER INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>Z.</key>
+         <description>PREP / RECOVERY ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>AA.</key>
+         <description>RECOVERY ROOM (4&quot; X 4&quot; 1-6)</description>
+         <count>6</count>
+         <cost>58</cost>
+         <total_cost>348</total_cost>
+      </sign>
+      
+      <sign>
+         <key>BB.</key>
+         <description>SOILED LINEN</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>CC.</key>
+         <description>PRIVATE PREP / RECOVERY</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>DD.</key>
+         <description>UNISEX RESTROOM (PREP / RECOVERY)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>EE.</key>
+         <description>OPERATION ROOM #2 (OR #2)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>FF.</key>
+         <description>STERILE STORAGE</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>GG.</key>
+         <description>EMPLOYEES ONLY (JANITOR CLOSET)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>HH.</key>
+         <description>CATH LAB EQUIPMENT</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>II.</key>
+         <description>CATH LAB / OPERATION ROOM #1 (O.R. #1)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>JJ.</key>
+         <description>CONTROL ROOM</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>KK.</key>
+         <description>CT SCANNER ROOM</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>LL.</key>
+         <description>O.R. STORAGE</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>MM.</key>
+         <description>ECP ROOM</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>NN.</key>
+         <description>ECP / DATA / BREAKROOM</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>OO.</key>
+         <description>BREAKROOM / EMPLOYEES ONLY</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>PP.</key>
+         <description>UNISEX RESTROOM (X1 IN BREAKROOM, X1 IN CONTROL ROOM)</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+      <sign>
+         <key>QQ.</key>
+         <description>DATA ROOM</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>RR.</key>
+         <description>ASC ACCESS (X1 CORRIDOR NEAR NUC MED DOOR, X1 AT CLINIC- SIDE CORRIDOR BY SUPPLY ROOM, X1 DICTATE OFFICE/CLINIC SIDE)</description>
+         <count>3</count>
+         <cost>78</cost>
+         <total_cost>234</total_cost>
+      </sign>
+      
+      <sign>
+         <key>SS.</key>
+         <description>CLINIC ACCESS (X1 AT CORRIDOR FROM ASC TO CLINIC, X1 INT- AT CT SCANNER ROOM TO CLINIC)</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>TT.</key>
+         <description>PLAQUE W/ DIMENSIONAL LOGO 12&quot;X12&quot; AT CLINIC WAITING- ROOM ACCESS TO ASC WAITING</description>
+         <count>1</count>
+         <cost>158</cost>
+         <total_cost>158</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: SURGERY CENTER EXTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>MECHANICAL ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ELECTRICAL ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>COMPRESSOR ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>MEDICAL GASSES ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>SUITE ADDRESS / VINYL (SIDE &amp; REAR DOORS)</description>
+         <count>3</count>
+         <cost>49</cost>
+         <total_cost>147</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: CLINIC CENTER INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>DOUBLE DOOR VINYL KIT W/ SUITE ADDRESS</description>
+         <count>1</count>
+         <cost>129</cost>
+         <total_cost>129</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>SINGLE DOOR VINYL KIT W/ SUITE ADDRESS</description>
+         <count>2</count>
+         <cost>89</cost>
+         <total_cost>178</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ADDRESS / SUITE # OVER ENTRY</description>
+         <count>1</count>
+         <cost>39</cost>
+         <total_cost>39</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>PATIENTS ONLY BEYOND THIS POINT</description>
+         <count>2</count>
+         <cost>110</cost>
+         <total_cost>220</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>RETAIL SHOP</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>RECEPTION / PLEASE SIGN - IN</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>UNISEX RESTROOM (WAITING ROOM)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>ADMINISTRATION (BILLING OFFICE / WORK)</description>
+         <count>3</count>
+         <cost>78</cost>
+         <total_cost>234</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>CONSULTATION ROOM</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: CLINIC CENTER INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>J.</key>
+         <description>OFFICE ID (NAME TBD)</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>MOLD ROOM</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>PHYSICS ROOM</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>EXAM ROOM ID (01-10)</description>
+         <count>10</count>
+         <cost>78</cost>
+         <total_cost>780</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>NUCLEAR MEDICINE ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>UNISEX RESTROOM (AT NURSES STATION, AT RECEPTION CORRIDOR)</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>ELECTRICAL</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>NURSE&apos;S STATION</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>R.</key>
+         <description>EMPLOYEES ONLY (JANITOR)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>S.</key>
+         <description>EXIT (CORRIDOR TO OUTSIDE)</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>T.</key>
+         <description>RADIATION THERAPY</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2010MFG02S</quote_num>
+   <contract_file>2010MFG02S SARC - Pine Bluff, AR.xlsx</contract_file>
+   <client_name>HEALTHCARE SOLUTIONS HOLDINGS INC. 3 SCHOOL ROAD STE 300 GLEN COVE, NY 11542</client_name>
+   <project_name>SARC - PINE BLUFF, AR</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

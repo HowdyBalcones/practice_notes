@@ -1,0 +1,939 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2102WOOD01S Alta 161 Signage.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>INTERNALLY ILLUMINATED MONUMENT SIGN, SINGLE-FACED. - STRUCTURE PROVIDED BY OTHERS. PER PLAN PAGE L4-05. FOURCE- TO SUPPLY X2 SIGN FACES W/ REVERSE CHANNEL LETTERS.- *POWER TO LOCATION BY OTHERS.</description>
+         <count>1</count>
+         <cost>5500</cost>
+         <total_cost>5500</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ILLUMINATED SINGLE-FACE WALL SIGN. LOADS TO WEST ELEVATION- BLDG 1 4TH FLOOR, FACING 161. *BLOCKING &amp; ELECTRICAL TO- LOCATION BY OTHERS. (OPTIONAL) (APPROX 4&apos;H X 15&apos;W)</description>
+         <count>1</count>
+         <cost>11800</cost>
+         <total_cost>11800</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: LEASING CENTER- EXTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>LEASING CENTER ID - POST &amp; PANEL OR WALL</description>
+         <count>1</count>
+         <cost>1885</cost>
+         <total_cost>1885</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>HOUS SIGN W/ CHANGEABLE SUMMER / WINTER HOURS</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ADDRESS ID W/ INDIVIDUAL NUMERALS</description>
+         <count>1</count>
+         <cost>495</cost>
+         <total_cost>495</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>LEASING CENTER DOUBLE DOOR FROSTED VINYL KIT</description>
+         <count>1</count>
+         <cost>129</cost>
+         <total_cost>129</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>CUSTOM FUTURE RESIDENT PARKING - POLE MOUNT</description>
+         <count>3</count>
+         <cost>695</cost>
+         <total_cost>2085</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>CUSTOM HANDICAP PARKING (X1 STD, X1 VAN) - POLE MOUNT</description>
+         <count>2</count>
+         <cost>695</cost>
+         <total_cost>1390</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>USPS PARKING - POLE MOUNT</description>
+         <count>1</count>
+         <cost>495</cost>
+         <total_cost>495</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>FIRE SPRINKLER RISER ROOM (4&quot;)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>MAIL CENTER ID</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER- INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>MANAGER ID </description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ASSISTANT MANAGER ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>EMPLOYEES ONLY (BREAKROOM)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>PARCEL ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>CONFERENCE ROOM ID</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>WI-FI LOUNGE ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>WI-FI LOUNGE DESKTOP POLICY</description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>CLUB ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>CLUB POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>FITNESS CENTER ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>FITNESS CENTER POLICIES</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>WOMEN&apos;S RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>UNISEX RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>IT / DATE ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>MECHANICAL ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>MAX OCCUPANCY (LEASE, CLUB, FIT)</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: SITE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>REMOTE GARAGE BUILDING IDS</description>
+         <count>6</count>
+         <cost>165</cost>
+         <total_cost>990</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>REMOTE GARAGE NUMBERS (X6 PER GARAGE)</description>
+         <count>36</count>
+         <cost>32</cost>
+         <total_cost>1152</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>CARPORT NUMBER IDS</description>
+         <count>94</count>
+         <cost>32</cost>
+         <total_cost>3008</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>TRASH COMPACTOR / POLICIES</description>
+         <count>1</count>
+         <cost>285</cost>
+         <total_cost>285</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>ENTRY GATE - *FOURCE TO COVER CUSTOM HANDICAP AT LEASING. BALANCE CARRIED BY STRIPER CONTRACTOR.</description>
+         <count>3</count>
+         <cost>210</cost>
+         <total_cost>630</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: BUILDING ONE (TYPE B) SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING / ADDRESS ID SIGNS - STUD MOUNT</description>
+         <count>4</count>
+         <cost>235</cost>
+         <total_cost>940</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>56</count>
+         <cost>48</cost>
+         <total_cost>2688</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ELEVATOR EGRESS</description>
+         <count>4</count>
+         <cost>235</cost>
+         <total_cost>940</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STAIR / LEVEL ID (X3 EXTERIOR)</description>
+         <count>15</count>
+         <cost>48</cost>
+         <total_cost>720</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE RISER ROOM (4&quot;)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FDC W/ BLDG ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>RESIDENT STORAGE NUMBERS</description>
+         <count>20</count>
+         <cost>38</cost>
+         <total_cost>760</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>EXTERIOR GARAGE NUMBERS</description>
+         <count>19</count>
+         <cost>32</cost>
+         <total_cost>608</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>INTERIOR GARAGE NUMBERS</description>
+         <count>19</count>
+         <cost>38</cost>
+         <total_cost>722</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>TELECOM ID</description>
+         <count>8</count>
+         <cost>48</cost>
+         <total_cost>384</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>MAINTENANCE ID (EXTERIOR)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: BUILDING TWO (TYPE B) SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING / ADDRESS ID SIGNS - STUD MOUNT</description>
+         <count>4</count>
+         <cost>235</cost>
+         <total_cost>940</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>56</count>
+         <cost>48</cost>
+         <total_cost>2688</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ELEVATOR EGRESS</description>
+         <count>4</count>
+         <cost>235</cost>
+         <total_cost>940</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STAIR / LEVEL ID (X3 EXTERIOR)</description>
+         <count>15</count>
+         <cost>48</cost>
+         <total_cost>720</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE RISER ROOM (4&quot;)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FDC W/ BLDG ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>RESIDENT STORAGE NUMBERS</description>
+         <count>20</count>
+         <cost>38</cost>
+         <total_cost>760</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>EXTERIOR GARAGE NUMBERS</description>
+         <count>19</count>
+         <cost>32</cost>
+         <total_cost>608</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>INTERIOR GARAGE NUMBERS</description>
+         <count>19</count>
+         <cost>38</cost>
+         <total_cost>722</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>TELECOM ID</description>
+         <count>8</count>
+         <cost>48</cost>
+         <total_cost>384</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>MAINTENANCE ID (EXTERIOR)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#7: BUILDING THREE (TYPE B) SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING / ADDRESS ID SIGNS - STUD MOUNT</description>
+         <count>3</count>
+         <cost>235</cost>
+         <total_cost>705</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>56</count>
+         <cost>48</cost>
+         <total_cost>2688</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ELEVATOR EGRESS</description>
+         <count>4</count>
+         <cost>235</cost>
+         <total_cost>940</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STAIR / LEVEL ID (X3 EXTERIOR)</description>
+         <count>15</count>
+         <cost>48</cost>
+         <total_cost>720</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE RISER ROOM (4&quot;)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FDC W/ BLDG ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>RESIDENT STORAGE NUMBERS</description>
+         <count>20</count>
+         <cost>38</cost>
+         <total_cost>760</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>EXTERIOR GARAGE NUMBERS</description>
+         <count>18</count>
+         <cost>32</cost>
+         <total_cost>576</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>INTERIOR GARAGE NUMBERS</description>
+         <count>18</count>
+         <cost>38</cost>
+         <total_cost>684</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>TELECOM ID</description>
+         <count>8</count>
+         <cost>48</cost>
+         <total_cost>384</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>MAINTENANCE ID (EXTERIOR)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>DOG WASH ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>DOG WASH POLICIES</description>
+         <count>1</count>
+         <cost>285</cost>
+         <total_cost>285</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#8: BUILDING FOUR (TYPE B) SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING / ADDRESS ID SIGNS - STUD MOUNT</description>
+         <count>3</count>
+         <cost>235</cost>
+         <total_cost>705</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>56</count>
+         <cost>48</cost>
+         <total_cost>2688</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ELEVATOR EGRESS</description>
+         <count>4</count>
+         <cost>235</cost>
+         <total_cost>940</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STAIR / LEVEL ID (X3 EXTERIOR)</description>
+         <count>15</count>
+         <cost>48</cost>
+         <total_cost>720</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE RISER ROOM (4&quot;)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FDC W/ BLDG ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>RESIDENT STORAGE NUMBERS</description>
+         <count>20</count>
+         <cost>38</cost>
+         <total_cost>760</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>EXTERIOR GARAGE NUMBERS</description>
+         <count>19</count>
+         <cost>32</cost>
+         <total_cost>608</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>INTERIOR GARAGE NUMBERS</description>
+         <count>19</count>
+         <cost>38</cost>
+         <total_cost>722</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>TELECOM ID</description>
+         <count>8</count>
+         <cost>48</cost>
+         <total_cost>384</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>MAINTENANCE ID (EXTERIOR)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#9: BUILDING FIVE (TYPE B) SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING / ADDRESS ID SIGNS - STUD MOUNT</description>
+         <count>3</count>
+         <cost>235</cost>
+         <total_cost>705</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>56</count>
+         <cost>48</cost>
+         <total_cost>2688</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ELEVATOR EGRESS</description>
+         <count>4</count>
+         <cost>235</cost>
+         <total_cost>940</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STAIR / LEVEL ID (X3 EXTERIOR)</description>
+         <count>15</count>
+         <cost>48</cost>
+         <total_cost>720</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE RISER ROOM (4&quot;)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FDC W/ BLDG ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>RESIDENT STORAGE NUMBERS</description>
+         <count>20</count>
+         <cost>38</cost>
+         <total_cost>760</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>EXTERIOR GARAGE NUMBERS</description>
+         <count>19</count>
+         <cost>32</cost>
+         <total_cost>608</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>INTERIOR GARAGE NUMBERS</description>
+         <count>19</count>
+         <cost>38</cost>
+         <total_cost>722</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>TELECOM ID</description>
+         <count>8</count>
+         <cost>48</cost>
+         <total_cost>384</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>MAINTENANCE ID (EXTERIOR)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#10: BUILDING SIX (TYPE A) SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING / ADDRESS ID SIGNS - STUD MOUNT</description>
+         <count>2</count>
+         <cost>235</cost>
+         <total_cost>470</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>42</count>
+         <cost>48</cost>
+         <total_cost>2016</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR ID (X3 EXTERIOR)</description>
+         <count>12</count>
+         <cost>48</cost>
+         <total_cost>576</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>FIRE RISER ROOM (4&quot;)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FDC W/ BLDG ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>RESIDENT STORAGE NUMBERS</description>
+         <count>19</count>
+         <cost>38</cost>
+         <total_cost>722</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>EXTERIOR GARAGE NUMBERS</description>
+         <count>19</count>
+         <cost>32</cost>
+         <total_cost>608</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>INTERIOR GARAGE NUMBERS</description>
+         <count>19</count>
+         <cost>38</cost>
+         <total_cost>722</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>TELECOM ID</description>
+         <count>6</count>
+         <cost>48</cost>
+         <total_cost>288</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#11: AMENITY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>POOL POLICIES - FENCE MOUNT W/ PVC BACKER</description>
+         <count>1</count>
+         <cost>695</cost>
+         <total_cost>695</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>WARNING NO LIFEGUARD - FENCE MOUNT W/ PVC BACKER</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>911 PHONE SIGN</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>POOL GATE W/ HOURS</description>
+         <count>3</count>
+         <cost>155</cost>
+         <total_cost>465</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>POOL EQUIPMENT ID - FENCE MOUNT W/ PVC BACKER</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>GRILL POLICIES - STUD MOUNT (AT POOL KITCHEN)</description>
+         <count>1</count>
+         <cost>335</cost>
+         <total_cost>335</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>BIG DOG PARK ID - FENCE MOUNT W/ PVC BACKER</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>SMALL DOG PARK ID - FENCE MOUNT W/ PVC BACKER</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>DOG PARK GATE SIGN ON POST - CENTRALLY LOCATED TO- SERVICE BOTH PARKS</description>
+         <count>1</count>
+         <cost>695</cost>
+         <total_cost>695</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2102WOOD01S</quote_num>
+   <contract_file>2102WOOD01S Alta 161 Signage.xlsx</contract_file>
+   <client_name>WOOD PARTNERS 5440 HARVEST HILL RD, STE 206 DALLAS, TX 75230</client_name>
+   <project_name>ALTA 161</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

@@ -1,0 +1,554 @@
+
+      <job_info>
+      <contract>
+      <contract_name>BRE-319-1 8390 LBJ Tower REV 1.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: OFFICE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>DOUBLE-FACED MULTI TENANT TOWER SIGN. INTERNALLY- ILLUMINATED SIGN. APPROX (20&apos;H X 10&apos;W) W/ MULTIPLE- TENANT PANELS. SIGN UTILIZES EXISTING FOOTER W/ POLE- EMBEDED (SLIDE-OVER) CABINETS.</description>
+         <count>1</count>
+         <cost>22680</cost>
+         <total_cost>22680</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: LEVEL 1 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>MENS RESTROOM (HANDICAP)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>WOMENS RESTROOM (HANDICAP)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ELECTRICAL ROOM ID</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>LOADING DOCK ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>LOADING DOCK - DO NOT BLOCK PAN SIGN</description>
+         <count>1</count>
+         <cost>385</cost>
+         <total_cost>385</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>UPS ROOM ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>VENDING ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>MAIL ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>SECURITY/FIRE PANEL ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>STAIR ID</description>
+         <count>3</count>
+         <cost>68</cost>
+         <total_cost>204</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>STARWELL/LEVEL SIGNS</description>
+         <count>2</count>
+         <cost>175</cost>
+         <total_cost>350</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>ELEVATOR EGRESS/IN CASE OF FIRE (X1 BANK, X1 FREIGHT)</description>
+         <count>2</count>
+         <cost>265</cost>
+         <total_cost>530</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>FIRE PUMP ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>TENANT ID (TBD-EXECUTIVE WORK SPACE)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>LBJ TOWER LOUNGE ID</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>UNIDENTIFIED ROOM ID (TBD-MANAGEMENT/SECURITY)</description>
+         <count>5</count>
+         <cost>68</cost>
+         <total_cost>340</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>DIRECTIONAL/WAYFINDING SIGNS</description>
+         <count>3</count>
+         <cost>110</cost>
+         <total_cost>330</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEVEL 3 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>STAIR/LEVEL ID</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIRWELL/LEVEL SIGNS</description>
+         <count>2</count>
+         <cost>175</cost>
+         <total_cost>350</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ELEVATOR EGRESS/IN CASE OF FIRE (X1 4BANK, X1 FREIGHT)</description>
+         <count>2</count>
+         <cost>265</cost>
+         <total_cost>530</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>MENS RESTROOM (ADA)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>WOMENS RESTROOM (ADA)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>STORAGE</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>ELECTRICAL ROOM ID</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>EMPLOYEES ONLY (JANITOR CLOSET)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>TELECOM ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>MURRAY HILL NATIONAL - CALL CENTER</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: LEVEL 5 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>STAIR/LEVEL ID</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIRWELL/LEVEL SIGNS</description>
+         <count>2</count>
+         <cost>175</cost>
+         <total_cost>350</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ELEVATOR EGRESS/IN CASE OF FIRE (X1 4BANK, X1 FREIGHT)</description>
+         <count>2</count>
+         <cost>265</cost>
+         <total_cost>530</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>MENS RESTROOM (ADA)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>WOMENS RESTROOM (ADA)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>STORAGE</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>ELECTRICAL ROOM ID</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>EMPLOYEES ONLY (JANITOR CLOSET)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>TELECOM ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>TENANT ID - MURRAY HILL NATIONAL CALL CENTER #540</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>TENANT ID - BROADSWORD #530</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>TENANT ID - BV CAPITAL #565</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>TENANT ID - BV SECURITIES #565 W/ MEMBER FINRA/SIPC</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>TENANT ID - ARCHWAY PROPERTIES #565</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>TENANT ID - THE BRIDGEVIEW COMPANIES #565</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>TENANT ID - REED CARTER ATTORNEYS #570</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>TENANT ID - CAREWRIGHT CLINICAL SERVICES #575</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: LEVEL 9 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>STAIR/LEVEL ID</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIRWELL/LEVEL SIGNS</description>
+         <count>2</count>
+         <cost>175</cost>
+         <total_cost>350</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ELEVATOR EGRESS/IN CASE OF FIRE (X1 4BANK, X1 FREIGHT)</description>
+         <count>2</count>
+         <cost>265</cost>
+         <total_cost>530</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>MENS RESTROOM (ADA)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>WOMENS RESTROOM (ADA)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>STORAGE</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>ELECTRICAL ROOM ID</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>EMPLOYEES ONLY (JANITOR CLOSET)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>TELECOM ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: LEVEL 10 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>STAIR/LEVEL ID</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIRWELL/LEVEL SIGNS</description>
+         <count>2</count>
+         <cost>175</cost>
+         <total_cost>350</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ELEVATOR EGRESS/IN CASE OF FIRE (X1 4BANK, X1 FREIGHT)</description>
+         <count>2</count>
+         <cost>265</cost>
+         <total_cost>530</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>MENS RESTROOM (ADA)</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>WOMENS RESTROOM (ADA)</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>STORAGE</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>ELECTRICAL ROOM ID</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>EMPLOYEES ONLY (JANITOR CLOSET)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>TELECOM ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>BRE-318-1</quote_num>
+   <contract_file>BRE-319-1 8390 LBJ Tower REV 1.xlsx</contract_file>
+   <client_name>BRIDGEVIEW REAL ESTATE 8390 LBJ FRWY SUITE 565 DALLAS, TX 75243</client_name>
+   <project_name>8390 LBJ TOWER</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

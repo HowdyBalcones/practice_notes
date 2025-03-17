@@ -1,0 +1,683 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2108JPI02S Parmore Fossil Creek Rev 2.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>DOUBLE-FACED MONUMENT DIMENSIONAL GRAPHICS / LOGO ON- PAN W/ ADDRESS. LOADS TO SIGN STRUCTURE BY OTHERS. UP-- LIGHTING FROM SCAPE FOR ILLUMINATION (PER L1.25)</description>
+         <count>1</count>
+         <cost>7800</cost>
+         <total_cost>7800</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>LEASING CENTER ID / DIRECTIONAL MONOLITH. LOADS IN ISLAND.</description>
+         <count>1</count>
+         <cost>1165</cost>
+         <total_cost>1165</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: LEASING CENTER- EXTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>LOGO/LEASING VINYL KITS - SINGLE DOOR</description>
+         <count>1</count>
+         <cost>129</cost>
+         <total_cost>129</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>HOURS SIGN - SUMMER / WINTER HOURS</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>DIMENSIONAL ADDRESS ON BLDG PORTE COCHERE.</description>
+         <count>1</count>
+         <cost>435</cost>
+         <total_cost>435</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>CUSTOM FUTURE RESIDENT PARKING ON POST</description>
+         <count>3</count>
+         <cost>715</cost>
+         <total_cost>2145</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>CUSTOM HANDICAP PARKING (X2 STD, X1 VAN) ON POST</description>
+         <count>3</count>
+         <cost>715</cost>
+         <total_cost>2145</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>USPS PARKING ON POST</description>
+         <count>1</count>
+         <cost>495</cost>
+         <total_cost>495</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>VINYL KIT &quot;DOORS TO REMAIN UNLOCKED..&quot;</description>
+         <count>1</count>
+         <cost>89</cost>
+         <total_cost>89</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>MAIL CENTER ID (EXT)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER- INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>MANAGER ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ASSISTANT MANAGER ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>CLUB / LOUNGE ID</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>CLUB / LOUNGE POLICIES</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>LOGO / LEASING ID (CORRIDOR TO LEASING)</description>
+         <count>1</count>
+         <cost>129</cost>
+         <total_cost>129</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>MAX OCCUPANCY (LEASE, FIT, CLUB, LIBRARY, MAKERSPACE)</description>
+         <count>5</count>
+         <cost>58</cost>
+         <total_cost>290</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>EMPLOYEES ONLY (WORKROOM)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>CRAFT ROOM ID (LEVEL 1)</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>CRAFT ROOM POLICIES (LEVEL 1)</description>
+         <count>1</count>
+         <cost>365</cost>
+         <total_cost>365</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>CONFERENCE ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>BUSINESS CENTER ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>BUSINESS CENTER POLICIES - WALL MOUNT</description>
+         <count>1</count>
+         <cost>365</cost>
+         <total_cost>365</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>WOMEN&apos;S RESTROOM - ADA</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>MEN&apos;S RESTROOM - ADA</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>MAIL ROOM ID (INT)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER- INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>P.</key>
+         <description>MAKERSPACE ID (LEVEL 2)</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>MAKERSPACE POLICIES (LEVEL 2)</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>R.</key>
+         <description>LIBRARY ID (LEVEL 2)</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>S.</key>
+         <description>LIBRARY POLICIES (LEVEL 2)</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>T.</key>
+         <description>LAUNDRY ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: SITE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING / ADDRESS SIGNS</description>
+         <count>5</count>
+         <cost>285</cost>
+         <total_cost>1425</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ENTER / EXIT / WARNING GATE SIGN PACKS</description>
+         <count>3</count>
+         <cost>385</cost>
+         <total_cost>1155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>CALL-BOX FLAG SIGN</description>
+         <count>1</count>
+         <cost>165</cost>
+         <total_cost>165</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>TRASH ID / POLICY SIGNS</description>
+         <count>3</count>
+         <cost>210</cost>
+         <total_cost>630</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>RECYCLE ID / POLICY SIGNS- *FOURCE TO COVER CUSTOM HCP SIGNS AT LEASING CENTER (X2 STD, X1 VAN), BALANCE UNDER STRIPERS SCOPE.</description>
+         <count>3</count>
+         <cost>210</cost>
+         <total_cost>630</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: BUILDING - LEVEL 1 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>70</count>
+         <cost>54</cost>
+         <total_cost>3780</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR / LEVEL SIGNS</description>
+         <count>10</count>
+         <cost>58</cost>
+         <total_cost>580</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL / LEVEL SIGNS</description>
+         <count>5</count>
+         <cost>165</cost>
+         <total_cost>825</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELEVATOR EGRESS SIGNS</description>
+         <count>2</count>
+         <cost>265</cost>
+         <total_cost>530</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>DIRECTIONAL SIGNS</description>
+         <count>7</count>
+         <cost>98</cost>
+         <total_cost>686</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FIRE DOOR - DO NOT BLOCK </description>
+         <count>14</count>
+         <cost>58</cost>
+         <total_cost>812</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>RESIDENT STORAGE (VERIFY)</description>
+         <count>14</count>
+         <cost>48</cost>
+         <total_cost>672</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>MECHANICAL (X3 CLUB AREA, X1 OUTDOOR LOUNGE)</description>
+         <count>4</count>
+         <cost>48</cost>
+         <total_cost>192</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>ELEVATOR CONTROL ROOM</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>FIRE RISER (4&quot;)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>OUTDOOR LOUNGE ID</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>OUTDOOR LOUNGE POLICIES</description>
+         <count>1</count>
+         <cost>365</cost>
+         <total_cost>365</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: BUILDING - LEVEL 2 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>74</count>
+         <cost>54</cost>
+         <total_cost>3996</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR / LEVEL SIGNS</description>
+         <count>5</count>
+         <cost>58</cost>
+         <total_cost>290</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL / LEVEL SIGNS</description>
+         <count>5</count>
+         <cost>165</cost>
+         <total_cost>825</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELEVATOR EGRESS SIGNS</description>
+         <count>2</count>
+         <cost>265</cost>
+         <total_cost>530</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>DIRECTIONAL SIGNS</description>
+         <count>8</count>
+         <cost>98</cost>
+         <total_cost>784</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FIRE DOOR - DO NOT BLOCK  (X1 BLK)</description>
+         <count>16</count>
+         <cost>58</cost>
+         <total_cost>928</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>RESIDENT STORAGE (VERIFY)</description>
+         <count>8</count>
+         <cost>48</cost>
+         <total_cost>384</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>MECHANICAL</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: BUILDING - LEVEL 2 SIGNAGE</section_name>
+   
+      <sign>
+         <key>I.</key>
+         <description>MDF</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>IDF</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>TELECOM</description>
+         <count>6</count>
+         <cost>58</cost>
+         <total_cost>348</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>MAINTENANCE ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#7: BUILDING - LEVEL 3 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>77</count>
+         <cost>54</cost>
+         <total_cost>4158</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR / LEVEL SIGNS</description>
+         <count>5</count>
+         <cost>58</cost>
+         <total_cost>290</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL / LEVEL SIGNS</description>
+         <count>5</count>
+         <cost>165</cost>
+         <total_cost>825</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELEVATOR EGRESS SIGNS</description>
+         <count>2</count>
+         <cost>265</cost>
+         <total_cost>530</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>DIRECTIONAL SIGNS</description>
+         <count>8</count>
+         <cost>98</cost>
+         <total_cost>784</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FIRE DOOR - DO NOT BLOCK  (X1 BLK)</description>
+         <count>14</count>
+         <cost>58</cost>
+         <total_cost>812</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>RESIDENT STORAGE (VERIFY)</description>
+         <count>13</count>
+         <cost>48</cost>
+         <total_cost>624</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>ELEVATOR CONTROL ROOM</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#8: ROOF / ATTIC SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>ATTIC ACCESS SIGNS</description>
+         <count>12</count>
+         <cost>68</cost>
+         <total_cost>816</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#9: AMENITY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>POOL POLICIES - TEXAS CODE 2021</description>
+         <count>1</count>
+         <cost>715</cost>
+         <total_cost>715</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>WARNING NO LIFEGUARD - TEXAS CODE 2021</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>911 PHONE SIGN - TEXAS CODE 2021</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>POOL POLICIES II - TEXAS CODE 2021</description>
+         <count>1</count>
+         <cost>195</cost>
+         <total_cost>195</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>GRILL POLICIES (X1 POOL, X1 COURTYARD) - STRUCTURE MOUNT</description>
+         <count>2</count>
+         <cost>335</cost>
+         <total_cost>670</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>POOL GATE SIGNS W/ 911 DIRECTIONAL</description>
+         <count>3</count>
+         <cost>155</cost>
+         <total_cost>465</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>DOG PARK POLICIES ON POSTS</description>
+         <count>1</count>
+         <cost>695</cost>
+         <total_cost>695</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2108JPI02S</quote_num>
+   <contract_file>2108JPI02S Parmore Fossil Creek Rev 2.xlsx</contract_file>
+   <client_name>JPI 600 E LAS COLINAS BLVD STE 1800 IRVING, TX 75039</client_name>
+   <project_name>PARMORE FOSSIL CREEK</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

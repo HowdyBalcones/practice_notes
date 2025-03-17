@@ -1,0 +1,2633 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2002AC02 Stevenson Oaks Signage.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>SINGLE-FACE MAIN MONUMENT SIGN CAN. NON-ILLUMINATED- WITH ALUMINUM SIGN FACE W/ SQUARE TUBING FRAME- DIMENSIONAL LOGO/ COPY / ADDRESS. *STRUCTURE BY OTHERS,- UPLIGHTING FROM LANDSCAPE BY OTHERS.</description>
+         <count>2</count>
+         <cost>4800</cost>
+         <total_cost>9600</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>SINGLE-FACE SECONDARY MONUMENT SIGN CAN. NON-- ILLUMINATED WITH ALUMINUM SIGN FACE W/ SQUARE TUBING- FRAME. DIMENSIONAL LOGO / COPY / ADDRESS. *STRUCTURE- BY OTHERS, UPLIGHTING FROM LANDSCAPE BY OTHERS.</description>
+         <count>1</count>
+         <cost>3980</cost>
+         <total_cost>3980</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>DOUBLE-FACE DIRECTIONALS</description>
+         <count>4</count>
+         <cost>1385</cost>
+         <total_cost>5540</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>CALL BOX / VISITOR SIGN</description>
+         <count>3</count>
+         <cost>295</cost>
+         <total_cost>885</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: SITE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING IDS</description>
+         <count>1</count>
+         <cost>210</cost>
+         <total_cost>210</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>CUSTOM HANDICAP PARKING SIGN (X2 AT IL, X1 AT AL/MS)</description>
+         <count>3</count>
+         <cost>795</cost>
+         <total_cost>2385</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>CUSTOM VAN HANDICAP PARKING SIGN (X2 AT IL, X1 AT AL/MS)</description>
+         <count>3</count>
+         <cost>795</cost>
+         <total_cost>2385</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>CUSTOM FUTURE RESIDENT PARKING (AT IL)</description>
+         <count>3</count>
+         <cost>795</cost>
+         <total_cost>2385</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>USPS PARKING SIGN AT IL</description>
+         <count>1</count>
+         <cost>395</cost>
+         <total_cost>395</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>STANDARD VAN HANDICAP PAARKING (THROUGHOUT SITE)</description>
+         <count>6</count>
+         <cost>295</cost>
+         <total_cost>1770</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>RESIDENT &amp; VISITOR ENTRY GATE SIGN / WARNING COMBO</description>
+         <count>3</count>
+         <cost>210</cost>
+         <total_cost>630</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>RESIDENT ONLY ENTRY GATE SIGN / WARNING COMBO</description>
+         <count>1</count>
+         <cost>210</cost>
+         <total_cost>210</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>EXIT ONLY GATE SIGN / WARNING COMBO</description>
+         <count>4</count>
+         <cost>210</cost>
+         <total_cost>840</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: WING A - LEVEL 1 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>20</count>
+         <cost>48</cost>
+         <total_cost>960</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR IDS (X2 A, X2 A1)</description>
+         <count>4</count>
+         <cost>48</cost>
+         <total_cost>192</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL SIGNS</description>
+         <count>2</count>
+         <cost>165</cost>
+         <total_cost>330</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELECTRICAL</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>PROPERTY STORAGE</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>RESIDENT STORAGE ROOM IDS (X1 EXTERIOR DOOR)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>RESIDENT STORAGE IDS (ROOM 1 X12) (ROOM 2 X8)</description>
+         <count>20</count>
+         <cost>42</cost>
+         <total_cost>840</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>HOUSEKEEPING</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>DOG WASH ID / MECHANICAL</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: WING A - LEVEL 1 SIGNAGE</section_name>
+   
+      <sign>
+         <key>J.</key>
+         <description>DOG WASH POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>MECHANICAL ID (INSIDE DOG WASH)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>TRASH ROOM / IT ID COMBO</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>TRASH ROOM POLICY</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>IT ID (INSIDE TRASH ROOM)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>2</count>
+         <cost>265</cost>
+         <total_cost>530</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>FIRE DOOR - DO NOT BLOCK</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>3</count>
+         <cost>98</cost>
+         <total_cost>294</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: WING A - LEVEL 2 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>20</count>
+         <cost>48</cost>
+         <total_cost>960</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR IDS (X1 A, X1 A1)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL SIGNS</description>
+         <count>2</count>
+         <cost>165</cost>
+         <total_cost>330</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELECTRICAL ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>PROPERTY STORAGE ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>RESIDENT STORAGE ROOM IDS</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>RESIDENT STORAGE IDS (ROOM 1 X12) (ROOM 2 X8)</description>
+         <count>20</count>
+         <cost>42</cost>
+         <total_cost>840</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>HOUSEKEEPING</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>MECHANICAL ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>TRASH ROOM / IT ID COMBO</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>TRASH ROOM POLICY</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>IT ID (INSIDE TRASH)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>2</count>
+         <cost>265</cost>
+         <total_cost>530</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>FIRE DOOR - DO NOT BLOCK</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>3</count>
+         <cost>98</cost>
+         <total_cost>294</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: WING A - LEVEL 3 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>20</count>
+         <cost>48</cost>
+         <total_cost>960</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR IDS (X1 A, X1 A1)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL SIGNS</description>
+         <count>2</count>
+         <cost>165</cost>
+         <total_cost>330</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELECTRICAL ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>PROPERTY STORAGE ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>RESIDENT STORAGE ROOM IDS</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>RESIDENT STORAGE IDS (ROOM 1 X12) (ROOM 2 X8)</description>
+         <count>20</count>
+         <cost>42</cost>
+         <total_cost>840</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>HOUSEKEEPING</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>MECHANICAL ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>TRASH ROOM / IT ID COMBO</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>TRASH ROOM POLICY</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>IT ID (INSIDE TRASH)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>2</count>
+         <cost>265</cost>
+         <total_cost>530</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>FIRE DOOR - DO NOT BLOCK</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>3</count>
+         <cost>98</cost>
+         <total_cost>294</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: WING A - LEVEL 4 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>20</count>
+         <cost>48</cost>
+         <total_cost>960</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR IDS (X1 A, X1 A1)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL SIGNS</description>
+         <count>2</count>
+         <cost>165</cost>
+         <total_cost>330</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELECTRICAL ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>PROPERTY STORAGE ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>RESIDENT STORAGE ROOM IDS</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>RESIDENT STORAGE IDS (ROOM 1 X12) (ROOM 2 X8)</description>
+         <count>20</count>
+         <cost>42</cost>
+         <total_cost>840</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>HOUSEKEEPING</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>MECHANICAL ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>TRASH ROOM / IT ID COMBO</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>TRASH ROOM POLICY</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>IT ID (INSIDE TRASH)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>2</count>
+         <cost>265</cost>
+         <total_cost>530</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>FIRE DOOR - DO NOT BLOCK</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>3</count>
+         <cost>98</cost>
+         <total_cost>294</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#7: WING B - LEVEL 1 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>13</count>
+         <cost>48</cost>
+         <total_cost>624</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR IDS (B) (X1 INTERIOR, X1 EXTERIOR)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL SIGNS</description>
+         <count>1</count>
+         <cost>165</cost>
+         <total_cost>165</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>RESIDENT STORAGE ROOM IDS</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>RESIDENT STORAGE IDS (X12 EACH ROOM)</description>
+         <count>24</count>
+         <cost>42</cost>
+         <total_cost>1008</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>ELECTRICAL / MECHANICAL</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>TRASH ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>TRASH ROOM POLICY</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>GAME ROOM ID</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>GAME ROOM POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>FIRE DOOR - DO NOT BLOCK</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#8: WING B - LEVEL 2 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>13</count>
+         <cost>48</cost>
+         <total_cost>624</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR B ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL SIGNS</description>
+         <count>1</count>
+         <cost>165</cost>
+         <total_cost>165</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>RESIDENT STORAGE ROOM IDS</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>RESIDENT STORAGE IDS (X12 EACH ROOM)</description>
+         <count>24</count>
+         <cost>42</cost>
+         <total_cost>1008</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>ELECTRICAL / MECHANICAL</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>TRASH ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>TRASH ROOM POLICY</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>THEATRE ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>THEATRE POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#8: WING B - LEVEL 2 SIGNAGE</section_name>
+   
+      <sign>
+         <key>L.</key>
+         <description>FIRE DOOR - DO NOT BLOCK</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#9: WING B - LEVEL 3 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>13</count>
+         <cost>48</cost>
+         <total_cost>624</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR B ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL SIGNS</description>
+         <count>1</count>
+         <cost>165</cost>
+         <total_cost>165</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>RESIDENT STORAGE ROOM IDS</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>RESIDENT STORAGE IDS (X12 EACH ROOM)</description>
+         <count>24</count>
+         <cost>42</cost>
+         <total_cost>1008</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>ELECTRICAL / MECHANICAL</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>TRASH ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>TRASH ROOM POLICY</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>PROPERTY STORAGE</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>FIRE DOOR - DO NOT BLOCK</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#9: WING B - LEVEL 4 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>13</count>
+         <cost>48</cost>
+         <total_cost>624</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR B ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL SIGNS</description>
+         <count>1</count>
+         <cost>165</cost>
+         <total_cost>165</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>RESIDENT STORAGE ROOM IDS</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>RESIDENT STORAGE IDS (X12 EACH ROOM)</description>
+         <count>24</count>
+         <cost>42</cost>
+         <total_cost>1008</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>ELECTRICAL / MECHANICAL</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>TRASH ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>TRASH ROOM POLICY</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>PROPERTY STORAGE</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>FIRE DOOR - DO NOT BLOCK</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#10: WING C - LEVEL 1 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>10</count>
+         <cost>48</cost>
+         <total_cost>480</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>CARD ROOM ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>CARD ROOM POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>MECHANICAL</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>HOUSEKEEPING</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>IT ROOM</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>STAIR C ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>STAIRWELL SIGN</description>
+         <count>1</count>
+         <cost>165</cost>
+         <total_cost>165</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#11: WING C - LEVEL 2 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>10</count>
+         <cost>48</cost>
+         <total_cost>480</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ARTS &amp; CRAFTS ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ARTS &amp; CRAFTS POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>MECHANICAL</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>HOUSEKEEPING</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>IT ROOM</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>STAIR C ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>STAIRWELL SIGN</description>
+         <count>1</count>
+         <cost>165</cost>
+         <total_cost>165</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#12: WING C - LEVEL 3 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>10</count>
+         <cost>48</cost>
+         <total_cost>480</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>GUEST SUITE ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>MECHANICAL</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>HOUSEKEEPING</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>IT ROOM</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>STAIR C ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>STAIRWELL SIGN</description>
+         <count>1</count>
+         <cost>165</cost>
+         <total_cost>165</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#13: WING C - LEVEL 4 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>10</count>
+         <cost>48</cost>
+         <total_cost>480</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>GUEST SUITE ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>MECHANICAL</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>HOUSEKEEPING</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>IT ROOM</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>STAIR C ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>STAIRWELL SIGN</description>
+         <count>1</count>
+         <cost>165</cost>
+         <total_cost>165</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#14: COMMONS WEST SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>LEASING OFFICE ID (CORRIDOR MOUNT)</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ADMIN ASSISTANT ID (104) W/ BACKER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>EXECUTIVE DIRECTOR ID (107) W/ BACKER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>CONFERENCE ROOM ID (110) W/ BACKER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>CONFERENCE ROOM POLICY </description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>HUMAN RESOURCES ID (111)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>OFFICE ID (109) W/ BACKER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>LIFESTYLE DIRECTOR ID (108) W/ BACKER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>BUSINESS CENTER ID (105) W/ BACKER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>BUSINESS CENTER POLICY - STAND UP</description>
+         <count>1</count>
+         <cost>295</cost>
+         <total_cost>295</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>WORK ROOM / EMPLOYEES ONLY (103)</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>FLEX OFFICE ID (118)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>SALES OFFICE ID (116) W/ BACKER</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>MARKET DISCOVERY ROOM ID (113) W/ BACKER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>PRIVATE DINING ROOM ID (123)</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>MOBILE STORAGE ROOM ID (124)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>ELECTRICAL (125)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>R.</key>
+         <description>WAITRESS STATION ID (129A)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>S.</key>
+         <description>KITCHEN - STAFF ONLY (134)</description>
+         <count>4</count>
+         <cost>48</cost>
+         <total_cost>192</total_cost>
+      </sign>
+      
+      <sign>
+         <key>T.</key>
+         <description>CHEF ID (135 - INSIDE KITCHEN)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>U.</key>
+         <description>DRY STORAGE (139 - INSIDE KITCHEN)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>V.</key>
+         <description>UNISEX RESTROOM (136 - INSIDE KITCHEN)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>W.</key>
+         <description>JANITOR (128 - INSIDE KITCHEN)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>X.</key>
+         <description>DINING / BISTRO (X2 AT 126,  X1 AT 131 AND 133)</description>
+         <count>4</count>
+         <cost>68</cost>
+         <total_cost>272</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Y.</key>
+         <description>FIRE DOORS - DO NOT BLOCK</description>
+         <count>4</count>
+         <cost>58</cost>
+         <total_cost>232</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#15: COMMONS EAST SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>MENS RESTROOM (144) (176)</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>WOMENS RESTROOM (146) (174)</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>LAUNDRY ROOM ID (152) (154) (X1 INSIDE WASHERS)</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>LAUNDRY POLICIES</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>WASHERS ID (153) (INSIDE LAUNDRY)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>DRYERS ID (151) (INSIDE LAUNDRY)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>SALON ID (147) W/ BACKER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>MASSAGE ROOM ID (149)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>UNISEX RESTROOM (150) (INSIDE SALON)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>EMPLOYEES ONLY / DISPENSARY (148)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>IT ROOM (155) (161)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>PLANT ID (156)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>HOUSEKEEPING STORAGE (157)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>PROPERTY STORAGE (158)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>RECEIVING STORAGE (159)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#15: COMMONS EAST SIGNAGE</section_name>
+   
+      <sign>
+         <key>P.</key>
+         <description>HOUSEKEEPING OFFICE (160)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>MECHANICAL (162) (X1 INT, X1 EXT)</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>R.</key>
+         <description>MAINTENANCE (180 CORRIDOR) (163)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>S.</key>
+         <description>FIRE PUMP ROOM (164)</description>
+         <count>2</count>
+         <cost>88</cost>
+         <total_cost>176</total_cost>
+      </sign>
+      
+      <sign>
+         <key>T.</key>
+         <description>FDC</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>U.</key>
+         <description>EMERGENCY ELECTRICAL (165)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>V.</key>
+         <description>ELECTRICAL (166)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>W.</key>
+         <description>MULTI-PURPOSE ROOM (168) W/ BACKERS</description>
+         <count>3</count>
+         <cost>68</cost>
+         <total_cost>204</total_cost>
+      </sign>
+      
+      <sign>
+         <key>X.</key>
+         <description>MULTI-PURPOSE ROOM POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Y.</key>
+         <description>STORAGE (170)</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Z.</key>
+         <description>OUTSIDE STORAGE (169) (EXTERIOR)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>AA.</key>
+         <description>FITNESS CENTER ID (172)</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>BB.</key>
+         <description>FITNESS CENTER ID - VINYL BAND (172)</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>CC.</key>
+         <description>FITNESS CENTER POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>DD.</key>
+         <description>HEALTH CODE VIOLATION REQUIRED SIGN</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>EE.</key>
+         <description>FITNESS OFFICE (173)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>FF.</key>
+         <description>POOL EQUIPMENT (175) (EXTERIOR)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>GG.</key>
+         <description>TO MEMORY SUPPORT / RESTROOM / BREAKROOM DIRECTIONAL</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#16: WING D - LEVEL 1 ASSISTED LIVING SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>18</count>
+         <cost>48</cost>
+         <total_cost>864</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>OFFICE ID (D103) (D104)</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>PHYSICAL THERAPY ID (D105)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>PT OFFICE (D106)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>TREATMENT ROOM (D107)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>SPEECH THERAPY (D108)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>UNISEX RESTROOM (D109) (D111) (D119) </description>
+         <count>3</count>
+         <cost>98</cost>
+         <total_cost>294</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>WELLNESS CENTER (D110)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>WORK ROOM (D115)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>SPOCIAL WORK ID (D114)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>HOME HEALTH (D115)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>NURSE ADMIN (D116)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>ELECTRICAL (D118) (D141)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>LIVING ROOM / MEDIA (D121, D123)</description>
+         <count>3</count>
+         <cost>68</cost>
+         <total_cost>204</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>MEDIA ROOM POLICIES </description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>DINING ROOM (D124)</description>
+         <count>3</count>
+         <cost>68</cost>
+         <total_cost>204</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>PREP KITCHEN (D126)</description>
+         <count>3</count>
+         <cost>68</cost>
+         <total_cost>204</total_cost>
+      </sign>
+      
+      <sign>
+         <key>R.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO (D1) (D)</description>
+         <count>2</count>
+         <cost>265</cost>
+         <total_cost>530</total_cost>
+      </sign>
+      
+      <sign>
+         <key>S.</key>
+         <description>MEDICATION (D128)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>T.</key>
+         <description>WOMENS RESTROOM (D132)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>U.</key>
+         <description>MENS RESTROOM (D134)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>V.</key>
+         <description>MOBILE STORAGE (D130)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>W.</key>
+         <description>JANITOR (D131) (D145)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#16: WING D - LEVEL 1 ASSISTED LIVING SIGNAGE</section_name>
+   
+      <sign>
+         <key>X.</key>
+         <description>EXIT TO COURTYARD </description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Y.</key>
+         <description>MULTI-PURPOSE ROOM ID (D139)</description>
+         <count>3</count>
+         <cost>68</cost>
+         <total_cost>204</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Z.</key>
+         <description>MULTI-PURPOSE ROOM POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>AA.</key>
+         <description>PROPERTY STORAGE (D136) (INSIDE MULTI-PURPOSE)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>BB.</key>
+         <description>ACTIVITY DIRECTOR (D140)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>CC.</key>
+         <description>STAIRS ID (X2 D) (X2 D1)</description>
+         <count>4</count>
+         <cost>68</cost>
+         <total_cost>272</total_cost>
+      </sign>
+      
+      <sign>
+         <key>DD.</key>
+         <description>STAIRWELL SIGNS</description>
+         <count>2</count>
+         <cost>165</cost>
+         <total_cost>330</total_cost>
+      </sign>
+      
+      <sign>
+         <key>EE.</key>
+         <description>IT ROOM ID (D143)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>FF.</key>
+         <description>CLEAN LINEN (D144)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>GG.</key>
+         <description>COURTYARD STORAGE (146)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>HH.</key>
+         <description>FIRE DOOR - DO NOT BLOCK </description>
+         <count>6</count>
+         <cost>58</cost>
+         <total_cost>348</total_cost>
+      </sign>
+      
+      <sign>
+         <key>II.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>4</count>
+         <cost>98</cost>
+         <total_cost>392</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#17: WING D - LEVEL 2 ASSISTED LIVING SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>22</count>
+         <cost>48</cost>
+         <total_cost>1056</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIRS ID (X2 D) (X2 D1)</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL SIGNS</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <count>2</count>
+         <cost>265</cost>
+         <total_cost>530</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>MEDICATION STORAGE (D202)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>ROOF ACCESS (D225)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>MOBILE STORAGE (D209) </description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>STORAGE (D210)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>UNISEX RESTROOM (D211) (D212) (D218)</description>
+         <count>3</count>
+         <cost>98</cost>
+         <total_cost>294</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>CARDS / ACTIVITY ROOM (D214) W/ BACKER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>CRAFT ROOM ID (D215) W/ BACKER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>LAUNDRY ROOM ID (D216)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>SOILED LINENS (D217)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>IT ROOM ID (D220)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>CLEAN LINEN (D221)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>JANITOR / EMPLOYEES ONLY (D222)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>4</count>
+         <cost>98</cost>
+         <total_cost>392</total_cost>
+      </sign>
+      
+      <sign>
+         <key>R.</key>
+         <description>FIRE DOOR - DO NOT BLOCK</description>
+         <count>4</count>
+         <cost>58</cost>
+         <total_cost>232</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#18: WING E - LEVEL 1 MEMORY CARE SUPPORT SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS W/ NAME SLIDER</description>
+         <count>24</count>
+         <cost>68</cost>
+         <total_cost>1632</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>MEMORY CARE ID (E100)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>TO ASSISTED LIVING DIRECTIONAL (E100 VESTIBULE)</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ASSISTED LIVING &amp; MEMORY SUPPORT CONFERENCE ROOM (E102)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>NURSE ADMIN (E101)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>LIFT STORAGE (E101A)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>OXYGEN STORAGE (E103A)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#18: WING E - LEVEL 1 MEMORY CARE SUPPORT SIGNAGE</section_name>
+   
+      <sign>
+         <key>H.</key>
+         <description>UNISEX RESTROOM (E105, E113, E129, E130)</description>
+         <count>4</count>
+         <cost>98</cost>
+         <total_cost>392</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>PARLOR ID (E104)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>EXIT TO COURTYARD</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>QUIET ROOM (E108)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>ROOF ACCESS (E106)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>FILES / WORK ROOM (E109)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>COURTYARD STORAGE (E110)  (EXT) (E135)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>MEDICATION ROOM (E111)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>STORAGE (E112A) (E114A)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>HAZARD ROOM (E114)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>R.</key>
+         <description>BREAKROOM (E118)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>S.</key>
+         <description>MENS RESTROOM (E119)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>T.</key>
+         <description>WOMENS RESTROOM (E120)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>U.</key>
+         <description>DIRECTIONAL TO BREAKROOM &amp; COMMONS AREA (E117)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>V.</key>
+         <description>COMMON AREA IDS (E117.1) (E118.1)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>W.</key>
+         <description>SOILED LINENS (E121)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>X.</key>
+         <description>CLEAN UTILITY (E122)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Y.</key>
+         <description>ELECTRICAL / MECHANICAL (E123)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Z.</key>
+         <description>LAUNDRY ROOM (E124) </description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>AA.</key>
+         <description>JANITOR ROOM (E127, E128)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>BB.</key>
+         <description>DATA (E131) (DOOR ON COMMONS AREA SIDE)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>CC.</key>
+         <description>HALLWAY DIRECTIONALS </description>
+         <count>4</count>
+         <cost>98</cost>
+         <total_cost>392</total_cost>
+      </sign>
+      
+      <sign>
+         <key>DD.</key>
+         <description>FIRE DOOR - DO NOT BLOCK</description>
+         <count>4</count>
+         <cost>58</cost>
+         <total_cost>232</total_cost>
+      </sign>
+      
+      <sign>
+         <key>EE.</key>
+         <description>MEMORY SUPPORT DINING ROOM / ACTIVITY ROOM (E132/133)- (DOOR ON COMMON AREA SIDE)</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#19: AMENITY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>POOL POLICY - FENCE MOUNT</description>
+         <count>1</count>
+         <cost>595</cost>
+         <total_cost>595</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>WARNING - NO LIFEGUARD - FENCE MOUNT</description>
+         <count>1</count>
+         <cost>310</cost>
+         <total_cost>310</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>911 PHONE SIGN</description>
+         <count>1</count>
+         <cost>135</cost>
+         <total_cost>135</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>POOL GATE SIGN W/ HOURS &amp; NO GLASS W/ BACKER</description>
+         <count>1</count>
+         <cost>135</cost>
+         <total_cost>135</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>HEALTH CODE VIOLATION</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>NO DIAPER CHANGING</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2002AC02</quote_num>
+   <contract_file>2002AC02 Stevenson Oaks Signage.xlsx</contract_file>
+   <client_name>ANDRES CONSTRUCTION 3710 RAWLINS STE 1510 DALLAS, TX 75219</client_name>
+   <project_name>STEVENSON OAKS</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

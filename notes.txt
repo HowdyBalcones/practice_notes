@@ -1,3 +1,56 @@
+Todays Notes: 2025-03-17
+> we need to fix the race condition bug in our xml script. 
+   + either adjust the program to run async, which has long term use
+   + or break out the xml serializer and helper functions into a separate script, which also has it's uses
+   + I could see a world where we just do both. 
+> then it's on to working out the embedding into the indesign api. 
+   + basically there is a fairly sparse xml library built into extendscript for indesign. It allows xml to get 
+   saved with a document after embedding, and that's the primary use case. If we can get the data saving with
+   files, then there is an interface for updating contract archives according to a designers work without
+   having a middle-man making design demands without design constraints. 
+   + it also provides a convenient way to automate contract updates. It would mean that the front facing segment
+   of the contract archive can be in real time updated to changes the designer implements. We could think about
+   making it a two way street, where the contract can update the book and the book update the contract, but that
+   is going to be more complicated by my estimation. 
+   + The main benefit to having that live document is that every party that needs to use the contract can have access
+   to the most up to date copy, without wondering if the paper they are holding is correct or not. 
+> this contract archive needs to have a revision control system. 
+   + basically the middle mgmt people have too much control over the procedure. They change things according to their
+   needs and schedule, because that's how it's been done for so long and they have no oversight. 
+   Morally that's not a problem, but it does mean they are the primary source for error in an automated system. They
+   have the ability to simply ignore standardized procedures at any point of their choosing. Based on history, that 
+   will happen frequently. 
+   + that means that any time they need to alter a contract, they may simply bypass any archive system and print a copy 
+   out, handwrite something on that paper copy, and move on like they did their job. Meanwhile all those changes 
+   remain isolated from everyone else who needs to know about the changes. The people in that production chain 
+   are completely in the dark about any alterations to the job, until they are informed one at a time while they 
+   each get a chance to review the contract by hand. Meanwhile there may be more changes already at the beginning 
+   of that production chain, before the person near the end has received revisions. So the  entire process needs 
+   to start again. All of the effort made to track those changes has now been wasted, because the latest copy
+   of the contract will come from the top with those changes implemented already, plus whatever additional changes
+   have caused the procedure to loop. 
+   + That's another conversation altogether about encouraging the adoption of this system. But a relevant point,
+   because this archive needs to perform in a way that will meet the needs of the company. The 
+   problems we encounter with contract revisions, automatic reconcilliation, book template automation, asset tagging, 
+   and more will have a counterpart in the real life day to day operation of the company. Understanding why those 
+   are problems and how they can be solved with some level of organization and automation is the primary constraint 
+   of this job.  
+   
+   + all of that in mind, I think the best path forward is to have a very sensitive revision system. If there are any 
+   changes pushed onto the archive a new revision is made and replaces the working copy, and the previous copy gets saved
+   to some sort've intermediate storage. After a certain time or the job is closed those intermediate copies get moved 
+   to cold storage. Any ADDONS will be handled like another revision. This is the warehouse model from what I understand. 
+      - need a data storage section. This will be in a form that is convenient for storage, reading, writing, and fetching.
+      - then we need a user interface. It should optimize for human interaction and legibility. 
+      It will have the ability to read from, write to, and search the archive. 
+      - Then we have the script utilities for indesign. The xml embedding, book utils, tagging utils, and more. 
+      These are functionalities built on top of the archive system. 
+      - Then there are contract functions, things to help other departments. Things like, automatic comparison of 
+      contracts, automatic reconciliation, making addons more convenient, and more. Those deal with the archive, 
+      make changes to the archive, but are not about archive management. They are a rough interface for people 
+      who deal with contracts but don't make or organize assets. 
+      - 
+
 Todays Notes: 2025-03-10
 >> killing it today with the program, got the xml export down. Contract body and metadata sections are done, 
 need to figure out the unique sign list function. 

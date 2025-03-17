@@ -1,0 +1,519 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2410OXD01S Coopers Row North Signage REV 1.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>GHOST PAINTED BUILDING ID - X1 ON SOUTH ELEVATION FACING SAN ANTONIO RIVER</description>
+         <count>2</count>
+         <cost>4900</cost>
+         <total_cost>9800</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: LEVEL ONE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING ID W/ UNIT SPREAD</description>
+         <count>3</count>
+         <cost>355</cost>
+         <total_cost>1065</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>COMMERCIAL SUITE ID</description>
+         <count>5</count>
+         <cost>88</cost>
+         <total_cost>440</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>RESIDENT ELEVATOR LOBBY ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELEVATOR LOBBY ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
+         <count>2</count>
+         <cost>295</cost>
+         <total_cost>590</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>STAIR / LEVEL / EXIT</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>STAIRWELL</description>
+         <count>2</count>
+         <cost>185</cost>
+         <total_cost>370</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>MDF ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>MAIN ELECTRICAL ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>TRASH ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>TRASH ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>185</cost>
+         <total_cost>185</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>TRASH PICK-UP / DO NOT BLOCK</description>
+         <count>1</count>
+         <cost>335</cost>
+         <total_cost>335</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>FIRE PUMP ROOM (4&quot;) - DIAMOND GRADE</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>FDC W/ ADDRESS - DIAMOND GRADE</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>FACP - DIAMOND GRADE</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>ERRC - RED W/ REFLECTIVE</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEVEL TWO SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>15</count>
+         <cost>54</cost>
+         <total_cost>810</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
+         <count>2</count>
+         <cost>295</cost>
+         <total_cost>590</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR / LEVEL / EXIT</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STAIRWELL</description>
+         <count>2</count>
+         <cost>185</cost>
+         <total_cost>370</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>TENANT STORAGE ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>IDF ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>TRASH ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>TRASH ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>185</cost>
+         <total_cost>185</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: LEVEL THREE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>15</count>
+         <cost>54</cost>
+         <total_cost>810</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
+         <count>2</count>
+         <cost>295</cost>
+         <total_cost>590</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR / LEVEL / EXIT</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STAIRWELL</description>
+         <count>2</count>
+         <cost>185</cost>
+         <total_cost>370</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>TENANT STORAGE ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>IDF ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>TRASH ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>TRASH ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>245</cost>
+         <total_cost>245</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: LEVEL FOUR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>15</count>
+         <cost>54</cost>
+         <total_cost>810</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
+         <count>2</count>
+         <cost>295</cost>
+         <total_cost>590</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR / LEVEL / EXIT</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STAIRWELL</description>
+         <count>2</count>
+         <cost>185</cost>
+         <total_cost>370</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>TENANT STORAGE ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>ELECTRICAL ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>TRASH ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>TRASH ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>185</cost>
+         <total_cost>185</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: LEVEL FIVE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>15</count>
+         <cost>54</cost>
+         <total_cost>810</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
+         <count>2</count>
+         <cost>295</cost>
+         <total_cost>590</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR / LEVEL / EXIT</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STAIRWELL</description>
+         <count>2</count>
+         <cost>185</cost>
+         <total_cost>370</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>TENANT STORAGE ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>IDF ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>TRASH ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>TRASH ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>185</cost>
+         <total_cost>185</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#7: LEVEL SIX SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>15</count>
+         <cost>54</cost>
+         <total_cost>810</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
+         <count>2</count>
+         <cost>295</cost>
+         <total_cost>590</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR / LEVEL / EXIT (X1 ROOF ACCESS @ STAIR A)</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STAIRWELL</description>
+         <count>2</count>
+         <cost>185</cost>
+         <total_cost>370</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>ELEVATOR CLOSET ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>ERRC ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>TRASH ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>TRASH ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>185</cost>
+         <total_cost>185</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>ELEVATOR EQUIPMENT / NO STORAGE SIGN</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2410OXD01S</quote_num>
+   <contract_file>2410OXD01S Coopers Row North Signage REV 1.xlsx</contract_file>
+   <client_name>OXBOW DEVELOPMENT GROUP 303 PEARLWAY PKWY STE 300 SAN ANTONIO, TX 78215</client_name>
+   <project_name>COOPERS ROW NORTH</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

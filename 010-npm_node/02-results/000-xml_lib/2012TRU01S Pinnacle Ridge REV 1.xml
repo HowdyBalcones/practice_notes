@@ -1,0 +1,780 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2012TRU01S Pinnacle Ridge REV 1.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>DOUBLE-FACED INTERNALLY ILLUMINATED MONOLITH SIGN - (10&apos;H X 3&apos;), LOADS ON FOOTER BY OTHERS. *POWER TO LOCATION- BY OTHERS/</description>
+         <count>1</count>
+         <cost>14200</cost>
+         <total_cost>14200</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>DOUBLE-FACED SITE DIRECTIONAL SIGNS - MONOLITH</description>
+         <count>3</count>
+         <cost>1065</cost>
+         <total_cost>3195</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: EXTERIOR SITE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>SITE MAP DIRECTORY W/ DIGITAL SITEMAP</description>
+         <count>1</count>
+         <cost>1865</cost>
+         <total_cost>1865</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ENTER / EXIT GATE WARNING SIGN COMBO</description>
+         <count>2</count>
+         <cost>360</cost>
+         <total_cost>720</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>CUSTOM FUTURE RESIDENT PARKING</description>
+         <count>3</count>
+         <cost>695</cost>
+         <total_cost>2085</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>HANDICAP PARKING</description>
+         <count>2</count>
+         <cost>695</cost>
+         <total_cost>1390</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>TRASH COMPACTOR ID POLICIES</description>
+         <count>3</count>
+         <cost>210</cost>
+         <total_cost>630</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>EXIT ONLY / FIRE ACCESS (TBD) GATE SIGNS</description>
+         <count>1</count>
+         <cost>360</cost>
+         <total_cost>360</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>VISITOR CALL BOX ID (FLAG STYLE)</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER- EXTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>HOURS SIGN W/ CHANGEABLE SUMMER / WINTER HOURS</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>DOORS TO REMAIN UNLOCKED VINYL KIT</description>
+         <count>2</count>
+         <cost>69</cost>
+         <total_cost>138</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>MAIL CENTER ID</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>MAINTENANCE ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>CLUB ID</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FIRE SPRINKLER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>SET DOUBLE DOOR VINYL / LOGO KIT (FRONT DOOR)</description>
+         <count>1</count>
+         <cost>129</cost>
+         <total_cost>129</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>SET SINGLE DOOR VINYL KIT - LEASING</description>
+         <count>1</count>
+         <cost>69</cost>
+         <total_cost>69</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>SET SINGLE DOOR VINYL KIT - CLUB</description>
+         <count>1</count>
+         <cost>69</cost>
+         <total_cost>69</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>LEASING ID PLAQUE - FOYER W/ BACKER</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: LEASING CENTER - INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>MANAGER ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ASSISTANT MANAGER</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>EMPLOYEES ONLY (WORKROOM)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: LEASING CENTER - INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>D.</key>
+         <description>CLUB ROOM ID W/ VINYL BACKER</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>CLUB ROOM POLICIES - WALL MOUNT</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FITNESS ID W/ VINYL BACKER</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>FITNESS POLICIES - WALL MOUNT</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>MAIL CENTER ID W/ VINYL BACKER</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>PARCEL STORAGE ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>MEN&apos;S RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>WOMEN&apos;S RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>UNISEX RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>MECHANICAL ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>AV ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>MAX OCCUPANCY (LEASING, FIT, CLUB)</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: BUILDING ONE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT NUMBER ID</description>
+         <count>18</count>
+         <cost>48</cost>
+         <total_cost>864</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BUILDING NUMBER ID</description>
+         <count>1</count>
+         <cost>255</cost>
+         <total_cost>255</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>FIRE SPRINKLER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: BUILDING TWO SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT NUMBER ID</description>
+         <count>30</count>
+         <cost>48</cost>
+         <total_cost>1440</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BUILDING NUMBER ID</description>
+         <count>4</count>
+         <cost>255</cost>
+         <total_cost>1020</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>FIRE SPRINKLER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>STORAGE ROOM IDS</description>
+         <count>15</count>
+         <cost>48</cost>
+         <total_cost>720</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#7: BUILDING THREE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT NUMBER ID</description>
+         <count>36</count>
+         <cost>48</cost>
+         <total_cost>1728</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BUILDING NUMBER ID</description>
+         <count>4</count>
+         <cost>255</cost>
+         <total_cost>1020</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>FIRE SPRINKLER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#8: BUILDING FOUR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT NUMBER ID</description>
+         <count>24</count>
+         <cost>48</cost>
+         <total_cost>1152</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BUILDING NUMBER ID</description>
+         <count>4</count>
+         <cost>255</cost>
+         <total_cost>1020</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>FIRE SPRINKLER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#9: BUILDING FIVE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT NUMBER ID</description>
+         <count>27</count>
+         <cost>48</cost>
+         <total_cost>1296</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BUILDING NUMBER ID</description>
+         <count>3</count>
+         <cost>255</cost>
+         <total_cost>765</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>FIRE SPRINKLER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#10: BUILDING SIX SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT NUMBER ID</description>
+         <count>39</count>
+         <cost>48</cost>
+         <total_cost>1872</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BUILDING NUMBER ID</description>
+         <count>3</count>
+         <cost>255</cost>
+         <total_cost>765</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>FIRE SPRINKLER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#11: BUILDING SEVEN SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT NUMBER ID</description>
+         <count>24</count>
+         <cost>48</cost>
+         <total_cost>1152</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BUILDING NUMBER ID</description>
+         <count>3</count>
+         <cost>255</cost>
+         <total_cost>765</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>FIRE SPRINKLER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#12: BUILDING EIGHT SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT NUMBER ID</description>
+         <count>42</count>
+         <cost>48</cost>
+         <total_cost>2016</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BUILDING NUMBER ID</description>
+         <count>4</count>
+         <cost>255</cost>
+         <total_cost>1020</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>FIRE SPRINKLER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#13: BUILDING NINE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT NUMBER ID</description>
+         <count>42</count>
+         <cost>48</cost>
+         <total_cost>2016</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BUILDING NUMBER ID</description>
+         <count>4</count>
+         <cost>255</cost>
+         <total_cost>1020</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>FIRE SPRINKLER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#14: BUILDING TEN SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT NUMBER ID</description>
+         <count>36</count>
+         <cost>48</cost>
+         <total_cost>1728</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BUILDING NUMBER ID</description>
+         <count>3</count>
+         <cost>255</cost>
+         <total_cost>765</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>FIRE SPRINKLER (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#15: AMENITY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>DOG PARK POLICIES - POLE MOUNT</description>
+         <count>1</count>
+         <cost>695</cost>
+         <total_cost>695</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>MAINTENANCE ID (EXTERIOR)</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>DOG WASH POLICIES - STUD MOUNT</description>
+         <count>1</count>
+         <cost>535</cost>
+         <total_cost>535</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>POOL POLICY - FENCE MOUNT</description>
+         <count>1</count>
+         <cost>615</cost>
+         <total_cost>615</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>911 PHONE</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>NO LIFEGUARD ON DUTY</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>POOL EQUIPMENT ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>GRILL POLICIES - STUD MOUNT ON STRUCTURE</description>
+         <count>2</count>
+         <cost>385</cost>
+         <total_cost>770</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>POOL GATE W/ HOURS (PVC BACKER)</description>
+         <count>4</count>
+         <cost>135</cost>
+         <total_cost>540</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2012TRU01S</quote_num>
+   <contract_file>2012TRU01S Pinnacle Ridge REV 1.xlsx</contract_file>
+   <client_name>TRUMONT GROUP 1910 PACIFIC AVE STE 13350 DALLAS, TX 75201</client_name>
+   <project_name>PARK HILL (PINNACLE RIDGE)</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

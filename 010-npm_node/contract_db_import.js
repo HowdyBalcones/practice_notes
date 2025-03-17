@@ -73,7 +73,7 @@ function insert_col(worksheet, columnIndex, columnData) {
 }
 
 function filter_column_headers (data) {
-   const fource_headers = ["SECTION_ID", "SPOTTING_KEY", "SIGN_COUNT", "SIGN_DESCRIPTION", "EACH_COST", "TOTAL_COST", "CLIENT", "CONTACT", "CONTRACT_NUMBER", "REVISIONS", "PROJECT_NAME", "CONTRACT_FILE"];
+   const fource_headers = ["SECTION_ID", "SPOTTING_KEY", "SIGN_COUNT", "SIGN_DESCRIPTION", "EACH_COST", "TOTAL_COST", "CLIENT", "CONTACT", "QUOTE_NUMBER", "REVISIONS", "PROJECT_NAME", "CONTRACT_FILE"];
    let headerRow = data[0];
    for (let i = 0; i < headerRow.length; ++i) {
       switch(headerRow[i]) {

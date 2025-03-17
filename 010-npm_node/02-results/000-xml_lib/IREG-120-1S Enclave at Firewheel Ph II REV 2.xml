@@ -1,0 +1,262 @@
+
+      <job_info>
+      <contract>
+      <contract_name>IREG-120-1S Enclave at Firewheel Ph II REV 2.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: BUILDING #2 - TYPE D</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING ADDRESS SIGN (PER GARLAND CODE)</description>
+         <count>2</count>
+         <cost>475</cost>
+         <total_cost>950</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BUILDING ID W/ UNIT SPREAD</description>
+         <count>2</count>
+         <cost>225</cost>
+         <total_cost>450</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>UNIT DOOR NUMBER IDS</description>
+         <count>38</count>
+         <cost>38</cost>
+         <total_cost>1444</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>GARAGE ID (INTERIOR)</description>
+         <count>12</count>
+         <cost>38</cost>
+         <total_cost>456</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>GARAGE ID (EXTERIOR)</description>
+         <count>12</count>
+         <cost>38</cost>
+         <total_cost>456</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FDC / FIRE RISER ROOM COMBO</description>
+         <count>1</count>
+         <cost>135</cost>
+         <total_cost>135</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>FIRE ALARM SOUNDS / 911</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>ELEVATOR EGRESS MAP</description>
+         <count>4</count>
+         <cost>195</cost>
+         <total_cost>780</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>VISITOR ACCESS AT ENTRY PORTALS / GATES</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>ROOF ACCESS ID</description>
+         <count>1</count>
+         <cost>42</cost>
+         <total_cost>42</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>ELEVATOR EQUIPMENT / ELECTRICAL</description>
+         <count>1</count>
+         <cost>42</cost>
+         <total_cost>42</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>TELECOM ID</description>
+         <count>2</count>
+         <cost>42</cost>
+         <total_cost>84</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>STORAGE ID</description>
+         <count>1</count>
+         <cost>42</cost>
+         <total_cost>42</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: BUILDING #4 - TYPE B</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING ADDRESS SIGN (PER GARLAND CODE)</description>
+         <count>2</count>
+         <cost>475</cost>
+         <total_cost>950</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BUILDING ID W/ UNIT SPREAD</description>
+         <count>4</count>
+         <cost>225</cost>
+         <total_cost>900</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>UNIT DOOR NUMBER IDS</description>
+         <count>84</count>
+         <cost>38</cost>
+         <total_cost>3192</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>GARAGE ID (INTERIOR)</description>
+         <count>14</count>
+         <cost>38</cost>
+         <total_cost>532</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>GARAGE ID (EXTERIOR)</description>
+         <count>16</count>
+         <cost>38</cost>
+         <total_cost>608</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FDC / FIRE RISER ROOM COMBO</description>
+         <count>1</count>
+         <cost>135</cost>
+         <total_cost>135</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>FIRE ALARM SOUNDS / 911</description>
+         <count>1</count>
+         <cost>135</cost>
+         <total_cost>135</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>ELECTRICAL ID</description>
+         <count>4</count>
+         <cost>42</cost>
+         <total_cost>168</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>ELEVATOR EGRESS MAP</description>
+         <count>4</count>
+         <cost>195</cost>
+         <total_cost>780</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>VISITOR ACCESS AT ENTRY PORTALS/GATES</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>ROOF ACCESS ID</description>
+         <count>1</count>
+         <cost>42</cost>
+         <total_cost>42</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>HALLWAY DIRECTIONAL</description>
+         <count>4</count>
+         <cost>165</cost>
+         <total_cost>660</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>STORAGE ID</description>
+         <count>7</count>
+         <cost>42</cost>
+         <total_cost>294</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>TELECOM ID</description>
+         <count>4</count>
+         <cost>42</cost>
+         <total_cost>168</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>ELEVATOR EQUIPMENT / ELECTRICAL</description>
+         <count>1</count>
+         <cost>42</cost>
+         <total_cost>42</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>FIRE DOOR DO NOT BLOCK</description>
+         <count>8</count>
+         <cost>38</cost>
+         <total_cost>304</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>IREG-120-1S</quote_num>
+   <contract_file>IREG-120-1S Enclave at Firewheel Ph II REV 2.xlsx</contract_file>
+   <client_name>INTEGRATED REAL ESTATE GROUP 3110 W. SOUTHLAKE BLVD #120 SOUTHLAKE, TX 76092</client_name>
+   <project_name>ENCLAVE AT FIREWHEEL PH II</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

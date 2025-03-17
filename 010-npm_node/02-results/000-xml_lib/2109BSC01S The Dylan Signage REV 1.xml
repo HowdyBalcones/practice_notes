@@ -1,0 +1,751 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2109BSC01S The Dylan Signage REV 1.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>MONUMENT ENTRY WALL SIGNS - DIMENSIONAL GRAPHICS ON WALL- STRUCTURE BY OTHERS</description>
+         <count>2</count>
+         <cost>3850</cost>
+         <total_cost>7700</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: LEASING CENTER- EXTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>LEASING CENTER ID </description>
+         <count>1</count>
+         <cost>2495</cost>
+         <total_cost>2495</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>HOURS SIGN W/ CHANGEABLE SUMMER/WINTER HOURS</description>
+         <count>1</count>
+         <cost>565</cost>
+         <total_cost>565</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ADDRESS ID - VINYL</description>
+         <count>1</count>
+         <cost>255</cost>
+         <total_cost>255</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>LEASING CENTER DOUBLE DOOR VINYL KIT (LOGO,URL, PHONE)</description>
+         <count>1</count>
+         <cost>129</cost>
+         <total_cost>129</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>CUSTOM FUTURE RESIDENT PARKING SIGN - POLE MOUNT</description>
+         <count>3</count>
+         <cost>795</cost>
+         <total_cost>2385</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>CUSTOM HANDICAP PARKING SIGN (X1 STD, X1 VAN)</description>
+         <count>2</count>
+         <cost>795</cost>
+         <total_cost>1590</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>USPS PARKING - POLE MOUNT</description>
+         <count>1</count>
+         <cost>325</cost>
+         <total_cost>325</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>MAINTENANCE ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>MAIL ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>COMMUNITY ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>DOORS TO REMAIN UNLOCKED VINYL KIT</description>
+         <count>1</count>
+         <cost>69</cost>
+         <total_cost>69</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER- INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>MANAGER ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ASSISTANT MANAGER ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>EMPLOYEES ONLY (WORKROOM)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>MAILROOM ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>MEN&apos;S RESTROOM </description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>WOMEN&apos;S RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>WIFI LOUNGE ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>WIFI LOUNGE POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>DOG SPA ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>DOG SPA POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>MAINTENANCE ID </description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>GAME ROOM ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>GAME ROOM POLICY</description>
+         <count>1</count>
+         <cost>315</cost>
+         <total_cost>315</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER- INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>N.</key>
+         <description>COMMUNITY ROOM ID </description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>COMMUNITY ROOM POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>FITNESS ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>FITNESS POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>R.</key>
+         <description>UNIDENTIFIED ROOM ID</description>
+         <count>5</count>
+         <cost>48</cost>
+         <total_cost>240</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: SITE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>TRASH COMPACTOR ID/POLICY/ DO NOT BLOCK- *NOTE: CUSTOM HANDICAP &amp; CUSTOM VAN HANDICAP PARKING SIGNS- CARRIED BY FOURCE - BALANCE CARRIED IN STRIPER&apos;S SCOPE</description>
+         <count>4</count>
+         <cost>285</cost>
+         <total_cost>1140</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: BUILDING ONE (TYPE A) LEVEL ONE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING ACCESS/STAIR ID</description>
+         <count>7</count>
+         <cost>265</cost>
+         <total_cost>1855</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>29</count>
+         <cost>48</cost>
+         <total_cost>1392</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR ID </description>
+         <count>7</count>
+         <cost>58</cost>
+         <total_cost>406</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STORAGE ID</description>
+         <count>8</count>
+         <cost>38</cost>
+         <total_cost>304</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>5</count>
+         <cost>98</cost>
+         <total_cost>490</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FIRE DOOR / DO NOT BLOCK</description>
+         <count>6</count>
+         <cost>48</cost>
+         <total_cost>288</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>FIRE RISER ROOM (4&quot;)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: BUILDING ONE (TYPE A) LEVEL TWO SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS </description>
+         <count>34</count>
+         <cost>48</cost>
+         <total_cost>1632</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>HALLWAY DIRECTIONALS </description>
+         <count>5</count>
+         <cost>98</cost>
+         <total_cost>490</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR ID</description>
+         <count>7</count>
+         <cost>58</cost>
+         <total_cost>406</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STORAGE ID</description>
+         <count>8</count>
+         <cost>38</cost>
+         <total_cost>304</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE DOOR / DO NOT BLOCK</description>
+         <count>4</count>
+         <cost>48</cost>
+         <total_cost>192</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#7: BUILDING ONE (TYPE A) LEVEL THREE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS </description>
+         <count>36</count>
+         <cost>48</cost>
+         <total_cost>1728</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>5</count>
+         <cost>98</cost>
+         <total_cost>490</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR ID</description>
+         <count>7</count>
+         <cost>68</cost>
+         <total_cost>476</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STORAGE ID</description>
+         <count>8</count>
+         <cost>38</cost>
+         <total_cost>304</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE DOOR / DO NOT BLOCK</description>
+         <count>4</count>
+         <cost>48</cost>
+         <total_cost>192</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#8: BUILDING TWO (TYPE C) LEVEL ONE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING ACCESS / STAIR ID</description>
+         <count>3</count>
+         <cost>265</cost>
+         <total_cost>795</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>8</count>
+         <cost>48</cost>
+         <total_cost>384</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR ID</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>FIRE RISER ROOM (4&quot;)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#9: BUILDING TWO (TYPE C) LEVEL TWO SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>8</count>
+         <cost>48</cost>
+         <total_cost>384</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR ID</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#10: BUILDING TWO (TYPE C) LEVEL THREE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>8</count>
+         <cost>48</cost>
+         <total_cost>384</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR ID</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#12: BUILDING FOUR (TYPE B) LEVEL ONE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING ACCESS / STAIR ID</description>
+         <count>5</count>
+         <cost>265</cost>
+         <total_cost>1325</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>10</count>
+         <cost>48</cost>
+         <total_cost>480</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STAIR ID</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>ATTACHED GARAGE NUMBERS (EXT.)</description>
+         <count>4</count>
+         <cost>38</cost>
+         <total_cost>152</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>ATTACHED GARAGE NUMBERS (INT.)</description>
+         <count>4</count>
+         <cost>38</cost>
+         <total_cost>152</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>STORAGE ID</description>
+         <count>4</count>
+         <cost>38</cost>
+         <total_cost>152</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>FIRE RISER ROOM (4&quot;)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#13: BUILDING FOUR (TYPE B) LEVEL TWO SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>12</count>
+         <cost>48</cost>
+         <total_cost>576</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR ID</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#14: BUILDING FOUR (TYPE B) LEVEL THREE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>12</count>
+         <cost>48</cost>
+         <total_cost>576</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>HALLWAY DIRECTIONALS</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR ID</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#12: AMENITY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>POOL POLICIES - FENCE MOUNT W/ PVC BACKER</description>
+         <count>1</count>
+         <cost>695</cost>
+         <total_cost>695</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ADDITIONAL TEXAS POOL POLICIES - FENCE MOUNT W/ PVC BACKER</description>
+         <count>1</count>
+         <cost>285</cost>
+         <total_cost>285</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>WARNING NO LIFEGUARD - FENCE MOUNT W/ PVC BACKER</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>911 EMERGENCY PHONE SIGN</description>
+         <count>1</count>
+         <cost>165</cost>
+         <total_cost>165</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>POOL GATE W/ HOURS</description>
+         <count>3</count>
+         <cost>165</cost>
+         <total_cost>495</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>POOL EQUIPMENT ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>GRILLING POLICIES</description>
+         <count>1</count>
+         <cost>385</cost>
+         <total_cost>385</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>FIRE PIT GUIDELINES</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>DOG PARK ID / POLICIES ON POLE </description>
+         <count>1</count>
+         <cost>795</cost>
+         <total_cost>795</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2109BSC01S</quote_num>
+   <contract_file>2109BSC01S The Dylan Signage REV 1.xlsx</contract_file>
+   <client_name>BROWNSTONE CONSTRUCTION LTD. 415 BREESPORT SAN ANTONIO, TX 78216</client_name>
+   <project_name>THE DYLAN</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

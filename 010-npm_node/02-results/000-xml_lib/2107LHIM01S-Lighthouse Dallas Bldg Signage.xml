@@ -1,0 +1,343 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2107LHIM01S-Lighthouse Dallas Bldg Signage.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: GROUND LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>ADA ACCESS SIGN (PARKING LOT ENTRY)</description>
+         <count>1</count>
+         <cost>115</cost>
+         <total_cost>115</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ELEVATOR EGRESS - ADA (LEVEL G)</description>
+         <count>1</count>
+         <cost>275</cost>
+         <total_cost>275</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIR / LEVEL SIGNS - ADA</description>
+         <count>5</count>
+         <cost>68</cost>
+         <total_cost>340</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STAIRWELL / LEVEL SIGNS - ADA</description>
+         <count>3</count>
+         <cost>175</cost>
+         <total_cost>525</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>ELECTRICAL ROOM ID - ADA</description>
+         <count>1</count>
+         <cost>60</cost>
+         <total_cost>60</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>EMPLOYEES ONLY (STORAGE, JANITOR, UNIDENTIFIED)</description>
+         <count>3</count>
+         <cost>68</cost>
+         <total_cost>204</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>ELEVATOR CONTROL ROOM ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>NOT AN EXIT / ALARM WILL SOUND (12&quot; X 24&quot;)</description>
+         <count>2</count>
+         <cost>120</cost>
+         <total_cost>240</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>FIRE RISER / PUMP ROOM (4&quot; COPY)</description>
+         <count>1</count>
+         <cost>115</cost>
+         <total_cost>115</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>FACP SIGN (4&quot; COPY)</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>FDC CONNECTION W/ ADDRESS</description>
+         <count>1</count>
+         <cost>115</cost>
+         <total_cost>115</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>ELEVATOR DIRECTIONAL</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: LEVEL ONE (P95 BLACK W/ WHITE TACTILE/ADA)</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>ELEVATOR EGRESS - ADA (LEVEL 1)</description>
+         <count>1</count>
+         <cost>275</cost>
+         <total_cost>275</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR / LEVEL SIGNS - ADA</description>
+         <count>3</count>
+         <cost>68</cost>
+         <total_cost>204</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL / LEVEL SIGNS - ADA</description>
+         <count>3</count>
+         <cost>175</cost>
+         <total_cost>525</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>MEN&apos;S RESTROOM - ADA</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>WOMEN&apos;S RESTROOM - ADA</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>ELECTRICAL ROOM - ADA</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>EMPLOYEES ONLY (BOH RETAIL)</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEVEL TWO (P95 BLACK W/ WHITE TACTILE/ADA)</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>ELEVATOR EGRESS - ADA (LEVEL 2)</description>
+         <count>1</count>
+         <cost>275</cost>
+         <total_cost>275</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR / LEVEL SIGNS - ADA</description>
+         <count>3</count>
+         <cost>68</cost>
+         <total_cost>204</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL / LEVEL SIGNS - ADA</description>
+         <count>3</count>
+         <cost>175</cost>
+         <total_cost>525</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: MEZZANINE LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>ELEVATOR EGRESS - ADA (LEVEL M)</description>
+         <count>1</count>
+         <cost>275</cost>
+         <total_cost>275</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR / LEVEL SIGNS - ADA</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL / LEVEL SIGNS - ADA</description>
+         <count>1</count>
+         <cost>175</cost>
+         <total_cost>175</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELECTRICAL ROOM - ADA</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>EMPLOYEES ONLY (STORAGE / SERVER-OFFICE)</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: PENTHOUSE LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>STAIR / LEVEL SIGNS - ADA</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIRWELL / LEVEL SIGNS - ADA</description>
+         <count>1</count>
+         <cost>175</cost>
+         <total_cost>175</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ELECTRICAL ROOM - ADA</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>EMPLOYEES ONLY (STORAGE)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: ROOF LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>ELEVATOR EGRESS - ADA (LEVEL R)</description>
+         <count>1</count>
+         <cost>275</cost>
+         <total_cost>275</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR / LEVEL SIGNS - ADA</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL / LEVEL SIGNS - ADA</description>
+         <count>1</count>
+         <cost>175</cost>
+         <total_cost>175</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STAIR / ELEVATOR ACCESS - ADA</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#7: FLAGS</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>4&apos; X 6&apos; (X1 US, X1 TX), HIGH GRADE NYLON W/ EMBROIDERED- STARS &amp; STRIPES</description>
+         <count>2</count>
+         <cost>54</cost>
+         <total_cost>108</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2107LHIM01S</quote_num>
+   <contract_file>2107LHIM01S-Lighthouse Dallas Bldg Signage.xlsx</contract_file>
+   <client_name>LHIM DALLAS, LLC 9917 LA TUNA CANYON ROAD SUN VALLEY, CA 91253</client_name>
+   <project_name>LIGHTHOUSE DALLAS- BUILDING SIGNAGE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

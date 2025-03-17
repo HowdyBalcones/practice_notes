@@ -133,7 +133,7 @@ function separate_revision_rows(data) {
 
 function filter_contract_num(data) {
    const contract_num_regex = /^[A-Za-z0-9]+ ?/i
-   for (i = 0; i < data.length; ++i) {
+   for (i = 2; i < data.length; ++i) {
       let row = data[i];
       let contract_num = row["8"];
       let clean_contract_num = contract_num.match(contract_num_regex);
@@ -442,7 +442,7 @@ function batch_test_clean_contracts() {
          }
          const target_data = import_clean_contract(full_path, file_name);
          //write_json_lib(target_data, full_path);
-         write_xml_lib(target_data, full_path);
+         // write_xml_lib(target_data, full_path);
          export_data(target_data, new_file_path);
          console.log(`Processed clean contract, saved to: ${new_file_path}`)
          // console.log(target_data);

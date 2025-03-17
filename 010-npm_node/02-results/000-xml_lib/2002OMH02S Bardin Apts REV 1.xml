@@ -1,0 +1,755 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2002OMH02S Bardin Apts REV 1.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>SINGLE FACED ENTRY MONUMENT. X1 LOADS TO EACH WING - WALL AT PROPERTY ENTRANCE. ILLUMINATED SIGN CANS W/- PUSH-THRU ACRYLIC LETTERING AND DIMENSIONAL GRAPHICS- W/ ADDRESS.  STRUCTURE BY OTHERS.</description>
+         <count>2</count>
+         <cost>9860</cost>
+         <total_cost>19720</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>PROPERTY SITEPLAN LOCATOR ON POST/PANEL. LOADS AT CALL BOX</description>
+         <count>1</count>
+         <cost>2465</cost>
+         <total_cost>2465</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>VISITOR ENTRY FLAG - MOUNTS TO CALL BOX COLUMN</description>
+         <count>1</count>
+         <cost>165</cost>
+         <total_cost>165</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: LEASING CENTER- EXTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>LEASING CENTER ID - PAN SIGN W/ DIMENSIONAL GRAPHICS. - MOUNTS TO HEADER ABOVE MAIN LEASING ENTRY.</description>
+         <count>1</count>
+         <cost>2750</cost>
+         <total_cost>2750</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ADDRESS SIGN - INDIVIDUAL PIN MOUNTED NUMERALS</description>
+         <count>1</count>
+         <cost>630</cost>
+         <total_cost>630</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>CUSTOM FUTURE RESIDENT PARKING SIGN ON POSTS</description>
+         <count>3</count>
+         <cost>795</cost>
+         <total_cost>2385</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>CUSTOM HANDICAP PARKING SIGNS ON POSTS (X1 STD, X1 VAN)</description>
+         <count>2</count>
+         <cost>795</cost>
+         <total_cost>1590</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>ETCHMARK LOGO ICONS ON LEASING DOORS</description>
+         <count>2</count>
+         <cost>69</cost>
+         <total_cost>138</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>HOURS SIGN (SUMMER / WINTER HOURS)</description>
+         <count>1</count>
+         <cost>465</cost>
+         <total_cost>465</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>DOORS TO REMAIN UNLOCKED VINYL WINDOW KIT</description>
+         <count>1</count>
+         <cost>69</cost>
+         <total_cost>69</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER- INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>MANAGER ID W/ BACKER</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>EMPLOYEES ONLY ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>UNISEX RESTROOM (EMPLOYEES AREA ONLY)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>A/V ROOM ID (EMPLOYEES ONLY AREA)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>LARGE PACKAGE STORAGE (EMPLOYEES ONLY AREA)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>MECHANICAL CENTER (EMPLOYEES AREA ONLY)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>MAINTENANCE CENTER (REAR ENTRY)</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>BUSINESS CENTER ID W/ BACKER</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>BUSINESS CENTER POLICIES - DESKTOP STAND-UP</description>
+         <count>1</count>
+         <cost>285</cost>
+         <total_cost>285</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>LEASING ID - VINYL LOGO</description>
+         <count>1</count>
+         <cost>69</cost>
+         <total_cost>69</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>SERVICE COORDINATOR ID W/ BACKER</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>STORAGE IDS (X1 IN SERVICE COORDINATOR, X2 IN LEASING)</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>ACTIVITY CENTER ID W/ BACKER</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>ACTIVITY CENTER POLICIES</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER- INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>O.</key>
+         <description>VENDING AREA SIGN - FLAG STYLE</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>RESTROOM IDS (X1 WOMENS, X1 MENS)</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>HOUSEKEEPING / EMPLOYEES ONLY </description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>R.</key>
+         <description>MAIL CENTER ID (X1 INTERIOR, X1 EXTERIOR)</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>S.</key>
+         <description>FITNESS ID W/ BACKER</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>T.</key>
+         <description>FITNESS POLICIES</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>U.</key>
+         <description>LAUNDRY ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>V.</key>
+         <description>LAUNDRY POLICIES</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>W.</key>
+         <description>WATER HEATER ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Y.</key>
+         <description>MAX OCCUPANCIES (FITNESS, LEASING, BIZ CENTER, CLUB)</description>
+         <count>4</count>
+         <cost>58</cost>
+         <total_cost>232</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4 GATE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>TRASH ENCLOSURE ID / POLICY COMBO</description>
+         <count>2</count>
+         <cost>135</cost>
+         <total_cost>270</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>CARPORT IDS</description>
+         <count>63</count>
+         <cost>38</cost>
+         <total_cost>2394</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>EXIT ONLY GATE WARNING SIGN (LOADS AT REAR GATE)</description>
+         <count>1</count>
+         <cost>210</cost>
+         <total_cost>210</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>EXIT / WARNING GATE SIGN (X1 REAR GATE, X1 AT EACH FRONT GATE)</description>
+         <count>3</count>
+         <cost>210</cost>
+         <total_cost>630</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>RESIDENT / VISITOR / WARNING GATE COMBO (X1 AT EACH- FRONT GATE)</description>
+         <count>2</count>
+         <cost>210</cost>
+         <total_cost>420</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>RESIDENT ACCESS GATE SIGNS W/ PVC BACKER (AT PEDESTRIAN GATE)</description>
+         <count>4</count>
+         <cost>185</cost>
+         <total_cost>740</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>HANDICAP PARKING SIGNS W/ POLE &amp; HARDWARE (X5 STD, X6 VAN)- *CAN BE REMOVED IF CARRIED BY STRIPERS.</description>
+         <count>11</count>
+         <cost>325</cost>
+         <total_cost>3575</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>GARAGE BUILDING IDS - ALUMINUM W/ VINYL</description>
+         <count>4</count>
+         <cost>185</cost>
+         <total_cost>740</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>GARAGE IDS</description>
+         <count>48</count>
+         <cost>38</cost>
+         <total_cost>1824</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: BUILDING 1 - TYPE B SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING ID - ALUMINUM PIN OUNTED W/ ADDRESS SPREADS</description>
+         <count>2</count>
+         <cost>235</cost>
+         <total_cost>470</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BREEZEWAY IDS</description>
+         <count>3</count>
+         <cost>195</cost>
+         <total_cost>585</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>UNIT NUMBERS</description>
+         <count>24</count>
+         <cost>42</cost>
+         <total_cost>1008</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>FDC</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE SPRINKLER / RISER ROOM (OVERSIZED)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>STORAGE IDS</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>TELECOM ID</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: BUILDING 2 - TYPE B SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING ID - ALUMINUM PIN OUNTED W/ ADDRESS SPREADS</description>
+         <count>2</count>
+         <cost>235</cost>
+         <total_cost>470</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BREEZEWAY IDS</description>
+         <count>3</count>
+         <cost>195</cost>
+         <total_cost>585</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>UNIT NUMBERS</description>
+         <count>24</count>
+         <cost>42</cost>
+         <total_cost>1008</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>FDC</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE SPRINKLER / RISER ROOM (OVERSIZED)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>STORAGE IDS</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>TELECOM ID</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#7: BUILDING 3 - TYPE B-HC SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING ID - ALUMINUM PIN OUNTED W/ ADDRESS SPREADS</description>
+         <count>2</count>
+         <cost>235</cost>
+         <total_cost>470</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BREEZEWAY IDS</description>
+         <count>2</count>
+         <cost>195</cost>
+         <total_cost>390</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>UNIT NUMBERS</description>
+         <count>24</count>
+         <cost>42</cost>
+         <total_cost>1008</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>FDC</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE SPRINKLER / RISER ROOM (OVERSIZED)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>STORAGE IDS</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>TELECOM ID</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#8: BUILDING 5 - TYPE A SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING ID - ALUMINUM PIN OUNTED W/ ADDRESS SPREADS</description>
+         <count>2</count>
+         <cost>235</cost>
+         <total_cost>470</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BREEZEWAY IDS</description>
+         <count>2</count>
+         <cost>195</cost>
+         <total_cost>390</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>UNIT NUMBERS</description>
+         <count>16</count>
+         <cost>42</cost>
+         <total_cost>672</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>FDC</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE SPRINKLER / RISER ROOM (OVERSIZED)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>STORAGE IDS</description>
+         <count>6</count>
+         <cost>48</cost>
+         <total_cost>288</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>TELECOM ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#9: BUILDING 6 - TYPE C SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING ID - ALUMINUM PIN OUNTED W/ ADDRESS SPREADS</description>
+         <count>2</count>
+         <cost>235</cost>
+         <total_cost>470</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BREEZEWAY IDS</description>
+         <count>2</count>
+         <cost>195</cost>
+         <total_cost>390</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>UNIT NUMBERS</description>
+         <count>24</count>
+         <cost>42</cost>
+         <total_cost>1008</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>FDC</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE SPRINKLER / RISER ROOM (OVERSIZED)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>STORAGE IDS</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>TELECOM ID</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#10: AMENITY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>POOL POLICIES - POLE MOUNT</description>
+         <count>1</count>
+         <cost>695</cost>
+         <total_cost>695</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>WARNING NO LIFEGAURD COMBO W/ PVC BACKER</description>
+         <count>1</count>
+         <cost>310</cost>
+         <total_cost>310</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>EMERGENCY 911 PHONE SIGN W/ PVC BACKER</description>
+         <count>1</count>
+         <cost>135</cost>
+         <total_cost>135</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>POOL EQUIPMENT ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>POOL GATE SIGN W/ HOURS &amp; PVC BACKER</description>
+         <count>1</count>
+         <cost>145</cost>
+         <total_cost>145</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>DOG PARK POLICIES - POLE MOUNT LANDSCAPE</description>
+         <count>1</count>
+         <cost>695</cost>
+         <total_cost>695</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>PLAYSCAPE POLICIES - POLE MOUNT LANDSCAPE</description>
+         <count>1</count>
+         <cost>695</cost>
+         <total_cost>695</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2002OMH02S</quote_num>
+   <contract_file>2002OMH02S Bardin Apts REV 1.xlsx</contract_file>
+   <client_name>AT BARDIN HOUSING, LP C/O OM HOUSING  5033 BROOKVIEW DRIVE DALLAS, TEXAS 75220</client_name>
+   <project_name>PARC WEST (AKA BARDIN APTS) LOCATED AT 751 W BARDIN RD, ARLINGTON, TEXAS</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

@@ -1,0 +1,957 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2408LCG01S South Creek Ph. 1 Bldg. 11 Signage.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>ILLUMINATED DOUBLE FACE BLADE SIGNS (FINAL DESIGN TBD)- (X1 ON WEST ELEVATION FACING HWY US15-501)- (X1 ON NORTH ELEVATION FACING MARKET STREET)- (X1 ON EAST ELEVATION FACING INTERIOR MAJOR THOROUGHFARE)- *INCLUDES PRE-LOADED ARMATURE BRACKETS*</description>
+         <count>3</count>
+         <cost>18900</cost>
+         <total_cost>56700</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: LEASING CENTER - EXTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>PROJECT / LEASING CENTER ID - NON-ILLUMINATED LETTERS ABOVE- ENTRY. LOADS ABOVE AWNING</description>
+         <count>1</count>
+         <cost>4800</cost>
+         <total_cost>4800</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ADDRESS ID - INDIVIDUAL NUMERALS</description>
+         <count>1</count>
+         <cost>610</cost>
+         <total_cost>610</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>SINGLE DOOR VINYL KIT (HOURS, LOGO, URL, PHONE)</description>
+         <count>1</count>
+         <cost>129</cost>
+         <total_cost>129</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>&quot;DOORS TO REMAIN UNLOCKED…&quot; VINYL KIT</description>
+         <count>1</count>
+         <cost>69</cost>
+         <total_cost>69</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>CUSTOM FUTURE RESIDENT PARKING SIGN - POST MOUNT (VERIFY PRIOR TO BUILD)</description>
+         <count>3</count>
+         <cost>715</cost>
+         <total_cost>2145</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>CUSTOM HANDICAP PARKING SIGN - POST MOUNT (VERIFY PRIOR TO BUILD)</description>
+         <count>2</count>
+         <cost>715</cost>
+         <total_cost>1430</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>CUSTOM USPS PARKING SIGN - POST MOUNT  (VERIFY PRIOR TO BUILD)</description>
+         <count>1</count>
+         <cost>595</cost>
+         <total_cost>595</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER - INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>MANAGER ID W/ BACKER</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ASSISTANT MANAGER ID W/ BACKER</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>LEASING ID</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>UNISEX RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>MAIL CENTER ID</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>PARCEL ROOM ID</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>AMENITY ACCESS ID (@ LVL1)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>FITNESS ID (@ LVL1)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>FITNESS POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>YOGA ID (@ LVL1)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>YOGA POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>MEN&apos;S RESTROOM (@ LVL1)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>WOMEN&apos;S RESTROOM (@ LVL1)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: PARKING GARAGE LEVEL P2 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>CLEARANCE BAR PACKAGE</description>
+         <count>1</count>
+         <cost>1095</cost>
+         <total_cost>1095</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>GARAGE TO BUILDING / STAIR / LEVEL / EXIT (S2)</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL (S2)</description>
+         <count>1</count>
+         <cost>175</cost>
+         <total_cost>175</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>BUILDING TO GARAGE (S2)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>GARAGE TO BUILDING / LEASE ACCESS</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>MAIN TELECOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>ELECTRICAL ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>MAINTENANCE ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: PARKING GARAGE LEVEL P1 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>CLEARANCE BAR PACKAGE</description>
+         <count>1</count>
+         <cost>1095</cost>
+         <total_cost>1095</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>GARAGE TO BUILDING / STAIR / LEVEL / EXIT</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL</description>
+         <count>1</count>
+         <cost>175</cost>
+         <total_cost>175</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>GARAGE TO BUILDING / ELEVATOR LOBBY</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>BUILDING TO GARAGE </description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>BIKE STORAGE ID</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>BIKE STORAGE POLICY - WALL MOUNT</description>
+         <count>2</count>
+         <cost>285</cost>
+         <total_cost>570</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>RECYCLE ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>RECYCLE ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>225</cost>
+         <total_cost>225</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>TRASH PICK-UP / DO NOT BLOCK</description>
+         <count>1</count>
+         <cost>335</cost>
+         <total_cost>335</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: BUILDING LEVEL P2 RETAIL SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING ACCESS EXT.</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR ACCESS EXT.</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL (@S1)</description>
+         <count>1</count>
+         <cost>175</cost>
+         <total_cost>175</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE (X1 @ RETAIL 3)</description>
+         <count>3</count>
+         <cost>265</cost>
+         <total_cost>795</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>BUILDING TO GARAGE </description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>RETAIL SUITE ID (X4 @ R1, X2 @ R2, X3 @ R3)</description>
+         <count>9</count>
+         <cost>88</cost>
+         <total_cost>792</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>DOG WASH ID</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>DOG WASH POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>FIRE RISER ROOM (4&quot;) - DIAMOND GRADE</description>
+         <count>1</count>
+         <cost>185</cost>
+         <total_cost>185</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>FDC W/ ADDRESS - DIAMOND GRADE</description>
+         <count>1</count>
+         <cost>185</cost>
+         <total_cost>185</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>FACP - DIAMOND GRADE</description>
+         <count>1</count>
+         <cost>185</cost>
+         <total_cost>185</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#7: BUILDING LEVEL 1 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>22</count>
+         <cost>56</cost>
+         <total_cost>1232</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR / LEVEL / EXIT </description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL</description>
+         <count>2</count>
+         <cost>175</cost>
+         <total_cost>350</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELEVATOR LOBBY ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE </description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>MECHANICAL / ELECTRICAL ID</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#7: BUILDING LEVEL 1 SIGNAGE</section_name>
+   
+      <sign>
+         <key>G.</key>
+         <description>TRASH ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>TRASH ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>225</cost>
+         <total_cost>225</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>RECYCLE ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>RECYCLE ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>225</cost>
+         <total_cost>225</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#8: BUILDING LEVEL 2 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>24</count>
+         <cost>56</cost>
+         <total_cost>1344</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR / LEVEL / EXIT </description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL</description>
+         <count>2</count>
+         <cost>175</cost>
+         <total_cost>350</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELEVATOR LOBBY ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE </description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>MECHANICAL / ELECTRICAL ID</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>TRASH ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>TRASH ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>225</cost>
+         <total_cost>225</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>RECYCLE ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>RECYCLE ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>225</cost>
+         <total_cost>225</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#9: BUILDING LEVEL 3 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>24</count>
+         <cost>56</cost>
+         <total_cost>1344</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR / LEVEL / EXIT </description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL</description>
+         <count>2</count>
+         <cost>175</cost>
+         <total_cost>350</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELEVATOR LOBBY ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE </description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>MECHANICAL / ELECTRICAL ID</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>TRASH ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>TRASH ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>225</cost>
+         <total_cost>225</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>RECYCLE ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>RECYCLE ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>225</cost>
+         <total_cost>225</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#10: BUILDING LEVEL 4 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>24</count>
+         <cost>56</cost>
+         <total_cost>1344</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR / LEVEL / EXIT (X1 ROOF ACCESS @ S2)</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL</description>
+         <count>2</count>
+         <cost>175</cost>
+         <total_cost>350</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELEVATOR LOBBY ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE </description>
+         <count>1</count>
+         <cost>265</cost>
+         <total_cost>265</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>MECHANICAL / ELECTRICAL ID</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>CLUB ROOM ID</description>
+         <count>2</count>
+         <cost>88</cost>
+         <total_cost>176</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>CLUB ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>CLUB ROOM POD ID</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>ROOF TERRACE ID</description>
+         <count>3</count>
+         <cost>88</cost>
+         <total_cost>264</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>MAX OCCUPANCY (CLUB, TERRACE)</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>MEN&apos;S RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#10: BUILDING LEVEL 4 SIGNAGE</section_name>
+   
+      <sign>
+         <key>M.</key>
+         <description>WOMEN&apos;S RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>TRASH ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>TRASH ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>225</cost>
+         <total_cost>225</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>RECYCLE ROOM ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>RECYCLE ROOM POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>225</cost>
+         <total_cost>225</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#11: AMENITY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>POOL POLICY - FENCE MOUNT</description>
+         <count>1</count>
+         <cost>695</cost>
+         <total_cost>695</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>WARNING NO LIFEGUARD / NO DIVING - FENCE MOUNT</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>911 EMERGENCY PHONE SIGN</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>POOL GATE W/ HOURS &amp; 911 DIRECTIONAL</description>
+         <count>3</count>
+         <cost>155</cost>
+         <total_cost>465</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>POOL EQUIPMENT ID (@ POOL HOUSE)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>STORAGE ID (@ POOL HOUSE</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>MEN&apos;S RESTROOM (@ POOL HOUSE)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>WOMEN&apos;S RESTROOM (@ POOL HOUSE)</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I</key>
+         <description>GRILL POLICIES (@ POOL)</description>
+         <count>2</count>
+         <cost>335</cost>
+         <total_cost>670</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>FIREPLACE GUIDELINES (@POOL)</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>DOG PARK ID / POLICY - FENCE MOUNT</description>
+         <count>1</count>
+         <cost>595</cost>
+         <total_cost>595</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2408LCG01S</quote_num>
+   <contract_file>2408LCG01S South Creek Ph. 1 Bldg. 11 Signage.xlsx</contract_file>
+   <client_name>LEON CAPITAL GROUP MF 3500 MAPLE AVE. STE 1600 DALLAS, TX 75219</client_name>
+   <project_name>SOUTH CREEK PHASE 1 BLDG 11</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

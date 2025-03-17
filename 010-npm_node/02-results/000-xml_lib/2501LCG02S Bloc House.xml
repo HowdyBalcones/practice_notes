@@ -1,0 +1,348 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2501LCG02S Bloc House.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>ILLUMINATED SIGN ON WILLOW STREET FRONTAGE- *BLOCKING &amp; POWER TO LOCATION BY OTHERS*</description>
+         <count>1</count>
+         <cost>10680</cost>
+         <total_cost>10680</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: LEASING CENTER- EXTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>PROJECT / LEASING CENTER ID - NON-ILLUMINATED, TBD</description>
+         <count>1</count>
+         <cost>2200</cost>
+         <total_cost>2200</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ADDRESS ID - INDIVIDUAL NUMERALS</description>
+         <count>1</count>
+         <cost>610</cost>
+         <total_cost>610</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>DOUBLE DOOR VINYL KIT (HOURS, LOGO, URL, PHONE)</description>
+         <count>1</count>
+         <cost>159</cost>
+         <total_cost>159</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>&quot;DOORS TO REMAIN UNLOCKED…&quot; VINYL KIT</description>
+         <count>1</count>
+         <cost>99</cost>
+         <total_cost>99</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER - INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>FITNESS CENTER ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>FITNESS CENTER POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>PACKAGE ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>UNISEX RESTROOM ID</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>BIKE STATION ROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>BIKE STATION POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>MDF ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>FIRE RISER ROOM (4&quot;) - DIAMOND GRADE</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>FDC - DIAMOND GRADE</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>MAX OCCUPANCY (FITNESS, PAVILION)</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>PAVILION ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>PAVILION POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: SITE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>ENTER / EXIT / GATE WARNING SIGN COMBO</description>
+         <count>1</count>
+         <cost>335</cost>
+         <total_cost>335</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ENTER ONLY GATE SIGN COMBO</description>
+         <count>1</count>
+         <cost>335</cost>
+         <total_cost>335</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>CARPORT ID (X2 HCP)</description>
+         <count>38</count>
+         <cost>48</cost>
+         <total_cost>1824</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>TRASH COMPACTOR ID / POLICY </description>
+         <count>1</count>
+         <cost>235</cost>
+         <total_cost>235</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: BUILDING SIGNAGE - LEVEL 1</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING ID W/ UNIT SPREAD</description>
+         <count>3</count>
+         <cost>355</cost>
+         <total_cost>1065</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>28</count>
+         <cost>58</cost>
+         <total_cost>1624</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>HALLWAY DIRECTIONAL</description>
+         <count>2</count>
+         <cost>135</cost>
+         <total_cost>270</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>STORAGE ID</description>
+         <count>5</count>
+         <cost>48</cost>
+         <total_cost>240</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>EMPOLYEES ONLY ID (JANITOR)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FIRE RISER ROOM (4&quot;) - DIAMOND GRADE</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G</key>
+         <description>FDC - DIAMOND GRADE</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: BUILDING SIGNAGE - LEVEL 2</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>32</count>
+         <cost>58</cost>
+         <total_cost>1856</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>HALLWAY DIRECTIONAL</description>
+         <count>3</count>
+         <cost>135</cost>
+         <total_cost>405</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STORAGE ID</description>
+         <count>7</count>
+         <cost>48</cost>
+         <total_cost>336</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#7: BUILDING SIGNAGE - LEVEL 3</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>32</count>
+         <cost>58</cost>
+         <total_cost>1856</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>HALLWAY DIRECTIONAL</description>
+         <count>3</count>
+         <cost>135</cost>
+         <total_cost>405</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STORAGE ID</description>
+         <count>5</count>
+         <cost>48</cost>
+         <total_cost>240</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ROOF ACCESS ID</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#29: AMENITY SIGNAGE</section_name>
+   
+      <sign>
+         <key>a.</key>
+         <description>GRILL POLICIES ( @ COURTYARD)</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2501LCG02S</quote_num>
+   <contract_file>2501LCG02S Bloc House.xlsx</contract_file>
+   <client_name>LEON CAPITAL GROUP MF 3500 MAPLE AVE. STE 1600 DALLAS, TX 75219</client_name>
+   <project_name>BLOC HOUSE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

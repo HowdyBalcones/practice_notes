@@ -1,0 +1,463 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2109DHI03S Ascend at Northshore Signage.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>SINGLE FACE INTERNALLY ILLUMINATED MONUMENT SIGN- POWER AND STRUCTURE BY OTHERS (@ NORTHSHORE AND BEARING DRIVE)</description>
+         <count>1</count>
+         <cost>7800</cost>
+         <total_cost>7800</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>SINGLE FACE INTERNALLY ILLUMINATED MONUMENT SIGN- POWER AND STRUCTURE BY OTHERS ( @ PONY EXPRESS PARKWAY)</description>
+         <count>1</count>
+         <cost>7800</cost>
+         <total_cost>7800</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: LEASING CENTER- EXTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>LEASING CENTER ID: STAND UP LETTERING ON RAIL</description>
+         <count>1</count>
+         <cost>2495</cost>
+         <total_cost>2495</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>HOURS SIGN W/ CHANGEABLE SUMMER/WINTER HOURS</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ADDRESS ID - VINYL</description>
+         <count>1</count>
+         <cost>255</cost>
+         <total_cost>255</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>LEASING CENTER DOUBLE DOOR VINYL KIT (LOGO,URL, PHONE)</description>
+         <count>1</count>
+         <cost>139</cost>
+         <total_cost>139</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>CUSTOM FUTURE RESIDENT PARKING SIGN - POLE MOUNT</description>
+         <count>3</count>
+         <cost>715</cost>
+         <total_cost>2145</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>CUSTOM HANDICAP PARKING SIGN (X1 STD, X1 VAN) - POLE MOUNT</description>
+         <count>2</count>
+         <cost>715</cost>
+         <total_cost>1430</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>USPS PARKING - POLE MOUNT</description>
+         <count>1</count>
+         <cost>495</cost>
+         <total_cost>495</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>FITNESS ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>POOL EQUIPMENT ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>FIRE RISER ROOM (4&quot;)</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>FDC W/ ADDRESS</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER- INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>MANAGER ID W/ PVC BACKER</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ASSISTANT MANAGER ID W/ PVC BACKER</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>EMPLOYEES ONLY (RESOURCE ROOM)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>PARCEL ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>COWORK ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>COWORK POLICIES:  DESKTOP</description>
+         <count>1</count>
+         <cost>385</cost>
+         <total_cost>385</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>OFFICE ID (COWORKING)</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>MEN&apos;S RESTROOM </description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>WOMEN&apos;S RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>EMPLOYEES ONLY (JANITOR)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>IT ROOM ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>FITNESS ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>FITNESS POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>YOGA ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER- INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>P.</key>
+         <description>PLAYROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>Q.</key>
+         <description>MECHANICAL ID</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </sign>
+      
+      <sign>
+         <key>R.</key>
+         <description>MAX OCCUPANCY (CLUB, FITNESS, LEASING)</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: SITE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>REMOTE GARAGE BUILDING ID</description>
+         <count>6</count>
+         <cost>185</cost>
+         <total_cost>1110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>REMOTE GARAGE ID</description>
+         <count>42</count>
+         <cost>42</cost>
+         <total_cost>1764</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>MAIL CENTER ID</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>TRASH ENCLOSURE ID/POLICY/DO NOT BLOCK</description>
+         <count>3</count>
+         <cost>235</cost>
+         <total_cost>705</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>D/F DIRECTIONALS: LANDSCAPE MOUNT- *NOTE: CUSTOM HANDICAP &amp; CUSTOM VAN HANDICAP PARKING SIGNS- CARRIED BY FOURCE - BALANCE CARRIED IN STRIPER&apos;S SCOPE</description>
+         <count>2</count>
+         <cost>1495</cost>
+         <total_cost>2990</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: BUILDING SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING ID (SEE SITE PLAN FOR INDIVIDUAL BUILDING COUNTS)</description>
+         <count>17</count>
+         <cost>255</cost>
+         <total_cost>4335</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR ID (EXTERIOR) (2 @ EA. BUILDING)</description>
+         <count>20</count>
+         <cost>78</cost>
+         <total_cost>1560</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>BUILDING ACCESS (2 @ EA. BUILDING)</description>
+         <count>20</count>
+         <cost>58</cost>
+         <total_cost>1160</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>UNIT DOOR NUMBERS (23 @ EA. BLDG. LV1 = 5, LV2 = 9, LV3 = 9)</description>
+         <count>230</count>
+         <cost>48</cost>
+         <total_cost>11040</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>GARAGE DOOR NUMBERS (EXT.) (20 @ EA. BLDG. X1 HCP)</description>
+         <count>200</count>
+         <cost>42</cost>
+         <total_cost>8400</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>GARAGE DOOR NUMBERS (INT.) (20 @ EA. BLDG)</description>
+         <count>200</count>
+         <cost>42</cost>
+         <total_cost>8400</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>STAIR LEVEL (6 @ EA. BLDG. 2 PER LVL)</description>
+         <count>60</count>
+         <cost>58</cost>
+         <total_cost>3480</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>STORAGE ID (2 @ EA. BLDG)</description>
+         <count>20</count>
+         <cost>48</cost>
+         <total_cost>960</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>UTILITY ID (2 @ EA. BLDG)</description>
+         <count>20</count>
+         <cost>48</cost>
+         <total_cost>960</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>FIRE RISER ROOM (4&quot;) (1 @ EA. BLDG)</description>
+         <count>10</count>
+         <cost>88</cost>
+         <total_cost>880</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>FDC W/ ADDRESS (1 @ EA. BLDG)</description>
+         <count>10</count>
+         <cost>110</cost>
+         <total_cost>1100</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#14: AMENITY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>POOL POLICIES - FENCE MOUNT W/ PVC BACKER</description>
+         <count>1</count>
+         <cost>695</cost>
+         <total_cost>695</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>WARNING NO LIFEGUARD - FENCE MOUNT W/ PVC BACKER</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>911 EMERGENCY PHONE SIGN</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>POOL GATE W/ HOURS - AND NO GLASS</description>
+         <count>3</count>
+         <cost>155</cost>
+         <total_cost>465</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>DOG PARK ID/POLICY: LANDSCAPE MOUNT</description>
+         <count>1</count>
+         <cost>695</cost>
+         <total_cost>695</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2109DHI03S</quote_num>
+   <contract_file>2109DHI03S Ascend at Northshore Signage.xlsx</contract_file>
+   <client_name>DHI COMMUNITIES, A D.R. HORTON CO. 1341 HORTON CIRCLE ARLINGTON TX 76011</client_name>
+   <project_name>ASCEND AT NORTHSHORE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

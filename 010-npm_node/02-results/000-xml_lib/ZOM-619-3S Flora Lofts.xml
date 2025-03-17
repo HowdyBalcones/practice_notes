@@ -1,0 +1,466 @@
+
+      <job_info>
+      <contract>
+      <contract_name>ZOM-619-3S Flora Lofts.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>FLORA LOFTS ILLUMINATED CANOPY SIGN. LOADS OVER ENTRY - DOORS AT FLORA STREET ENTRY.- *POWER TO LOCATION BY OTHERS.</description>
+         <count>1</count>
+         <cost>11800</cost>
+         <total_cost>11800</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: RESIDENTIAL &amp; GARAGE LEVEL 2 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT NUMBER ID</description>
+         <count>11</count>
+         <cost>78</cost>
+         <total_cost>858</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR ID</description>
+         <count>4</count>
+         <cost>58</cost>
+         <total_cost>232</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL/LEVEL SIGNS</description>
+         <count>4</count>
+         <cost>165</cost>
+         <total_cost>660</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELEVATOR EGRESS/IN CASE OF FIRE</description>
+         <count>3</count>
+         <cost>265</cost>
+         <total_cost>795</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>TRASH CHUTE ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>TRASH CHUTE POLICIES</description>
+         <count>1</count>
+         <cost>115</cost>
+         <total_cost>115</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>BUILDING-TO-GARAGE DIRECTIONALS</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>DIRECTIONAL/WAYFINDING</description>
+         <count>2</count>
+         <cost>98</cost>
+         <total_cost>196</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>PROJECT STORAGE (GARAGE)</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>ELECTRICAL</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>ELEVATOR VESTIBULE ID</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>EQUIPMENT (EMPLOYEES ONLY)</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>GARAGE-TO-BUILDING DIRECTIONAL</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>HANDICAP PARKING - WALL MOUNT</description>
+         <count>2</count>
+         <cost>165</cost>
+         <total_cost>330</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>GUEST CUSTOM PARKING - WALL MOUNT</description>
+         <count>3</count>
+         <cost>210</cost>
+         <total_cost>630</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>GATE PACKAGE (ENTER/EXIT W/ WARNING)</description>
+         <count>1</count>
+         <cost>380</cost>
+         <total_cost>380</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: RESIDENTIAL &amp; GARAGE LEVELS 3 &amp; 4 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT NUMBER ID (X14 PER FLOOR)</description>
+         <count>28</count>
+         <cost>78</cost>
+         <total_cost>2184</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR/LEVEL ID (X5 PER FLOOR)</description>
+         <count>10</count>
+         <cost>68</cost>
+         <total_cost>680</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL/LEVEL SIGNS (X4 PER FLOOR)</description>
+         <count>8</count>
+         <cost>175</cost>
+         <total_cost>1400</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELEVATOR EGRESS/IN CASE OF FIRE (X2 PER FLOOR)</description>
+         <count>4</count>
+         <cost>285</cost>
+         <total_cost>1140</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>GARAGE-TO-BUILDING SIGN (X1 PER FLOOR)</description>
+         <count>2</count>
+         <cost>88</cost>
+         <total_cost>176</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>BUILDING-TO-GARAGE SIGN (X1 PER FLOOR)</description>
+         <count>2</count>
+         <cost>88</cost>
+         <total_cost>176</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>DIRECTIONAL/WAYFINDING SIGN (X3 PER FLOOR)</description>
+         <count>6</count>
+         <cost>110</cost>
+         <total_cost>660</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>ELEVATOR VESTIBULE ID (X2 PER FLOOR)</description>
+         <count>4</count>
+         <cost>68</cost>
+         <total_cost>272</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: RESIDENTIAL &amp; GARAGE LEVELS 3 &amp; 4 SIGNAGE</section_name>
+   
+      <sign>
+         <key>I.</key>
+         <description>TRASH CHUTE ID (X1 PER FLOOR)</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>TRASH CHUTE POLICIES (X1 PER FLOOR)</description>
+         <count>2</count>
+         <cost>120</cost>
+         <total_cost>240</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>ELECTRICAL ROOM ID (X2 PER FLOOR)</description>
+         <count>4</count>
+         <cost>58</cost>
+         <total_cost>232</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>PROJECT STORAGE (X1 PER FLOOR)</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>HANDICAP PARKING/WALL MOUNT (X2 PER FLOOR)</description>
+         <count>4</count>
+         <cost>195</cost>
+         <total_cost>780</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: RESIDENTIAL &amp; GARAGE LEVEL 5 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>UNIT NUMBER ID</description>
+         <count>14</count>
+         <cost>78</cost>
+         <total_cost>1092</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIR/LEVEL ID</description>
+         <count>6</count>
+         <cost>68</cost>
+         <total_cost>408</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>STAIRWELL/LEVEL SIGNS</description>
+         <count>5</count>
+         <cost>175</cost>
+         <total_cost>875</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELEVATOR EGRESS/IN CASE OF FIRE</description>
+         <count>2</count>
+         <cost>285</cost>
+         <total_cost>570</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>GARAGE-TO-BUILDING SIGN</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>BUILDING-TO-GARAGE SIGN</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>DIRECTIONAL/WAYFINDING SIGN</description>
+         <count>3</count>
+         <cost>110</cost>
+         <total_cost>330</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>ELEVATOR VESTIBULE ID</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>TRASH CHUTE ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>TRASH CHUTE POLICIES</description>
+         <count>1</count>
+         <cost>120</cost>
+         <total_cost>120</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>ELECTRICAL ROOM ID</description>
+         <count>2</count>
+         <cost>58</cost>
+         <total_cost>116</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>JANITOR CLOSET</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>HANDICAP PARKING/WALL MOUNT</description>
+         <count>2</count>
+         <cost>195</cost>
+         <total_cost>390</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: GARAGE LEVEL 6 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>STAIR/LEVEL ID</description>
+         <count>3</count>
+         <cost>68</cost>
+         <total_cost>204</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>STAIRWELL/LEVEL SIGNS</description>
+         <count>5</count>
+         <cost>175</cost>
+         <total_cost>875</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>ELEVATOR EGRESS/IN CASE OF FIRE</description>
+         <count>1</count>
+         <cost>285</cost>
+         <total_cost>285</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>ELEVATOR VESTIBULE ID</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>TRASH CHUTE ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>TRASH CHUTE POLICIES</description>
+         <count>1</count>
+         <cost>120</cost>
+         <total_cost>120</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>ELECTRICAL ROOM ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>JANITOR CLOSET</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>HANDICAP PARKING/WALL MOUNT</description>
+         <count>2</count>
+         <cost>195</cost>
+         <total_cost>390</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>ZOM-619-2S</quote_num>
+   <contract_file>ZOM-619-3S Flora Lofts.xlsx</contract_file>
+   <client_name>ZOM 3400 CARLISLE STREET STE 500 DALLAS, TX 75204</client_name>
+   <project_name>FLORA LOFTS</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

@@ -1,0 +1,372 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2203BSC01S Avanta - Chisholm Trail Ranch Signage.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A</key>
+         <description>SINGLE FACE MONUMENT SIGN (DESIGN TBD)</description>
+         <count>1</count>
+         <cost>9600</cost>
+         <total_cost>9600</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B</key>
+         <description>SITE PLAN DIRECTORY - POST &amp; PANEL W/ DIGITAL</description>
+         <count>1</count>
+         <cost>2365</cost>
+         <total_cost>2365</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: LEASING CENTER- EXTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>LEASING CENTER ID</description>
+         <count>1</count>
+         <cost>2860</cost>
+         <total_cost>2860</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>HOURS SIGN W/ CHANGEABLE HOURS</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>&quot;DOORS TO REMAIN OPEN&quot; - FROSTED VINYL KIT</description>
+         <count>1</count>
+         <cost>89</cost>
+         <total_cost>89</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>LEASING CENTER DOUBLE DOOR VINYL KIT (LOGO, URL, PHONE, HOURS)</description>
+         <count>1</count>
+         <cost>129</cost>
+         <total_cost>129</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>CUSTOM FUTURE RESIDENT PARKING SIGN</description>
+         <count>3</count>
+         <cost>695</cost>
+         <total_cost>2085</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>CUSTOM HANDICAP PARKING (X1 STD, X1 VAN)</description>
+         <count>2</count>
+         <cost>695</cost>
+         <total_cost>1390</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>USPS PARKING </description>
+         <count>1</count>
+         <cost>495</cost>
+         <total_cost>495</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER - INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>MANAGER ID - PVC BACKER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ASSISTANT MANAGER ID - PVC BACKER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>EMPLOYEES ONLY (KITCHEN/BOH)</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>MAINTENANCE ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>JANITOR ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>CLUB ID</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>CLUB POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>FITNESS ID (X1 EXT, X1 INT)</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>FITNESS POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>MAX OCCUPANCY (LEASING, FITNESS, CLUB)</description>
+         <count>3</count>
+         <cost>58</cost>
+         <total_cost>174</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: SITE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>REMOTE GARAGE BUILDING ID</description>
+         <count>6</count>
+         <cost>175</cost>
+         <total_cost>1050</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>REMOTE GARAGE NUMBERS (6 PER GARAGE BUILDING)</description>
+         <count>36</count>
+         <cost>38</cost>
+         <total_cost>1368</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>TRASH ENCLOSURE ID / POLICY</description>
+         <count>3</count>
+         <cost>195</cost>
+         <total_cost>585</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>VEHICLE ENTER / EXIT / WARNING SIGN PACKAGE</description>
+         <count>3</count>
+         <cost>410</cost>
+         <total_cost>1230</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>CALL BOX - VISITOR FLAG SIGN</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>MAIL CENTER ID</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>MAINTENANCE ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: BUILDING UNIT SPREAD / ADDRESS SIGNS</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>DUPLEX BUILDING ID W/ UNIT SPREAD</description>
+         <count>55</count>
+         <cost>139</cost>
+         <total_cost>7645</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>INDIVIDUAL BUILDING ID W/ UNIT SPREAD</description>
+         <count>123</count>
+         <cost>139</cost>
+         <total_cost>17097</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: STREET SIGNS</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>DUAL BLADE STREET SIGNS W/ STOP SIGN</description>
+         <count>10</count>
+         <cost>1185</cost>
+         <total_cost>11850</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#7: BUILDING SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING UNIT DOOR NUMBERS</description>
+         <count>208</count>
+         <cost>98</cost>
+         <total_cost>20384</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#9: AMENITY SIGNAGE (VERIFY - NO LANDSCAPES PROVIDED)</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>POOL POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>715</cost>
+         <total_cost>715</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ADDITIONAL TX 2022 POOL POLICY</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>WARNING NO LIFE GUARD - WALL MOUNT</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>911 EMERGENCY PHONE - WALL MOUNT</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>POOL GATE W/ HOURS - WALL MOUNT</description>
+         <count>3</count>
+         <cost>155</cost>
+         <total_cost>465</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>POOL EQUIPMENT ID</description>
+         <count>1</count>
+         <cost>58</cost>
+         <total_cost>58</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>DOG PARK POLICY - ON POST</description>
+         <count>1</count>
+         <cost>615</cost>
+         <total_cost>615</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>GRILL POLICY - ON STRUCTURE</description>
+         <count>1</count>
+         <cost>100</cost>
+         <total_cost>100</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>FIRE PLACE GUIDELINES PLAQUE</description>
+         <count>1</count>
+         <cost>100</cost>
+         <total_cost>100</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2203BSC01S</quote_num>
+   <contract_file>2203BSC01S Avanta - Chisholm Trail Ranch Signage.xlsx</contract_file>
+   <client_name>BROWNSTONE CONSTRUCTION 1020 NE LOOP 410 #700 SAN ANTONIO, TX 78209</client_name>
+   <project_name>AVANTA - CHISHOLM TRAIL</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

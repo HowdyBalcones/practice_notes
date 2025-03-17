@@ -1,0 +1,696 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2010WADE02S Mark on Conquest .xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>DOUBLE-FACED MONUMENT DIMENSIONAL GRAPHICS ON STRUC-- TURE BY OTHERS. NO PAN DETAILS IN LANDSCAPE PLANS.</description>
+         <count>1</count>
+         <cost>6800</cost>
+         <total_cost>6800</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>VISITOR CALL BOX</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>RESIDENT / GUEST / GATE WARNING COMBO</description>
+         <count>1</count>
+         <cost>210</cost>
+         <total_cost>210</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>EXIT ONLY / GATE WARNING COMBO</description>
+         <count>1</count>
+         <cost>210</cost>
+         <total_cost>210</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>SINGLE-FACED DIRECTIONAL - MONOLITH STYLE</description>
+         <count>1</count>
+         <cost>895</cost>
+         <total_cost>895</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>DOUBLE-FACED DIRECTIONALS - MONOLITH STYLE</description>
+         <count>2</count>
+         <cost>1295</cost>
+         <total_cost>2590</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: SITE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>CARPORT IDS</description>
+         <count>107</count>
+         <cost>38</cost>
+         <total_cost>4066</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>DETACHED GARAGE IDS - EXTERIOR</description>
+         <count>40</count>
+         <cost>38</cost>
+         <total_cost>1520</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>DUMPSTR ID W/ POLICIES- *NOTE: PROJECT HANDICAP PARKING HANDLED BY STRIPER SUBCONTRACTOR.</description>
+         <count>3</count>
+         <cost>285</cost>
+         <total_cost>855</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: BUILDING #6 SIGNAGE (TYPE 5)</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING IDS</description>
+         <count>1</count>
+         <cost>235</cost>
+         <total_cost>235</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BREEZEWAY SIGNS W/ UNIT SPREAD</description>
+         <count>2</count>
+         <cost>185</cost>
+         <total_cost>370</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>24</count>
+         <cost>48</cost>
+         <total_cost>1152</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>TELECOM</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE SPRINKLER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FDC</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: BUILDING #7 SIGNAGE (TYPE 3A)</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING IDS</description>
+         <count>2</count>
+         <cost>235</cost>
+         <total_cost>470</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BREEZEWAY SIGNS W/ UNIT SPREAD</description>
+         <count>2</count>
+         <cost>185</cost>
+         <total_cost>370</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>24</count>
+         <cost>48</cost>
+         <total_cost>1152</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>TELECOM</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE SPRINKLER</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FDC</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: BUILDING #8 SIGNAGE (TYPE 3B)</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING IDS</description>
+         <count>2</count>
+         <cost>235</cost>
+         <total_cost>470</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BREEZEWAY SIGNS W/ UNIT SPREAD</description>
+         <count>2</count>
+         <cost>185</cost>
+         <total_cost>370</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>24</count>
+         <cost>48</cost>
+         <total_cost>1152</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>TELECOM</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE SPRINKLER</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FDC</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: BUILDING #9 SIGNAGE (TYPE 4)</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING IDS</description>
+         <count>1</count>
+         <cost>235</cost>
+         <total_cost>235</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BREEZEWAY SIGNS W/ UNIT SPREAD</description>
+         <count>2</count>
+         <cost>185</cost>
+         <total_cost>370</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>24</count>
+         <cost>48</cost>
+         <total_cost>1152</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>TELECOM</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE SPRINKLER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FDC</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#7: BUILDING #10 SIGNAGE (TYPE 2)</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING IDS</description>
+         <count>1</count>
+         <cost>235</cost>
+         <total_cost>235</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BREEZEWAY SIGNS W/ UNIT SPREAD</description>
+         <count>2</count>
+         <cost>185</cost>
+         <total_cost>370</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>24</count>
+         <cost>48</cost>
+         <total_cost>1152</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>TELECOM</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE SPRINKLER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FDC</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#8: BUILDING #11 SIGNAGE (TYPE 2)</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING IDS</description>
+         <count>3</count>
+         <cost>235</cost>
+         <total_cost>705</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BREEZEWAY SIGNS W/ UNIT SPREAD</description>
+         <count>2</count>
+         <cost>185</cost>
+         <total_cost>370</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>24</count>
+         <cost>48</cost>
+         <total_cost>1152</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>TELECOM</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE SPRINKLER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FDC</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#9: BUILDING #12 SIGNAGE (TYPE 1)</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING IDS</description>
+         <count>1</count>
+         <cost>235</cost>
+         <total_cost>235</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BREEZEWAY SIGNS W/ UNIT SPREAD</description>
+         <count>2</count>
+         <cost>185</cost>
+         <total_cost>370</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>20</count>
+         <cost>48</cost>
+         <total_cost>960</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>TELECOM</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE SPRINKLER</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FDC</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#10: BUILDING #13 SIGNAGE (TYPE 3A)</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>BUILDING IDS</description>
+         <count>2</count>
+         <cost>235</cost>
+         <total_cost>470</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>BREEZEWAY SIGNS W/ UNIT SPREAD</description>
+         <count>2</count>
+         <cost>185</cost>
+         <total_cost>370</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>UNIT DOOR NUMBERS</description>
+         <count>24</count>
+         <cost>48</cost>
+         <total_cost>1152</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>TELECOM</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE SPRINKLER</description>
+         <count>2</count>
+         <cost>68</cost>
+         <total_cost>136</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FDC</description>
+         <count>1</count>
+         <cost>110</cost>
+         <total_cost>110</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#11: AMENITY CENTER - BUILDING #15 SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>DIMENSIONAL LETTERS &quot;AMENITY&quot; ON COLUMN AT ENTRY</description>
+         <count>1</count>
+         <cost>895</cost>
+         <total_cost>895</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>AMENITY CENTER DOOR VINYL (LOGO W/ HOURS)</description>
+         <count>4</count>
+         <cost>69</cost>
+         <total_cost>276</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>CLUB ROOM ID</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>CLUB ROOM POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>KITCHEN POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>FITNESS / RESTROOM ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>WOMEN&apos;S RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>MEN&apos;S RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>FITNESS CENTER ID</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>FITNESS CENTER POLICY</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>STORAGE ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>MAIL ROOM ID / PACKAGE LOCKERS</description>
+         <count>1</count>
+         <cost>88</cost>
+         <total_cost>88</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#12: EXTERIOR AMENITIES</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>POOL POLICY - FENCE MOUNT</description>
+         <count>1</count>
+         <cost>595</cost>
+         <total_cost>595</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>WARNING NO LIFEGAURD - FENCE MOUNT</description>
+         <count>1</count>
+         <cost>365</cost>
+         <total_cost>365</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>911 PHONE</description>
+         <count>1</count>
+         <cost>145</cost>
+         <total_cost>145</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>POOL GATE SIGN W/ BACKER</description>
+         <count>3</count>
+         <cost>145</cost>
+         <total_cost>435</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>FIRE PIT POLICY PLAQUE - STRUCTURE MOUNT (X1 AT POOL, X1 AT- LARGE GATHERING)</description>
+         <count>2</count>
+         <cost>110</cost>
+         <total_cost>220</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>GRILLING POLICIES - STRUCTURE MOUNT</description>
+         <count>2</count>
+         <cost>285</cost>
+         <total_cost>570</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>POOL EQUIPMENT ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>DOG PARK POLICY - POLE MOUNT</description>
+         <count>1</count>
+         <cost>715</cost>
+         <total_cost>715</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2010WADE02S</quote_num>
+   <contract_file>2010WADE02S Mark on Conquest .xlsx</contract_file>
+   <client_name>WADE CONSTRUCTION 1010 W RALPH HALL PKWY STE 200 ROCKWALL, TX 75032</client_name>
+   <project_name>MARK ON CONQUEST</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      

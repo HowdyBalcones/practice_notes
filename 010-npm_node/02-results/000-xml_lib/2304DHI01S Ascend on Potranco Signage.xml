@@ -1,0 +1,439 @@
+
+      <job_info>
+      <contract>
+      <contract_name>2304DHI01S Ascend on Potranco Signage.xlsx</contract_name>
+      
+   <section>
+   <section_name>#1: ENTRY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>DOUBLE FACED MONUMENT SIGN - 10&quot; LETTERING PIN MOUNTED - TO STUCCO, LOCATED AT MAIN ENTRY MEDIAN ( PER LH2.02) NON-ILLUMINATED- *FOOTER AND STRUCTURE BY OTHERS, LIT FROM LANDSCAPE</description>
+         <count>1</count>
+         <cost>6800</cost>
+         <total_cost>6800</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#2: LEASING CENTER - EXTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>LEASING CENTER ID - NON-ILLUMINATED 12&quot; LETTERS ON RAIL, LOADS- TO CANOPY ABOVE ENTRY</description>
+         <count>1</count>
+         <cost>2800</cost>
+         <total_cost>2800</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ADDRESS ID - INDIVIDUAL NUMERALS</description>
+         <count>1</count>
+         <cost>610</cost>
+         <total_cost>610</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>DOUBLE DOOR VINYL KIT (HOURS, LOGO, URL, PHONE)</description>
+         <count>1</count>
+         <cost>189</cost>
+         <total_cost>189</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>&quot;DOORS TO REMAIN UNLOCKED…&quot; VINYL KIT</description>
+         <count>1</count>
+         <cost>69</cost>
+         <total_cost>69</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>CUSTOM FUTURE RESIDENT PARKING SIGN - POST MOUNT- W/ BASEPLATE</description>
+         <count>3</count>
+         <cost>715</cost>
+         <total_cost>2145</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>CUSTOM HANDICAP PARKING SIGN - POST MOUNT- W/ BASEPLATE (X1 VAN, X1 STANDARD)</description>
+         <count>2</count>
+         <cost>715</cost>
+         <total_cost>1430</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#3: LEASING CENTER - INTERIOR SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>MANAGER ID W/ BACKER</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>EMPLOYEE ONLY (X2 PRINTER ROOM (X1 INT, X1 EXT), X1 JANITOR)</description>
+         <count>3</count>
+         <cost>48</cost>
+         <total_cost>144</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>DATA ID</description>
+         <count>1</count>
+         <cost>48</cost>
+         <total_cost>48</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>LEASING OFFICE DOOR VINYL ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>BUSINESS CENTER ID</description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>BUSINESS CENTER POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>MEN&apos;S RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>WOMEN&apos;S RESTROOM</description>
+         <count>1</count>
+         <cost>98</cost>
+         <total_cost>98</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>FITNESS ID (X1 INT, X1 EXT)</description>
+         <count>2</count>
+         <cost>78</cost>
+         <total_cost>156</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>FITNESS POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>K.</key>
+         <description>DOG WASH ID </description>
+         <count>1</count>
+         <cost>78</cost>
+         <total_cost>78</total_cost>
+      </sign>
+      
+      <sign>
+         <key>L.</key>
+         <description>DOG WASH POLICY - WALL MOUNT</description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>M.</key>
+         <description>MAX OCCUPANCY (LEASE: 4, LOUNGE: 93, BUSINESS: 4, FITNESS: 15)</description>
+         <count>4</count>
+         <cost>48</cost>
+         <total_cost>192</total_cost>
+      </sign>
+      
+      <sign>
+         <key>N.</key>
+         <description>AMNENTY ACCESS DOOR VINYL ID</description>
+         <count>1</count>
+         <cost>68</cost>
+         <total_cost>68</total_cost>
+      </sign>
+      
+      <sign>
+         <key>O.</key>
+         <description>LOUNGE POLICY </description>
+         <count>1</count>
+         <cost>415</cost>
+         <total_cost>415</total_cost>
+      </sign>
+      
+      <sign>
+         <key>P.</key>
+         <description>STORAGE IDS (UNIDENITIFIED ON PLANS, NEED FINAL ROOM FUNCTION)</description>
+         <count>2</count>
+         <cost>48</cost>
+         <total_cost>96</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#4: SITE SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>SITE PLAN DIRECTORY - POST &amp; PANEL AT MAIN ENTRY- (CLIENT TO PROVIDE DIGITIZED SITEPLAN ART, OR FOURCE CAN CREATE AT ADDITIONAL FEE)</description>
+         <count>1</count>
+         <cost>2450</cost>
+         <total_cost>2450</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>CARPORT NUMBERS </description>
+         <count>72</count>
+         <cost>38</cost>
+         <total_cost>2736</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>DETATCHED GARAGE BUILDING ID</description>
+         <count>3</count>
+         <cost>175</cost>
+         <total_cost>525</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>DETATCHED GARAGE DOOR NUMBERS (X5 @ EACH. X1 ACCESSIBLE)</description>
+         <count>15</count>
+         <cost>38</cost>
+         <total_cost>570</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>TRASH COMPACTOR ID / POLICY</description>
+         <count>1</count>
+         <cost>285</cost>
+         <total_cost>285</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>TRASH ENCLOSURE ID / POLICY</description>
+         <count>1</count>
+         <cost>285</cost>
+         <total_cost>285</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#5: BUILDING SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>100&apos;S SINGLE BUILDING ID W/ UNIT SPREAD- (101-102, 103-104, 113-114, 123-124,125-126, 127-128, 153-154, 175-176)</description>
+         <count>8</count>
+         <cost>189</cost>
+         <total_cost>1512</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>100&apos;S DOUBLE BUILDING ID W/ UNIT SPREAD- (105-106 &amp; 107-108, 109-110 &amp; 111-112, 115-116 &amp; 117-118,- 119-120 &amp; 121-122, 129-130 &amp; 131-132, 133-134 &amp; 135-136,- 137-138 &amp; 139-140, 141-142 &amp; 143-144, 145-146 &amp; 147-148,- 149-150 &amp; 151-152, 155-156 &amp; 157-158, 159-160 &amp; 161-162,- 163-164 &amp; 165-166, 167-168 &amp; 169-170, 171-172 &amp; 173-174,- 177-178 &amp; 179-180, 181-182 &amp; 183-184, 185-186 &amp; 187-188,- 189-190 &amp; 191-192, 193-194 &amp; 195-196, 197-198 &amp; 199-200</description>
+         <count>21</count>
+         <cost>189</cost>
+         <total_cost>3969</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>100&apos;S BUILDINGS  - UNIT DOOR NUMBERS (101-199)</description>
+         <count>99</count>
+         <cost>98</cost>
+         <total_cost>9702</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>200&apos;S SINGLE BUILDING ID W/ UNIT SPREAD- (209-210, 211-212, 225-226, 227-228, 253-254, 255-256, 257-258)</description>
+         <count>7</count>
+         <cost>189</cost>
+         <total_cost>1323</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>200&apos;S DOUBLE BUILDING ID W/ UNIT SPREAD- 201-202 &amp; 203-204, 205-206 &amp; 207-208, 213-214 &amp; 215-216,- 217-218 &amp; 219-220, 221-222 &amp; 223-224, 229-230 &amp; 231-232,- 233-234 &amp; 235-236, 237-238 &amp; 239-240, 241-242 &amp; 243-244,- 245-246 &amp; 247-248, 249-250 &amp; 251-252, 259-260 &amp; 261-262,- 263-264 &amp; 265-266, 267-268 &amp; 269-270, 271-272 &amp; 273-274,- 275-276 &amp; 277-278, 279-280 &amp; 281-282, 283-284 &amp; 285-286,- 287-288 &amp; 289-290, 291-292 &amp; 293-294, 295-296 &amp; 297-298)</description>
+         <count>21</count>
+         <cost>189</cost>
+         <total_cost>3969</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>200&apos;S BUILDINGS - UNIT DOOR NUMBERS (200-299)</description>
+         <count>100</count>
+         <cost>98</cost>
+         <total_cost>9800</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>300&apos;S DOUBLE BUILDING ID W/ UNIT SPREAD- (299-300 &amp; 301-302, 307-308 &amp; 309-310, 311-312 &amp; 313-314,- 315-316 &amp; 317-318, 319-320 &amp; 321-322, 323-324 &amp; 325-326)</description>
+         <count>6</count>
+         <cost>189</cost>
+         <total_cost>1134</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>300&apos;S BUILDINGS - UNIT DOOR NUMBERS (300-326)</description>
+         <count>27</count>
+         <cost>98</cost>
+         <total_cost>2646</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#6: STREET SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>DUAL BLADE STREET SIGNS W/ STOP SIGN</description>
+         <count>3</count>
+         <cost>1245</cost>
+         <total_cost>3735</total_cost>
+      </sign>
+      
+   </section>
+   
+   <section>
+   <section_name>#7: AMENITY SIGNAGE</section_name>
+   
+      <sign>
+         <key>A.</key>
+         <description>POOL POLICY - FENCE MOUNT</description>
+         <count>1</count>
+         <cost>695</cost>
+         <total_cost>695</total_cost>
+      </sign>
+      
+      <sign>
+         <key>B.</key>
+         <description>ADDT. TX 2022 POOL POLICY - FENCE MOUNT</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </sign>
+      
+      <sign>
+         <key>C.</key>
+         <description>WARNING NO LIFEGUARD / NO DIVING - FENCE MOUNT</description>
+         <count>1</count>
+         <cost>410</cost>
+         <total_cost>410</total_cost>
+      </sign>
+      
+      <sign>
+         <key>D.</key>
+         <description>911 EMERGENCY PHONE SIGN</description>
+         <count>1</count>
+         <cost>155</cost>
+         <total_cost>155</total_cost>
+      </sign>
+      
+      <sign>
+         <key>E.</key>
+         <description>POOL GATE W/ HOURS &amp; 911 DIRECTIONAL</description>
+         <count>3</count>
+         <cost>285</cost>
+         <total_cost>855</total_cost>
+      </sign>
+      
+      <sign>
+         <key>F.</key>
+         <description>GRILL POLICIES (X1 @ POOL, X2 @ PICNIC AREA)</description>
+         <count>3</count>
+         <cost>335</cost>
+         <total_cost>1005</total_cost>
+      </sign>
+      
+      <sign>
+         <key>G.</key>
+         <description>FIRE PIT GUIDELINES (@ POOL)</description>
+         <count>1</count>
+         <cost>185</cost>
+         <total_cost>185</total_cost>
+      </sign>
+      
+      <sign>
+         <key>H.</key>
+         <description>DOG PARK ID / POLICY - FENCE MOUNT</description>
+         <count>1</count>
+         <cost>695</cost>
+         <total_cost>695</total_cost>
+      </sign>
+      
+      <sign>
+         <key>I.</key>
+         <description>PICKLEBALL COURT ID / POLICY - FENCE MOUNT (PER LH1.08)</description>
+         <count>1</count>
+         <cost>695</cost>
+         <total_cost>695</total_cost>
+      </sign>
+      
+      <sign>
+         <key>J.</key>
+         <description>PLAYGROUND ID / POLICY - ON POST</description>
+         <count>1</count>
+         <cost>795</cost>
+         <total_cost>795</total_cost>
+      </sign>
+      
+   </section>
+   
+      </contract>
+      <metadata>
+      
+   <quote_num>2304DHI01S</quote_num>
+   <contract_file>2304DHI01S Ascend on Potranco Signage.xlsx</contract_file>
+   <client_name>DHI COMMUNITIES 5419 NORTH LOOP 1604 EAST SAN ANTONIO, TX 78247</client_name>
+   <project_name>ASCEND ON POTRANCO</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
+      <unique_sign_list>
+      </unique_sign_list>
+      </job_info>
+      
