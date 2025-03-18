@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2110AVE01RS</quote_num>
+   <contract_file>2110AVE01RS AVE DALLAS REV 1.xlsx</contract_file>
+   <client_name>AVE LIVING (DIV OF KORMAN COMMUNITIES)  580 WEST GERMANTOWN PIKE STE 200 PLYMOUTH MEETING, PA 19462</client_name>
+   <project_name>AVE DALLAS</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2110AVE01RS AVE DALLAS REV 1.xlsx</contract_name>
       
    <section>
    <section_name>#1 MAIN ID / EXTERIOR SIGNAGE</section_name>
@@ -94,17 +103,158 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2110AVE01RS</quote_num>
-   <contract_file>2110AVE01RS AVE DALLAS REV 1.xlsx</contract_file>
-   <client_name>AVE LIVING (DIV OF KORMAN COMMUNITIES)  580 WEST GERMANTOWN PIKE STE 200 PLYMOUTH MEETING, PA 19462</client_name>
-   <project_name>AVE DALLAS</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1 MAIN ID / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D/F ILLUMINATED MONUMENT ID SIGN WITH DIMENSIONAL- LETTERING, AT ENTRY OFF MERIDIAN - USE EXISTING BASE AND- POWER</description>
+         <total_count>1</total_count>
+         <each_cost>14900</each_cost>
+         <total_cost>14900</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1 MAIN ID / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D/F ILLUMINATED PROJECTING/BLADE ID SIGN WITH DIMENSIONAL- LETTERING, - USE EXISTING POWER AND MOUNTING ARMATURES</description>
+         <total_count>1</total_count>
+         <each_cost>15500</each_cost>
+         <total_cost>15500</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1 MAIN ID / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S/F ILLUMINATED WALL MOUNTED ID SIGN WITH DIMENSIONAL- LETTERING - USE EXISTING POWER AND MOUNTING FRAME</description>
+         <total_count>1</total_count>
+         <each_cost>10900</each_cost>
+         <total_cost>10900</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1 MAIN ID / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING CENTER HOURS SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>445</each_cost>
+         <total_cost>445</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1 MAIN ID / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM VISITOR PARKING (ON POLE WITH BASEPLATE) - NEW</description>
+         <total_count>2</total_count>
+         <each_cost>735</each_cost>
+         <total_cost>1470</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1 MAIN ID / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM FUTURE RESIDENT (ON POLE WITH BASEPLATE)</description>
+         <total_count>3</total_count>
+         <each_cost>735</each_cost>
+         <total_cost>2205</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#1 MAIN ID / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM HC VAN ACCESSIBLE (ON POLE WITH BASEPLATE)</description>
+         <total_count>1</total_count>
+         <each_cost>735</each_cost>
+         <total_cost>735</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#1 MAIN ID / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM HC PARKING (ON POLE WITH BASEPLATE)</description>
+         <total_count>1</total_count>
+         <each_cost>735</each_cost>
+         <total_cost>735</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2 AMENTITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D/F MONOLITH STYLE ID - UNLEASHED, NON-ILLUMINATED - NEW</description>
+         <total_count>1</total_count>
+         <each_cost>1985</each_cost>
+         <total_cost>1985</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2 AMENTITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNLEASHED RULES &quot;COVER&quot; PANEL</description>
+         <total_count>1</total_count>
+         <each_cost>290</each_cost>
+         <total_cost>290</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

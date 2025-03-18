@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2205EP01RS</quote_num>
+   <contract_file>2205EP01RS Atlas Crown Building ID.xlsx</contract_file>
+   <client_name>EMBREY 1020 NE LOOP 410, SUITE 700 SAN ANTONIO, TX 78209</client_name>
+   <project_name>ATLAS CROWN - BUILDING ID @ LEASING CENTER</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2205EP01RS Atlas Crown Building ID.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -17,17 +26,23 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2205EP01RS</quote_num>
-   <contract_file>2205EP01RS Atlas Crown Building ID.xlsx</contract_file>
-   <client_name>EMBREY 1020 NE LOOP 410, SUITE 700 SAN ANTONIO, TX 78209</client_name>
-   <project_name>ATLAS CROWN - BUILDING ID @ LEASING CENTER</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>2 FT X 9 FT ALUMINUM PAN SIGN, FLAT CUT DIMENSIONAL- GRAPHICS, LOCATED ABOVE LEASING CENTER (X1 REPLACING- EXISTING &quot;LEASING&quot; SIGN WITH &quot;ATLAS CROWN...&quot;, AND X1 NEW- SIGN TO READ &quot;LEASING&quot;)</description>
+         <total_count>2</total_count>
+         <each_cost>4900</each_cost>
+         <total_cost>9800</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

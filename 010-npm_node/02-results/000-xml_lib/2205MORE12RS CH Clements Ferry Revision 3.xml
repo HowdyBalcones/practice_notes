@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2205MORE12RS</quote_num>
+   <contract_file>2205MORE12RS CH Clements Ferry Revision 3.xlsx</contract_file>
+   <client_name>MORE RESIDENTIAL 5800 GRANITE PKWY, STE 1050 PLANO, TX 75024</client_name>
+   <project_name>COVEY HOMES CLEMENTS FERRY (BERESFORD)</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2205MORE12RS CH Clements Ferry Revision 3.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -136,17 +145,218 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2205MORE12RS</quote_num>
-   <contract_file>2205MORE12RS CH Clements Ferry Revision 3.xlsx</contract_file>
-   <client_name>MORE RESIDENTIAL 5800 GRANITE PKWY, STE 1050 PLANO, TX 75024</client_name>
-   <project_name>COVEY HOMES CLEMENTS FERRY (BERESFORD)</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-FACE ILLUMINATED DROP IN MONUMENT: TBD BASED - ON CODE FOR SET BACK AND ILLUMINATION. PRICING AS A- BUDGET PLACE HOLDER. SIGN IS CURRENTLY 55&apos; FROM BACK OF CURB,- *ELECTRICAL PULLED TO LOCATION BY OTHERS. NO POWER CURRENTLY PULLED TO LOCATION</description>
+         <total_count>1</total_count>
+         <each_cost>16500</each_cost>
+         <total_cost>16500</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>REPLACE EXISTING HOURS SIGN  (REMOVE VINYL ARTISAN LOGO ON GLASS-  AND HOURS SIGN) WITH &quot;COVEY HOMES BY MORE&quot; PLAQUE</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM FUTURE RESIDENT PARKING LANDSCAPE MOUNT ON POLE- (NEW SIGN)</description>
+         <total_count>1</total_count>
+         <each_cost>795</each_cost>
+         <total_cost>795</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAIL CENTER LOGO COVER PANEL</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SINGLE-FACE CUSTOM 4&apos; X 4&apos; ALUMINUM POST AND PANEL SIGN WITH- DIGITAL GRAPHICS AND PIN MOUNT HOURS (TO BE INTERCHANGEABLE)- (INSTALLS IN FRONT OF LEASING / MODEL UNIT) NEW SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>1895</each_cost>
+         <total_cost>1895</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: EXTERIOR SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SINGLE-FACE POST AND PANEL LANDSCAPE MOUNT DIRECTIONAL: - NEW SIGN - LEASING &amp; FRP WITH DIRECTIONAL VALUE</description>
+         <total_count>1</total_count>
+         <each_cost>795</each_cost>
+         <total_cost>795</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: EXTERIOR SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SINGLE-FACE POST AND PANEL LANDSCAPE MOUNT - &quot;NO STREET PARKING&quot; : (NEW SIGNS) 12&quot; x 18&quot; SINGLE PLATE ON GALVONIZED POLE</description>
+         <total_count>2</total_count>
+         <each_cost>295</each_cost>
+         <total_cost>590</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: EXTERIOR SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NO SWIMMING (CROCODILE IN WATER) 12&quot; X 18&quot; SINGLE PLATE ON- GALVONIZED POLE. NEW SIGN</description>
+         <total_count>2</total_count>
+         <each_cost>295</each_cost>
+         <total_cost>590</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: EXTERIOR SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GOLF CART VINYL DECALS - LOGO ONLY, SIZE TBD. NEED DIMS- (X1 GOLF CARTS: ONE ON FRONT, TWO SIDES)</description>
+         <total_count>3</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>294</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: AMENITIES SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL POLICY : FENCE MOUNT WITH BACKER - REPLACES EXISTING - NOT BRANDED FENCE SIGN (SINGLE ALUMINUM PLATE WITH VINYL COPY)</description>
+         <total_count>1</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>595</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: AMENITIES SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL GATE WITH BACKER: (NO GLASS AND HOURS)- NEW SIGNS</description>
+         <total_count>2</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>310</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: AMENITIES SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG PARK POLICY / ID - MOUNTS TO WOOD FENCE. - REPLACES EXISTING BRANDED SIGN  (SINGLE ALUMINUM PLATE WITH VINYL COPY)</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: AMENITIES SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GRILLING POLICIES: STRUCTURE MOUNT. NEW SIGNS, (1X POOL,- 1X REAR COURTYARD) (SINGLE ALUMINUM PLATE WITH VINYL COPY)</description>
+         <total_count>2</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>830</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: AMENITIES SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE PIT POLICIES. STRUCTURE MOUNT. NEW SIGN, LOCATED - AT REAR COURTYARD (SINGLE ALUMINUM PLATE WITH VINYL COPY)</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

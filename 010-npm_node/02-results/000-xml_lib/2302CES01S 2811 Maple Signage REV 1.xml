@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2302CES01S</quote_num>
+   <contract_file>2302CES01S 2811 Maple Signage REV 1.xlsx</contract_file>
+   <client_name>CRESCENT REAL ESTATE, LLC 200 CRESCENT CT. STE 250 DALLAS, TX 75201</client_name>
+   <project_name>2811 MAPLE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2302CES01S 2811 Maple Signage REV 1.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -3228,17 +3237,2588 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2302CES01S</quote_num>
-   <contract_file>2302CES01S 2811 Maple Signage REV 1.xlsx</contract_file>
-   <client_name>CRESCENT REAL ESTATE, LLC 200 CRESCENT CT. STE 250 DALLAS, TX 75201</client_name>
-   <project_name>2811 MAPLE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>2811 MAPLE MAIN ID ALLOCATION - BUDGETARY HOLD NUMBER</description>
+         <total_count>1</total_count>
+         <each_cost>15800</each_cost>
+         <total_cost>15800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER - EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ILLUMINATED PROJECT/ART  ID - GARAGE TO BUILDING - (LOCATED AT VALET DROP-OFF)- (DESIGN TBD WHEN FURTHER DETAILAS AVAILABLE)- *POWER AND BLOCKING TO LOCATION BY OTHERS*</description>
+         <total_count>1</total_count>
+         <each_cost>11000</each_cost>
+         <total_cost>11000</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER - EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE DOOR VINYL KIT (HOURS, LOGO, URL, PHONE)</description>
+         <total_count>1</total_count>
+         <each_cost>139</each_cost>
+         <total_cost>139</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER - EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;DOORS TO REMAIN UNLOCKED…&quot; VINYL KIT</description>
+         <total_count>1</total_count>
+         <each_cost>69</each_cost>
+         <total_cost>69</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER - EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>VALET DROP-OFF INDIVIDUAL LETTERS MOUNTED TO WALL</description>
+         <total_count>3</total_count>
+         <each_cost>1000</each_cost>
+         <total_cost>3000</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MANAGER ID</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING ID</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEE ONLY (X1 WORK / PACKAGE @ LVL1, X1 JANITOR @ LVL2)</description>
+         <total_count>2</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>116</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING ENTRY ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID (X1 @ LVL1, X1 @ LVL2)</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOUNGE ID</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOUNGE POLICY - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS ID</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PERSONAL FITNESS ID</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS POLICY - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CO-WORK ID</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CO-WORK POLICY - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CONFERENCE ROOM ID</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CONFERENCE ROOM STAND-UP POLICY</description>
+         <total_count>1</total_count>
+         <each_cost>285</each_cost>
+         <total_cost>285</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEN&apos;S RESTROOM</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMEN&apos;S RESTROOM</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAX OCCUPANCY (LEASE, FITNESS, CO-WORK, LOUNGE)</description>
+         <total_count>4</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>232</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: BUILDING BASEMENT - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: BUILDING BASEMENT - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: BUILDING BASEMENT - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#7: BUILDING BASEMENT - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GARAGE TO BUILDING / STAIR / LEVEL / EXIT (STAIR B-2)</description>
+         <total_count>4</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>352</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: BUILDING BASEMENT - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: BUILDING BASEMENT - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: BUILDING BASEMENT - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#7: BUILDING BASEMENT - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR / LEVEL / EXIT (STAIR B-1)</description>
+         <total_count>4</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>312</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4: BUILDING BASEMENT - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: BUILDING BASEMENT - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: BUILDING BASEMENT - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#7: BUILDING BASEMENT - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#9: BUILDING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#10: BUILDING - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#11: BUILDING - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#12: BUILDING - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#13: BUILDING - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#14: BUILDING - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#15: BUILDING - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#16: BUILDING - LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#17: BUILDING - LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#18: BUILDING - LEVEL 11 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#19: BUILDING - LEVEL 12 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#20: BUILDING - LEVEL 14 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#21: BUILDING - LEVEL 15 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#22: BUILDING - LEVEL 16 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#23: BUILDING - LEVEL 17 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#24: BUILDING - LEVEL 18 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#25: BUILDING - LEVEL 19 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#26: BUILDING - LEVEL 20 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#27: BUILDING - LEVEL 21 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#28: BUILDING - LEVEL 22 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#29: BUILDING - LEVEL 23 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#30: BUILDING - LEVEL 24 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#31: BUILDING - LEVEL 25 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#32: BUILDING - LEVEL 26 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#33: BUILDING - LEVEL 27 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#34: BUILDING - LEVEL 28 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#35: BUILDING - LEVEL 29 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#36: BUILDING - LEVEL 30 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#37: BUILDING - LEVEL 31 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL (PHOTOLUMINESCENT)</description>
+         <total_count>70</total_count>
+         <each_cost>240</each_cost>
+         <total_cost>16800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4: BUILDING BASEMENT - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: BUILDING BASEMENT - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: BUILDING BASEMENT - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#7: BUILDING BASEMENT - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GARAGE TO BUILDING / ELEVATOR LOBBY </description>
+         <total_count>8</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>624</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4: BUILDING BASEMENT - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: BUILDING BASEMENT - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#6: BUILDING BASEMENT - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#7: BUILDING BASEMENT - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#9: BUILDING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#10: BUILDING - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#11: BUILDING - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#12: BUILDING - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#13: BUILDING - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#14: BUILDING - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#15: BUILDING - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#16: BUILDING - LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#17: BUILDING - LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#18: BUILDING - LEVEL 11 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#19: BUILDING - LEVEL 12 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#20: BUILDING - LEVEL 14 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#21: BUILDING - LEVEL 15 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#22: BUILDING - LEVEL 16 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#23: BUILDING - LEVEL 17 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#24: BUILDING - LEVEL 18 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#25: BUILDING - LEVEL 19 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#26: BUILDING - LEVEL 20 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#27: BUILDING - LEVEL 21 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#28: BUILDING - LEVEL 22 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#29: BUILDING - LEVEL 23 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#30: BUILDING - LEVEL 24 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#31: BUILDING - LEVEL 25 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#32: BUILDING - LEVEL 26 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#33: BUILDING - LEVEL 27 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#34: BUILDING - LEVEL 28 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#35: BUILDING - LEVEL 29 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#36: BUILDING - LEVEL 30 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#37: BUILDING - LEVEL 31 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
+         <total_count>39</total_count>
+         <each_cost>275</each_cost>
+         <total_cost>10725</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#4: BUILDING BASEMENT - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#5: BUILDING BASEMENT - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#6: BUILDING BASEMENT - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#7: BUILDING BASEMENT - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING TO GARAGE (X1 @ STAIR B-2, X2 @ ELEV. LOBBY)</description>
+         <total_count>12</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>816</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#4: BUILDING BASEMENT - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (@ ELEV. LOBBY)</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#4: BUILDING BASEMENT - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL PUMP ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#4: BUILDING BASEMENT - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#5: BUILDING BASEMENT - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#6: BUILDING BASEMENT - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#7: BUILDING BASEMENT - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL EQUIPMENT ID</description>
+         <total_count>4</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>232</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#4: BUILDING BASEMENT - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MDF ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#4: BUILDING BASEMENT - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID (X1 @ ELEV. LOBBY)</description>
+         <total_count>2</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>116</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#4: BUILDING BASEMENT - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BIKE STORAGE ID</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#4: BUILDING BASEMENT - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BIKE STORAGE POLICY - WALL MOUNT</description>
+         <total_count>2</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>830</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#4: BUILDING BASEMENT - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG WASH ID</description>
+         <total_count>2</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>136</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#4: BUILDING BASEMENT - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG WASH POLICY - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#4: BUILDING BASEMENT - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE PUMP / VALVE ROOM ID (4&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#5: BUILDING BASEMENT - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#6: BUILDING BASEMENT - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID (X3 @ ELEV. LOBBY)</description>
+         <total_count>13</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>884</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#7: BUILDING BASEMENT - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID (X3 @ ELEV. LOBBY, X1 @ LVL 5)</description>
+         <total_count>6</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>408</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#7: BUILDING BASEMENT - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAINTENANCE ID</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING / ADDRESS ID - INDIVIDUAL NUMERALS</description>
+         <total_count>4</total_count>
+         <each_cost>780</each_cost>
+         <total_cost>3120</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR ACCESS EXT.</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#9: BUILDING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#10: BUILDING - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#11: BUILDING - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#12: BUILDING - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#13: BUILDING - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#14: BUILDING - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#15: BUILDING - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#16: BUILDING - LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#17: BUILDING - LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#18: BUILDING - LEVEL 11 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#19: BUILDING - LEVEL 12 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#20: BUILDING - LEVEL 14 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#21: BUILDING - LEVEL 15 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#22: BUILDING - LEVEL 16 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#23: BUILDING - LEVEL 17 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#24: BUILDING - LEVEL 18 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#25: BUILDING - LEVEL 19 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#26: BUILDING - LEVEL 20 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#27: BUILDING - LEVEL 21 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#28: BUILDING - LEVEL 22 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#29: BUILDING - LEVEL 23 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#30: BUILDING - LEVEL 24 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#31: BUILDING - LEVEL 25 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#32: BUILDING - LEVEL 26 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#33: BUILDING - LEVEL 27 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#34: BUILDING - LEVEL 28 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#35: BUILDING - LEVEL 29 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#36: BUILDING - LEVEL 30 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#37: BUILDING - LEVEL 31 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR / LEVEL / EXIT</description>
+         <total_count>60</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>4680</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR TO BASEMENT PARKING </description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#9: BUILDING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#10: BUILDING - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#11: BUILDING - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#12: BUILDING - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#13: BUILDING - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#14: BUILDING - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#15: BUILDING - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#16: BUILDING - LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#17: BUILDING - LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#18: BUILDING - LEVEL 11 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#19: BUILDING - LEVEL 12 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#20: BUILDING - LEVEL 14 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#21: BUILDING - LEVEL 15 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#22: BUILDING - LEVEL 16 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#23: BUILDING - LEVEL 17 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#24: BUILDING - LEVEL 18 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#25: BUILDING - LEVEL 19 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#26: BUILDING - LEVEL 20 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#27: BUILDING - LEVEL 21 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#28: BUILDING - LEVEL 22 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#29: BUILDING - LEVEL 23 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#30: BUILDING - LEVEL 24 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#31: BUILDING - LEVEL 25 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#32: BUILDING - LEVEL 26 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#33: BUILDING - LEVEL 27 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#34: BUILDING - LEVEL 28 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#35: BUILDING - LEVEL 29 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#36: BUILDING - LEVEL 30 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#37: BUILDING - LEVEL 31 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR LOBBY ID</description>
+         <total_count>59</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>5192</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLEARANCE BAR PACKAGE</description>
+         <total_count>1</total_count>
+         <each_cost>1165</each_cost>
+         <total_cost>1165</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ENTER / EXIT / GATE WARNING SIGN COMBO</description>
+         <total_count>1</total_count>
+         <each_cost>465</each_cost>
+         <total_cost>465</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOADING AREA / DO NOT BLOCK - PAN W/ CUT OUT LETTERS</description>
+         <total_count>1</total_count>
+         <each_cost>410</each_cost>
+         <total_cost>410</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAIN ELECTRICAL ID</description>
+         <total_count>2</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>136</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#9: BUILDING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#10: BUILDING - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#11: BUILDING - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#12: BUILDING - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#13: BUILDING - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#14: BUILDING - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#15: BUILDING - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#16: BUILDING - LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#17: BUILDING - LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#18: BUILDING - LEVEL 11 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#19: BUILDING - LEVEL 12 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#20: BUILDING - LEVEL 14 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#21: BUILDING - LEVEL 15 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#22: BUILDING - LEVEL 16 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#23: BUILDING - LEVEL 17 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#24: BUILDING - LEVEL 18 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#25: BUILDING - LEVEL 19 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#26: BUILDING - LEVEL 20 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#27: BUILDING - LEVEL 21 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#28: BUILDING - LEVEL 22 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#29: BUILDING - LEVEL 23 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#30: BUILDING - LEVEL 24 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#31: BUILDING - LEVEL 25 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#32: BUILDING - LEVEL 26 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#33: BUILDING - LEVEL 27 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#34: BUILDING - LEVEL 28 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID</description>
+         <total_count>43</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>2924</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#9: BUILDING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#10: BUILDING - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#11: BUILDING - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#12: BUILDING - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#13: BUILDING - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#14: BUILDING - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#15: BUILDING - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#16: BUILDING - LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#17: BUILDING - LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#18: BUILDING - LEVEL 11 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#19: BUILDING - LEVEL 12 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#20: BUILDING - LEVEL 14 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#21: BUILDING - LEVEL 15 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#22: BUILDING - LEVEL 16 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#23: BUILDING - LEVEL 17 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#24: BUILDING - LEVEL 18 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#25: BUILDING - LEVEL 19 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#26: BUILDING - LEVEL 20 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#27: BUILDING - LEVEL 21 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#28: BUILDING - LEVEL 22 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#29: BUILDING - LEVEL 23 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#30: BUILDING - LEVEL 24 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#31: BUILDING - LEVEL 25 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#32: BUILDING - LEVEL 26 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#33: BUILDING - LEVEL 27 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#34: BUILDING - LEVEL 28 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#35: BUILDING - LEVEL 29 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#36: BUILDING - LEVEL 30 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#37: BUILDING - LEVEL 31 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID</description>
+         <total_count>30</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>2040</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH PICK-UP / DO NOT BLOCK - PAN W/ CUT OUT LETTERS</description>
+         <total_count>1</total_count>
+         <each_cost>435</each_cost>
+         <total_cost>435</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#9: BUILDING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#10: BUILDING - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#11: BUILDING - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#12: BUILDING - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#13: BUILDING - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#14: BUILDING - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#15: BUILDING - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#16: BUILDING - LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#17: BUILDING - LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#18: BUILDING - LEVEL 11 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#19: BUILDING - LEVEL 12 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#20: BUILDING - LEVEL 14 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#21: BUILDING - LEVEL 15 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#22: BUILDING - LEVEL 16 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#23: BUILDING - LEVEL 17 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#24: BUILDING - LEVEL 18 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#25: BUILDING - LEVEL 19 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#26: BUILDING - LEVEL 20 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#27: BUILDING - LEVEL 21 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#28: BUILDING - LEVEL 22 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#29: BUILDING - LEVEL 23 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#30: BUILDING - LEVEL 24 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#31: BUILDING - LEVEL 25 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#32: BUILDING - LEVEL 26 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#33: BUILDING - LEVEL 27 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#34: BUILDING - LEVEL 28 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#35: BUILDING - LEVEL 29 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#36: BUILDING - LEVEL 30 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#37: BUILDING - LEVEL 31 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM ID</description>
+         <total_count>30</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>2040</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#9: BUILDING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#10: BUILDING - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#11: BUILDING - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#12: BUILDING - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#13: BUILDING - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#14: BUILDING - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#15: BUILDING - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#16: BUILDING - LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#17: BUILDING - LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#18: BUILDING - LEVEL 11 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#19: BUILDING - LEVEL 12 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#20: BUILDING - LEVEL 14 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#21: BUILDING - LEVEL 15 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#22: BUILDING - LEVEL 16 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#23: BUILDING - LEVEL 17 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#24: BUILDING - LEVEL 18 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#25: BUILDING - LEVEL 19 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#26: BUILDING - LEVEL 20 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#27: BUILDING - LEVEL 21 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#28: BUILDING - LEVEL 22 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#29: BUILDING - LEVEL 23 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#30: BUILDING - LEVEL 24 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#31: BUILDING - LEVEL 25 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#32: BUILDING - LEVEL 26 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#33: BUILDING - LEVEL 27 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#34: BUILDING - LEVEL 28 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#35: BUILDING - LEVEL 29 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#36: BUILDING - LEVEL 30 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#37: BUILDING - LEVEL 31 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM POLICY - WALL MOUNT</description>
+         <total_count>30</total_count>
+         <each_cost>410</each_cost>
+         <total_cost>12300</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE ROOM (4&quot;) - DIAMOND GRADE</description>
+         <total_count>1</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>165</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FDC W/ ADDRESS - DIAMOND GRADE</description>
+         <total_count>1</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>165</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#8: BUILDING - GROUND LEVEL SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FACP SIGN - DIAMOND GRADE</description>
+         <total_count>1</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>165</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#9: BUILDING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR ACCESS</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#10: BUILDING - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#11: BUILDING - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#12: BUILDING - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#13: BUILDING - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#14: BUILDING - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#15: BUILDING - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#16: BUILDING - LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#17: BUILDING - LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#18: BUILDING - LEVEL 11 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#19: BUILDING - LEVEL 12 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#20: BUILDING - LEVEL 14 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#21: BUILDING - LEVEL 15 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#22: BUILDING - LEVEL 16 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#23: BUILDING - LEVEL 17 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#24: BUILDING - LEVEL 18 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#25: BUILDING - LEVEL 19 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#26: BUILDING - LEVEL 20 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#27: BUILDING - LEVEL 21 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#28: BUILDING - LEVEL 22 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#29: BUILDING - LEVEL 23 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#30: BUILDING - LEVEL 24 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#31: BUILDING - LEVEL 25 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#32: BUILDING - LEVEL 26 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#33: BUILDING - LEVEL 27 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#34: BUILDING - LEVEL 28 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#35: BUILDING - LEVEL 29 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#36: BUILDING - LEVEL 30 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#37: BUILDING - LEVEL 31 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT DOOR NUMBERS</description>
+         <total_count>177</total_count>
+         <each_cost>128</each_cost>
+         <total_cost>22656</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#10: BUILDING - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#11: BUILDING - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#12: BUILDING - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#13: BUILDING - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#14: BUILDING - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#15: BUILDING - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#16: BUILDING - LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#17: BUILDING - LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#18: BUILDING - LEVEL 11 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#19: BUILDING - LEVEL 12 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#20: BUILDING - LEVEL 14 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#21: BUILDING - LEVEL 15 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#22: BUILDING - LEVEL 16 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#23: BUILDING - LEVEL 17 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#24: BUILDING - LEVEL 18 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#25: BUILDING - LEVEL 19 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#26: BUILDING - LEVEL 20 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#27: BUILDING - LEVEL 21 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#28: BUILDING - LEVEL 22 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#29: BUILDING - LEVEL 23 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#30: BUILDING - LEVEL 24 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#31: BUILDING - LEVEL 25 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#32: BUILDING - LEVEL 26 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#33: BUILDING - LEVEL 27 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#34: BUILDING - LEVEL 28 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#35: BUILDING - LEVEL 29 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#36: BUILDING - LEVEL 30 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#37: BUILDING - LEVEL 31 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HALLWAY DIRECTIONAL - IN ELEVATOR LOBBY</description>
+         <total_count>28</total_count>
+         <each_cost>200</each_cost>
+         <total_cost>5600</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#38: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL POLICY ON POST W/ BASE PLATE OR ETCH ON GLASS</description>
+         <total_count>1</total_count>
+         <each_cost>795</each_cost>
+         <total_cost>795</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#38: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADDT. TX POOL POLICY ON POST W/ BASE PLATE </description>
+         <total_count>1</total_count>
+         <each_cost>410</each_cost>
+         <total_cost>410</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#38: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WARNING NO LIFEGUARD / NO DIVING - ON POST W/ BASE PLATE</description>
+         <total_count>1</total_count>
+         <each_cost>410</each_cost>
+         <total_cost>410</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#38: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>911 EMERGENCY PHONE SIGN - ATTACHES TO POST OF MECHANISER</description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#38: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL GATE W/ HOURS &amp; 911 DIRECTIONAL</description>
+         <total_count>2</total_count>
+         <each_cost>315</each_cost>
+         <total_cost>630</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#38: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GRILL POLICIES (@ POOL)</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#38: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG PARK ID / POLICY - FENCE MOUNT</description>
+         <total_count>2</total_count>
+         <each_cost>695</each_cost>
+         <total_cost>1390</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#38: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE PIT GUIDELINES PLAQUE</description>
+         <total_count>1</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>135</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

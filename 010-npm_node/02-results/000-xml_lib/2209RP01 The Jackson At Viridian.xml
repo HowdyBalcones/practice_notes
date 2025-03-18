@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2209RP01</quote_num>
+   <contract_file>2209RP01 The Jackson At Viridian.xlsx</contract_file>
+   <client_name>ROSCOE PROPERTY MANAGEMENT 8111 PRESTON RD. DALLAS, TX 75225</client_name>
+   <project_name>THE JACKSON AT VIRIDIAN - POOL LOGO SIGN</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2209RP01 The Jackson At Viridian.xlsx</contract_name>
       
    <section>
    <section_name>#1: LOGO SIGN</section_name>
@@ -17,17 +26,23 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2209RP01</quote_num>
-   <contract_file>2209RP01 The Jackson At Viridian.xlsx</contract_file>
-   <client_name>ROSCOE PROPERTY MANAGEMENT 8111 PRESTON RD. DALLAS, TX 75225</client_name>
-   <project_name>THE JACKSON AT VIRIDIAN - POOL LOGO SIGN</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: LOGO SIGN</section>
+         </section_key>
+         
+         </section_list>
+         <description>INTERNALLY ILLUMINATED SIGN CABINET WITH DIMENSIONAL- LOGO GRAPHIC, TO BE MOUNTED INTO EXISTING WALL RECESS,- OVERALL SIZE 37 IN X 66 IN-      * ASSUMES USE OF EXSITING ELECTRICAL CIRCUIT AT SIGN-      LOCATION</description>
+         <total_count>1</total_count>
+         <each_cost>4990</each_cost>
+         <total_cost>4990</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

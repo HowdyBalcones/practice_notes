@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2105TSC02S</quote_num>
+   <contract_file>2105TSC03S Uniti - Bishop Arts Signage.xlsx</contract_file>
+   <client_name>THE SHELTER COMPANIES 1722 ROUTH STREET STE 800 DALLAS, TX 75201</client_name>
+   <project_name>UNITI - BISHOP ARTS</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2105TSC03S Uniti - Bishop Arts Signage.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -756,17 +765,983 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2105TSC02S</quote_num>
-   <contract_file>2105TSC03S Uniti - Bishop Arts Signage.xlsx</contract_file>
-   <client_name>THE SHELTER COMPANIES 1722 ROUTH STREET STE 800 DALLAS, TX 75201</client_name>
-   <project_name>UNITI - BISHOP ARTS</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>INTERNALLY ILLUMINATED CHANNEL LETTERS - MOUNTS TO GARAGE- METAL SCREENING. *NAME TBD</description>
+         <total_count>1</total_count>
+         <each_cost>14600</each_cost>
+         <total_cost>14600</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: PARKING GARAGE - LEVEL 00 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GARAGE TO BUILDING / STAIR / LEVEL</description>
+         <total_count>4</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>272</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: PARKING GARAGE - LEVEL 00 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL</description>
+         <total_count>10</total_count>
+         <each_cost>175</each_cost>
+         <total_cost>1750</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: PARKING GARAGE - LEVEL 00 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING TO GARAGE (X1 @ EACH STAIR, X1 @ ELEV. LOBBY)</description>
+         <total_count>3</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>204</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: PARKING GARAGE - LEVEL 00 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GARAGE TO BUILDING / ELEVATOR LOBBY </description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: PARKING GARAGE - LEVEL 00 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
+         <total_count>5</total_count>
+         <each_cost>245</each_cost>
+         <total_cost>1225</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: PARKING GARAGE - LEVEL 00 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BIKE ROOM ID</description>
+         <total_count>2</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>96</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: PARKING GARAGE - LEVEL 00 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BIKE ROOM POLICY - WALL MOUNT</description>
+         <total_count>2</total_count>
+         <each_cost>235</each_cost>
+         <total_cost>470</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: PARKING GARAGE - LEVEL 00 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAINTENANCE ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#2: PARKING GARAGE - LEVEL 00 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESIDENT STORAGE</description>
+         <total_count>19</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>912</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>INTERNALLY ILLUMINATED ENTER/EXIT PARKING SIGN W/ EXTENDED- HANG-DOWN CLEARANCE BAR COMBO</description>
+         <total_count>1</total_count>
+         <each_cost>9800</each_cost>
+         <total_cost>9800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLEARANCE BAR PACKAGE</description>
+         <total_count>1</total_count>
+         <each_cost>1185</each_cost>
+         <total_cost>1185</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ENTER / GATE WARNING SIGN COMBO</description>
+         <total_count>1</total_count>
+         <each_cost>335</each_cost>
+         <total_cost>335</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXIT / GATE WARNING SIGN COMBO</description>
+         <total_count>1</total_count>
+         <each_cost>335</each_cost>
+         <total_cost>335</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR ACCESS EXT.</description>
+         <total_count>2</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>116</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING TO GARAGE (X1 @ EACH STAIR, X1 @ ELEVATOR)</description>
+         <total_count>3</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>204</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GARAGE TO BUILDING / ELEVATOR LOBBY</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BOILER ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAIL ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH / RECYCLE ROOM ID</description>
+         <total_count>4</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>192</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH / RECYCLE ROOM POLICY - WALL MOUNT</description>
+         <total_count>3</total_count>
+         <each_cost>235</each_cost>
+         <total_cost>705</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH PICK-UP / DO NOT BLOCK</description>
+         <total_count>1</total_count>
+         <each_cost>185</each_cost>
+         <total_cost>185</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE / PUMP CONTROL (4&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#3: PARKING GARAGE - LEVEL 01 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FDC W/ ADDRESS</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING ID W/ UNIT SPREAD</description>
+         <total_count>4</total_count>
+         <each_cost>285</each_cost>
+         <total_cost>1140</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT DOOR NUMBERS</description>
+         <total_count>120</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>5760</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HALLWAY DIRECTIONALS</description>
+         <total_count>9</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>990</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR / LEVEL</description>
+         <total_count>6</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>408</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LAUNDRY ID (PER A317 -VERIFY)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LAUNDRY POLICY - WALL MOUNT</description>
+         <total_count>3</total_count>
+         <each_cost>235</each_cost>
+         <total_cost>705</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEE ONLY (JANITOR)</description>
+         <total_count>3</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>144</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM</description>
+         <total_count>3</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>294</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PODCAST ROOM ID</description>
+         <total_count>4</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>272</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLUB ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLUB ROOM POLICY - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAX OCCUPANCY (CLUB ROOM)</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GAMIING ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PHONE ROOM ID</description>
+         <total_count>3</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>144</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ZOOM ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UTILITY ROOM ID (VERIFY - NO CALLOUT)</description>
+         <total_count>10</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>480</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#4: LEVEL 02 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>COURTYARD ACCESS ON VINYL</description>
+         <total_count>2</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>136</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LAUNDRY ID (PER A318 -VERIFY)</description>
+         <total_count>2</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>96</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS ID </description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS POLICY - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAX OCCUPANCY (FITNESS)</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WELLNESS ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#5: LEVEL 03 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>COLLAB. ZOOM ROOM ID</description>
+         <total_count>2</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>96</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CO-WORKING ID</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CO-WORKING ROOM POLICY -WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAX OCCUPANCY (CO-WORK)</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CRAFT ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#6: LEVEL 04 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH / RECYCLE ROOM POLICY - WALL MOUNT- *NO AMENITIES CALLED OUT IN ARCHITECTURE OR LANDSCAPE PLANS*</description>
+         <total_count>1</total_count>
+         <each_cost>235</each_cost>
+         <total_cost>235</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

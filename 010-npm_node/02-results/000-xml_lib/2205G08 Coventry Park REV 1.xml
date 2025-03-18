@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2205G08 REV 1</quote_num>
+   <contract_file>2205G08 Coventry Park REV 1.xlsx</contract_file>
+   <client_name>GREYSTAR 600 E. LAS COLINAS BLVD., STE 2100 IRVING, TX 75039</client_name>
+   <project_name>COVENTRY PARK - REFURB SIGNAGE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2205G08 Coventry Park REV 1.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -33,17 +42,53 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2205G08 REV 1</quote_num>
-   <contract_file>2205G08 Coventry Park REV 1.xlsx</contract_file>
-   <client_name>GREYSTAR 600 E. LAS COLINAS BLVD., STE 2100 IRVING, TX 75039</client_name>
-   <project_name>COVENTRY PARK - REFURB SIGNAGE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXTERNALLY ILLUMINATED CABINETS, APPROX 3 FT X 8 FT- (24 SQ FEET), WITH DIMENSIONAL LOGO GRAPHICS; FACES LIT- BY &quot;GOOSE NECK&quot; SPOT LIGHTS AT TOP OF SIGN- CABINET TO BE SUPPORTED BY MASONRY COLUMN (TO- MATCH EXISTING FENCE COLUMNS, APPROX 4 FT X 9 FT X 2 FT)-      *BELOW GRADE CONCRETE FOOTING &amp; MASONRY COLUMN-       BY OTHERS-      **PRIMARY ELECTRICAL SERVICE RUN TO SIGN LOCATION-      BY OTHERS</description>
+         <total_count>1</total_count>
+         <each_cost>14200</each_cost>
+         <total_cost>14200</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ILLUMINATED LOGO MARK (MODIFIED TO FIT SPACE), APPROX- 3 FT X 5 FT - NON-ILLUMINATED (SOLID ACRYLIC)-      **PRIMARY ELECTRICAL SERVICE RUN TO SIGN LOCATION-      BY OTHERS</description>
+         <total_count>1</total_count>
+         <each_cost>6290</each_cost>
+         <total_cost>6290</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NON-ILLUMINATED MONOLITH WITH ICON MARK, APPROX- 2 FT X 6 FT, WITH DIMENSIONAL GRAPHICS - LOCATED IN- PLANTING BED AT LEASING CENTER-      **PRIMARY ELECTRICAL SERVICE RUN TO SIGN LOCATION-      BY OTHERS</description>
+         <total_count>1</total_count>
+         <each_cost>5800</each_cost>
+         <total_cost>5800</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

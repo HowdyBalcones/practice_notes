@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2401SLI03S</quote_num>
+   <contract_file>2401SLI03S Residences Villa 7 (D.2).xlsx</contract_file>
+   <client_name>SAVANNAH LAND &amp; INVESTMENT 500 W. LOOKOUT DRIVE RICHARDSON, TX 75080</client_name>
+   <project_name>THE RESIDENCES VILLAS SEVEN - BUILDING D.2</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2401SLI03S Residences Villa 7 (D.2).xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -344,17 +353,508 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2401SLI03S</quote_num>
-   <contract_file>2401SLI03S Residences Villa 7 (D.2).xlsx</contract_file>
-   <client_name>SAVANNAH LAND &amp; INVESTMENT 500 W. LOOKOUT DRIVE RICHARDSON, TX 75080</client_name>
-   <project_name>THE RESIDENCES VILLAS SEVEN - BUILDING D.2</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SINGLE-FACE MONUMENT &quot;THE RESIDENCES VILLA SEVEN&quot;- 1&quot; DIMENSIONAL CAST ALUMINUM LETTERS PAINTED SW 6258- TRICORN BLACK - PIN MOUNTED TO ENTRY WALL WITH 1&quot; SPACERS- (GEMINI LETTERS AND PATTERN)</description>
+         <total_count>1</total_count>
+         <each_cost>4786</each_cost>
+         <total_cost>4786</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING ADDRESS NUMERALS (12&quot;H X 1/2&quot;D) W/ UNIT SPREAD-  ALUMINUM &amp; 780 PLATE.</description>
+         <total_count>1</total_count>
+         <each_cost>1560</each_cost>
+         <total_cost>1560</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ENTER / EXIT / CLEARANCE BAR PAN SIGN W/ DIMENSIONAL- LETTERS (1/4&quot; ACRYLIC)  12&apos;WX4&quot;HX2&quot;D CLEARANCE BAR</description>
+         <total_count>1</total_count>
+         <each_cost>2685</each_cost>
+         <total_cost>2685</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESIDENT ENTRY ONLY / GATE WARNING COMBO</description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXIT ONLY / GATE WARNING COMBO </description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PRIVATE GARAGE PARKING GARAGE NUMBERS- (TO MATCH UNIT DOOR NUMBERS)</description>
+         <total_count>8</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>784</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HANDICAP PARKING SPOTS (X1 STD, X1 VAN) POLE MOUNT- WITH BASEPLATE</description>
+         <total_count>2</total_count>
+         <each_cost>225</each_cost>
+         <total_cost>450</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE DOOR VINYL DECALS FOR ELEVATOR / STAIR LOBBY</description>
+         <total_count>2</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>136</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR / LEVEL ID</description>
+         <total_count>3</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>204</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL / LEVEL SIGNS</description>
+         <total_count>3</total_count>
+         <each_cost>175</each_cost>
+         <total_cost>525</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS / COMBO SIGNS</description>
+         <total_count>1</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>265</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAINTENANCE / TELECOM / ELEVATOR PANEL</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TELECOM ID (INSIDE MAINTENANCE)</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR PANEL ID (INSIDE MAINTENANCE)</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM ID / DO NOT BLOCK (OVERSIZED)</description>
+         <total_count>1</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>155</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM POLICY</description>
+         <total_count>1</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>165</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#3: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH CHUTE PLAQUE</description>
+         <total_count>2</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>76</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#3: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RECYCLE CHUTE PLAQUE</description>
+         <total_count>2</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>76</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE PUMP ROOM (4&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#2: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FDC WITH ADDRESS</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT DOOR NUMBERS - 6&quot; ALUMINUM (1/4&quot;) LETTERS PAINTED- SW 6258 TRICORN BLACK  PIN MOUNTS TO ENTRY EXTERIOR.</description>
+         <total_count>8</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>784</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR / MAIL / ELEVATOR LOBBY / TRASH ACCESS</description>
+         <total_count>2</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>196</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <total_count>2</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>530</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM / MECHANICAL ID</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#3: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#4: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH POLICY</description>
+         <total_count>2</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>330</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#3: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#4: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ROOM ID (INSIDE TRASH ROOM)</description>
+         <total_count>2</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>116</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR LOBBY / STAIR / TRASH ACCESS</description>
+         <total_count>2</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>196</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#4: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM / MECHANICAL  ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#4: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH CHUTE</description>
+         <total_count>1</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>38</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#4: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RECYCLE CHUTE</description>
+         <total_count>1</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>38</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

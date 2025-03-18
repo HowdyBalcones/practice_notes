@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2401SLI02 REV 1</quote_num>
+   <contract_file>2401SLI02 Lago Escondido REV 1.xlsx</contract_file>
+   <client_name>SAVANNAH DEVELOPERS 15660 N DALLAS PARKWAY, SUITE 110 DALLAS, TEXAS 75248</client_name>
+   <project_name>LAGO ESCONDIDO ENTRANCE SIGN</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2401SLI02 Lago Escondido REV 1.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRANCE SIGN</section_name>
@@ -25,17 +34,38 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2401SLI02 REV 1</quote_num>
-   <contract_file>2401SLI02 Lago Escondido REV 1.xlsx</contract_file>
-   <client_name>SAVANNAH DEVELOPERS 15660 N DALLAS PARKWAY, SUITE 110 DALLAS, TEXAS 75248</client_name>
-   <project_name>LAGO ESCONDIDO ENTRANCE SIGN</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRANCE SIGN</section>
+         </section_key>
+         
+         </section_list>
+         <description>DIRECTIONAL STAND-UP SIGN, 30 IN X 24 IN, WITH DIMENSIONAL- GRAPHICS, LOADS TO TOP OF EXISTING COLUMN WITH CONCRETE- ANCHOR SCREWS &amp; FLANGE PLATE</description>
+         <total_count>1</total_count>
+         <each_cost>900</each_cost>
+         <total_cost>900</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRANCE SIGN</section>
+         </section_key>
+         
+         </section_list>
+         <description>SHIPPING / HANDLING</description>
+         <total_count>1</total_count>
+         <each_cost>85</each_cost>
+         <total_cost>85</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

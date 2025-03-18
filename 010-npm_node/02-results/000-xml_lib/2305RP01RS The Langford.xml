@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2305RP01RS</quote_num>
+   <contract_file>2305RP01RS The Langford.xlsx</contract_file>
+   <client_name>ROSCOE PROPERTY MANAGEMENT 8111 PRESTON RD. DALLAS, TX 75225</client_name>
+   <project_name>THE LANGFORD</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2305RP01RS The Langford.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY/EXTERIOR SIGNAGE</section_name>
@@ -139,17 +148,233 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2305RP01RS</quote_num>
-   <contract_file>2305RP01RS The Langford.xlsx</contract_file>
-   <client_name>ROSCOE PROPERTY MANAGEMENT 8111 PRESTON RD. DALLAS, TX 75225</client_name>
-   <project_name>THE LANGFORD</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY/EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING MOUNTED ILLUMINATED GRAPHIC, NORTHEAST- ELEVATION, APPROX. 2 FT X 26 FT (53 SQ FT)-    *ASSUMES USE OF EXISTING BLOCKING AND ELECTRICAL</description>
+         <total_count>1</total_count>
+         <each_cost>17500</each_cost>
+         <total_cost>17500</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY/EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANELS FOR EXISTING U-SHAPED COLUMN CABINET,- NON-ILLUMINATED GRAPHICS</description>
+         <total_count>1</total_count>
+         <each_cost>2500</each_cost>
+         <total_cost>2500</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY/EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>REPLACEMENT PANELS FOR &quot;NOW OPEN&quot; BANDIT SIGN (VISITOR- PARKING ENTRANCE), 18 X 24 IN TOP PANEL, 6 X 18 IN BOTTOM</description>
+         <total_count>1</total_count>
+         <each_cost>365</each_cost>
+         <total_cost>365</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: ENTRY/EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SURVELLIANCE SIGN, 12 X 18 IN (NORTH ELEVATION)</description>
+         <total_count>1</total_count>
+         <each_cost>179</each_cost>
+         <total_cost>179</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1: ENTRY/EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ID PANEL (TO REPLACE CIRCULAR SIGN), 22 X 22 IN, NW CORNER</description>
+         <total_count>1</total_count>
+         <each_cost>395</each_cost>
+         <total_cost>395</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1: ENTRY/EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>VINYL BANNER, 3 X 16 FT, UPPER LEVELS NW CORNER, WITH- REINFORCED EDGES AND GROMMETS EVERY 2 FT</description>
+         <total_count>1</total_count>
+         <each_cost>495</each_cost>
+         <total_cost>495</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS CENTER POLICIES, 18 X 24 IN</description>
+         <total_count>1</total_count>
+         <each_cost>225</each_cost>
+         <total_cost>225</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG PARK POLICIES, 18 X 24 IN</description>
+         <total_count>1</total_count>
+         <each_cost>225</each_cost>
+         <total_cost>225</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LARGE &quot;IN CASE OF FIRE...&quot; SIGN, NORTH POOL AREA WALL,- 32 X 47 IN</description>
+         <total_count>1</total_count>
+         <each_cost>455</each_cost>
+         <total_cost>455</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SMALL &quot;IN CASE OF FIRE...&quot; SIGN, WEST POOL AREA WALL,- 18 X 18 IN</description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GAS GRILL POLICIES, 18 X 24 IN</description>
+         <total_count>1</total_count>
+         <each_cost>225</each_cost>
+         <total_cost>225</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE PIT POLICIES, 18 X 24 IN</description>
+         <total_count>1</total_count>
+         <each_cost>225</each_cost>
+         <total_cost>225</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SKY LOUNGE POLICIES, 18 X 24 IN (4TH LEVEL)</description>
+         <total_count>1</total_count>
+         <each_cost>225</each_cost>
+         <total_cost>225</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: PARKING GARAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SURVELLIANCE SIGN, 12 X 18 IN (AT ELEVATOR)</description>
+         <total_count>1</total_count>
+         <each_cost>179</each_cost>
+         <total_cost>179</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: PARKING GARAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESERVED PARKING SIGN, 12 X 18 IN, LEVELS 2 - 4</description>
+         <total_count>15</total_count>
+         <each_cost>179</each_cost>
+         <total_cost>2685</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

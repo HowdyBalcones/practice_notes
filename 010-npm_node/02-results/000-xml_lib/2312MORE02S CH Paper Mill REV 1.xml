@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2312MORE02S</quote_num>
+   <contract_file>2312MORE02S CH Paper Mill REV 1.xlsx</contract_file>
+   <client_name>MORE RESIDENTIAL 5800 GRANITE PARKWAY, SUITE 1050 PLANO, TEXAS 75024</client_name>
+   <project_name>COVEY HOMES PAPER MILL</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2312MORE02S CH Paper Mill REV 1.xlsx</contract_name>
       
    <section>
    <section_name>#2: LEASING CENTER EXTERIOR SIGNAGE</section_name>
@@ -67,17 +76,98 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2312MORE02S</quote_num>
-   <contract_file>2312MORE02S CH Paper Mill REV 1.xlsx</contract_file>
-   <client_name>MORE RESIDENTIAL 5800 GRANITE PARKWAY, SUITE 1050 PLANO, TEXAS 75024</client_name>
-   <project_name>COVEY HOMES PAPER MILL</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SINGLE-FACE CUSTOM 4&apos; X 4&apos; ALUMINUM POST AND PANEL SIGN WITH- DIGITAL GRAPHICS. (BRANDED MORE RESIDENTIAL SIGN)- (HIGHPOINT DEVELOPMENT REMOVED FROM THEIR SCOPE OF WORK)</description>
+         <total_count>1</total_count>
+         <each_cost>1895</each_cost>
+         <total_cost>1895</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>REMOVE HOURS SIGN AND REPLACE WITH COVEY HOMES PLAQUE </description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: LEASING CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>COVEY HOMES BY MORE PLAQUE - TO REPLACE HOURS SIGN </description>
+         <total_count>1</total_count>
+         <each_cost>125</each_cost>
+         <total_cost>125</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: AMENITY SIGNAGE:</section>
+         </section_key>
+         
+         </section_list>
+         <description>COVER PANEL FOR EXISTING LEASING HANG-DOWN SIGN- (ALUMINUM PANEL WITH DIGITAL GRAPHICS AND DIMESIONAL COPY)</description>
+         <total_count>1</total_count>
+         <each_cost>1250</each_cost>
+         <total_cost>1250</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: AMENITY SIGNAGE:</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL GATE COVER PANEL TO UPDATE VERBIAGE</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#7: MARKETING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-FACE MARKETING SIGN 4&apos;W X 8&apos; TO MATCH NEW COVEY- HOMES BRANDED DESIGN - PAINTED POLES WITH TOP CAPS</description>
+         <total_count>1</total_count>
+         <each_cost>1385</each_cost>
+         <total_cost>1385</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2012MFG03S</quote_num>
+   <contract_file>2012MFG03S ACM Marietta, GA.xlsx</contract_file>
+   <client_name>HEALTHCARE SOLUTIONS HOLDINGS INC. 3 SCHOOL ROAD STE 300 GLEN COVE, NY 11542</client_name>
+   <project_name>ADVANCED CARE MEDICAL - MARIETTA, GA</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2012MFG03S ACM Marietta, GA.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY / EXTERIOR SIGNAGE</section_name>
@@ -182,17 +191,323 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2012MFG03S</quote_num>
-   <contract_file>2012MFG03S ACM Marietta, GA.xlsx</contract_file>
-   <client_name>HEALTHCARE SOLUTIONS HOLDINGS INC. 3 SCHOOL ROAD STE 300 GLEN COVE, NY 11542</client_name>
-   <project_name>ADVANCED CARE MEDICAL - MARIETTA, GA</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CHANNEL LETTER LOGO W/ SIGN CAN PUSH-THRU ACRYLIC- CHANNEL LETTERS. LOADS TO SOUTH ELEVATION.</description>
+         <total_count>2</total_count>
+         <each_cost>11840</each_cost>
+         <total_cost>23680</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SET ADDRESS NUMERALS 1/2&quot; PAINTED ACRYLIC &quot;4895&quot;</description>
+         <total_count>1</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>595</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SET DOUBLE DOOR ENTRY VINYL (LOGO, PHONE, URL, HOURS)</description>
+         <total_count>2</total_count>
+         <each_cost>89</each_cost>
+         <total_cost>178</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: ENTRY / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOORS TO REMAIN UNLOCKED VINYL KIT</description>
+         <total_count>1</total_count>
+         <each_cost>69</each_cost>
+         <total_cost>69</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PATIENTS ONLY BEYOND THIS POINT</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADMINISTRATION</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM (104, 114, 103, 119)</description>
+         <total_count>4</total_count>
+         <each_cost>105</each_cost>
+         <total_cost>420</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEES BREAKROOM (106)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OFFICE MANAGER (107)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLOSET (108)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXAM ROOMS (109, 110, 111, 117, 118)</description>
+         <total_count>5</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>340</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>C-ARM ROOM (113)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PHYSICIANS OFFICE (128A, A28B)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>X-RAY (112)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>JANITOR CLOSET (115)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL (131)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UTILITY (125)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DRUG SCREENING (120)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRIAGE (121)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CHECK-OUT</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXIT PLAQUES</description>
+         <total_count>2</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>136</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

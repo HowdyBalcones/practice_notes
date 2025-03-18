@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>SAM BARTEK</quote_num>
+   <contract_file>Lakeside Village South Parking Garage.xlsx</contract_file>
+   <client_name>1195</client_name>
+   <project_name>LAKESIDE VILLAGE SOUTH  PARKING GARAGE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>Lakeside Village South Parking Garage.xlsx</contract_name>
       
    <section>
    <section_name>#1: LEVEL 1 SIGNAGE</section_name>
@@ -480,17 +489,703 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>SAM BARTEK</quote_num>
-   <contract_file>Lakeside Village South Parking Garage.xlsx</contract_file>
-   <client_name>1195</client_name>
-   <project_name>LAKESIDE VILLAGE SOUTH  PARKING GARAGE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>E1-A</description>
+         <total_count>1</total_count>
+         <each_cost>8&apos;-2&quot; CLEARANCE BAR @ STEEL PORTAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>E3-A</description>
+         <total_count>1</total_count>
+         <each_cost>DO NOT ENTER @ STEEL PORTAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>V12-E</description>
+         <total_count>1</total_count>
+         <each_cost>PARKING DIRECTIONAL - ON POST W/ BASEPLATE</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>V13-E</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT DIRECTIONAL - ON POST W/ BASEPLATE</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>V14-E</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT DIRECTIONAL - ON POST W/ BASEPLATE</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P2-B</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / ELEVATOR ID - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P7-B</description>
+         <total_count>1</total_count>
+         <each_cost>WEST STAIRWELL - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P9-B</description>
+         <total_count>1</total_count>
+         <each_cost>NORTH STAIRWELL - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>R3-E</description>
+         <total_count>1</total_count>
+         <each_cost>ONE WAY - ON POST W/ BASEPLATE</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>R4-E</description>
+         <total_count>2</total_count>
+         <each_cost>WRONG WAY - ON POST (X1 SHARES POST W/ V14-E)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#3: LEVEL B2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>R5-B</description>
+         <total_count>5</total_count>
+         <each_cost>STAIR ID - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#3: LEVEL B2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>R6-B</description>
+         <total_count>3</total_count>
+         <each_cost>IN CASE OF FIRE - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>V.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#3: LEVEL B2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>R7-B</description>
+         <total_count>3</total_count>
+         <each_cost>ELEVATOR ID - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>R8-F</description>
+         <total_count>1</total_count>
+         <each_cost>PARKING STRUCTURE LOADS  @ STEEL PORTAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>R9-E</description>
+         <total_count>1</total_count>
+         <each_cost>STOP SIGN - LOADS TO STEEL PORTAL POST</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>E2-A</description>
+         <total_count>1</total_count>
+         <each_cost>7&apos;-0&quot; CLEARANCE BAR - HANG DOWN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: LEVEL B2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>V2-C</description>
+         <total_count>7</total_count>
+         <each_cost>PARKING DIRECTIONAL - HANG DOWN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: LEVEL B2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>V3-C</description>
+         <total_count>5</total_count>
+         <each_cost>PARKING DOUBLE DIRECTIONAL - HANG DOWN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: LEVEL B2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>V4-C</description>
+         <total_count>14</total_count>
+         <each_cost>EXIT DIRECTIONAL - HANG DOWN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>V5-C</description>
+         <total_count>2</total_count>
+         <each_cost>EXIT DIRECTIONAL - HANG DOWN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>V7-B</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT / PARKING DIRECTIONAL - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>V8-C</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT / PARKING DIRECTIONAL - HANG DOWN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>V9-C</description>
+         <total_count>1</total_count>
+         <each_cost>PARKING / LEVEL / STOP DIRECTIONAL - HANG DOWN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>V10-C</description>
+         <total_count>1</total_count>
+         <each_cost>PARKING / LEVEL DIRECTIONAL - HANG DOWN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>V11-C</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT / STOP / LEVEL DIRECTIONAL - HANG DOWN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: LEVEL B2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P1-B</description>
+         <total_count>35</total_count>
+         <each_cost>LEVEL ID - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#3: LEVEL B2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P3-C</description>
+         <total_count>8</total_count>
+         <each_cost>STAIR / ELEVATOR DIRECTIONAL - HANG DOWN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#3: LEVEL B2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P4-C</description>
+         <total_count>4</total_count>
+         <each_cost>STAIR / ELEVATOR DIRECTIONAL - HANG DOWN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#3: LEVEL B2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P5-C</description>
+         <total_count>2</total_count>
+         <each_cost>STAIR ID - HANG DOWN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#3: LEVEL B2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6-B</description>
+         <total_count>2</total_count>
+         <each_cost>WEST STAIRWELL - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#3: LEVEL B2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P8-B</description>
+         <total_count>2</total_count>
+         <each_cost>NORTH STAIRWELL - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>R1-D *BOLLARD TO BE PROVIDED BY OTHERS*</description>
+         <total_count>3</total_count>
+         <each_cost>HANDICAP PARKING - ON BOLLARD</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#3: LEVEL B2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>R1-B</description>
+         <total_count>4</total_count>
+         <each_cost>HANDICAP PARKING - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>R2-B</description>
+         <total_count>2</total_count>
+         <each_cost>HANDICAP VAN PARKING - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>W.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1-F</description>
+         <total_count>1</total_count>
+         <each_cost>TRASH ROOM ID - DOOR MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>X.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B2-F</description>
+         <total_count>1</total_count>
+         <each_cost>FIRE RISER ROOM - DOOR MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Y.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B3-F</description>
+         <total_count>1</total_count>
+         <each_cost>ELECTRICAL ID - DOOR MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Z.</key>
+            <section>#2: LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B5-F</description>
+         <total_count>1</total_count>
+         <each_cost>IT ROOM - DOOR MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEVEL B2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>V1-C</description>
+         <total_count>2</total_count>
+         <each_cost>PARKING DIRECTIONAL - HANG DOWN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: LEVEL B2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>V6-C</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT DIRECTIONAL - HANG DOWN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#3: LEVEL B2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B4-F</description>
+         <total_count>1</total_count>
+         <each_cost>STORM SEWER LIFT ID - DOOR MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

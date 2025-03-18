@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2106SOM02</quote_num>
+   <contract_file>2106SOM02 1001 Ross.xlsx</contract_file>
+   <client_name>SOUTH OXFORD MANAGEMENT 5151 BELT LINE RD, STE 1100 DALLAS, TX 75254</client_name>
+   <project_name>1001 ROSS</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2106SOM02 1001 Ross.xlsx</contract_name>
       
    <section>
    <section_name>#1: WINDOW BANK - NEXT TO CRICKET</section_name>
@@ -252,17 +261,368 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2106SOM02</quote_num>
-   <contract_file>2106SOM02 1001 Ross.xlsx</contract_file>
-   <client_name>SOUTH OXFORD MANAGEMENT 5151 BELT LINE RD, STE 1100 DALLAS, TX 75254</client_name>
-   <project_name>1001 ROSS</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: WINDOW BANK - NEXT TO CRICKET</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, TOP WINDOWS, 54&quot;W X 97.5&quot;H EACH</description>
+         <total_count>3</total_count>
+         <each_cost>480</each_cost>
+         <total_cost>1440</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: WINDOW BANK - NEXT TO CRICKET</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, BOTTOM WINDOWS, 54&quot;W X 31&quot;H EACH</description>
+         <total_count>3</total_count>
+         <each_cost>150</each_cost>
+         <total_cost>450</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: WINDOW BANK - NEXT TO CRICKET</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, ABOVE DOOR, 47&quot;W X 33.5&quot;H</description>
+         <total_count>1</total_count>
+         <each_cost>140</each_cost>
+         <total_cost>140</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: WINDOW BANK - NEXT TO CRICKET</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: WINDOW BANK - W/ RED GRAPHICS</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, DOOR, 27.5&quot;W X 69&quot;H</description>
+         <total_count>2</total_count>
+         <each_cost>170</each_cost>
+         <total_cost>340</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1: WINDOW BANK - NEXT TO CRICKET</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, TOP LEFT SMALL PANE, 13.5&quot;W X 97.5&quot;H</description>
+         <total_count>1</total_count>
+         <each_cost>120</each_cost>
+         <total_cost>120</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1: WINDOW BANK - NEXT TO CRICKET</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#6: WINDOW BANK - W/ RED GRAPHICS</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, BOTTOM LEFT SMALL PANE, 13.5&quot;W X 31&quot;H</description>
+         <total_count>2</total_count>
+         <each_cost>40</each_cost>
+         <total_cost>80</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: WINDOW BANK - NEXT TO iFRATELLI</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, TOP PANE, 13.5&quot;W X 91&quot;H</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: WINDOW BANK - NEXT TO iFRATELLI</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, BOTTOM PANE, 13.5&quot;W X 31&quot;H</description>
+         <total_count>1</total_count>
+         <each_cost>40</each_cost>
+         <total_cost>40</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: WINDOW BANK - X6</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, TOP PANE, 36&quot;W X 90&quot;H EACH</description>
+         <total_count>3</total_count>
+         <each_cost>295</each_cost>
+         <total_cost>885</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: WINDOW BANK - X6</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, BOTTOM PANE, 36&quot;W X 31&quot;H EACH</description>
+         <total_count>3</total_count>
+         <each_cost>100</each_cost>
+         <total_cost>300</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: WINDOW BANK - NEXT TO WELLS FARGO</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, DOOR, 27&quot;W X 69&quot;H</description>
+         <total_count>1</total_count>
+         <each_cost>170</each_cost>
+         <total_cost>170</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: WINDOW BANK - NEXT TO WELLS FARGO</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: WINDOW BANK - W/ RED GRAPHICS</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, ABOVE DOOR, 33&quot;W X 47&quot;H</description>
+         <total_count>2</total_count>
+         <each_cost>140</each_cost>
+         <total_cost>280</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: WINDOW BANKS - CVS</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, MIDDLE PANES  ONLY, 42.5&quot;W X 81.5&quot;H EACH</description>
+         <total_count>38</total_count>
+         <each_cost>315</each_cost>
+         <total_cost>11970</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: WINDOW BANK - W/ RED GRAPHICS</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, TOP WINDOWS, 55&quot;W X 81.5&quot;H EACH</description>
+         <total_count>3</total_count>
+         <each_cost>405</each_cost>
+         <total_cost>1215</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: WINDOW BANK - W/ RED GRAPHICS</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, BOTTOM WINDOWS, 55&quot;W X 31&quot;H EACH</description>
+         <total_count>3</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>465</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#6: WINDOW BANK - W/ RED GRAPHICS</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, TOP LEFT SMALL PANE, 13.5&quot;W X 81&quot;H</description>
+         <total_count>1</total_count>
+         <each_cost>100</each_cost>
+         <total_cost>100</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#7: WINDOW BANK - #104</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, TOP WINDOWS, 35&quot;W X 82&quot;H EACH</description>
+         <total_count>2</total_count>
+         <each_cost>260</each_cost>
+         <total_cost>520</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#7: WINDOW BANK - #104</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, BOTTOM WINDOWS, 35.25&quot;W X 31&quot;H EACH</description>
+         <total_count>2</total_count>
+         <each_cost>100</each_cost>
+         <total_cost>200</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#7: WINDOW BANK - #104</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM WINDOW VINYL, ABOVE DOOR, 31&quot;W X 47&quot;H</description>
+         <total_count>1</total_count>
+         <each_cost>130</each_cost>
+         <total_cost>130</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#8: PARKING GARAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>COLUMN WRAP, PREMIUM VINYL WITH DIRECTIONAL TO LEASING,- 14.5&quot;W X 6&apos;H</description>
+         <total_count>1</total_count>
+         <each_cost>100</each_cost>
+         <total_cost>100</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#8: PARKING GARAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WALL GRAPHIC, PREMIUM VINYL WITH DIRECTIONAL TO LEASING,- 128&quot;W X 126&quot;H</description>
+         <total_count>1</total_count>
+         <each_cost>1460</each_cost>
+         <total_cost>1460</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#8: PARKING GARAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>REMOVE &quot;PARKING&quot; AT GARAGE ENTRY, REPLACE W/ BANNER 15&apos;H X 12&quot;W</description>
+         <total_count>1</total_count>
+         <each_cost>260</each_cost>
+         <total_cost>260</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#8: PARKING GARAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;1001 ROSS&quot; SIGN AT GARAGE ENTRY</description>
+         <total_count>1</total_count>
+         <each_cost>985</each_cost>
+         <total_cost>985</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

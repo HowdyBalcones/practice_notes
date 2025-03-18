@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2212SH04RS</quote_num>
+   <contract_file>2212SH04RS NoA On McNiel Refurb Signage.xlsx</contract_file>
+   <client_name>SIMPSON HOUSING 14643 DALLAS PKWY, SUITE 230 DALLAS, TX 75254</client_name>
+   <project_name>NOA ON MCNIEL - PROPERTY REFURB SIGNAGE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2212SH04RS NoA On McNiel Refurb Signage.xlsx</contract_name>
       
    <section>
    <section_name>#1 - MISC DIRECTIONAL/INFO EXTERIOR SIGNAGE</section_name>
@@ -120,17 +129,188 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2212SH04RS</quote_num>
-   <contract_file>2212SH04RS NoA On McNiel Refurb Signage.xlsx</contract_file>
-   <client_name>SIMPSON HOUSING 14643 DALLAS PKWY, SUITE 230 DALLAS, TX 75254</client_name>
-   <project_name>NOA ON MCNIEL - PROPERTY REFURB SIGNAGE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1 - MISC DIRECTIONAL/INFO EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LARGE DIRECTIONAL SIGN, PANEL AND DOUBLE-POST, 32 IN X- 30 IN</description>
+         <total_count>1</total_count>
+         <each_cost>795</each_cost>
+         <total_cost>795</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1 - MISC DIRECTIONAL/INFO EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SMALL DIRECTIONAL, PANEL AND SINGLE POST, 20 IN X 20 IN</description>
+         <total_count>2</total_count>
+         <each_cost>695</each_cost>
+         <total_cost>1390</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1 - MISC DIRECTIONAL/INFO EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CAUTION LIMITED VISIBILITY, PANEL AND SINGLE POST, 16 IN X- 20 IN</description>
+         <total_count>1</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>595</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2 - LEASING CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING CETNER HOURS SIGN, WITH CHANGEABLE HOURS- PANEL, 24 IN X 18 IN</description>
+         <total_count>1</total_count>
+         <each_cost>435</each_cost>
+         <total_cost>435</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2 - LEASING CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NO SOLICITING, 24 IN X 20 IN</description>
+         <total_count>2</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>420</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3 - BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING ID, 24 IN X 18 IN SINGLE PANEL WITH VINYL</description>
+         <total_count>16</total_count>
+         <each_cost>175</each_cost>
+         <total_cost>2800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3 - BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT ID, 4 IN X 6 IN, SINGLE PANEL WITH VINYL GRAPHICS</description>
+         <total_count>192</total_count>
+         <each_cost>44</each_cost>
+         <total_cost>8448</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4 - AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITESS CENTER ID, 5 IN X 6 IN</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4 - AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITESS CENTER RULES, 36 IN X 24 IN</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4 - AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESTROOM ID, 10 IN X 8 IN</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4 - AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAIL CENTER ID, 16 IN X 18 IN</description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4 - AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH COMPACTOR RULES, 24 X 48</description>
+         <total_count>1</total_count>
+         <each_cost>275</each_cost>
+         <total_cost>275</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2205SH01 REV 2</quote_num>
+   <contract_file>2205SH01 Wayfinding Graphics REV 2.xlsx</contract_file>
+   <client_name>SIMPSON HOUSING 14643 DALLAS PKWY, SUITE 230 DALLAS, TX 75254</client_name>
+   <project_name>STELLA - WAYFINDING GRAPHICS</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2205SH01 Wayfinding Graphics REV 2.xlsx</contract_name>
       
    <section>
    <section_name>#1 - LEASING CENTER  / EXTERIOR</section_name>
@@ -33,17 +42,53 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2205SH01 REV 2</quote_num>
-   <contract_file>2205SH01 Wayfinding Graphics REV 2.xlsx</contract_file>
-   <client_name>SIMPSON HOUSING 14643 DALLAS PKWY, SUITE 230 DALLAS, TX 75254</client_name>
-   <project_name>STELLA - WAYFINDING GRAPHICS</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1 - LEASING CENTER  / EXTERIOR</section>
+         </section_key>
+         
+         </section_list>
+         <description>VINYL GRAPHICS WITH LEASING CENTER ID / DIRECTIONAL- ARROW SHAPE, LOADS ON GLASS STOREFRONTAT- RESIDENT ENTRY, ENTRY DOORS, 4 WINDOWS- TOTAL (1 BANKS ON WEST ELEVATION). 5 FT - 6 IN TALL- GRAPHICS EA WINDOW</description>
+         <total_count>1</total_count>
+         <each_cost>990</each_cost>
+         <total_cost>990</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1 - LEASING CENTER  / EXTERIOR</section>
+         </section_key>
+         
+         </section_list>
+         <description>VINYL GRAPHICS WITH LEASING CENTER ID / DIRECTIONAL- ARROW SHAPE, LOADS ON GLASS STOREFRONT ADJACENT- TO LEASING CENTER, 5 WINDOWS TOTAL (2 BANKS ON- SOUTH ELEVATION), 5 FT - 6 IN TALL GRAPHICS EA WINDOW</description>
+         <total_count>1</total_count>
+         <each_cost>1190</each_cost>
+         <total_cost>1190</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1 - LEASING CENTER  / EXTERIOR</section>
+         </section_key>
+         
+         </section_list>
+         <description>DIMENSIONAL LOGO/LETTERING, LOADS ON CONCRETE- WALL AT CORNER OF BOLL ST. AND COLBY ST., APPROX- 3 FT X 5 FT ARERA</description>
+         <total_count>1</total_count>
+         <each_cost>1650</each_cost>
+         <total_cost>1650</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

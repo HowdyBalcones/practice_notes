@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2106TRU01S</quote_num>
+   <contract_file>2106TRU01S Kirby-Smith Machinery.xlsx</contract_file>
+   <client_name>TRUMONT GROUP 1910 PACIFIC AVE STE 13350 DALLAS, TX 75201</client_name>
+   <project_name>KIRBY-SMITH MACHINERY</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2106TRU01S Kirby-Smith Machinery.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -272,17 +281,473 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2106TRU01S</quote_num>
-   <contract_file>2106TRU01S Kirby-Smith Machinery.xlsx</contract_file>
-   <client_name>TRUMONT GROUP 1910 PACIFIC AVE STE 13350 DALLAS, TX 75201</client_name>
-   <project_name>KIRBY-SMITH MACHINERY</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-FACED MONUMENT ILLUMINATED SIGN CABINET WITH- DIGITAL GRAPHICS &amp; PUSH-THRU ACRYLIC. (X2 SINGLE-FACE SIGNS- - 3&apos;H X 6&apos;W X 4&quot;D) *STRUCTURE COMPONENT &amp; POWER BY OTHERS.</description>
+         <total_count>1</total_count>
+         <each_cost>6680</each_cost>
+         <total_cost>6680</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SINGLE-FACE NON-ILLUMINATED SIGN PANELS WITH DIMENSIONAL- GRAPHICS. LOADS TO EXTERIOR OF ENTRY BUILDING SOUTH &amp;- WEST ELEVATION PER PLAN PAGE A5.00.</description>
+         <total_count>2</total_count>
+         <each_cost>4480</each_cost>
+         <total_cost>8960</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;RENTAL&quot; STAND-UP LETTERS ON RAIL. LOADS TO CANOPY OVER- ENTRY DOOR EAST ELEVATION (APPROX. 12&quot; LETTERS PAINTED- BLACK).</description>
+         <total_count>1</total_count>
+         <each_cost>1165</each_cost>
+         <total_cost>1165</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-FACED ILLUMINATED POLE SIGN - NO DETAILS IN PLAN SET.- INDICATED ON SITE PLAN &quot;POLE SIGN BY OTHERS&quot;. BUDGETARY HOLD- 38&apos; POLE - TELESCOPING 2&apos; DIAMETER TO 10&quot;. FLEX FACE 15&apos;W X 8&apos;H- OVAL LOGO.</description>
+         <total_count>1</total_count>
+         <each_cost>34200</each_cost>
+         <total_cost>34200</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ROOM ID - RED (4&quot;)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE RISER ROOM ID - RED (4&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RENTAL OFFICE DOOR VINYL KIT</description>
+         <total_count>1</total_count>
+         <each_cost>89</each_cost>
+         <total_cost>89</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>KNOX BOX SIGN / MAP</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HANDICAP PARKING SIGN PER PAGE A1.01 (X1 STD, X1 VAN)</description>
+         <total_count>2</total_count>
+         <each_cost>925</each_cost>
+         <total_cost>1850</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WASH BAY EQUIPMENT ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FDC SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: INTERIOR DISPLAY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SET 1/2&quot; ACRYLIC LETTERS (12&quot;H). LOADS TO WALL AT &quot;PARTS&quot;- COUNTER &quot;PARTS&quot; W/ &quot;KIRBY SMITH&quot; COLOR TBD</description>
+         <total_count>1</total_count>
+         <each_cost>1165</each_cost>
+         <total_cost>1165</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SET DOUBLE DOOR ENTRY VINYL (LOGO, HOURS, URL, PHONE)</description>
+         <total_count>1</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>129</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SALES BULLPEN ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BRANCH MANAGER ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FINANCE &amp; SALES ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CONFERENCE / TRAINING ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OFFICE ID&apos;S (TBD)</description>
+         <total_count>3</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>174</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE (EMPLOYEES ONLY)</description>
+         <total_count>2</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>96</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>IT / DATA ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BREAKROOM ID</description>
+         <total_count>2</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>116</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADA RESTROOM SIGNS (X1 MEN&apos;S, X1 WOMEN&apos;S)</description>
+         <total_count>2</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>196</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM ID</description>
+         <total_count>2</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>196</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEES ONLY (JANITOR)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PARTS MANAGER</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOCKER ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SERVICE MANAGER ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SHOP &amp; FIELD PSM ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TOOL ROOM ID</description>
+         <total_count>2</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>96</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RENTAL OFFICE ID (WAREHOUSE TO OFFICE)</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#4: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OIL &amp; AIR ID</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

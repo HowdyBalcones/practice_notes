@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2208SH03</quote_num>
+   <contract_file>2208SH03 Brick Row Pool &amp; Fitness Ctr.xlsx</contract_file>
+   <client_name>SIMSPON HOUSING 14643 DALLAS PARKWAY, SUITE 230 DALLAS, TEXAS 75254</client_name>
+   <project_name>BRICK ROW</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2208SH03 Brick Row Pool &amp; Fitness Ctr.xlsx</contract_name>
       
    <section>
    <section_name>#1: BUILDING 1 POOL SIGNAGE</section_name>
@@ -83,17 +92,118 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2208SH03</quote_num>
-   <contract_file>2208SH03 Brick Row Pool &amp; Fitness Ctr.xlsx</contract_file>
-   <client_name>SIMSPON HOUSING 14643 DALLAS PARKWAY, SUITE 230 DALLAS, TEXAS 75254</client_name>
-   <project_name>BRICK ROW</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: BUILDING 1 POOL SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: BUILDING 2 POOL SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>VINYL &quot;BATHER LOAD&quot; NUMBER (TBD), WHITE</description>
+         <total_count>2</total_count>
+         <each_cost>15</each_cost>
+         <total_cost>30</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: BUILDING 1 POOL SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CAUTION, AFTER USE OF GRILL..., 8 IN X 12.25 IN</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: BUILDING 1 POOL SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL EQUIPMENT ID, 2.5 IN X 9 IN</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: BUILDING 5 FITNESS CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS CENTER POLICY SIGN, FROSTED ACRYLIC (CLEAR) WITH- STAND-OFFS, 16 IN X 16 IN</description>
+         <total_count>1</total_count>
+         <each_cost>310</each_cost>
+         <total_cost>310</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: BUILDING 5 FITNESS CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>MENS ROOM, FROSTED ACRYLIC (CLEAR) WITH STAND-OFFS,- 8.5 IN X 10 IN</description>
+         <total_count>1</total_count>
+         <each_cost>188</each_cost>
+         <total_cost>188</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: BUILDING 5 FITNESS CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMENS ROOM, FROSTED ACRYLIC (CLEAR) WITH STAND-OFFS,- 8.5 IN X 10 IN</description>
+         <total_count>1</total_count>
+         <each_cost>188</each_cost>
+         <total_cost>188</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: BUILDING 5 FITNESS CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAXIMUM OCCUPANCY, FROSTED ACRYLIC (CLEAR) WITH- STAND-OFFS, 5 IN X 8.5 IN</description>
+         <total_count>1</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>135</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

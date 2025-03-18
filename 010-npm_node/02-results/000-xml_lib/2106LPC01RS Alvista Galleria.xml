@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2106LPC01RS</quote_num>
+   <contract_file>2106LPC01RS Alvista Galleria.xlsx</contract_file>
+   <client_name>LINCOLN PROPERTY COMPANY 10210 N CENTRAL EXPY STE 500 DALLAS, TX 75231</client_name>
+   <project_name>ALVISTA GALLERIA</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2106LPC01RS Alvista Galleria.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -168,17 +177,278 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2106LPC01RS</quote_num>
-   <contract_file>2106LPC01RS Alvista Galleria.xlsx</contract_file>
-   <client_name>LINCOLN PROPERTY COMPANY 10210 N CENTRAL EXPY STE 500 DALLAS, TX 75231</client_name>
-   <project_name>ALVISTA GALLERIA</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SINGLE-FACE ILLUMINATED VERTICAL BLADE SIGN ON INWOOD- (EAST) FRONTAGE (31&apos;H X 4&apos;W) LOADS ON EXISTING &quot;FIN&quot; W/- VERTICAL &quot;JEFFERSON &amp; A/W LOGO&quot;</description>
+         <total_count>1</total_count>
+         <each_cost>21800</each_cost>
+         <total_cost>21800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ILLUMINATED CANOPY SIGN. STAND-UP LETTERS ON RAIL TO- REPLACE EXISTING &quot;ALPHA WEST&quot; (22&apos;W X 20&quot;H)</description>
+         <total_count>1</total_count>
+         <each_cost>9890</each_cost>
+         <total_cost>9890</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SINGLE-FACE ILLUMINATED WALL SIGN, CHANNEL LETTERS &amp; PUSH- THRU ACRYLIC ON SIGN CABINET. LOCATED ON 4TH FLOOR UPPER- WALL, SOUTHEAST ELEVATION. (21&apos;W X 6&apos;H)</description>
+         <total_count>1</total_count>
+         <each_cost>13200</each_cost>
+         <total_cost>13200</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING CENTER ID. DIMENSIONAL GRAPHICS ON RAIL. LOADS- ABOVE LEASING ENTRY DOORS.</description>
+         <total_count>1</total_count>
+         <each_cost>3960</each_cost>
+         <total_cost>3960</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER &amp; BLDG EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HOURS SIGN W/ SUMMER/WINTER CHANGEABLE HOURS</description>
+         <total_count>1</total_count>
+         <each_cost>435</each_cost>
+         <total_cost>435</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER &amp; BLDG EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FUTURE RESIDENT PARKING SIGNS - POST &amp; PANEL</description>
+         <total_count>3</total_count>
+         <each_cost>715</each_cost>
+         <total_cost>2145</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER &amp; BLDG EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM HANDICAP PARKING (X1 VAN, X1 STD)</description>
+         <total_count>2</total_count>
+         <each_cost>715</each_cost>
+         <total_cost>1430</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER &amp; BLDG EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM WALL MOUNT FUTURE RESIDENT PARKING SIGNS - WALL- MOUNT IN GARAGE (8AM-7PM, 2-HOUR LIMIT)</description>
+         <total_count>4</total_count>
+         <each_cost>190</each_cost>
+         <total_cost>760</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: LEASING CENTER &amp; BLDG EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RIDE SHARE LOUNGE SIGN ALUMINUM &amp; ACRYLIC W/ VINYL COPY</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: LEASING CENTER &amp; BLDG EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ILLUMINATED / DOUBLE-FACED PARKING SIGNS (X1 RESIDENT- PARKING, X1 VISITOR PARKING)</description>
+         <total_count>2</total_count>
+         <each_cost>6900</each_cost>
+         <total_cost>13800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: LEASING CENTER &amp; BLDG EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING ADDRESS SIGNS</description>
+         <total_count>15</total_count>
+         <each_cost>255</each_cost>
+         <total_cost>3825</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL POLICIES PACK (2021 TEXAS CODE)</description>
+         <total_count>1</total_count>
+         <each_cost>795</each_cost>
+         <total_cost>795</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WARNING NO LIFEGUARD (2021 TEXAS CODE)</description>
+         <total_count>1</total_count>
+         <each_cost>410</each_cost>
+         <total_cost>410</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>911 PHONE SIGN (NAME CHANGE)</description>
+         <total_count>1</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>155</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GRILL &amp; CHILL SIGN - STRUCTURE MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>385</each_cost>
+         <total_cost>385</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BARK PARK - POST &amp; PANEL</description>
+         <total_count>1</total_count>
+         <each_cost>690</each_cost>
+         <total_cost>690</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: DOG WASH / BIKE SHOP &amp; STORE WALL GRAPHICS</section>
+         </section_key>
+         
+         </section_list>
+         <description>72&quot;H X 105.25&quot;W LOGO PANEL</description>
+         <total_count>1</total_count>
+         <each_cost>756</each_cost>
+         <total_cost>756</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: DOG WASH / BIKE SHOP &amp; STORE WALL GRAPHICS</section>
+         </section_key>
+         
+         </section_list>
+         <description>71&quot;H X 82&quot;W LOGO PANEL</description>
+         <total_count>1</total_count>
+         <each_cost>546</each_cost>
+         <total_cost>546</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

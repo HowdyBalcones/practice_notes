@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2302JPI02,  REV 2 / 2308JPI03 COMBINED</quote_num>
+   <contract_file>RAILHEAD FRISCO PRIMARY ENTRY SIGNAGE / INFRASTRUCTURE SIGNAGE</contract_file>
+   <client_name>JPI REALTY, INC. 600 E. LAS COLINAS BLVD. #1800 IRVING, TX 75039</client_name>
+   <project_name>A.</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>RAILHEAD FRISCO PRIMARY ENTRY SIGNAGE / INFRASTRUCTURE SIGNAGE</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -41,17 +50,68 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2302JPI02,  REV 2 / 2308JPI03 COMBINED</quote_num>
-   <contract_file>RAILHEAD FRISCO PRIMARY ENTRY SIGNAGE / INFRASTRUCTURE SIGNAGE</contract_file>
-   <client_name>JPI REALTY, INC. 600 E. LAS COLINAS BLVD. #1800 IRVING, TX 75039</client_name>
-   <project_name>A.</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>1</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>28900</description>
+         <total_count>DOUBLE FACED ILLUMINATED MONUMENT SIGN. TRIMLESS CHANNEL- LETTERS MOUNTED TO FRAMED SIGN CABINET WITH PERFORATED- BACKGROUND (INTERNALLY ILLUMINATED)- *FOOTER AND BASE BY OTHERS. POWER TO LOCATION BY OTHERS*</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>1</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>13900</description>
+         <total_count>PARK SIGN MULTI-TENANT SIGN WITH PERFORATED BACKGROUND,- (INTERNALLY ILLUMINATED), DIMENSIONAL GRAPHICS WITH X6- TENANT PANELS- *FOOTER AND BASE BY OTHERS. POWER TO LOCATION BY OTHERS*</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>1</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>6100</description>
+         <total_count>DOUBLE FPERFORATED SCREENING FOR SCULPTURAL RAILHEAD INSET- INCLUDES WATER BLAST CLEANING, PRIME &amp; PAINT, FRAM KIT FOR- INSTALLING ON SCULPTURE</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>1</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>900</description>
+         <total_count>DESIGN / LAYOUT OF CONCRETE BASE FOR LARGE SCULPTURE-  - (+/-) 34 FT - 10 IN LENGTH</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

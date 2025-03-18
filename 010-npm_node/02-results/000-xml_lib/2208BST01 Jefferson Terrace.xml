@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2208BST01</quote_num>
+   <contract_file>2208BST01 Jefferson Terrace.xlsx</contract_file>
+   <client_name>BUCHANAN STREET PARTNERS 3501 JAMBOREE RD., SUITE 4200 NEWPORT BEACH, CA 92660</client_name>
+   <project_name>JEFFERSON TERRACE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2208BST01 Jefferson Terrace.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -155,17 +164,263 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2208BST01</quote_num>
-   <contract_file>2208BST01 Jefferson Terrace.xlsx</contract_file>
-   <client_name>BUCHANAN STREET PARTNERS 3501 JAMBOREE RD., SUITE 4200 NEWPORT BEACH, CA 92660</client_name>
-   <project_name>JEFFERSON TERRACE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SINGLE FACED MONUMENT SIGN-ILLUMINATED W/ CHANNEL- LETTERS &amp; PUSH-THRU ACRYLIC, 3 FT - 3 IN X 8 FT- * LOADS ON EXISTING MASONRY STRUCTURE ON LEFT SIDE- OF WALKWAY, ASSUMES USE OF EXISTING ELECTRICAL- CIRCUIT</description>
+         <total_count>1</total_count>
+         <each_cost>13500</each_cost>
+         <total_cost>13500</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SINGLE FACED MONUMENT WALL ICON W/ SOLID ACRYLIC- DIMENSIONAL GRAPHICS, 3 FT - 7 IN X 2 FT -10 IN- NON-ILLUMINATED</description>
+         <total_count>1</total_count>
+         <each_cost>1800</each_cost>
+         <total_cost>1800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WALL SIGN-SINGLE FACED-ILLUMINATED W/ PUSH THRU - ACRYLIC, LOADS AT NORTHWEST CORNER OF BLDG PARAPET.- *ASSUMES USE OF EXISTING BLOCKING &amp; ELECTRICAL</description>
+         <total_count>1</total_count>
+         <each_cost>15200</each_cost>
+         <total_cost>15200</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NEW LOGO OVERLAY PANEL FOR DIRECTORY SIGN,- 7 IN X 20 IN</description>
+         <total_count>4</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>440</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NEW MAP PANEL FOR DIRECTORY SIGN, 30 IN X 56 IN</description>
+         <total_count>4</total_count>
+         <each_cost>690</each_cost>
+         <total_cost>2760</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL FOR DIRECTIONAL SIGNS, 12 IN X 16 IN,- (QTY 6 EXISTING DF SIGNS)</description>
+         <total_count>12</total_count>
+         <each_cost>170</each_cost>
+         <total_cost>2040</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>REPLACEMENT SIGN - DOUBLE FACED DIRECTIONAL /- MINI-MONUMENT AT ENTRY (BLDG 7)</description>
+         <total_count>1</total_count>
+         <each_cost>2900</each_cost>
+         <total_cost>2900</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>REPLACEMENT HOURS SIGN WITH INTERCHANGEABLE- SUMMER/WINTER HOURS</description>
+         <total_count>1</total_count>
+         <each_cost>565</each_cost>
+         <total_cost>565</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM FUTURE RESIDENT PARKING OVERLAY PANEL</description>
+         <total_count>3</total_count>
+         <each_cost>235</each_cost>
+         <total_cost>705</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL FOR LEASING CENTER GROUND MOUNT- SIGN, 10 IN X 14 IN</description>
+         <total_count>1</total_count>
+         <each_cost>160</each_cost>
+         <total_cost>160</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: MISC MARKETING / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>VINYL LOGO KIT FOR GLASS DOORS (X2 AT LEASING,- X1 AT POOL, X1 AT FITNESS CTR)</description>
+         <total_count>4</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>516</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: MISC MARKETING / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-FACED INSERT PANELS FOR BANDIT YARD SIGNS, 24 IN X 36 IN-  24 IN X 36 IN</description>
+         <total_count>4</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>440</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: MISC MARKETING / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-FACED MDO REPLACEMENT PANEL WITH DIGITALLY- PRINTED GRAPHICS, 4 FT X 8 FT</description>
+         <total_count>1</total_count>
+         <each_cost>850</each_cost>
+         <total_cost>850</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: MISC MARKETING / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>REPLACEMENT PANELS FOR A-FRAME STAND, ALUMINUM W/- DIGITALLY PRINTED GRAPHICS, 1.5 FT X 3 FT</description>
+         <total_count>2</total_count>
+         <each_cost>149</each_cost>
+         <total_cost>298</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: MISC MARKETING / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-SIDED CUSTOM NYLON FLAG, 6 FT X 10 FT</description>
+         <total_count>1</total_count>
+         <each_cost>620</each_cost>
+         <total_cost>620</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: MISC MARKETING / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOBBY SIGN, RETRACTABLE POP-UP BANNER, 39 IN X 79 IN</description>
+         <total_count>1</total_count>
+         <each_cost>365</each_cost>
+         <total_cost>365</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#3: MISC MARKETING / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG PARK SIGN PANEL, APPROX 1 FT X 5 FT</description>
+         <total_count>1</total_count>
+         <each_cost>410</each_cost>
+         <total_cost>410</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

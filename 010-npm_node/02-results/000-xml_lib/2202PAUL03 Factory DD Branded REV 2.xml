@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2202PAUL03 - REV 2</quote_num>
+   <contract_file>2202PAUL03 Factory DD Branded REV 2.xlsx</contract_file>
+   <client_name>PAULS CORPORATION 100 ST PAUL STREET, SUITE 300 DENVER, CO 80206</client_name>
+   <project_name>FACTORY DESIGN DISTRICT (BRANDED SIGNAGE ONLY)</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2202PAUL03 Factory DD Branded REV 2.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -112,17 +121,173 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2202PAUL03 - REV 2</quote_num>
-   <contract_file>2202PAUL03 Factory DD Branded REV 2.xlsx</contract_file>
-   <client_name>PAULS CORPORATION 100 ST PAUL STREET, SUITE 300 DENVER, CO 80206</client_name>
-   <project_name>FACTORY DESIGN DISTRICT (BRANDED SIGNAGE ONLY)</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ILLUMINATED WALL SIGNS - CHANNEL LETTERS LOAD TO- WIREWAY (REPLACE NORTH &amp; WEST SIGN LOCATIONS) - BRANDED</description>
+         <total_count>2</total_count>
+         <each_cost>17200</each_cost>
+         <total_cost>34400</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LANDSCAPE ISLAND - REMOVE 4X4 POST AND PANEL, REPLACE- WITH MONOLITH STYLE LEASING SIGN/ART STRUCTURE- ILLUMINATED - BRANDED- (NOTE: ELECTRICAL RUN TO SIGN LOCATION BY OTHERS)</description>
+         <total_count>1</total_count>
+         <each_cost>12500</each_cost>
+         <total_cost>12500</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HEADER BEAM SIGNAGE @ LEASING CTR - REMOVE &quot;APEX LEASING&quot;- AND REPLACE WITH NEW ACRYLIC LETTERING - BRANDED</description>
+         <total_count>1</total_count>
+         <each_cost>3500</each_cost>
+         <total_cost>3500</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GRAPHIC PANELS - NON-ILLUMINATED PERFORATED FLAT PANELS- MOUNTED ABOVE HEADER BEAM BETWEEN COLUNS AND BEAMS,- 2 FT X 13 FT WIDE - BRANDED</description>
+         <total_count>4</total_count>
+         <each_cost>1330</each_cost>
+         <total_cost>5320</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WEST ADDRESS WALL - ADD ALUMIGRAPHIC LOGO UNDER EXISTING- EXISTING STREET ADDRESS, 4 FT X 6 FT - BRANDED</description>
+         <total_count>1</total_count>
+         <each_cost>980</each_cost>
+         <total_cost>980</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HOURS SIGN (WITH INTERCHANGEABLE HOURS) - BRANDED</description>
+         <total_count>1</total_count>
+         <each_cost>445</each_cost>
+         <total_cost>445</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SMOKE FREE COMMUNITY - BRANDED</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FRONT DOOR VINYL LOGO (PHONE, URL) [NEW] - BRANDED</description>
+         <total_count>2</total_count>
+         <each_cost>149</each_cost>
+         <total_cost>298</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUSINESS LOUNGE POLICIES DESKTOP - BRANDED</description>
+         <total_count>1</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>265</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: PARKING GARAGE/BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESERVED PARKING, WALL MOUNTED 18HX12W - BRANDED</description>
+         <total_count>46</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>4048</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: PARKING GARAGE/BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SMOKE FREE COMMUNITY 12HX18W - BRANDED- GARAGE - X2, COURTYARD 1 - X2, AMENITIES - X2) QUOTE #:</description>
+         <total_count>6</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>660</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

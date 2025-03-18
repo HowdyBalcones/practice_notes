@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2201G03RS REV 6</quote_num>
+   <contract_file>2201G03RS REV 6 HUE AT CITYPLACE.xlsx</contract_file>
+   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
+   <project_name>HUE AT CITYPLACE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2201G03RS REV 6 HUE AT CITYPLACE.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -189,17 +198,308 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2201G03RS REV 6</quote_num>
-   <contract_file>2201G03RS REV 6 HUE AT CITYPLACE.xlsx</contract_file>
-   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
-   <project_name>HUE AT CITYPLACE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>VERTICAL MONOLITH, 2 FT 6 IN X 9 FT TALL (TO REPLACE- EXISTING MONUMENT, SEE INSTALLATION NOTE)</description>
+         <total_count>1</total_count>
+         <each_cost>15920</each_cost>
+         <total_cost>15920</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WALL MOUNTED  ID, INTERNALLY ILLUMINATED, REPLACES- EXSITING SIGN AT NORTH ELEVATION, 10 FT X 8 FT WIDE</description>
+         <total_count>1</total_count>
+         <each_cost>9800</each_cost>
+         <total_cost>9800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WALL MOUNTED ILLUINATED ID, INTERNALLY ILLUMINATED,- SOUTH ELEVATION (FACING 75, LOADS ABOVE EXISTING SIGN- LOCATION, EXISTING TO BE REMOVED), 5 FT X 16 FT WIDE</description>
+         <total_count>1</total_count>
+         <each_cost>15600</each_cost>
+         <total_cost>15600</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, LEASING CENTER ID LOGO, 12 IN X 12IN</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, HOURS SIGN LOGO, 12 IN X 12 IN</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, FUTURE RESIDENT PARKING LOGO, 8 IN X 8 IN</description>
+         <total_count>3</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>114</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, HANDICAP PARKING LOGO, 8 IN X 8 IN</description>
+         <total_count>2</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>76</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, NO SOLICITING LOGO, 6 IN X 6 IN</description>
+         <total_count>1</total_count>
+         <each_cost>32</each_cost>
+         <total_cost>32</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, PRIVATE DRIVE LOGO, 8 IN X 8 IN</description>
+         <total_count>1</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>38</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4 GATE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, EXIT ONLY LOGO - NORTH GARAGE GATE- (NEAR FRONT - EITHER SIDE OF GATE), 4 IN X 4 IN</description>
+         <total_count>2</total_count>
+         <each_cost>28</each_cost>
+         <total_cost>56</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4 GATE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXIT ONLY - NEW - SOUTH GARAGE GATE (TO HWY 75 SERVIC RD.)</description>
+         <total_count>1</total_count>
+         <each_cost>270</each_cost>
+         <total_cost>270</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4 GATE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, KEEP GATE CLOSED/WARNING NO SOLICITING,- LOGO (EITHER SIDE OF GATE), 6 IN X 6 IN</description>
+         <total_count>2</total_count>
+         <each_cost>32</each_cost>
+         <total_cost>64</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, BUILDING ID LOGO, 10 IN X 10 IN</description>
+         <total_count>12</total_count>
+         <each_cost>42</each_cost>
+         <total_cost>504</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, DIRECTIONAL SIGN LOGO, 6 IN X 6 IN</description>
+         <total_count>23</total_count>
+         <each_cost>32</each_cost>
+         <total_cost>736</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, TRASH CHUTE LOGO, 4.5 IN X 4.5 IN</description>
+         <total_count>1</total_count>
+         <each_cost>28</each_cost>
+         <total_cost>28</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, POOL POLICIES LOGO, 9.25 X 9.25</description>
+         <total_count>1</total_count>
+         <each_cost>42</each_cost>
+         <total_cost>42</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, 911 PHONE LOGO, 4 IN X 4 IN</description>
+         <total_count>1</total_count>
+         <each_cost>28</each_cost>
+         <total_cost>28</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, POSTAL CENTER LOGO, 4 IN X 4 IN</description>
+         <total_count>1</total_count>
+         <each_cost>28</each_cost>
+         <total_cost>28</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS CENTER ID - NEW</description>
+         <total_count>2</total_count>
+         <each_cost>120</each_cost>
+         <total_cost>240</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS CENTER RULES - NEW</description>
+         <total_count>2</total_count>
+         <each_cost>495</each_cost>
+         <total_cost>990</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2010MFG01S</quote_num>
+   <contract_file>2010MFG01S SARC - Draper Rev 2.xlsx</contract_file>
+   <client_name>HEALTHCARE SOLUTIONS HOLDINGS INC. 3 SCHOOL ROAD STE 300 GLEN COVE, NY 11542</client_name>
+   <project_name>SARC - DRAPER</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2010MFG01S SARC - Draper Rev 2.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -549,17 +558,953 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2010MFG01S</quote_num>
-   <contract_file>2010MFG01S SARC - Draper Rev 2.xlsx</contract_file>
-   <client_name>HEALTHCARE SOLUTIONS HOLDINGS INC. 3 SCHOOL ROAD STE 300 GLEN COVE, NY 11542</client_name>
-   <project_name>SARC - DRAPER</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ILLUMINATED CANOPY SIGN OVER LOBBY ENTRY DOORS. STAND-- UP LETTERS &amp; LOGO PANEL 7&apos;W X18&quot;H ON RAIL / WIREWAY.- SOUTH ELEVATION, POWER TO LOCATION BY OTHERS.</description>
+         <total_count>1</total_count>
+         <each_cost>7760</each_cost>
+         <total_cost>7760</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ILLUMINATED / ATTACHED WALL SIGN LOADS TO SOUTH ELEVA-- TION BUMP OUT DETAL ABOVE 3RD FLOOR. FACING 13800 S RD- (15&apos;W X 4&apos;H) *POWER TO BE REMOTE TO CEILING OF 3RD FLOOR.- POWER TO LOCATION BY OTHERS.</description>
+         <total_count>1</total_count>
+         <each_cost>12800</each_cost>
+         <total_cost>12800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ILLUMINATED ATTACHED WALL SIGN. LOADS TO EAST ELEVATION- ABOVE 3RD FLOOR FACING I-15 FWY (15&apos;W X 4&apos;H)- *POWER TO BE REMOTE TO CEILING OF 3RD FLOOR. POWER TO- LOCATION BY OTHERS.</description>
+         <total_count>1</total_count>
+         <each_cost>12800</each_cost>
+         <total_cost>12800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-FACED ILLUMINATED SIGN. FINAL SIGN DESIGN TBD.- 7&apos;H X 10-12&quot;W  DROP-IN SIGN, LOADS ON FOOTER WITH POLE .- *POWER TO LOCATION BY OTHERS. **PROPOSED BUDGET COULD- COULD CHANGE BASED ON FINAL DESIGNS &amp; FINISH.</description>
+         <total_count>1</total_count>
+         <each_cost>31500</each_cost>
+         <total_cost>31500</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE DOOR LOGO/PHONE/URL VINYL KIT</description>
+         <total_count>2</total_count>
+         <each_cost>189</each_cost>
+         <total_cost>378</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOORS TO REMAIN UNLOCKED VINYL KIT</description>
+         <total_count>1</total_count>
+         <each_cost>89</each_cost>
+         <total_cost>89</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE DOOR SET ENTRY VINYL TO CLINIC WAITING ROOM</description>
+         <total_count>2</total_count>
+         <each_cost>189</each_cost>
+         <total_cost>378</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PATIENTS ONLY BEYOND THIS POINT</description>
+         <total_count>3</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>330</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXAM ROOM IDS (102-104, 122-123, 124, 131-133)</description>
+         <total_count>9</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>612</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PHYSICIAN OFFICE ROOM IDS (119, 120, 145)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RECEPTION OFFICE ID (X2 121, 143)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TREATMENT ROOM (105)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BREAK ROOM / EMPLOYEES ONLY (106, 134)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEDICATION ROOM (107, 139)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM (108, 116, 144)</description>
+         <total_count>3</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>294</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ECHO ROOM (109)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>IT (114)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LAB ROOM (115)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ROOM (113, 128)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NUCLEAR MEDICINE (129)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>JANITOR / MAINTENANCE STORAGE (117)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ROOMS (118, 124, 135)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TANK STORAGE (141)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MED GAS / MEP (138)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>HH.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <total_count>4</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>1060</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR / EXIT ID (STAIR #2)</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR ID W/ ACCESS TO HSH SURGERY CENTER</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>V.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>FF.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR IDS</description>
+         <total_count>6</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>528</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>W.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>GG.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL SIGNS</description>
+         <total_count>6</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>990</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>X.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BLDG DIRECTIONAL (INSIDE STAIR)</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Y.</key>
+            <section>#2: FIRST FLOOR - CLINIC SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DIRECTORY AT ELEVATOR #1</description>
+         <total_count>1</total_count>
+         <each_cost>395</each_cost>
+         <total_cost>395</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>PATIENTS ONLY BEYOND THIS POINT (201, 206, 241)</description>
+         <total_count>3</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>330</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>IT (255)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>OFFICE (203)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXAM ROOM (204)</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>RECOVERY CENTER (205)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>CONSULTATION ROOM (210)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>DIET ROOM (209)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM (207, 221, 230, 235, 237, 232)</description>
+         <total_count>6</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>588</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID (211, 223, 231)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEDICATION ROOM (226, 254)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLEAN LINEN (222, 234)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>.L.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>PRIVATE ROOM #1, #2 (224, 225)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>JANITOR / MAINTENANCE STORAGE (257, 238)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>SOIL WORK (212)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>SUPPLY ROOM (227)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>BRONCHOSCOPY ROOM (228)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>BREAK ROOM / EMPLOYEES ONLY (229)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ROOM (233, 245)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMEN&apos;S LOCKER ROOM (236)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEN&apos;S LOCKER ROOM (234)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>OPERATING ROOM / PATIENTS ONLY BEYOND THIS POINT (208, 241)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>V.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>BOIL WORK ROOM (239)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>W.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>OR #1 (240)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>X.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>HYBRID CATH (242)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Y.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>CONTROL ROOM (243) (INSIDE CATH ROOM)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Z.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>STERILE STORAGE (246, 247)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>AA.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>OR STORAGE (252)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>BB.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>STERILE PROCEDURE ROOM (248)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>CC.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>OR #2 (249)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>DD.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>PHYSICIAN OFFICE ID (250)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>EE.</key>
+            <section>#3: SECOND FLOOR - SURGERY CENTER</section>
+         </section_key>
+         
+         </section_list>
+         <description>NURSES DIRECTOR OFFICE (253)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

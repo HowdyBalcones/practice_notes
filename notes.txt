@@ -1,3 +1,41 @@
+Todays Notes: 2025-03-18
+> list of potential indesign automation tools
+   - pre-fill master pages
+   - pre-fill tables by section
+   - pre-fill sign description names, with standard formatting "key - description x count"
+   - build table from unique sign list
+   - generate spotting tags for each section
+   - place all prebuilt assets into book, based on section
+   - create turn tracking 
+   - export specific pages according to turn
+   - estimate page count
+   - enforce certain configurations 
+   - update a sign book according to contract changes 
+   - 
+> list of xml suite features to understand
+   - importXML
+   - exportXML 
+   - xmlTags
+   - mapXMLToTags
+   - xmlItem, and various properties
+   - XMLElement, various properties
+      + convertElementToTable(rowTag, cellTag)
+   - XMLElements 
+      + it's an array of xml nodes, meaning we could bring in different data sets for varying purposes.  
+   - DTD and DTDs - "Document Type Definitions",    
+
+> list of general indesign api stuff to better understand 
+   - eventListeners 
+   - labels, tags
+   - tables
+   - text 
+   - preflight 
+   - links
+
+> got the async xml export function written and working. It is faster and cleaner than the original, a lot more maintainable and extendable.
+> the entire thing isn't async, but it constructs the xml object in an async fashion. 
+   + now we debug the unique sign function and add it to the xml export. It should work now. 
+
 Todays Notes: 2025-03-17
 > we need to fix the race condition bug in our xml script. 
    + either adjust the program to run async, which has long term use

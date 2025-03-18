@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2404MACK01S</quote_num>
+   <contract_file>2404MACK01S N Miami Beach Signage REV 01.xlsx</contract_file>
+   <client_name>MACKEN COMPANIES 2404 HOLLYWOOD BLVD. HOLLYWOOD, FL 33020</client_name>
+   <project_name>AURA N. MIAMI BEACH</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2404MACK01S N Miami Beach Signage REV 01.xlsx</contract_name>
       
    <section>
    <section_name>#1: SITE SIGNAGE</section_name>
@@ -33,17 +42,53 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2404MACK01S</quote_num>
-   <contract_file>2404MACK01S N Miami Beach Signage REV 01.xlsx</contract_file>
-   <client_name>MACKEN COMPANIES 2404 HOLLYWOOD BLVD. HOLLYWOOD, FL 33020</client_name>
-   <project_name>AURA N. MIAMI BEACH</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE FACED MULTI-TENANT MONUMENT SIGN. ILLUMINATED - INTERNALLY W/ LIT TENANT PANELS. (X6 PER SIDE) (DESIGN TBD)- *FOOTER / BASE / ELECTRICAL TO LOCATION BY OTHERS*</description>
+         <total_count>1</total_count>
+         <each_cost>22800</each_cost>
+         <total_cost>22800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RETAIL / PUBLIC PARKING WALL SIGNS</description>
+         <total_count>41</total_count>
+         <each_cost>105</each_cost>
+         <total_cost>4305</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RETAIL ACCESS LEVEL 1 GRAPHICS (MULTI-TENANT)- W/ CHANGEABLE TENANT COPY PANELS</description>
+         <total_count>1</total_count>
+         <each_cost>1965</each_cost>
+         <total_cost>1965</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

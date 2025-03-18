@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2010G09RS</quote_num>
+   <contract_file>2010G09RS Greens of Fossil lake.xlsx</contract_file>
+   <client_name>GREYSTAR 600 E LAS COLINAS BLVD STE 2100 IRVING, TX 75039</client_name>
+   <project_name>GREENS OF FOSSIL LAKE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2010G09RS Greens of Fossil lake.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -341,17 +350,593 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2010G09RS</quote_num>
-   <contract_file>2010G09RS Greens of Fossil lake.xlsx</contract_file>
-   <client_name>GREYSTAR 600 E LAS COLINAS BLVD STE 2100 IRVING, TX 75039</client_name>
-   <project_name>GREENS OF FOSSIL LAKE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D/F NON-ILLUMINATED DROP IN MONUMENT: 6&apos;H X 9&apos;W- (DESIGN SPECS TBD)</description>
+         <total_count>1</total_count>
+         <each_cost>15500</each_cost>
+         <total_cost>15500</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D/F LEASING DIRECTIONAL: POST PANEL W/ DIMENSIONAL GRAPHICS AND- PROPERTY ADDRESS. LOCATED ON RIVERSIDE</description>
+         <total_count>1</total_count>
+         <each_cost>6950</each_cost>
+         <total_cost>6950</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>INDIVIDUAL LETTERING ON RADIUS WALL: LOCATED AT LEASING CENTER</description>
+         <total_count>1</total_count>
+         <each_cost>5650</each_cost>
+         <total_cost>5650</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING CENTER ID ON POSTS- S/F (NON-ILLUMINATED)</description>
+         <total_count>1</total_count>
+         <each_cost>1695</each_cost>
+         <total_cost>1695</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADDRESS SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>365</each_cost>
+         <total_cost>365</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HOURS SIGN (SUMMER/WINTER HOURS) </description>
+         <total_count>1</total_count>
+         <each_cost>465</each_cost>
+         <total_cost>465</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM FUTURE RESIDENT PARKING SIGNS </description>
+         <total_count>2</total_count>
+         <each_cost>710</each_cost>
+         <total_cost>1420</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM HANDICAPPED PARKING SIGN </description>
+         <total_count>1</total_count>
+         <each_cost>710</each_cost>
+         <total_cost>710</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAIL CENTER ID (EXTERIOR)- 12&quot;X12&quot;</description>
+         <total_count>2</total_count>
+         <each_cost>185</each_cost>
+         <total_cost>370</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RENT DROP SIGN- EXTERIOR- 12&quot;X12&quot;</description>
+         <total_count>1</total_count>
+         <each_cost>185</each_cost>
+         <total_cost>185</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESTROOMS: 1X MENS, 1X WOMENS</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS CENTER ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS CENTER POLICIES</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUISINESS CENTER ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUSINESS CENTER POLICIES</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMERGENCY EXIT- FITNESS TO POOL DOORS</description>
+         <total_count>4</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>272</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>COMMUNICATION HUB ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING IDS</description>
+         <total_count>13</total_count>
+         <each_cost>235</each_cost>
+         <total_cost>3055</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING ADRESSES</description>
+         <total_count>24</total_count>
+         <each_cost>235</each_cost>
+         <total_cost>5640</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT IDS: </description>
+         <total_count>288</total_count>
+         <each_cost>46</each_cost>
+         <total_cost>13248</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GARAGE IDS</description>
+         <total_count>20</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>760</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CARPORT IDS</description>
+         <total_count>100</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>3800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#4: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STREET BLADE SIGNS: MOUNT TO EXISTING POLES</description>
+         <total_count>16</total_count>
+         <each_cost>185</each_cost>
+         <total_cost>2960</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#4: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GATE ENTRY PACKAGE: SEE PHOTOS W/ PVC BACKERS</description>
+         <total_count>4</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>840</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H. </key>
+            <section>#4: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GATE SIGN W/ PVC BACKER: EXIT ONLY</description>
+         <total_count>2</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>420</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#4: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>COMPACTOR ID/RULES COMBO</description>
+         <total_count>1</total_count>
+         <each_cost>325</each_cost>
+         <total_cost>325</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL POLICIES W/ PVC BACKER: (NOTE: INCORPORATE BATHER LOAD)</description>
+         <total_count>2</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>1190</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WARNING NO LIFEGUARD/ CHILDREN COMBO W/ PVC BACKER</description>
+         <total_count>1</total_count>
+         <each_cost>360</each_cost>
+         <total_cost>360</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NO DIAPER CHANGING- FTW CODE W/ PVC BACKER</description>
+         <total_count>2</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>270</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>911 PHONE : W/ PVC BACKER</description>
+         <total_count>1</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>135</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>911 PHONE DIRECTIONALS: W/ PVC BACKER</description>
+         <total_count>5</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>675</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL GATE SIGN: CHILDREN UNDER 16 W/ PVC BACER</description>
+         <total_count>3</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>465</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG PARK ID FENCE MOUNT W/ PVC BACKER</description>
+         <total_count>2</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>270</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG PARK POLICIES: POLE MOUNT: REPLACE 2X FENCE MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>595</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG WASH ID: W/ PVC BACKER</description>
+         <total_count>1</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>135</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G. </key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GRILLING POLICIES: STRUCTRE MOUNT</description>
+         <total_count>2</total_count>
+         <each_cost>325</each_cost>
+         <total_cost>650</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLOTHES CARE ID</description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CAR WASH ID- 12&quot;X12&quot; </description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CAR WASH POLICIES: WALL MOUNT- 36&quot;X24&quot; </description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

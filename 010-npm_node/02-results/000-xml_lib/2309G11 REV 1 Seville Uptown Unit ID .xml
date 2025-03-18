@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2309G11 REV 1</quote_num>
+   <contract_file>2309G11 REV 1 Seville Uptown Unit ID .xlsx</contract_file>
+   <client_name>GREYSTAR 600 E. LAS COLINAS BLVD., STE 2100 IRVING, TX 75039</client_name>
+   <project_name>SEVILLE UPTOWN - UNIT 420</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2309G11 REV 1 Seville Uptown Unit ID .xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -25,17 +34,38 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2309G11 REV 1</quote_num>
-   <contract_file>2309G11 REV 1 Seville Uptown Unit ID .xlsx</contract_file>
-   <client_name>GREYSTAR 600 E. LAS COLINAS BLVD., STE 2100 IRVING, TX 75039</client_name>
-   <project_name>SEVILLE UPTOWN - UNIT 420</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT ID PANEL, RAISED GRAPHICS AND BRAILLE, 7 X 7.5 IN</description>
+         <total_count>1</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>129</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ACTUAL SHIPPING / HANDLING</description>
+         <total_count>1</total_count>
+         <each_cost>20.7</each_cost>
+         <total_cost>20.7</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

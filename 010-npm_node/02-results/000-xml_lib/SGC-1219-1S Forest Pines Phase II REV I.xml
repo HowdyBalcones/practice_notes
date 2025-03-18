@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>SGC-1219-1S</quote_num>
+   <contract_file>SGC-1219-1S Forest Pines Phase II REV I.xlsx</contract_file>
+   <client_name>STRATEGIC CONSTRUCTION 9821 KATY FWY #475 HOUSTON, TX. 77024</client_name>
+   <project_name>FOREST PINES PH II</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>SGC-1219-1S Forest Pines Phase II REV I.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -258,17 +267,248 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>SGC-1219-1S</quote_num>
-   <contract_file>SGC-1219-1S Forest Pines Phase II REV I.xlsx</contract_file>
-   <client_name>STRATEGIC CONSTRUCTION 9821 KATY FWY #475 HOUSTON, TX. 77024</client_name>
-   <project_name>FOREST PINES PH II</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE FACED MONUMENT SIGN (ON LEONARD RD.) SELF- CONTAINED DROP-IN SIGN CABINET W/ DIMENSIONAL- GRAPHICS &amp; ADDRESS. POST &amp; PANEL. *LIGHTING BY OTHERS.</description>
+         <total_count>1</total_count>
+         <each_cost>6000</each_cost>
+         <total_cost>6000</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE FACED DIRECTIONAL SIGNS. AT BUILDING 2 AND 3- TRANSITION TO PHASE 1 AND PHASE II</description>
+         <total_count>2</total_count>
+         <each_cost>985</each_cost>
+         <total_cost>1970</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: GENERAL SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ENTER/EXIT/WARNING COMBO GATE SIGNAGE PACK- (X4 GATES W/ X1 ENTER, X1 EXIT EACH)</description>
+         <total_count>4</total_count>
+         <each_cost>300</each_cost>
+         <total_cost>1200</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: GENERAL SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CARPORT NUMBERS</description>
+         <total_count>35</total_count>
+         <each_cost>28</each_cost>
+         <total_cost>980</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: BUILDING ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: BUILDING TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: BUILDING THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: BUILDING FOUR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT IDS</description>
+         <total_count>84</total_count>
+         <each_cost>42</each_cost>
+         <total_cost>3528</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: BUILDING ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: BUILDING TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: BUILDING THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: BUILDING FOUR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING IDS</description>
+         <total_count>10</total_count>
+         <each_cost>235</each_cost>
+         <total_cost>2350</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: BUILDING ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4: BUILDING TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: BUILDING THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: BUILDING FOUR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR ID</description>
+         <total_count>21</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>1008</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: BUILDING ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4: BUILDING TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: BUILDING THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: BUILDING FOUR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAINTENANCE ID</description>
+         <total_count>4</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>192</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: BUILDING ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4: BUILDING TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: BUILDING THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#6: BUILDING FOUR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE RISER</description>
+         <total_count>4</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>232</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: BUILDING ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#4: BUILDING TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#5: BUILDING THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#6: BUILDING FOUR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FDC</description>
+         <total_count>4</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>440</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

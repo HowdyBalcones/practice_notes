@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2407EQR01</quote_num>
+   <contract_file>2407EQR01 Trailwinds Grapevine Temp Take Over Signage.xlsx</contract_file>
+   <client_name>EQUITY RESIDENTIAL TWO N. RIVERSIDE PLAZA, SUITE 400 CHICAGO, IL 60606</client_name>
+   <project_name>TRAILWINDS GRAPEVINE  - TEMP SIGNAGE (FORMERLY MARLOWE GRAPEVINE)</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2407EQR01 Trailwinds Grapevine Temp Take Over Signage.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -107,17 +116,173 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2407EQR01</quote_num>
-   <contract_file>2407EQR01 Trailwinds Grapevine Temp Take Over Signage.xlsx</contract_file>
-   <client_name>EQUITY RESIDENTIAL TWO N. RIVERSIDE PLAZA, SUITE 400 CHICAGO, IL 60606</client_name>
-   <project_name>TRAILWINDS GRAPEVINE  - TEMP SIGNAGE (FORMERLY MARLOWE GRAPEVINE)</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ALUMINUM COMPOSITE PANEL WITH DIGITALLY PRINTED- GRAPHICS, 2 FT - 6 IN X 10 FT SIZE (LOADS TO EXISTING- MONUMENT SIGN)</description>
+         <total_count>1</total_count>
+         <each_cost>525</each_cost>
+         <total_cost>525</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ALUMINUM COMPOSITE PANEL(S) WITH DIGITALLY PRINTED- GRAPHICS, 2 FT - 3 IN X 12 FT SIZE (LOADS TO EXISTING- WALL SIGNS)</description>
+         <total_count>2</total_count>
+         <each_cost>550</each_cost>
+         <total_cost>1100</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ALUMINUM COMPOSITE PANEL WITH DIGITALLY PRINTED- GRAPHICS, 2 FT - 3 IN X 12 FT SIZE (LOADS TO EXISTING WALL- SIGN ABOVE LEASING ENTRANCE), REMOVE EXISTING &quot;M&quot; LOGO- AND TEMPORARILY CAP ELECTRICAL</description>
+         <total_count>1</total_count>
+         <each_cost>550</each_cost>
+         <total_cost>550</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>REMOVE HOURS SIGN AT LEASING ENTRY</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>REMOVE VINYL LOGO AT ENTRY DOORS</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>COROPOLAST COVER PANEL FOR LOGO AREA (FRP SIGNS)</description>
+         <total_count>3</total_count>
+         <each_cost>35</each_cost>
+         <total_cost>105</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>COROPOLAST COVER PANEL FOR LOGO AREA (HCP SIGNS)- ** REMOVAL COSTS ARE INCLUDED WITH INTSTALLATION PICING, NEXT PAGE</description>
+         <total_count>2</total_count>
+         <each_cost>35</each_cost>
+         <total_cost>70</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: MISC. PROPEERTY / SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>REMOVE VINYL &quot;M&quot; LOGO FROM FITNESS DOORS </description>
+         <total_count>2</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: MISC. PROPEERTY / SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>COROPOLAST COVER PANEL FOR LOGO AREA (RESERVED - PARKING SIGNS)</description>
+         <total_count>10</total_count>
+         <each_cost>35</each_cost>
+         <total_cost>350</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: MISC. PROPEERTY / SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>COMPOSITE ALUM PANEL WITH DIGITAL PRINTED ICON GRAPHICS- (LOADS ON SITE DIRECTORY MAP SIGN), 6 IN X 44 IN</description>
+         <total_count>1</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>165</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: MISC. PROPEERTY / SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>COROPOLAST COVER PANEL FOR LOGO AREA (RESIDENT ONLY- GATE SIGNS)- ** REMOVAL COSTS ARE INCLUDED WITH INTSTALLATION PICING, NEXT PAGE</description>
+         <total_count>1</total_count>
+         <each_cost>35</each_cost>
+         <total_cost>35</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

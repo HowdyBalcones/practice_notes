@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2109G15</quote_num>
+   <contract_file>2109G15 Broadstone Trinity temp REV 1.xlsx</contract_file>
+   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD STE 2100 IRVING, TX 75039</client_name>
+   <project_name>BROADSTONE TRINITY</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2109G15 Broadstone Trinity temp REV 1.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -41,17 +50,68 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2109G15</quote_num>
-   <contract_file>2109G15 Broadstone Trinity temp REV 1.xlsx</contract_file>
-   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD STE 2100 IRVING, TX 75039</client_name>
-   <project_name>BROADSTONE TRINITY</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM VINYL BANNER. LOADS TO BLDG A, FACING UNIVERSITY- 30&apos;WX 5-6&apos;H</description>
+         <total_count>1</total_count>
+         <each_cost>1350</each_cost>
+         <total_cost>1350</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM VINYL BANNER. LOADS TO BLDG B, FACING UNIVERSITY- 25&apos;W X 5-6&apos;H</description>
+         <total_count>1</total_count>
+         <each_cost>1125</each_cost>
+         <total_cost>1125</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>4&apos;W X 8&apos;H DOUBLE FACED MDO W/ CUSTOM DIGITAL GRAPHICS AND- MOUNTS TO X2 4&quot; X 4&quot; POSTS. LOADS AT CORNER OF ROGERS RD- AND RIVERFRONT. (REPLACES EXISTING, PERM)</description>
+         <total_count>1</total_count>
+         <each_cost>1085</each_cost>
+         <total_cost>1085</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-FACED NON-ILLUMINATED ID AT CORNER OF BLDG A BY - CLUBROOM. LOADS TO ALUMINUM FRAME, PANELS ONLY- 42&quot;W X 92&quot;H W/ CUSTOM PRINT. (REPLACES EXISTING, PERM)</description>
+         <total_count>1</total_count>
+         <each_cost>785</each_cost>
+         <total_cost>785</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

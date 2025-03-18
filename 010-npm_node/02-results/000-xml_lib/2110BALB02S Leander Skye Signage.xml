@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2110BALB02S</quote_num>
+   <contract_file>2110BALB02S Leander Skye Signage.xlsx</contract_file>
+   <client_name>BALFOUR BEATTY 3100 MCKINNON STREET, 6TH FLOOR DALLAS, TX 75201</client_name>
+   <project_name>LEANDER SKYE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2110BALB02S Leander Skye Signage.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -33,17 +42,53 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2110BALB02S</quote_num>
-   <contract_file>2110BALB02S Leander Skye Signage.xlsx</contract_file>
-   <client_name>BALFOUR BEATTY 3100 MCKINNON STREET, 6TH FLOOR DALLAS, TX 75201</client_name>
-   <project_name>LEANDER SKYE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ILLUMINATED, DOUBLE FACED MONUMENT- LOADS TO EXISTING BASE STRUCTURE. UTILIZES EXISTING POWER.- INCLUDES NON-ILLUMINATED ADDRESS</description>
+         <total_count>1</total_count>
+         <each_cost>15800</each_cost>
+         <total_cost>15800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>(6&apos;HX8&apos;W) ILLUMINATED PAN W/ SUB FRAME &amp; CHANNEL LETTER- &quot;LOGO V&quot; LOADS TO SOUTH &amp; WEST ELEVATIONS PER PAGE A4.1- *POWER &amp; BLOCKING TO LOCATIONS BY OTHERS</description>
+         <total_count>2</total_count>
+         <each_cost>6900</each_cost>
+         <total_cost>13800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>(6&apos;HX8&apos;W) LOGO (32&apos;HX3&apos;W) LETTER &quot;ERENA&quot;- ILLUMINATED PAN W/ SUBFRAME &amp; CHANNEL LETTERS. LOADS- TO EAST ELEVATION PER PAGE A4.1- *POWER &amp; BLOCKING TO LOCATIONS BY OTHERS</description>
+         <total_count>1</total_count>
+         <each_cost>18880</each_cost>
+         <total_cost>18880</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2407ZRS02</quote_num>
+   <contract_file>2407ZRS02 Dumpster Warning Panels.xlsx</contract_file>
+   <client_name>ZRS MANAGEMENT 3400 CARLISLE, SUITE 500 DALLAS, TX 75204</client_name>
+   <project_name>MIRASOL ELDORADO - DUMPSTER WARNING SIGNAGE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2407ZRS02 Dumpster Warning Panels.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -25,17 +34,38 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2407ZRS02</quote_num>
-   <contract_file>2407ZRS02 Dumpster Warning Panels.xlsx</contract_file>
-   <client_name>ZRS MANAGEMENT 3400 CARLISLE, SUITE 500 DALLAS, TX 75204</client_name>
-   <project_name>MIRASOL ELDORADO - DUMPSTER WARNING SIGNAGE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ALUMINUM PANELS, PAINTED FINISH, WITH SURFACE APPLIED- CAST VINYL GRAPHICS, 12 IN. X 24 IN., LOCATED AT DUMSTER- ENCLOSURE, X2 &quot;DUMPSTER FOR RESIDENT USE...&quot;, X2 &quot;THIS- PROPERTY IS VIDEO...&quot;</description>
+         <total_count>4</total_count>
+         <each_cost>195</each_cost>
+         <total_cost>780</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DESIGN / LAYOUT / PRODUCTION</description>
+         <total_count>1</total_count>
+         <each_cost>225</each_cost>
+         <total_cost>225</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

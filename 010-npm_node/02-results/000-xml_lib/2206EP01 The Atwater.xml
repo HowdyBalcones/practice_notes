@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2206EP01</quote_num>
+   <contract_file>2206EP01 The Atwater.xlsx</contract_file>
+   <client_name>EMBREY 1020 NE LOOP 410, SUITE 700 SAN ANTONIO, TX 78209</client_name>
+   <project_name>THE ATWATER AT CLEAR LAKE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2206EP01 The Atwater.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -33,17 +42,53 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2206EP01</quote_num>
-   <contract_file>2206EP01 The Atwater.xlsx</contract_file>
-   <client_name>EMBREY 1020 NE LOOP 410, SUITE 700 SAN ANTONIO, TX 78209</client_name>
-   <project_name>THE ATWATER AT CLEAR LAKE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ALUMINUM COMPOSITE PANEL WITH DIGITALLY PRINTED- GRAPHICS, 4 FT X 16 FT (SPLICED), SF CORNER MONUMENT</description>
+         <total_count>1</total_count>
+         <each_cost>820</each_cost>
+         <total_cost>820</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ALUMINUM COMPOSITE PANEL WITH DIGITALLY PRINTED- GRAPHICS, 4 FT X 12 FT (SPLICED), DF ENTRY MONUMENT</description>
+         <total_count>2</total_count>
+         <each_cost>620</each_cost>
+         <total_cost>1240</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ALUMINUM COMPOSITE PANEL WITH DIGITALLY PRINTED- GRAPHICS, 1 FT X 12 FT (SPLICED), AND 4 FT X 6 FT, SF AT- MDO CONSTRUCTION SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>535</each_cost>
+         <total_cost>535</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

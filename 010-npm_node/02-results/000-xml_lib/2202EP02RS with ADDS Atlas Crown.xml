@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2202EP02RS REV 1</quote_num>
+   <contract_file>2202EP02RS with ADDS Atlas Crown.xlsx</contract_file>
+   <client_name>EMBREY 1020 NE LOOP 410, SUITE 700 SAN ANTONIO, TX 78209</client_name>
+   <project_name>ATLAS CROWN - BRANDED SIGNAGE REPLACMENT</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2202EP02RS with ADDS Atlas Crown.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -33,17 +42,53 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2202EP02RS REV 1</quote_num>
-   <contract_file>2202EP02RS with ADDS Atlas Crown.xlsx</contract_file>
-   <client_name>EMBREY 1020 NE LOOP 410, SUITE 700 SAN ANTONIO, TX 78209</client_name>
-   <project_name>ATLAS CROWN - BRANDED SIGNAGE REPLACMENT</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>2 FT X 12 FT ALUMINUM PAN SIGN, FLAT CUT DIMENSIONAL- GRAPHICS, LOCATED AT MONUMENT ENTRY SIGNS</description>
+         <total_count>4</total_count>
+         <each_cost>6200</each_cost>
+         <total_cost>24800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>1 FT X 3 FT ALUMINUM PAN SIGN WITH LOGO ELEMENT,- DIMENSIONAL, LOCATED AT STEET SIDE OF MONUMENT SIGNS</description>
+         <total_count>2</total_count>
+         <each_cost>1995</each_cost>
+         <total_cost>3990</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ALUMINUM OVERLAY PANELS WITH VINYL GRAPHICS, LOCATED- ON POST AND PANEL DIRECTIONAL SIGNS (3 D/F SIGNS)- 1 FT 8 IN X 2 FT 2 IN WIDE</description>
+         <total_count>6</total_count>
+         <each_cost>195</each_cost>
+         <total_cost>1170</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

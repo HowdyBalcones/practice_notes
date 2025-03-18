@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2210G04 REV 1</quote_num>
+   <contract_file>2210G04 Manchester Garage REV 1.xlsx</contract_file>
+   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
+   <project_name>MANCHESTER STATE THOMAS, REFURB. SIGNAGE #2</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2210G04 Manchester Garage REV 1.xlsx</contract_name>
       
    <section>
    <section_name>#1 3010 STATE STREET (GARAGE)</section_name>
@@ -121,17 +130,218 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2210G04 REV 1</quote_num>
-   <contract_file>2210G04 Manchester Garage REV 1.xlsx</contract_file>
-   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
-   <project_name>MANCHESTER STATE THOMAS, REFURB. SIGNAGE #2</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1 3010 STATE STREET (GARAGE)</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESERVED PARKING, FENCE MOUNT (3 X 4 IN WIDE) [LEVELS 1-3]- * PANELS TO BE SUPPLIED WITH MOUNTING HOLES, ZIP-TIES</description>
+         <total_count>91</total_count>
+         <each_cost>45</each_cost>
+         <total_cost>4095</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1 3010 STATE STREET (GARAGE)</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESIDENT ENTRY ID (6 X 9.5 IN WIDE) [3X LEVEL1, 3X LEVEL 2,- 3X LEVEL 3, 3X LEVEL 4]</description>
+         <total_count>12</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>936</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1 3010 STATE STREET (GARAGE)</section>
+         </section_key>
+         
+         </section_list>
+         <description>GARAGE STAIR ID (18 X 16 IN WIDE) [2X LEVEL1, 2X LEVEL2- 2X LEVEL 3, 2X LEVEL 4]</description>
+         <total_count>8</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>1032</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1 3010 STATE STREET (GARAGE)</section>
+         </section_key>
+         
+         </section_list>
+         <description>GARAGE LEVEL ID (18 X 16 IN WIDE) [4X LEVEL1, 4X LEVEL2- 4X LEVEL 3, 4X LEVEL 4]</description>
+         <total_count>16</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>2064</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1 3010 STATE STREET (GARAGE)</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH CHUTE ID (9 X 6.5 IN WIDE) [2X LEVEL1, 2X LEVEL2- 2X LEVEL 3, 2X LEVEL 4]</description>
+         <total_count>8</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>624</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1 3010 STATE STREET (GARAGE)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR ROOM (6 X 9.5 IN WIDE) [GARAGE LEVEL 1]</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#1 3010 STATE STREET (GARAGE)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR ID (6 X 9.5 IN WIDE) [GARAGE LEVEL 4]</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#1 3010 STATE STREET (GARAGE)</section>
+         </section_key>
+         
+         </section_list>
+         <description>RECYCLE / TRASH ID - NEW (24 X 36 IN WIDE) [GARAGE LEVEL 1]</description>
+         <total_count>1</total_count>
+         <each_cost>525</each_cost>
+         <total_cost>525</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#1 3010 STATE STREET (GARAGE)</section>
+         </section_key>
+         
+         </section_list>
+         <description>2-WAY TRAFFIC (16 X 16 IN WIDE) [2X LEVEL 1, 2X LEVEL 2, - 2X LEVEL 3, 2X LEVEL 4]</description>
+         <total_count>8</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>1032</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#1 3010 STATE STREET (GARAGE)</section>
+         </section_key>
+         
+         </section_list>
+         <description>NO PEDESTRIANS (16 X 16 IN WIDE) [2X LEVEL 1, 3X LEVEL 2, - 2X LEVEL 3, 2X LEVEL 4]</description>
+         <total_count>9</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>1161</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#1 3010 STATE STREET (GARAGE)</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESERVED PARKING/RESIDENTS ONLY - NEW (18 X 12 IN WIDE),- 7X LEVEL 1, 7X LEVEL 2, 7X LEVEL 3]</description>
+         <total_count>21</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>2058</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#1 3010 STATE STREET (GARAGE)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ENTER/CLEARANCE ID (3 X 8 FT) LOADS OVER GAR ENTRANCE</description>
+         <total_count>1</total_count>
+         <each_cost>880</each_cost>
+         <total_cost>880</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#1 3010 STATE STREET (GARAGE)</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXIT ONLY ID (3 X 8 FT) LOADS OVER GARAGE ENTRANCE</description>
+         <total_count>1</total_count>
+         <each_cost>880</each_cost>
+         <total_cost>880</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#1 3010 STATE STREET (GARAGE)</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESIDENTS ONLY ID (3 X 3 FT) LOADS OVER GAR ENTRANCE</description>
+         <total_count>1</total_count>
+         <each_cost>495</each_cost>
+         <total_cost>495</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

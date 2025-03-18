@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2109G07RS</quote_num>
+   <contract_file>2109G07RS VIBE MED DIST.xlsx</contract_file>
+   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD STE 2100 IRVING, TX 75039</client_name>
+   <project_name>VIBE MEDICAL DISTRICT</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2109G07RS VIBE MED DIST.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -346,17 +355,583 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2109G07RS</quote_num>
-   <contract_file>2109G07RS VIBE MED DIST.xlsx</contract_file>
-   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD STE 2100 IRVING, TX 75039</client_name>
-   <project_name>VIBE MEDICAL DISTRICT</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D/F INTERNALLY ILLUMINATED MONUMENT CABINET, REMOVE- EXISTING, PLACE ON EXISTING BASE</description>
+         <total_count>1</total_count>
+         <each_cost>18500</each_cost>
+         <total_cost>18500</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>INTERNALLY ILLUMINATED WALL SIGN (FACING HARRY HINES)</description>
+         <total_count>1</total_count>
+         <each_cost>16500</each_cost>
+         <total_cost>16500</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING CENTER WALL SIGN (ALONG BENGAL ST)</description>
+         <total_count>1</total_count>
+         <each_cost>14500</each_cost>
+         <total_cost>14500</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FUTURE RESIDENT PARKING SIGNS ON POST W/ BASEPLATES</description>
+         <total_count>2</total_count>
+         <each_cost>795</each_cost>
+         <total_cost>1590</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FUTURE RESIDENT PARKING SIGNS ON POST DIRECT BURY</description>
+         <total_count>1</total_count>
+         <each_cost>795</each_cost>
+         <total_cost>795</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM HANDICAP PARKING SIGNS ON POST W/ BASEPLATE</description>
+         <total_count>1</total_count>
+         <each_cost>795</each_cost>
+         <total_cost>795</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING ENTRY DOOR VINYL - LOGO, HOURS, PHONE, URL)</description>
+         <total_count>4</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>516</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ACRYLIC DISPLAY - DIRECT PRINT WITH MAP- (CLIENT TO SUPPLY EXISTING ARTWORK)</description>
+         <total_count>1</total_count>
+         <each_cost>695</each_cost>
+         <total_cost>695</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GAME ROOM - 6X8</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CONFERENCE ROOM - 6X8</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUSINESS CENTER -6X8</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MENS RESTROOM - 8 1/2 X 7 3/4</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMENS RESTROOMM - 8 1/2 X 7 3/4</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLEARANCE BAR REPLACEMENT (BENGAL ST ENTRY)</description>
+         <total_count>1</total_count>
+         <each_cost>1295</each_cost>
+         <total_cost>1295</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CAUTION GATE SIGN (BENGAL ST ENTRY) - ON POST</description>
+         <total_count>1</total_count>
+         <each_cost>495</each_cost>
+         <total_cost>495</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR ID - 6X6 - STAIR #11, #12</description>
+         <total_count>7</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>476</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#6: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL SIGNS</description>
+         <total_count>47</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>7755</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR DIRECTIONALS - 12X 12- (STAIR #11, #12 - X2 EACH LEVEL, LEVELS 1-4)</description>
+         <total_count>8</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>704</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#5: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR DIRECTIONALS - 12X12- (L1 X 1, L2 X 4, L3 X 4, L4 X 2)</description>
+         <total_count>11</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>968</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#5: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR DIRECTIONALS D/F - 12X12</description>
+         <total_count>9</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>792</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#5: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>VISITOR PARKING - BEAM MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>445</each_cost>
+         <total_cost>445</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#5: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>VISITOR LOCATION DIRECTIONAL</description>
+         <total_count>3</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>264</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING ID&apos;S/ ADDRESS SIGNS - 52X24</description>
+         <total_count>11</total_count>
+         <each_cost>285</each_cost>
+         <total_cost>3135</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BREEZEWAY ID - 28X26</description>
+         <total_count>4</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>1060</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT ID - 6X6- (L1 X 85, L2 X 99, L3 X 101, L4 X 101)</description>
+         <total_count>386</total_count>
+         <each_cost>52</each_cost>
+         <total_cost>20072</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR ID - 6X6- (STAIR #1-10, L1 X 2 EA [X 20], L2 X 1 EA [X 10], L3 X 1 EA [X 10],- L4 X 1 EA [X 10])</description>
+         <total_count>50</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>3400</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#6: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <total_count>14</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>3710</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#6: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HALLWAY DIRECTIONALS -14X14</description>
+         <total_count>28</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>3780</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#6: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM ID</description>
+         <total_count>4</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>232</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#6: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH CHUTE ID</description>
+         <total_count>4</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>232</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#6: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM POLICY</description>
+         <total_count>4</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>540</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#7: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL POLICIES - WALL MOUNT - 36 1/2 X 42 1/2 (POOL 1 &amp; 2)</description>
+         <total_count>2</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>1190</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#7: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WARNING NO LIFEGUARD - 28 /14 X 48 (POOL 1 &amp; 2)</description>
+         <total_count>2</total_count>
+         <each_cost>410</each_cost>
+         <total_cost>820</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#7: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>911 PHONE - 12 1/4 X 14 1/2 (POOL 1 &amp; 2, X 2 EA)</description>
+         <total_count>4</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>620</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#7: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GRILLING POLICY - MOUNT ON STRUCTURE BY OTHERS</description>
+         <total_count>1</total_count>
+         <each_cost>385</each_cost>
+         <total_cost>385</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#7: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL GATE SIGN (X4 POOL 1, X2 POOL 2)</description>
+         <total_count>6</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>930</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#7: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GRILLING POLICY ON POST (BACK COURTYARD)</description>
+         <total_count>1</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>595</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#7: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG PARK POLICIES - POLE MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>595</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

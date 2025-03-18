@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>290BV:2412CMC01S</quote_num>
+   <contract_file>290BV2412CMC01S Southside.xlsx</contract_file>
+   <client_name>CMC COMMERCIAL REAL ESTATE 1600 DALLAS PARKWAY DALLAS, TX 75248</client_name>
+   <project_name>SOUTHSIDE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>290BV2412CMC01S Southside.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -1331,17 +1340,1413 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>290BV:2412CMC01S</quote_num>
-   <contract_file>290BV2412CMC01S Southside.xlsx</contract_file>
-   <client_name>CMC COMMERCIAL REAL ESTATE 1600 DALLAS PARKWAY DALLAS, TX 75248</client_name>
-   <project_name>SOUTHSIDE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>INTERNALLY ILLUMINATED DOUBLE FACED MONUMENT SIGN- (PER L1.10) OFF ROY RIVERS ROAD- *POWER AND BLOCKING TO LOCATION BY OTHERS*</description>
+         <total_count>1</total_count>
+         <each_cost>14600</each_cost>
+         <total_cost>14600</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>INTERANLLY ILLUMINATED WALL SIGN ON BUILDING 1- NORTH ELEVATION (A4-20)- *POWER AND BLOCKING TO LOCATION BY OTHERS*- **INCLUDES PRE-LOADED ARMATURE BRACKET**</description>
+         <total_count>1</total_count>
+         <each_cost>12000</each_cost>
+         <total_cost>12000</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER - EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PROJECT / LEASING CENTER ID - NON-ILLUMINATED LETTERS ABOVE- ENTRY. LOADS TO CANOPY</description>
+         <total_count>1</total_count>
+         <each_cost>3800</each_cost>
+         <total_cost>3800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER - EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADDRESS ID - INDIVIDUAL NUMERALS</description>
+         <total_count>1</total_count>
+         <each_cost>610</each_cost>
+         <total_cost>610</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER - EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE DOOR VINYL KIT (HOURS, LOGO, URL, PHONE)</description>
+         <total_count>1</total_count>
+         <each_cost>139</each_cost>
+         <total_cost>139</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER - EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;DOORS TO REMAIN UNLOCKED…&quot; VINYL KIT</description>
+         <total_count>1</total_count>
+         <each_cost>69</each_cost>
+         <total_cost>69</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: LEASING CENTER - EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM FUTURE RESIDENT PARKING SIGN - POST MOUNT- W/ BASEPLATE</description>
+         <total_count>3</total_count>
+         <each_cost>715</each_cost>
+         <total_cost>2145</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: LEASING CENTER - EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM HANDICAP PARKING SIGN - POST MOUNT- W/ BASEPLATE</description>
+         <total_count>2</total_count>
+         <each_cost>715</each_cost>
+         <total_cost>1430</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: LEASING CENTER - EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM USPS PARKING SIGN - POST MOUNT W/ BASEPLATE- *FOURCE TO SUPPLY CUSTOM PARKING SIGNAGE AT LEASING AREA,- BALANCE TO BE CARRIED UNDER STRIPER SUB CONTRACTORS SCOPE*</description>
+         <total_count>1</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>595</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MANAGER ID W/ BACKER</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ASSISTANT MANAGER ID W/ BACKER</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEE ONLY (X1 WORK ROOM, X1 JANITOR)</description>
+         <total_count>2</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>116</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAIL ID (X1 INT, X1 EXT)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MENS RESTROOM</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMENS RESTROOM</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM </description>
+         <total_count>2</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>220</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLUB ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLUB ROOM POLICY - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#4: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS ID</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#4: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS POLICY - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#4: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>YOGA POLICY</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#4: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUSINESS CENTER DESKTOP PACKAGE</description>
+         <total_count>1</total_count>
+         <each_cost>350</each_cost>
+         <total_cost>350</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#4: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GAME LOUNGE ID</description>
+         <total_count>1</total_count>
+         <each_cost>350</each_cost>
+         <total_cost>350</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#4: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GAME LOUNGE POLICY</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#4: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEDIA LOUNGE POLICY</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#4: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAX OCCUPANCY (LEASING, CLUB, MEDIA, FITNESS)</description>
+         <total_count>4</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>232</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#4: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DESKTOP PACKAGE (PROPER ID, NO CASH, FAIR HOUSING, ON TOUR</description>
+         <total_count>1</total_count>
+         <each_cost>720</each_cost>
+         <total_cost>720</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#4: LEASING CENTER - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#9: BUILDING TYPE B - BUILDING 6 - LEVEL 1</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID</description>
+         <total_count>4</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>192</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CARPORT NUMBERS</description>
+         <total_count>135</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>5130</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ENCLOSURE ID / POLICY </description>
+         <total_count>1</total_count>
+         <each_cost>225</each_cost>
+         <total_cost>225</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ENTER / EXIT GATE SIGN PACKAGE</description>
+         <total_count>2</total_count>
+         <each_cost>355</each_cost>
+         <total_cost>710</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESIDENT ONLY ENTER / EXIT GATE SIGN PACKAGE</description>
+         <total_count>1</total_count>
+         <each_cost>355</each_cost>
+         <total_cost>355</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SITE MAP DIRECTORY</description>
+         <total_count>1</total_count>
+         <each_cost>2885</each_cost>
+         <total_cost>2885</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#5: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MONOLITH STYLE DIRECTIONAL SIGNAGE</description>
+         <total_count>2</total_count>
+         <each_cost>1295</each_cost>
+         <total_cost>2590</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#5: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAINTANENCE ID - STUD MOUNT- *FOURCE TO SUPPLY CUSTOM PARKING SIGNAGE AT LEASING AREA,- BALANCE TO BE CARRIED UNDER STRIPER SUB CONTRACTORS SCOPE*</description>
+         <total_count>1</total_count>
+         <each_cost>185</each_cost>
+         <total_cost>185</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: BUILDING TYPE A - BUILDING 2 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#9: BUILDING TYPE B - BUILDING 6 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#15: BUILDING TYPE C - BUILDING 1 - LEVEL 1</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING ID W/ UNIT SPREAD</description>
+         <total_count>9</total_count>
+         <each_cost>335</each_cost>
+         <total_cost>3015</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: BUILDING TYPE A - BUILDING 2 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#7: BUILDING TYPE A - BUILDING 2 - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#8: BUILDING TYPE A - BUILDING 2 - LEVEL 3</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#9: BUILDING TYPE B - BUILDING 6 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#10: BUILDING TYPE B - BUILDING 6 - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#11: BUILDING TYPE B - BUILDING 6 - LEVEL 3</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#13: BUILDING TYPE B - BUILDING 6 - LEVEL 4</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#15: BUILDING TYPE C - BUILDING 1 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#16: BUILDING TYPE C - BUILDING 1 - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#17: BUILDING TYPE C - BUILDING 1 - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#18: BUILDING TYPE D - BUILDING 3 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#19: BUILDING TYPE D - BUILDING 3 - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#20: BUILDING TYPE D - BUILDING 3 - LEVEL 3</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#21: BUILDING TYPE D - BUILDING 7 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#22: BUILDING TYPE D - BUILDING 7 - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#23: BUILDING TYPE D - BUILDING 7 - LEVEL 3</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#24: BUILDING TYPE D1 - BUILDING 5  - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#25: BUILDING TYPE D1 - BUILDING 5  - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#26: BUILDING TYPE D1 - BUILDING 5  - LEVEL 3</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#24: BUILDING TYPE E - BUILDING 4  - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#25: BUILDING TYPE D1 - BUILDING 5  - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#26: BUILDING TYPE D1 - BUILDING 5  - LEVEL 3</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT DOOR NUMBERS</description>
+         <total_count>302</total_count>
+         <each_cost>54</each_cost>
+         <total_cost>16308</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: BUILDING TYPE A - BUILDING 2 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#9: BUILDING TYPE B - BUILDING 6 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#10: BUILDING TYPE B - BUILDING 6 - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#11: BUILDING TYPE B - BUILDING 6 - LEVEL 3</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#14: BUILDING TYPE B - BUILDING 6 - LEVEL 4</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#15: BUILDING TYPE C - BUILDING 1 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#16: BUILDING TYPE C - BUILDING 1 - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#17: BUILDING TYPE C - BUILDING 1 - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#18: BUILDING TYPE D - BUILDING 3 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#19: BUILDING TYPE D - BUILDING 3 - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#20: BUILDING TYPE D - BUILDING 3 - LEVEL 3</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#21: BUILDING TYPE D - BUILDING 7 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#22: BUILDING TYPE D - BUILDING 7 - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#23: BUILDING TYPE D - BUILDING 7 - LEVEL 3</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#24: BUILDING TYPE D1 - BUILDING 5  - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#24: BUILDING TYPE E - BUILDING 4  - LEVEL 1</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID</description>
+         <total_count>31</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>1488</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: BUILDING TYPE A - BUILDING 2 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#9: BUILDING TYPE B - BUILDING 6 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#15: BUILDING TYPE C - BUILDING 1 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#18: BUILDING TYPE D - BUILDING 3 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#21: BUILDING TYPE D - BUILDING 7 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#24: BUILDING TYPE D1 - BUILDING 5  - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#24: BUILDING TYPE E - BUILDING 4  - LEVEL 1</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE SPRINKLER RISER ROOM (4&quot;) - DIAMOND GRADE</description>
+         <total_count>7</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>1085</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#6: BUILDING TYPE A - BUILDING 2 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#9: BUILDING TYPE B - BUILDING 6 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#15: BUILDING TYPE C - BUILDING 1 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#18: BUILDING TYPE D - BUILDING 3 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#21: BUILDING TYPE D - BUILDING 7 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#24: BUILDING TYPE D1 - BUILDING 5  - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#24: BUILDING TYPE E - BUILDING 4  - LEVEL 1</section>
+         </section_key>
+         
+         </section_list>
+         <description>FDC W/ ADDRESS - DIAMOND GRADE</description>
+         <total_count>7</total_count>
+         <each_cost>185</each_cost>
+         <total_cost>1295</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#6: BUILDING TYPE A - BUILDING 2 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#9: BUILDING TYPE B - BUILDING 6 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#15: BUILDING TYPE C - BUILDING 1 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#18: BUILDING TYPE D - BUILDING 3 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#21: BUILDING TYPE D - BUILDING 7 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#24: BUILDING TYPE D1 - BUILDING 5  - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#24: BUILDING TYPE E - BUILDING 4  - LEVEL 1</section>
+         </section_key>
+         
+         </section_list>
+         <description>FACP - DIAMOND GRADE</description>
+         <total_count>7</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>1085</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#6: BUILDING TYPE A - BUILDING 2 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#9: BUILDING TYPE B - BUILDING 6 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#15: BUILDING TYPE C - BUILDING 1 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#18: BUILDING TYPE D - BUILDING 3 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#21: BUILDING TYPE D - BUILDING 7 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#24: BUILDING TYPE D1 - BUILDING 5  - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#24: BUILDING TYPE E - BUILDING 4  - LEVEL 1</section>
+         </section_key>
+         
+         </section_list>
+         <description>METER ROOM MAP SIGN</description>
+         <total_count>7</total_count>
+         <each_cost>365</each_cost>
+         <total_cost>2555</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#9: BUILDING TYPE B - BUILDING 6 - LEVEL 1</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING ACCESS EXT.</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#9: BUILDING TYPE B - BUILDING 6 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#10: BUILDING TYPE B - BUILDING 6 - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#11: BUILDING TYPE B - BUILDING 6 - LEVEL 3</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#13: BUILDING TYPE B - BUILDING 6 - LEVEL 4</section>
+         </section_key>
+         
+         </section_list>
+         <description>HALLWAY DIRECTIONAL</description>
+         <total_count>12</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>1620</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#9: BUILDING TYPE B - BUILDING 6 - LEVEL 1</section>
+         </section_key>
+         
+         </section_list>
+         <description>ATTACHED GARAGE DOOR NUMERS INT.</description>
+         <total_count>15</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>720</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#9: BUILDING TYPE B - BUILDING 6 - LEVEL 1</section>
+         </section_key>
+         
+         </section_list>
+         <description>ATTACHED GARAGE DOOR NUMERS EXT.</description>
+         <total_count>15</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>720</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#9: BUILDING TYPE B - BUILDING 6 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#10: BUILDING TYPE B - BUILDING 6 - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#11: BUILDING TYPE B - BUILDING 6 - LEVEL 3</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#13: BUILDING TYPE B - BUILDING 6 - LEVEL 4</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR / LEVEL / EXIT</description>
+         <total_count>12</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>696</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#9: BUILDING TYPE B - BUILDING 6 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#10: BUILDING TYPE B - BUILDING 6 - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#11: BUILDING TYPE B - BUILDING 6 - LEVEL 3</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#13: BUILDING TYPE B - BUILDING 6 - LEVEL 4</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
+         <total_count>8</total_count>
+         <each_cost>285</each_cost>
+         <total_cost>2280</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#9: BUILDING TYPE B - BUILDING 6 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#10: BUILDING TYPE B - BUILDING 6 - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#11: BUILDING TYPE B - BUILDING 6 - LEVEL 3</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#14: BUILDING TYPE B - BUILDING 6 - LEVEL 4</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID</description>
+         <total_count>4</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>192</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#9: BUILDING TYPE B - BUILDING 6 - LEVEL 1</section>
+         </section_key>
+         
+         </section_list>
+         <description>MDF ID</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#9: BUILDING TYPE B - BUILDING 6 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#10: BUILDING TYPE B - BUILDING 6 - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#11: BUILDING TYPE B - BUILDING 6 - LEVEL 3</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#14: BUILDING TYPE B - BUILDING 6 - LEVEL 4</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE DOOR &quot;DO NOT BLOCK&quot;</description>
+         <total_count>8</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>464</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#10: BUILDING TYPE B - BUILDING 6 - LEVEL 2</section>
+         </section_key>
+         
+         </section_list>
+         <description>HVAC ID</description>
+         <total_count>2</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>96</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#18: BUILDING TYPE D - BUILDING 3 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#21: BUILDING TYPE D - BUILDING 7 - LEVEL 1</section>
+         </section_key>
+         
+         </section_list>
+         <description>ATTACHED GARAGE DOOR NUMBERS INT.</description>
+         <total_count>14</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>672</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#18: BUILDING TYPE D - BUILDING 3 - LEVEL 1</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#21: BUILDING TYPE D - BUILDING 7 - LEVEL 1</section>
+         </section_key>
+         
+         </section_list>
+         <description>ATTACHED GARAGE DOOR NUMBERS EXT.</description>
+         <total_count>14</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>672</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#25: BUILDING TYPE D1 - BUILDING 5  - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#26: BUILDING TYPE D1 - BUILDING 5  - LEVEL 3</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#25: BUILDING TYPE D1 - BUILDING 5  - LEVEL 2</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#26: BUILDING TYPE D1 - BUILDING 5  - LEVEL 3</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF</description>
+         <total_count>4</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>192</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#27: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL POLICY - FENCE MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>715</each_cost>
+         <total_cost>715</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#27: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADDT. TX POOL POLICY - FENCE MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>410</each_cost>
+         <total_cost>410</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#27: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WARNING NO LIFEGUARD / NO DIVING - FENCE MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>410</each_cost>
+         <total_cost>410</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#27: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>911 EMERGENCY PHONE SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>195</each_cost>
+         <total_cost>195</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#27: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL GATE W/ HOURS &amp; 911 DIRECTIONAL</description>
+         <total_count>2</total_count>
+         <each_cost>195</each_cost>
+         <total_cost>390</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#27: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL EQUIPMENT ID</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#27: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>911 DIRECTIONAL (POOLSIDE)</description>
+         <total_count>2</total_count>
+         <each_cost>195</each_cost>
+         <total_cost>390</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#27: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WATERFOUNTAIN DIRECTIONAL</description>
+         <total_count>1</total_count>
+         <each_cost>195</each_cost>
+         <total_cost>195</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#27: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GRILL POLICIES (@ POOL) (CHARCOAL GRILLS W/ BIG GREEN EGG)</description>
+         <total_count>2</total_count>
+         <each_cost>335</each_cost>
+         <total_cost>670</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#27: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG PARK ID / POLICY - FENCE MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>595</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#27: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMERGENCY SHUTOFF VALVE SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>155</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

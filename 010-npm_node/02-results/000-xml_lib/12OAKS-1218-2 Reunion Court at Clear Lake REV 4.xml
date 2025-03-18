@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>12OAKS-1218-2</quote_num>
+   <contract_file>12OAKS-1218-2 Reunion Court at Clear Lake REV 4.xlsx</contract_file>
+   <client_name>Clear Lake Assisted Living c/o Beyer Brown &amp; Assoc. LP - USA (Agent) 822 W Central Blvd Orlando FL 32805</client_name>
+   <project_name>REUNION COURT AT CLEAR LAKE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>12OAKS-1218-2 Reunion Court at Clear Lake REV 4.xlsx</contract_name>
       
    <section>
    <section_name>#1: SITE SIGNAGE</section_name>
@@ -573,17 +582,918 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>12OAKS-1218-2</quote_num>
-   <contract_file>12OAKS-1218-2 Reunion Court at Clear Lake REV 4.xlsx</contract_file>
-   <client_name>Clear Lake Assisted Living c/o Beyer Brown &amp; Assoc. LP - USA (Agent) 822 W Central Blvd Orlando FL 32805</client_name>
-   <project_name>REUNION COURT AT CLEAR LAKE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING IDS</description>
+         <total_count>4</total_count>
+         <each_cost>285</each_cost>
+         <total_cost>1140</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM VAN HANDICAP PARKING (X1 AT AL, X1 AT MC)</description>
+         <total_count>2</total_count>
+         <each_cost>795</each_cost>
+         <total_cost>1590</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: MEMORY CARE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT DOOR NUMBERS W/ NAME SLIDER</description>
+         <total_count>97</total_count>
+         <each_cost>72</each_cost>
+         <total_cost>6984</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR IDS (X1 AT EACH N, E, S, W)</description>
+         <total_count>4</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>272</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR ID / BUILDING ACCESS ID (X1 AT EACH N, E, S) (EXTERIOR)</description>
+         <total_count>3</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>204</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL SIGNS</description>
+         <total_count>8</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>1320</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO</description>
+         <total_count>2</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>530</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DISCOVERY ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SALES ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FOOD &amp; BEVERAGE DIRECTOR</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEES ONLY / BREAK ROOM</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ED ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE CLOSET ID</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>JANITOR ID</description>
+         <total_count>3</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>144</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID (x1 EXTERIOR)</description>
+         <total_count>3</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>144</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>KITCHEN ID</description>
+         <total_count>4</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>312</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR MACHINE ROOM </description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FOOD STORAGE</description>
+         <total_count>2</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>96</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#4: MEMORY CARE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM</description>
+         <total_count>5</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>490</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ROOM ID (X1 EXTERIOR)</description>
+         <total_count>2</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>96</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS CENTER ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS STORAGE</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>V.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BOILER ROOM (EXTERIOR MOUNT)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>W.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LINEN ID</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>X.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4: MEMORY CARE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESIDENT LAUNDRY ID</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Y.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DINING ROOM ID</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Z.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PRIVATE DINING ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>AA.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXIT TO COURYARD</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>BB.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING ACCESS ID</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>CC.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>V.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE DOOR - DO NOT BLOCK</description>
+         <total_count>16</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>928</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>DD.</key>
+            <section>#2: ASSISTED LIVING - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HALLWAY DIRECTIONALS</description>
+         <total_count>3</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>405</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR IDS</description>
+         <total_count>4</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>272</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ACTIVITY DIRECTOR ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>THEATER ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID (X2 THEATER ROOM, X1 AVAITOR, X1 BY ELEVATOR)</description>
+         <total_count>3</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>144</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NURSE / MED ROOM</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#4: MEMORY CARE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SALON ID</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL</description>
+         <total_count>3</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>144</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TELECOM / ELECTRICAL</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MENS RESTROOM</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMENS RESTROOM</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>AVIATOR LOUNGE ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#3: ASSISTED LIVING - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HALLWAY DIRECTIONAL</description>
+         <total_count>1</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>135</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: MEMORY CARE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEMORY CARE DIRECTOR ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4: MEMORY CARE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEMORY CARE JANITOR ID (INSIDE RESIDENT LAUNDRY)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#4: MEMORY CARE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PANTRY ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#4: MEMORY CARE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FAMILY ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#4: MEMORY CARE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ROOM IDS</description>
+         <total_count>2</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>96</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#4: MEMORY CARE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEMORY CARE CLOSET</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#4: MEMORY CARE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NURSE / CHART ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#4: MEMORY CARE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAFF RESTROOM</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#4: MEMORY CARE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEDICATION ROOM</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#4: MEMORY CARE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SOLACE ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#4: MEMORY CARE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE DOORS - DO NOT BLOCK</description>
+         <total_count>4</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>232</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#4: MEMORY CARE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WANDERING GARDEN ID</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#4: MEMORY CARE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEMORY CARE BUILDING ACCESS</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

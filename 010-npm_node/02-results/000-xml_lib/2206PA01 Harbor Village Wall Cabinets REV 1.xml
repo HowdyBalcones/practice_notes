@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2205PA01 REV 1</quote_num>
+   <contract_file>2206PA01 Harbor Village Wall Cabinets REV 1.xlsx</contract_file>
+   <client_name>PEGASUS ABLON 8222 DOUGLAS AVENUE, STE 390 DALLAS, TS 75225</client_name>
+   <project_name>THE HARBOR - WALL DISPLAY CABINETS</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2206PA01 Harbor Village Wall Cabinets REV 1.xlsx</contract_name>
       
    <section>
    <section_name>#1: DISPLAY CABINETS</section_name>
@@ -17,17 +26,23 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2205PA01 REV 1</quote_num>
-   <contract_file>2206PA01 Harbor Village Wall Cabinets REV 1.xlsx</contract_file>
-   <client_name>PEGASUS ABLON 8222 DOUGLAS AVENUE, STE 390 DALLAS, TS 75225</client_name>
-   <project_name>THE HARBOR - WALL DISPLAY CABINETS</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: DISPLAY CABINETS</section>
+         </section_key>
+         
+         </section_list>
+         <description>LIGHT BOX CABINETS, 4 FT - 3.25 IN X 7 F T - 8 IN WIDE, LOADS - TO EXISTING STRUCTURE NEAR THEATRE (ASSUMES- FUNCTIONING ELECTRICAL AT LOCATION TO BE USED FOR NEW- CABINETS)</description>
+         <total_count>2</total_count>
+         <each_cost>3700</each_cost>
+         <total_cost>7400</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

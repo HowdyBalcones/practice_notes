@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>BRE-318-1</quote_num>
+   <contract_file>BRE-319-1 8390 LBJ Tower REV 1.xlsx</contract_file>
+   <client_name>BRIDGEVIEW REAL ESTATE 8390 LBJ FRWY SUITE 565 DALLAS, TX 75243</client_name>
+   <project_name>8390 LBJ TOWER</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>BRE-319-1 8390 LBJ Tower REV 1.xlsx</contract_name>
       
    <section>
    <section_name>#1: OFFICE SIGNAGE</section_name>
@@ -538,17 +547,673 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>BRE-318-1</quote_num>
-   <contract_file>BRE-319-1 8390 LBJ Tower REV 1.xlsx</contract_file>
-   <client_name>BRIDGEVIEW REAL ESTATE 8390 LBJ FRWY SUITE 565 DALLAS, TX 75243</client_name>
-   <project_name>8390 LBJ TOWER</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: OFFICE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-FACED MULTI TENANT TOWER SIGN. INTERNALLY- ILLUMINATED SIGN. APPROX (20&apos;H X 10&apos;W) W/ MULTIPLE- TENANT PANELS. SIGN UTILIZES EXISTING FOOTER W/ POLE- EMBEDED (SLIDE-OVER) CABINETS.</description>
+         <total_count>1</total_count>
+         <each_cost>22680</each_cost>
+         <total_cost>22680</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MENS RESTROOM (HANDICAP)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMENS RESTROOM (HANDICAP)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#3: LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#4: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#5: LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#6: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ROOM ID</description>
+         <total_count>11</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>638</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOADING DOCK ID</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOADING DOCK - DO NOT BLOCK PAN SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>385</each_cost>
+         <total_cost>385</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UPS ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>VENDING ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAIL ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#2: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SECURITY/FIRE PANEL ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#2: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR ID</description>
+         <total_count>3</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>204</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#2: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STARWELL/LEVEL SIGNS</description>
+         <total_count>2</total_count>
+         <each_cost>175</each_cost>
+         <total_cost>350</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#2: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS/IN CASE OF FIRE (X1 BANK, X1 FREIGHT)</description>
+         <total_count>2</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>530</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#2: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE PUMP ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#2: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TENANT ID (TBD-EXECUTIVE WORK SPACE)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#2: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LBJ TOWER LOUNGE ID</description>
+         <total_count>2</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>136</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#2: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIDENTIFIED ROOM ID (TBD-MANAGEMENT/SECURITY)</description>
+         <total_count>5</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>340</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#2: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DIRECTIONAL/WAYFINDING SIGNS</description>
+         <total_count>3</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>330</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR/LEVEL ID</description>
+         <total_count>8</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>544</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL/LEVEL SIGNS</description>
+         <total_count>8</total_count>
+         <each_cost>175</each_cost>
+         <total_cost>1400</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS/IN CASE OF FIRE (X1 4BANK, X1 FREIGHT)</description>
+         <total_count>8</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>2120</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MENS RESTROOM (ADA)</description>
+         <total_count>5</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>490</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#6: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMENS RESTROOM (ADA)</description>
+         <total_count>5</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>490</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#4: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#5: LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#6: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE</description>
+         <total_count>4</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>272</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#3: LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#4: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#5: LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#6: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEES ONLY (JANITOR CLOSET)</description>
+         <total_count>4</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>272</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#3: LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#4: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#5: LEVEL 9 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#6: LEVEL 10 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TELECOM ID</description>
+         <total_count>4</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>272</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#3: LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MURRAY HILL NATIONAL - CALL CENTER</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#4: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TENANT ID - MURRAY HILL NATIONAL CALL CENTER #540</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#4: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TENANT ID - BROADSWORD #530</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#4: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TENANT ID - BV CAPITAL #565</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#4: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TENANT ID - BV SECURITIES #565 W/ MEMBER FINRA/SIPC</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#4: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TENANT ID - ARCHWAY PROPERTIES #565</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#4: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TENANT ID - THE BRIDGEVIEW COMPANIES #565</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#4: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TENANT ID - REED CARTER ATTORNEYS #570</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#4: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TENANT ID - CAREWRIGHT CLINICAL SERVICES #575</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

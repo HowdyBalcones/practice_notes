@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2206TRG01</quote_num>
+   <contract_file>2206TRG01 Entry Signage.xlsx</contract_file>
+   <client_name>TRINSIC RESIDENTIAL GROUP 8235 DOUGLAS AVE., SUITE 950 DALLAS, TX 75225</client_name>
+   <project_name>ELEVEN TEN RANCH</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2206TRG01 Entry Signage.xlsx</contract_name>
       
    <section>
    <section_name>#1 - ENTRY SIGNAGE</section_name>
@@ -25,17 +34,38 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2206TRG01</quote_num>
-   <contract_file>2206TRG01 Entry Signage.xlsx</contract_file>
-   <client_name>TRINSIC RESIDENTIAL GROUP 8235 DOUGLAS AVE., SUITE 950 DALLAS, TX 75225</client_name>
-   <project_name>ELEVEN TEN RANCH</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1 - ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ALUMINUM PLATE, WATER JET CUT-THRU GRAPHICS,- 10 IN X 60 IN, PAINTED MATTE BLACK</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1 - ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ALUMINUM GRAPHICS, 8 IN AND 5 IN TALL, STUD - MOUNTED, PAINTED MATTE BLACK</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2309KAR2</quote_num>
+   <contract_file>2309KAR02 6G Corridor Signage.xlsx</contract_file>
+   <client_name>KAIROI RESIDENTIAL 711 NAVARRO ST. STE 400 SAN ANTONIO, TX 78205</client_name>
+   <project_name>6G RESIDENCES (6TH AND GUADALUPE)</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2309KAR02 6G Corridor Signage.xlsx</contract_name>
       
    <section>
    <section_name>#1: LEVEL 1 SIGNAGE</section_name>
@@ -123,17 +132,193 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2309KAR2</quote_num>
-   <contract_file>2309KAR02 6G Corridor Signage.xlsx</contract_file>
-   <client_name>KAIROI RESIDENTIAL 711 NAVARRO ST. STE 400 SAN ANTONIO, TX 78205</client_name>
-   <project_name>6G RESIDENCES (6TH AND GUADALUPE)</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: LEVEL 34 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEP ID</description>
+         <total_count>2</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>116</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OFFICE MAIL ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SECURITY IT ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEVEL 34 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>THEATER ROOM POLICY - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>435</each_cost>
+         <total_cost>435</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEVEL 34 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR / LEVEL (X3 @ S01, X2 @ S02, X2 @ S02A)</description>
+         <total_count>7</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>476</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEVEL 34 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HIGH RISE ELEVATOR MACHINE ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEVEL 34 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HVAC ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: LEVEL 34 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEE ONLY (JANITOR)</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: LEVEL 34 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A/V CLOSET ID</description>
+         <total_count>2</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>116</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEVEL 35 - LEVEL 66 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR / LEVEL (X3 @ S01, X2 @ S02) (X5 PER LEVEL)</description>
+         <total_count>160</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>10880</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: LEVEL 35 - LEVEL 66 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>VRF CLOSET ID (X1 PER LEVEL)</description>
+         <total_count>32</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>1856</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: LEVEL 35 - LEVEL 66 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GAME ROOM ID (LEVEL 53, NOT IN ORIGINAL SCOPE)</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

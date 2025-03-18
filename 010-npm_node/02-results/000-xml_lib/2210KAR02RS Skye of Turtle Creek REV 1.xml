@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2210KAR02RS REV 1</quote_num>
+   <contract_file>2210KAR02RS Skye of Turtle Creek REV 1.xlsx</contract_file>
+   <client_name>KAIROI RESIDENTIAL 711 NAVARRO STREET, SUITE 400 SAN ANTONIO, TX 78205</client_name>
+   <project_name>SKYE OF TURTLE CREEK - SIGNAGE REFRESH</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2210KAR02RS Skye of Turtle Creek REV 1.xlsx</contract_name>
       
    <section>
    <section_name>#1: EXTERIOR SIGNAGE</section_name>
@@ -70,17 +79,113 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2210KAR02RS REV 1</quote_num>
-   <contract_file>2210KAR02RS Skye of Turtle Creek REV 1.xlsx</contract_file>
-   <client_name>KAIROI RESIDENTIAL 711 NAVARRO STREET, SUITE 400 SAN ANTONIO, TX 78205</client_name>
-   <project_name>SKYE OF TURTLE CREEK - SIGNAGE REFRESH</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM PARKING SIGN, SINGLE POST WITH GRAPHIC PANELS &amp;- BACKPLATE, OVER PANEL SIZE 26 X 26 IN</description>
+         <total_count>2</total_count>
+         <each_cost>915</each_cost>
+         <total_cost>1830</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NEW PANELS (ADD TO EXISTING H/C SIGNS), 16 X 16 IN WITH- VINYL GRAPHICS, FUTURE RESIDENT PARKING/TOWING</description>
+         <total_count>2</total_count>
+         <each_cost>149</each_cost>
+         <total_cost>298</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM LOADING DOCK SIGN, SINGLE POST WITH GRAPHIC - PANEL &amp; BACKPLATE, OVER PANEL SIZE 22 X 32 IN-    *PANELS TO BE FORMED WITH ANGLED SHAPE</description>
+         <total_count>1</total_count>
+         <each_cost>1090</each_cost>
+         <total_cost>1090</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NEW COMPLETE UNIT ID SIGN TO REAPLACE #1125</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DIRECTIONAL SIGN ACCENT OVERLAY PANEL, 1 IN X 7 IN, BLACK</description>
+         <total_count>46</total_count>
+         <each_cost>15</each_cost>
+         <total_cost>690</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL FOR VARIOUS ROOM SIGNS, 0.75 IN X 1.5 IN, </description>
+         <total_count>266</total_count>
+         <each_cost>11.9</each_cost>
+         <total_cost>3165.4</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT ID ACCENT OVERLAY PANEL, 2 IN X 1.5 IN, BLACK</description>
+         <total_count>330</total_count>
+         <each_cost>12.1</each_cost>
+         <total_cost>3993</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

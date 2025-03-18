@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2202UBU01</quote_num>
+   <contract_file>2202UBU01 Building ID REV 1.xlsx</contract_file>
+   <client_name>UBUILDIT 1741 HWY67 SUITE 400 MIDLOTHIAN TX, 76065</client_name>
+   <project_name>BUILDING LOGO</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2202UBU01 Building ID REV 1.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -17,17 +26,23 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2202UBU01</quote_num>
-   <contract_file>2202UBU01 Building ID REV 1.xlsx</contract_file>
-   <client_name>UBUILDIT 1741 HWY67 SUITE 400 MIDLOTHIAN TX, 76065</client_name>
-   <project_name>BUILDING LOGO</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>INTERNALLY ILLUMINATED CHANNEL LETTERS, FACE LIT- WITH RACEWAY, 2 FT 3.5 IN X X 8 FT-    ** PRIMARY ELECTRICAL SERVICE PROVIDED TO SIGN LOCATION-        BY OTHERS</description>
+         <total_count>1</total_count>
+         <each_cost>9820</each_cost>
+         <total_cost>9820</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

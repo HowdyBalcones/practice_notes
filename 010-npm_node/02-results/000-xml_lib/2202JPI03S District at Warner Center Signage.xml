@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2800</quote_num>
+   <contract_file>2202JPI03S</contract_file>
+   <client_name></client_name>
+   <project_name>BILL PERKINS</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2202JPI03S</contract_name>
       
    <section>
    <section_name>#2: LEASING CENTER EXTERIOR SIGNAGE</section_name>
@@ -2800,17 +2809,2583 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2800</quote_num>
-   <contract_file>2202JPI03S</contract_file>
-   <client_name></client_name>
-   <project_name>BILL PERKINS</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEASING CENTER INTERIOR SIGNAGE (NO INTERIORS PROVIDED)</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING CENTER ID</description>
+         <total_count>3</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADDRESS ID</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HOURS SIGN - SUMMER/WINTER HOURS</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;DOORS TO REMAIN UNLOCKED…&quot; VINYL KIT</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: LEASING CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING DOUBLE DOOR VINYL KIT ( LOGO, URL, PHONE)</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: LEASING CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM FUTURE RESIDENT PARKING SIGN W/ BASE PLATE</description>
+         <total_count>3</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: LEASING CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM HANDICAP PARKING SIGN (X2 VAN) W/ BASE PLATE</description>
+         <total_count>2</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: LEASING CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM USPS PARKING SIGN W/ BASE PLATE</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: LEASING CENTER INTERIOR SIGNAGE (NO INTERIORS PROVIDED)</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOUNGE ID</description>
+         <total_count>2</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: LEASING CENTER INTERIOR SIGNAGE (NO INTERIORS PROVIDED)</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOUNGE POLICY</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: LEASING CENTER INTERIOR SIGNAGE (NO INTERIORS PROVIDED)</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS ID</description>
+         <total_count>3</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: LEASING CENTER INTERIOR SIGNAGE (NO INTERIORS PROVIDED)</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS POLICY</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: LEASING CENTER INTERIOR SIGNAGE (NO INTERIORS PROVIDED)</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#18: NORTH TOWER LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MPOE ID</description>
+         <total_count>2</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#3: LEASING CENTER INTERIOR SIGNAGE (NO INTERIORS PROVIDED)</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAILROOM ID</description>
+         <total_count>2</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#3: LEASING CENTER INTERIOR SIGNAGE (NO INTERIORS PROVIDED)</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAX OCCUPANCY (LEASE, LOUNGE, FITNESS)</description>
+         <total_count>3</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: PARKING GARAGE LOWER TIER SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: PARKING GARAGE LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#7: PARKING GARAGE LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#8: PARKING GARAGE LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#9: PARKING GARAGE LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#10: PARKING GARAGE LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#11: PARKING GARAGE LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GARAGE TO BUILDING / STAIR / LEVEL + EXIT ROUTE</description>
+         <total_count>26</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: PARKING GARAGE LOWER TIER SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#13: NORTH PODIUM BUILDING LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#14: NORTH PODIUM BUILDING LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#15: NORTH PODIUM BUILDING LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#16: NORTH PODIUM BUILDING LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#17: NORTH PODIUM BUILDING LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#18: NORTH PODIUM BUILDING LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING TO GARAGE</description>
+         <total_count>20</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4: PARKING GARAGE LOWER TIER SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: PARKING GARAGE LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#7: PARKING GARAGE LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#8: PARKING GARAGE LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#9: PARKING GARAGE LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#10: PARKING GARAGE LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#11: PARKING GARAGE LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#13: NORTH PODIUM BUILDING LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#14: NORTH PODIUM BUILDING LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#15: NORTH PODIUM BUILDING LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#16: NORTH PODIUM BUILDING LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#17: NORTH PODIUM BUILDING LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#18: NORTH PODIUM BUILDING LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#18: NORTH TOWER LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#19: NORTH TOWER LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#20: NORTH TOWER LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#21: NORTH TOWER LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#23: NORTH TOWER LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#24: NORTH TOWER LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#25: NORTH TOWER LEVEL EIGHT SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#26: NORTH TOWER LEVEL NINE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#27: NORTH TOWER LEVEL TEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#28: NORTH TOWER ROOF SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL</description>
+         <total_count>81</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4: PARKING GARAGE LOWER TIER SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#6: PARKING GARAGE LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#7: PARKING GARAGE LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#8: PARKING GARAGE LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#9: PARKING GARAGE LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#10: PARKING GARAGE LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#11: PARKING GARAGE LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#13: NORTH PODIUM BUILDING LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#14: NORTH PODIUM BUILDING LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#15: NORTH PODIUM BUILDING LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#16: NORTH PODIUM BUILDING LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#17: NORTH PODIUM BUILDING LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#18: NORTH PODIUM BUILDING LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#18: NORTH TOWER LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#18: NORTH TOWER LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#19: NORTH TOWER LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#20: NORTH TOWER LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#21: NORTH TOWER LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#23: NORTH TOWER LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#24: NORTH TOWER LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#25: NORTH TOWER LEVEL EIGHT SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#26: NORTH TOWER LEVEL NINE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#27: NORTH TOWER LEVEL TEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#28: NORTH TOWER ROOF SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE W/ DIRECTIONAL ARROW</description>
+         <total_count>61</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4: PARKING GARAGE LOWER TIER SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EV CHARGING SIGN (NUMBERED)</description>
+         <total_count>23</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#4: PARKING GARAGE LOWER TIER SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXHAUST ROOM ID</description>
+         <total_count>3</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#4: PARKING GARAGE LOWER TIER SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#4: PARKING GARAGE LOWER TIER SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#4: PARKING GARAGE LOWER TIER SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH POLICY</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#4: PARKING GARAGE LOWER TIER SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH PICK-UP / DO NOT BLOCK (OVERSIZED)</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLEARANCE BAR W/ VINYL KIT</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ENTER / EXIT / GATE WARNING COMBO</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: PARKING GARAGE LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#7: PARKING GARAGE LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#8: PARKING GARAGE LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#9: PARKING GARAGE LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#10: PARKING GARAGE LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#11: PARKING GARAGE LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING TO GARAGE </description>
+         <total_count>21</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: PARKING GARAGE LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#7: PARKING GARAGE LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#8: PARKING GARAGE LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#9: PARKING GARAGE LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#10: PARKING GARAGE LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#11: PARKING GARAGE LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GARAGE TO BUILDING</description>
+         <total_count>30</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EV CHARGING SIGN (X6 GUEST / X14 NUMBERED)</description>
+         <total_count>20</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TOWING ENFORCED / PRIVATE PROPERTY SIGN PACKAGE</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TENANTS ONLY SIGN</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;FUEL&quot; SIGN</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#6: PARKING GARAGE LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#7: PARKING GARAGE LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#8: PARKING GARAGE LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#9: PARKING GARAGE LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#10: PARKING GARAGE LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#11: PARKING GARAGE LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADA ACCESSIBLE ROUTE SIGN</description>
+         <total_count>18</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#6: PARKING GARAGE LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#7: PARKING GARAGE LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#8: PARKING GARAGE LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#9: PARKING GARAGE LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#10: PARKING GARAGE LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#11: PARKING GARAGE LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXHAUST ID</description>
+         <total_count>28</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECT. ROOM ID (NUMBERED)</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#9: PARKING GARAGE LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#16: NORTH PODIUM BUILDING LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>INVERTER ROOM ID</description>
+         <total_count>4</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOM. WATER PUMP ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PET SPA ID</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#5: PARKING GARAGE LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PET SPA POLICY</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#6: PARKING GARAGE LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#7: PARKING GARAGE LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#8: PARKING GARAGE LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#9: PARKING GARAGE LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#10: PARKING GARAGE LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#11: PARKING GARAGE LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EV CHARING SIGN (NUMBERED)</description>
+         <total_count>173</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING ID W/ UNIT SPREAD</description>
+         <total_count>10</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#18: NORTH TOWER LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING ACCESS ID</description>
+         <total_count>7</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#18: NORTH TOWER LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#28: NORTH TOWER ROOF SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR ACCESS ID</description>
+         <total_count>9</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#13: NORTH PODIUM BUILDING LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#14: NORTH PODIUM BUILDING LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#15: NORTH PODIUM BUILDING LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#16: NORTH PODIUM BUILDING LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#17: NORTH PODIUM BUILDING LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#18: NORTH PODIUM BUILDING LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HALLWAY DIRECTIONALS</description>
+         <total_count>54</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#13: NORTH PODIUM BUILDING LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#14: NORTH PODIUM BUILDING LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#15: NORTH PODIUM BUILDING LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#16: NORTH PODIUM BUILDING LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#17: NORTH PODIUM BUILDING LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#18: NORTH PODIUM BUILDING LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#18: NORTH TOWER LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#19: NORTH TOWER LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#20: NORTH TOWER LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#21: NORTH TOWER LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#23: NORTH TOWER LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#24: NORTH TOWER LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#25: NORTH TOWER LEVEL EIGHT SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#26: NORTH TOWER LEVEL NINE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#27: NORTH TOWER LEVEL TEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT DOOR NUMBERS</description>
+         <total_count>445</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#13: NORTH PODIUM BUILDING LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#14: NORTH PODIUM BUILDING LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#15: NORTH PODIUM BUILDING LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#16: NORTH PODIUM BUILDING LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#17: NORTH PODIUM BUILDING LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#18: NORTH PODIUM BUILDING LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#18: NORTH TOWER LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#19: NORTH TOWER LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#20: NORTH TOWER LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#21: NORTH TOWER LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#23: NORTH TOWER LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#24: NORTH TOWER LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#25: NORTH TOWER LEVEL EIGHT SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#26: NORTH TOWER LEVEL NINE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#27: NORTH TOWER LEVEL TEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#28: NORTH TOWER ROOF SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR / LEVEL + EXIT ROUTE</description>
+         <total_count>57</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#13: NORTH PODIUM BUILDING LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ROOM ID (NUMBERED)</description>
+         <total_count>6</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#15: NORTH PODIUM BUILDING LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#17: NORTH PODIUM BUILDING LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID</description>
+         <total_count>23</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#13: NORTH PODIUM BUILDING LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#14: NORTH PODIUM BUILDING LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#15: NORTH PODIUM BUILDING LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#16: NORTH PODIUM BUILDING LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#17: NORTH PODIUM BUILDING LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#18: NORTH PODIUM BUILDING LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UTILITY ID</description>
+         <total_count>197</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BIKE STORAGE ID</description>
+         <total_count>2</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BIKE STORAGE POLICY</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEN&apos;S RESTROOM (CA CODE)</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMEN&apos;S RESTROOM (CA CODE)</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MOVE / LOAD ID</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MOVE / LOAD / DO NOT BLOCK</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#13: NORTH PODIUM BUILDING LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>REMOTE METER BANK ID</description>
+         <total_count>2</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING TO GARAGE / STAIR / LEVEL + EXIT ROUTE</description>
+         <total_count>3</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>V.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#13: NORTH PODIUM BUILDING LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#14: NORTH PODIUM BUILDING LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#15: NORTH PODIUM BUILDING LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#16: NORTH PODIUM BUILDING LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#17: NORTH PODIUM BUILDING LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#18: NORTH PODIUM BUILDING LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#18: NORTH TOWER LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#19: NORTH TOWER LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#20: NORTH TOWER LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#21: NORTH TOWER LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#23: NORTH TOWER LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#24: NORTH TOWER LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#25: NORTH TOWER LEVEL EIGHT SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#26: NORTH TOWER LEVEL NINE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#27: NORTH TOWER LEVEL TEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH / RECYCLE ID</description>
+         <total_count>16</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>W.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#13: NORTH PODIUM BUILDING LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#14: NORTH PODIUM BUILDING LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#15: NORTH PODIUM BUILDING LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#16: NORTH PODIUM BUILDING LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#17: NORTH PODIUM BUILDING LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#18: NORTH PODIUM BUILDING LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#18: NORTH TOWER LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#19: NORTH TOWER LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#20: NORTH TOWER LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#21: NORTH TOWER LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#23: NORTH TOWER LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#24: NORTH TOWER LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#25: NORTH TOWER LEVEL EIGHT SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#26: NORTH TOWER LEVEL NINE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#27: NORTH TOWER LEVEL TEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH / RECYCLE POLICY</description>
+         <total_count>16</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>X. </key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#13: NORTH PODIUM BUILDING LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#14: NORTH PODIUM BUILDING LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#15: NORTH PODIUM BUILDING LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#16: NORTH PODIUM BUILDING LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#17: NORTH PODIUM BUILDING LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#18: NORTH PODIUM BUILDING LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#18: NORTH TOWER LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#19: NORTH TOWER LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#20: NORTH TOWER LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#21: NORTH TOWER LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#23: NORTH TOWER LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#24: NORTH TOWER LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#25: NORTH TOWER LEVEL EIGHT SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#26: NORTH TOWER LEVEL NINE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#27: NORTH TOWER LEVEL TEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH CHUTE ICON</description>
+         <total_count>16</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Y.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#13: NORTH PODIUM BUILDING LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#14: NORTH PODIUM BUILDING LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#15: NORTH PODIUM BUILDING LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#16: NORTH PODIUM BUILDING LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#17: NORTH PODIUM BUILDING LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#18: NORTH PODIUM BUILDING LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#18: NORTH TOWER LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#19: NORTH TOWER LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#20: NORTH TOWER LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#21: NORTH TOWER LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#23: NORTH TOWER LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#24: NORTH TOWER LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#25: NORTH TOWER LEVEL EIGHT SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#26: NORTH TOWER LEVEL NINE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#27: NORTH TOWER LEVEL TEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RECYCLE CHUTE ICON</description>
+         <total_count>16</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Z.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#14: NORTH PODIUM BUILDING LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#15: NORTH PODIUM BUILDING LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#16: NORTH PODIUM BUILDING LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#17: NORTH PODIUM BUILDING LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#18: NORTH PODIUM BUILDING LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE DOOR / DO NOT BLOCK</description>
+         <total_count>104</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>AA.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FDC W/ ADDRESS</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>BB.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#18: NORTH TOWER LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NO SMOKING + 25 FT SIGN</description>
+         <total_count>14</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>CC.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FACP ID</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>DD.</key>
+            <section>#12: NORTH PODIUM BUILDING LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FACP ACCESS </description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#14: NORTH PODIUM BUILDING LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR MACHINE ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#14: NORTH PODIUM BUILDING LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#15: NORTH PODIUM BUILDING LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#16: NORTH PODIUM BUILDING LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#17: NORTH PODIUM BUILDING LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#18: NORTH PODIUM BUILDING LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING TO GARAGE / STAIR / LEVEL</description>
+         <total_count>10</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#18: NORTH PODIUM BUILDING LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ROOF ACCESS (@ EACH STAIR ON LEVEL 8)</description>
+         <total_count>5</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#18: NORTH TOWER LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOBBY ID</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#18: NORTH TOWER LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>URBO MARKET ID</description>
+         <total_count>2</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#18: NORTH TOWER LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMERGENCY GENERATOR ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#18: NORTH TOWER LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#18: NORTH TOWER LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMERGENCY ELECTRICAL ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#18: NORTH TOWER LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOMESTIC WATER PUMP ID</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#18: NORTH TOWER LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH PICK-UP / DO NOT BLOCK</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#18: NORTH TOWER LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE COMMAND CENTER ID</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#18: NORTH TOWER LEVEL ONE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE PUMP ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#18: NORTH TOWER LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#19: NORTH TOWER LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#20: NORTH TOWER LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#21: NORTH TOWER LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#23: NORTH TOWER LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#24: NORTH TOWER LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#25: NORTH TOWER LEVEL EIGHT SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#26: NORTH TOWER LEVEL NINE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#27: NORTH TOWER LEVEL TEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HALLWAY DIRECTIONAL</description>
+         <total_count>9</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#18: NORTH TOWER LEVEL TWO SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#19: NORTH TOWER LEVEL THREE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#20: NORTH TOWER LEVEL FOUR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#21: NORTH TOWER LEVEL FIVE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#23: NORTH TOWER LEVEL SIX SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#24: NORTH TOWER LEVEL SEVEN SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#25: NORTH TOWER LEVEL EIGHT SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#26: NORTH TOWER LEVEL NINE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#27: NORTH TOWER LEVEL TEN SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIDENTIFIED ROOM ID</description>
+         <total_count>9</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#28: NORTH TOWER ROOF SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ROOF LOUNGE ID</description>
+         <total_count>2</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#28: NORTH TOWER ROOF SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ROOF LOUNGE POLICY</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#28: NORTH TOWER ROOF SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WATER HEATER TEAL ROOM </description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#28: NORTH TOWER ROOF SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR MACHINE ROOM</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#29: AMENITY SIGNAGE (VERIFY ROOF TERRACE NO LS PROVIDED)</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL POLICIES - ON POST </description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#29: AMENITY SIGNAGE (VERIFY ROOF TERRACE NO LS PROVIDED)</section>
+         </section_key>
+         
+         </section_list>
+         <description>WARNING NO LIFEGUARD / NO DIVING</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#29: AMENITY SIGNAGE (VERIFY ROOF TERRACE NO LS PROVIDED)</section>
+         </section_key>
+         
+         </section_list>
+         <description>911 EMERGENCY PHONE SIGN</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#29: AMENITY SIGNAGE (VERIFY ROOF TERRACE NO LS PROVIDED)</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL GATE W/ HOURS &amp; 911 PHONE DIRECTIONAL</description>
+         <total_count>2</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#29: AMENITY SIGNAGE (VERIFY ROOF TERRACE NO LS PROVIDED)</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL EQUIPMENT ID</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#29: AMENITY SIGNAGE (VERIFY ROOF TERRACE NO LS PROVIDED)</section>
+         </section_key>
+         
+         </section_list>
+         <description>GRILL POLICIES (@ POOL)</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#29: AMENITY SIGNAGE (VERIFY ROOF TERRACE NO LS PROVIDED)</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE PIT GUIDELINES (@ POOL)</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#29: AMENITY SIGNAGE (VERIFY ROOF TERRACE NO LS PROVIDED)</section>
+         </section_key>
+         
+         </section_list>
+         <description>GAS SHUT-OFF (GRILL, FIRE PIT)</description>
+         <total_count>2</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

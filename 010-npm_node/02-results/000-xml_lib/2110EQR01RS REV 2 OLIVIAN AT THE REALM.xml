@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2110EQR01RS REV 2</quote_num>
+   <contract_file>2110EQR01RS REV 2 OLIVIAN AT THE REALM.xlsx</contract_file>
+   <client_name>EQUITY RESIDENTIAL TWO N. RIVERSIDE PLAZA, SUITE 400 CHICAGO, IL 60606</client_name>
+   <project_name>OLIVIAN  AT THE REALM</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2110EQR01RS REV 2 OLIVIAN AT THE REALM.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -46,17 +55,68 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2110EQR01RS REV 2</quote_num>
-   <contract_file>2110EQR01RS REV 2 OLIVIAN AT THE REALM.xlsx</contract_file>
-   <client_name>EQUITY RESIDENTIAL TWO N. RIVERSIDE PLAZA, SUITE 400 CHICAGO, IL 60606</client_name>
-   <project_name>OLIVIAN  AT THE REALM</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SINGLE-FACE ILLUMINATED SIGN CABINET W/ CHANNEL LETTERS- (REPLACES EXISTING SIGNS ABOVE LEASING OFFICE AND WALL- CASTLE HILLS DRIVE)- * PRICE BASED ON +/- 33 INCH TOP LETTER HT (TO FIT SPACE)</description>
+         <total_count>2</total_count>
+         <each_cost>14900</each_cost>
+         <total_cost>29800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TEMPORARY VINYL BANNERS AT ILLUMINATED SIGN LOCATIONS- (EXISTING SIGNS WILL BE REMOVED AT TIME OF BANNER INSTALL)</description>
+         <total_count>2</total_count>
+         <each_cost>800</each_cost>
+         <total_cost>1600</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ENTRY DOORS - ETCHMARK VINYL</description>
+         <total_count>2</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>258</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GLASS DOOR VINYL - FITNESS, SPIN, WEIGHTS, BUSINESS CENTER,- AND CLUB WEST</description>
+         <total_count>5</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>645</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

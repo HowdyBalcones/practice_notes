@@ -78,7 +78,9 @@ async function build_section_xml(section_map) {
       let section_name = section_arr[0].trim();    // string
       let section_row_arr = section_arr[1];        // sub-array of section_arr, contains list of key objects
       let values_object = section_row_arr[0];      // this is the key object? idk if I still need, wrote it for testing.
-      console.log(section_row_arr);
+      // console.log(section_arr);
+      // console.log(`Section Row: ${section_row_arr}\nType: ${typeof section_row_arr}`)
+      // console.log(`Values object: ${values_object}\nType: ${typeof values_object}`)
       xml_sections += serialize_sections(escapeXML(section_name), section_row_arr);
    }
    return xml_sections;
@@ -103,10 +105,29 @@ async function build_metadata_xml(data) {
 
 async function compose_xml_object(data) {
    try {
-      const section_map = await build_section_xml(data);
+      let xml_object = '';
+      const section_map = await create_section_map(data);
+      // console.log(section_map)
       const section_xml = await build_section_xml(section_map);
+      // console.log(section_xml);
       const metadata_xml = await build_metadata_xml(data);
-      console.log(section_xml, metadata_xml);
+      const unique_sign_list = await unique_signs(data);
+      const unique_sign_xml = await serialize_unique_signs(unique_sign_list);
+      xml_object = `
+      <job_info>
+      <metadata>
+      ${metadata_xml}
+      </metadata>
+      <contract>
+      ${section_xml}
+      </contract>
+      <unique_sign_list>
+      ${unique_sign_xml}
+      </unique_sign_list>
+      </job_info>
+      `
+      // console.log(xml_object)
+      return xml_object;
    } catch(xml_comp_err) {
       console.error(xml_comp_err);
    }
@@ -134,8 +155,32 @@ function serialize_sections(section_name, items) {
    return section_info;
 }
 
+async function unique_signs(data) {
+   let unique_sign_list = [];
+   for (let i = 1; i < data.length; ++i) {
+      let row = data[i];
+      const new_obj = await build_key_obj(row);
+      unique_sign_list = await find_same_obj(unique_sign_list, new_obj);
+   }
+   return unique_sign_list;
+}
+
+async function find_same_obj(arr, new_obj) {
+   const new_arr = [...arr];
+   const existing_obj = new_arr.find(obj => obj.description === new_obj.description);
+   if (existing_obj) {
+      existing_obj.count += new_obj.count || 1;
+      existing_obj.set_total_cost();
+      existing_obj.section_list.push(new_obj.section_list[0]);
+   } else {
+      new_arr.push({...new_obj, count: new_obj.count || 1});
+   }
+   return new_arr;
+}
+
 async function serialize_unique_signs(unique_sign_arr) {
-   function section_list_xml(section_list) {
+  let unique_items_xml = '';
+  async function section_list_xml(section_list) {
       let list = section_list.map(section_key => `
          <section_key>
             <key>${escapeXML(section_key.key)}</key>
@@ -144,18 +189,27 @@ async function serialize_unique_signs(unique_sign_arr) {
          `).join("");
       return list;
    }
-
-   const unique_items_xml = unique_sign_arr.map(unique_sign => `
+   
+   for (let i = 0; i < unique_sign_arr.length; ++i) {
+      const unique_sign = unique_sign_arr[i];
+      const section_list = await section_list_xml(unique_sign.section_list);
+      const description = escapeXML(unique_sign.description);
+      const total_count = escapeXML(unique_sign.count); 
+      const each_cost = escapeXML(unique_sign.cost);
+      const total_cost = escapeXML(unique_sign.total_cost);
+      unique_items_xml += `
       <unique_sign>
          <section_list>
-            ${section_list_xml(unique_sign.section_list)}
+         ${section_list}
          </section_list>
-         <description>${escapeXML(unique_sign.description)}</description>
-         <total_count>${escapeXML(unique_sign.count)}</total_count>
-         <each_cost>${escapeXML(unique_sign.cost)}</each_cost>
-         <total_cost>${escapeXML(unique_sign.total_cost)}</total_cost>
+         <description>${description}</description>
+         <total_count>${total_count}</total_count>
+         <each_cost>${each_cost}</each_cost>
+         <total_cost>${total_cost}</total_cost>
       </unique_sign>
-      `).join("");
+      `
+   }
+
    return unique_items_xml;
 }
 
@@ -185,10 +239,29 @@ async function batch_files() {
       }
    }
 
+   async function write_xml_lib(data, file_path) {
+      const file_name = path.basename(file_path, '.xlsx');
+      const xml_folder_name = '000-xml_lib';
+      make_folder_async(xml_folder_name);
+      try {
+         const xml_object = await compose_xml_object(data);
+         const new_path = path.join(`${destination_path}/${xml_folder_name}`, `${file_name}.xml`);
+         fs.writeFile(new_path, xml_object, (err) => {
+            if (err) {
+               console.error('Error writing xml file: ', err);
+               throw err;
+            } else {
+               console.log('xml file written successfully.');
+            }
+         });
+      } catch(err) {
+         console.log(`Failure to construct XML file: ${err}\n File: ${file_name}`);
+      }
+   }
+
    async function process_file(file_path) {
       let file_name = 'unknown';
       try {
-         
          const full_path = await path.resolve(file_path);
          if (!full_path) {
             console.log(`Error resolving file_path: ${file_path}`);
@@ -207,22 +280,21 @@ async function batch_files() {
               console.log(`Error reading file: ${file_name}`);
               return;
            }
-           compose_xml_object(target_data);
-           console.log(target_data['0']);
+           write_xml_lib(target_data, full_path);
+           // console.log(target_data['0']);
            // write_xml_lib(target_data, full_path);
-           console.log(file_path);
+           // console.log(file_path);
          } catch(write_err) {
             console.log(`Error writing file: ${file_name}`)
          }
 
       } catch(err) {
          console.log(`Process Error: ${err}, file_name: ${file_name}`)
-         console.log()
       }
    }
 
    try {
-      console.log(destination_path, file_paths);
+      // console.log(destination_path, file_paths);
       file_paths.forEach((path) => process_file(path));
    } catch(process_err) {
       console.error(`Process error: ${process_err}`);

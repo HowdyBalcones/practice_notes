@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2309G03</quote_num>
+   <contract_file>2309G03 Dane Park Grapevine.xlsx</contract_file>
+   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
+   <project_name>DANE PARK GRAPEVINE - ADDITIONAL SIGNAGE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2309G03 Dane Park Grapevine.xlsx</contract_name>
       
    <section>
    <section_name>#1: AMENITY SIGNAGE</section_name>
@@ -86,17 +95,143 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2309G03</quote_num>
-   <contract_file>2309G03 Dane Park Grapevine.xlsx</contract_file>
-   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
-   <project_name>DANE PARK GRAPEVINE - ADDITIONAL SIGNAGE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, 12 X 18 IN. -  IN CASE OF EMERGENCY DIAL 911</description>
+         <total_count>1</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>155</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, 18 X 24 IN. - X1 ALL PERSONS UNDER..., X1 FIRE- PIT RULES, X1 PET SPA RULES</description>
+         <total_count>3</total_count>
+         <each_cost>219</each_cost>
+         <total_cost>657</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, 24 X 24 IN. - DIAL 911 (ARROW)</description>
+         <total_count>2</total_count>
+         <each_cost>359</each_cost>
+         <total_cost>718</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, 12 X 12 IN. - DIAL 911 (ARROW), ADDRESS</description>
+         <total_count>1</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>129</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, 28 X 36 IN. - X1 ALL PERSONS UNDER..14....,- X1 WARNING NO LIFEGUARD...</description>
+         <total_count>2</total_count>
+         <each_cost>429</each_cost>
+         <total_cost>858</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, 24 X 36 IN. - BARK PARK</description>
+         <total_count>1</total_count>
+         <each_cost>429</each_cost>
+         <total_cost>429</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#1: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, 36 X 48 IN. - POOL RULES</description>
+         <total_count>1</total_count>
+         <each_cost>549</each_cost>
+         <total_cost>549</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: MISC PROPERTY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, 8 X 10 IN. - MAINTENANCE SHOP</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: MISC PROPERTY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERLAY PANEL, 18 X 24 IN. - X1 PRIVATE PARKING..., X2 PRIVATE- GARAGE...</description>
+         <total_count>3</total_count>
+         <each_cost>219</each_cost>
+         <total_cost>657</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

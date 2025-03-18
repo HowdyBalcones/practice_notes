@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2403WBGP02</quote_num>
+   <contract_file>Skyhouse FS Fireplace Logo 2403WBGP02.xlsx</contract_file>
+   <client_name>WILLOW BRIDGE PROPERTY COMPANY 10210 N. CENTRAL EXPWY, SUITE 500 DALLAS, TX 75231</client_name>
+   <project_name>SKYHOUSE FRISCO STATION - FIREPLACE LOGO</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>Skyhouse FS Fireplace Logo 2403WBGP02.xlsx</contract_name>
       
    <section>
    <section_name>#1 - LOGO SIGNAGE</section_name>
@@ -25,17 +34,38 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2403WBGP02</quote_num>
-   <contract_file>Skyhouse FS Fireplace Logo 2403WBGP02.xlsx</contract_file>
-   <client_name>WILLOW BRIDGE PROPERTY COMPANY 10210 N. CENTRAL EXPWY, SUITE 500 DALLAS, TX 75231</client_name>
-   <project_name>SKYHOUSE FRISCO STATION - FIREPLACE LOGO</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1 - LOGO SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>(SET) BRUSHED ALUMINUM LOGO LETTERSHAPES, SAND-BLASTED- RETURNS, STUD MOUNTED TO TILE WALL (1/2&quot; STAND-OFFS),- APPROX OVERALL SIZE 6 FT X 14.75 INCHES</description>
+         <total_count>1</total_count>
+         <each_cost>1835</each_cost>
+         <total_cost>1835</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1 - LOGO SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LAYOUT/PRODUCTION/COORDINATION</description>
+         <total_count>1</total_count>
+         <each_cost>250</each_cost>
+         <total_cost>250</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2304ZRS06</quote_num>
+   <contract_file>2304ZRS06 Mirasol Eldorado Misc Property Signs REV 1.xlsx</contract_file>
+   <client_name>ZRS MANAGEMENT 3400 CARLISLE, SUITE 500 DALLAS, TX 75204</client_name>
+   <project_name>MIRASOL ELDORADO MISC PROPERTY SIGNAGE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2304ZRS06 Mirasol Eldorado Misc Property Signs REV 1.xlsx</contract_name>
       
    <section>
    <section_name>#1: LEASING CENTER- EXTERIOR SIGNAGE</section_name>
@@ -224,17 +233,383 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2304ZRS06</quote_num>
-   <contract_file>2304ZRS06 Mirasol Eldorado Misc Property Signs REV 1.xlsx</contract_file>
-   <client_name>ZRS MANAGEMENT 3400 CARLISLE, SUITE 500 DALLAS, TX 75204</client_name>
-   <project_name>MIRASOL ELDORADO MISC PROPERTY SIGNAGE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FUTURE RESIDENT PARKING SIGNS WITH SINGLE POST</description>
+         <total_count>2</total_count>
+         <each_cost>795</each_cost>
+         <total_cost>1590</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ROOM ID, 5 X 8 IN (X2 FITNESS CENTER)</description>
+         <total_count>2</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>196</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING CENTER OFFICE HOUTS, 22.5 X 13.5 IN</description>
+         <total_count>1</total_count>
+         <each_cost>235</each_cost>
+         <total_cost>235</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SPRINKLER CONTROL ROOM, 8 X 10 IN</description>
+         <total_count>17</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>1496</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL POLICIES, 30 X 43 IN, FENCE MOUNTED</description>
+         <total_count>1</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>595</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WNLG/NO CHILDREN COMBO, 30 X 36 IN, FENCE MOUNTED</description>
+         <total_count>1</total_count>
+         <each_cost>410</each_cost>
+         <total_cost>410</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL HOURS, 18 X 18 IN, ON COLUMN</description>
+         <total_count>1</total_count>
+         <each_cost>195</each_cost>
+         <total_cost>195</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TX 2021 POOL CODE SIGN, FENCE MOUNTED</description>
+         <total_count>1</total_count>
+         <each_cost>495</each_cost>
+         <total_cost>495</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMERGENCY PHONE WITH ARROW, 12 X 18 IN</description>
+         <total_count>3</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>465</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FOR EMERGENCY DIAL 911, 20 X 43 IN</description>
+         <total_count>1</total_count>
+         <each_cost>395</each_cost>
+         <total_cost>395</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NO SMOKING, 18.5 X 18.5 IN, ON COLUMN</description>
+         <total_count>2</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>330</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NO DIVING, 18 X 18 IN, ON COLUMN</description>
+         <total_count>2</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>330</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NO DIVING, NO SWIMMING, 14 X 21 IN, FENCE MOUNTED</description>
+         <total_count>2</total_count>
+         <each_cost>190</each_cost>
+         <total_cost>380</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NO DIVING, NO SWIMMING, 14 X 21 IN, OVERLAY PANEL ON- EXISTING POST</description>
+         <total_count>1</total_count>
+         <each_cost>190</each_cost>
+         <total_cost>190</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MENS RESTROOM, 9 X 6 IN</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMENS RESTROOM, 9 X 6 IN</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG PARK ID, 24 X 18 IN., FENCE MOUNTED</description>
+         <total_count>2</total_count>
+         <each_cost>410</each_cost>
+         <total_cost>820</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG PARK RULES, 12 X 18 IN., FENCE MOUNTED</description>
+         <total_count>1</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>265</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CAR WASH ID, 13.5 X 48 IN.,</description>
+         <total_count>1</total_count>
+         <each_cost>395</each_cost>
+         <total_cost>395</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAIL CENTER ID, 24 X 36 IN. QUOTE #:</description>
+         <total_count>1</total_count>
+         <each_cost>360</each_cost>
+         <total_cost>360</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: EXTERIOR WAYFINDING</section>
+         </section_key>
+         
+         </section_list>
+         <description>COMPLEX ADDRESS PANEL, 12 X 24 IN., LOADS ON BLDG. 1 - FACING ELDORADO</description>
+         <total_count>1</total_count>
+         <each_cost>255</each_cost>
+         <total_cost>255</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: EXTERIOR WAYFINDING</section>
+         </section_key>
+         
+         </section_list>
+         <description>REFERRAL FEE OVERLAY PANEL, 13.5 X 15.5 IN TO MOUNT ON- EXISTING POST</description>
+         <total_count>1</total_count>
+         <each_cost>195</each_cost>
+         <total_cost>195</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4: EXTERIOR WAYFINDING</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT DIRECTIONAL OVERLAY PANEL, 14.5 X 15.5 IN, TO MOUNT- ON EXISTING POST (X3 DOUBLE-SIDED SIGNS)</description>
+         <total_count>6</total_count>
+         <each_cost>195</each_cost>
+         <total_cost>1170</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4: EXTERIOR WAYFINDING</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT DIRECTIONAL OVERLAY PANEL, 17.5 X 18.5 IN, TO MOUNT- ON EXISTING POST (X2 DOUBLE-SIDED SIGNS)</description>
+         <total_count>4</total_count>
+         <each_cost>295</each_cost>
+         <total_cost>1180</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4: EXTERIOR WAYFINDING</section>
+         </section_key>
+         
+         </section_list>
+         <description>PRIVATE PROPERTY/CATCH RELEASE OVERLAY PANEL, 18 X 24 IN.,- TO ON EXISTING POST (X4 SINGLE-SIDED SIGNS)</description>
+         <total_count>4</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>1060</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2209RWR01</quote_num>
+   <contract_file>2209RWR01 Town Center Crossing.xlsx</contract_file>
+   <client_name>REDWOOD RESIDENTIAL 1 EAST WACKER DR., SUITE 1600 CHICAGO, IL 60601</client_name>
+   <project_name>TOWN CENTER CROSSING</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2209RWR01 Town Center Crossing.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -33,17 +42,53 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2209RWR01</quote_num>
-   <contract_file>2209RWR01 Town Center Crossing.xlsx</contract_file>
-   <client_name>REDWOOD RESIDENTIAL 1 EAST WACKER DR., SUITE 1600 CHICAGO, IL 60601</client_name>
-   <project_name>TOWN CENTER CROSSING</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ILLUMINATED MONUMENT CABINET, 5FT - 4 IN TALL X 8 FT - 4 IN,- DIMENSIONAL LOGO &amp; NAME GRAPHICS, LOADS TO EXISTING- MASONRY STRUCTURE, SINGLE-FACED, CORNER OF W. TOWN- CENTER AND BENS BRANCH-      * ASSUMES USE OF EXSITING ELECTRICAL CIRCUIT AT SIGN-      LOCATION</description>
+         <total_count>1</total_count>
+         <each_cost>8590</each_cost>
+         <total_cost>8590</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ILLUMINATED MONUMENT CABINET, 5FT - 4 IN TALL X 8 FT - 4 IN,- DIMENSIONAL LOGO &amp; NAME GRAPHICS, LOADS TO EXISTING- MASONRY STRUCTURE, SINGLE-FACED, NW CORNER OF BENS- TOWN AND BENS BRANCH-      * ASSUMES USE OF EXSITING ELECTRICAL CIRCUIT AT SIGN-      LOCATION</description>
+         <total_count>1</total_count>
+         <each_cost>8590</each_cost>
+         <total_cost>8590</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ILLUMINATED MONUMENT CABINET, 5FT - 4 IN TALL X 8 FT - 4 IN,- DIMENSIONAL LOGO &amp; NAME GRAPHICS, LOADS TO EXISTING- MASONRY STRUCTURE, SINGLE-FACED, SW CORNER OF BENS- TOWN AND BENS BRANCH-      * ASSUMES USE OF EXSITING ELECTRICAL CIRCUIT AT SIGN-      LOCATION</description>
+         <total_count>1</total_count>
+         <each_cost>8590</each_cost>
+         <total_cost>8590</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2301TMR01 REV 1</quote_num>
+   <contract_file>Longfellow Arms Building &amp; Amenity 2301TMR01 Rev 1.xlsx</contract_file>
+   <client_name>TRIVEST MCNEIL REAL ESTATE 1901 N CENTRAL EXPY STE 225 RICHARDSON, TX 75080</client_name>
+   <project_name>LONGFELLOW ARMS BUILDING &amp; AMENTIY SIGNAGE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>Longfellow Arms Building &amp; Amenity 2301TMR01 Rev 1.xlsx</contract_name>
       
    <section>
    <section_name>#1: BUILDING SIGNAGE</section_name>
@@ -86,17 +95,143 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2301TMR01 REV 1</quote_num>
-   <contract_file>Longfellow Arms Building &amp; Amenity 2301TMR01 Rev 1.xlsx</contract_file>
-   <client_name>TRIVEST MCNEIL REAL ESTATE 1901 N CENTRAL EXPY STE 225 RICHARDSON, TX 75080</client_name>
-   <project_name>LONGFELLOW ARMS BUILDING &amp; AMENTIY SIGNAGE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING CENTER OFFICE HOURS - 25 IN X 18 IN INCLUDING- CHANGEABLE HOURS PLATE</description>
+         <total_count>1</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>595</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING CENTER ADDRESS PANEL - 18 IN X 24 IN</description>
+         <total_count>1</total_count>
+         <each_cost>295</each_cost>
+         <total_cost>295</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FENCE MOUNTED CHILDREN SHOULD NOT USE... PANEL -- 16 IN X 20.5 IN</description>
+         <total_count>1</total_count>
+         <each_cost>295</each_cost>
+         <total_cost>295</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FENCE MOUNTED TX 2021 CODE PANEL - 24 IN X 36 IN</description>
+         <total_count>1</total_count>
+         <each_cost>395</each_cost>
+         <total_cost>395</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FENCE MOUNTED POOL POLICIES PANEL - 36 IN X 48 IN</description>
+         <total_count>1</total_count>
+         <each_cost>695</each_cost>
+         <total_cost>695</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WALL MOUNTED 911 EMERGENCY PHONE SIGN - 12 IN X 18 IN</description>
+         <total_count>1</total_count>
+         <each_cost>195</each_cost>
+         <total_cost>195</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FENCE MOUNTED WARNING NO LIFEGUARD PANEL - - 30 IN X 23.5 IN</description>
+         <total_count>1</total_count>
+         <each_cost>410</each_cost>
+         <total_cost>410</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FENCE MOUNTED NO DIVING PANEL - 18 IN X 23.5 IN</description>
+         <total_count>1</total_count>
+         <each_cost>295</each_cost>
+         <total_cost>295</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WALL MOUNTED FITNESS CENTER ID PANEL - 12 IN X 12 IN</description>
+         <total_count>1</total_count>
+         <each_cost>188</each_cost>
+         <total_cost>188</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

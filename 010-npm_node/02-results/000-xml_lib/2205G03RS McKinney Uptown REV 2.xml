@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2205G03RS REV 2</quote_num>
+   <contract_file>2205G03RS McKinney Uptown REV 2.xlsx</contract_file>
+   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
+   <project_name>MCKINNEY UPTOWN</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2205G03RS McKinney Uptown REV 2.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -130,17 +139,188 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2205G03RS REV 2</quote_num>
-   <contract_file>2205G03RS McKinney Uptown REV 2.xlsx</contract_file>
-   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
-   <project_name>MCKINNEY UPTOWN</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING CORNER INTERNALLY ILLUMINATED CABINETS, - 3 FT - 8 IN TALL X 11 FT, DIMENSIONAL GRAPHICS - NOTE: USE- EXISTING ELECTRICAL CIRCUIT</description>
+         <total_count>2</total_count>
+         <each_cost>4900</each_cost>
+         <total_cost>9800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HORIZONTAL ID FLAT PANEL WITH FLAT CUT OUT GRAPHICS, - 30.25 IN TALLX 96 IN</description>
+         <total_count>1</total_count>
+         <each_cost>1100</each_cost>
+         <total_cost>1100</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>URL MESSAGE (VINYL) ON LEASING HOURS PANEL</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ETCHLOOK VINYL @ LEASING OFFICE DOORS, 72.5 IN TALL X 27.75</description>
+         <total_count>2</total_count>
+         <each_cost>189</each_cost>
+         <total_cost>378</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FUTURE RESIDENT PARKING, POST/BASE PLATE MOUNTING,- 20 IN TALL X 12 IN</description>
+         <total_count>4</total_count>
+         <each_cost>715</each_cost>
+         <total_cost>2860</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESERVED PARKING (LB X5, L1 X8), 18 IN TALL X 12 IN</description>
+         <total_count>13</total_count>
+         <each_cost>89</each_cost>
+         <total_cost>1157</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH RM RULES (L3 X1, L4 X1, L5 X1, L6 X1, L7 X1, L8 X1, L9 X1),- 8 IN TALL X 11.5 IN</description>
+         <total_count>7</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>406</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOGO KIT, WHITE VINYL ON ELEVATOR DOORS (L1)</description>
+         <total_count>2</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>258</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>911 PHONE, 18 IN TALL X 18 IN</description>
+         <total_count>1</total_count>
+         <each_cost>320</each_cost>
+         <total_cost>320</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL POLICIES, 58 IN TALL X 37 IN</description>
+         <total_count>1</total_count>
+         <each_cost>735</each_cost>
+         <total_cost>735</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WARNING NO LIFEGUARD, 42 IN TALL X 26</description>
+         <total_count>1</total_count>
+         <each_cost>610</each_cost>
+         <total_cost>610</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TX 2021 ADDITIONAL CODE SIGN, 36 IN TALL X 28</description>
+         <total_count>1</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>595</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

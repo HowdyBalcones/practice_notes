@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>OGL-122-1</quote_num>
+   <contract_file>OGL-122-1 Park Fast Signage.xlsx</contract_file>
+   <client_name>ARTS DISTRICT PROPERTIES / GREEN LLC. 1925 SAN JACINTO  DALLAS, TX 75201</client_name>
+   <project_name>PARK FAST GARAGE BLADE SIGN</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>OGL-122-1 Park Fast Signage.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -17,17 +26,23 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>OGL-122-1</quote_num>
-   <contract_file>OGL-122-1 Park Fast Signage.xlsx</contract_file>
-   <client_name>ARTS DISTRICT PROPERTIES / GREEN LLC. 1925 SAN JACINTO  DALLAS, TX 75201</client_name>
-   <project_name>PARK FAST GARAGE BLADE SIGN</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SINGLE FACE &quot;PARKING&quot; BLADE SIGN. INTERNALLY ILLUMINATED- WITH PUSH-THRU ACRYLIC COPY- *POWER TO SIGN BY OTHERS</description>
+         <total_count>1</total_count>
+         <each_cost>5900</each_cost>
+         <total_cost>5900</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

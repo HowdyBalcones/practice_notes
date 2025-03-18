@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2112HC01S REV 1</quote_num>
+   <contract_file>2112HC01S The Caroline Signage REV 1.xlsx</contract_file>
+   <client_name>HUNT COMPANIES 3033 EAST 1ST AVE., SUITE 815 DENVER, CO 80206</client_name>
+   <project_name>THE CAROLINE (A.K.A. EASTSIDE II)</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2112HC01S The Caroline Signage REV 1.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -49,17 +58,83 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2112HC01S REV 1</quote_num>
-   <contract_file>2112HC01S The Caroline Signage REV 1.xlsx</contract_file>
-   <client_name>HUNT COMPANIES 3033 EAST 1ST AVE., SUITE 815 DENVER, CO 80206</client_name>
-   <project_name>THE CAROLINE (A.K.A. EASTSIDE II)</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SINGLE FACE INTERNALLY ILLUMINATED  MONUMENT CABINET- W/ ADDRESS. CHANNEL LETTERS &amp; PUSH-THRU ACRYLIC COPY. LOADS- TO MASONRY MONUMENT STRUCTURE (BY OTHERS), AT GREENVILLE- AVE. ROUNDABOUT-    *POWER &amp; STRUCTURE (INCL FOOTER) TO LOCATION BY OTHERS</description>
+         <total_count>1</total_count>
+         <each_cost>10790</each_cost>
+         <total_cost>10790</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING CENTER ID - STAND-UP LETTERS ON RAIL NON-ILLUMINATED- LOADS TO CANOPY OVER ENTRY, BLDG A</description>
+         <total_count>1</total_count>
+         <each_cost>4750</each_cost>
+         <total_cost>4750</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ILLUMINATED CANOPY SIGN. LOADS TO WEST ELEVATION BLDG A- FACING I-75.-    *POWER &amp; BLOCKING TO LOCATION BY OTHERS</description>
+         <total_count>1</total_count>
+         <each_cost>11950</each_cost>
+         <total_cost>11950</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-FACED PROJECTING BLADE SIGN, ILLUMINATED, WITH - DIMENSIONAL GRAPHICS, LOADS TO BLDG B ELEVATION FACING- GREENVILLE AVE.-    *POWER &amp; BLOCKING TO LOCATION BY OTHERS</description>
+         <total_count>1</total_count>
+         <each_cost>16600</each_cost>
+         <total_cost>16600</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E,</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DESIGN / LAYOUT / PRODUCTION / COORDINATION</description>
+         <total_count>1</total_count>
+         <each_cost>1200</each_cost>
+         <total_cost>1200</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

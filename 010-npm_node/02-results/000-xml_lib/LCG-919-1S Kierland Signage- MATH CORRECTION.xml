@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>LCG-919-1S</quote_num>
+   <contract_file>LCG-919-1S Kierland Signage- MATH CORRECTION.xlsx</contract_file>
+   <client_name>LEON CAPITAL GROUP MF 3500 MAPLE AVE. STE 1600 DALLAS, TX 75219</client_name>
+   <project_name>KIERLAND</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>LCG-919-1S Kierland Signage- MATH CORRECTION.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -1200,17 +1209,1608 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>LCG-919-1S</quote_num>
-   <contract_file>LCG-919-1S Kierland Signage- MATH CORRECTION.xlsx</contract_file>
-   <client_name>LEON CAPITAL GROUP MF 3500 MAPLE AVE. STE 1600 DALLAS, TX 75219</client_name>
-   <project_name>KIERLAND</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE FACED ILLUMINATED BLADE SIGN (14&apos;H x 32&quot;W)- W/ PRE-SET ARMATURE BRACKET- *BLOCKING &amp; POWER TO LOCATION BY OTHERS- (120V/20AMP ON TIMER OR MASTER PHOTO CELL SOURCE)</description>
+         <total_count>1</total_count>
+         <each_cost>18200</each_cost>
+         <total_cost>18200</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S/F ILLUMINATED &quot;SOLTRA&quot; TRIMLESS CHANNEL LETTER SET - W/ 1/4&quot; &quot;KIERLAND&quot; ACRYLIC LETTERS- LOADS TO SIGN WALL AT LEASING ENTRY BY OTHERS- *BLOCKING &amp; POWER TO LOCATION BY OTHERS- (120V/20AMP ON TIMER OR MASTER PHOTO CELL SOURCE)</description>
+         <total_count>1</total_count>
+         <each_cost>10900</each_cost>
+         <total_cost>10900</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING / ADDRESS SIGNS</description>
+         <total_count>3</total_count>
+         <each_cost>310</each_cost>
+         <total_cost>930</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HOURS SIGN W/ CHANGEABLE SUMMER/WINTER HOURS</description>
+         <total_count>1</total_count>
+         <each_cost>425</each_cost>
+         <total_cost>425</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;DOORS TO REMAIN OPEN&quot; - FROSTED VINYL KIT</description>
+         <total_count>1</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>129</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING CENTER SINGLE DOOR VINYL KIT (LOGO, URL, PHONE)</description>
+         <total_count>2</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>258</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM FUTURE RESIDENT PARKING SIGN - WALL MOUNT</description>
+         <total_count>3</total_count>
+         <each_cost>335</each_cost>
+         <total_cost>1005</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM HANDICAP PARKING SIGN (X1 STD, X1 VAN) - WALL MOUNT</description>
+         <total_count>2</total_count>
+         <each_cost>335</each_cost>
+         <total_cost>670</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>USPS PARKING - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>235</each_cost>
+         <total_cost>235</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A</key>
+            <section>#3: LEASING CENTER LEVEL ONE - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MANAGER ID - GLASS PVC BACKER</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B</key>
+            <section>#3: LEASING CENTER LEVEL ONE - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEES ONLY (WORKROOM)</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C</key>
+            <section>#3: LEASING CENTER LEVEL ONE - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAIL ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D</key>
+            <section>#3: LEASING CENTER LEVEL ONE - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PACKAGE ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E</key>
+            <section>#3: LEASING CENTER LEVEL ONE - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D</key>
+            <section>#9: LEVEL R4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D</key>
+            <section>#10: LEVEL R5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D</key>
+            <section>#11: LEVEL R6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS MAP</description>
+         <total_count>11</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>2915</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F</key>
+            <section>#3: LEASING CENTER LEVEL ONE - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEN&apos;S RESTROOM</description>
+         <total_count>2</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>196</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G</key>
+            <section>#3: LEASING CENTER LEVEL ONE - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMEN&apos;S RESTROOM</description>
+         <total_count>2</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>196</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H</key>
+            <section>#3: LEASING CENTER LEVEL ONE - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEES ONLY (JANITOR)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I</key>
+            <section>#3: LEASING CENTER LEVEL ONE - INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIDENTIFIED ROOM ID (VERIFY)</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G2B / STAIR / ELEVATOR (@ ELEVATOR 1)</description>
+         <total_count>2</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>196</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G2B / STAIR (@ STAIR 3)</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G2B / ELEVATOR (@ ELEVATOR 2)</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR LEVEL (@ STAIR 1, 3)</description>
+         <total_count>2</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>116</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL LEVEL (@ STAIR 1, 3)</description>
+         <total_count>2</total_count>
+         <each_cost>175</each_cost>
+         <total_cost>350</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A</key>
+            <section>#6: LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B2G</description>
+         <total_count>8</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>704</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BIKE RACK ROOM ID</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE LOCKER ID</description>
+         <total_count>3</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>174</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAINTENANCE ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L</key>
+            <section>#4: PARKING GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAX OCCUPANCY (LEASING)</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A</key>
+            <section>#5: PARKING GARAGE - LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ENTRY / EXIT SIGNAGE PACKAGE</description>
+         <total_count>2</total_count>
+         <each_cost>985</each_cost>
+         <total_cost>1970</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B</key>
+            <section>#5: PARKING GARAGE - LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLEARANCE BAR - VINYL WRAPPED</description>
+         <total_count>2</total_count>
+         <each_cost>1185</each_cost>
+         <total_cost>2370</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C</key>
+            <section>#5: PARKING GARAGE - LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G2B / STAIR / ELEVATOR (STAIR/ELEV. 2)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D</key>
+            <section>#5: PARKING GARAGE - LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G2B / STAIR LEVEL (STAIR 1, 3)</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E</key>
+            <section>#5: PARKING GARAGE - LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G2B</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F</key>
+            <section>#5: PARKING GARAGE - LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL LEVEL (STAIR 1, 3)</description>
+         <total_count>2</total_count>
+         <each_cost>175</each_cost>
+         <total_cost>350</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G</key>
+            <section>#5: PARKING GARAGE - LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING ACCESS</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H</key>
+            <section>#5: PARKING GARAGE - LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING / STAIR ID ( STAIR 3)</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I</key>
+            <section>#5: PARKING GARAGE - LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING / STAIR / ELEVATOR ( STAIR/ELEV. 2)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J</key>
+            <section>#5: PARKING GARAGE - LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GENERATOR ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K</key>
+            <section>#5: PARKING GARAGE - LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOADING ID / PROCEDURE PLAQUE</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L</key>
+            <section>#5: PARKING GARAGE - LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>S</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>O</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K</key>
+            <section>#9: LEVEL R4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K</key>
+            <section>#10: LEVEL R5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K</key>
+            <section>#11: LEVEL R6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID</description>
+         <total_count>6</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>348</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M</key>
+            <section>#5: PARKING GARAGE - LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CYCLE LOUNGE ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N</key>
+            <section>#5: PARKING GARAGE - LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PRIVATE GARAGE DOOR NUMBERS (X1 HANDICAP, X3 STD)</description>
+         <total_count>4</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>192</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O</key>
+            <section>#5: PARKING GARAGE - LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WALL GRAPHICS LEASING ID - SIGN OR VINYL TBD</description>
+         <total_count>1</total_count>
+         <each_cost>2100</each_cost>
+         <total_cost>2100</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B</key>
+            <section>#6: LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR LEVEL ID (STAIR 2)</description>
+         <total_count>2</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>136</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C</key>
+            <section>#6: LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL LEVEL (STAIR 2)</description>
+         <total_count>1</total_count>
+         <each_cost>175</each_cost>
+         <total_cost>175</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D</key>
+            <section>#6: LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS MAP (ELEVATOR 2)</description>
+         <total_count>1</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>265</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E</key>
+            <section>#6: LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG PARK ID / POLICY</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F</key>
+            <section>#6: LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG PARK LOUNGE ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G</key>
+            <section>#6: LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOADING ID</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H</key>
+            <section>#6: LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG WASH ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I</key>
+            <section>#6: LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG WASH POLICY</description>
+         <total_count>1</total_count>
+         <each_cost>585</each_cost>
+         <total_cost>585</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J</key>
+            <section>#6: LEVEL R1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ARAZONA &quot;NO SMOKING&quot; PLAQUES - (X3 @ STAIR EXITS, X3 @ POOL, X1 @ GARAGE, X1 @ DOG PARK)</description>
+         <total_count>8</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>544</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A</key>
+            <section>#9: LEVEL R4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A</key>
+            <section>#10: LEVEL R5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A</key>
+            <section>#11: LEVEL R6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HALLWAY DIRECTIONAL</description>
+         <total_count>15</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>2025</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR LEVEL </description>
+         <total_count>6</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>408</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL LEVEL </description>
+         <total_count>6</total_count>
+         <each_cost>175</each_cost>
+         <total_cost>1050</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLUBHOUSE ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLUBHOUSE POLICY - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS POLICY - WALL MOUNT</description>
+         <total_count>2</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>830</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>THEATER / GOLF SIMULATOR ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM</description>
+         <total_count>2</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>196</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E</key>
+            <section>#9: LEVEL R4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E</key>
+            <section>#10: LEVEL R5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E</key>
+            <section>#11: LEVEL R6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH / RECYCLE ID</description>
+         <total_count>5</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>290</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH / RECYCLE POLICIES</description>
+         <total_count>1</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>155</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G</key>
+            <section>#9: LEVEL R4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G</key>
+            <section>#10: LEVEL R5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G</key>
+            <section>#11: LEVEL R6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH CHUTE ID - ICON</description>
+         <total_count>4</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>152</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H</key>
+            <section>#9: LEVEL R4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H</key>
+            <section>#10: LEVEL R5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H</key>
+            <section>#11: LEVEL R6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RECYCLE CHUTE ID - ICON</description>
+         <total_count>4</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>152</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I</key>
+            <section>#9: LEVEL R4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I</key>
+            <section>#10: LEVEL R5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I</key>
+            <section>#11: LEVEL R6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESIDENT STORAGE ID</description>
+         <total_count>20</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>960</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J</key>
+            <section>#9: LEVEL R4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J</key>
+            <section>#10: LEVEL R5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J</key>
+            <section>#11: LEVEL R6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID</description>
+         <total_count>14</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>672</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>P</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L</key>
+            <section>#9: LEVEL R4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L</key>
+            <section>#10: LEVEL R5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L</key>
+            <section>#11: LEVEL R6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TELECOM ID</description>
+         <total_count>5</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>240</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>U</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description> FIRE DOOR / &quot;DO NOT BLOCK&quot;</description>
+         <total_count>2</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>116</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>V</key>
+            <section>#7: LEVEL R2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAX OCCUPANCY (FITNESS, CLUB)</description>
+         <total_count>2</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>116</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS MAPS</description>
+         <total_count>2</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>530</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS ID </description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLUB MEZZANINE ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F</key>
+            <section>#9: LEVEL R4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F</key>
+            <section>#10: LEVEL R5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F</key>
+            <section>#11: LEVEL R6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH / RECYCLE POLICY</description>
+         <total_count>4</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>620</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH CHUTE - ICON</description>
+         <total_count>1</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>38</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RECYCLE CHUTE </description>
+         <total_count>1</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>38</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M</key>
+            <section>#9: LEVEL R4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M</key>
+            <section>#10: LEVEL R5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M</key>
+            <section>#11: LEVEL R6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE DOOR / &quot;DO NOT BLOCK&quot;</description>
+         <total_count>8</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>464</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R</key>
+            <section>#8: LEVEL R3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAX OCCUPANCY (FITNESS, CLUB MEZZANINE)</description>
+         <total_count>2</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>116</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B</key>
+            <section>#9: LEVEL R4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B</key>
+            <section>#10: LEVEL R5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B</key>
+            <section>#11: LEVEL R6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR LEVEL</description>
+         <total_count>9</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>612</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C</key>
+            <section>#9: LEVEL R4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C</key>
+            <section>#10: LEVEL R5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C</key>
+            <section>#11: LEVEL R6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL LEVEL</description>
+         <total_count>9</total_count>
+         <each_cost>175</each_cost>
+         <total_cost>1575</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A</key>
+            <section>#12: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL POLICIES - MOUNT ON GLASS</description>
+         <total_count>1</total_count>
+         <each_cost>725</each_cost>
+         <total_cost>725</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B</key>
+            <section>#12: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WARNING NO LIFEGUARD - MOUNTED ON GLASS</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C</key>
+            <section>#12: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>911 EMERGENCY PHONE SIGN - MOUNTED ON GLASS</description>
+         <total_count>1</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>135</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D</key>
+            <section>#12: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL GATE W/ HOURS - MOUNTED ON GLASS</description>
+         <total_count>2</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>310</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E</key>
+            <section>#12: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GRILL POLICIES - STRUCTURE MOUNTED</description>
+         <total_count>2</total_count>
+         <each_cost>385</each_cost>
+         <total_cost>770</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F</key>
+            <section>#12: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE PIT GUIDELINES / INSTRUCTIONS</description>
+         <total_count>4</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>440</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G</key>
+            <section>#12: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>VARIED AZ POOL REQUIRED SIGNS</description>
+         <total_count>1</total_count>
+         <each_cost>800</each_cost>
+         <total_cost>800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H</key>
+            <section>#12: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SHUT-OFF VALVE SIGNS (X2 GRILLS, X4 FIRE PITS)</description>
+         <total_count>6</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>348</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

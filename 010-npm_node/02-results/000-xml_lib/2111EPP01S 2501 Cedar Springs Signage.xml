@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2111EPP01S</quote_num>
+   <contract_file>2111EPP01S 2501 Cedar Springs Signage.xlsx</contract_file>
+   <client_name>GH CEDAR SPRINGS INC. 2501 CEDAR SPRINGS DALLAS, TX 75201</client_name>
+   <project_name>2501 CEDAR SPRINGS MONUMENT SIGNAGE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2111EPP01S 2501 Cedar Springs Signage.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -25,17 +34,38 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2111EPP01S</quote_num>
-   <contract_file>2111EPP01S 2501 Cedar Springs Signage.xlsx</contract_file>
-   <client_name>GH CEDAR SPRINGS INC. 2501 CEDAR SPRINGS DALLAS, TX 75201</client_name>
-   <project_name>2501 CEDAR SPRINGS MONUMENT SIGNAGE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>18&apos;W X 3&apos;H X18&quot;D SIGN CABINET STRUCTURE. ALUMINUM FRAME &amp; SKIN- PAINTED SATIN BLACK WITH 1/2&quot; ALUMINUM (BRUSHED FINISH) TENANT- NAMES. (TBD IN FUTURE &amp; NOT INCLUDED IN THIS PRICING) TOP LOAD- 20&quot; ILLUMINATED NUMERALS &quot;2501&quot; CHANNEL LETTERS W/ TRIMLESS- EDGE LETTERS- *POWER &amp; FOOTER TO LOCATION BY OTHERS*</description>
+         <total_count>1</total_count>
+         <each_cost>31860</each_cost>
+         <total_cost>31860</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SET 1&quot; RETURN CAST ALUMINUM NUMERALS (BRUSHED FINISH) &quot;2501&quot; - (14.5&quot; H)</description>
+         <total_count>1</total_count>
+         <each_cost>3788</each_cost>
+         <total_cost>3788</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

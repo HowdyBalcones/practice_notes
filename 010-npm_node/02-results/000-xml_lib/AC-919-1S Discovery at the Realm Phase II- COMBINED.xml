@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>AC-919-1S</quote_num>
+   <contract_file>AC-919-1S Discovery at the Realm Phase II- COMBINED.xlsx</contract_file>
+   <client_name>ANDRES CONSTRUCTION 3710 RAWLINS, SUITE 1510 DALLAS, TX 75219</client_name>
+   <project_name>Discovery at the Realm Phase II</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>AC-919-1S Discovery at the Realm Phase II- COMBINED.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -984,17 +993,1183 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>AC-919-1S</quote_num>
-   <contract_file>AC-919-1S Discovery at the Realm Phase II- COMBINED.xlsx</contract_file>
-   <client_name>ANDRES CONSTRUCTION 3710 RAWLINS, SUITE 1510 DALLAS, TX 75219</client_name>
-   <project_name>Discovery at the Realm Phase II</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ILLUMINATED BUILDING ID SIGNS:- -BLDG 4: LED SIGN CAN WITH REVAL ACRYLIC NUMERAL #4.- ILLUMINATES WHITE. LOADS TO</description>
+         <total_count>2</total_count>
+         <each_cost>6250</each_cost>
+         <total_cost>12500</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>-BLDG 5: LED SIGN CAN WITH REVAL ACRYLIC NUMERAL #5.- ILLUMINATES WHITES. LOADS TO</description>
+         <total_count>2</total_count>
+         <each_cost>6250</each_cost>
+         <total_cost>12500</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: BUILDING 4 -PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESIDENT PARKING ONLY - CLEARANCE HEIGHT PAN SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>1495</each_cost>
+         <total_cost>1495</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: BUILDING 4 -PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#8: BUILDING 5 - PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR/PEDESTRIAN CROSSING HANGING BAR. SQUARE TUBE- W/ ALUMINUM FACES AND VINYL GRAPHICS</description>
+         <total_count>4</total_count>
+         <each_cost>1095</each_cost>
+         <total_cost>4380</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: BUILDING 4 -PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERSIZE STAIR ID: 24&quot;W X 24&quot;H ALUMINUM W/ DIMENSIONAL- GRAPHICS</description>
+         <total_count>3</total_count>
+         <each_cost>325</each_cost>
+         <total_cost>975</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: BUILDING 4 -PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: BUILDING 4 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: BUILDING 4 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: BUILDING 4 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#7: BUILDING 4 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#8: BUILDING 5 - PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#9: BUILDING 5 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#10: BUILDING 5 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#11: BUILDING 5 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#12: BUILDING 5 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR ID</description>
+         <total_count>30</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>2340</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: BUILDING 4 -PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4: BUILDING 4 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: BUILDING 4 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: BUILDING 4 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#7: BUILDING 4 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#9: BUILDING 5 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#10: BUILDING 5 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#11: BUILDING 5 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#12: BUILDING 5 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL ID (STAIR A - ROOF ACCESS)</description>
+         <total_count>27</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>4455</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: BUILDING 4 -PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4: BUILDING 4 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: BUILDING 4 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: BUILDING 4 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#8: BUILDING 5 - PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#9: BUILDING 5 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#10: BUILDING 5 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#11: BUILDING 5 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#12: BUILDING 5 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS</description>
+         <total_count>18</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>4770</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#3: BUILDING 4 -PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERSIZE ELEVATOR ID: 24&quot;W X 24&quot;H ALUMINUM W/ DIMENSIONAL</description>
+         <total_count>2</total_count>
+         <each_cost>325</each_cost>
+         <total_cost>650</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#3: BUILDING 4 -PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ID (4003 + 4009)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#3: BUILDING 4 -PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (4008 + 4004)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#3: BUILDING 4 -PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL + MDF ID (4010)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#3: BUILDING 4 -PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         <section_key>
+            <key>J</key>
+            <section>#8: BUILDING 5 - PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         </section_list>
+         <description>FDC</description>
+         <total_count>2</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>220</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#3: BUILDING 4 -PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         <section_key>
+            <key>K</key>
+            <section>#8: BUILDING 5 - PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE RISER ROOM ID</description>
+         <total_count>2</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>136</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#3: BUILDING 4 -PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING ADDRESS/ NUMBER SIGNS</description>
+         <total_count>1</total_count>
+         <each_cost>225</each_cost>
+         <total_cost>225</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: BUILDING 4 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: BUILDING 4 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: BUILDING 4 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#7: BUILDING 4 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#9: BUILDING 5 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#10: BUILDING 5 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#11: BUILDING 5 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#12: BUILDING 5 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT ID</description>
+         <total_count>312</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>14976</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4: BUILDING 4 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ID (4133A +4109A)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#4: BUILDING 4 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#5: BUILDING 4 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#6: BUILDING 4 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#7: BUILDING 4 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#9: BUILDING 5 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#10: BUILDING 5 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#11: BUILDING 5 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#12: BUILDING 5 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM/CHUTE POLICIES</description>
+         <total_count>16</total_count>
+         <each_cost>145</each_cost>
+         <total_cost>2320</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#4: BUILDING 4 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (4108A, 4124A, 4132A)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#4: BUILDING 4 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TELECOM ID (4110C, 4122A, 4134B)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#4: BUILDING 4 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>I</key>
+            <section>#5: BUILDING 4 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>I</key>
+            <section>#6: BUILDING 4 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>I</key>
+            <section>#7: BUILDING 4 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE DOOR/DO NOT BLOCK</description>
+         <total_count>4</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>192</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J</key>
+            <section>#4: BUILDING 4 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR ROOM (4118C)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K</key>
+            <section>#4: BUILDING 4 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>J</key>
+            <section>#5: BUILDING 4 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>J</key>
+            <section>#6: BUILDING 4 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>J</key>
+            <section>#7: BUILDING 4 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>J</key>
+            <section>#9: BUILDING 5 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>J</key>
+            <section>#10: BUILDING 5 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#11: BUILDING 5 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>J</key>
+            <section>#12: BUILDING 5 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>HALLWAY DIRECTIONAL</description>
+         <total_count>48</total_count>
+         <each_cost>185</each_cost>
+         <total_cost>8880</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: BUILDING 4 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ID (4209A + 4233A)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#5: BUILDING 4 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (4208, 4224, 4232)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#5: BUILDING 4 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TELECOM ID (4210C, 4222A, 4234B)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#6: BUILDING 4 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ID (4309A + 4333A)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#6: BUILDING 4 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (4308A, 4324A, 4332A)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#6: BUILDING 4 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TELECOM ID (4310C, 4322A, 4334B)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#7: BUILDING 4 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS ID</description>
+         <total_count>2</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>530</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#7: BUILDING 4 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ID (4408A + 4433A)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#7: BUILDING 4 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (4408A, 4424A, 4432A)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#7: BUILDING 4 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TELECOM ID (4410C, 4422A, 4434B)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K</key>
+            <section>#7: BUILDING 4 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR &quot;ROOM&quot; EQUIPMENT (4434C)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#8: BUILDING 5 - PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESIDENT PARKING ONLY/ CLEARANCE HEIGHT PAN SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>1495</each_cost>
+         <total_cost>1495</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#8: BUILDING 5 - PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERSIZE STAIR LOBBY ID: 24&quot;W X 24&quot;H ALUMINUM W/- DIMENSIONAL GRAPHICS</description>
+         <total_count>3</total_count>
+         <each_cost>325</each_cost>
+         <total_cost>975</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#8: BUILDING 5 - PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL ID ( STAIR A - ROOF ACCESS)</description>
+         <total_count>3</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>495</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#8: BUILDING 5 - PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERSIZE ELEVATOR LOBBY ID: 24&quot;W X 24&quot;H ALUMINUM W/- DIMENSIONAL GRAPHICS</description>
+         <total_count>2</total_count>
+         <each_cost>325</each_cost>
+         <total_cost>650</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#8: BUILDING 5 - PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ID</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I</key>
+            <section>#8: BUILDING 5 - PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L</key>
+            <section>#8: BUILDING 5 - PARKING/GARAGE LEVEL</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING ADDRESS/NUMBERS SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>225</each_cost>
+         <total_cost>225</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#9: BUILDING 5 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ID (5133A + 5109A)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#9: BUILDING 5 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (5132A + 5108A)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#9: BUILDING 5 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TELECOM ID (5122C, 5134B, 5110C)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I</key>
+            <section>#9: BUILDING 5 - LEVEL 1 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>I</key>
+            <section>#10: BUILDING 5 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#11: BUILDING 5 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         <section_key>
+            <key>I</key>
+            <section>#12: BUILDING 5 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE DOOR</description>
+         <total_count>4</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>192</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#10: BUILDING 5 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ID (5233A + 5209A)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#10: BUILDING 5 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (5232A + 5224A + 5208A)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#10: BUILDING 5 - LEVEL 2 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TELECOM ID (5234B, 5222A, 5210C)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#11: BUILDING 5 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ID (5333A + 5309A)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#11: BUILDING 5 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (5332A + 5324A + 5308A)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#11: BUILDING 5 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TELECOM ID (5334B, 5322A, 5310C)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#11: BUILDING 5 - LEVEL 3 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID</description>
+         <total_count>7</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>546</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#12: BUILDING 5 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ID (5433A + 5409A)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#12: BUILDING 5 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (5432A + 5424A + 5408A)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#12: BUILDING 5 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>TELECOM ID (5434B, 5422A, 5410C)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K</key>
+            <section>#12: BUILDING 5 - LEVEL 4 RESIDENTIAL</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR &quot;ROOM&quot; EQUIPMENT (5434C)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#13: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS ID - STAND UP LETTERS ON RAIL LOADS TO FASCIA- OF FITNESS CENTER - WEST ELEVATION</description>
+         <total_count>1</total_count>
+         <each_cost>2165</each_cost>
+         <total_cost>2165</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#13: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS POLICIES</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C</key>
+            <section>#13: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MENS RESTROOM (FITNESS)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D</key>
+            <section>#13: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMENS RESTROOM (FITNESS)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

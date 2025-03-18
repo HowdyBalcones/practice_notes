@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2109PAUL01RS   - REV 2</quote_num>
+   <contract_file>2109PAUL01RS Factory DD Non-branded REV 2.xlsx</contract_file>
+   <client_name>PAULS CORPORATION 100 ST PAUL STREET, SUITE 300 DENVER, CO 80206</client_name>
+   <project_name>FACTORY DESIGN DISTRICT (NON-BRANDED SIGNAGE)</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2109PAUL01RS Factory DD Non-branded REV 2.xlsx</contract_name>
       
    <section>
    <section_name>#1: LEASING CENTER- INTERIOR SIGNAGE</section_name>
@@ -195,17 +204,338 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2109PAUL01RS   - REV 2</quote_num>
-   <contract_file>2109PAUL01RS Factory DD Non-branded REV 2.xlsx</contract_file>
-   <client_name>PAULS CORPORATION 100 ST PAUL STREET, SUITE 300 DENVER, CO 80206</client_name>
-   <project_name>FACTORY DESIGN DISTRICT (NON-BRANDED SIGNAGE)</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ASSISTANT MANAGER [NEW]</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAX OCCUPANCY 6X6 </description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NO SMOKING 6X6 (LOADS UNDER MAX OCC)</description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM (@ MAIL CENTER) [NEW]</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEES ONLY [NEW]</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#1: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAIL CENTER 10HX9W</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#1: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING CENTER (FROM MAIL CTR ENTRY TO LOBBY) [NEW]</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#1: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS/DO NOT USE COMBO 10.25HX13.25W</description>
+         <total_count>1</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>265</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#1: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DESKTOP PACKAGE</description>
+         <total_count>1</total_count>
+         <each_cost>565</each_cost>
+         <total_cost>565</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM [NEW]- L1 - X1, L2 - X2, L3 - X2, L4 - X2, L5 - X2</description>
+         <total_count>9</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>522</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH CHUTE PLAQUE [NEW]- L1 - X1, L2 - X2, L3 - X2, L4 - X2, L5 - X2</description>
+         <total_count>9</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>342</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RECYCLE CHUTE PLAQUE [NEW]- L1 - X1, L2 - X2, L3 - X2, L4 - X2, L5 - X2</description>
+         <total_count>9</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>342</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STRETCH ID 10HX9W</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STRETCH POLICY 24HX18W</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SWEAT ID</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SWEAT POLICY</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STOW ID</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RR (STOW) 10HX 9W</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GATHER ID 10HX9W</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GATHER POLICY 24HX18W</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CONFERENCE ROOM 10HX9W</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#3: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAX OCCUPANCY 6X6- SWEAT - 15, STRETCH 14, GATHER 118</description>
+         <total_count>3</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>174</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

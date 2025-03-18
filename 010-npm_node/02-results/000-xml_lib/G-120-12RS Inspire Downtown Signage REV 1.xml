@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>G-120-12RS</quote_num>
+   <contract_file>G-120-12RS Inspire Downtown Signage REV 1.xlsx</contract_file>
+   <client_name>GREYSTAR 600 E LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
+   <project_name>INSPIRE DOWNTOWN</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>G-120-12RS Inspire Downtown Signage REV 1.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -610,17 +619,1068 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>G-120-12RS</quote_num>
-   <contract_file>G-120-12RS Inspire Downtown Signage REV 1.xlsx</contract_file>
-   <client_name>GREYSTAR 600 E LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
-   <project_name>INSPIRE DOWNTOWN</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>10&apos; X 10&apos; INTERNALLY ILLUMINATED SIGN WITH FLEX FACES AND- CUSTOM BACK TO MATCH ARCHITECTRUARAL ELEMENTS ON WALL- FACING MAIN INTERSECTION</description>
+         <total_count>1</total_count>
+         <each_cost>14600</each_cost>
+         <total_cost>14600</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;LEASING CENTER&quot; PAN SIGN WITH ADDRESS AND DIMENSIONAL - GRAPHICS. LOADS OVER EXISTING &quot;VISTANA&quot; WALL SIGN AT LEASING</description>
+         <total_count>1</total_count>
+         <each_cost>3850</each_cost>
+         <total_cost>3850</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM 3&apos; X4&apos; ALUMINUM A-FRAME WITH CUSTOM DIGITAL - GRAPHICS AND WHEELS</description>
+         <total_count>1</total_count>
+         <each_cost>1350</each_cost>
+         <total_cost>1350</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;HOUSTON ST. STAIRS&quot; IDS (6&quot;W X 10&quot;H)</description>
+         <total_count>6</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>588</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM ID (6&quot; X 6&quot;)</description>
+         <total_count>22</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>1716</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLEARANCE MAX HEIGHT 13&apos;0&quot; (10.5&quot;W X 10&quot;H)</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESTRICTED ACCESS CALL 226-5635 FOR ENTRY </description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PARKING OFFICE 150 (6&quot; X 6&quot;)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAINTENANCE 160 (6&quot; X 6&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;CENTER STAIRS&quot; ID (6&quot;W X 10&quot;H)</description>
+         <total_count>6</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>588</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ROOM &quot;161&quot; ID (AT FIRE PUMP) (4&quot;W X 5&quot;H)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE PUMP ROOM - SIGN ON DOORS</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ROOM &quot;162&quot; ID (DANGER HIGH VOLTAGE) (4&quot; X 5&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ROOM &quot;164&quot; ID (TELECOM) (4&quot;W X 5&quot;H)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;COMMERCE ST. STAIRS&quot; IDS (6&quot; X 10&quot;)</description>
+         <total_count>6</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>588</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WI-FI CAFÉ IN ETCHMARK VINYL ( 12&quot; LETTERS)</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PRIVATE ROOM ID (6&quot; X 6&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEN&apos;S RESTROOM (6&quot; X 9.5&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMEN&apos;S RESTROOM (6&quot; X 9.5&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING CENTER DIRECTIONAL (10&quot; X 10&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>135</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PACKAGE ROOM ID (6&quot; X 6&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;HOLDING ELEVATOR OPEN&quot; SIGNS (9&quot; X 8.5&quot;)</description>
+         <total_count>25</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>1950</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR CODE SIGNS (8&quot; X 8&quot;)</description>
+         <total_count>25</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>1950</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS MAP (9&quot; X 8&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>265</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EQUIPMENT (6&quot; X 6&quot;)</description>
+         <total_count>6</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>468</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESIDENT ONLY ID (6&quot; X 6&quot;)</description>
+         <total_count>14</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>1092</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;HOUSTON ST STAIRS&quot; / NO RE-ENTRY (6&quot; X 10&quot;)</description>
+         <total_count>13</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>1274</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;COMMERCE ST STAIRS&quot; / NO RE-ENTRY (6&quot; X 10&quot;)</description>
+         <total_count>13</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>1274</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GARAGE LEVEL SIGNS 1-5 (16.5&quot; X 19&quot;)</description>
+         <total_count>10</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>1100</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL SIGNS</description>
+         <total_count>2</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>330</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>VALVE ROOM SIGNS (6&quot; X 6&quot;)</description>
+         <total_count>10</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>780</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MOTORCYCLE PARKING (XDROP-DOWN) (X1 WALL MOUNT)</description>
+         <total_count>4</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>840</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PUBLIC ELEVATOR DIRECTIONALS (28&quot;W)(DROPDOWN, - SINGLE-FACE WITH ARROWS)</description>
+         <total_count>7</total_count>
+         <each_cost>485</each_cost>
+         <total_cost>3395</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PUBLIC ELEVATOR DIRECTIONALS (WALL MOUNT) (16.5&quot; X 28&quot;)</description>
+         <total_count>4</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>660</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HANG-DOWN DIRECTIONAL SIGNS (43&quot; X 14&quot;)</description>
+         <total_count>14</total_count>
+         <each_cost>525</each_cost>
+         <total_cost>7350</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>KEEP RIGHT (WALL MOUNT) (16.5&quot; X 28&quot;)</description>
+         <total_count>3</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>1785</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HOUSTON STREET ELEVATORS (LEVEL 2 &amp; 3) (16.5&quot; X 28&quot;)</description>
+         <total_count>2</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>196</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PRIVATE PARKING (FENCE MOUNT)</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>COMMERCE STREET ELEVATOR DIRECTIONAL (X3 -&gt;, X1 &lt;-)</description>
+         <total_count>4</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>440</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RIGHT LANE: RESIDENTS &amp; MONTHLY PARKING (16.5&quot; X 28&quot;) - (WALL MOUNT)</description>
+         <total_count>2</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>220</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEFT LANE: HOURLY PARKING (16.5&quot; X 28&quot;) (WALL MOUNT)</description>
+         <total_count>2</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>220</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;HOURLY&quot; &quot;SLOW&quot; &quot;MONTHLY&quot; HANG-DOWN TRAFFIC SIGNS</description>
+         <total_count>3</total_count>
+         <each_cost>325</each_cost>
+         <total_cost>975</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FUTURE RESIDENT PARKING SIGNS (WALL MOUNT)</description>
+         <total_count>3</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>495</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESERVED PARKING FOR &quot;THE VISTANA&quot; (WALL MOUNT)</description>
+         <total_count>3</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>495</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#4 PARKING GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESIDENT STORAGE ID (6&quot; X 6&quot;) (X24, LVL 2 + S201-S224)- (X30, LVL 3 S301-S330), (X38, LVL 4 S401-S438), (X11, LVL 5 S501-S511)</description>
+         <total_count>103</total_count>
+         <each_cost>28</each_cost>
+         <total_cost>2884</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT DOOR NUMBERS</description>
+         <total_count>247</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>11856</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE / MECHANICAL (6&quot;X6&quot;) (X2 LVL2, X2 LVL3, X2 LVL 4, X1 LVL 5)</description>
+         <total_count>7</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>546</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE C ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE B ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SOUTH ELECTRICAL</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NORTH ELECTRICAL</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HALLWAY DIRECTIONALS (10&quot; X10&quot;)</description>
+         <total_count>39</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>5265</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>JANITOR ROOM ID(6&quot; X 6&quot;)</description>
+         <total_count>20</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>1560</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM POLICIES </description>
+         <total_count>20</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>2700</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAX OCCUPANCY (8&quot; X 8&quot;)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>AMENITY DECK</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ROOF ID (6&quot; X 6&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TOWER STAIR ID (6&quot; X 10&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>15TH FLOOR&quot; LEVEL IDENTIFIER (18&quot; X 20&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#5: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE CONTROL ROOM (6&quot; X 6&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL POLICY (FENCE MOUNT)</description>
+         <total_count>2</total_count>
+         <each_cost>625</each_cost>
+         <total_cost>1250</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WARNING NO LIFEGUARD (FENCE MOUNT) (2&apos; X 5&apos;)</description>
+         <total_count>1</total_count>
+         <each_cost>325</each_cost>
+         <total_cost>325</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DO NOT SIT OR CLIMB ON FENCE (WALL MOUNT) (14&quot; X 22&quot;)</description>
+         <total_count>2</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>420</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SPA POLICY (WALL MOUNT)</description>
+         <total_count>1</total_count>
+         <each_cost>625</each_cost>
+         <total_cost>625</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMERGENCY SPA SHUT OFF (WALL MOUNT)</description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL (AT POOL) (6&quot; X 6&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS POLICY (18&quot; X 22&quot;)</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#6: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID (AT FITNESS)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

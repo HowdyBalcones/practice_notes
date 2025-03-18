@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2208SH04</quote_num>
+   <contract_file>2208SH04 Brick Row Complex Wide Refurb.xlsx</contract_file>
+   <client_name>SIMSPON HOUSING 14643 DALLAS PARKWAY, SUITE 230 DALLAS, TEXAS 75254</client_name>
+   <project_name>BRICK ROW</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2208SH04 Brick Row Complex Wide Refurb.xlsx</contract_name>
       
    <section>
    <section_name>#1: BUILDING 1 REFURB SIGNAGE</section_name>
@@ -237,17 +246,268 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2208SH04</quote_num>
-   <contract_file>2208SH04 Brick Row Complex Wide Refurb.xlsx</contract_file>
-   <client_name>SIMSPON HOUSING 14643 DALLAS PARKWAY, SUITE 230 DALLAS, TEXAS 75254</client_name>
-   <project_name>BRICK ROW</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: BUILDING 1 REFURB SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: BUILDING 2 REFURB SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: BUILDING 3 REFURB SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: BUILDING 4 REFURB SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: BUILDING 5 REFURB SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BLDG NUMBER ID, 12 IN X 24 IN, LOADS ABOVE EXISTING SIGNAGE</description>
+         <total_count>14</total_count>
+         <each_cost>235</each_cost>
+         <total_cost>3290</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: BUILDING 1 REFURB SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: BUILDING 2 REFURB SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: BUILDING 3 REFURB SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: BUILDING 4 REFURB SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: BUILDING 5 REFURB SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT ID, 6 IN X 7 IN</description>
+         <total_count>588</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>39984</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: BUILDING 1 REFURB SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: BUILDING 2 REFURB SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: BUILDING 5 REFURB SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEV DO NOT USE ID, 9 IN X 12 IN (NO MAP)</description>
+         <total_count>24</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>3960</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: BUILDING 1 REFURB SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: BUILDING 2 REFURB SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ROOM NAME SIGNS (STORAGE, ELECTRICAL, ETC.), 2 IN X 8.5 IN</description>
+         <total_count>131</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>6288</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1: BUILDING 1 REFURB SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXTERIOR DOORS NOT TO BE LEFT OPEN, 9 IN X 9 IN,- (STAIRS S, T, U, V, Q AND R)</description>
+         <total_count>6</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>408</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1: BUILDING 1 REFURB SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: BUILDING 2 REFURB SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#5: BUILDING 5 REFURB SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HALLWAY DIRECTIONAL, 12 IN X 16 IN [NEW]</description>
+         <total_count>44</total_count>
+         <each_cost>185</each_cost>
+         <total_cost>8140</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: BUILDING 2 REFURB SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXTERIOR DOORS NOT TO BE LEFT OPEN, 9 IN X 9 IN,- (STAIRS A,B,C,D,E,F, AND G)</description>
+         <total_count>7</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>476</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: BUILDING 3 REFURB SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ROOM NAME SIGNS (STORAGE, TELECOMM...), 2 IN X 8.5 IN</description>
+         <total_count>3</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>144</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: BUILDING 3 REFURB SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GARAGE INTERIOR DOOR ID, 6 IN X 6 IN</description>
+         <total_count>8</total_count>
+         <each_cost>42</each_cost>
+         <total_cost>336</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: BUILDING 3 REFURB SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GARAGE EXTERIOR ID, 4 IN X 6 IN</description>
+         <total_count>26</total_count>
+         <each_cost>42</each_cost>
+         <total_cost>1092</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: BUILDING 5 REFURB SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ROOM NAME SIGNS (STORAGE, MECHANICAL, ETC.), 2 IN X 8.5 IN</description>
+         <total_count>10</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>480</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: BUILDING 5 REFURB SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXTERIOR DOORS NOT TO BE LEFT OPEN, 9 IN X 9 IN,- (STAIRS 1 AND 2)</description>
+         <total_count>2</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>136</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#5: BUILDING 5 REFURB SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>YOU ARE HERE/EVAC MAP, 10 IN X 14 IN</description>
+         <total_count>4</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>1060</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2210TSL01S - IDF</quote_num>
+   <contract_file>2210TSL01S Tradition Clearfork Signage R4.xlsx</contract_file>
+   <client_name>TRADITION SENIOR LIVING, LP *NOTE TO FOURCE: INCLUDE ROOM 7701 LEMMON AVE STE 220 NUMBER ON THE FOLLOWING:  DALLAS, TX 75209 - ELECTRICAL  - MECHANICAL</client_name>
+   <project_name>TRADITION - CLEARFORK</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2210TSL01S Tradition Clearfork Signage R4.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -2812,17 +2821,4118 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2210TSL01S - IDF</quote_num>
-   <contract_file>2210TSL01S Tradition Clearfork Signage R4.xlsx</contract_file>
-   <client_name>TRADITION SENIOR LIVING, LP *NOTE TO FOURCE: INCLUDE ROOM 7701 LEMMON AVE STE 220 NUMBER ON THE FOLLOWING:  DALLAS, TX 75209 - ELECTRICAL  - MECHANICAL</client_name>
-   <project_name>TRADITION - CLEARFORK</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NON-ILLUMINATED SINGLE FACE MONUMENT MAIN ID- 1/2&quot; ALUMINUM GRAPHICS CUSTOM PAINTED PPG 16 COCOA BEAN, PIN MOUNTED- TO STRUCTURE BY OTHERS. LOCATED OFF ACME BRICK PLAZA- (PER PLAN L2.2.4) TO INCLUDE &quot;THE TRADITION CLEARFORK - ASSISTED LIVING AND MEMOERY CARE&quot;</description>
+         <total_count>1</total_count>
+         <each_cost>4850</each_cost>
+         <total_cost>4850</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NON-ILLUMINATED SINGLE FACE ID SIGNS 1/2&quot; ALUMINUM GRAPHICS- CUSTOM PAINTED PPG 16 COCOA BEAN, PIN MOUNTED TO STRUCTURE BY OTHERS- LOCATED OFF CLEARFORK MAIN ST. (WING WALL) (PER PLAN L2.2.4)- *FOURCE TO MAXIMIZE SQUARE FOOTAGE ALLOWANCE ON EACH STRUCTURE</description>
+         <total_count>2</total_count>
+         <each_cost>3850</each_cost>
+         <total_cost>7700</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE FACED DIRECTIONAL SIGNS (PER SPOTTING PLAN)- (X1 ALONG IL SIDE)</description>
+         <total_count>3</total_count>
+         <each_cost>1485</each_cost>
+         <total_cost>4455</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SINGLE-FACE DIRECTIONAL SIGNS (PER SPOTTING PLAN)- (X2 AT IL SIDE. X4 AT AL SIDE, X1 POOL / COURTYARD AREA)</description>
+         <total_count>7</total_count>
+         <each_cost>1350</each_cost>
+         <total_cost>9450</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRADITION - CLEARFORK RESIDENT ACCESS ONLY (FOB ENTRY)- (ON GATES AT BACK OF PROPERTY BY TRINITY TRAIL SYSTEM)</description>
+         <total_count>4</total_count>
+         <each_cost>310</each_cost>
+         <total_cost>1240</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PROPERTY ACCESS ONLY (@ GENERATOR BOXES ON NORTH SIDE- OF PROPERTY) (RED/WHITE)</description>
+         <total_count>2</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>220</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>INDEPENDENT LIVING LOADING ZONE / DO NOT BLOCK - TYPE D- (MOUNTS TO EXTERIOR FASCIA)</description>
+         <total_count>1</total_count>
+         <each_cost>990</each_cost>
+         <total_cost>990</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ASSISTED LIVING LOADING ZONE / DO NOT BLOCK - TYPE D- (MOUNTS TO EXTERIOR FASCIA)</description>
+         <total_count>1</total_count>
+         <each_cost>990</each_cost>
+         <total_cost>990</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STOP SIGN AT ASSISTED LIVING EXIT</description>
+         <total_count>1</total_count>
+         <each_cost>225</each_cost>
+         <total_cost>225</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: INDEPENDENT LIVING MAIN ENTRY EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: ASSISTED LIVING MAIN ENTRY EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADDRESS NUMERALS - VINYL ON GLASS</description>
+         <total_count>2</total_count>
+         <each_cost>310</each_cost>
+         <total_cost>620</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: INDEPENDENT LIVING MAIN ENTRY EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: ASSISTED LIVING MAIN ENTRY EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM FUTURE RESIDENT PARKING (LANDSCAPE MOUNT)</description>
+         <total_count>5</total_count>
+         <each_cost>795</each_cost>
+         <total_cost>3975</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: INDEPENDENT LIVING MAIN ENTRY EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4: ASSISTED LIVING MAIN ENTRY EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOORS TO REMAIN UNLOCKED VINYL KIT (CODE REQUIRED)</description>
+         <total_count>2</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>136</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: INDEPENDENT LIVING MAIN ENTRY EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4: ASSISTED LIVING MAIN ENTRY EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>USPS PARKING SIGN ON POST - HOLD - ONLY PRODUCE IF REQUESTED</description>
+         <total_count>2</total_count>
+         <each_cost>495</each_cost>
+         <total_cost>990</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: LEVEL 0 GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ENTRY ONLY GARAGE SIGN WITH CLEARANCE HEIGHT- (ALUMINUM SIGN WITH DIMENSIONAL GRAPHICS)</description>
+         <total_count>1</total_count>
+         <each_cost>2450</each_cost>
+         <total_cost>2450</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: LEVEL 0 GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXIT ONLY GARAGE SIGN (ALUMINUM WITH DIMENSIONAL GRAPHICS)</description>
+         <total_count>1</total_count>
+         <each_cost>2450</each_cost>
+         <total_cost>2450</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: LEVEL 0 GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ENTER ONLY / GATE WARNING SIGN COMBO</description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: LEVEL 0 GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXIT ONLY / GATE WARNING SIGN COMBO</description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: LEVEL 0 GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GARAGE TO BUILDING / STAIR / LEVEL (STAIR A, C)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#5: LEVEL 0 GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL (STAIR A,C)</description>
+         <total_count>2</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>330</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#5: LEVEL 0 GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FOUNTAIN EQUIPMENT ROOM ID </description>
+         <total_count>1</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>58</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#5: LEVEL 0 GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERSIZED ELEVATOR LOBBY ID AT EACH ELEVATOR- (X1 AT IL SERVICE ELEV., X2 AT IL ELEV 1&amp;2, X2 AT IL ELEV 3&amp;4)</description>
+         <total_count>5</total_count>
+         <each_cost>525</each_cost>
+         <total_cost>2625</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#5: LEVEL 0 GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS / DO NOT USE COMBO </description>
+         <total_count>3</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>795</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>INDEPENDENT LIVING UNIT DOOR NUMBERS - ON MAIN CORRIDOR</description>
+         <total_count>4</total_count>
+         <each_cost>56</each_cost>
+         <total_cost>224</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#14: LEVEL 5 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#17: LEVEL 7 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#18: LEVEL 8 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#19: LEVEL 9 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>INDEPENDENT LIVING UNIT DOOR NUMBERS W/ NAME SLIDERS</description>
+         <total_count>105</total_count>
+         <each_cost>56</each_cost>
+         <total_cost>5880</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WAYFINDING / HALLWAY DIRECTIONAL </description>
+         <total_count>5</total_count>
+         <each_cost>185</each_cost>
+         <total_cost>925</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR / LEVEL (STAIR B ONLY) </description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE </description>
+         <total_count>3</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>795</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SALON ID (1127)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAFF ONLY ID (NEAR IL SERVICE ELEV. LOBBY AND BISTRO)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GREAT ROOM ID (1117)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GAME ROOM ID (1116)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAIL ROOM ID (1179)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>VALET ID (1175A)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MARKETING ID (1172B)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRANSPORTATION ID (1167)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>THEATER ID (1126)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAGAZINE ROOM ID (1121)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LIBRARY ID (1119)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BISTRO ID (1114A)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>19TH HOLE ID (1159A)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEN&apos;S CARD ROOM ID (1159B)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LADIES CARD ROOM ID (1158)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GENTELMENS RESTROOM (1181)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>V.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LADIES RESTROOM (1180)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>W.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM (1157, 1150, X1 INSIDE SALON)</description>
+         <total_count>3</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>294</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>X.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID (1116B, 1126B, 1123B, 1123C)</description>
+         <total_count>4</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>312</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Y.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID (1145A, 1143B, 1147A, 1147B, 1144A,  1144B, 1119A, 1119B, 1153)</description>
+         <total_count>9</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>702</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Z.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (1149)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEVEL 1 RESIDENT STORAGE ID - TYPE B (1152A, 1152B, 1152C, 1152D,</description>
+         <total_count>12</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>816</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL  (STAIR A &amp; B)</description>
+         <total_count>2</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>330</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>KITCHEN ID (1131)</description>
+         <total_count>2</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>96</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAFF LAUNDRY ID (1170C)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HOUSEKEEPING ID (X1 INSIDE 1114D, 1185)</description>
+         <total_count>2</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>96</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>INDEPENDENT LIVING LOADING DOCK / MAINTENANCE / </description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL / LIFE SAFETY ELECTRICAL ID (1186)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WATER SERVICE ID (1138)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE PUMP ROOM ID (1189A)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAINTENANCE / FIRE PUMP ROOM / STORAGE 1189B (1189)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL EQUIPMENT ID (1192)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM ID (1141)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CATERING ID (1117A)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GENTLEMENS RESTROOM (1183)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LADIES RESTROOM (1184)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID (1140, 1112, 1136, 1191, 1189B)</description>
+         <total_count>5</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>240</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (1134, 1142)</description>
+         <total_count>2</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>96</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MDF ID (1138)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR ACCESS EXT. (STAIR A &amp; B)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL / LIFE SAFETY ELECTRICAL ID</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>INDEPENDENT LIVING LOADING DOCK ID</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE PUMP ROOM ID </description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#6: LEVEL 1 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FDC W/ ADDRESS - TYPE D</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR / LEVEL (STAIR C &amp; D) </description>
+         <total_count>10</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>780</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE - TYPE ELEV </description>
+         <total_count>2</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>530</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EVACUATION MAP (PER CODE)</description>
+         <total_count>2</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>270</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SALON ID (2123)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ARTS AND CRAFTS ID (2124)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HEALTHCARE DIRECTOR ID (2125)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>COMMUNITY RELATIONS DIRECTOR ID (2133)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ASSISTED LIVING DIRECTOR ID (2126)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADMINISTRATION ID</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>THERAPY CENTER ID (2122)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS ID (2121)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MARKETING ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAFF ONLY </description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAIL ROOM ID (2108)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GREAT ROOM ID (2107)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SOCIAL PROGRAMS DIRECTOR (2103)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEDIA ROOM ID (2101)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GENTLEMEN&apos;S RESTROOM (2152, 2150)</description>
+         <total_count>2</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>196</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LADIE&apos;S RESTROOM (2153, 2149)</description>
+         <total_count>2</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>196</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM (2122A, 2123D)</description>
+         <total_count>2</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>196</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>V.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID (2104, 2107C, 2101B, 2149A, 2122A, 2124A)</description>
+         <total_count>6</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>468</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>W.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (2136, 2151)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>X.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID (2154)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL (STAIR C &amp; D) </description>
+         <total_count>10</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>1650</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRADITION UNIVERSITY ID (2119)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAFF LOUNGE ID (2118)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ASSISTED LIVING LOADING DOCK ID (2117)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAFF LAUNDRY ID (1170)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>KITCHEN ID</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HOUSE KEEPING ID (1132)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM ID (X2)(1133)</description>
+         <total_count>2</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>196</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID (2138, 2144, 2114, 2156)</description>
+         <total_count>4</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>192</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM ID</description>
+         <total_count>3</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>144</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WAYFINDING DIRECTIONAL (ACROSS FROM LOADING DOCK ENTRY)</description>
+         <total_count>1</total_count>
+         <each_cost>185</each_cost>
+         <total_cost>185</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR ACCESS EXT. (STAIR C &amp; D)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#7: LEVEL 1 - ASSISTED LIVING (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ASSISTED LIVING LOADING DOCK ID</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#10: LEVEL 3  - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#12: LEVEL 4 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#14: LEVEL 5 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#16: LEVEL 6 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#17: LEVEL 7 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#18: LEVEL 8 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#19: LEVEL 9 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR / LEVEL (STAIR A &amp; B) </description>
+         <total_count>16</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>1248</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#10: LEVEL 3  - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#12: LEVEL 4 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#14: LEVEL 5 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#16: LEVEL 6 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#17: LEVEL 7 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#18: LEVEL 8 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#19: LEVEL 9 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE</description>
+         <total_count>26</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>6890</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#10: LEVEL 3  - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#12: LEVEL 4 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#14: LEVEL 5 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#16: LEVEL 6 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#17: LEVEL 7 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#18: LEVEL 8 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#19: LEVEL 9 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>WAYFINDING / HALLWAY DIRECTIONAL</description>
+         <total_count>48</total_count>
+         <each_cost>185</each_cost>
+         <total_cost>8880</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#10: LEVEL 3  - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#12: LEVEL 4 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#16: LEVEL 6 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>INDEPENDENT LIVING UNIT DOOR NUMBERS - W/ NAME SLIDERS</description>
+         <total_count>97</total_count>
+         <each_cost>56</each_cost>
+         <total_cost>5432</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GUEST SUITE UNIT DOOR NUMBERS </description>
+         <total_count>3</total_count>
+         <each_cost>56</each_cost>
+         <total_cost>168</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS CENTER ID (1293)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS POLICY -WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS CLASSROOM ID (1294)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS ID (1294B)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL / LOCKER ROOMS IDF</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOCKER ROOMS</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GENTLEMEN (1289)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LADIES (1291)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SERVICE ELEVATOR / TRASH ROOM / IDF (1238, 1239)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SOCIAL PROGRAMS DIRECTOR ID (1284)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUSINESS OFFICE ID (1282)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ARTS AND CRAFTS ID (1262)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM (1271)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID (1262A, 1273, 1274, 1288A, 1294A, X1 @ POOL LOCKER)</description>
+         <total_count>6</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>468</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (1288B, 1242, 1249)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>V.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID (1243, 1236, 1259)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>W.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (1258)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEVEL 2 RESIDENT STORAGE ID - TYPE B (1272, 1269, 1253,</description>
+         <total_count>6</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>408</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#10: LEVEL 3 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#12: LEVEL 4- INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#14: LEVEL 5 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#16: LEVEL 6 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#17: LEVEL 7 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#18: LEVEL 8 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#19: LEVEL 9 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL (STAIR A &amp; B) </description>
+         <total_count>16</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>2640</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#10: LEVEL 3 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#12: LEVEL 4- INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#14: LEVEL 5 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#16: LEVEL 6 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#17: LEVEL 7 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#18: LEVEL 8 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#19: LEVEL 9 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM POLICY - WALL MOUNT</description>
+         <total_count>12</total_count>
+         <each_cost>125</each_cost>
+         <total_cost>1500</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#10: LEVEL 3 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#12: LEVEL 4- INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#14: LEVEL 5 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#16: LEVEL 6 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#17: LEVEL 7 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#18: LEVEL 8 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#19: LEVEL 9 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH CHUTE ICON </description>
+         <total_count>8</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>304</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#10: LEVEL 3 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#12: LEVEL 4- INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#14: LEVEL 5 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#16: LEVEL 6 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#17: LEVEL 7 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#18: LEVEL 8 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#19: LEVEL 9 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>RECYCLE CHUTE ICON</description>
+         <total_count>8</total_count>
+         <each_cost>38</each_cost>
+         <total_cost>304</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (1238)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL POLICY</description>
+         <total_count>1</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>595</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SPA POLICY </description>
+         <total_count>1</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>595</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WARNING NO LIFE GUARD ON DUTY / NO DIVING</description>
+         <total_count>1</total_count>
+         <each_cost>325</each_cost>
+         <total_cost>325</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMERGENCY SPA SHUT-OFF </description>
+         <total_count>1</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>155</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMERGENCY PHONE 911 SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>155</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#8: LEVEL 2 - INDEPENDENT LIVING (A&amp;B) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CPR PANEL SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>EVACUATION MAP - TYPE EVC (PER CODE)</description>
+         <total_count>11</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>2915</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEMORY CARE UNIT DOOR NUMBERS - W/ NAME SLIDERS</description>
+         <total_count>27</total_count>
+         <each_cost>56</each_cost>
+         <total_cost>1512</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NO EXIT  (@ GARDEN) - WALL MOUNT</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>WELLNESS STATION ID</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAFF ONLY / SERVICE ELEVATOR ID (2258)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SOCIAL PROGRAMS DIRECTOR (2256A)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEMORY CARE DIRECTOR ID (2256B)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEDICATION ROOM ID (2253)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HEALTHCARE SUPPLIES ID (2247A, 2241A)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM (2262)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID (2268, 2239A)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID (2248A, 2261A, 2242A)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (2251, 2263)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (2244)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAFF LOUNGE ID (2773)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAFF LAUNDRY ID (2259, 2259A)</description>
+         <total_count>2</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>96</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HEALTHCARE SUPPLIES ID (2271)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM (2269)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#9: LEVEL 2 - MEMORY CARE (C&amp;D) SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID (2252A)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#10: LEVEL 3  - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>SERVICE ELEVATOR / TRASH ROOM / IDF (1338, 1339)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#10: LEVEL 3  - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID (1336, 1343, 1359)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#10: LEVEL 3  - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (1342, 1349)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#10: LEVEL 3  - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (1358)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A</key>
+            <section>#10: LEVEL 3  - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEVEL 3 - RESIDENT STORAGE ID - TYPE B (1353, 1354, 1356, 1357)</description>
+         <total_count>4</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>272</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#10: LEVEL 3 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (1338)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#10: LEVEL 3 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#12: LEVEL 4- INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#14: LEVEL 5 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#16: LEVEL 6 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#17: LEVEL 7 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#18: LEVEL 8 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#19: LEVEL 9 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM ID </description>
+         <total_count>7</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>336</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE (X1 SE3, X1 AL1 &amp; AL2)</description>
+         <total_count>2</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>530</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ASSISTED LIVING UNIT DOOR NUMBERS</description>
+         <total_count>46</total_count>
+         <each_cost>56</each_cost>
+         <total_cost>2576</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAFF ONLY / SERVICE ELEVATOR ID </description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>WELLNESS STATION ID (2354)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEDICATION ROOM ID (2352)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAFF LAUNDRY ID (2359, 2359A)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>HEALTHCARE SUPPLIES ID (2357)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM / IDF (2351, 2350)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID (2348A, 2358, 2342A)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (2347A, 2339)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE ID (2344)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>HOUSEKEEPING ID (2345A)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM ID (2343)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#11: LEVEL 3 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (2351)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#12: LEVEL 4- INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>SERVICE ELEVATOR / TRASH ROOM / IDF (1438, 1439)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#12: LEVEL 4- INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID (1446, 1443, 1459)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#12: LEVEL 4- INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (1442, 1449)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#12: LEVEL 4- INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (1458)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#12: LEVEL 4- INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEVEL 4 - RESIDENT STORAGE ID - TYPE B (1453, 1454, 1456, 1457)</description>
+         <total_count>4</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>272</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#12: LEVEL 4- INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (1438)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE (X1 @ AL 1&amp;2, X1 @ SE3)</description>
+         <total_count>2</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>530</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAFF ONLY / SERVICE ELEVATOR ID</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>WELLNESS STATION ID (2454)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEDICATION ROOM ID (2452)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAFF LAUNDRY ID (2459)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESIDENT LAUNDRY ID (2462)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>HEALTHCARE SUPPLIES ID (2457)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM / IDF (2451, 2450)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID (2448A, 2442A, 2458)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (2439, 2447A)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>HOUSEKEEPING ID (2445A)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM ID (2443)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#13: LEVEL 4 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (2451)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#14: LEVEL 5 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>SERVICE ELEVATOR / TRASH ROOM / IDF (1538, 1539)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#14: LEVEL 5 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID (1543, 1546, 1559)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#14: LEVEL 5 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID(1542, 1549)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#14: LEVEL 5 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (1558)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#14: LEVEL 5 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEVEL 5 - RESIDENT STORAGE ID - TYPE B (1553, 1554, 1556, 1557)</description>
+         <total_count>4</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>272</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#14: LEVEL 5 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (1538)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS MAP / DO NOT USE (X1 @ AL1&amp;2, X1 @ SE3)</description>
+         <total_count>2</total_count>
+         <each_cost>265</each_cost>
+         <total_cost>530</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ASSISTED LIVING UNIT DOOR NUMBERS  - W/ NAME SLIDERS</description>
+         <total_count>22</total_count>
+         <each_cost>56</each_cost>
+         <total_cost>1232</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEDICATION ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAFF LAUNDRY / IDF (2551, 2559, 2559A)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM / IDF (2550, 2551)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID (2548A, 2558, 2542A)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (2547A, 2539)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>HEALTHCARE SUPPLIES (2557)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>HOUSEKEEPING ID (2545A)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ROOM ID (2543)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#15: LEVEL 5 - ASSISTED LIVING (C&amp;D)</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (2551)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#16: LEVEL 6 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>SERVICE ELEVATOR / TRASH ROOM / IDF (1638, 1639)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#16: LEVEL 6 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID (1643, 1646, 1659)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#16: LEVEL 6 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (1642, 1649)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#16: LEVEL 6 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (1658)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#16: LEVEL 6 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEVEL 6 - RESIDENT STORAGE ID - TYPE B (1653, 1654, 1656, 1657)</description>
+         <total_count>4</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>272</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#16: LEVEL 6 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (1638)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#17: LEVEL 7 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>SERVICE ELEVATOR / TRASH ROOM / IDF (1738, 1739)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#17: LEVEL 7 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID (1743, 1746, 1759)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#17: LEVEL 7 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (1742, 1749)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#17: LEVEL 7 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (1758)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#17: LEVEL 7 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEVEL 7 - RESIDENT STORAGE ID - TYPE B (1753, 1754, 1756, 1757)</description>
+         <total_count>4</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>272</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#17: LEVEL 7 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (1738)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#18: LEVEL 8 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>SERVICE ELEVATOR / TRASH ROOM / IDF (1838, 1839)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#18: LEVEL 8 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID (1843, 1846, 1859)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#18: LEVEL 8 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (1842, 1849)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#18: LEVEL 8 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (1858)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#18: LEVEL 8 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEVEL 8 - RESIDENT STORAGE ID - TYPE B (1853, 1854, 1856, 1857)</description>
+         <total_count>4</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>272</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#18: LEVEL 8 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (1838)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#19: LEVEL 9 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>SERVICE ELEVATOR / TRASH ROOM / IDF (1938, 1939)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#19: LEVEL 9 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ID (1943, 1946, 1959)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#19: LEVEL 9 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ID (1942, 1949)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#19: LEVEL 9 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (1958)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#19: LEVEL 9 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEVEL 9 - RESIDENT STORAGE ID - TYPE B (1953, 1954, 1956, 1957)</description>
+         <total_count>4</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>272</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#19: LEVEL 9 - INDEPENDENT LIVING (A&amp;B)</section>
+         </section_key>
+         
+         </section_list>
+         <description>IDF ID (1938)</description>
+         <total_count>1</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>48</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#20: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG PARK ID</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#20: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG PARK POLICY - ON POST</description>
+         <total_count>1</total_count>
+         <each_cost>795</each_cost>
+         <total_cost>795</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

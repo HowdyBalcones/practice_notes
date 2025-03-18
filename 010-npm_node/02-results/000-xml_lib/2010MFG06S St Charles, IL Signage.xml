@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2010MFG06S</quote_num>
+   <contract_file>2010MFG06S St Charles, IL Signage.xlsx</contract_file>
+   <client_name>MEDFOX GROUP 2321 ROUTH ST APT A DALLAS, TX 75201</client_name>
+   <project_name>ADVANCED CARE MEDICAL - ST. CHARLES, IL</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2010MFG06S St Charles, IL Signage.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY / EXTERIOR SIGNAGE</section_name>
@@ -206,17 +215,368 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2010MFG06S</quote_num>
-   <contract_file>2010MFG06S St Charles, IL Signage.xlsx</contract_file>
-   <client_name>MEDFOX GROUP 2321 ROUTH ST APT A DALLAS, TX 75201</client_name>
-   <project_name>ADVANCED CARE MEDICAL - ST. CHARLES, IL</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-FACED MONUMENT W/ LED REVERSE CHANNEL LETTERS- AND INTERNALLY ILLUMINATED SADDLE LOGO</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>VINYL ADDRESS</description>
+         <total_count>1</total_count>
+         <each_cost>189</each_cost>
+         <total_cost>189</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOOR VINYL W/ LOGO, HOURS, PHONE &amp; URL</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: ENTRY / EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOOR TO REMAIN UNLOCKED VINYL KIT</description>
+         <total_count>1</total_count>
+         <each_cost>89</each_cost>
+         <total_cost>89</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PATIENTS ONLY BEYOND THIS POINT</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PHYSICIANS OFFICE (120, 124)</description>
+         <total_count>2</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>136</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STORAGE CLOSET (119, 116)</description>
+         <total_count>2</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>136</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXAM ROOMS (118, 117, 115, 112, 111, 110)</description>
+         <total_count>6</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>408</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DRUG SCREENING ROOM ID (129)</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESTROOM (INSIDE DRUG SCREENING) (128)</description>
+         <total_count>1</total_count>
+         <each_cost>105</each_cost>
+         <total_cost>105</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UTILITY ROOM ID (125)</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>JANITOR CLOSET (114)</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>X-RAY (113)</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM (103, 123, 104)</description>
+         <total_count>3</total_count>
+         <each_cost>105</each_cost>
+         <total_cost>315</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PROCEDURE ROOM (109)</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRIAGE ROOM (108)</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADMINISTRATION</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEE BREAKROOM (107)</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>COPY / FILE (105A)</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MANAGE ID (106)</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CHECK-OUT (121)</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXIT PLAQUE</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE RISER ROOM (134)</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL (135)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2009TP02RS</quote_num>
+   <contract_file>2009TP02RS Parc 1010 Refurb Signage.xlsx</contract_file>
+   <client_name>TRADEWIND PROPERTIES 3131 MEMORIAL CT #12114 HOUSTON, TX. 77007</client_name>
+   <project_name>PARC 1010</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2009TP02RS Parc 1010 Refurb Signage.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -205,17 +214,338 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2009TP02RS</quote_num>
-   <contract_file>2009TP02RS Parc 1010 Refurb Signage.xlsx</contract_file>
-   <client_name>TRADEWIND PROPERTIES 3131 MEMORIAL CT #12114 HOUSTON, TX. 77007</client_name>
-   <project_name>PARC 1010</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D/F MAIN ENTRY MONUMENT - NON-ILLUMINATED PAN SIGN FACES W/- DIMENSIONAL GRAPHICS USING EXISTING STRUCTURE. (5&apos;6&quot; X 12&apos;9&quot;)</description>
+         <total_count>2</total_count>
+         <each_cost>5250</each_cost>
+         <total_cost>10500</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S/F SECONDARY MONUMENT: NON-ILLUMINATED PAN SIGN W/- DIMENSIONAL GRAPHICS, 1&quot; RETURN MOUNTS WITH  ANGLE- BRACKETS TO EXISTING BRICK STRUCTURE.</description>
+         <total_count>1</total_count>
+         <each_cost>4850</each_cost>
+         <total_cost>4850</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HOURS SIGN (SUMMER/WINTER HOURS) *RELOCATE </description>
+         <total_count>1</total_count>
+         <each_cost>465</each_cost>
+         <total_cost>465</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING ID W/ DIRECTIONAL VALUE - GROUND MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>2395</each_cost>
+         <total_cost>2395</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MAIL CENTER</description>
+         <total_count>1</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>135</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM HANDICAPPED PARKING: LANDSCAPE MOUNT- *FACES ONLY - USE EXISTING POLES.</description>
+         <total_count>1</total_count>
+         <each_cost>395</each_cost>
+         <total_cost>395</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM FUTURE RESIDENT PARKING: LANDSCAPE MOUNT- *FACES ONLY - USE EXISTING POLES.</description>
+         <total_count>2</total_count>
+         <each_cost>395</each_cost>
+         <total_cost>790</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ALUMIGRAPHIC AT 80&quot; X 105&quot; - MOUNTS TO LEASING OFFICE</description>
+         <total_count>1</total_count>
+         <each_cost>1055</each_cost>
+         <total_cost>1055</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEN&apos;S RESTROOM - 8&quot;X3&quot; DOOR MOUNT </description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMEN&apos;S RESTROOM - 8&quot;X3&quot; DOOR MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS CENTER ID W/ VINYL BACKER (GLASS IS 9&quot; WIDE)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS CENTER POLICIES- SEE TR PHOTOS FOR PLACEMENT</description>
+         <total_count>1</total_count>
+         <each_cost>415</each_cost>
+         <total_cost>415</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: LEASING CENTER- INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXTERIOR FITNESS ID</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING ADDRESS SIGNS- NO UNIT SPREADS (*NOT ALL EXISTING- IDS WILL BE REPLACED)</description>
+         <total_count>29</total_count>
+         <each_cost>235</each_cost>
+         <total_cost>6815</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH ID / RULES - ALUMINUM PLATE W/ VINYL</description>
+         <total_count>7</total_count>
+         <each_cost>385</each_cost>
+         <total_cost>2695</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL POLICIES- WALL MOUNT: 47 1/2&quot; X23 3/4&quot;</description>
+         <total_count>1</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>595</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WARNING NO LIFEGUARD/ CHILDREN COMBO: NONE CURRENTLY </description>
+         <total_count>1</total_count>
+         <each_cost>360</each_cost>
+         <total_cost>360</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>911 PHONE</description>
+         <total_count>1</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>135</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL GATE SIGNS: HOURS/NO GLASS W/ PVC BACKER</description>
+         <total_count>4</total_count>
+         <each_cost>145</each_cost>
+         <total_cost>580</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL EQUIPMENT: FENCE MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOG PARK POLICIES ON POST</description>
+         <total_count>1</total_count>
+         <each_cost>695</each_cost>
+         <total_cost>695</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#5: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GRILLING POLICIES- STRUCTURE MOUNT LOCATED IN POOL AREA- 12&quot;X8&quot;</description>
+         <total_count>2</total_count>
+         <each_cost>285</each_cost>
+         <total_cost>570</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

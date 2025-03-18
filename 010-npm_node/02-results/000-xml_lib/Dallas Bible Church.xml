@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2410DBC01</quote_num>
+   <contract_file>Dallas Bible Church.xlsx</contract_file>
+   <client_name>J-N DEVELOPMENT CONSULTING 6635 FLANARY LANE DALLAS, TX 75252</client_name>
+   <project_name>DALLAS BIBLE CHURCH</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>Dallas Bible Church.xlsx</contract_name>
       
    <section>
    <section_name>#1 - ENTRY SIGNAGE / EAST ELEVATION</section_name>
@@ -59,17 +68,83 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2410DBC01</quote_num>
-   <contract_file>Dallas Bible Church.xlsx</contract_file>
-   <client_name>J-N DEVELOPMENT CONSULTING 6635 FLANARY LANE DALLAS, TX 75252</client_name>
-   <project_name>DALLAS BIBLE CHURCH</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1 - ENTRY SIGNAGE / EAST ELEVATION</section>
+         </section_key>
+         
+         </section_list>
+         <description>ILLUMINATED CHANNEL LETTERS, APPROX. 3 FT TALL, SOUTH END- OF EAST ELEVATION (WELCOME)</description>
+         <total_count>1</total_count>
+         <each_cost>9800</each_cost>
+         <total_cost>9800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1 - ENTRY SIGNAGE / EAST ELEVATION</section>
+         </section_key>
+         
+         </section_list>
+         <description>NON-ILLUMINATED TRAIN ICON, APPROX. 7 FT - 2 IN TALL, FLAT- CUT ALUMINUM, 1/4 IN. THICK, PAINTED FINISH- * ALL ILLUMINATED SIGNAGE ASSUMES ELECTRICAL POWER- PROVIDED TO SIGN LOCATION(S) BY OTHERS</description>
+         <total_count>1</total_count>
+         <each_cost>3600</each_cost>
+         <total_cost>3600</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2 - ENTRY SIGNAGE / WEST ELEVATION</section>
+         </section_key>
+         
+         </section_list>
+         <description>RELOCATE EXISTING SQUARE LOGO SIGN ON EAST ELEVATION- TO WEST ELEVATION (COST INCLUDED AS PART OF &apos;INSTALLATION&apos;- BELOW</description>
+         <total_count>1</total_count>
+         <each_cost></each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2 - ENTRY SIGNAGE / WEST ELEVATION</section>
+         </section_key>
+         
+         </section_list>
+         <description>ILLUMINATED CHANNEL LETTERS, APPROX. 3 FT TALL, SOUTH END- OF WEST ELEVATION (WELCOME)- * ALL ILLUMINATED SIGNAGE ASSUMES ELECTRICAL POWER- PROVIDED TO SIGN LOCATION(S) BY OTHERS</description>
+         <total_count>1</total_count>
+         <each_cost>9800</each_cost>
+         <total_cost>9800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3 - ENTRY SIGNAGE / SOUTH ELEVATION</section>
+         </section_key>
+         
+         </section_list>
+         <description>NON-ILLUMINATED LOGO BLOCK, APPROX. 9 FT TALL, &apos;PAN&apos; STYLE- CABINET WITH DIMENSIONAL GRAPHICS</description>
+         <total_count>1</total_count>
+         <each_cost>7600</each_cost>
+         <total_cost>7600</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2308HMR03 REV 1 [OPT B]</quote_num>
+   <contract_file>2308HMR03 REV 1 OPT B Katy Trail Uptown Interior.xlsx</contract_file>
+   <client_name>HIGHMARK RESIDENTIAL 5429 LBJ FREEWAY, SUITE 800 DALLAS, TX 75240</client_name>
+   <project_name>KATY TRAIL UPTOWN - INTERIOR GRAPHICS - OVERLAYS - OPTION B</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2308HMR03 REV 1 OPT B Katy Trail Uptown Interior.xlsx</contract_name>
       
    <section>
    <section_name>#1: GARAGE SIGNAGE</section_name>
@@ -86,17 +95,143 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2308HMR03 REV 1 [OPT B]</quote_num>
-   <contract_file>2308HMR03 REV 1 OPT B Katy Trail Uptown Interior.xlsx</contract_file>
-   <client_name>HIGHMARK RESIDENTIAL 5429 LBJ FREEWAY, SUITE 800 DALLAS, TX 75240</client_name>
-   <project_name>KATY TRAIL UPTOWN - INTERIOR GRAPHICS - OVERLAYS - OPTION B</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FUTURE RESIDENT PARKING SIGNS, ALUM OVERLAY WITH VINYL - GRAPHICS, APPROX 10 X 4 IN</description>
+         <total_count>3</total_count>
+         <each_cost>25</each_cost>
+         <total_cost>75</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FUTURE RESIDENT-COMPACT CAR, ALUM OVERLAY WITH VINYL - GRAPHICS, APPROX 10 X 4 IN</description>
+         <total_count>6</total_count>
+         <each_cost>25</each_cost>
+         <total_cost>150</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HC/VAN ACCESSIBLE PARKING, ALUM OVERLAY WITH VINYL GRAPHICS,- APROX. 18 X 7 IN</description>
+         <total_count>2</total_count>
+         <each_cost>35</each_cost>
+         <total_cost>70</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING OFFICE DIRECTIONAL, ALUM OVERLAY WITH VINYL GRAPHICS,- APPROX. 30 X 9 IN</description>
+         <total_count>2</total_count>
+         <each_cost>79</each_cost>
+         <total_cost>158</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING OFFICE DIRECTIONAL (VERT LAYOUT), ALUM OVERLAY WITH - VINYL GRAPHICS, APPROX. 18 X 7 IN</description>
+         <total_count>1</total_count>
+         <each_cost>35</each_cost>
+         <total_cost>35</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TOWNHOME RESERVED PARKING, ALUM OVERLAY WITH VINYL GRAPHICS,- GRAPHICS, APPROX. 18 X 7 IN</description>
+         <total_count>4</total_count>
+         <each_cost>35</each_cost>
+         <total_cost>140</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#1: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOGO KIT, VINYL GRAPHIC - X2 AT LEASING CENTER GLASS DOORS- WEST ENTRY, X1 AT LEASING CENTER PORCH ENTRY, X2 AT GARAGE- ENTRY DOORS, X2 AT ELEVATOR LOBBY DOUBLE DOORS</description>
+         <total_count>7</total_count>
+         <each_cost>159</each_cost>
+         <total_cost>1113</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PEACE OF MIND... PANEL, DIGITALLY PRINTED GRACHICS, ACRYLIC PANEL,- (SIZE UNKNOWN, QUOTED AT 14 X 28 IN.)</description>
+         <total_count>1</total_count>
+         <each_cost>149</each_cost>
+         <total_cost>149</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESIDENT QUALIFICATION POLICY PANELS, DIGITALLY PRINTED - GRACHICS, ACRYLIC PANEL, (SIZE UNKNOWN, QUOTED AT 14 X 28 IN.)</description>
+         <total_count>2</total_count>
+         <each_cost>149</each_cost>
+         <total_cost>298</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

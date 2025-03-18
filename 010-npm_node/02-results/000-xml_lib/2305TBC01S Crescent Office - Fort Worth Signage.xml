@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2305TBC01S</quote_num>
+   <contract_file>2305TBC01S Crescent Office - Fort Worth Signage.xlsx</contract_file>
+   <client_name>THE BECK GROUP 464 BAILEY AVE STE 210 FT. WORTH, TX 76107</client_name>
+   <project_name>CRESCENT OFFICES</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2305TBC01S Crescent Office - Fort Worth Signage.xlsx</contract_name>
       
    <section>
    <section_name>#1: GARAGE - LEVEL B1 SIGNAGE</section_name>
@@ -1923,17 +1932,2278 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2305TBC01S</quote_num>
-   <contract_file>2305TBC01S Crescent Office - Fort Worth Signage.xlsx</contract_file>
-   <client_name>THE BECK GROUP 464 BAILEY AVE STE 210 FT. WORTH, TX 76107</client_name>
-   <project_name>CRESCENT OFFICES</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P5 - RESERVED PARKING SIGN (X3 HCP) </description>
+         <total_count>3</total_count>
+         <each_cost>195</each_cost>
+         <total_cost>585</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - BASEMENT LEVEL - STAIR ID (X1 @ STAIR 3, X1 @ STAIR 4) ON PHOTOLUMIESCENT ACRYLIC</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#2: GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - MECHANICAL ID</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1: GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - DOM RISER ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1: GARAGE - LEVEL B1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#2: GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#3: GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#4: GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#5: GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#6: GARAGE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#7: GARAGE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P9 - NO SMOKING SIGN</description>
+         <total_count>15</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>1320</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: GARAGE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#7: GARAGE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P1 - STAIRWELL SIGN ON PHOTOLUMINESCENT ACRYLIC</description>
+         <total_count>12</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>2520</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P2 - CLEARANCE BARS</description>
+         <total_count>8</total_count>
+         <each_cost>985</each_cost>
+         <total_cost>7880</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P3 - OVERHEAD DIRECTIONAL BARS</description>
+         <total_count>5</total_count>
+         <each_cost>985</each_cost>
+         <total_cost>4925</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P5 - RESERVED PARKING SIGN (X2 HCP, X 11 VISITOR) ON POST WITH BASEPLATE</description>
+         <total_count>13</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>7735</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P5 - RESERVED PARKING SIGN (X4 VISITOR) - WALL MOUNT</description>
+         <total_count>4</total_count>
+         <each_cost>195</each_cost>
+         <total_cost>780</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - EXIT SIGN (X1 @ STAIR 3, X1 @ STAIR 4) ON PHOTOLUMIESCENT ACRYLIC</description>
+         <total_count>2</total_count>
+         <each_cost>116</each_cost>
+         <total_cost>232</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - STAIR 3 EXT. SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - MAIN ELECTICAL ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#2: GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - ELECTRICAL ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#2: GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - RECYCLE / MECHANICAL ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#2: GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#3: GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#4: GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#5: GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#6: GARAGE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#7: GARAGE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P7 - ELEVATOR EGRESS MAP / DO NOT USE</description>
+         <total_count>6</total_count>
+         <each_cost>295</each_cost>
+         <total_cost>1770</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#2: GARAGE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#3: GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#4: GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#5: GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#6: GARAGE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#7: GARAGE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P8 - LEVEL ID - VINYL ON PAINTED WALL BY OTHERS - PER BOOK EXHIBIT</description>
+         <total_count>6</total_count>
+         <each_cost>1195</each_cost>
+         <total_cost>7170</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: GARAGE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#7: GARAGE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P4 - LEVEL ID - VINYL ON PAINTED COLUMN BY OTHERS</description>
+         <total_count>18</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>2322</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P5 - RESERVED PARKING SIGN ( X3 VISITOR ) - ON POST W/ BASEPLATE</description>
+         <total_count>3</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>1785</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P5 - RESERVED PARKING SIGN ( X2 VISITOR, X4 EV, X1 HCP)</description>
+         <total_count>7</total_count>
+         <each_cost>195</each_cost>
+         <total_cost>1365</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - LEVEL 2 - ON PHOTOLUMINESCENT ACRYLIC</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#4: GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#5: GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: GARAGE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#7: GARAGE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - STAIR 3</description>
+         <total_count>5</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>390</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#3: GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#4: GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#5: GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#6: GARAGE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#7: GARAGE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - STAIR 4</description>
+         <total_count>5</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>390</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#3: GARAGE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#4: GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#5: GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#6: GARAGE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - MECHANICAL</description>
+         <total_count>4</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>312</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4: GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P5 - RESERVED PARKING SIGN ( X2 VISITOR) ON POST WITH BASEPLATE</description>
+         <total_count>4</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>2380</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4: GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P5 - RESERVED PARKING SIGN ( X1 VISITOR) - WALL MOUNT</description>
+         <total_count>2</total_count>
+         <each_cost>295</each_cost>
+         <total_cost>590</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4: GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - LEVEL 3 - ON PHOTOLUMINESCENT ACRYLIC</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#4: GARAGE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#5: GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - EXIT SIGN (@ STAIR 3) - ON PHOTOLUMIESCENT ACRYLIC</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: GARAGE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - LEVEL 4 - ON PHOTOLUMINESCENT ACRYLIC</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: GARAGE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - LEVEL 5 - ON PHOTOLUMINESCENT ACRYLIC</description>
+         <total_count>3</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>264</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#6: GARAGE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - ELECTRICAL </description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#7: GARAGE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - LEVEL 6 - ON PHOTOLUMINESCENT ACRYLIC</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#7: GARAGE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>P6 - ROOM ID - ECR ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - EXIT - W/ BACKER(@ TENANT 102)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#14: OFFICE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#16: OFFICE - ROOF SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - STAIR 1</description>
+         <total_count>7</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>546</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - EXIT - ON PHOTOLUMINESCENT ACRYLIC</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - EXIT - W/ BACKER </description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - 101 W/ BACKER</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - EXIT </description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - AUTHORIZED PERSONNEL ONLY - W/ BACKER</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - FIRE COMMAND ROOM 103</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - MAIL ROOM 106</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - BUILDING ENGINEER 104</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - DMARC 109</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - ELECTRICAL 110</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - EMERGENCY ELECTRICAL 112</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1- SERVER ROOM  116</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - FIRE PUMP 113</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#14: OFFICE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - STAIR 2</description>
+         <total_count>6</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>468</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - EMERGENCY GENERATOR </description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#15: OFFICE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - STAIR 4</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#13: OFFICE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#14: OFFICE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#15: OFFICE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S3 - RESTROOM ID (X1 MEN&apos;S, X1 WOMEN&apos;S)</description>
+         <total_count>16</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>1568</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#13: OFFICE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#14: OFFICE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#15: OFFICE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S6 - ELEVATOR EGRESS SIGN - ALT. DESIGN (PLAQUE)</description>
+         <total_count>17</total_count>
+         <each_cost>295</each_cost>
+         <total_cost>5015</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>V.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#13: OFFICE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#14: OFFICE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#15: OFFICE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#16: OFFICE - ROOF SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S7 - STAIRWELL  EGRESS SIGN - ON PHOTOLUMINESCENT ACRYLIC</description>
+         <total_count>18</total_count>
+         <each_cost>295</each_cost>
+         <total_cost>5310</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>W.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#13: OFFICE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#14: OFFICE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#15: OFFICE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S8 - ELEVATOR ID</description>
+         <total_count>32</total_count>
+         <each_cost>48</each_cost>
+         <total_cost>1536</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>X.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>V.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S9 - NO SMOKING SIGN</description>
+         <total_count>16</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>1408</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Y.</key>
+            <section>#8: OFFICE - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S10 - NO FIREARMS ON VINYL</description>
+         <total_count>2</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>310</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - OFFICE</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - MECHANICAL 203</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - LEVEL 2 - ON PHOTOLUMINESCENT ACRYLIC</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - 201A</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - 201B</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#13: OFFICE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#14: OFFICE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#15: OFFICE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - AUTHORIZED PERSONNEL ONLY</description>
+         <total_count>7</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>546</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - JANITOR CLOSET 207</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - TELEPHONE 209</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - ELECTRICAL 210</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - OFFICE STORAGE 202</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#13: OFFICE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#14: OFFICE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#15: OFFICE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S2 - INTERIOR DIRECTIONAL</description>
+         <total_count>7</total_count>
+         <each_cost>188</each_cost>
+         <total_cost>1316</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#13: OFFICE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#14: OFFICE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#15: OFFICE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S4 - RESTROOM BLADE SIGN</description>
+         <total_count>7</total_count>
+         <each_cost>465</each_cost>
+         <total_cost>3255</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#9: OFFICE - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S5 - LEVEL ID W/ CRESCENT LOGO - 1/2&quot; ACRYLIC LETTERS PIN MOUNTED</description>
+         <total_count>3</total_count>
+         <each_cost>1165</each_cost>
+         <total_cost>3495</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - OFFICE </description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - MECHANICAL 303</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - LEVEL 3 - ON PHOTOLUMINESCENT ACRYLIC</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - 301</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - JANITOR CLOSET 307</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - TELEPHONE 309</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#10: OFFICE - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - ELECTRICAL 310</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - MECHANICAL 403</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - LEVEL 4 - ON PHOTOLUMINESCENT ACRYLIC</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - JANITOR CLOSET 407</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - TELEPHONE 409</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - 401</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#11: OFFICE - LEVEL 4 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - OFFICE STORAGE </description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - STAIR 3</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - 501</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - OFFICE W/ BACKER</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - MECHANICAL 503</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#13: OFFICE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#13: OFFICE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - STAIR 1 </description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - LEVEL 5 - ON PHOTOLUMINESCENT ACRYLIC</description>
+         <total_count>3</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>264</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - JANITOR CLOSET 507</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - TELEPHONE 509</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#12: OFFICE - LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - ELECTRICAL 510</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#13: OFFICE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - MECHANICAL 603</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#13: OFFICE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#13: OFFICE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - LEVEL 6 - ON PHOTOLUMINESCENT ACRYLIC</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#13: OFFICE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - 601</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#13: OFFICE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 -  JANITOR CLOSET 607</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#13: OFFICE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - TELEPHONE 609</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#13: OFFICE - LEVEL 6 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - ELECTRICAL 610</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#14: OFFICE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - MECHANICAL 703</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#14: OFFICE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - 701</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#14: OFFICE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - JANITOR CLOSET 707</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#14: OFFICE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - TELEPHONE 709</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#14: OFFICE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - ELECTRICAL 710</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#14: OFFICE - LEVEL 7 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - LEVEL 7 - ON PHOTOLUMINESCENT ACRYLIC</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#15: OFFICE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - MECHANICAL 803</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#15: OFFICE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#15: OFFICE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - LEVEL 8 - ON PHOTOLUMINESCENT ACRYLIC</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#15: OFFICE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - JANITOR CLOSET 807</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#15: OFFICE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - TELEPHONE 809</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#15: OFFICE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - ELECTRICAL 810</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#15: OFFICE - LEVEL 8 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR 2</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#16: OFFICE - ROOF SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - ROOF</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#16: OFFICE - ROOF SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - ELEVATOR / PENTHOUSE 900</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#16: OFFICE - ROOF SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>S1 - MECHANICAL 910</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

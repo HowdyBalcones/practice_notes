@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2303USAI01</quote_num>
+   <contract_file>2303USAI01 Rosewood Turtle Creek Sales Office Signage REV4.xlsx</contract_file>
+   <client_name>One Turtle Creek Holdings, LLC 4950 Westgrove Suite 105 Dallas, TX 75248</client_name>
+   <project_name>ROSEWOOD RESIDENCES TURTLE CREEK SALES OFFICE ID &amp; PLAQUE SIGNS</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2303USAI01 Rosewood Turtle Creek Sales Office Signage REV4.xlsx</contract_name>
       
    <section>
    <section_name>#1: OPTION 1</section_name>
@@ -25,17 +34,38 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2303USAI01</quote_num>
-   <contract_file>2303USAI01 Rosewood Turtle Creek Sales Office Signage REV4.xlsx</contract_file>
-   <client_name>One Turtle Creek Holdings, LLC 4950 Westgrove Suite 105 Dallas, TX 75248</client_name>
-   <project_name>ROSEWOOD RESIDENCES TURTLE CREEK SALES OFFICE ID &amp; PLAQUE SIGNS</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: OPTION 1</section>
+         </section_key>
+         
+         </section_list>
+         <description>NEW SINGLE FACE / SIGN PLATE WITH DIMENSIONAL GRAPHICS- ACRYLIC SIGN COPY. DESIGN FURNISHED BY ROSEWOOD TEAM- (8&apos;W X 4&apos;H X 4&quot;D) ATTACHES TO 4&quot; X 4&quot; POSTS..- INCLUDES CUSTOM MIX PAINTS (X4) FOR ROSEWWOD SPECIFIED- COLORS AND FINISHES</description>
+         <total_count>1</total_count>
+         <each_cost>3990</each_cost>
+         <total_cost>3990</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: OPTION 1</section>
+         </section_key>
+         
+         </section_list>
+         <description>PAINT UPCHARGE FOR CUSTOM &quot;ROSEWOOD - MIDNIGHT BLUE&quot; MIX- *POWER EXISTS AT LOCATION, SUGGEST MOVING TO UPLIGHTING- FIXTURE BY OTHERS OR FOURCE CAN SUPPLY AT ADDITIONAL COST</description>
+         <total_count>1</total_count>
+         <each_cost>1200</each_cost>
+         <total_cost>1200</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

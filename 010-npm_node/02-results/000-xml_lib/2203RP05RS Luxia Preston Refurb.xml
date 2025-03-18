@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2203RP05RS</quote_num>
+   <contract_file>2203RP05RS Luxia Preston Refurb.xlsx</contract_file>
+   <client_name>ROSCOE PROPERTY MAMANGEMENT 8111 PRESTON RD. DALLAS, TX 75225</client_name>
+   <project_name>LUXIA PRESTON</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2203RP05RS Luxia Preston Refurb.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -131,17 +140,218 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2203RP05RS</quote_num>
-   <contract_file>2203RP05RS Luxia Preston Refurb.xlsx</contract_file>
-   <client_name>ROSCOE PROPERTY MAMANGEMENT 8111 PRESTON RD. DALLAS, TX 75225</client_name>
-   <project_name>LUXIA PRESTON</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>VERTICAL WALL SIGN, INTERNALLY LIT WITH PUSH-THRU- COPY AND CHANNEL LETTERS, 14 FT TALL X 2 FT 10 IN, WEST ELV</description>
+         <total_count>1</total_count>
+         <each_cost>13800</each_cost>
+         <total_cost>13800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HORIZ. WALL SIGN, INTERNALLY LIT WITH PUSH-THRU COPY- AND CHANNEL LETTERS, 2 FT 8 IN TALL X 15 FT, NORTH ELV</description>
+         <total_count>1</total_count>
+         <each_cost>13800</each_cost>
+         <total_cost>13800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-SIDED PROJECTING VERTICAL MONOLITH, WITH PUSH-- THRU COPY AND CHANNEL LETTERS, 8 FT TALL X 3 FOOT-    ** CODE RESEARCH STATES &quot;NO PROJECTING SIGNS&quot;, WE HAVE- OFFERED THIS MONOLITH MONUMENT SIGN AS AN ALTERNATIVE</description>
+         <total_count>1</total_count>
+         <each_cost>15900</each_cost>
+         <total_cost>15900</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE (OVERLAY COVERS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>SIDE PANEL &amp; NEW HOURS PANEL FOR OFFICE HOUS SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>190</each_cost>
+         <total_cost>190</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE (OVERLAY COVERS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>SIDE PANEL FOR HANDICAP PARKING SIGNS</description>
+         <total_count>2</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>136</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE (OVERLAY COVERS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>SIDE PANEL FOR FUTURE RESIDENT PARKING SIGNS</description>
+         <total_count>3</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>204</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE (OVERLAY COVERS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>SIDE PANEL FOR USPS PARKING SIGNS</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE (OVERLAY COVERS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>SIDE PANEL FOR MAIL CENTER</description>
+         <total_count>2</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>136</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE (OVERLAY COVERS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>SIDE PANEL FOR FITNESS CENTER POLICIES</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: AMENITY SIGNAGE (OVERLAY COVERS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>SIDE PANEL FOR POOL HOURS GATE SIGNS</description>
+         <total_count>2</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>136</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: AMENITY SIGNAGE (OVERLAY COVERS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>SIDE PANEL FOR POOL RULES SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: AMENITY SIGNAGE (OVERLAY COVERS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>SIDE PANEL FOR GRILL RULES SIGN</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: AMENITY SIGNAGE (OVERLAY COVERS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>SIDE PANEL FOR TRASH ROOM NO PARKING</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: AMENITY SIGNAGE (OVERLAY COVERS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESIDENTS ONLY POST AND PABEL SIGN - LOCATED AT PET PARK QUOTE #:</description>
+         <total_count>1</total_count>
+         <each_cost>715</each_cost>
+         <total_cost>715</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

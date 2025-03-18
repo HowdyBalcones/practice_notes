@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2407NVK01</quote_num>
+   <contract_file>2407NVK01 Rise 120 Fireplace Inset Signage.xlsx</contract_file>
+   <client_name>NOVAK BROTHERS 1500 RIVERY BLVD. STE 2200 GEORGETOWN, TX 78628</client_name>
+   <project_name>RISE 120  FIREPLACE INSET SIGNAGE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2407NVK01 Rise 120 Fireplace Inset Signage.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -17,17 +26,23 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2407NVK01</quote_num>
-   <contract_file>2407NVK01 Rise 120 Fireplace Inset Signage.xlsx</contract_file>
-   <client_name>NOVAK BROTHERS 1500 RIVERY BLVD. STE 2200 GEORGETOWN, TX 78628</client_name>
-   <project_name>RISE 120  FIREPLACE INSET SIGNAGE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LED / SIGN ELEMENT WITH THROUGH LIGHTING.- CORNER SEAMED WITH TEXTURAL GRAPHIC DESIGN &amp; RISE 120 LOGO- INSERTS TO METAL FIREPLACE STRUCTURE (8&apos;-6&quot; TO CENTER TO 8&apos;-6&quot; X 2&apos; H)- ROUTED PIECES ATTACH TO FRAME TO INSET.- *POWER TO LOCATION BY OTHERS*- **BASED ON LOOSE DRAWINGS &amp; SPECIFIED DIMENSIONS BY OTHERS**</description>
+         <total_count>1</total_count>
+         <each_cost>6800</each_cost>
+         <total_cost>6800</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

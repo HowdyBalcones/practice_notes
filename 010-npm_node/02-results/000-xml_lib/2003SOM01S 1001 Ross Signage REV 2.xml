@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2003SOM01S</quote_num>
+   <contract_file>2003SOM01S 1001 Ross Signage REV 2.xlsx</contract_file>
+   <client_name>SOUTH OXFORD MANAGEMENT 5151 BELT LINE RD STE 110 DALLAS, TX 75254</client_name>
+   <project_name>1001 ROSS</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2003SOM01S 1001 Ross Signage REV 2.xlsx</contract_name>
       
    <section>
    <section_name>#1: EXTERIOR SIGNAGE</section_name>
@@ -142,17 +151,248 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2003SOM01S</quote_num>
-   <contract_file>2003SOM01S 1001 Ross Signage REV 2.xlsx</contract_file>
-   <client_name>SOUTH OXFORD MANAGEMENT 5151 BELT LINE RD STE 110 DALLAS, TX 75254</client_name>
-   <project_name>1001 ROSS</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-FACED BLADE SIGN, LOADS AT CORNER OF ROSS &amp;- N GRIFFIN. PUSH-THRU ACRYLIC &amp; CHANNEL LETTERS. 15 SQ- FT MAX. *POWER ALREADY AT LOCATION.</description>
+         <total_count>1</total_count>
+         <each_cost>10990</each_cost>
+         <total_cost>10990</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DIMENSIONAL GRAPHICS ON RAIL, LOADS TO CANOPY OVER- &quot;OLD CVS ENTRY&quot; FLANGE LOADS. SUBMITS TO CITY AS- ADDRESS SIGN.</description>
+         <total_count>1</total_count>
+         <each_cost>2885</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;V&quot; SHAPED ILLUMINATED VERTICAL AT CORNER OF LAMAR- &amp; HORD STREETS. PUSH-THRU ACRYLIC &amp; CHANNEL LETTERS.- 40 SQ FT MAX. *POWER EXTENDED FROM EXISTING BLADE SIGN- SIGN AFTER REMOVAL.</description>
+         <total_count>1</total_count>
+         <each_cost>13680</each_cost>
+         <total_cost>13680</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>REPLACE ILLUMINATED WALL SIGN WITH BANNER AT CORNER OF HORD- AND GRIFFIN - 4&apos;W X 20&apos;H- *POWER FROM EXISTING SIGN WHEN REMOVED.</description>
+         <total_count>1</total_count>
+         <each_cost>720</each_cost>
+         <total_cost>720</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING ID - ABOVE LEASING ENTRY - NEW</description>
+         <total_count>1</total_count>
+         <each_cost>1865</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HOURS SIGN 25&quot; X 18&quot; W/ CHANGEABLE SUMMER/WINTER HOURS</description>
+         <total_count>1</total_count>
+         <each_cost>435</each_cost>
+         <total_cost>435</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#1: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADDRESS ETCHMARK VINYL ABOVE ENTRY DOORS - NEW </description>
+         <total_count>1</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>129</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#1: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>JEFF @ 1001 COLUMN SIGNS (29&quot;W X 30&quot;H) / ADDRESS (28&quot;W X 23&quot;H)</description>
+         <total_count>3</total_count>
+         <each_cost>985</each_cost>
+         <total_cost>2955</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#1: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING BLADE DIRECTIONALS - OFF STREET SIGNS W/ NEW BRACKETS</description>
+         <total_count>9</total_count>
+         <each_cost>115</each_cost>
+         <total_cost>1035</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#1: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WINDOW BANK REPLACEMENT AT SUITE 114 (ALL WINDOWS)</description>
+         <total_count>1</total_count>
+         <each_cost>2038</each_cost>
+         <total_cost>2038</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#1: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOGO PANEL ONLY ON EXISTING CLING AT RETAIL SPACE</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#1: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WINDOW BANK VINYL AT CVS, AT PARKING GARAGE ENTRY (ALL WINDOWS)</description>
+         <total_count>1</total_count>
+         <each_cost>1460</each_cost>
+         <total_cost>1460</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#1: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOGO PANEL ONLY ON EXISTING CLING AT RETAIL SPACE, SUITE 104</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#1: EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BANNER REPLCEMENT - ALONG LAMAR STREET 4&apos;W X 20&apos;H</description>
+         <total_count>1</total_count>
+         <each_cost>720</each_cost>
+         <total_cost>720</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS &amp; RESIDENT HUB VINYL ROOM  IDS</description>
+         <total_count>3</total_count>
+         <each_cost>89</each_cost>
+         <total_cost>267</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>THE HUB (RESIDENT LOUNGE) X1 VINYL ON GLASS- *DIRECTIONALS TO THE HANGOUT</description>
+         <total_count>1</total_count>
+         <each_cost>89</each_cost>
+         <total_cost>89</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

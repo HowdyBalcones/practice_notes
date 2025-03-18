@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2111G09</quote_num>
+   <contract_file>2111G09 Oak &amp; Ellum Temp.xlsx</contract_file>
+   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD STE 2100 IRVING, TX 75039</client_name>
+   <project_name>OAK &amp; ELLUM TEMPORARY SIGNAGE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2111G09 Oak &amp; Ellum Temp.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -33,17 +42,53 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2111G09</quote_num>
-   <contract_file>2111G09 Oak &amp; Ellum Temp.xlsx</contract_file>
-   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD STE 2100 IRVING, TX 75039</client_name>
-   <project_name>OAK &amp; ELLUM TEMPORARY SIGNAGE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM VINYL BANNER. LOADS TO FENCE AT CORNER OF- GOOD-LATIMER AND LIVE OAK, 5 FT X 24 FT W</description>
+         <total_count>1</total_count>
+         <each_cost>1250</each_cost>
+         <total_cost>1250</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM VINYL BANNER. LOADS TO FENCE AT CORNER OF CANTEGRAL- AND LIVE OAK, 5 FT X 12 FT W</description>
+         <total_count>1</total_count>
+         <each_cost>800</each_cost>
+         <total_cost>800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>4&apos;W X 8&apos;H SINGLE FACED MDO W/ CUSTOM DIGITAL GRAPHICS AND- MOUNTS TO X2 4&quot; X 4&quot; POSTS. LOADS AT CORNER OF GOOD-LATIMER- AND LIVE OAK, BRACE TO STONE RETAINING WALL</description>
+         <total_count>1</total_count>
+         <each_cost>1290</each_cost>
+         <total_cost>1290</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

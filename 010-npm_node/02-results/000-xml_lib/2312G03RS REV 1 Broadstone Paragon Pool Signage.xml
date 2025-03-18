@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2312G03RS</quote_num>
+   <contract_file>2312G03RS REV 1 Broadstone Paragon Pool Signage.xlsx</contract_file>
+   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
+   <project_name>BROADSTONE PARAGON - POOL SIGNAGE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2312G03RS REV 1 Broadstone Paragon Pool Signage.xlsx</contract_name>
       
    <section>
    <section_name>#1: AMENITY SIGNAGE</section_name>
@@ -65,17 +74,113 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2312G03RS</quote_num>
-   <contract_file>2312G03RS REV 1 Broadstone Paragon Pool Signage.xlsx</contract_file>
-   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
-   <project_name>BROADSTONE PARAGON - POOL SIGNAGE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL POLICIES, PANEL WITH DOUBLE POST</description>
+         <total_count>1</total_count>
+         <each_cost>795</each_cost>
+         <total_cost>795</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WARNING NO LIFEGUARD/ CHILDREN COMBO, FENCE MOUNT</description>
+         <total_count>2</total_count>
+         <each_cost>455</each_cost>
+         <total_cost>910</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>911 PHONE</description>
+         <total_count>1</total_count>
+         <each_cost>190</each_cost>
+         <total_cost>190</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMERGENCY PHONE DIRECTIONAL, FENCE MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>155</each_cost>
+         <total_cost>155</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TX 2021 CODE SIGN [NEW], FENCE MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>455</each_cost>
+         <total_cost>455</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SPA POLICIES SIGN [NEW], FENCE MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>510</each_cost>
+         <total_cost>510</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#1: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DESIGN / LAYOUT / PRODUCTION</description>
+         <total_count>1</total_count>
+         <each_cost>250</each_cost>
+         <total_cost>250</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

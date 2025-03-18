@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>CASSIN</quote_num>
+   <contract_file>2800</contract_file>
+   <client_name>2210TBAL01S</client_name>
+   <project_name>LEASING / PROJECT SINGLE - FACE NON - ILLUMINATED </project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2800</contract_name>
       
    <section>
    <section_name>#2: LEASING CENTER- EXTERIOR SIGNAGE</section_name>
@@ -1046,17 +1055,1178 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>CASSIN</quote_num>
-   <contract_file>2800</contract_file>
-   <client_name>2210TBAL01S</client_name>
-   <project_name>LEASING / PROJECT SINGLE - FACE NON - ILLUMINATED </project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>2800</description>
+         <total_count>1</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#11: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#11: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>410</description>
+         <total_count>3</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>610</description>
+         <total_count>1</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>1430</description>
+         <total_count>2</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>2145</description>
+         <total_count>3</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>595</description>
+         <total_count>1</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>129</description>
+         <total_count>1</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: LEASING CENTER- EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>69</description>
+         <total_count>1</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE (VERIFY)</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE (VERIFY)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE (VERIFY)</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE (VERIFY)</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE (VERIFY)</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE (VERIFY)</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#4: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#6: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#8: LEVEL 3  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#9: LEVEL 4  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#10: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>68</description>
+         <total_count>13</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE (VERIFY)</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE (VERIFY)</section>
+         </section_key>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#10: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>415</description>
+         <total_count>5</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE (VERIFY)</section>
+         </section_key>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>V.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>W.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>48</description>
+         <total_count>6</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE (VERIFY)</section>
+         </section_key>
+         
+         </section_list>
+         <description>98</description>
+         <total_count>1</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE (VERIFY)</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#3: LEASING CENTER - INTERIOR SIGNAGE (VERIFY)</section>
+         </section_key>
+         
+         </section_list>
+         <description>294</description>
+         <total_count>6</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A. </key>
+            <section>#4: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>8800</description>
+         <total_count>1</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>1185</description>
+         <total_count>1</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>335</description>
+         <total_count>1</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>88</description>
+         <total_count>1</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#4: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>1715</description>
+         <total_count>7</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#4: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>952</description>
+         <total_count>14</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#4: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>1020</description>
+         <total_count>15</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#4: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>2310</description>
+         <total_count>14</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#4: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>1276</description>
+         <total_count>22</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#4: GARAGE SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>176</description>
+         <total_count>4</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>1550</description>
+         <total_count>5</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#8: LEVEL 3  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#9: LEVEL 4  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#10: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>880</description>
+         <total_count>40</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>522</description>
+         <total_count>9</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>406</description>
+         <total_count>7</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#10: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#10: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>116</description>
+         <total_count>6</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>3984</description>
+         <total_count>83</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>960</description>
+         <total_count>20</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#6: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#8: LEVEL 3  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#9: LEVEL 4  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#10: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>136</description>
+         <total_count>10</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>408</description>
+         <total_count>12</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>990</description>
+         <total_count>6</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#8: LEVEL 3  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#9: LEVEL 4  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#10: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>980</description>
+         <total_count>20</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#6: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#8: LEVEL 3  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#9: LEVEL 4  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#10: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>96</description>
+         <total_count>10</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#6: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#8: LEVEL 3  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#9: LEVEL 4  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#10: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>490</description>
+         <total_count>10</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#6: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#8: LEVEL 3  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#9: LEVEL 4  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#10: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>64</description>
+         <total_count>10</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#6: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#8: LEVEL 3  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#8: LEVEL 3  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#9: LEVEL 4  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#9: LEVEL 4  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#10: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#11: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>58</description>
+         <total_count>8</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>X.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#6: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>464</description>
+         <total_count>16</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Y.</key>
+            <section>#5: LEVEL 1  SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>110</description>
+         <total_count>1</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#8: LEVEL 3  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#9: LEVEL 4  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#10: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>825</description>
+         <total_count>20</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E..</key>
+            <section>#6: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>5088</description>
+         <total_count>106</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#6: LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>912</description>
+         <total_count>19</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#8: LEVEL 3  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#9: LEVEL 4  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#10: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>340</description>
+         <total_count>15</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#8: LEVEL 3  SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>5040</description>
+         <total_count>105</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#8: LEVEL 3  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#9: LEVEL 4  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#10: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>864</description>
+         <total_count>54</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#8: LEVEL 3  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#9: LEVEL 4  SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#10: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>696</description>
+         <total_count>36</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#9: LEVEL 4  SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>4992</description>
+         <total_count>104</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#10: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>4944</description>
+         <total_count>103</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#10: LEVEL 5 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>78</description>
+         <total_count>1</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#11: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>715</description>
+         <total_count>1</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#11: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>165</description>
+         <total_count>1</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#11: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>465</description>
+         <total_count>3</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#11: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>670</description>
+         <total_count>2</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#11: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>310</description>
+         <total_count>2</total_count>
+         <each_cost>TOLL BROTHERS APARTMENT LIVING 1919 MCKINNEY AVE., STE. 2080 DALLAS, TX 75201</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

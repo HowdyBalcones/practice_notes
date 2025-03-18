@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2309G01RS REV 1</quote_num>
+   <contract_file>2309G01RS REV 1 Benton Pointe.xlsx</contract_file>
+   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD, SUITE 2100 IRVING, TEXAS 75039</client_name>
+   <project_name>BENTON POINTE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2309G01RS REV 1 Benton Pointe.xlsx</contract_name>
       
    <section>
    <section_name>#1: BUILDING SIGNAGE</section_name>
@@ -115,17 +124,188 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2309G01RS REV 1</quote_num>
-   <contract_file>2309G01RS REV 1 Benton Pointe.xlsx</contract_file>
-   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD, SUITE 2100 IRVING, TEXAS 75039</client_name>
-   <project_name>BENTON POINTE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: BUILDING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING ADDRESS PANELS, 30 X 30 IN., REFLECTIVE VINYL - GRAPHICS</description>
+         <total_count>34</total_count>
+         <each_cost>465</each_cost>
+         <total_cost>15810</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER / AMENTIY (POOLS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>WALL ID, 18.5 x 36.5 IN, x1 LEASING CENTER, X1 COMMUNITY CTR</description>
+         <total_count>2</total_count>
+         <each_cost>395</each_cost>
+         <total_cost>790</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER / AMENTIY (POOLS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS CENTER ID, 9.5 X 18.5 IN</description>
+         <total_count>1</total_count>
+         <each_cost>195</each_cost>
+         <total_cost>195</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER / AMENTIY (POOLS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>POSTAL CENTER ID, 20.25 X 20.25 IN.</description>
+         <total_count>1</total_count>
+         <each_cost>295</each_cost>
+         <total_cost>295</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER / AMENTIY (POOLS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>WALL ID, 16.5 X 19 IN., X1 PARCEL LOCKER ID, X1 CABANA POOL</description>
+         <total_count>2</total_count>
+         <each_cost>285</each_cost>
+         <total_cost>570</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: LEASING CENTER / AMENTIY (POOLS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>FOR EMERGENCY CALL 911 (ADDRESS), 32 IN. X 48, FENCE MOUNT</description>
+         <total_count>2</total_count>
+         <each_cost>615</each_cost>
+         <total_cost>1230</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: LEASING CENTER / AMENTIY (POOLS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMERGENCY PHONE ID, 12 X 18 IN., FENCE MOUNT</description>
+         <total_count>2</total_count>
+         <each_cost>235</each_cost>
+         <total_cost>470</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: LEASING CENTER / AMENTIY (POOLS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>FENCE MOUNTED POOL RULES PANEL, 32 X 40 IN</description>
+         <total_count>1</total_count>
+         <each_cost>603</each_cost>
+         <total_cost>603</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: LEASING CENTER / AMENTIY (POOLS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>911 PHONE (ARROW), 9 X 12 IN, FENCE MOUNTED</description>
+         <total_count>1</total_count>
+         <each_cost>169</each_cost>
+         <total_cost>169</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#2: LEASING CENTER / AMENTIY (POOLS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>WNLG/AGE/NO DIVING COMBO, 36 X 36 IN., FENCE MOUNT</description>
+         <total_count>2</total_count>
+         <each_cost>609</each_cost>
+         <total_cost>1218</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#2: LEASING CENTER / AMENTIY (POOLS)</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL RULES, 36 X 48 IN., FENCE MOUNT (CABANA POOL)</description>
+         <total_count>1</total_count>
+         <each_cost>630</each_cost>
+         <total_cost>630</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: PARKING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HANDICAP PARKING SIGNAGE (TX STATE CODE), REFLECTIVE- PANELS, GALV STEEL POST</description>
+         <total_count>21</total_count>
+         <each_cost>450</each_cost>
+         <total_cost>9450</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

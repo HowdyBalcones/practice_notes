@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2307G02</quote_num>
+   <contract_file>23007G02 Kinstead East Elev Banner.xlsx</contract_file>
+   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
+   <project_name>KINSTEAD EAST ELEVATION BANNER</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>23007G02 Kinstead East Elev Banner.xlsx</contract_name>
       
    <section>
    <section_name>#1: TEMP BANNER</section_name>
@@ -25,17 +34,38 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2307G02</quote_num>
-   <contract_file>23007G02 Kinstead East Elev Banner.xlsx</contract_file>
-   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
-   <project_name>KINSTEAD EAST ELEVATION BANNER</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: TEMP BANNER</section>
+         </section_key>
+         
+         </section_list>
+         <description>5 FT  X 22 FT,  CUSTOM PRINTED PREMIUM BANNER- WITH REINFORCED EDGES &amp; GROMMETS EVERY 2 FT- LOADS ON NORTH ELEVATION, BY LOADING DOCK</description>
+         <total_count>1</total_count>
+         <each_cost>995</each_cost>
+         <total_cost>995</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: TEMP BANNER</section>
+         </section_key>
+         
+         </section_list>
+         <description>DESIGN / LAYOUT / PRODUCTION</description>
+         <total_count>1</total_count>
+         <each_cost>350</each_cost>
+         <total_cost>350</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

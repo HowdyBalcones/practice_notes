@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2208SH01</quote_num>
+   <contract_file>2208SH01 Door Vinyl Graphics.xlsx</contract_file>
+   <client_name>SIMPSON HOUSING 14643 DALLAS PKWY, SUITE 230 DALLAS, TX 75254</client_name>
+   <project_name>STELLA - WAYFINDING GRAPHICS</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2208SH01 Door Vinyl Graphics.xlsx</contract_name>
       
    <section>
    <section_name>#1 - LEASING CENTER  / EXTERIOR</section_name>
@@ -25,17 +34,38 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2208SH01</quote_num>
-   <contract_file>2208SH01 Door Vinyl Graphics.xlsx</contract_file>
-   <client_name>SIMPSON HOUSING 14643 DALLAS PKWY, SUITE 230 DALLAS, TX 75254</client_name>
-   <project_name>STELLA - WAYFINDING GRAPHICS</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1 - LEASING CENTER  / EXTERIOR</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOGO / OFFICE HOURS / URL VINYL KIT LOCATED AT- LEASING CENTER MAIN DOORS- WALL AT CORNER OF BOLL ST. AND COLBY ST., APPROX- 4 FT 6 IN X 10 FT 6 IN</description>
+         <total_count>1</total_count>
+         <each_cost>229</each_cost>
+         <total_cost>229</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1 - LEASING CENTER  / EXTERIOR</section>
+         </section_key>
+         
+         </section_list>
+         <description>VERTICAL &quot;LEASING&quot; GRAPHIC AT LEASING CENTER MAIN- DOOR</description>
+         <total_count>1</total_count>
+         <each_cost>220</each_cost>
+         <total_cost>220</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

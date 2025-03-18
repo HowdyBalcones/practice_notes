@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2202EP03</quote_num>
+   <contract_file>2202EP03 Atlas Crown Temps.xlsx</contract_file>
+   <client_name>EMBREY 1020 NE LOOP 410, SUITE 700 SAN ANTONIO, TX 78209</client_name>
+   <project_name>ATLAS CROWN TEMPORARY SIGNAGE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2202EP03 Atlas Crown Temps.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -73,17 +82,128 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2202EP03</quote_num>
-   <contract_file>2202EP03 Atlas Crown Temps.xlsx</contract_file>
-   <client_name>EMBREY 1020 NE LOOP 410, SUITE 700 SAN ANTONIO, TX 78209</client_name>
-   <project_name>ATLAS CROWN TEMPORARY SIGNAGE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM VINYL BANNER WITH DIGITALLY PRINTED GRAPHICS,- REINFORCED EDGES, GROMMETS EVERY 2 FT, 2 FT X 12 FT -- AT MASONRY MONUMENTS, MAIN ENTRANCES</description>
+         <total_count>4</total_count>
+         <each_cost>450</each_cost>
+         <total_cost>1800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM VINYL BANNER WITH DIGITALLY PRINTED GRAPHICS,- REINFORCED EDGES, GROMMETS EVERY 2 FT, 1 FT 10 IN X 10 FT -- AT PROJECTING SIGN BY LEASING CENTER</description>
+         <total_count>2</total_count>
+         <each_cost>450</each_cost>
+         <total_cost>900</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM VINYL BANNER WITH DIGITALLY PRINTED GRAPHICS,- REINFORCED EDGES, GROMMETS EVERY 2 FT, 4 FT X 22 FT -- AT ROOF LINE, FACING LOOKOUT DR.</description>
+         <total_count>1</total_count>
+         <each_cost>1150</each_cost>
+         <total_cost>1150</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREMIUM VINYL BANNER WITH DIGITALLY PRINTED GRAPHICS,- REINFORCED EDGES, GROMMETS EVERY 2 FT, 5 FT X 22 FT -- AT ROOF LINE, FACING CAMPBELL RD</description>
+         <total_count>1</total_count>
+         <each_cost>1440</each_cost>
+         <total_cost>1440</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FEATHER FLAG SIGN, 8 FT - CAMPBELL ENTRANCE AND AT- LEASING CENTER (INCLUDES POST/BANNER)</description>
+         <total_count>2</total_count>
+         <each_cost>490</each_cost>
+         <total_cost>980</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PANEL COVER, ALUM WITH DIGITAL GRAPHICS, 1 FT X 3 FT - - FOR SIDES OF MASONRY MONUMENTS, MAIN ENTRANCES</description>
+         <total_count>2</total_count>
+         <each_cost>185</each_cost>
+         <total_cost>370</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PANEL COVER, RESIN IMPREGNATED PLASTIC, 6 IN X 26 IN -- AT POST/PANEL DIRECTIONALS MONUMENTS, MAIN ENTRANCES</description>
+         <total_count>4</total_count>
+         <each_cost>80</each_cost>
+         <total_cost>320</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PANEL COVER, RESIN IMPREGNATED PLASTIC, 6 IN X 36 IN - - FOR GROUND LEVEL INFO SIGNS, REPLACE EXISTING URL INFO QUOTE #:</description>
+         <total_count>14</total_count>
+         <each_cost>80</each_cost>
+         <total_cost>1120</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

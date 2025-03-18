@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>JEFF REYNOLDS</quote_num>
+   <contract_file>MERA GREENFIELD</contract_file>
+   <client_name>12800</client_name>
+   <project_name>12.21.23</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>MERA GREENFIELD</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -2249,17 +2258,3983 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>JEFF REYNOLDS</quote_num>
-   <contract_file>MERA GREENFIELD</contract_file>
-   <client_name>12800</client_name>
-   <project_name>12.21.23</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.001</description>
+         <total_count>1</total_count>
+         <each_cost>INTERNALLY ILLUMINATED DOUBLE FACE MONUMENT SIGN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.002</description>
+         <total_count>1</total_count>
+         <each_cost>INTERNALLY ILLUMINATED DOUBLE FACE MONUMENT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.009</description>
+         <total_count>1</total_count>
+         <each_cost>SITE PLAN DIRECTORY LOCATED AT MAIN ENTRY CALLBOX</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>I1.001 - I1009</description>
+         <total_count>9</total_count>
+         <each_cost>HANDICAP PARKING SIGN ON POST</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>I1.010 - I1.011</description>
+         <total_count>2</total_count>
+         <each_cost>FUTURE RESIDENT PARKING SIGN ON POST</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>I1.012 - I1.017</description>
+         <total_count>6</total_count>
+         <each_cost>PREVENT THEFT SIGN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>J1.001-J1.222</description>
+         <total_count>222</total_count>
+         <each_cost>CARPORT NUMBERS (C01-C199, G01-G23)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>E1.013</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 20 ID W/ UNIT SPREAD</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>E1.014</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 8 ID W/ UNIT SPREAD</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: SITE SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>E1.015- *FOURCE TO SUPPLY CUSTOM PARKING SIGNAGE AT LEASING AREA,- BALANCE TO BE CARRIED UNDER STRIPER SUB CONTRACTORS SCOPE*</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 10 ID W/ UNIT SPREAD</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>E1.001</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 1 ID W/ UNIT SPREAD</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.001</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT (@ CLUB LOUNGE)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.002</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT TO COURTYARD (@ CLUB ROOM)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.003</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT TO COURTYARD (@ CLUB ROOM)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.004</description>
+         <total_count>1</total_count>
+         <each_cost>KITCHEN LOUNGE</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.005</description>
+         <total_count>1</total_count>
+         <each_cost>CLUB LOUNGE</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.006</description>
+         <total_count>1</total_count>
+         <each_cost>OFFICE (SALES)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.007</description>
+         <total_count>1</total_count>
+         <each_cost>DISCOVERY ROOM </each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.008</description>
+         <total_count>1</total_count>
+         <each_cost>OFFICE (SALES)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.009</description>
+         <total_count>1</total_count>
+         <each_cost>FITNESS CENTER</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.010</description>
+         <total_count>1</total_count>
+         <each_cost>WOMEN RESTROOM</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.011</description>
+         <total_count>1</total_count>
+         <each_cost>MEN RESTROOM</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.012</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT TO COURTYARD (NEXT TO RESTROOMS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.013</description>
+         <total_count>1</total_count>
+         <each_cost>CLUBHOUSE (EXT)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.014</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL 1 (INT)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.015</description>
+         <total_count>1</total_count>
+         <each_cost>CLUBHOUSE (LOCATED INSIDE STAIR 1)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.016</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT (INSIDE STAIR 1)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.017</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL 1 (EXT)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.018</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 2 (UNIT ACCESS AT ELEV. 1)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.001</description>
+         <total_count>1</total_count>
+         <each_cost>FIRE RISER ROOM</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.002</description>
+         <total_count>1</total_count>
+         <each_cost>MDF ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>V.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.003</description>
+         <total_count>1</total_count>
+         <each_cost>METER ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>W.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.004</description>
+         <total_count>1</total_count>
+         <each_cost>WORKROOM (EMPLOYEE ONLY)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>X.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.005</description>
+         <total_count>1</total_count>
+         <each_cost>OFFICE (ASSISTANT MANGER)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Y.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.006</description>
+         <total_count>1</total_count>
+         <each_cost>OFFICE (MANAGER)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Z.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.007</description>
+         <total_count>1</total_count>
+         <each_cost>MDF / DATA</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>AA.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.008</description>
+         <total_count>1</total_count>
+         <each_cost>STORAGE ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>BB.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.009</description>
+         <total_count>1</total_count>
+         <each_cost>ELEVATOR MACHINE ROOM ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>CC.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>C1.005</description>
+         <total_count>1</total_count>
+         <each_cost>FITNESS POLICY - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>DD.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D1.001</description>
+         <total_count>1</total_count>
+         <each_cost>STAIRWELL (STAIR 1)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>EE.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>F1.001</description>
+         <total_count>1</total_count>
+         <each_cost>EVACUATION MAP (@ ELEV 1)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>FF.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.018</description>
+         <total_count>1</total_count>
+         <each_cost>FIRE RISER VINYL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>GG.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.019</description>
+         <total_count>1</total_count>
+         <each_cost>FDC SIGN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>HH.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.020</description>
+         <total_count>1</total_count>
+         <each_cost>911 PHONE SIGN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>II.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.021</description>
+         <total_count>1</total_count>
+         <each_cost>LEASING HOURS ON VINYL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>JJ.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.022</description>
+         <total_count>1</total_count>
+         <each_cost>FAIR HOUSING SIGN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>KK.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.023</description>
+         <total_count>1</total_count>
+         <each_cost>FAIR HOUSING SIGN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>LL.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.024</description>
+         <total_count>1</total_count>
+         <each_cost>GUN LAW SIGN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>MM.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.025</description>
+         <total_count>3</total_count>
+         <each_cost>SPARROW PILLARS WALL - 1/4&quot; ACRYLIC PIN MOUNTED</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>NN.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.026</description>
+         <total_count>1</total_count>
+         <each_cost>METER MAP</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>OO.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.037</description>
+         <total_count>1</total_count>
+         <each_cost>ADDRESS NUMBERS VINYL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>PP.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1038</description>
+         <total_count>1</total_count>
+         <each_cost>ADDRESS NUMBERS ACRYLIC</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>QQ.</key>
+            <section>#3: BUILDING 1 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>H1.001</description>
+         <total_count>1</total_count>
+         <each_cost>HALLWAY DIRECTIONAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.001</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT (@ LIBRARY)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.002</description>
+         <total_count>1</total_count>
+         <each_cost>BUSINESS CENTER ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.003-A2.004</description>
+         <total_count>2</total_count>
+         <each_cost>LIBRARY ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.005</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT (@ GAMEROOM)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.006</description>
+         <total_count>1</total_count>
+         <each_cost>PORCH ID (@ GAMEROOM)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.007</description>
+         <total_count>1</total_count>
+         <each_cost>MEDIA ROOM ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.008-A2.009</description>
+         <total_count>2</total_count>
+         <each_cost>WELLNESS STUDIO ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.010</description>
+         <total_count>1</total_count>
+         <each_cost>ELEVATOR LOBBY ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.011</description>
+         <total_count>1</total_count>
+         <each_cost>MENS RESTROOM</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.012</description>
+         <total_count>1</total_count>
+         <each_cost>WOMEN RESTROOM</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.013</description>
+         <total_count>1</total_count>
+         <each_cost>CRAFT ROOM</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.014</description>
+         <total_count>1</total_count>
+         <each_cost>CLUBHOUSE ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.015</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.016</description>
+         <total_count>1</total_count>
+         <each_cost>CLUBHOUSE ID (@ STAIR 1)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.017</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 2 (UNIT ACCESS AT ELEV. 1)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.043</description>
+         <total_count>1</total_count>
+         <each_cost>GAME ROOM ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B2.001</description>
+         <total_count>1</total_count>
+         <each_cost>UTILITY ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B2.002</description>
+         <total_count>1</total_count>
+         <each_cost>MECHANICAL / DATA ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B2.003</description>
+         <total_count>1</total_count>
+         <each_cost>STORAGE ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B2.004</description>
+         <total_count>1</total_count>
+         <each_cost>DATA ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>C2.001</description>
+         <total_count>1</total_count>
+         <each_cost>LIBRARY POLICY - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>V.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>C2.002</description>
+         <total_count>1</total_count>
+         <each_cost>WELLNESS STUDIO POLICY - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>W.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>C2.003</description>
+         <total_count>1</total_count>
+         <each_cost>MEDIA ROOM POLICY - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>X.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>C2.004</description>
+         <total_count>1</total_count>
+         <each_cost>CRAFT ROOM POLICY - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Y.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>C2.005</description>
+         <total_count>1</total_count>
+         <each_cost>GAME ROOM POLICY - WALL MOUNT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Z.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D2.001</description>
+         <total_count>1</total_count>
+         <each_cost>STAIRWELL (@ STAIR 1)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>AA.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>F2.001</description>
+         <total_count>1</total_count>
+         <each_cost>EVACUATION MAP (@ ELEV. 1)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>BB.</key>
+            <section>#4: BUILDING 1 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>H2.001</description>
+         <total_count>1</total_count>
+         <each_cost>HALLWAY DIRECTIONAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: BUILDING 1 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.001</description>
+         <total_count>1</total_count>
+         <each_cost>ELEVATOR LOBBY ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: BUILDING 1 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.002</description>
+         <total_count>1</total_count>
+         <each_cost>BUILIDNG 1 (UNIT ACCESS AT ELEV. 1)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: BUILDING 1 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.003</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: BUILDING 1 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.004</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 1 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#5: BUILDING 1 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.005</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 2 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#5: BUILDING 1 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D3.001</description>
+         <total_count>1</total_count>
+         <each_cost>STAIRWELL (@ STAIR 1)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#5: BUILDING 1 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>F3.001</description>
+         <total_count>1</total_count>
+         <each_cost>EVACUATION MAP (ELEV. 1)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: BUILDING 2 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>E1.002-E1.003</description>
+         <total_count>2</total_count>
+         <each_cost>BUILDING 2 ID W/ UNIT SPREAD</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: BUILDING 2 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.019</description>
+         <total_count>1</total_count>
+         <each_cost>CLUBHOUSE ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: BUILDING 2 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.020, A1.024</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: BUILDING 2 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.021, A1.025</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING ACCESS (EXT)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#6: BUILDING 2 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.022-A1.023</description>
+         <total_count>2</total_count>
+         <each_cost>MAIL ROOM ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#6: BUILDING 2 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.026</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 2)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#6: BUILDING 2 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.027</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 2 (UNIT ACCESS) (@ STAIR 2)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#6: BUILDING 2 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.028</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT ID (@ STAIR 2)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#6: BUILDING 2 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.029</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (EXT) (STAIR 2)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#6: BUILDING 2 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.030</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 3 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#6: BUILDING 2 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.010</description>
+         <total_count>1</total_count>
+         <each_cost>IDF ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#6: BUILDING 2 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.027-G1.028</description>
+         <total_count>2</total_count>
+         <each_cost>METER MAP</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#6: BUILDING 2 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D1.002</description>
+         <total_count>1</total_count>
+         <each_cost>STAIRWELL (STAIR 2)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#6: BUILDING 2 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>H1.002-H1.003</description>
+         <total_count>2</total_count>
+         <each_cost>HALLWAY DIRECTIONAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#7: BUILDING 2 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.018</description>
+         <total_count>1</total_count>
+         <each_cost>CLUBHOUSE ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#7: BUILDING 2 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.019</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 2)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#7: BUILDING 2 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.020</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 2 (UNIT ACCESS) (@ STAIR 2)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#7: BUILDING 2 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.021</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 3 (UNIT ACCESS) (NEXT TO STAIR 2)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#7: BUILDING 2 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B2.005-B2.008</description>
+         <total_count>4</total_count>
+         <each_cost>RESIDENT STORAGE (B2-S201 THRU B2-S04)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#7: BUILDING 2 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D2.002</description>
+         <total_count>1</total_count>
+         <each_cost>STAIRWELL (STAIR 2)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#7: BUILDING 2 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>H2.002</description>
+         <total_count>1</total_count>
+         <each_cost>HALLWAY DIRECTIONAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#8: BUILDING 2 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.006</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 1 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#8: BUILDING 2 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.007</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 2)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#8: BUILDING 2 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.008</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 2 (UNIT ACCESS) (@ STAIR 2)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#8: BUILDING 2 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.009</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 3 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#8: BUILDING 2 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B3.001-B3.004</description>
+         <total_count>4</total_count>
+         <each_cost>RESIDENT STORAGE (B2-S301 THRU B2-S304)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#8: BUILDING 2 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D3.002</description>
+         <total_count>1</total_count>
+         <each_cost>STAIRWELL (STAIR 2)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#8: BUILDING 2 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>H3.001-H3.002</description>
+         <total_count>2</total_count>
+         <each_cost>HALLWAY DIRECTIONAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>E1.004,E1.005</description>
+         <total_count>2</total_count>
+         <each_cost>BUILDING 3 ID W/ UNIT SPREAD</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.031</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 2 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.032,A1.038</description>
+         <total_count>2</total_count>
+         <each_cost>EXIT TO COURTYARD</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.033,A1.039</description>
+         <total_count>2</total_count>
+         <each_cost>BUILDING 3 (EXT) (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.034, A1.040</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 3, 4)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.035</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 3 (UNIT ACCESS) (@ STAIR 3)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.036</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT (@ STAIR 3)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.037,A1.043</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (EXT) (STAIR 3, 4)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.041</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 3 (UNIT ACCESS) (@STAIR 4)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.042</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT (@ STAIR 4)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.044</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 4 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.011</description>
+         <total_count>1</total_count>
+         <each_cost>IDF ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.012-B1.022</description>
+         <total_count>10</total_count>
+         <each_cost>RESIDENT STORAGE (B3-S102 THRU B3-S111)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.020</description>
+         <total_count>1</total_count>
+         <each_cost>METER ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.029-G1.030</description>
+         <total_count>2</total_count>
+         <each_cost>METER MAP</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.039</description>
+         <total_count>1</total_count>
+         <each_cost>ROOF ACCESS</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D1.003-D1.004</description>
+         <total_count>2</total_count>
+         <each_cost>STAIRWELL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#9: BUILDING 3 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>H1.004-H1.005</description>
+         <total_count>2</total_count>
+         <each_cost>HALLWAY DIRECTIONAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#10: BUILDING 3 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.022</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 2 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#10: BUILDING 3 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.023,A2.025</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 3, 4)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#10: BUILDING 3 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.024,A2.026</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 3 (UNIT ACCESS) (X1 @ EACH STAIR)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#10: BUILDING 3 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.027</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 4 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#10: BUILDING 3 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B2.009-B2.019</description>
+         <total_count>11</total_count>
+         <each_cost>RESIDENT STORAGE (B3-S201 THRU B3-S211)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#10: BUILDING 3 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D2.003-D2.004</description>
+         <total_count>2</total_count>
+         <each_cost>STAIRWELL (X1 @ EACH STAIR 3,4)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#10: BUILDING 3 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>H2.003-H2.004</description>
+         <total_count>2</total_count>
+         <each_cost>HALLWAY DIRECTIONAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#11: BUILDING 3 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.010</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 2 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#11: BUILDING 3 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.011-A3.013</description>
+         <total_count>2</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 3, 4)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#11: BUILDING 3 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.012,A3.014</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 3 (X1 @ EACH STAIR 3,4)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#11: BUILDING 3 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.015</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 4 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#11: BUILDING 3 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B3.005-B3.015</description>
+         <total_count>11</total_count>
+         <each_cost>RESIDENT STORAGE ID (B3-S01 THRU B3-S011)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#11: BUILDING 3 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D3.003-D3.004</description>
+         <total_count>2</total_count>
+         <each_cost>STAIRWELL (X1 @ EACH STAIR 3,4)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#11: BUILDING 3 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>H3.003-H3.004</description>
+         <total_count>2</total_count>
+         <each_cost>HALLWAY DIRECTIONAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>E1.006,E1.007</description>
+         <total_count>2</total_count>
+         <each_cost>BUILDING 4 ID W/ UNIT SPREAD</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.045</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 3 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.046</description>
+         <total_count>1</total_count>
+         <each_cost>ELEVATOR LOBBY (ELEV. 2)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.047</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT TO COURTYARD</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.048,A1.050, A1.052</description>
+         <total_count>3</total_count>
+         <each_cost>BUILDING 4 (EXT) (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.049, A1.051</description>
+         <total_count>2</total_count>
+         <each_cost>EXIT </each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.053</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 5)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.054</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 4 (UNIT ACCESS) (@ STAIR 5)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.055</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT (@ STAIR 5)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.056</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (EXT) (STAIR 5)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.057</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 5 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.023, B1.026-B1.028</description>
+         <total_count>4</total_count>
+         <each_cost>RESIDENT STORAGE ID (B4-S101, B4-S104 THRU B4-S106)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.024</description>
+         <total_count>1</total_count>
+         <each_cost>POOL STORAGE ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.025</description>
+         <total_count>1</total_count>
+         <each_cost>IDF ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D1.005</description>
+         <total_count>1</total_count>
+         <each_cost>STAIRWELL (STAIR 5)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>F1.002</description>
+         <total_count>1</total_count>
+         <each_cost>EVACTUATION MAP (ELEV. 2)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.031,G1.032</description>
+         <total_count>2</total_count>
+         <each_cost>METER MAP</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.040</description>
+         <total_count>1</total_count>
+         <each_cost>ROOF ACCESS</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#12: BUILDING 4 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>H1.006,H1.007</description>
+         <total_count>2</total_count>
+         <each_cost>HALLWAY DIRECTIONAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#13: BUILDING 4 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.028</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 3 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#13: BUILDING 4 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.029</description>
+         <total_count>1</total_count>
+         <each_cost>ELEVATOR LOBBY ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#13: BUILDING 4 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.030</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 5)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#13: BUILDING 4 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.031</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 4 (UNIT ACCESS) (@ STAIR 5)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#13: BUILDING 4 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.032</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 5 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#13: BUILDING 4 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B2.020-B2.025</description>
+         <total_count>6</total_count>
+         <each_cost>RESIDENT STORAGE ID (B4-S201 THRU B4-S206)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#13: BUILDING 4 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D2.005</description>
+         <total_count>1</total_count>
+         <each_cost>STAIRWELL (STAIR 5)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#13: BUILDING 4 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>F2.002</description>
+         <total_count>1</total_count>
+         <each_cost>EVACUATION MAP (ELEV. 2)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#13: BUILDING 4 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>H2.005,H2.006</description>
+         <total_count>2</total_count>
+         <each_cost>HALLWAY DIRECTIONAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#14: BUILDING 4 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.016</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 3 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#14: BUILDING 4 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.017</description>
+         <total_count>1</total_count>
+         <each_cost>ELEVATOR LOBBY ID (ELEV. 2)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#14: BUILDING 4 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.018</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 5)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#14: BUILDING 4 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.019</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 4 (UNIT ACCESS) (@ STAIR 5)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#14: BUILDING 4 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.020</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 5 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#14: BUILDING 4 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B3.016, B3.018-B3.021</description>
+         <total_count>5</total_count>
+         <each_cost>RESIDENT STORAGE ID (B4-S301, B4-S303 THRU B4-S306)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#14: BUILDING 4 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B3.017</description>
+         <total_count>1</total_count>
+         <each_cost>ELEVATOR MECHANICAL ROOM ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#14: BUILDING 4 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D3.005</description>
+         <total_count>1</total_count>
+         <each_cost>STAIRWELL (STAIR 5)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#14: BUILDING 4 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>F3.002</description>
+         <total_count>1</total_count>
+         <each_cost>EVACUATION MAP</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#14: BUILDING 4 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>H3.005,H3.006</description>
+         <total_count>2</total_count>
+         <each_cost>HALLWAY DIRECTIONAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>E1.008,E1.009</description>
+         <total_count>2</total_count>
+         <each_cost>BUILDING 5 ID W/ UNIT SPREAD</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.058</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 4 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.059</description>
+         <total_count>1</total_count>
+         <each_cost>ELEVATOR LOBBY </each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.060</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT </each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.061,A1.063</description>
+         <total_count>2</total_count>
+         <each_cost>BUILIDNG 5 (EXT) (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.062, A1.066</description>
+         <total_count>2</total_count>
+         <each_cost>EXIT TO COURTYARD</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.064</description>
+         <total_count>2</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 6)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.065, A1.069</description>
+         <total_count>2</total_count>
+         <each_cost>BUILDING 5 (UNIT ACCESS) (X1 @ EACH STAIR 5,6)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.067</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (EXT) (STAIR 6)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.068</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 7)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.070</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT (@ STAIR 7)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.071</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (EXT) (STAIR 7)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.072</description>
+         <total_count>1</total_count>
+         <each_cost>BUILIDNG 6 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.029</description>
+         <total_count>1</total_count>
+         <each_cost>IDF ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.030-B1.034, B1.036,B1.037</description>
+         <total_count>7</total_count>
+         <each_cost>RESIDENT STORAGE ID (B5-S102 THRU B5-S108)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.035</description>
+         <total_count>1</total_count>
+         <each_cost>METER ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D1.006,D1.007</description>
+         <total_count>2</total_count>
+         <each_cost>STAIRWELL (X1 @ EACH STAIR)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>F1.003</description>
+         <total_count>1</total_count>
+         <each_cost>EVACUATION MAP</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.033, G1.034</description>
+         <total_count>2</total_count>
+         <each_cost>METER MAP</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#15: BUILDING 5 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>H1.008-H1.010</description>
+         <total_count>3</total_count>
+         <each_cost>HALLWAY DIRECTIONAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#16: BUILDING 5 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.033</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 4 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#16: BUILDING 5 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.034</description>
+         <total_count>1</total_count>
+         <each_cost>ELEVATOR LOBBY ID (ELEV. 3)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#16: BUILDING 5 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.035</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 6)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#16: BUILDING 5 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.036</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 5 (UNIT ACCESS) (@ STAIR 6)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#16: BUILDING 5 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.037</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 7)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#16: BUILDING 5 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.038</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 5 (UNIT ACCESS) (@ STAIR 7)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#16: BUILDING 5 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.039</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 6 (UNIT ACCESS) </each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#16: BUILDING 5 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B2.026-B2.033</description>
+         <total_count>8</total_count>
+         <each_cost>RESIDENT STORAGE ID (B5-S201 THRU B5-S208)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#16: BUILDING 5 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D2.006-D2.007</description>
+         <total_count>2</total_count>
+         <each_cost>STAIRWELL (X1 @ EACH STAIR)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#16: BUILDING 5 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>F2.003</description>
+         <total_count>1</total_count>
+         <each_cost>EVACUATION MAP</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#16: BUILDING 5 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>H2.007-H2.009</description>
+         <total_count>3</total_count>
+         <each_cost>HALLWAY DIRECTIONAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#17: BUILDING 5 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.021</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 4 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#17: BUILDING 5 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.022</description>
+         <total_count>1</total_count>
+         <each_cost>ELEVATOR LOBBY ID (ELEV. 3)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#17: BUILDING 5 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.023</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 6)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#17: BUILDING 5 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.024</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 5 (UNIT ACCESS) (@ STAIR 6)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#17: BUILDING 5 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.025</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 7)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#17: BUILDING 5 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.026</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 5 (UNIT ACCESS) (@ STAIR 7)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#17: BUILDING 5 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.027</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 6 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#17: BUILDING 5 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B3.022</description>
+         <total_count>1</total_count>
+         <each_cost>ELEVATOR MECHANICAL ROOM ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#17: BUILDING 5 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B3.023-B3.029</description>
+         <total_count>7</total_count>
+         <each_cost>RESIDENT STORAGE ID (B5-S302 THRU B5-S308)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#17: BUILDING 5 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D3.006-D3.007</description>
+         <total_count>2</total_count>
+         <each_cost>STAIRWELL (X1 @ EACH STAIR 6, 7)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#17: BUILDING 5 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>F3.003</description>
+         <total_count>1</total_count>
+         <each_cost>EVACUATION MAP</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#17: BUILDING 5 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>H3.007-H3.009</description>
+         <total_count>3</total_count>
+         <each_cost>HALLWAY DIRECTIONAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#18: BUILDING 6 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>E1.010 -E1.012</description>
+         <total_count>3</total_count>
+         <each_cost>BUILDING 6 ID W/ UNIT SPREAD</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#18: BUILDING 6 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.073</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 5 (UNIT ACCESS) </each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#18: BUILDING 6 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.074</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#18: BUILDING 6 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.075</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 6 (EXT) (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#18: BUILDING 6 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.076</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 8)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#18: BUILDING 6 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.077</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 6 (UNIT ACCESS) (@ STAIR 8)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#18: BUILDING 6 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.078</description>
+         <total_count>1</total_count>
+         <each_cost>EXIT (@ STAIR 8)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#18: BUILDING 6 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A1.079</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (EXT) (STAIR 8)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#18: BUILDING 6 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.038,B1.039</description>
+         <total_count>2</total_count>
+         <each_cost>RESIDENT STORAGE ID (B6-S101 THRU B6-S102)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#18: BUILDING 6 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B1.040</description>
+         <total_count>1</total_count>
+         <each_cost>METER ID</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#18: BUILDING 6 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D1.008</description>
+         <total_count>1</total_count>
+         <each_cost>STAIRWELL (STAIR 8)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#18: BUILDING 6 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.035,G1.036</description>
+         <total_count>2</total_count>
+         <each_cost>METER MAP </each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#18: BUILDING 6 - LEVEL 1 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>H1.011</description>
+         <total_count>1</total_count>
+         <each_cost>HALLWAY DIRECTIONAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#19: BUILDING 6 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.040</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 5 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#19: BUILDING 6 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.041</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 8)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#19: BUILDING 6 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A2.042</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 6 (UNIT ACCESS) (@ STAIR 8)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#19: BUILDING 6 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B2.034,B2.035</description>
+         <total_count>2</total_count>
+         <each_cost>RESIDENT STORAGE ID (B6-S01, B6-S02)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#19: BUILDING 6 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D2.008</description>
+         <total_count>1</total_count>
+         <each_cost>STAIRWELL (STAIR 8)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#19: BUILDING 6 - LEVEL 2 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>H2.010</description>
+         <total_count>1</total_count>
+         <each_cost>HALLWAY DIRECTIONAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#20: BUILDING 6 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.028</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 5 (UNIT ACCESS)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#20: BUILDING 6 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.029</description>
+         <total_count>1</total_count>
+         <each_cost>STAIR / LEVEL (STAIR 8)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#20: BUILDING 6 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>A3.030</description>
+         <total_count>1</total_count>
+         <each_cost>BUILDING 6 (UNIT ACCESS) (@ STAIR 8)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#20: BUILDING 6 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>B3.030,B3.031</description>
+         <total_count>2</total_count>
+         <each_cost>RESIDENT STORAGE (B6-S302, B6-S301)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#20: BUILDING 6 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D3.008</description>
+         <total_count>1</total_count>
+         <each_cost>STAIRWELL (STAIR 8)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#20: BUILDING 6 - LEVEL 3 SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>H3.010</description>
+         <total_count>1</total_count>
+         <each_cost>HALLWAY DIRECTIONAL</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#21: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>C1.001</description>
+         <total_count>1</total_count>
+         <each_cost>POOL POLICY - ON POST</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#21: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.013</description>
+         <total_count>1</total_count>
+         <each_cost>ADDT. POOL POLICY </each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#21: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.014</description>
+         <total_count>1</total_count>
+         <each_cost>WARNING NO LIFEGUARD / NO DIVING</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#21: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.015</description>
+         <total_count>1</total_count>
+         <each_cost>911 EMERGENCY PHONE SIGN</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#21: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.010-G1.012</description>
+         <total_count>3</total_count>
+         <each_cost>POOL HOURS</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#21: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.016</description>
+         <total_count>1</total_count>
+         <each_cost>COMMUNITY GARDEN SIGN - ON POST</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#21: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>G1.017</description>
+         <total_count>1</total_count>
+         <each_cost>SCOREBOARD SIGN - ON POST (FROM MANUFACTURER)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#21: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>C1.006</description>
+         <total_count>1</total_count>
+         <each_cost>FIRE TABLE POLICY - ON POST</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#21: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>C1.002</description>
+         <total_count>1</total_count>
+         <each_cost>GRILL POLICIES (X1 @ POOL, X1 @ PLAYGROUND)</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#21: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>C1.004</description>
+         <total_count>1</total_count>
+         <each_cost>PICKLEBALL COURT ID / POLICY - ON POST</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#21: AMENITY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>C1.003</description>
+         <total_count>1</total_count>
+         <each_cost>DOG PARK ID / POLICY - ON POST</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

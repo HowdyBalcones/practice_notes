@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2009ZRS06</quote_num>
+   <contract_file>2009zrs06 The National Parking Garage REV 1.xlsx</contract_file>
+   <client_name>ZRS MANAGEMENT 3400 CARLISLE, SUITE 500 DALLAS, TEXAS 75204</client_name>
+   <project_name>THE NATIONAL</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2009zrs06 The National Parking Garage REV 1.xlsx</contract_name>
       
    <section>
    <section_name>#1: GARAGE LEVEL 4 PARKING SIGNAGE</section_name>
@@ -274,17 +283,318 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2009ZRS06</quote_num>
-   <contract_file>2009zrs06 The National Parking Garage REV 1.xlsx</contract_file>
-   <client_name>ZRS MANAGEMENT 3400 CARLISLE, SUITE 500 DALLAS, TEXAS 75204</client_name>
-   <project_name>THE NATIONAL</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: GARAGE LEVEL 4 PARKING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OVERSIZED HANG-DOWN PARKING DIRECTIONAL- SIGN - DOUBLE-FACED</description>
+         <total_count>1</total_count>
+         <each_cost>1895</each_cost>
+         <total_cost>1895</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: GARAGE LEVEL 4 PARKING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WALL SUPER GRAPHIC AT 4TH LEVEL ENTRY - CONCRETE- VINYL WITH PARKING DIRECTIONAL (20&apos;W X 8&apos;H)</description>
+         <total_count>1</total_count>
+         <each_cost>2400</each_cost>
+         <total_cost>2400</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: GARAGE LEVEL 4 PARKING SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CALL BOX POLE SIGN WITH PARKING DIRECTIONS- INSTALLS WITH BASEPLATE</description>
+         <total_count>1</total_count>
+         <each_cost>325</each_cost>
+         <total_cost>325</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: GARAGE LEVEL 5 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WALL SUPER GRAPHIC AT RAMP UP ENTRY - CONCRETE- VINYL  (21.5&apos;W X 10&apos;H) - DIRECTIONAL FOR RESIDENTIAL PARKING- ON LEVEL 6</description>
+         <total_count>1</total_count>
+         <each_cost>2730</each_cost>
+         <total_cost>2730</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: GARAGE LEVEL 6 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: GARAGE LEVEL 7 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: GARAGE LEVEL 8 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WALL SUPER GRAPHIC AT RAMP UP ENTRY - CONCRETE- VINYL  (21.5&apos;W X 10&apos;H)</description>
+         <total_count>3</total_count>
+         <each_cost>2730</each_cost>
+         <total_cost>8190</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: GARAGE LEVEL 6 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: GARAGE LEVEL 7 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: GARAGE LEVEL 8 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-FACE HANG DOWN DIRECTIONALS (8-10&apos;W)- #1: ELECTRIC CAR CHARGING &lt;, PARKING &amp; EXIT &gt;- #2: TO PARKING LEVEL 7 &gt;, PARKING &amp; EXIT ^- #3: ADDITIONAL PARKING &amp; EXIT &gt;- #4: EXIT &gt;, PARKING ^- #5: EXIT &gt;, PARKING ^- #6: ONE WAY PARKING ^^^- #7: ONE WAY PARKING ^^^- #8: NO RIGHT TURN, PARKING &amp; EXIT ^</description>
+         <total_count>24</total_count>
+         <each_cost>895</each_cost>
+         <total_cost>21480</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: GARAGE LEVEL 6 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: GARAGE LEVEL 7 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: GARAGE LEVEL 8 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEVEL IDENTIFIERS: 4&apos;H DIBOND NUMERAL WITH VINYL- STAIR / ELEVATOR DESIGNATION</description>
+         <total_count>18</total_count>
+         <each_cost>285</each_cost>
+         <total_cost>5130</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: GARAGE LEVEL 6 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: GARAGE LEVEL 7 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: GARAGE LEVEL 8 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PEDESTRIAN CROSSING DOUBLE-FACE HANG-DOWN</description>
+         <total_count>3</total_count>
+         <each_cost>895</each_cost>
+         <total_cost>2685</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: GARAGE LEVEL 6 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: GARAGE LEVEL 7 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: GARAGE LEVEL 8 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>D/F POST MOUNT SIGN - INSTALLS INBETWEEN COLUMNS, DIRECT- TO PARKING AND ELECTRIC CAR CHARGING EXIT PATH</description>
+         <total_count>3</total_count>
+         <each_cost>895</each_cost>
+         <total_cost>2685</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: GARAGE LEVEL 6 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: GARAGE LEVEL 7 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: GARAGE LEVEL 8 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-FACE ELECTRIC CAR CHARGING SIGN ON POST WITH - BASEPLATE</description>
+         <total_count>3</total_count>
+         <each_cost>595</each_cost>
+         <total_cost>1785</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: GARAGE LEVEL 6 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: GARAGE LEVEL 7 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: GARAGE LEVEL 8 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>COMPACT CAR PARKING ONLY - ON POST WITH BASEPLATE</description>
+         <total_count>6</total_count>
+         <each_cost>495</each_cost>
+         <total_cost>2970</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: GARAGE LEVEL 6 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>R1-R23 RESERVED PARKING SIGNS - WALL MOUNT (DIBOND WITH- DIGITAL PRINT) (TANDOM SPOTS)</description>
+         <total_count>23</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>1334</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: GARAGE LEVEL 7 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>R24 - R42 RESERVED PARKING SIGNS - WALL MOUNT (DIBOND WITH- DIGITAL PRINT) (TANDOM SPOTS)</description>
+         <total_count>19</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>1102</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: GARAGE LEVEL 8 PARKIG SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>R43-R59 RESERVED PARKING SIGNS - WALL MOUNT (DIBOND WITH- DIGITAL PRINT) (TANDOM SPOTS)</description>
+         <total_count>17</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>986</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: ADDITIONAL PARKING SIGNS</section>
+         </section_key>
+         
+         </section_list>
+         <description>NUMBERED RESERVED PARKING SIGNS - WALL MOUNT </description>
+         <total_count>75</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>4350</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: ADDITIONAL PARKING SIGNS</section>
+         </section_key>
+         
+         </section_list>
+         <description>FUTURE RESIDENT PARKING SIGNS-WALL MOUNT (LOCATION TBD)</description>
+         <total_count>2</total_count>
+         <each_cost>69</each_cost>
+         <total_cost>138</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2107LHIM01S</quote_num>
+   <contract_file>2107LHIM01S-Lighthouse Dallas Bldg Signage.xlsx</contract_file>
+   <client_name>LHIM DALLAS, LLC 9917 LA TUNA CANYON ROAD SUN VALLEY, CA 91253</client_name>
+   <project_name>LIGHTHOUSE DALLAS- BUILDING SIGNAGE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2107LHIM01S-Lighthouse Dallas Bldg Signage.xlsx</contract_name>
       
    <section>
    <section_name>#1: GROUND LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section_name>
@@ -327,17 +336,428 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2107LHIM01S</quote_num>
-   <contract_file>2107LHIM01S-Lighthouse Dallas Bldg Signage.xlsx</contract_file>
-   <client_name>LHIM DALLAS, LLC 9917 LA TUNA CANYON ROAD SUN VALLEY, CA 91253</client_name>
-   <project_name>LIGHTHOUSE DALLAS- BUILDING SIGNAGE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: GROUND LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADA ACCESS SIGN (PARKING LOT ENTRY)</description>
+         <total_count>1</total_count>
+         <each_cost>115</each_cost>
+         <total_cost>115</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: GROUND LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS - ADA (LEVEL G)</description>
+         <total_count>1</total_count>
+         <each_cost>275</each_cost>
+         <total_cost>275</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: GROUND LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEVEL ONE (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: LEVEL TWO (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: MEZZANINE LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5: PENTHOUSE LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6: ROOF LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR / LEVEL SIGNS - ADA</description>
+         <total_count>14</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>952</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: GROUND LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEVEL ONE (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: LEVEL TWO (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4: MEZZANINE LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#5: PENTHOUSE LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6: ROOF LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIRWELL / LEVEL SIGNS - ADA</description>
+         <total_count>12</total_count>
+         <each_cost>175</each_cost>
+         <total_cost>2100</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1: GROUND LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ROOM ID - ADA</description>
+         <total_count>1</total_count>
+         <each_cost>60</each_cost>
+         <total_cost>60</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1: GROUND LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEES ONLY (STORAGE, JANITOR, UNIDENTIFIED)</description>
+         <total_count>3</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>204</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#1: GROUND LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR CONTROL ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#1: GROUND LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>NOT AN EXIT / ALARM WILL SOUND (12&quot; X 24&quot;)</description>
+         <total_count>2</total_count>
+         <each_cost>120</each_cost>
+         <total_cost>240</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#1: GROUND LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE RISER / PUMP ROOM (4&quot; COPY)</description>
+         <total_count>1</total_count>
+         <each_cost>115</each_cost>
+         <total_cost>115</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#1: GROUND LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>FACP SIGN (4&quot; COPY)</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#1: GROUND LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>FDC CONNECTION W/ ADDRESS</description>
+         <total_count>1</total_count>
+         <each_cost>115</each_cost>
+         <total_cost>115</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#1: GROUND LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR DIRECTIONAL</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEVEL ONE (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS - ADA (LEVEL 1)</description>
+         <total_count>1</total_count>
+         <each_cost>275</each_cost>
+         <total_cost>275</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEVEL ONE (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEN&apos;S RESTROOM - ADA</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: LEVEL ONE (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMEN&apos;S RESTROOM - ADA</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: LEVEL ONE (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4: MEZZANINE LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#5: PENTHOUSE LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ROOM - ADA</description>
+         <total_count>3</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>204</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: LEVEL ONE (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEES ONLY (BOH RETAIL)</description>
+         <total_count>2</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>136</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: LEVEL TWO (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS - ADA (LEVEL 2)</description>
+         <total_count>1</total_count>
+         <each_cost>275</each_cost>
+         <total_cost>275</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: MEZZANINE LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS - ADA (LEVEL M)</description>
+         <total_count>1</total_count>
+         <each_cost>275</each_cost>
+         <total_cost>275</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4: MEZZANINE LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEES ONLY (STORAGE / SERVER-OFFICE)</description>
+         <total_count>2</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>136</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#5: PENTHOUSE LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEES ONLY (STORAGE)</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6: ROOF LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELEVATOR EGRESS - ADA (LEVEL R)</description>
+         <total_count>1</total_count>
+         <each_cost>275</each_cost>
+         <total_cost>275</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#6: ROOF LEVEL (P95 BLACK W/ WHITE TACTILE/ADA)</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR / ELEVATOR ACCESS - ADA</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#7: FLAGS</section>
+         </section_key>
+         
+         </section_list>
+         <description>4&apos; X 6&apos; (X1 US, X1 TX), HIGH GRADE NYLON W/ EMBROIDERED- STARS &amp; STRIPES</description>
+         <total_count>2</total_count>
+         <each_cost>54</each_cost>
+         <total_cost>108</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

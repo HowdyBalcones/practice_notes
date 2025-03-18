@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2206FP01RS</quote_num>
+   <contract_file>2206FP01RS Aster Sugarland.xlsx</contract_file>
+   <client_name>FOGELMAN PROPERTIES 6060 POPLAR AVE., SUITE 200 MEMPHIS, TN 38119</client_name>
+   <project_name>ASTER SUGARLAND</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2206FP01RS Aster Sugarland.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -54,17 +63,83 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2206FP01RS</quote_num>
-   <contract_file>2206FP01RS Aster Sugarland.xlsx</contract_file>
-   <client_name>FOGELMAN PROPERTIES 6060 POPLAR AVE., SUITE 200 MEMPHIS, TN 38119</client_name>
-   <project_name>ASTER SUGARLAND</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NON-ILLUMINATED GRAPHICS - LOGO/LETTERING TO BE - INDIVIDUAL DIMENSIONAL CHARACTERS, CHANNEL LETTER- DESIGN, APPROX. 6 FT X 10 FT OVERALL SIZE-      * WALL TO BE CLENAED OF VEGETATION AND PAINTED-      BY OTHERS</description>
+         <total_count>3</total_count>
+         <each_cost>9600</each_cost>
+         <total_cost>28800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>INFORMATION CENTER SIGN, 10 IN X 20 IN - NEW/REPLACE- EXISTING</description>
+         <total_count>1</total_count>
+         <each_cost>420</each_cost>
+         <total_cost>420</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LEASING CENTER HOURS, 16 IN X 20 IN -- EXISTING</description>
+         <total_count>1</total_count>
+         <each_cost>550</each_cost>
+         <total_cost>550</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FUTURE RESIDENT PARKING OVERLAY PANEL, 12 IN X 16 IN</description>
+         <total_count>3</total_count>
+         <each_cost>149</each_cost>
+         <total_cost>447</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: LEASING CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESERVED HC PARKING OVERLAY PANEL, 12 IN X 16 IN</description>
+         <total_count>1</total_count>
+         <each_cost>149</each_cost>
+         <total_cost>149</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

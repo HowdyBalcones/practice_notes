@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2211MORE01S</quote_num>
+   <contract_file>2211MORE01S Covey Homes Waterford REV 1.xlsx</contract_file>
+   <client_name>MORE RESIDENTIAL 5800 GRANITE PKWY, STE. 1050 PLANO, TX 75024</client_name>
+   <project_name>COVEY HOMES WATERFORD</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2211MORE01S Covey Homes Waterford REV 1.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -54,17 +63,83 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2211MORE01S</quote_num>
-   <contract_file>2211MORE01S Covey Homes Waterford REV 1.xlsx</contract_file>
-   <client_name>MORE RESIDENTIAL 5800 GRANITE PKWY, STE. 1050 PLANO, TX 75024</client_name>
-   <project_name>COVEY HOMES WATERFORD</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-FACE MAIN ENTRY MONUMENT: X2 MAIN SIGN PANELS WITH - DIMENSIONAL GRAPHICS, X4 CUT-OUT, SIDE PIECES. NON-ILLUMINATED,.- UPLIIT FROM LANDSCAPE.</description>
+         <total_count>1</total_count>
+         <each_cost>7850</each_cost>
+         <total_cost>7850</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FOURCE TO CONTRACT MASON FOR FOOTER AND STRUCTURE - BUILD OUT</description>
+         <total_count>1</total_count>
+         <each_cost>9800</each_cost>
+         <total_cost>9800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: LEASING / CLUB - EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE DOOR VINYL PACKAGE (LOGO, HOURS, PHONE, URL)</description>
+         <total_count>1</total_count>
+         <each_cost>189</each_cost>
+         <total_cost>189</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: LEASING / CLUB - EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;COVEY HOMES BY MORE&quot; PLAQUE - WALL MOUNT</description>
+         <total_count>1</total_count>
+         <each_cost>189</each_cost>
+         <total_cost>189</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: LEASING / CLUB - EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM FUTURE RESIDENT PARKING SIGNS- ( FENCE X2, WALL X1)</description>
+         <total_count>3</total_count>
+         <each_cost>365</each_cost>
+         <total_cost>1095</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

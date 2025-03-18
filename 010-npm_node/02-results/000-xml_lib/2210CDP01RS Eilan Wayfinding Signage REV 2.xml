@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2210CDP01RS</quote_num>
+   <contract_file>2210CDP01RS Eilan Wayfinding Signage REV 2.xlsx</contract_file>
+   <client_name>ECOM C/P C.I.A. SERVICES, INC. PO BOX 63178 PIPE CREEK, TX 78063-3178</client_name>
+   <project_name>EILAN MASTERPLAN  WAYFINDING SIGNAGE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2210CDP01RS Eilan Wayfinding Signage REV 2.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -105,17 +114,188 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2210CDP01RS</quote_num>
-   <contract_file>2210CDP01RS Eilan Wayfinding Signage REV 2.xlsx</contract_file>
-   <client_name>ECOM C/P C.I.A. SERVICES, INC. PO BOX 63178 PIPE CREEK, TX 78063-3178</client_name>
-   <project_name>EILAN MASTERPLAN  WAYFINDING SIGNAGE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE FACED MEDIAN DIRECTIONAL SIGN. (REMOVE SMALL- GROUND SIGN) LOCATED AT SOUTH ENTRY PORTAL ON- EILAN TERRACE DRIVE</description>
+         <total_count>1</total_count>
+         <each_cost>2575</each_cost>
+         <total_cost>2575</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SMALL DOUBLE FACED MEDIAN PARKING DIRECTIONAL SIGN- (REMOVE EXITING) LOCATED AT LA CANTERRA DRIVE &amp; OFFICE DRIVE</description>
+         <total_count>1</total_count>
+         <each_cost>1890</each_cost>
+         <total_cost>1890</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE FACE MEDIAN DIRECTIONAL SIGN (REMOVE EXISTING)- LOCATED AT LA CANTERRA DRIVE &amp; HOTEL ROUNDABOUT</description>
+         <total_count>1</total_count>
+         <each_cost>2575</each_cost>
+         <total_cost>2575</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE FACE MEDIAN DIRECTIONAL SIGN (REMOVE EXISTING)- LOCATED AT LA CANTERRA DRIVE &amp; PARKING MEDIAN</description>
+         <total_count>1</total_count>
+         <each_cost>2575</each_cost>
+         <total_cost>2575</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE FACE MEDIAN DIRECTIONAL SIGN (REMOVE EXISTING)- LOCATED AT NORTH END MEDIAN NEAR APARTMENTS</description>
+         <total_count>1</total_count>
+         <each_cost>2575</each_cost>
+         <total_cost>2575</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE FACE MEDIAN DIRECTIONAL SIGN (REMOVE EXISTING)- LOCATED AT LA CANTERRA VEND MEDIAN AND LA CANTERRA TERRACE</description>
+         <total_count>1</total_count>
+         <each_cost>2575</each_cost>
+         <total_cost>2575</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;V&quot; SHAPED DIRECTIONAL SIGN LOCATED AT LA CANTERRA- TERRACE DR. INTERSECTION</description>
+         <total_count>1</total_count>
+         <each_cost>4260</each_cost>
+         <total_cost>4260</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE FACE MEDIAN DIRECTIONAL SIGN (REMOVE EXISTING) LOCATED - AT LA CANTERRA TERRACE DR. INTERSECTION &amp; EILAN TERRACE</description>
+         <total_count>1</total_count>
+         <each_cost>2575</each_cost>
+         <total_cost>2575</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE FACE DIRECTIONAL AT INTERSECTION OF EILAN WAY- &amp; EILAN TERRACE</description>
+         <total_count>1</total_count>
+         <each_cost>2575</each_cost>
+         <total_cost>2575</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FLAG POLE STEM SIGNS / BANNERS &quot;PUBLIC PARKING&quot; - LOADS TO - EXISTING LIGHT POLES</description>
+         <total_count>2</total_count>
+         <each_cost>885</each_cost>
+         <total_cost>1770</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;OFFICE / TENANT&quot; PARKING 8AM - 6PM - RETAIL 6PM - 2AM.- DOUBLE FACED POST &amp; PANEL</description>
+         <total_count>3</total_count>
+         <each_cost>965</each_cost>
+         <total_cost>2895</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;OFFICE GUEST&quot; PARKING WEEKDAYS BEFORE 6PM. VALET PARKING AFTER - 6PM. SINGLE FACE POST &amp; PANEL</description>
+         <total_count>1</total_count>
+         <each_cost>895</each_cost>
+         <total_cost>895</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

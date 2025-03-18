@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2010MFG02S</quote_num>
+   <contract_file>2010MFG02S SARC - Pine Bluff, AR.xlsx</contract_file>
+   <client_name>HEALTHCARE SOLUTIONS HOLDINGS INC. 3 SCHOOL ROAD STE 300 GLEN COVE, NY 11542</client_name>
+   <project_name>SARC - PINE BLUFF, AR</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2010MFG02S SARC - Pine Bluff, AR.xlsx</contract_name>
       
    <section>
    <section_name>#1: ENTRY SIGNAGE</section_name>
@@ -626,17 +635,1098 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2010MFG02S</quote_num>
-   <contract_file>2010MFG02S SARC - Pine Bluff, AR.xlsx</contract_file>
-   <client_name>HEALTHCARE SOLUTIONS HOLDINGS INC. 3 SCHOOL ROAD STE 300 GLEN COVE, NY 11542</client_name>
-   <project_name>SARC - PINE BLUFF, AR</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUILDING / WALL SIGN - ILLUMINATED W/ PUSH-THRU ACRYLIC- COPY. LOADS TO DROP SOFFIT AT ENTRY OFF SURGERY CENTER.- *POWER TO LOCATION IN CEILING BY OTHERS. (120V/20AMP HOUSE- POWER ON MASTER TIMER/PHOTOCELL) (SIGN PULLS 3.5AMPS)</description>
+         <total_count>1</total_count>
+         <each_cost>7165</each_cost>
+         <total_cost>7165</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE-FACED MONUMENT SIGN - PAN W/ DIMENSIONAL - GRAPHICS TO COVER EXISTING SIGN FACES.</description>
+         <total_count>1</total_count>
+         <each_cost>4480</each_cost>
+         <total_cost>4480</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: ENTRY SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MONOLITH-STYLED DIRECTIONAL VALUE SIGNS. (CLINIC CENTER/- SURGERY CENTER)</description>
+         <total_count>2</total_count>
+         <each_cost>985</each_cost>
+         <total_cost>1970</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE DOOR VINYL KITS</description>
+         <total_count>2</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>258</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SINGLE DOOR VINYL KITS</description>
+         <total_count>1</total_count>
+         <each_cost>89</each_cost>
+         <total_cost>89</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PATIENTS ONLY BEYOND THIS POINT</description>
+         <total_count>3</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>330</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADDRESS / SUITE VINYL (SURGERY CENTER)</description>
+         <total_count>1</total_count>
+         <each_cost>69</each_cost>
+         <total_cost>69</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MENS RESTROOM (WAITING ROOM)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMENS RESTROOM (WAITING ROOM)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RECEPTION / PLEASE SIGN-IN</description>
+         <total_count>1</total_count>
+         <each_cost>110</each_cost>
+         <total_cost>110</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MANAGERS OFFICE</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NURSES OFFICE</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXIT TO WAITING ROOM</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DICTATE / OFFICE</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>OO.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BREAKROOM / EMPLOYEES ONLY</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SUPPLY ROOM / EMPLOYEES ONLY</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>INTERVIEW / EXAM ROOM</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CONSULTATION</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DICTATION</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MENS LOCKER ROOM</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MENS RESTROOM</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMENS LOCKER ROOM</description>
+         <total_count>2</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>176</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMENS RESTROOM</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PROCEDURE ROOM ID</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>V.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STERILE SOILED</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>W.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STERILE PROCESSING</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>X.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLEAN LINEN</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Y.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEDICATION / EMPLOYEES ONLY</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Z.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PREP / RECOVERY ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>AA.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RECOVERY ROOM (4&quot; X 4&quot; 1-6)</description>
+         <total_count>6</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>348</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>BB.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SOILED LINEN</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>CC.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PRIVATE PREP / RECOVERY</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>DD.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM (PREP / RECOVERY)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>EE.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OPERATION ROOM #2 (OR #2)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>FF.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>STERILE STORAGE</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>GG.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEES ONLY (JANITOR CLOSET)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>HH.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CATH LAB EQUIPMENT</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>II.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CATH LAB / OPERATION ROOM #1 (O.R. #1)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>JJ.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CONTROL ROOM</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>KK.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CT SCANNER ROOM</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>LL.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>O.R. STORAGE</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>MM.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ECP ROOM</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>NN.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ECP / DATA / BREAKROOM</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>PP.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM (X1 IN BREAKROOM, X1 IN CONTROL ROOM)</description>
+         <total_count>2</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>196</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>QQ.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DATA ROOM</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>RR.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ASC ACCESS (X1 CORRIDOR NEAR NUC MED DOOR, X1 AT CLINIC- SIDE CORRIDOR BY SUPPLY ROOM, X1 DICTATE OFFICE/CLINIC SIDE)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>SS.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLINIC ACCESS (X1 AT CORRIDOR FROM ASC TO CLINIC, X1 INT- AT CT SCANNER ROOM TO CLINIC)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>TT.</key>
+            <section>#2: SURGERY CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PLAQUE W/ DIMENSIONAL LOGO 12&quot;X12&quot; AT CLINIC WAITING- ROOM ACCESS TO ASC WAITING</description>
+         <total_count>1</total_count>
+         <each_cost>158</each_cost>
+         <total_cost>158</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3: SURGERY CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MECHANICAL ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#3: SURGERY CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#3: SURGERY CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>COMPRESSOR ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#3: SURGERY CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEDICAL GASSES ROOM ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#3: SURGERY CENTER EXTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SUITE ADDRESS / VINYL (SIDE &amp; REAR DOORS)</description>
+         <total_count>3</total_count>
+         <each_cost>49</each_cost>
+         <total_cost>147</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE DOOR VINYL KIT W/ SUITE ADDRESS</description>
+         <total_count>1</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>129</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SINGLE DOOR VINYL KIT W/ SUITE ADDRESS</description>
+         <total_count>2</total_count>
+         <each_cost>89</each_cost>
+         <total_cost>178</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADDRESS / SUITE # OVER ENTRY</description>
+         <total_count>1</total_count>
+         <each_cost>39</each_cost>
+         <total_cost>39</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RETAIL SHOP</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RECEPTION / PLEASE SIGN - IN</description>
+         <total_count>1</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>88</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM (WAITING ROOM)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADMINISTRATION (BILLING OFFICE / WORK)</description>
+         <total_count>3</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>234</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CONSULTATION ROOM</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OFFICE ID (NAME TBD)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>MOLD ROOM</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PHYSICS ROOM</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXAM ROOM ID (01-10)</description>
+         <total_count>10</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>780</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NUCLEAR MEDICINE ID</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNISEX RESTROOM (AT NURSES STATION, AT RECEPTION CORRIDOR)</description>
+         <total_count>2</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>196</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ELECTRICAL</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NURSE&apos;S STATION</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EMPLOYEES ONLY (JANITOR)</description>
+         <total_count>1</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>78</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>EXIT (CORRIDOR TO OUTSIDE)</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#4: CLINIC CENTER INTERIOR SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RADIATION THERAPY</description>
+         <total_count>2</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>156</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

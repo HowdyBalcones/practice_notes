@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2208G04</quote_num>
+   <contract_file>2208G04.xlsx</contract_file>
+   <client_name>GREYSTAR 600 E. LAS COLINAS BLVD., STE 2100 IRVING, TX 75039</client_name>
+   <project_name>THE HAVEN OKLAHOMA CITY - WALL LOGO REPLACEMENT</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2208G04.xlsx</contract_name>
       
    <section>
    <section_name>#1: WALL LOGO</section_name>
@@ -17,17 +26,23 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2208G04</quote_num>
-   <contract_file>2208G04.xlsx</contract_file>
-   <client_name>GREYSTAR 600 E. LAS COLINAS BLVD., STE 2100 IRVING, TX 75039</client_name>
-   <project_name>THE HAVEN OKLAHOMA CITY - WALL LOGO REPLACEMENT</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: WALL LOGO</section>
+         </section_key>
+         
+         </section_list>
+         <description>DIMENSIONAL LOGO/LETTERING, 1/4 INCH THICK PAINTED- ALUMINUM (MATTE BLACK FINISH), LOADS TO STUCCO/BRICK- WALL, TO MOUNT WITH THREADED STUDS AND STAND-OFFS-    - 45 IN. TALL &quot;H&quot; LOGO-    - 12 IN. TALL &quot;THE&quot;-    - 28 IN. TALL &quot;HAVEN&quot;</description>
+         <total_count>1</total_count>
+         <each_cost>4790</each_cost>
+         <total_cost>4790</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2007AML01RS</quote_num>
+   <contract_file>2007AML01RS Amli Grapevine REV 4.xlsx</contract_file>
+   <client_name>AMLI RESIDENTIAL 214 GUADALUPE STREET AUSTIN, TX 78701</client_name>
+   <project_name>AMLI GRAPEVINE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2007AML01RS Amli Grapevine REV 4.xlsx</contract_name>
       
    <section>
    <section_name>#1: BUILDING A SIGNAGE</section_name>
@@ -350,17 +359,618 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2007AML01RS</quote_num>
-   <contract_file>2007AML01RS Amli Grapevine REV 4.xlsx</contract_file>
-   <client_name>AMLI RESIDENTIAL 214 GUADALUPE STREET AUSTIN, TX 78701</client_name>
-   <project_name>AMLI GRAPEVINE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FLEX FACE WALL SIGN - REPLACE FLEX FACE SURFACE W/ NEW- &quot;AMLI&quot; FLEX FACE 6&apos;4&quot; DIAMETER.</description>
+         <total_count>1</total_count>
+         <each_cost>2800</each_cost>
+         <total_cost>2800</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;AMLI GRAPEVINE&quot; DIMENSIONAL LETTERS ON RAIL. LOADS TO - CANOPIES (DALLAS ST. &amp; BERRY FRONTAGES)</description>
+         <total_count>2</total_count>
+         <each_cost>2185</each_cost>
+         <total_cost>4370</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PARKING GARAGE ENTER/EXIT - SINGLE FACE REPLACE CENTER- &quot;CIRCLE W/ LOGO&quot; PUSH THRU ACRYLIC &amp; REVEAL COPY.</description>
+         <total_count>1</total_count>
+         <each_cost>990</each_cost>
+         <total_cost>990</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PARKING BLADE SIGN (DALLAS ST) - REPLACE X2 FACES WITH- &quot;AMLI GRAPEVINE W/ P&quot; PLATES W/ PUSH-THRU ACRYLIC.</description>
+         <total_count>1</total_count>
+         <each_cost>1195</each_cost>
+         <total_cost>1195</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>RETAIL PASEO-TO-PARKING SIGN - PLATE W/ DIMENSIONAL GRAPHICS</description>
+         <total_count>1</total_count>
+         <each_cost>490</each_cost>
+         <total_cost>490</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>DOUBLE FACED ILLUMINATED PARKING BUTTON. LOADS ON- SOUTH GARAGE ENTRY OF BLDG A.</description>
+         <total_count>1</total_count>
+         <each_cost>2400</each_cost>
+         <total_cost>2400</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUSINESS CENTER DOOR FROSTED VINYL KIT (X2 INT, X1 EXT)</description>
+         <total_count>3</total_count>
+         <each_cost>59</each_cost>
+         <total_cost>177</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS CENTER DOOR VINYL KIT</description>
+         <total_count>1</total_count>
+         <each_cost>59</each_cost>
+         <total_cost>59</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SPIN DOOR FROSTED VINYL KIT</description>
+         <total_count>1</total_count>
+         <each_cost>59</each_cost>
+         <total_cost>59</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOGO VINYL GARAGE LEVEL 1 (X1 GARAGE TO STAIR, X1 STAIR- TO CORRIDOR)</description>
+         <total_count>2</total_count>
+         <each_cost>59</each_cost>
+         <total_cost>118</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>SIGN DESIGN SCHEME PLAQUE AT ENTRY TO BLDG A OVER FOB.- &quot;ACCESS BLDG A&quot;</description>
+         <total_count>1</total_count>
+         <each_cost>59</each_cost>
+         <total_cost>59</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FROSTED VINYL KIT ON DOOR ACCESS &quot; X1 LOGO-FITNESS / SPIN /- BUSINESS CENTER, X1 CONFERENCE, X1 TERRACE&quot;</description>
+         <total_count>4</total_count>
+         <each_cost>59</each_cost>
+         <total_cost>236</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;TERRACE&quot; PLAQUE TO SIGN DESIGN SCHEME</description>
+         <total_count>1</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>68</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FROSTED VINYL KIT ON SX1 STAIR A3, X1 STAIR G4 ACCESS DOOR - &quot;LOGO - STAIR &amp; GARAGE ACCESS&quot;</description>
+         <total_count>2</total_count>
+         <each_cost>59</each_cost>
+         <total_cost>118</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PERFORATED WINDOW CLING 7&apos;H X 3&apos;W ON BLDG A WINDOWS- X2 AT DALLAS FRONTAGE AND X2 BERRY STREET</description>
+         <total_count>4</total_count>
+         <each_cost>229</each_cost>
+         <total_cost>916</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUSINESS CENTER POLICIES (COVER PLATE &amp; COPY ONLY) STAND UP</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS CENTER POLICICES (COVER PLATE &amp; COPY ONLY) WALL</description>
+         <total_count>1</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>135</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>O.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TRASH POLICIES / VINYL COVER</description>
+         <total_count>10</total_count>
+         <each_cost>45</each_cost>
+         <total_cost>450</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>TERRACE POLICIES (COVER PLATE &amp; COPY ONLY)</description>
+         <total_count>1</total_count>
+         <each_cost>125</each_cost>
+         <total_cost>125</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         <section_key>
+            <key>Q.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GRILL / BARBECUE POLICIES (COVER PLATE &amp; COPY ONLY)</description>
+         <total_count>2</total_count>
+         <each_cost>135</each_cost>
+         <total_cost>270</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#1: BUILDING A SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GATE / WARNING SIGN (X2 EXIT ONLY / DO NOT ENTER, X1 RESIDENT- ENTRY, X1 EXIT ONLY)</description>
+         <total_count>4</total_count>
+         <each_cost>145</each_cost>
+         <total_cost>580</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ILLUMINATED PARAPET WALL SIGN TO REPLACE &quot;AURA&quot; SIGN AT - EAST BLDG FASCIA.</description>
+         <total_count>1</total_count>
+         <each_cost>11380</each_cost>
+         <total_cost>11380</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>NEW PROJECT ID W/ LEASING, ILLUMINATED. LOADS TO NORTH- FACING FAÇADE OF TOWER.</description>
+         <total_count>1</total_count>
+         <each_cost>10640</each_cost>
+         <total_cost>10640</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>58&quot; DIAMETER LEASING ID CIRCLE W/ DIMENSIONAL COPY.</description>
+         <total_count>2</total_count>
+         <each_cost>4500</each_cost>
+         <total_cost>9000</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PARKING GARAGE ENTER / EXIT - SINGLE FACED - REPLACE CENTER- &quot;CIRCLE W/ LOGO&quot; PUSH THRU ACRYLIC &amp; REVEAL COPY.</description>
+         <total_count>1</total_count>
+         <each_cost>990</each_cost>
+         <total_cost>990</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>HOURS SIGN - CREATE NEW CIRCLE HEADER AND REPLACE URL- VINYL.</description>
+         <total_count>1</total_count>
+         <each_cost>145</each_cost>
+         <total_cost>145</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;LOGO / LEASING CENTER&quot; DOUBLE DOOR FROSTED VINYL KIT</description>
+         <total_count>2</total_count>
+         <each_cost>119</each_cost>
+         <total_cost>238</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;LOGO / MAIL CENTER&quot; SINGLE DOOR FROSTED VINYL KIT</description>
+         <total_count>1</total_count>
+         <each_cost>59</each_cost>
+         <total_cost>59</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>LOGO DECALS FOR BICYCLE CART (VERIFY MEASUREMENTS PRIOR- TO LAYOUT)</description>
+         <total_count>4</total_count>
+         <each_cost>88</each_cost>
+         <total_cost>352</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>&quot;FIRE ALARM PANEL&quot; RED ENGRAVED 2&quot; LETTERS</description>
+         <total_count>1</total_count>
+         <each_cost>85</each_cost>
+         <total_cost>85</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CUSTOM ELEVATOR FLYER FRAMES. 9&quot; X 12&quot; W/ GOLD FRAME /- CLEAR LENS ON PVC BACKER</description>
+         <total_count>8</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>784</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>K.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>FIRE PIT POLICIES ENGRAVED ALUMINUM TO FOLLOW FIRE PIT CURVE</description>
+         <total_count>1</total_count>
+         <each_cost>165</each_cost>
+         <total_cost>165</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BUSINESS CENTER POLICIES (COVER PLATE &amp; COPY ONLY)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>M.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GAME ROOM POLICIES (COVER PLATE &amp; COPY ONLY)</description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>N.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>CLUB ROOM POLICIES (COVER PLATE &amp; COPY ONLY)</description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>P.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>POOL POLICIES COPY PLATE ONLY</description>
+         <total_count>1</total_count>
+         <each_cost>245</each_cost>
+         <total_cost>245</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>R.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>PET PARK POLICIES (COVER PLATE &amp; COPY ONLY)</description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>S.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>OUTDOOR LOUNGE POLICIES (COVER PLATE &amp; COPY ONLY)</description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>T.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GATE / WARNING SIGNS (X2 EXIT ONLY / DO NOT ENTER, X1 RESIDENT- ENTRY, X1 EXIT ONLY)</description>
+         <total_count>4</total_count>
+         <each_cost>145</each_cost>
+         <total_cost>580</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>U.</key>
+            <section>#2: BUILDING B SIGNAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>GOLF CART SET OF DECALS</description>
+         <total_count>1</total_count>
+         <each_cost>NO CHARGE</each_cost>
+         <total_cost></total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

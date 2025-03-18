@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2011G06RS</quote_num>
+   <contract_file>2106G09RS Manchester Unit ID Refurb REV 2.xlsx</contract_file>
+   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
+   <project_name>MANCHESTER STATE THOMAS, REFURB. SIGNAGE #2</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2106G09RS Manchester Unit ID Refurb REV 2.xlsx</contract_name>
       
    <section>
    <section_name>#1 3010 STATE STREET (MIDRISE BUILDING)</section_name>
@@ -220,17 +229,288 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2011G06RS</quote_num>
-   <contract_file>2106G09RS Manchester Unit ID Refurb REV 2.xlsx</contract_file>
-   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
-   <project_name>MANCHESTER STATE THOMAS, REFURB. SIGNAGE #2</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1 3010 STATE STREET (MIDRISE BUILDING)</section>
+         </section_key>
+         
+         </section_list>
+         <description>NO SMOKING (10 X 7 IN WIDE)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#1 3010 STATE STREET (MIDRISE BUILDING)</section>
+         </section_key>
+         
+         </section_list>
+         <description>RESTROOM ID (8 X 6 IN WIDE)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#1 3010 STATE STREET (MIDRISE BUILDING)</section>
+         </section_key>
+         
+         </section_list>
+         <description>MEN RESTROOM ID (8X 6 IN WIDE)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>D.</key>
+            <section>#1 3010 STATE STREET (MIDRISE BUILDING)</section>
+         </section_key>
+         
+         </section_list>
+         <description>WOMEN RESTROOM ID (8X 6 IN WIDE)</description>
+         <total_count>1</total_count>
+         <each_cost>98</each_cost>
+         <total_cost>98</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>E.</key>
+            <section>#1 3010 STATE STREET (MIDRISE BUILDING)</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS CENTER RULES (30 X 23.5 IN WIDE)</description>
+         <total_count>1</total_count>
+         <each_cost>390</each_cost>
+         <total_cost>390</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>F.</key>
+            <section>#1 3010 STATE STREET (MIDRISE BUILDING)</section>
+         </section_key>
+         
+         </section_list>
+         <description>FITNESS CENTER ID (19 X 30 IN WIDE)</description>
+         <total_count>1</total_count>
+         <each_cost>160</each_cost>
+         <total_cost>160</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>G.</key>
+            <section>#1 3010 STATE STREET (MIDRISE BUILDING)</section>
+         </section_key>
+         
+         </section_list>
+         <description>VISITOR ENTRY ID (14 X 22 IN WIDE), EXTERIOR</description>
+         <total_count>1</total_count>
+         <each_cost>185</each_cost>
+         <total_cost>185</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>H.</key>
+            <section>#1 3010 STATE STREET (MIDRISE BUILDING)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ETCHMARK &quot;LOCKER HUB&quot; ID - NEW</description>
+         <total_count>1</total_count>
+         <each_cost>89</each_cost>
+         <total_cost>89</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>I.</key>
+            <section>#1 3010 STATE STREET (MIDRISE BUILDING)</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT ID (5.5 X 8.5 IN WIDE)</description>
+         <total_count>88</total_count>
+         <each_cost>68</each_cost>
+         <total_cost>5984</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>J.</key>
+            <section>#1 3010 STATE STREET (MIDRISE BUILDING)</section>
+         </section_key>
+         
+         </section_list>
+         <description>DIRECTIONAL SIGN (19 X 30 IN WIDE) [3X LEVEL1, 3X LEVEL2, </description>
+         <total_count>12</total_count>
+         <each_cost>280</each_cost>
+         <total_cost>3360</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>L.</key>
+            <section>#1 3010 STATE STREET (MIDRISE BUILDING)</section>
+         </section_key>
+         
+         </section_list>
+         <description>STAIR ID (8.5 X 11 IN WIDE) [3X LEVEL1, 3X LEVEL2, 3X LEVEL 3, - 3X LEVEL 4]</description>
+         <total_count>12</total_count>
+         <each_cost>78</each_cost>
+         <total_cost>936</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2 BLOCK A (BROWNSTONES)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADDRESS ID (15 X 25 IN WIDE)</description>
+         <total_count>1</total_count>
+         <each_cost>130</each_cost>
+         <total_cost>130</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2 BLOCK A (BROWNSTONES)</section>
+         </section_key>
+         
+         </section_list>
+         <description>ONE WAY ID (15 X 25 IN WIDE)</description>
+         <total_count>1</total_count>
+         <each_cost>130</each_cost>
+         <total_cost>130</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2 BLOCK A (BROWNSTONES)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#3 BLOCK B (BROWNSTONES)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#4 BLOCK C (BROWNSTONES)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#5 BLOCK D (BROWNSTONES)</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT ID, SUSPENDED FROM BRACKET, DBL-SIDED (6.25 X 9 IN WIDE)</description>
+         <total_count>161</total_count>
+         <each_cost>90</each_cost>
+         <total_cost>14490</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#6 BLOCK E (TOWNHOMES)</section>
+         </section_key>
+         
+         </section_list>
+         <description>NO TRESPASSING ID, FACE ONLY (18 X 18 IN WIDE)</description>
+         <total_count>1</total_count>
+         <each_cost>210</each_cost>
+         <total_cost>210</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#6 BLOCK E (TOWNHOMES)</section>
+         </section_key>
+         
+         </section_list>
+         <description>NO PETS IN POOL 5 X 7 IN WIDE)</description>
+         <total_count>2</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>116</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#6 BLOCK E (TOWNHOMES)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#7 BLOCK F (TOWNHOMES)</section>
+         </section_key>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#8 BLOCK G (TOWNHOMES)</section>
+         </section_key>
+         
+         </section_list>
+         <description>UNIT ID (4.5 X 6 IN WIDE)</description>
+         <total_count>182</total_count>
+         <each_cost>58</each_cost>
+         <total_cost>10556</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       

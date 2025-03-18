@@ -1,7 +1,16 @@
 
       <job_info>
+      <metadata>
+      
+   <quote_num>2305G02</quote_num>
+   <contract_file>2305G02 Novel Turtle Creek Misc.xlsx</contract_file>
+   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
+   <project_name>NOVEL TURTLE CREEK - MISC SIGNAGE</project_name>
+   <project_address></project_address>
+   <designer_name></designer_name>
+   
+      </metadata>
       <contract>
-      <contract_name>2305G02 Novel Turtle Creek Misc.xlsx</contract_name>
       
    <section>
    <section_name>#1: MAIL / PACKAGE NOOK</section_name>
@@ -46,17 +55,68 @@
    </section>
    
       </contract>
-      <metadata>
-      
-   <quote_num>2305G02</quote_num>
-   <contract_file>2305G02 Novel Turtle Creek Misc.xlsx</contract_file>
-   <client_name>GREYSTAR 600 EAST LAS COLINAS BLVD., SUITE 2100 IRVING, TX 75039</client_name>
-   <project_name>NOVEL TURTLE CREEK - MISC SIGNAGE</project_name>
-   <project_address></project_address>
-   <designer_name></designer_name>
-   
-      </metadata>
       <unique_sign_list>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#1: MAIL / PACKAGE NOOK</section>
+         </section_key>
+         
+         </section_list>
+         <description>VINYL GRAPHIC &quot;WRAP&quot; TO COVER BLACK METAL MAIL &amp; PACKAGE- LOCKER DOORS AND TRIM- LEFT SIDE, OVERALL 76 X 75 IN (36 DOORS)- CENTER, OVERALL 76 X 74 IN,  (39 DOORS &amp; TOUCH SCREEN HOUSING)- RIGHT SIDE, OVERALL 76 X 74 IN, (4 DOORS)</description>
+         <total_count>1</total_count>
+         <each_cost>3590</each_cost>
+         <total_cost>3590</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>A.</key>
+            <section>#2: THE TERRACES ENTRANCE FROM GARAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>(SET) BRASS LOGO LETTERING GRAPHICS, 1/4 IN THICK, WITH- DECORATIVE METAL BACKING PLATE (PAINTED ALUMINUM), LOADS- TO COLUMN</description>
+         <total_count>1</total_count>
+         <each_cost>2055</each_cost>
+         <total_cost>2055</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>B.</key>
+            <section>#2: THE TERRACES ENTRANCE FROM GARAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>BRASS LOGO SHAPE, 16 IN X 16 IN X 1/4, PIN MOUNT TO DOOR</description>
+         <total_count>1</total_count>
+         <each_cost>790</each_cost>
+         <total_cost>790</total_cost>
+      </unique_sign>
+      
+      <unique_sign>
+         <section_list>
+         
+         <section_key>
+            <key>C.</key>
+            <section>#2: THE TERRACES ENTRANCE FROM GARAGE</section>
+         </section_key>
+         
+         </section_list>
+         <description>ADA PLATE WITH TACTILE LETTERS AND BRAILLE, 1 IN X 16 IN</description>
+         <total_count>1</total_count>
+         <each_cost>129</each_cost>
+         <total_cost>129</total_cost>
+      </unique_sign>
+      
       </unique_sign_list>
       </job_info>
       
