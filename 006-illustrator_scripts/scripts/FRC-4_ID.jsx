@@ -128,10 +128,35 @@
    }
 
    function set_sub_spreads() {
-     // this will duplicate the sub_spread template, rename the spread, fill the variable data, and continue for each section.  
-     
+      // this will duplicate the sub_spread template, rename the spread, fill the variable data, and continue for each section.  
+      try {
+         try {
+            var root_elements = doc.xmlElements[0];
+            var contract_elements = root_elements.xmlElements[1].xmlElements;
+         } catch(xml_error) {
+            // alert("Error reading xml" + xml_error);
+            throw new Error("Error reading xml root\n" + xml_error);
+         }
 
-   }
+      alert(contract_elements.length);
+      var sub_spread = doc.masterSpreads.itemByName("A-SUB-MAIN");
+
+         for (var i = 0; i < contract_elements.length; ++i) {
+            sub_spread.duplicate();
+            var len = doc.masterSpreads.length;
+            var newest_spread = doc.masterSpreads[len-1];
+            // alert(newest_spread.name);
+            var quote_number = newest_spread.pageItems.itemByName("<SHEET_DATE>");
+            var project_name = newest_spread.pageItems.itemByName("<TARGET_SHEET_TITLE>");
+            var client_name = newest_spread.pageItems.itemByName("<DESIGNER_INITIALS>");
+            var project_address = newest_spread.pageItems.itemByName("<SHEET_PG_LABELS>");             
+            alert(client_name.name);
+         }
+      } catch(sub_spread_error) {
+         alert("Error in sub_spread function" + sub_spread_error.message);
+         throw new Error("Error in sub_spread\n" + sub_spread_error);
+      }
+   }  
 
    function fill_master_spreads_xml() {
 
@@ -152,7 +177,9 @@
    }
 
    try {
-      test_xml_elements();
+      // set_main_spread();
+      set_sub_spreads();
+      // test_xml_elements();
       // create_master_page();
       // test_import_xml();
    } catch(main_err) {
