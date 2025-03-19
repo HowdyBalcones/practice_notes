@@ -1,3 +1,4 @@
+      read_file_properties(authorized_xml_file[0]);
 // TODO
 // > pre-fill an indesign book template
 //    + fill the book header with contract data, prompt the user for the info that a contract won't have

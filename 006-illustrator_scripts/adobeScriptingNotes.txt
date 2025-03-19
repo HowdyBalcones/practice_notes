@@ -1,3 +1,26 @@
+++ Working with file objects
+   > indesign and illustrator handle file objects differently. 
+      + illustrator will accept a file without the user directly authorizing it. 
+      + indesign requires the user to manually authorize the file before the application will read it. 
+      Practically, that means that there needs to be a function to manually authorize files that will get read during script execution. 
+   > the identify script will help with understanding the data structures of the api better. 
+
+++ Working with XML suite
+   > to view the xml structure currently in the document, view > structure > Show Structure
+   > doc.importXML(file, unknown options **optional, dtd file **optional);
+   > apparently indesign and importXML handle paths differently, so always use absolute paths. 
+   > the select dialog method will return an array of file paths, and this will be the most consistent way to pass files to 
+   import xml method. We can wrap the openDialog method in a function for additional utility, like handling multiple xml 
+   documents if needed. 
+   > insert the xml element into a pageItem: placeXML(pageItem);
+++ Building Master Pages with XML
+   > linking between master pages doesn't work as well as applying master page templates to other master spreads, because
+   the links duplicate elements in the XML schema, whereas the application of a master page does not.
+   > how to create a master page:   
+     how to query master page: doc.masterSpreads[idx]
+     renaming: target spreads baseName property
+
+
 ++ ExtendScript syntax and rules
 - extend script is a proprietary scripting language developed by Adobe. It runs under the hood of their software. 
 - This language is based on the ECMAScript 3 version of Javascript, so newer methods generally won't be usable. 	

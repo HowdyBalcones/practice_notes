@@ -1,3 +1,9 @@
+Todays Notes: 2025-03-19
+> working through the indesign api today, goal is to import an xml doc and get it doing some basic stuff. 
+   - worth considering how we organize the library of scripts up front, because it can quickly become a pain. 
+   - since exporting is a little funky with extendscript, we are just gonna make individual files for everything. 
+   -       
+
 Todays Notes: 2025-03-18
 > list of potential indesign automation tools
    - pre-fill master pages
@@ -11,7 +17,9 @@ Todays Notes: 2025-03-18
    - estimate page count
    - enforce certain configurations 
    - update a sign book according to contract changes 
-   - 
+   - prompt user for variables that can be filled throughout the document
+   - export updated xml to the xml database
+
 > list of xml suite features to understand
    - importXML
    - exportXML 
