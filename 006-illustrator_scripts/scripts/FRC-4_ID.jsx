@@ -127,6 +127,63 @@
 
    }
 
+   function create_section_template(acronym_str, cmyk_arr, label_str, table_type_str) {
+      var section_template = {};
+      section_template.acronym = acronym_str;
+      section_template.color_cmyk = cmyk_arr;
+      section_template.table_type = table_type_str;
+      section_template.label_type = label_str;
+      return section_template;
+   }
+
+   function create_cmky_swatch(name_str, cmyk_arr, color_space_obj) {
+      var col = {};
+      col.name = name_str;
+      col.colorValue = cmyk_arr;
+      col.space = color_space_obj;
+      return col;
+   }
+
+   function create_add_frc_colors() {
+      try {
+         var frc_colors = [
+         create_cmky_swatch("ENTRY-RED", [15,100,100,0], ColorSpace.CMYK), 
+         create_cmky_swatch("LCES-GREEN", [75,5,100,0], ColorSpace.CMYK),
+         create_cmky_swatch("LCIS-BLUE", [100,90,10,0], ColorSpace.CMYK),
+         create_cmky_swatch("SITE-ORANGE", [0,50,100,0], ColorSpace.CMYK),
+         create_cmky_swatch("GRG-PURPLE", [50,90,0,0], ColorSpace.CMYK),
+         create_cmky_swatch("BLDG-L_BLUE", [100,0,0,0], ColorSpace.CMYK),
+         create_cmky_swatch("AMTY-YELLOW", [0,0,100,0], ColorSpace.CMYK),
+         create_cmky_swatch("ADD-MAGENTA", [0,100,0,0], ColorSpace.CMYK)
+         ]
+         for (var i = 0; i < frc_colors.length; ++i) {
+            var swatch = frc_colors[i];
+
+            if (doc.colors.itemByName(swatch.name).isValid) {
+               continue;
+            }
+            doc.colors.add(swatch);
+         }
+      } catch(color_error) {
+         throw new Error("Error generating colors\n" + color_error);
+      }
+      
+   }
+   
+   function create_template_map() {
+      var section_template_map = {
+         "entry": create_section_template("ENT", "ENTRY-RED", "LABEL_ENTRY", "TABLE_ENTRY"),
+         "lces": create_section_template("LCES", "LCES-GREEN", "LABEL_LCES", "TABLE_LCES"),
+         "lcis": create_section_template("LCIS", "LCIS-BLUE", "LABEL_LCIS", "TABLE_LCIS"),
+         "site": create_section_template("SITE", "SITE-ORANGE", "LABEL_SITE", "TABLE_SITE"),
+         "garage": create_section_template("GRG", "GRG-PURPLE", "LABEL_GARAGE", "TABLE_GARAGE"),
+         "building": create_section_template("BLDG", "BLDG-L_BLUE", "LABEL_BUILDING", "TABLE_BUILDING"),
+         "amenity": create_section_template("AMTY", "AMTY-YELLOW", "LABEL_AMENITY", "TABLE_AMENITY"),
+         "addon": create_section_template("ADD", "ADD-MAGENTA", "LABEL_ADDON", "TABLE_ADDON"),
+      }
+      return section_template_map;
+   }
+
    function set_sub_spreads() {
       // this will duplicate the sub_spread template, rename the spread, fill the variable data, and continue for each section.  
       try {
@@ -137,26 +194,79 @@
             // alert("Error reading xml" + xml_error);
             throw new Error("Error reading xml root\n" + xml_error);
          }
+      var template_map = create_template_map();
 
-      alert(contract_elements.length);
+      // alert(contract_elements[0].contents);
       var sub_spread = doc.masterSpreads.itemByName("A-SUB-MAIN");
 
-         for (var i = 0; i < contract_elements.length; ++i) {
+         for (var i = 0; i < 2; ++i) {
+            var current_section_xml = contract_elements[i];
+            var current_section_name = current_section_xml.xmlElements[0].contents;
+            var current_section_name_xml = current_section_xml.xmlElements[0];
+            var template_map_section = create_section_page(current_section_name, template_map);
+            // alert(current_section_xml.contents);
+            // alert(template_map_section.acronym);            
+
             sub_spread.duplicate();
+
             var len = doc.masterSpreads.length;
             var newest_spread = doc.masterSpreads[len-1];
-            // alert(newest_spread.name);
-            var quote_number = newest_spread.pageItems.itemByName("<SHEET_DATE>");
-            var project_name = newest_spread.pageItems.itemByName("<TARGET_SHEET_TITLE>");
-            var client_name = newest_spread.pageItems.itemByName("<DESIGNER_INITIALS>");
-            var project_address = newest_spread.pageItems.itemByName("<SHEET_PG_LABELS>");             
-            alert(client_name.name);
+
+            var sheet_date = newest_spread.pageItems.itemByName("<SHEET_DATE>");
+            var sheet_title = newest_spread.pageItems.itemByName("<TARGET_SHEET_TITLE>");
+            var designer_initials = newest_spread.pageItems.itemByName("<DESIGNER_INITIALS>");
+            var sheet_pg_label = newest_spread.pageItems.itemByName("<SHEET_PG_LABEL>");             
+            try {
+               // alert(sheet_pg_labels.constructor.name);
+               if (sheet_date.isValid && sheet_title.isValid && sheet_pg_label.isValid) {
+                  sheet_pg_label.fillColor = doc.colors.itemByName(template_map_section.color_cmyk);
+               }
+            } catch(sub_spread_obj_error) {
+               throw new Error("Error referencing sub_spread pageItems\n" + sub_spread_obj_error);
+            }
          }
       } catch(sub_spread_error) {
          alert("Error in sub_spread function" + sub_spread_error.message);
          throw new Error("Error in sub_spread\n" + sub_spread_error);
       }
-   }  
+   } 
+
+   function create_section_page(section_name_str, template_map) {
+     
+      try {
+         var kw_regex_list = {
+            "entry": /entry signage/gi,
+            "leasing": /leasing center/gi,
+            "exterior": /exterior/gi,
+            "interior": /interior/gi,
+            "site_sign": /site signage/gi,
+            "building": /building/gi,
+            "garage": /garage/gi,
+            "amenity": /amenity/gi,
+            "addon": /addon/gi
+         }
+        
+         if (section_name_str.match(kw_regex_list.entry)) {
+            return template_map.entry;
+         } else if (section_name_str.match(kw_regex_list.leasing) && section_name_str.match(kw_regex_list.exterior)) {
+            return template_map.lces;
+         } else if (section_name_str.match(kw_regex_list.leasing) && section_name_str.match(kw_regex_list.interior)) {
+            return template_map.lcis;
+         } else if (section_name_str.match(kw_regex_list.site_sign)) {
+            return template_map.site;
+         } else if (section_name_str.match(kw_regex_list.garage)) {
+            return template_map.garage;
+         } else if (section_name_str.match(kw_regex_list.building)) {
+            return template_map.building;
+         } else if (section_name_str.match(kw_regex_list.amenity)) {
+            return template_map.amenity;
+         } else if (section_name_str.match(kw_regex_list.addon)) {
+            return template_map.addon;
+         }
+      } catch(section_page_creation_err) {
+         throw new Error("Error creating section page\n" + section_page_creation_err);
+      }
+   }
 
    function fill_master_spreads_xml() {
 
@@ -178,6 +288,7 @@
 
    try {
       // set_main_spread();
+      create_add_frc_colors();
       set_sub_spreads();
       // test_xml_elements();
       // create_master_page();

@@ -19,7 +19,11 @@
    > how to create a master page:   
      how to query master page: doc.masterSpreads[idx]
      renaming: target spreads baseName property
-
+   > it's probably worth adding a build section to each sign data point, because it could be a field
+   that's inserted into every document and gets filled by designers over time. This would start 
+   the process of creating the build database. 
+   > section key needs to include the count for each section, because it still refers to discrete 
+   sections of a property. 
 
 ++ ExtendScript syntax and rules
 - extend script is a proprietary scripting language developed by Adobe. It runs under the hood of their software. 

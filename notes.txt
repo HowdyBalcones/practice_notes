@@ -1,3 +1,63 @@
+Todays Notes: 2025-03-20
+> correcting a note from yesterday, since extendscript is funky with exports, we should probably rely on modules. 
+   - main benefit is the code is organized in a sane fashion
+   - we don't have to load thousands of lines at once or on the other end organize hundreds of tiny functions
+   - it would be worth understanding the debugging process for the granular approach, how to write a function 
+   that can handle its own errors gracefully. I think it's probably just proper try/catch but there is probably
+   more to it. 
+> we left off writing the loop for duplicating and filling master pages with the different information from the contract
+   - we can probably reuse a lot of the recoloring functions in this, which is fun. 
+   - need to group those into a module lol. 
+   - 
+> there was an error in one of the xml files yesterday
+   - one of the section titles isn't getting trimmed properly, so the space at the end is reading as part of the string. 
+
+> more understanding of the api is needed 
+   - this will happen with time but it's worthwhile to just do experiments 
+   - experiments are what led us to the xml solution
+   - if we didn't do the json experiment, we wouldn't have tried loading into indesign, which means we wouldn't 
+   have looked for better options, meaning we could have continued to look over the xml utilities. 
+   - I'm wondering how connected to the internet we can make a single document. Like if you could have an 
+   entire table thats directly connected to a database on the server, without the user having to select files 
+   on the local server. Or you could have the user manually selecting the database connection, but from a 
+   browser interface. 
+   - the two way street aspect of this whole xml linking is interesting, potentially double edged. 
+   On one hand we want our users to apply their training in a more expansive way throughout the company. 
+   Our sign designers have a relatively high expertise in the subject, meaning they are qualified to interpret
+   and organize the data in a sign contract. That information will still go through quality checks during the 
+   composition of a book. So it conforms to our goal to extend the effort of individuals farther through 
+   the production chain.
+   On the other hand, we might not want people to have unfettered write access to sensitive database information. 
+   Because people are still people, and also security reasons. That's why implementing a basic revision control
+   system is probably high up there on the list of priority. It should probably work like collecting all the writes
+   in a given time frame and syncing them to a db reflection. That reflection gets compared to the main db and 
+   procedes from there. 
+   Another more likely risk comes from people who have access that are not qualified to make these changes. 
+   Someone could push changes to a job without any understanding of the implications, or maliciously. The designer
+   or quality team might not notice before those changes actually are written to the database. User authentication 
+   will be needed, though it's less priority than the revision control for now. 
+   It's important to convey the leverage all the different tools we've made so far and plan to make will give us. 
+   Making something fast is one part of the plan, improving accuracy is another, but flexibility is the overarching
+   principle. If we want to change the book font, either for every book made in the past two years or just for a single 
+   page in a few books still in production, that should be relatively easy. Currently it's unfeasibly time consuming. 
+   Much the same goes for art assets. If the goal were to correct builds that exist in old books, or to even just mark
+   those builds as deprecated, it would take a long time. That process should take less than a day, preferably within
+   a few hours. 
+   Building a foundation that future projects can build on top of without getting held down by old thinking is one goal. 
+   Another is permitting the good parts of old thinking to persist through that foundation, allowing staff and labor
+   from before new procedures to still be useable in this new era. Both can coexist, so long as there is a fair bargain
+   between differing processes. If you choose to do something in a less efficient manner, it must only affect yourself. 
+   If it affects more than yourself, then you have to take ownership of that extra time. If something is rushed 
+   because of a demand you have over the process that extra stress is your fault, full stop. And it should be traceable 
+   back to the person taking that extra time. No casting blame where it doesn't belong. 
+   We are getting off topic, but it's a concept that can be applied in time. We are at the forefront of a new era at
+   this company, making thirty years of effort and time into a platform that can operate in the future. Using old tech,
+   mind the reader. Old tech is cutting edge here, and just bringing the powers that be to that long traversed 
+   precipice will be a challenge on its own. The gains to be had are material and significant. I will not waste my life
+   repeating the mistakes of older generations, and neither should me colleagues. 
+   CLB
+    
+
 Todays Notes: 2025-03-19
 > working through the indesign api today, goal is to import an xml doc and get it doing some basic stuff. 
    - worth considering how we organize the library of scripts up front, because it can quickly become a pain. 
