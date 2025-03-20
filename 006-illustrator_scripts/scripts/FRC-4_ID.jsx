@@ -232,7 +232,6 @@
    } 
 
    function create_section_page(section_name_str, template_map) {
-     
       try {
          var kw_regex_list = {
             "entry": /entry signage/gi,
@@ -245,7 +244,6 @@
             "amenity": /amenity/gi,
             "addon": /addon/gi
          }
-        
          if (section_name_str.match(kw_regex_list.entry)) {
             return template_map.entry;
          } else if (section_name_str.match(kw_regex_list.leasing) && section_name_str.match(kw_regex_list.exterior)) {
