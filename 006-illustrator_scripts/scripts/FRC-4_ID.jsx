@@ -199,7 +199,7 @@
       // alert(contract_elements[0].contents);
       var sub_spread = doc.masterSpreads.itemByName("A-SUB-MAIN");
 
-         for (var i = 0; i < 2; ++i) {
+         for (var i = 0; i < contract_elements.length; ++i) {
             var current_section_xml = contract_elements[i];
             var current_section_name = current_section_xml.xmlElements[0].contents;
             var current_section_name_xml = current_section_xml.xmlElements[0];
@@ -220,6 +220,8 @@
                // alert(sheet_pg_labels.constructor.name);
                if (sheet_date.isValid && sheet_title.isValid && sheet_pg_label.isValid) {
                   sheet_pg_label.fillColor = doc.colors.itemByName(template_map_section.color_cmyk);
+                  sheet_pg_label.contents = sheet_pg_label.contents.replace("TEMP", template_map_section.acronym);
+                  sheet_title.contents = current_section_name;
                }
             } catch(sub_spread_obj_error) {
                throw new Error("Error referencing sub_spread pageItems\n" + sub_spread_obj_error);
@@ -285,11 +287,10 @@
    }
 
    try {
-      // set_main_spread();
+      set_main_spread();
       create_add_frc_colors();
       set_sub_spreads();
       // test_xml_elements();
-      // create_master_page();
       // test_import_xml();
    } catch(main_err) {
       throw new Error('Error with main script\n' + main_err);
