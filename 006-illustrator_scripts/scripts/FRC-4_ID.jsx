@@ -178,6 +178,7 @@
          "site": create_section_template("SITE", "SITE-ORANGE", "LABEL_SITE", "TABLE_SITE"),
          "garage": create_section_template("GRG", "GRG-PURPLE", "LABEL_GARAGE", "TABLE_GARAGE"),
          "building": create_section_template("BLDG", "BLDG-L_BLUE", "LABEL_BUILDING", "TABLE_BUILDING"),
+         "basement": create_section_template("BSMT", "BLDG-BLUE", "LABEL_BUILDING", "TABLE_BUILDING"),
          "amenity": create_section_template("AMTY", "AMTY-YELLOW", "LABEL_AMENITY", "TABLE_AMENITY"),
          "addon": create_section_template("ADD", "ADD-MAGENTA", "LABEL_ADDON", "TABLE_ADDON"),
       }
@@ -199,7 +200,7 @@
       // alert(contract_elements[0].contents);
       var sub_spread = doc.masterSpreads.itemByName("A-SUB-MAIN");
 
-         for (var i = 0; i < contract_elements.length; ++i) {
+         for (var i = 0; i < 3; ++i) {
             var current_section_xml = contract_elements[i];
             var current_section_name = current_section_xml.xmlElements[0].contents;
             var current_section_name_xml = current_section_xml.xmlElements[0];
@@ -222,6 +223,7 @@
                   sheet_pg_label.fillColor = doc.colors.itemByName(template_map_section.color_cmyk);
                   sheet_pg_label.contents = sheet_pg_label.contents.replace("TEMP", template_map_section.acronym);
                   sheet_title.contents = current_section_name;
+                  newest_spread.baseName = template_map_section.acronym;
                }
             } catch(sub_spread_obj_error) {
                throw new Error("Error referencing sub_spread pageItems\n" + sub_spread_obj_error);
@@ -242,6 +244,7 @@
             "interior": /interior/gi,
             "site_sign": /site signage/gi,
             "building": /building/gi,
+            "basement": /basement/gi,
             "garage": /garage/gi,
             "amenity": /amenity/gi,
             "addon": /addon/gi
@@ -262,6 +265,8 @@
             return template_map.amenity;
          } else if (section_name_str.match(kw_regex_list.addon)) {
             return template_map.addon;
+         } else if (section_name_str.match(kw_regex_list.basement)) {
+            return template_map.basement;
          }
       } catch(section_page_creation_err) {
          throw new Error("Error creating section page\n" + section_page_creation_err);
@@ -287,7 +292,7 @@
    }
 
    try {
-      set_main_spread();
+      // set_main_spread();
       create_add_frc_colors();
       set_sub_spreads();
       // test_xml_elements();

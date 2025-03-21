@@ -1,3 +1,89 @@
+Todays Notes: 2025-03-21
+> work on the section identifier, 
+> we got done with the master page script yesterday. 
+   + we need to create some testing facilities for these scripts. Something like opening 10 docs, importing
+   xml into each, then running the master page creation. 
+   + want to modularize the page templates so the objects are in their own file, along with their fact functions
+   + 
+
+> next script would be the spotting page builder. 
+   + that needs to create spotting labels, adjust the page title label, and eventually allow for the placement 
+   of the plan images. 
+
+> what is the vision? 
+   + get credit and get paid. 
+   + implement changes that take a static series of processes and make them increasingly dynamic and documented. 
+   + Dynamic means: 
+      - the manual, static process becomes increasingly automatic and flexible. Speed and iteration is the new norm.  
+      - changes to essential information are automatically distributed through the production chain
+      - when there are changes it either updates it's relevant assets automatically or notifies someone who can change it
+      - maintains records of the data from first revision to final copy
+      - traceability - it is possible to determine the who/what/when/where that went into important decisions
+   + documented means: 
+      - WHY something exists is written down and meaningfully tied to an essential process. 
+      - HOW something gets done is explicitly described, with goals and stages of completion. 
+      - WHO does the thing is tied to a clear role within the company, team
+      - WHAT is used to accomplish the task is clear and defined simply, allowing for an appropriate amount of flexibility.
+   + reorganize our server so mostly things don't break but the new scheme is much easier for everyone to use. 
+      - everything is in one place. 
+      - naming makes sense
+      - searchability 
+      - useability: every team can do their job without stepping on eachothers toes, but won't be as isolated as they are now
+      - faster, faster, and faster. 
+   + Make every team member faster over time. Multiply improvements as they occur. 
+      - as the understanding and expertise of a user increases, their output should be more efficient. With current
+      procedures and tools that is not always the case. Even with good understanding of what needs to be done, there 
+      is still a lot of mundane and repetitive work. Automating that labor multiplies efficiency PER USER. For the 
+      company those gains are obviously valuable. For individuals, that means less time per project, less labor 
+      overall, and more time spent on their lives. Win win. 
+      - Improve self sufficiency. Questions have tiers of complexity, and they should meet a certain threshold of importance
+      and difficulty before being brought to a manager. Otherwise it should be something that user can look up and 
+      figure out on their own.
+      - When there is a departmental change, it should be relatively painless and consistent to implement. With 
+      centralized data, automation, and documentation, changes that are currently impossible or inconsistent can 
+      happen quickly. 
+      - Reduce error, increase transparency. It should be rare that an installed sign is incorrect. Errors should get
+      pointed out early, quickly, and the corrections should be easy, fast, and reliable. When there is eventually
+      an error it should be clear who made it, when it was made, and how it was made. 
+      - When something is done well, it should be made known that task or project was of high quality and who was responsible
+      - Every team should be on the same page regarding project completion. Each person should know their role in that 
+      process. 
+> How to achieve the vision
+   + understanding the goals
+      - company, team, project, individual goals are clear and defined at all times.   
+   + organizing information, data is a tool and not a burden
+      - centralization
+      - accuracy
+      - updateability
+      - searchability  
+      - restructuring the server to accomodate these needs.
+      - formatting data for the people who rely on it. 
+   + custom automation tools 
+      - make slow processes fast
+      - fast processes more accurate 
+      - reduce user error 
+      - reduce lead times 
+      - increase consistency and reliability
+      - this is all achieved through scripting and training of team members in modern standards.
+      - make data accessible to those who need it, changeable by those with expertise. 
+   + defined processes 
+      - documentation is reliable and comprehensive 
+      - each team has a discrete end goal
+      - when teams pass off work to one another everyone knows what is expected
+      - quality checks are faster, more accurate, and more frequent. 
+      - questions are brought to the right people 
+      - standards are based on testing and not opinion 
+      - this is done by retraining, writing things down, communicating clearly and often with teams. 
+   + Production and installation needs are understood and codified 
+   + Projects are transparent and tracked in detail 
+
+
+
+
+ 
+      
+    
+
 Todays Notes: 2025-03-20
 > correcting a note from yesterday, since extendscript is funky with exports, we should probably rely on modules. 
    - main benefit is the code is organized in a sane fashion
