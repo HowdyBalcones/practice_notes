@@ -1,3 +1,30 @@
+Todays Notes: 2025-03-24
+> left LCES FS aw, elev egresses, hw directionals
+   + scaled and book comps tomorrow
+   + the arbor mess in the morning perhaps depends on how I am feeling
+
+> we have the master page template script, with a few things left: 
+   - break the objects out, name them something slightly more coherent
+   - link them into the script 
+   - use the objects to rename the actual master page objects, right now it just changes the labels on the page
+> then I want to start the page building section
+   - make spotting labels
+   - apply the parent pages that we made in the previous script
+   - create the descriptions that should go on each page
+   - create and fill the tables that should go on spotting pages
+   - create spotting pages -- this could go in the master pages section as another page type, need to consider
+   + the goal for all these is to place the xml data objects into a book object with around 95% accuracy, meaning the user 
+   doesn't have to move or otherwise correct the information more than 5% of the time. Placing the xml objects is key because 
+   without properly dropping them into the document people will fuck the data up. 
+> job setup script
+   - make job folders, organize like the current makeJob script but with node
+   - pull contract, run contract cleaners, save in correct job folder
+   - export xml
+   - link the job folder from sign books
+   - copy and name template for indd files
+   - copy and name ai files in prod artwork folder
+   
+
 Todays Notes: 2025-03-21
 > work on the section identifier, 
 > we got done with the master page script yesterday. 

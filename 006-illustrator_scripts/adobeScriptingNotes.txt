@@ -13,6 +13,7 @@
    import xml method. We can wrap the openDialog method in a function for additional utility, like handling multiple xml 
    documents if needed. 
    > insert the xml element into a pageItem: placeXML(pageItem);
+
 ++ Building Master Pages with XML
    > linking between master pages doesn't work as well as applying master page templates to other master spreads, because
    the links duplicate elements in the XML schema, whereas the application of a master page does not.
@@ -24,6 +25,31 @@
    the process of creating the build database. 
    > section key needs to include the count for each section, because it still refers to discrete 
    sections of a property. 
+
+++ Testing object for validity and type
+   > indesign handles this a lot differently than illustrator
+   > testing for types: 
+   object.constructor.name;
+   > testing for validity
+   object.isValid;
+
+++ modifying the prototype chain
+   > this is generally considered amongst the worst of practices. Handles with care, there is usually a better solution. 
+   >> This brings information from the contract list into the section object -- based on a custom object, not part of EXScript API
+    Section.prototype.filterSections = function(list) {
+        var mainList = parser(list);
+        this.signList.push(mainList[2]);
+     }
+   
+     Section.prototype.alertSections = function() {
+      alert(this.signList.toString());
+     }
+   
+   Section.prototype.makeBox = function() {
+      var newBox = doc.textFrames.add();
+      newBox.name = this.name + "-testing";
+      newBox.contents = this.signList;
+   }
 
 ++ ExtendScript syntax and rules
 - extend script is a proprietary scripting language developed by Adobe. It runs under the hood of their software. 

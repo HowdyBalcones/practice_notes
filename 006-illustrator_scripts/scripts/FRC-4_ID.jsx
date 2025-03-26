@@ -56,22 +56,8 @@
       }
    }
 
-   function create_master_page() {
-      alert(doc.masterSpreads[0].name);
-      var name_test = 'TESTING';
-      var spreads_len = doc.masterSpreads.length;
-      var main_spread = doc.masterSpreads[0];
-      var sub_main_spread = doc.masterSpreads.itemByName("A-SUB-MAIN");
-      sub_main_spread.duplicate();
-      var duplicated_sub_spread = doc.masterSpreads[spreads_len];
-      alert(duplicated_sub_spread.name)
-      duplicated_sub_spread.baseName = name_test;
-      // var spread_2 = sub_main_spread.duplicate();
-      // alert(sub_main_spread.name);
-      alert("Spread length: " + spreads_len);
-      // alert(spread_2.name);
-   }
-
+// this adds the xml to the main parent spread. This was a lot of testing and figuring things out, not all of it gets used.
+// consider condensing
    function set_main_spread() {
       // access the xml tree 
       var root_elements = doc.xmlElements[0];
@@ -108,23 +94,6 @@
       xml_project_name.placeXML(project_name);
       xml_project_address.placeXML(project_address);
       alert("Set main spread information");
-      
-    // set sub_spread variables
-    // alert(quote_number.name + project_name.name + client_name.name + project_address.name);
-    // alert(designer_initials.name);
-    // for (var i = 0; i < metadata_elements.length; ++i) {
-    //      str += metadata_elements[i].contents + '\n';
-    // }
-    //  var target_text = sub_spread.pageItems[0];
-    //  alert(find_test.constructor.name);
-    //  if (find_test && find_test.isValid) {
-    //     alert("FOUND");
-    //     alert(find_test.name);
-    //     find_test.name = "<RENAMED_TEST>";
-    //  } else {
-    //     alert("NOT FOUND");
-    //  }
-
    }
 
    function create_section_template(acronym_str, cmyk_arr, label_str, table_type_str) {
@@ -196,15 +165,14 @@
             throw new Error("Error reading xml root\n" + xml_error);
          }
       var template_map = create_template_map();
-
-      // alert(contract_elements[0].contents);
       var sub_spread = doc.masterSpreads.itemByName("A-SUB-MAIN");
 
-         for (var i = 0; i < 3; ++i) {
+         for (var i = 0; i < contract_elements.length; ++i) {
             var current_section_xml = contract_elements[i];
             var current_section_name = current_section_xml.xmlElements[0].contents;
             var current_section_name_xml = current_section_xml.xmlElements[0];
             var template_map_section = create_section_page(current_section_name, template_map);
+            
             // alert(current_section_xml.contents);
             // alert(template_map_section.acronym);            
 
@@ -273,10 +241,6 @@
       }
    }
 
-   function fill_master_spreads_xml() {
-
-   }
-
    function prompt_user_variables() {
 
    }
@@ -300,9 +264,4 @@
    } catch(main_err) {
       throw new Error('Error with main script\n' + main_err);
    }
-
-  
-
-   // alert("testing")
-
 }())

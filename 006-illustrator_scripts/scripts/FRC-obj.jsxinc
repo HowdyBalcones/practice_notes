@@ -1,61 +1,82 @@
+function Client() {
+    this.client_name = "";
+    this.active_jobs = [];
+    this.archived_jobs = [];
+    this.client_information = [];    
+}
 
-   function Client() {
-       this.client_name = "";
-       this.active_jobs = [];
-       this.archived_jobs = [];
-       this.client_information = [];    
-    }
-   function Job() {
-      this.job_number = "";
-      this.job_name = "";
-   }
+function Job() {
+   this.job_number = "";
+   this.job_name = "";
+}
 
-   function Contract(contract_name, job_id, data) {
-      this.data = data;
-      this.job_id = job_id;
-      this.revision = 0;
-      this.contract_name = contract_name;
-      this.contract_list = [];
-      this.section_list = [];
-      this.sign_list = [];
-      this.build_list = [];
-      this.labels_list = [];
-    }
+function Contract(contract_name, job_id, data) {
+   this.data = data;
+   this.job_id = job_id;
+   this.revision = 0;
+   this.contract_name = contract_name;
+   this.contract_list = [];
+   this.section_list = [];
+   this.sign_list = [];
+   this.build_list = [];
+   this.labels_list = [];
+ }
 
 
 // These get pushed onto the section_list of the contract object
-// 
 function Section(section_name, job_id) {
       this.section_name = section_name;
       this.sign_list = [];
 }
 
-   function Sign(section, item_key, count, description) {
-      this.build = [];
-      this.height = null;
-      this.width = null;
-      this.section = section;
-      this.item_key = item_key;
-      this.count = count;
-      this.description = description;
-      this.attached_label = null;
-   }
+function Sign(section, item_key, count, description) {
+   this.build = [];
+   this.height = null;
+   this.width = null;
+   this.section = section;
+   this.item_key = item_key;
+   this.count = count;
+   this.description = description;
+   this.attached_label = null;
+}
 
-// This brings information from the contract list into the section object
-//    Section.prototype.filterSections = function(list) {
-//        var mainList = parser(list);
-//        this.signList.push(mainList[2]);
-//     }
-//
-//     Section.prototype.alertSections = function() {
-//      alert(this.signList.toString());
-//     }
-//
-//   Section.prototype.makeBox = function() {
-//      var newBox = doc.textFrames.add();
-//      newBox.name = this.name + "-testing";
-//      newBox.contents = this.signList;
-//   }
+// >> section for indesign related objects <<
+
+// this creates the object that is used to fill the various elements on a page.
+function create_section_template(acronym_str, cmyk_arr, label_str, table_type_str) {
+   var section_template = {};
+   section_template.acronym = acronym_str;
+   section_template.color_cmyk = cmyk_arr;
+   section_template.table_type = table_type_str;
+   section_template.label_type = label_str;
+   return section_template;
+}
+
+// this assembles the template objects into an index of templates, returns the index as an object
+function create_template_map() {
+   var section_template_map = {
+      "entry": create_section_template("ENT", "ENTRY-RED", "LABEL_ENTRY", "TABLE_ENTRY"),
+      "lces": create_section_template("LCES", "LCES-GREEN", "LABEL_LCES", "TABLE_LCES"),
+      "lcis": create_section_template("LCIS", "LCIS-BLUE", "LABEL_LCIS", "TABLE_LCIS"),
+      "site": create_section_template("SITE", "SITE-ORANGE", "LABEL_SITE", "TABLE_SITE"),
+      "garage": create_section_template("GRG", "GRG-PURPLE", "LABEL_GARAGE", "TABLE_GARAGE"),
+      "building": create_section_template("BLDG", "BLDG-L_BLUE", "LABEL_BUILDING", "TABLE_BUILDING"),
+      "basement": create_section_template("BSMT", "BLDG-BLUE", "LABEL_BUILDING", "TABLE_BUILDING"),
+      "amenity": create_section_template("AMTY", "AMTY-YELLOW", "LABEL_AMENITY", "TABLE_AMENITY"),
+      "addon": create_section_template("ADD", "ADD-MAGENTA", "LABEL_ADDON", "TABLE_ADDON"),
+   }
+   return section_template_map;
+}
+
+// this is a factory function that creates swatch objects for indesign
+function create_cmky_swatch(name_str, cmyk_arr, color_space_obj) {
+   var col = {};
+   col.name = name_str;
+   col.colorValue = cmyk_arr;
+   col.space = color_space_obj;
+   return col;
+}
+
 
 
 
