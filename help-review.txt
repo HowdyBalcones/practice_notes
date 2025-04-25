@@ -2,126 +2,310 @@ This is a review of Bash and Zsh syntax, useful Unix commands, and references to
 ++ References
 - https://www.gnu.org/software/bash/manual/bash.html
 - https://zsh.sourceforge.io/Doc/Release/zsh_toc.html
+- https://man.freebsd.org/cgi/man.cgi?query=&apropos=0&sektion=0&manpath=macOS+15.4.1&arch=default&format=html
 
+++ Commands macos XNU/UNIX/BSD
+> ls - list directory contents
+> cd - move through directory hierarchy 
+> mkdir - make a new directory
+> rmdir - remove a directory
+> rm - remove files, -R for all files, handle with care
+> open - open a file, directory, program, etc
+> head - view the top section of a file or output, default 10 lines
+> tail - view the bottom section of a file or output, default 10 lines
+> cat - reads input to std out
+> col - 
+> 
+> printf - print text to console, with lots of formatting options!
+> echo - output to console, with less formatting options!
 
-++ Commands
-ls - list directory contents
-cd - move through directory hierarchy 
-mkdir - make a new directory
-rmdir - remove a directory
-rm - remove files, -R for all files, handle with care
-open - open a file, directory, program, etc
-find - a powerful way to search and interact with files
-grep - a very powerful way to search for files, contents of files, regex compatible
-  + grep -i 
-  + egrep -i 'search term'
-  + 
-sed - a line editor and filter program, regex compatible, quite handy
-++ awk - a programming language for text, powerful and arcane
-cp - copy a file at one point in file hierarchy to another point in the file hierarchy
-++ rsync - copy many files to a directory, offers additional utility such as ignoring duplicates
-cron - set commands, programs, scripts, etc to run on a schedule while the machine is active
-crontab - view the existing cron commands in a table
-head - view the top section of a file or output, default 10 lines
-tail - view the bottom section of a file or output, default 10 lines
-top - view many pieces of information about OS, Machine, current processes, imagine a text based Windows Task Manager but OG 
-btop - an improved top with graphical overlay using ncurses lib
-ps - view processes specifically, defaults to current commands running in the shell
-kill - kill a process via multiple targets and signals
-killall - kill multiple processes via multiple targets and signals 
-stat - return info about file passed as argument, useful! Especially if you need to know things about a file in conditions. 
-printf - print text to console, with lots of formatting options!
-echo - output to console, with less formatting options!
-print - 
+> find - a powerful way to search and interact with files
+   + find /Volumes/Graphics/Select\ III/001_Components -depth 1 -type d -name "*$1*" | sed 's/\ /\\ /g '
+   + find /given/dir -type f -iname "*testing*"
+   + find /given/dir -type f -iregex '.*\.ai$'
+   
+   + searching server for font file extensions
+   + find . -type f \( -iregex '.*\.ttf$' -o -iregex '.*\.otf$' -o -iregex '.*\.woff$' -o -iregex '.*\.woff2$
+   ' -o -iregex '.*\.eot$' -o -iregex '.*\.sfd$' -o -iregex '.*\.pfb$' -o -iregex '.*\.dfont$' \) -exec cp {}   ~/Desktop/000-TEST/font_search_server/ \;
 
-++ tar -
-  making zipped tarball - the tar.gz extension
-tar -czf nameOfArchive2Make.tar.gz /Path/To/File-or-Dir
+   + searching current dir for a directory with text matching first arg passed to a script
+   + find . -type d -maxdepth 2 -iname "*$1*"
 
-searching gzipped tarball -
-tar -tzf targetArchive.tar.gz | grep -i searchTerm
+   + find files newer - or older + than N days. Use just number for exact times.
+   + find [path] -type f -mtime [+-]N
+   
+   + same as above, in seconds
+   + find [path] -type f -mmin [+-]N
+   
+   + find files accessed (read/opened) N days
+   + find . -type f -atime [+-]N
+   + find . -type f -amin [+-]N
+   
+   + find files whose metadata (permissions/ownership) changed N days/minutes ago
+   + find . -type f -ctime [+-]N
+   + find . -type f -cmin [+-]N
+   
+   + find files newer than reference file or timestamp
+   + find . -newer [reference_file]
+   
+   + as above but with timestamps, worth looking into how these work
+   + find . -newer[acm]t "YYYY-MM-DD HH:MM:SS"
+   
+   + mixing time options for specificity
+   + find . -mtime -2 -atime +7
+   + find . -ctime 0 -mmin +60
 
-extracting specific file from a gzipped tarball
-tar -xzf targetArchive.tar.gz path/to/file-s
+   + using find to search by file size
+   c = bytes, b = 512 byte blocks, k = kilobytes, M = megabytes, G = gigabytes
+   + find . -size [+-]n[cwbkMG]
 
+   + using exec to interact with return values
+   the {} will be the file path returned by find, expanded into text.
+   Must terminate with \; 
+   + find . -type f -exec {} \;
+   + find . -type f -exec cp {} /target/dir \;
+   + find . -type f -exec stat {} \; 
+   + find . -type f -atime -1 -size -10M -exec stat -f "%z %N" {} \;
 
-mount 
-unmount
+> grep - text search
+   + egrep -i 'search term'
+
+> sed - a line editor and filter program, regex compatible, quite handy
+> awk - a programming language for text, powerful and arcane
+> cp - copy a file at one point in file hierarchy to another point in the file hierarchy
+
+> rsync - copy files to a directory, offers additional utility such as ignoring duplicates
+   + rsync -v /src/path/ /dest/path/
+   + rsync -v /src/path/*.{pdf,jpg,png} /dest/path/
+> openrsync - newer version of rsync in use on latest BSD / Linux / Macos systems
+   + synchronizes files in the destination directory with one or more source files
+   Either the source or destination may be remote, but not both. 
+   
+   + examples
+   + openrsync [OPTIONS] SRC DEST
+   SRC = source dir/file
+   DEST = destination for SRC, local or remote
+   
+   + dry run - simulates any changes
+   + openrsync -n -a ~/Docs/ /backups/Docs
+
+   + sync to remote server 
+   + openrsync -a ~/Src_Dir/ user@remote:/backup/destination_dir
+
+   + Delete extra files - removes files in DEST not present in SRC
+   + openrsync -a --delete ~/Photos/ /backup/Photos/
+
+> stat - display file metadata, BSD stat is different than GNU
+   + -f flags 
+   %z = file size, %N = filename, %SHp permissions, %Sp = raw permissions, %Sm = modify time
+   + stat [opts] given_file
+   + stat -f "%z" file.txt
+   
+
+++ user mgmt
+> login - logs users or pseudo users into the computer system
+   + /etc/motd = message of the day 
+   + /etc/nologin = disallows logins
+   + /var/run/utmpx = current logins
+   + /var/mail/user = system mailboxes
+   + /etc/pam.d/login = pam(8) config file
+   + /etc/security/audit_user = user flags for auditing
+   + /etc/security/audit_control = global flags for auditing
+> pam - configure authentication for the login command
+> chpass -
+> csh - 
+> newgrp - 
+> passwd - 
+> rlogin - 
+> getpass -
+
+> utmpx - 
+> environ -
+
+> cron - set commands, programs, scripts, etc to run on a schedule while the machine is active
+> crontab - view the existing cron commands in a table
+
+> top - view many pieces of information about OS, Machine, current processes  
+> btop - an improved top with graphical overlay using ncurses lib
+
+> ps - view processes specifically, defaults to current commands running in the shell
+   + ps aux          # general purpose list of all processes, sorted by %CPU
+     ps aux -r       # sort by %CPU descending 
+     ps aux -m       # sort by memory descending
+   + ps -ej          # print process group and session ids
+   + ps -U root      # show processes for a given user
+   + ps -M 1234      # show thread level details
+   + ps aux -m | head -n 5       # show top memory usage processes
+   + ps aux -r | head -n 5       # show top cpu usage processes
+
+> kill - kill a process via multiple targets and signals
+   + kill [signal] pid
+   + kill 3 75786          # send QUIT signal to process 75786
+   + kill 9 5000           # send KILL signal to process 5000
+ 
+> killall - kill multiple processes via multiple targets and signals 
+   
+
+> tar -
+   +  making zipped tarball - the tar.gz extension
+   tar -czf nameOfArchive2Make.tar.gz /Path/To/File-or-Dir
+
+   + searching gzipped tarball -
+   tar -tzf targetArchive.tar.gz | grep -i searchTerm
+
+   + extracting specific file from a gzipped tarball
+   tar -xzf targetArchive.tar.gz path/to/file-s
+
+> mount 
+> unmount
 
 ++ networking
+> sockets
+   + software structure within a network node of a computer network 
+   + endpoint for sending and receiving data across the network
+   + defined by an API for the networking architecture
+   + created during the lifetime of a process of an application running in the node
+   
+   + network socket / internet socket - externally identified by its socket address
+   a combination of the transport protocol, IP address, and port number
+   
+   + socket is analagous to an electrical female connector 
+   + port is used for external physical endpoints at a node or device 
+   
+   + ports, another communication endpoint. Within an operating system, a port is a logical
+   construct that identifies a specific process or type of network service.
+      - a port number is a combination of an IP address and transport protocol. 16-bit unsigned integer.
+   + most common transport protocols are: 
+      - Transmission Control Protocol (TCP)
+      - User Datagram Protocol (UDP)
+   + The port completes the destination and origin addresses of a message within a host to 
+   point to an operating system process. 
+   + Specific ports are reserved for well known processes. 
+      - Ports below 1024 are known as well-known port numbers
+      - Ports above 1024 are known as ephemeral port numbers
+   + Ports provide multiplexing service for multiple services or multiple communication sessions at one 
+   network address. In the client-server model of application architecture, multiple simultaneous 
+   communication sessions may be initiated for the same service. 
 
+   
 
-netstat -r 
-ifconfig -- very powerful networking tool. Can change/filter MAC addresses. 
-dig
-traceroute
-ping
+   + an API for the network protocol stack creates handles for each socket created by an application
+   often called a socket descriptor. In UNIX, this is a type of file descriptor. It is stored by the 
+   application process for use with every read and write operation on the communication channel
+   
+   + once an API creates the network socket, it is bound to a type of network protocol,
+   network address, and port number. 
+
+> node 
+   + redistribution point or communication endpoint within telecommunication networks
+   + a physical node is a device capable of creating, receiving, or transmitting information
+   over a communication channel
+   + includes data communication equipment (modem, hub, bridge, switch) or data terminal
+   equipment (digital telephone set, printer, host computer)
+   + different from a passive distribution point such as distribution frame or patch panel
+   + 
+
+> netstat -r 
+> ifconfig -- very powerful networking tool. Can change/filter MAC addresses. 
+> dig
+> traceroute
+> ping
 
 ++ hardware information
-system_profiler
+> system_profiler
    + SPSoftwareDataType
    + SPHardwareDataType
    + SPNetworkDataType
-diskutil list
-df -h
-df -f # print information regarding disk space usage in a readable format
-top
-vm_stat
+> diskutil list
+> df -h
+> df -f # print information regarding disk space usage in a readable format
+> top
+> vm_stat
 
 ++ system configuration
-sysctl
-dmesg
-ioreg
-system_setup
-csrutil
-spctl
-launchctl
-pmset -g
+> sysctl
+> dmesg
+> ioreg
+> system_setup
+> csrutil
+> spctl
+> launchctl
+> pmset -g
+ 
+> uname
+> hostname
+> sw_vers
+> uptime
 
-uname
-hostname
-sw_vers
-uptime
+++ Signals
+> sigaction
+   + system defined set of signals that can be delivered to a process. 
+   + resembles a hardware interrupt, the signal is blocked from reoccurring, the current process context is saved, and a new one is built.
+   + processes can specify a handler to which a signal is delivered, or if the signal is to be ignored. Handlers respond to given signals. 
+   + processes can also specify a default process to use when a signal is delivered.
+   + a process can block a given signal, in which case the delivery of the signal is delayed until the signal is unblocked
+   + the action taken is determined on delivery.
+   
+   + Normally signals are handled on the current stack of the process, this can change on a per handler basis, so signals are handled
+   in a special signal stack. 
+   + signal routines normally start with their invoker blocked, but other signals may occur. 
+   + a Global Signal Mask defines the set of signals currently blocked from delivery to a process. 
+   + the Signal mask for a process is normally initialized from that of its parent, typically empty. 
+   + the default Signal Mask can be altered with sigprocmask calls, or when a signal is delivered to the process. 
+   
+   + when a Signal Condition arises for a process, the signal is added to a set of signals pending for the process. 
+   + if a signal is not currently blocked by the process, then it is delivered to the process. 
+   + a signal can be delivered at any time to a process that has entered the operating system. 
+   + 
+
+> signal
+> trap
+> siginterrupt
+> read
+> write
+> sendto
+> recvfrom
+> sendmsg
+> recvmsg
+> ioctl
+> wait
 
 
+> magick
+   + magick convert
+   + convert
 
+> brew 
+   + search
+   + list
+   + install
+   + uninstall
 
-
-magick
-magick convert
-convert
-
-brew 
-+ search
-+ list
-+ install
-+ uninstall
-
-npm
-+ list 
-+ list -g
+> npm 
+   + list 
+   + list -g
 
 git - complicated
   + add to repo
-# pull the latest changes
-git pull origin master
+> pull the latest changes
+   git pull origin master
 
-# stage the changes
-git add <dir> or <file>
+> stage the changes
+   git add <dir> or <file>
 
-# commit the changes
-git commit -m "Some notes on the commit"
+> commit the changes
+   git commit -m "Some notes on the commit"
 
-# finally push it !
-git push origin master
+> finally push it !
+   git push origin master
 
-  + pull from repo for new workstation
-git fetch origin
-git pull
-git pull --rebase // useful
+> pull from repo for new workstation
+   git fetch origin
+   git pull
+   git pull --rebase // useful
 
-# check out useful repo information
-git status
+> check out useful repo information
+   + git status
 
 ++ Databases
 sqlite -- for c and c++ probably, very flexible
@@ -135,49 +319,50 @@ sqlite3 -- for many languages, bash/zsh compatible
 	.help -- important, rest of commands here
 
 ++ Shell syntax and command structures
-  + declare variables - <varName>='string' <varName>=1234
-  + environment variables - export PATH=$PATH:/custom/path
-  + expand variables - $<varName>
-  + parameter expansion 
-	- <varName>=${givenCommands}
-  + command Substitution - executes command in subshell and replaces command substitution with output, /n deleted
- 	- $(command)	
-  + arithmetic expansion - math
-	- $(( expression ))
-  + substring extraction
-   	
-  + declare functions 
-	- functionName () {}
-  + for in loop 
-	- for <var> in "target"; do done
-   - for ((i = 0; i < "$length"; ++i)) {}
+   > declare variables - <varName>='string' <varName>=1234
+   > environment variables - export PATH=$PATH:/custom/path
+   > expand variables - $<varName>
+   > parameter expansion 
+      - <varName>=${givenCommands}
+   > command Substitution - executes command in subshell and replaces command 
+     substitution with output, /n deleted
+      - $(command)	
+   > arithmetic expansion - math
+      - $(( expression ))
+   > substring extraction
+    	
+   > declare functions 
+      - functionName () {}
+   > for in loop 
+      - for <var> in "target"; do done
+      - for ((i = 0; i < "$length"; ++i)) {}
 
-  + declare array 
-	- <varName>=("item1" "item2" "item3")
-	- echo "${<varName>[0]}" - print "item1"
-	- echo "${<varName>[@]}" - 
+   > declare array 
+      - <varName>=("item1" "item2" "item3")
+      - echo "${<varName>[0]}" - print "item1"
+      - echo "${<varName>[@]}" - 
 
-  + declare associative array - typeset
-	- typeset -A
+   > declare associative array - typeset
+      - typeset -A
 
-  + positional parameters
-	- ${1..9} 
+   > positional parameters
+      - ${1..9} 
 
-  + special parameters
-	- $# number of positional parameter
-	- $@ all positional parameters (individually quoted)
-	- $* all pos. params (single string)
-	- $? exit status of the last command
-	- $$ process id of the current shell
-	- $! process id of the last background shell
-	- $- current options set for the shell
-	- $_ last argument of the previous shell
+   > special parameters
+      - $# number of positional parameter
+      - $@ all positional parameters (individually quoted)
+      - $* all pos. params (single string)
+      - $? exit status of the last command
+      - $$ process id of the current shell
+      - $! process id of the last background shell
+      - $- current options set for the shell
+      - $_ last argument of the previous shell
 
-  + if statements
-	- if [[ conditional boolean ]]; then
-	  elif [[ second conditional ]]; then
-	  fi
+   > if statements
+      - if [[ conditional boolean ]]; then
+        elif [[ second conditional ]]; then
+        fi
 
-  + IFS - a list of characters that separate fields; used when the shell splits words as part of expansion
+   > IFS - a list of characters that separate fields; used when the shell splits words as part of expansion
   
 
