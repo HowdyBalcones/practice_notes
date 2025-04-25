@@ -114,6 +114,9 @@ This is a review of Bash and Zsh syntax, useful Unix commands, and references to
 > pam - configure authentication for the login command
 > chpass -
 > csh - 
+> chown
+   + chown -R usernameToConvert targetFolder
+   
 > newgrp - 
 > passwd - 
 > rlogin - 
@@ -259,7 +262,7 @@ This is a review of Bash and Zsh syntax, useful Unix commands, and references to
    + 
 
 > signal
-> trap
+> trap - also known as an interrupt, a request to the processer to interrupt currently executing code
 > siginterrupt
 > read
 > write
