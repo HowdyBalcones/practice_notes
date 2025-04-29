@@ -1,20 +1,54 @@
+Todays Notes: 2025-04-29
+> checklist for presentation on Thursday 
+   + parties are on board, make the meeting time official today 
+   + create list of talking points and small demonstration 
+   + recreate the database of contracts, convert to XML, place onto server. 
+   + work on XML visualization. 
+
+
 Todays Notes: 2025-04-25
-- pre-fill master pages
-   - pre-fill tables by section
+   Meeting Agenda 
+   - present current programming milestones, contextualize their utility
+   - discuss our recent procedure changes, how programming augments these changes
+   - getting feedback on different needs from management, sign design, production teams. What problems do we have and what is 
+   priority for getting solved? What's the biggest bang for our buck? 
+   - setting a schedule for future programming goals, general time table based on feedback.
+
+   General Programming/Scripting Projects 
+   - database of contract data - (currently functional)
+   - convert contract into various types of data. Currently can transform between .xlsx, .json, .xml, .csv, .txt
+   - upload contract into any indesign file. - (currently functional)
+   - configure any template to work with current or future scripting tools. - (proof of concept made)
+   - create interface for contract database - (proposed)
+   - tools for quality checking contracts at scale - (proposed)
+   - coordinate contract database with artwork database - (proposed)
+   - working from the artwork database, build a template library of functional illustrator assets - (proposed) 
+
+   Book building tools
+   - pre-fill master pages (proof of concept example)
+   - pre-fill tables for each section outlined by contract
    - pre-fill sign description names, with standard formatting "key - description x count"
-   - build table from unique sign list
-   - generate spotting tags for each section
-   - place all prebuilt assets into book, based on section
-   - create turn tracking
-   - export specific pages according to turn
-   - estimate page count
-   - enforce certain configurations
-   - update a sign book according to contract changes
-   - prompt user for variables that can be filled throughout the document
-   - export updated xml to the xml database
-   - create a checklist based on the "working" or "intermediary" contract
-   - synchronize the middle contract with the given indesign project, and syncing the contract based on changes made to 
-   the book and its various tables. 
+   - generate spotting tags for each section. Using the Key element from the XML schema, generate labels for spotting.
+   - place all prebuilt assets into book, based on section. Each table, label, description, would be placed onto it's relevant book page.
+   - update a sign book according to contract changes. The intermediate file created in the database could be altered in Excel and would 
+   change it's linked objects in the indesign document after prompting the user. The reverse is true, changes to linked objects
+   in the indesign book can alter the intermediate contract. This would eliminate a lot of clerical work synchronizing contracts with books.
+   
+   Job Organization tools
+   - unique sign list, a table of every unique sign name in a given contract. It can be pre-sorted with the desired logic.
+   Example: All unit IDS, Stairwells, Hallways Directionals, are grouped together, with their Section IDs and Keys applied. 
+   - create turn tracking. Sections belonging to a given turn could be placed into the XML schema, and would persist for the life 
+   of that indesign file (and any copies made of that file).
+   - export specific pages according to turn schedule, or multiple turns at once to their own files.
+   - estimate page count from contract stage.
+   - create reconcilliation tools that would compare initial and final contracts and display differences.
+   - create a master checklist based on the "working" or "intermediary" contract. 
+
+   Standardization tools
+   - ensure certain indesign configurations are always enabled / disabled.
+   - prompt user for variables that can be filled throughout the document, IE address, phone, materials list, turn list, certain notes, etc.
+   - backup indesign files after every export to a central database
+   
 Todays Notes: 2025-04-24
 > coopers row is w/ m3, he's workin his magic on it.
 

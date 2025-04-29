@@ -288,6 +288,16 @@ This is a review of Bash and Zsh syntax, useful Unix commands, and references to
    + list 
    + list -g
 
+> pipx, pip3, pip
+   + python package managers
+   + this came up because I was configuring YCM to not be so slow after reinstalling. 
+   Need to set up packages that aren't included in Homebrew through pip, but to avoid conflicting with
+   Homebrew it needs to be configured inside a virtual environment. Used the below: 
+   python3 -m venv ~/.ycm_venv
+   source ~/.ycm_venv/bin/activate
+   // here I rebuild ycm-core
+   deactivate // to exit the venv
+
 git - complicated
   + add to repo
 > pull the latest changes
