@@ -1,3 +1,81 @@
+Todays Notes: 2025-05-01
+
+1. How Easy are they to understand / use, who can use the scripts? 
+   - anybody with access to the server where the scripts are stored can use them. They'd be built from day 1 to emphasize ease of use.
+   For the scripts that make a lot of changes, or especially advanced tools like a contract database, there might be a 5 minute demo video.
+
+2. How to use? 
+   - A designer places the script into their script folder and runs them as needed.
+   - In the future, we could sync peoples script folder automatically with a folder on the server.
+
+3. Importing / Exporting procedure - There are a number of routes we can go with this. 
+
+   - One would be nothing really changes with how we export books. You would go to the normal indesign export menu and run it from there. 
+   The XML would update in the background, the database would track the new revision, and the designer wouldn't have to bother with it. 
+
+   - Two, we could have a script for exporting the books, and build our own exporting logic into the scripts. A designer would run the 
+   script instead of using the export menu. A script can control everything and more that's in that export menu.  
+
+4. What scripts are most useful? 
+   - Book Automation Tools
+      + prefill bubbles -- super easy, a good first stepping stone.
+      + prefill descriptions -- also super easy, might just complete alongside the label automation
+      + automatic tables - contracts would get put into tables based on section
+      + set up book pages 
+      + automatic layout -- sign pages would be laid out according to contract information. The "how" is pretty technical.
+      The end result would be normal looking sign book pages that adjust according to contract information. 
+   - Central Database 
+      + A searchable library of contract data. It would be filterable by information that's 
+      already in the contract, so date the contract was signed, by client, by sign description name, etc.
+      + The primary use would be for research, training, and building other tools. It also delegates a lot of questions away from mgmt. 
+
+5. What is the starting point? 
+   - I would draft up some milestones based on our conversations and deliver them on a certain schedule. 
+
+6. How do we test them with the team? 
+   - We would do extensive tests one each tool before it's put on the server and given to the team. 
+
+7. How do designers work on the same project at the same time? 
+   - The different job queues for projects are already pretty isolated from each other. But nothing about the scripts would change our 
+   ability to work on the same files.
+
+8. 4 months = 50% faster
+   - Thats a conservative estimate. If my primary job is building these tools it's got potential to happen faster than 
+   four months. 
+   - The 50% faster depends on what tools I build. The Centralized Database wouldn't speed anyone up by much, it would 
+   just make information easier to access across the company. If I only worked on book automation, those tools would speed 
+   the entire team up quite a bit. 50% would just be the starting point there. 
+
+9. Is this Sign Agent but with a Fource logo? 
+   - Not at all. It's much closer to modding a game to have the exact features you want, but the designer/programmer is inhouse 
+   and can make whatever the team needs.
+   - We aren't tied down to another new piece of software. The scripts work on top of what we already know.
+
+10. How do we choose a direction? 
+   - This is easy to answer if I can get problems we want to solve down. 
+
+   Problems can be general: book production is slow. Changes suck to make in the middle of a job. Repetitive data entry, with high
+   chance of error. Clerical work that takes the time of multiple people to get through.
+
+   Problems can be specific: When I export, the page labels are weird, how do I fix that? When I'm linking things to indesign, is there
+   a way to drop them onto the exact page that I want? 
+   
+   From my experience working on this so far, I have an idea of what's difficult and what's easy, what really saves a lot of time
+   and what is bigger picture. 
+
+   My starting inclination: Book layout automation. That's labels, descriptions, tables, pages, all set up from one script. 
+
+
+    
+   
+
+> doing the presentation today. prep the sign den table and set up using the tv. 
+
+
+Todays Notes: 2025-04-30
+> left off on sorting practice with the quicksort variants. Need to reinforce the partition concept, as well as how the left and 
+right boundaries are being determined. Should rewatch the visualizations and slow down. 
+
 Todays Notes: 2025-04-29
 > checklist for presentation on Thursday 
    + parties are on board, make the meeting time official today 

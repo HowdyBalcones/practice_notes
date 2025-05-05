@@ -105,7 +105,7 @@
       return section_template;
    }
 
-   function create_cmky_swatch(name_str, cmyk_arr, color_space_obj) {
+   function create_cmyk_swatch(name_str, cmyk_arr, color_space_obj) {
       var col = {};
       col.name = name_str;
       col.colorValue = cmyk_arr;
@@ -116,15 +116,18 @@
    function create_add_frc_colors() {
       try {
          var frc_colors = [
-         create_cmky_swatch("ENTRY-RED", [15,100,100,0], ColorSpace.CMYK), 
-         create_cmky_swatch("LCES-GREEN", [75,5,100,0], ColorSpace.CMYK),
-         create_cmky_swatch("LCIS-BLUE", [100,90,10,0], ColorSpace.CMYK),
-         create_cmky_swatch("SITE-ORANGE", [0,50,100,0], ColorSpace.CMYK),
-         create_cmky_swatch("GRG-PURPLE", [50,90,0,0], ColorSpace.CMYK),
-         create_cmky_swatch("BLDG-L_BLUE", [100,0,0,0], ColorSpace.CMYK),
-         create_cmky_swatch("AMTY-YELLOW", [0,0,100,0], ColorSpace.CMYK),
-         create_cmky_swatch("ADD-MAGENTA", [0,100,0,0], ColorSpace.CMYK)
+         create_cmyk_swatch("ENTRY-RED", [15,100,100,0], ColorSpace.CMYK), 
+         create_cmyk_swatch("LCES-GREEN", [75,5,100,0], ColorSpace.CMYK),
+         create_cmyk_swatch("LCIS-BLUE", [100,90,10,0], ColorSpace.CMYK),
+         create_cmyk_swatch("SITE-ORANGE", [0,50,100,0], ColorSpace.CMYK),
+         create_cmyk_swatch("GRG-PURPLE", [50,90,0,0], ColorSpace.CMYK),
+         create_cmyk_swatch("BLDG-L_BLUE", [100,0,0,0], ColorSpace.CMYK),
+         create_cmyk_swatch("AMTY-YELLOW", [0,0,100,0], ColorSpace.CMYK),
+         create_cmyk_swatch("ADD-MAGENTA", [0,100,0,0], ColorSpace.CMYK),
+         create_cmyk_swatch("UNIT_ID-TEAL", [59,2,44,0], ColorSpace.CMYK),
+         create_cmyk_swatch("SPOTTING_ID-D_TEAL", [80, 10, 45, 0], ColorSpace.CMYK),
          ]
+         // checks if the swatches already exist in the target doc, if not adds them
          for (var i = 0; i < frc_colors.length; ++i) {
             var swatch = frc_colors[i];
 
@@ -149,6 +152,8 @@
          "building": create_section_template("BLDG", "BLDG-L_BLUE", "LABEL_BUILDING", "TABLE_BUILDING"),
          "basement": create_section_template("BSMT", "BLDG-BLUE", "LABEL_BUILDING", "TABLE_BUILDING"),
          "amenity": create_section_template("AMTY", "AMTY-YELLOW", "LABEL_AMENITY", "TABLE_AMENITY"),
+         "unit_ids": create_section_template("UNIT", "UNIT_ID-TEAL", "LABEL_UNITS", "TABLE_UNITS"),
+         "spotting": create_section_template("SPOTTING", "SPOTTING_ID-D_TEAL", "LABEL_SPOTTING", "TABLE_SPOTTING"),
          "addon": create_section_template("ADD", "ADD-MAGENTA", "LABEL_ADDON", "TABLE_ADDON"),
       }
       return section_template_map;
@@ -212,6 +217,7 @@
             "interior": /interior/gi,
             "site_sign": /site signage/gi,
             "building": /building/gi,
+            "just_level": /level/gi,
             "basement": /basement/gi,
             "garage": /garage/gi,
             "amenity": /amenity/gi,
@@ -228,6 +234,8 @@
          } else if (section_name_str.match(kw_regex_list.garage)) {
             return template_map.garage;
          } else if (section_name_str.match(kw_regex_list.building)) {
+            return template_map.building;
+         } else if (section_name_str.match(kw_regex_list.just_level)) {
             return template_map.building;
          } else if (section_name_str.match(kw_regex_list.amenity)) {
             return template_map.amenity;
@@ -256,7 +264,7 @@
    }
 
    try {
-      // set_main_spread();
+      set_main_spread();
       create_add_frc_colors();
       set_sub_spreads();
       // test_xml_elements();

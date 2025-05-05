@@ -107,7 +107,7 @@ if (selectedItems.length > 0) {
 	alert("No items are selected!");
 }
 
-//process_selected([setFillColor, rotateItem]);
-//process_selected([random_stroke, setFillColor]);
-process_selected([random_stroke]);
+process_selected([setFillColor, rotateItem, repositionItem]);
+// process_selected([random_stroke, setFillColor]);
+// process_selected([random_stroke]);
 
