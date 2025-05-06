@@ -75,6 +75,8 @@ function maxDepth(root) {
 // This is an interesting problem, creating a "forest" of trees. 
 // Given an array, represent the starting point as -1, the root value as the index value of -1, and then proceding children as the index values 
 // of the preceding parent. If there are index values that are equal, they belong to the same parent.
+// EXAMPLE: const arr = [-1,-1,-1,-1,-1];
+//          const tree_arr = [0, 1, 2, 3, 4]; // output 
 // If there are multiple -1 values, that indicates multiple trees, with each -1 value being a new root with a node value of its index. 
 // The Problem: Insertion into n-ary tree in given order and Level order traversal
 //
@@ -88,57 +90,16 @@ function maxDepth(root) {
 // 5. scan the array for other nodes with a value equal to that child of -1, here c1. If there is an equal, it becomes the child of of c1. 
 // 6. The process repeats. Scan the array for a node value equal to c2. The index of any equal node values become the children of c2. 
  
-// function insertNode(root, parent, node) {
-//    if (!root) {
-//       root = node;
-//    } else {
-//       if (root.data === parent) {
-//          root.children.push(node);
-//       } else {
-//          for (let i = 0; i < root.children.length; ++i) {
-//             if (root.children[i].data === parent) {
-//                insertNode(root.children[i], parent, node);
-//          }
-//       }
-//    }
-// }
-// 
-// function levelOrder(prev_level) {
-//    let current_level = [];
-//    let print_data = [];
-//    let len = prev_level.length;
-// 
-//    if (len === 0) return;
-// 
-//    for (let i = 0; i < len; ++i) {
-//       let prev_level_len = prev_level[i].children.length;
-//       
-//       for (let j = 0; j < prev_level_len; ++j) {
-//          
-//          // put all the children into the current.level list
-//          current_level.push(prev_level[i].children[j]);
-//          
-//          // copy current level list into prev_level
-//          print_data.push(prev_level[i].children[j].data);
-//       }
-//    }
-//    prev_level = current_level;
-//    for (let i of print_data) {
-//       console.log(i of " ");
-//    }
-//    levelOrder(prev_level);
-// }
-// 
-// function levelOrderRoot(root) {
-//    if (root) {
-//       let level = [];
-//       level.push(root);
-//       console.log(root.data);
-//       levelOrder(level);
-//    }
-// }
-
 let parents = [-1, 0, 0, 1, 2, 3, 4, 4];
+
+/* OUTPUT
+
+0
+1 2
+3 4
+5 6 7
+
+*/
 
 function buildForest(parents) {
    // this makes nodes from the input parent array, _ is a convention meanin ignore this parameter
@@ -154,16 +115,21 @@ function buildForest(parents) {
          roots.push(nodes[i]);
       } else {
          // add current node as child to its parent
+         console.log(`Node: ${nodes[parent_val].data}`)
          nodes[parent_val].children.push(nodes[i]);
+
       }
    }
-
+   // here we return the root, it's essentially a list of all the trees.
+   // This function connects the tree to it's root, so returning the roots 
+   // like giving the full tree back. 
    return roots;
 }
 
 function printForest(roots) {
    let level = [...roots];
 
+   // using while instead of recursion here
    while (level.length > 0) {
       const nextLevel = [];
       const values = level.map(node => node.data);
@@ -176,9 +142,13 @@ function printForest(roots) {
    }
 }
 
-const example_forest = buildForest(parents);
-printForest(example_forest);
+// Problem 3: Binary Tree Definition - Diameter of a Binary Tree
+// Data structure is a hierarchical data structure where each node has at most two children, a left-child and right-child.
+// Often used for efficient storage and retrieval of data, insertion, deletion, and traversal
+//
 
+const example_forest = buildForest(parents);
+// printForest(example_forest);
 
 const test_root = new genericTreeNode(1);
 test_root.children.push(new genericTreeNode(2));
