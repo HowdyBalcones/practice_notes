@@ -26,7 +26,7 @@
       - section color
       -- add section table type -- added to the section template, tag in template
       -- add section label type -- added to the section template, need to tag in the template correctly
-      -- add spotting pages to the master page list
+      -- add spotting pages to the master page list -- use the spotting page label template but add the title block information w/ the word spotting
       -- add checks for existing master pages
 
       + Handled by the page making script
@@ -145,6 +145,7 @@
    // the template factory function is utilized here, creating a lookup table (dictionary) based on their section names so 
    // conditional logic can be applied based on what the section is. 
    function create_template_map() {
+      // creates a dictionary of objects, refer to by the section name
       var section_template_map = {
          "entry": create_section_template("ENT", "ENTRY-RED", "LABEL_ENTRY", "TABLE_ENTRY"),
          "lces": create_section_template("LCES", "LCES-GREEN", "LABEL_LCES", "TABLE_LCES"),
@@ -161,24 +162,30 @@
       return section_template_map;
    }
 
+   // goal here is to create a page with the spotting page template, but with the given sections information
+   function create_spotting_page(current_section_template, template_map) {
+      var spotting_template = template_map.spotting;
+      alert(spotting_template.isValid);
+   }
+
    function set_sub_spreads() {
       // this will duplicate the sub_spread template, rename the spread, fill the variable data, and continue for each section.  
       try {
          try {
-            var root_elements = doc.xmlElements[0];
-            var contract_elements = root_elements.xmlElements[1].xmlElements;
+            var root_elements = doc.xmlElements[0];      // the root of the contract tree, job info
+            var contract_elements = root_elements.xmlElements[1].xmlElements;    // the contract section of job info, each section 
          } catch(xml_error) {
             // alert("Error reading xml" + xml_error);
             throw new Error("Error reading xml root\n" + xml_error);
          }
-      var template_map = create_template_map();
-      var sub_spread = doc.masterSpreads.itemByName("A-SUB-MAIN");
-
+      var template_map = create_template_map(); 
+      var sub_spread = doc.masterSpreads.itemByName("A-SUB-MAIN"); // this is how we target a specific spread in the template document
+         // meat and potatoes of setting the master pages, this actually reads the XML data and correlates it with the template objects
          for (var i = 0; i < contract_elements.length; ++i) {
             var current_section_xml = contract_elements[i];
             var current_section_name = current_section_xml.xmlElements[0].contents;
             var current_section_name_xml = current_section_xml.xmlElements[0];
-            var template_map_section = create_section_page(current_section_name, template_map);
+            var template_map_section = create_section_page(current_section_name, template_map); // this is the actual template that is going to be loaded based on the information in the XML
             
             // alert(current_section_xml.contents);
             // alert(template_map_section.acronym);            
@@ -186,9 +193,9 @@
             sub_spread.duplicate();
 
             var len = doc.masterSpreads.length;
-            var newest_spread = doc.masterSpreads[len-1];
+            var newest_spread = doc.masterSpreads[len-1]; // we reference the duplicate of the sub_spread here, 
 
-            var sheet_date = newest_spread.pageItems.itemByName("<SHEET_DATE>");
+            var sheet_date = newest_spread.pageItems.itemByName("<SHEET_DATE>");    // here the various tagged elements of the page are created.
             var sheet_title = newest_spread.pageItems.itemByName("<TARGET_SHEET_TITLE>");
             var designer_initials = newest_spread.pageItems.itemByName("<DESIGNER_INITIALS>");
             var sheet_pg_label = newest_spread.pageItems.itemByName("<SHEET_PG_LABEL>");             
