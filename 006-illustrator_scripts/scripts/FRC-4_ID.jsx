@@ -4,57 +4,54 @@
       throw new Error("No open document to target\n");
    }
 
-   function auth_xml_db() {
-      var files = File.openDialog("Select files for authorization: ", undefined, true);
-      return files; 
-   }
+// TODO:
+// - check if the main spread is set already, if not don't run
+// - same for the create_section_page, which should be renamed create_section_master_pages
+//   it also needs to check if the master pages already exist based on some value, and only create the neccesary ones
+// - layout the needs for prompt_user_variable, which may end up using the template_page_object in order to set certain values
+// - layout the plans for the template page object
+// - tag the section spotting bubble objects
+// - tag the section table objects
+// - XML search function 
+// - sign lookup tables, return instructions based on the matches 
+// - master page script needs to name the actual master page more specifically, 
+//   it also needs to create the spotting page name for the page title section
 
-   function read_file_properties(file_obj) {
-      var str = 'Object Properties:';
-      for (var key in file_obj) {
-         str += 'key: ' + key + ' : ' + 'property: ' + file_obj[key];
-      }      
-      alert(str);
-   }
+   /* 
+   template_page_object - based on the section_template object but it needs to be more comprehensive
+   various list of tags.
+      
+      + Handled by the master page script. 
+      - section acronym
+      - section color
+      -- add section table type -- added to the section template, tag in template
+      -- add section label type -- added to the section template, need to tag in the template correctly
+      -- add spotting pages to the master page list
+      -- add checks for existing master pages
 
-   // for most cases, this will show us object internals
-   var displayObjProperties = function(object) {
-      var propertiesArr = [];
-      for (var key in object) {
-         if (object.hasOwnProperty(key)) {
-            propertiesArr.push(key + ": " + object[key]);
-         }
-      }
-      var sorted = propertiesArr.sort();
-      alert(sorted.join("\n"))
-   }
+      + Handled by the page making script
+      -- how to estimate which page will receive which signs? 
+      -- available artwork space
+      -- placing sign description names onto the correct pages
+      -- placing build names with their relevant signs, onto the correct pages
+      -- labeling the signs according to the table data that is placed from xml 
 
-   // this will test for various properties of a file. 
-   function test_file(obj) {
-      try {
-        if (!obj.exists) {
-           throw new Error("File does not exist: " + test_file.fsName);
-        }
-        // displayObjProperties(doc.pages[0]);
-        alert("File Path: " + obj.fsName);
-        alert("File exists: " + obj.exists);
-        alert("Is readable: " + obj.length);
-        alert("Full Path: " + obj.absoluteURI);
-        alert("Type: " + typeof obj);
-        alert("Permissions: " + obj.openPermission);
-        alert("Readable: " + obj.readonly);
-        alert("Encoding: " + obj.encoding);
-        for (var key in obj) {
-           alert("Property and Key: " + obj[key]);
-        }
+      + How to build the build index 
+      - stage 0: tag and establish build index functionality. That's - unique sign names can be brought into tables in the index, a user can fill the build description in the table
+      - stage 1: import unique descriptions into the index tables, import collected signs into the index tables
+      - stage 2: manually fill the build tables with the relevant sign builds? Tag the master index wth a class tag
+      - stage 3: this is normally a manual process, where the proper builds are linked to the index table item
+                 but it can be automated, so long as we can find every instance of the related sign throughout the book. 
+      - stage 4: upload the build data to a section of the xml schema 
+      - stage 5: any further changes or adjustments are either handled automatically through links between XML and index tables, or index tables and page objects
+      -- not sure the exact setup, but there will be a master index table with every sign. This main index table will have a column for sign class.
+         The sign class will correlate individual line items with their build. The build index table will have a 
+         > How can we get the sign class tags to be consistent? Our use case doesn't take into account users yet. 
+         > The build index table can perform a lookup on the master index table, if there is a description and cost match it can add the tag to the line item in the build index table 
+         > a script to add line items with the same build to the same table
 
-        alert("property test: " + obj.hasOwnProperty("readonly"))
-        alert(Object.getOwnPropertyNames(obj));
+   */
 
-      } catch(e) {
-           throw new Error("Error testing object: " + e);
-      }
-   }
 
 // this adds the xml to the main parent spread. This was a lot of testing and figuring things out, not all of it gets used.
 // consider condensing
@@ -96,6 +93,7 @@
       alert("Set main spread information");
    }
 
+   // this is supposed to return an object that contains all of the page specfic objects that will later be targeted with XML data
    function create_section_template(acronym_str, cmyk_arr, label_str, table_type_str) {
       var section_template = {};
       section_template.acronym = acronym_str;
@@ -105,6 +103,7 @@
       return section_template;
    }
 
+   // a function to create any desired indesign CMYK swatch
    function create_cmyk_swatch(name_str, cmyk_arr, color_space_obj) {
       var col = {};
       col.name = name_str;
@@ -113,6 +112,7 @@
       return col;
    }
 
+   // creates the frc_colors object, then checks the doc to see if they're already there. 
    function create_add_frc_colors() {
       try {
          var frc_colors = [
@@ -142,6 +142,8 @@
       
    }
    
+   // the template factory function is utilized here, creating a lookup table (dictionary) based on their section names so 
+   // conditional logic can be applied based on what the section is. 
    function create_template_map() {
       var section_template_map = {
          "entry": create_section_template("ENT", "ENTRY-RED", "LABEL_ENTRY", "TABLE_ENTRY"),
@@ -253,15 +255,6 @@
 
    }
 
-   function test_import_xml() {
-     // var file_path = 'practice_notes/010-npm_node/02-results/000-xml_lib/2001E01S Encore Lower Broadway Signage.xml';
-     // var desktop_folder = Folder.desktop;
-     // var testing_file1 = new File(desktop_folder.fsName + '/' + file_path);
-      var testing_file2 = auth_xml_db();
-      alert(testing_file2[0].exists);
-      var root_element = doc.importXML(testing_file2[0]);
-
-   }
 
    try {
       set_main_spread();
