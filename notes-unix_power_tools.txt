@@ -1,0 +1,18 @@
+Shelley Powers, Jerry Peek, Tim O'Reilly, Mike Loukides - Unix Power Tools (2002)
+
+>> Ch 1
+> introduction
+   + an operating system with decades worth of useful extensions and utilities 
+   + a shell avoids GUI clutter, condenses tools into a single space and a series of commands
+     The shell is called a "command interpreter", it's job is to interpret commands you type and send them to the OS
+   + another type of program is an interactive command, or application. Text editors, mail programs, etc
+   + A GUI program or graphical user interface program. 
+   + core of UNIX is a kernel, 
+> 1.5 programs are designed to work together
+   + applications are tools, good tools perform a specific function but usable for many different functions
+   + to accomplish that, these general principles apply
+      Within limits, the output of a program should be useable as input for another program.
+      All the information passed to a program should come from the command line or a stream of data. 
+      If no arguments are given, a program should read std-input and write to std-output 
+   + there are lots of different shells. sh refers to bash or the original Bourne shell
+   

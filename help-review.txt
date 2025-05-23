@@ -40,7 +40,8 @@ This is a review of Bash and Zsh syntax, useful Unix commands, and references to
 > tail - view the bottom section of a file or output, default 10 lines
 > cat - reads input to std out
 > col - 
-> 
+> tr - translate characters
+   + 
 > printf - print text to console, with lots of formatting options!
 > echo - output to console, with less formatting options!
 
