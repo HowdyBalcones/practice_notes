@@ -1,4 +1,26 @@
 This is a review of Bash and Zsh syntax, useful Unix commands, and references to practical applications of data structures. 
+++ Research further
+> ffmpeg -- multimedia encoder/decoder
+> pandoc -- text file converter
+> libreOffice -- headless
+   + unoserver -- libreOffice file converter
+> docx2txt -- msword doc converter, could be useful when changing policies to .txt
+> fontforge -- work directly with font files from the cli
+> tiv -- terminal image viewer. idk
+> ranger -- file viewer / explorer for cli
+> wordnet -- cli dictionary 
+   + ispell
+   + gramma
+> presenterm -- convert markdown to different presentation formats
+> rclone -- rsync for cloud 
+> joplin -- note taking app, seems robust
+> mpv -- media player
+> tmux -- screen manager, overpowered. Need to learn the use cases and basics. 
+> curl -- og data transfer 
+> 
+
+
+
 ++ References
 - https://www.gnu.org/software/bash/manual/bash.html
 - https://zsh.sourceforge.io/Doc/Release/zsh_toc.html
@@ -11,7 +33,10 @@ This is a review of Bash and Zsh syntax, useful Unix commands, and references to
 > rmdir - remove a directory
 > rm - remove files, -R for all files, handle with care
 > open - open a file, directory, program, etc
+
 > head - view the top section of a file or output, default 10 lines
+   + head -c 100 /path/file      // print first 100 characters of a file
+
 > tail - view the bottom section of a file or output, default 10 lines
 > cat - reads input to std out
 > col - 
@@ -69,8 +94,10 @@ This is a review of Bash and Zsh syntax, useful Unix commands, and references to
 
 > grep - text search
    + egrep -i 'search term'
+   + grep -xFf file1 file2       // print lines of file2 that exist in file1
 
 > sed - a line editor and filter program, regex compatible, quite handy
+
 > awk - a programming language for text, powerful and arcane
 > cp - copy a file at one point in file hierarchy to another point in the file hierarchy
 
@@ -101,7 +128,9 @@ This is a review of Bash and Zsh syntax, useful Unix commands, and references to
    + stat [opts] given_file
    + stat -f "%z" file.txt
    
-
+> dict - works with dictionaries, or just key/value pairs
+   
+   
 ++ user mgmt
 > login - logs users or pseudo users into the computer system
    + /etc/motd = message of the day 
@@ -198,6 +227,10 @@ This is a review of Bash and Zsh syntax, useful Unix commands, and references to
    
    + once an API creates the network socket, it is bound to a type of network protocol,
    network address, and port number. 
+
+++ automation
+> at
+
 
 > node 
    + redistribution point or communication endpoint within telecommunication networks
@@ -349,6 +382,8 @@ sqlite3 -- for many languages, bash/zsh compatible
    > for in loop 
       - for <var> in "target"; do done
       - for ((i = 0; i < "$length"; ++i)) {}
+   examples:
+      for file in "$(ls -l )"
 
    > declare array 
       - <varName>=("item1" "item2" "item3")
