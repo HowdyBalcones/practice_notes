@@ -15,4 +15,16 @@ Shelley Powers, Jerry Peek, Tim O'Reilly, Mike Loukides - Unix Power Tools (2002
       All the information passed to a program should come from the command line or a stream of data. 
       If no arguments are given, a program should read std-input and write to std-output 
    + there are lots of different shells. sh refers to bash or the original Bourne shell
-   
+>> Ch 4
+   + Prompt or PROMPT in zsh is the variable that handles the prompt, or where you're typing on the cli
+   + pushd
+   + popd
+   + expr &/or sed
+   + most of ch 4 - 6 is covered by ncurses these days
+>> Ch 5
+   + stty, stty everything -- see terminal settings, see all terminal settings
+   + 
+>> Ch 7 - Directories
+   + worth noting that everything before chapter 7 is generally not applicable in modern terminals
+   + 
+    

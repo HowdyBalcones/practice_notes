@@ -1,3 +1,9 @@
+> how to use the database script
+   + contract_db_import.js [destination] [input files]
+   + test-export_contracts.js [destination] [input files]
+   + xml_export_async.js [destination] [input files]
+
+
 > setting up postgresql w/ brew or installing from source
    + installing from source? 
       https://www.postgresql.org/docs/17/installation.html

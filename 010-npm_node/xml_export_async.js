@@ -167,6 +167,11 @@ async function unique_signs(data) {
 
 async function find_same_obj(arr, new_obj) {
    const new_arr = [...arr];
+   // so this causes issues, the data isn't fully normalized, so there are signs that 
+   // are of the same type that are not getting grouped because there is information
+   // that is included in parenthesis that varies from section to section
+   // solution: match up to the first ( , return the trimmed match or just don't include that 
+   // last space in the match somehow. 
    const existing_obj = new_arr.find(obj => obj.description === new_obj.description);
    if (existing_obj) {
       existing_obj.count += new_obj.count || 1;

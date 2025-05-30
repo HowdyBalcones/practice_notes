@@ -125,7 +125,9 @@
          create_cmyk_swatch("AMTY-YELLOW", [0,0,100,0], ColorSpace.CMYK),
          create_cmyk_swatch("ADD-MAGENTA", [0,100,0,0], ColorSpace.CMYK),
          create_cmyk_swatch("UNIT_ID-TEAL", [59,2,44,0], ColorSpace.CMYK),
-         create_cmyk_swatch("SPOTTING_ID-D_TEAL", [80, 10, 45, 0], ColorSpace.CMYK),
+         create_cmyk_swatch("SPOTTING_ID-D_TEAL", [59, 2, 44, 0], ColorSpace.CMYK),
+         create_cmyk_swatch("COLL-TEAL", [80, 10, 45, 0], ColorSpace.CMYK),
+         create_cmyk_swatch("IDMAT-GREY", [0, 0, 0, 35], ColorSpace.CMYK),
          ]
          // checks if the swatches already exist in the target doc, if not adds them
          for (var i = 0; i < frc_colors.length; ++i) {
@@ -158,6 +160,8 @@
          "unit_ids": create_section_template("UNIT", "UNIT_ID-TEAL", "LABEL_UNITS", "TABLE_UNITS"),
          "spotting": create_section_template("SPOTTING", "SPOTTING_ID-D_TEAL", "LABEL_SPOTTING", "TABLE_SPOTTING"),
          "addon": create_section_template("ADD", "ADD-MAGENTA", "LABEL_ADDON", "TABLE_ADDON"),
+         "collected": create_section_template("COLL", "COLL-TEAL", "LABEL_COLL", "TABLE_COLL"),
+         "id_mat": create_section_template("IDMAT", "IDMAT-GREY", "LABEL_IDMAT", "TABLE_IDMAT"),
       }
       return section_template_map;
    }
@@ -217,6 +221,72 @@
       }
    } 
 
+   function create_collected_pages() {
+      try {
+         try {
+            var root_elements = doc.xmlElements[0];
+            var contract_elements = root_elements.xmlElements[1].xmlElements;
+            var grouped_elements = root_elements.xmlElements[2].xmlElements;
+            if (grouped_elements) {
+               // alert("truuue!");
+               // alert(typeof grouped_elements);
+            } else {
+               // alert("capping!");
+            }
+         } catch(xml_error) {
+            throw new Error("Error with xml\n" + xml_error);
+         }
+            var str;
+            for (el in grouped_elements[0]) {
+               str += el + "\n";
+            }
+         //alert(str);
+         //alert(grouped_elements[0].contents);
+         //alert(grouped_elements[0].xmlElements[0].contents);
+         //alert(find_sign_in_xml(contract_elements, "stairwell"));
+         var results;
+         // alert(contract_elements.length + "\n" + contract_elements.count)
+         for (var i = 0; i < contract_elements.length; ++i) {
+
+            var section = contract_elements[i];
+            alert(section);
+            results = find_sign_in_xml(section, "stairwell");
+         }
+         alert(results);
+         var stairwell_idx = find_sign_in_xml(contract_elements, "stairwell");
+
+      } catch(collected_page_error) {
+         throw new Error("Error creating collected pages\n" + collected_page_error);
+      }
+   }
+
+   function find_sign_in_xml(root, term) {
+     // an example of using the regexp object to implement variable matching, can't just create the regex literal
+     // if (term.match(new RegExp(term, "gi"))) {
+     //    alert("BIG TRUE");
+     // }
+      try {
+         var match_arr = [];
+         for (var i = 0; i < root.length; ++i) {
+            var sign = root[i];
+            var sign_name = root[i].contents;
+            if (sign_name.match(new RegExp(term, "gi"))) {
+               // str += sign_name + "\n";
+               // alert("yes" + "\n" + sign.index)
+               match_arr.push(sign.index);
+            }
+         }
+         // alert(match_arr);
+         return match_arr;
+      } catch (loop_error) {
+         throw new Error("Some error in xml search loop" + loop_error);
+      }
+   }
+
+   // consider using xmlElement.convertElementToTable() method
+
+   // this is only used when we need to match the section name in the xml to a template. 
+   // if we are creating the page regardless of whats in the xml we don't need this. 
    function create_section_page(section_name_str, template_map) {
       try {
          var kw_regex_list = {
@@ -264,9 +334,11 @@
 
 
    try {
-      set_main_spread();
-      create_add_frc_colors();
-      set_sub_spreads();
+      //find_sign_in_xml(grouped_elements, "stairwell");
+      create_collected_pages();
+      //set_main_spread();
+      //create_add_frc_colors();
+      //set_sub_spreads();
       // test_xml_elements();
       // test_import_xml();
    } catch(main_err) {
