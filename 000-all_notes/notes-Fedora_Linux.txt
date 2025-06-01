@@ -1,0 +1,32 @@
+Fedora Linux System Administration 
+
+>> Chapter 1 - Some history
+	+ Fedora is a community run Linux distro sponsored by Red Hat
+	+ started w/ Ken Thompson who wrote the first UNIX version, 
+	it contained a kernel, a shell, an editor, and an assembler
+	+ Richard Stallman started the GNU (GNU is Not Unix) around
+	the idea of free software
+	+ Linus Torvalds started the Linux project as a port of Unix to other 
+	hardware in 1986. His original post to the mailing list is hilarious
+	+ Linux is a kernel, GNU formed most of the utilities that surrounded the kernel
+	+ By open sourcing Linux, people could port the GNU utils to other kernels
+	+ Some other versions of Linux are Slackware, Debian, and Red Hat
+
+	+ This is being written from a Fedora distribution. Fedora has a 6 month release schedule.
+	Red Hat sponsors Fedora, but Red Hat has a 5 and 7 year release schedule for industry. 
+
+	++ Tanenbaum’s 1987 book [Operating Systems:Design and Implementation]
+	++  Bach’s 1986 book [Design of the UNIX Operating System. Bach, Maurice J. Pearson Education. 1986]
+	++ Jolitz articles [Porting UNIX to the 386: A Practical Approach. William Jolitz. 
+	Dr. Dobb’s Journal, Volume 16, Issue 1, Jan. 1991. pp 16–46.]
+>> Chapter 1.5 - Some info on help, man
+	+ --help and -h can be used to send basic usage and other tips to std out
+ 	+ info can be used for practical examples of many command. Had to download with dnf.
+	+ man is the gold standard for locating manual pages for various commands
+	+ there is also always the nuclear option, googling it
+	
+	+ su -- turn into the super user
+	+ sudo -- give temporary super user privileges to a user
+	
+	+ ip link
+	+ ss
