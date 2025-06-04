@@ -413,5 +413,11 @@ sqlite3 -- for many languages, bash/zsh compatible
         fi
 
    > IFS - a list of characters that separate fields; used when the shell splits words as part of expansion
+      - terminating files with a null character like \0 is useful when handling strings that contain spaces
+      - 
+   > read - reads one line and breaks into fields using the character in $IFS
+      - man zshbuiltins for options
+      - -r is raw mode, \'s don't quote the following character and are not removed, does not continue onto the next line.
+      - -d input is terminated by the first char of delim instead of by newline
   
 

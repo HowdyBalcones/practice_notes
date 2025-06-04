@@ -1,0 +1,48 @@
+// the swatch script
+
+
+   // a function to create any desired indesign CMYK swatch
+function create_cmyk_swatch(name_str, cmyk_arr, color_space_obj) {
+      var col = {};
+      col.name = name_str;
+      col.colorValue = cmyk_arr;
+      col.space = color_space_obj;
+      return col;
+   
+}
+
+   // creates the frc_colors object, then checks the doc to see if they're already there. 
+function create_add_frc_colors() {
+   try {
+      var frc_colors = [
+         create_cmyk_swatch("ENTRY-RED", [15,100,100,0], ColorSpace.CMYK), 
+         create_cmyk_swatch("LCES-GREEN", [75,5,100,0], ColorSpace.CMYK),
+         create_cmyk_swatch("LCIS-BLUE", [100,90,10,0], ColorSpace.CMYK),
+         create_cmyk_swatch("SITE-ORANGE", [0,50,100,0], ColorSpace.CMYK),
+         create_cmyk_swatch("GRG-PURPLE", [50,90,0,0], ColorSpace.CMYK),
+         create_cmyk_swatch("BLDG-L_BLUE", [100,0,0,0], ColorSpace.CMYK),
+         create_cmyk_swatch("AMTY-YELLOW", [0,0,100,0], ColorSpace.CMYK),
+         create_cmyk_swatch("ADD-MAGENTA", [0,100,0,0], ColorSpace.CMYK),
+         create_cmyk_swatch("UNIT_ID-TEAL", [59,2,44,0], ColorSpace.CMYK),
+         create_cmyk_swatch("SPOTTING_ID-D_TEAL", [59, 2, 44, 0], ColorSpace.CMYK),
+         create_cmyk_swatch("COLL-TEAL", [80, 10, 45, 0], ColorSpace.CMYK),
+         create_cmyk_swatch("IDMAT-GREY", [0, 0, 0, 35], ColorSpace.CMYK),
+         
+      ]
+         // checks if the swatches already exist in the target doc, if not adds them
+         for (var i = 0; i < frc_colors.length; ++i) {
+            var swatch = frc_colors[i];
+
+            if (doc.colors.itemByName(swatch.name).isValid) {
+               continue;
+            
+            }
+            doc.colors.add(swatch);
+         
+         }
+      
+   } catch(color_error) {
+         throw new Error("Error generating colors\n" + color_error);
+      
+   }  
+}

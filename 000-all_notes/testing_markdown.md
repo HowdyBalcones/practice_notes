@@ -86,6 +86,12 @@ console.log(`Hellow World\n${msg}`);
 ### Using Images
 This is how to link an image inside **MD**  
 
+```
+    ![Alt text here](./path/to/image.gif)
+```
+---
+Working Example: 
+
 ![Gradient, yellow to black, made with imagemagick](./gradient_range2.png)
 
 
@@ -103,7 +109,6 @@ Everything you need to get running and writing etc in __MD__ is given above. How
 
 All of the extended syntax will come directly from the __MD__ documentation:  
 [MARKDOWN DOC](https://www.markdownguide.org/extended-syntax/)
-
 
 
 

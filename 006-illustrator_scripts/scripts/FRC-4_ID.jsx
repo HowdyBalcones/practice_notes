@@ -189,7 +189,7 @@
             var current_section_xml = contract_elements[i];
             var current_section_name = current_section_xml.xmlElements[0].contents;
             var current_section_name_xml = current_section_xml.xmlElements[0];
-            var template_map_section = create_section_page(current_section_name, template_map); // this is the actual template that is going to be loaded based on the information in the XML
+            var template_map_section = choose_template(current_section_name, template_map); // this is the actual template that is going to be loaded based on the information in the XML
             
             // alert(current_section_xml.contents);
             // alert(template_map_section.acronym);            
@@ -247,10 +247,12 @@
          var results;
          // alert(contract_elements.length + "\n" + contract_elements.count)
          for (var i = 0; i < contract_elements.length; ++i) {
-
             var section = contract_elements[i];
-            alert(section);
-            results = find_sign_in_xml(section, "stairwell");
+            for (var j = 1; j < section.length; ++j) {
+               var section_name = section[0];
+               var sign = section[j];
+               results = find_sign_in_xml(sign, "stairwell");
+            }
          }
          alert(results);
          var stairwell_idx = find_sign_in_xml(contract_elements, "stairwell");
@@ -283,11 +285,13 @@
       }
    }
 
+
+
    // consider using xmlElement.convertElementToTable() method
 
    // this is only used when we need to match the section name in the xml to a template. 
    // if we are creating the page regardless of whats in the xml we don't need this. 
-   function create_section_page(section_name_str, template_map) {
+   function choose_template(section_name_str, template_map) {
       try {
          var kw_regex_list = {
             "entry": /entry signage/gi,
