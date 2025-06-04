@@ -149,19 +149,19 @@
    function create_template_map() {
       // creates a dictionary of objects, refer to by the section name
       var section_template_map = {
-         "entry": create_section_template("ENT", "ENTRY-RED", "LABEL_ENTRY", "TABLE_ENTRY"),
-         "lces": create_section_template("LCES", "LCES-GREEN", "LABEL_LCES", "TABLE_LCES"),
-         "lcis": create_section_template("LCIS", "LCIS-BLUE", "LABEL_LCIS", "TABLE_LCIS"),
-         "site": create_section_template("SITE", "SITE-ORANGE", "LABEL_SITE", "TABLE_SITE"),
-         "garage": create_section_template("GRG", "GRG-PURPLE", "LABEL_GARAGE", "TABLE_GARAGE"),
-         "building": create_section_template("BLDG", "BLDG-L_BLUE", "LABEL_BUILDING", "TABLE_BUILDING"),
-         "basement": create_section_template("BSMT", "BLDG-BLUE", "LABEL_BUILDING", "TABLE_BUILDING"),
-         "amenity": create_section_template("AMTY", "AMTY-YELLOW", "LABEL_AMENITY", "TABLE_AMENITY"),
-         "unit_ids": create_section_template("UNIT", "UNIT_ID-TEAL", "LABEL_UNITS", "TABLE_UNITS"),
-         "spotting": create_section_template("SPOTTING", "SPOTTING_ID-D_TEAL", "LABEL_SPOTTING", "TABLE_SPOTTING"),
-         "addon": create_section_template("ADD", "ADD-MAGENTA", "LABEL_ADDON", "TABLE_ADDON"),
-         "collected": create_section_template("COLL", "COLL-TEAL", "LABEL_COLL", "TABLE_COLL"),
-         "id_mat": create_section_template("IDMAT", "IDMAT-GREY", "LABEL_IDMAT", "TABLE_IDMAT"),
+         "entry": create_section_template("ENT", "ENTRY-RED", "LABEL_ENTRY", "<TARGET_TABLE_ENTRY>"),
+         "lces": create_section_template("LCES", "LCES-GREEN", "LABEL_LCES", "<TARGET_TABLE_LCES>"),
+         "lcis": create_section_template("LCIS", "LCIS-BLUE", "LABEL_LCIS", "<TARGET_TABLE_LCIS>"),
+         "site": create_section_template("SITE", "SITE-ORANGE", "LABEL_SITE", "<TARGET_TABLE_SITE>"),
+         "garage": create_section_template("GRG", "GRG-PURPLE", "LABEL_GARAGE", "<TARGET_TABLE_GARAGE>"),
+         "building": create_section_template("BLDG", "BLDG-L_BLUE", "LABEL_BUILDING", "<TARGET_TABLE_BUILDING>"),
+         "basement": create_section_template("BSMT", "BLDG-BLUE", "LABEL_BUILDING", "<TARGET_TABLE_BUILDING>"),
+         "amenity": create_section_template("AMTY", "AMTY-YELLOW", "LABEL_AMENITY", "<TARGET_TABLE_AMENITY>"),
+         "unit_ids": create_section_template("UNIT", "UNIT_ID-TEAL", "LABEL_UNITS", "<TARGET_TABLE_UNITS>"),
+         "spotting": create_section_template("SPOTTING", "SPOTTING_ID-D_TEAL", "<LABEL_SPOTTING", "TARGET_TABLE_SPOTTING>"),
+         "addon": create_section_template("ADD", "ADD-MAGENTA", "LABEL_ADDON", "<TARGET_TABLE_ADDON>"),
+         "collected": create_section_template("COLL", "COLL-TEAL", "LABEL_COLL", "<TARGET_TABLE_COLL>"),
+         "id_mat": create_section_template("IDMAT", "IDMAT-GREY", "LABEL_IDMAT", "<TARGET_TABLE_IDMAT>"),
       }
       return section_template_map;
    }

@@ -1,6 +1,12 @@
 // Generic Pages from XML script
 (function() {
    var doc = app.activeDocument;
+   #include "./FRC-pg_template.jsxinc"
+
+   var component_page = doc.spreads[0];
+   var last_page = doc.spreads[-1];
+   var map = create_template_map();
+   var test_template = map.lces
    function testing() {
       if (!doc) {
          throw new Error("No open document\n");
@@ -9,27 +15,41 @@
       }
    }
 
-   function make_table() {
-      var last_page = doc.spreads[-1];
-      var component_page = doc.spreads[0];
-      var all_components = component_page.allPageItems;
-      var test_table = "<TARGET_TABLE_ADDON>";
-      //var test_table = component_page.tables.itemByName("<TARGET_TABLE_ADDON>").isValid;
-      //alert(all_components[0].isValid)
+   function get_table(target_spread, template_obj) {
+      var all_components = target_spread.allPageItems;
+      var target_table = template_obj.table_type;
+
+      if (!all_components) {
+         throw new Error("Invalid spread in get_table\n");
+      }
+
       for (var i = 0; i < all_components.length; ++i) {
          var component = all_components[i];
-         if (component.name === test_table) {
-            alert("yes" + i)
+         if (component.name === target_table) {
+            //alert("yah")
+            return component;
          } else {
             continue;
          }
       }
-
-
-      // for spreads, we have to loop through items to find the object, or use a more specific collection
-      // tables are nested inside text frame objects
-      // alert(last_page.id + "\n" + component_page.id);
    }
-   make_table();
+
+   // this works, pick
+   function place_table(target_spread) {
+      var table = get_table(component_page, test_template);
+      alert(table.id)
+      if (!table) {
+         throw new Error("No table in place_table\n");
+      }
+
+      table.duplicate(target_spread);
+   }
+
+   function fill_table(target_table) {
+      // take xml and fill the given table
+   }
+   place_table(last_page)
+
+   //get_table(component_page, test_template);
    // testing();
 })()

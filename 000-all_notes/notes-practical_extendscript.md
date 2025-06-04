@@ -1,4 +1,9 @@
 # Self guided and potentially novice reminders of extendscript syntax and practice
+A project conceived to make my life easier in certain moments and harder in others
+
+## TODO
+* syntax highlighting for jsxinc
+
 
 ### USING .jsxinc
 .jsxinc is a C style linking method that .jsx supports. It gives us a way to modularize our components.
@@ -26,4 +31,6 @@ pages[] and pageItem
 spreads and allPageItems  
 Key differences, spreads can target the pasteboard while pages only targets what's on the page.  
 Since there is no itemByName method for allPageItems, it may be faster to simply create multiple component pages.
+* __duplicate__  
+couldn't get .paste() working, duplicate works fine when passing an object reference from another function. 
 
