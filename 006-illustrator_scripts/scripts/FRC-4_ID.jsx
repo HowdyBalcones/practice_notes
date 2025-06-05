@@ -4,54 +4,6 @@
       throw new Error("No open document to target\n");
    }
 
-// TODO:
-// - check if the main spread is set already, if not don't run
-// - same for the create_section_page, which should be renamed create_section_master_pages
-//   it also needs to check if the master pages already exist based on some value, and only create the neccesary ones
-// - layout the needs for prompt_user_variable, which may end up using the template_page_object in order to set certain values
-// - layout the plans for the template page object
-// - tag the section spotting bubble objects
-// - tag the section table objects
-// - XML search function 
-// - sign lookup tables, return instructions based on the matches 
-// - master page script needs to name the actual master page more specifically, 
-//   it also needs to create the spotting page name for the page title section
-
-   /* 
-   template_page_object - based on the section_template object but it needs to be more comprehensive
-   various list of tags.
-      
-      + Handled by the master page script. 
-      - section acronym
-      - section color
-      -- add section table type -- added to the section template, tag in template
-      -- add section label type -- added to the section template, need to tag in the template correctly
-      -- add spotting pages to the master page list -- use the spotting page label template but add the title block information w/ the word spotting
-      -- add checks for existing master pages
-
-      + Handled by the page making script
-      -- how to estimate which page will receive which signs? 
-      -- available artwork space
-      -- placing sign description names onto the correct pages
-      -- placing build names with their relevant signs, onto the correct pages
-      -- labeling the signs according to the table data that is placed from xml 
-
-      + How to build the build index 
-      - stage 0: tag and establish build index functionality. That's - unique sign names can be brought into tables in the index, a user can fill the build description in the table
-      - stage 1: import unique descriptions into the index tables, import collected signs into the index tables
-      - stage 2: manually fill the build tables with the relevant sign builds? Tag the master index wth a class tag
-      - stage 3: this is normally a manual process, where the proper builds are linked to the index table item
-                 but it can be automated, so long as we can find every instance of the related sign throughout the book. 
-      - stage 4: upload the build data to a section of the xml schema 
-      - stage 5: any further changes or adjustments are either handled automatically through links between XML and index tables, or index tables and page objects
-      -- not sure the exact setup, but there will be a master index table with every sign. This main index table will have a column for sign class.
-         The sign class will correlate individual line items with their build. The build index table will have a 
-         > How can we get the sign class tags to be consistent? Our use case doesn't take into account users yet. 
-         > The build index table can perform a lookup on the master index table, if there is a description and cost match it can add the tag to the line item in the build index table 
-         > a script to add line items with the same build to the same table
-
-   */
-
 
 // this adds the xml to the main parent spread. This was a lot of testing and figuring things out, not all of it gets used.
 // consider condensing
@@ -179,7 +131,6 @@
             var root_elements = doc.xmlElements[0];      // the root of the contract tree, job info
             var contract_elements = root_elements.xmlElements[1].xmlElements;    // the contract section of job info, each section 
          } catch(xml_error) {
-            // alert("Error reading xml" + xml_error);
             throw new Error("Error reading xml root\n" + xml_error);
          }
       var template_map = create_template_map(); 
@@ -208,7 +159,9 @@
                if (sheet_date.isValid && sheet_title.isValid && sheet_pg_label.isValid) {
                   sheet_pg_label.fillColor = doc.colors.itemByName(template_map_section.color_cmyk);
                   sheet_pg_label.contents = sheet_pg_label.contents.replace("TEMP", template_map_section.acronym);
-                  sheet_title.contents = current_section_name;
+                  var regex_section_num = /\#\d*\:/;
+                  // alert(test_str.replace(regex_test, ''));
+                  sheet_title.contents = current_section_name.replace(regex_section_num, '');
                   newest_spread.baseName = template_map_section.acronym;
                }
             } catch(sub_spread_obj_error) {
@@ -240,7 +193,6 @@
             for (el in grouped_elements[0]) {
                str += el + "\n";
             }
-         //alert(str);
          //alert(grouped_elements[0].contents);
          //alert(grouped_elements[0].xmlElements[0].contents);
          //alert(find_sign_in_xml(contract_elements, "stairwell"));
@@ -301,6 +253,7 @@
             "site_sign": /site signage/gi,
             "building": /building/gi,
             "just_level": /level/gi,
+            "single_family": /single family/gi,
             "basement": /basement/gi,
             "garage": /garage/gi,
             "amenity": /amenity/gi,
@@ -320,12 +273,16 @@
             return template_map.building;
          } else if (section_name_str.match(kw_regex_list.just_level)) {
             return template_map.building;
+         } else if (section_name_str.match(kw_regex_list.single_family)) {
+            return template_map.building;
          } else if (section_name_str.match(kw_regex_list.amenity)) {
             return template_map.amenity;
          } else if (section_name_str.match(kw_regex_list.addon)) {
             return template_map.addon;
          } else if (section_name_str.match(kw_regex_list.basement)) {
             return template_map.basement;
+         } else {
+            return template_map.addon;
          }
       } catch(section_page_creation_err) {
          throw new Error("Error creating section page\n" + section_page_creation_err);
@@ -338,11 +295,11 @@
 
 
    try {
-      //find_sign_in_xml(grouped_elements, "stairwell");
-      create_collected_pages();
-      //set_main_spread();
-      //create_add_frc_colors();
-      //set_sub_spreads();
+      // find_sign_in_xml(grouped_elements, "stairwell");
+      // create_collected_pages();
+     // set_main_spread();
+       create_add_frc_colors();
+       set_sub_spreads();
       // test_xml_elements();
       // test_import_xml();
    } catch(main_err) {
