@@ -74,6 +74,14 @@ spreads and allPageItems
 Key differences, spreads can target the pasteboard while pages only targets what's on the page.  
 Since there is no itemByName method for allPageItems, it may be faster to simply create multiple component pages.  
 
+* __making pages__  
+Use the pages.add() method  
+``` javascript
+
+    doc.pages.add(LocationOptions.AT_END, last_master);
+    alert(new_page.id);
+```
+
 * __duplicate__  
 couldn't get .paste() working, duplicate works fine when passing an object reference from another function. 
 

@@ -37,9 +37,11 @@ function create_template_map() {
 }
 
 
-function choose_template(section_name_str, template_map) {
-   try {
-      var kw_regex_list = {
+   // this is only used when we need to match the section name in the xml to a template. 
+   // if we are creating the page regardless of whats in the xml we don't need this. 
+   function choose_template(section_name_str, template_map) {
+      try {
+         var kw_regex_list = {
             "entry": /entry signage/gi,
             "leasing": /leasing center/gi,
             "exterior": /exterior/gi,
@@ -47,48 +49,40 @@ function choose_template(section_name_str, template_map) {
             "site_sign": /site signage/gi,
             "building": /building/gi,
             "just_level": /level/gi,
+            "single_family": /single family/gi,
             "basement": /basement/gi,
             "garage": /garage/gi,
             "amenity": /amenity/gi,
             "addon": /addon/gi
-         
-      }
-      if (section_name_str.match(kw_regex_list.entry)) {
+         }
+         if (section_name_str.match(kw_regex_list.entry)) {
             return template_map.entry;
-         
-      } else if (section_name_str.match(kw_regex_list.leasing) && section_name_str.match(kw_regex_list.exterior)) {
+         } else if (section_name_str.match(kw_regex_list.leasing) && section_name_str.match(kw_regex_list.exterior)) {
             return template_map.lces;
-         
-      } else if (section_name_str.match(kw_regex_list.leasing) && section_name_str.match(kw_regex_list.interior)) {
+         } else if (section_name_str.match(kw_regex_list.leasing) && section_name_str.match(kw_regex_list.interior)) {
             return template_map.lcis;
-         
-      } else if (section_name_str.match(kw_regex_list.site_sign)) {
+         } else if (section_name_str.match(kw_regex_list.site_sign)) {
             return template_map.site;
-         
-      } else if (section_name_str.match(kw_regex_list.garage)) {
+         } else if (section_name_str.match(kw_regex_list.garage)) {
             return template_map.garage;
-         
-      } else if (section_name_str.match(kw_regex_list.building)) {
+         } else if (section_name_str.match(kw_regex_list.building)) {
             return template_map.building;
-         
-      } else if (section_name_str.match(kw_regex_list.just_level)) {
+         } else if (section_name_str.match(kw_regex_list.just_level)) {
             return template_map.building;
-         
-      } else if (section_name_str.match(kw_regex_list.amenity)) {
+         } else if (section_name_str.match(kw_regex_list.single_family)) {
+            return template_map.building;
+         } else if (section_name_str.match(kw_regex_list.amenity)) {
             return template_map.amenity;
-         
-      } else if (section_name_str.match(kw_regex_list.addon)) {
+         } else if (section_name_str.match(kw_regex_list.addon)) {
             return template_map.addon;
-         
-      } else if (section_name_str.match(kw_regex_list.basement)) {
+         } else if (section_name_str.match(kw_regex_list.basement)) {
             return template_map.basement;
-         
-      }
-      
-   } catch(section_page_creation_err) {
+         } else {
+            return template_map.addon;
+         }
+      } catch(section_page_creation_err) {
          throw new Error("Error creating section page\n" + section_page_creation_err);
-      
+      }
    }
-   
-}
+
 
