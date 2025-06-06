@@ -81,6 +81,16 @@ Use the pages.add() method
     doc.pages.add(LocationOptions.AT_END, last_master);
     alert(new_page.id);
 ```
+How to override master page items:  
+``` js
+    master_page_item.override(current_page);
+    master_page_item.detach();
+    break;
+```
+How to duplicate an item, be it a page or pageItem  
+```
+    var spotting_page = current_page.duplicate(LocationOptions.AFTER, current_page); 
+```
 
 * __duplicate__  
 couldn't get .paste() working, duplicate works fine when passing an object reference from another function. 
@@ -90,6 +100,11 @@ consider the [documentation](https://www.indesignjs.de/extendscriptAPI/indesign-
 also consider [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)  
 There is overlap but neither doc is completely accurate for this version of ECMAscript. MDN is more reliable, since it shows the date a feature was added.  
 __Known Methods__  
-1. Replace
-1. Match
-1. Regex()
+ Replace  
+ Match  
+ Regex() 
+
+* __Working with Text Frames__  
+[Documentation](https://www.indesignjs.de/extendscriptAPI/indesign-latest/#TextFrame.html#d1e528640__d1e531105)  
+You have to target the .contents value of the frame to manipulate the text  
+Regex can be used, there are also builtin api methods like GREP

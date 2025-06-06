@@ -27,40 +27,50 @@
             doc.pages.add(LocationOptions.AT_END, last_master);
             alert(new_page.id);
          }
-
       }
       
       // fix the master page mutating when we change sheet_title.contents
       function make_pages() {
-         //alert(doc.masterSpreads.length);          
-         //alert(doc.masterSpreads.itemByName("A-SUB-MAIN").id);
          var sub_spread = doc.masterSpreads.itemByName("A-SUB-MAIN");
+         var component_page = doc.spreads[0];
          var sub_index_offset = sub_spread.index + 2;
          
          var first_page = doc.pages[1];
          var index_start = doc.pages[2];
 
-         var regex_signage = /signage/i
+         var template_map = create_template_map();
 
-         for (var i = sub_index_offset; i < doc.masterSpreads.length; ++i) {
+         var regex_signage = /SIGNAGE/i
+
+         for (var i = sub_index_offset; i < 5; ++i) {
             var current_master = doc.masterSpreads[i];
             var current_page = doc.pages.add(LocationOptions.BEFORE, index_start);
             current_page.appliedMaster = current_master;
-            var sheet_title;
             for (var j = 0; j < current_page.masterPageItems.length; ++j) {
                var master_page_item = current_page.masterPageItems[j];
                if (master_page_item.name === "<TARGET_SHEET_TITLE>") {
+
                   master_page_item.override(current_page);
-                  sheet_title = master_page_item;
-                  continue;
-                  //alert('found')
+                  master_page_item.detach();
+                  break;
                }
             }
-            //var sheet_title = current_page.masterPageItems.itemByName("<TARGET_SHEET_TITLE>");
-            //alert(sheet_title.contents);
+            var sheet_title = current_page.pageItems.itemByName("<TARGET_SHEET_TITLE>");
+
+            var template_object = choose_template(sheet_title.contents, template_map);
+           // alert(template_object.acronym);
             
-             sheet_title.texts[0].contents.replace(regex_signage, "Spotting");
-            alert(current_page.name + "\n" + sheet_title.contents);
+            function make_spotting_page() {
+               var xml_section = doc.xmlItems[0].xmlItems[1].xmlItems[i]
+               var spotting_page = current_page.duplicate(LocationOptions.AFTER, current_page); 
+               var spotting_sheet_title = spotting_page.pageItems.itemByName("<TARGET_SHEET_TITLE>");
+               spotting_sheet_title.contents = spotting_sheet_title.contents.replace(regex_signage, "SPOTTING");
+               var spotting_table = get_table(component_page, template_object)
+               // place_table(spotting_page, spotting_table);
+               // fill_table_xml(spotting_table, section);
+                
+            }
+            make_spotting_page();
          }
          alert(doc.pages[1].name);
       }
@@ -74,6 +84,9 @@
         // alert(test_str.replace(regex_test, ''));
 
          //test_page()
+         // set_main_spread();
+         // create_add_frc_colors();
+         //set_sub_spreads();
          make_pages();
       }
 
