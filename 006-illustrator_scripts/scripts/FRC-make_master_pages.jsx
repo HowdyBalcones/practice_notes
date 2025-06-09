@@ -110,10 +110,12 @@ try {
 
             var sheet_date = newest_spread.pageItems.itemByName("<SHEET_DATE>");    
             var sheet_title = newest_spread.pageItems.itemByName("<TARGET_SHEET_TITLE>");
+            var section_title = newest_spread.pageItems.itemByName("<SECTION_TITLE>")
             var designer_initials = newest_spread.pageItems.itemByName("<DESIGNER_INITIALS>");
             var sheet_pg_label = newest_spread.pageItems.itemByName("<SHEET_PG_LABEL>");             
             try {
                if (sheet_date.isValid && sheet_title.isValid && sheet_pg_label.isValid) {
+                  section_title.contents = current_section_name;
                   sheet_pg_label.fillColor = doc.colors.itemByName(template_map_section.color_cmyk);
                   sheet_pg_label.contents = sheet_pg_label.contents.replace("TEMP", template_map_section.acronym);
                   sheet_title.contents = current_section_name.replace(regex_section_num, '');

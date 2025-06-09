@@ -48,3 +48,13 @@ function contract_to_aoa(root) {
    }
    return arr;
 }
+
+function section_to_aoa(section_xml) {
+   try {
+      var arr = [];
+
+
+   } catch(xml_error) {
+      throw new Error("Error reading xml\n" + xml_error + " " + xml_error.line);
+   }
+}
