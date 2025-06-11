@@ -117,6 +117,9 @@ try {
                if (sheet_date.isValid && sheet_title.isValid && sheet_pg_label.isValid) {
                   section_title.contents = current_section_name;
                   sheet_pg_label.fillColor = doc.colors.itemByName(template_map_section.color_cmyk);
+                  if (template_map_section.acronym === "AMTY") {
+                     sheet_pg_label.texts[0].fillColor = doc.swatches.itemByName("Black");
+                  }
                   sheet_pg_label.contents = sheet_pg_label.contents.replace("TEMP", template_map_section.acronym);
                   sheet_title.contents = current_section_name.replace(regex_section_num, '');
                   newest_spread.baseName = template_map_section.acronym;

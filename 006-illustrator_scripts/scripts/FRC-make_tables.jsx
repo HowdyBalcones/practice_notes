@@ -45,7 +45,7 @@ function get_table(target_spread, template_obj) {
 
 function place_table(target_spread, table) {
    // test: var table = get_table(component_page, test_template);
-   alert(table.id)
+   // alert(table.id)
    if (!table) {
       throw new Error("No table in place_table\n");
    }
@@ -116,8 +116,18 @@ function fill_table_xml(target_table, section) {
          col2.contents = count;
          col3.contents = desc;
       }
+      target_table.fit(FitOptions.FRAME_TO_CONTENT);
    } catch (table_xml_error) {
-      throw new Error("Problem with fill_table_xml " + table_xml_error.line + " " + table_xml_error )
+      throw new Error("Problem with fill_table_xml " + table_xml_error.line + " " + table_xml_error + "\n");
+   }
+}
+
+function move_table(target_table, arr) {
+   try {
+     target_table.move(arr);
+     return target_table;
+   } catch(table_xml_error) {
+      throw new Error("Problem with move_table " + table_xml_error.line + " " + table_xml_error + "\n");
    }
 }
 
@@ -128,4 +138,5 @@ function fill_table_xml(target_table, section) {
 //    
 //     var tbl = doc.selection[0];
 //     fill_table_xml(tbl, section);
+      var doc = app.activeDocument;
 // }

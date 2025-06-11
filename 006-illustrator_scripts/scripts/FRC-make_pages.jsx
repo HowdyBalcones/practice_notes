@@ -6,6 +6,7 @@
       #include './FRC-xml_data.jsxinc';
       #include './FRC-pg_template.jsxinc';
       #include './FRC-make_master_pages.jsxinc';
+      #include './FRC-position_tools.jsxinc';
       if (!doc) {
          throw new Error("No active document\n")
       }
@@ -77,9 +78,8 @@
       }
 
       function xml_make_page() {
-        // var sub_spread = doc.masterSpreads.itemByName("A-SUB-MAIN");
          var component_page = doc.spreads[0];
-        // var sub_index_offset = sub_spread.index + 2;
+         var sub_main = doc.masterSpreads.itemByName("A-SUB-MAIN");
 
          var contract = doc.xmlItems[0].xmlItems[1].xmlItems;
 
@@ -87,12 +87,13 @@
          var index_start = doc.pages[2];
          
          var template_map = create_template_map();
+         var pos_map = make_position_map(sub_main);
+         
          var regex_signage = /SIGNAGE/i
 
          for (var i = 0; i < 5; ++i) {
-            var current_section = contract[i];
+            var current_section = contract[i].xmlItems;
             var current_section_name = contract[i].xmlItems[0].contents;
-            // alert(current_section_name);
             var current_master = search_master_spreads(current_section_name); 
             var current_page = doc.pages.add(LocationOptions.BEFORE, index_start);
             current_page.appliedMaster = current_master;
@@ -109,19 +110,27 @@
                }
             }
             var section_title = current_page.pageItems.itemByName("<SECTION_TITLE>")
-            // var sheet_title = current_page.pageItems.itemByName("<TARGET_SHEET_TITLE>");
+            
             var template_object = choose_template(section_title.contents, template_map);
 
             function make_spotting_page() {
                try {
-                   alert(template_object.table_type);
-                   var spotting_page = current_page.duplicate(LocationOptions.AFTER, current_page);
-                   var spotting_sheet_title = spotting_page.pageItems.itemByName("<TARGET_SHEET_TITLE>");
-                   var spotting_table = get_table(component_page, template_object);
-                   alert(spotting_table.id);
-                   spotting_sheet_title.contents = spotting_sheet_title.contents.replace(regex_signage, "SPOTTING");
-                  //place_table(spotting_page, spotting_table);
-                  // fill_table_xml(spotting_table, current_section);
+                  
+                  var spotting_page = current_page.duplicate(LocationOptions.AFTER, current_page);
+                  var spotting_sheet_title = spotting_page.pageItems.itemByName("<TARGET_SHEET_TITLE>");
+                  spotting_sheet_title.contents = spotting_sheet_title.contents.replace(regex_signage, "SPOTTING");
+                  
+                  var spotting_table = get_table(component_page, template_object);
+                  if (spotting_table === undefined) {
+                     alert("no table\n" + "Template: " + template_object.table_type);
+                     return;
+                  }
+                  var new_table = place_table(spotting_page, spotting_table);
+
+                  fill_table_xml(new_table, current_section);
+                  var pos = pos_map[0][0];
+                  var table_pos = [pos.geometricBounds[1], pos.geometricBounds[0]];
+                  move_table(new_table, table_pos);
                } catch(spotting_pg_error) {
                   throw new Error("Error creating spotting page\n" + spotting_pg_error + " " + spotting_pg_error.line);
                }
@@ -151,6 +160,7 @@
         var test_section_name = "#19: LEVEL 6 SIGNAGE"
         var test_str = "#10: etc etc etc";
         var regex_test = /\#\d*\:/gi
+        //var test_spread = doc.masterSpreads.itemByName("A-SUB-MAIN");
         // alert(test_str.match(regex_test));
         // alert(test_str.replace(regex_test, ''));
          //search_master_spreads(test_section_name);
@@ -158,8 +168,15 @@
          //set_main_spread();
          //create_add_frc_colors();
          //set_sub_spreads();
-         // make_pages();
-         xml_make_page();
+          //make_pages();
+          xml_make_page();
+         //find_position(1, 1);
+         //var pos_map = make_position_map(test_spread);
+        // var y1 = pos_map[0][0].geometricBounds[0];
+        // var x1 = pos_map[0][0].geometricBounds[1];
+
+         //alert(test_spread.name);
+         
       }
 
       main();
