@@ -43,6 +43,18 @@ function get_table(target_spread, template_obj) {
    }
 }
 
+function get_generic_table(target_spread, target_object) {
+   var all_components = target_spread.allPageItems;
+   for (var i = 0; i < all_components.length; ++i) {
+      var component = all_components[i];
+      if (component.name === target_object) {
+         return component;
+      } else {
+         continue;
+      }
+   }
+}
+
 function place_table(target_spread, table) {
    // test: var table = get_table(component_page, test_template);
    // alert(table.id)
@@ -119,6 +131,48 @@ function fill_table_xml(target_table, section) {
       target_table.fit(FitOptions.FRAME_TO_CONTENT);
    } catch (table_xml_error) {
       throw new Error("Problem with fill_table_xml " + table_xml_error.line + " " + table_xml_error + "\n");
+   }
+}
+
+function fill_description_table(target_table, section) {
+   try {
+      var input_table = target_table.tables[0];
+      var section_name = '';
+ 
+      if (input_table.rows.length < section.length) {
+         var diff = section.length - input_table.rows.length;
+         for (var i = 0; i < diff; ++i) {
+            input_table.rows.add();
+         }
+      } else if (input_table.rows.length > section.length) {
+         var len = section.length;
+         for (var i = input_table.rows.length - 1; i >= len; --i) {
+            input_table.rows[i].remove();
+         }
+      }     
+      for (var i = 0; i < section.length; ++i) {
+         if (section[i].markupTag.name === "section_name") {
+            section_name = section[i].contents;
+            continue;
+         }
+
+         var tbl_row = input_table.rows[i];
+         var col1 = tbl_row.cells[1];
+         var col2 = tbl_row.cells[2];
+         var col3 = tbl_row.cells[3];
+         var sign = section[i].xmlElements;
+         var key = sign[0].contents;
+         var desc = sign[1].contents;
+         var count = sign[2].contents;
+         col1.contents = key;
+         col2.contents = desc;
+         col3.contents = "X " + count;
+         //alert(desc + " " + key + " " + count + "\n")
+      }
+      input_table.rows[0].remove();
+      target_table.fit(FitOptions.FRAME_TO_CONTENT);
+   } catch(table_xml_error) {
+      throw new Error("Problem with fill_description_table\n" + table_xml_error.line + " " + table_xml_error + "\n");
    }
 }
 

@@ -88,7 +88,11 @@
          
          var template_map = create_template_map();
          var pos_map = make_position_map(sub_main);
-         
+
+         var description_table = get_generic_table(component_page, "<DESCRIPTION_TABLE>");
+         var pos = pos_map[0][0];
+         var table_pos = [pos.geometricBounds[1], pos.geometricBounds[0]];
+
          var regex_signage = /SIGNAGE/i
 
          for (var i = 0; i < 5; ++i) {
@@ -112,7 +116,6 @@
             var section_title = current_page.pageItems.itemByName("<SECTION_TITLE>")
             
             var template_object = choose_template(section_title.contents, template_map);
-
             function make_spotting_page() {
                try {
                   
@@ -126,7 +129,7 @@
                      return;
                   }
                   var new_table = place_table(spotting_page, spotting_table);
-
+                  
                   fill_table_xml(new_table, current_section);
                   var pos = pos_map[0][0];
                   var table_pos = [pos.geometricBounds[1], pos.geometricBounds[0]];
@@ -136,6 +139,11 @@
                }
             }
             make_spotting_page();
+
+            var new_gen_table = place_table(current_page, description_table);
+            fill_description_table(new_gen_table, current_section);
+            move_table(new_gen_table, table_pos);
+
          }
       }
 
@@ -154,6 +162,25 @@
         
       }
 
+      function get_label(target_page, section, spot_bool) {
+         try {
+            target_page = doc.pages[0];
+            var all_components = target_page.pageItems;
+            var big_labels = all_components.itemByName("<LABELS-SPOTTING>").groups.itemByName("<BIG_LABELS>").groups;
+            var small_labels = all_components.itemByName("<LABELS-SPOTTING>").groups.itemByName("<SMALL_LABELS>").groups;
+            if (spot_bool) {
+               // use big
+            } else {
+               // use small
+            }
+
+            //alert(big_labels.length + "\n" + small_labels.length)
+            
+         } catch(label_error) {
+            throw new Error("problem with get_label" + label_error.line + " " + label_error + "\n");
+         }
+      }
+
       function main() {
         // var test = contract_to_aoa(job_info);
         // alert(test);
@@ -169,11 +196,12 @@
          //create_add_frc_colors();
          //set_sub_spreads();
           //make_pages();
-          xml_make_page();
+          //xml_make_page();
          //find_position(1, 1);
          //var pos_map = make_position_map(test_spread);
         // var y1 = pos_map[0][0].geometricBounds[0];
         // var x1 = pos_map[0][0].geometricBounds[1];
+         get_label(0, 0);
 
          //alert(test_spread.name);
          
