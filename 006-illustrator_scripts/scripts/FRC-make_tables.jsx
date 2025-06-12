@@ -56,14 +56,10 @@ function get_generic_table(target_spread, target_object) {
 }
 
 function place_table(target_spread, table) {
-   // test: var table = get_table(component_page, test_template);
-   // alert(table.id)
    if (!table) {
       throw new Error("No table in place_table\n");
    }
-
    var new_table = table.duplicate(target_spread);
-   // alert(new_table.id);
    return new_table;
 }
 

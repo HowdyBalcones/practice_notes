@@ -15,9 +15,6 @@
    }
 
    try {
-     // alert("hello")
-      // goal: test adding pages, setting master page, switching on template dictionary
-
       function test_page(template_obj) {
          var last_page = doc.pages[-1];
          var template_page = doc.pages[1];
@@ -30,16 +27,14 @@
          }
       }
       
+      // this was the prototype, use xml_make_page();
       function make_pages() {
          var sub_spread = doc.masterSpreads.itemByName("A-SUB-MAIN");
          var component_page = doc.spreads[0];
          var sub_index_offset = sub_spread.index + 2;
-         
          var first_page = doc.pages[1];
          var index_start = doc.pages[2];
-
          var template_map = create_template_map();
-
          var regex_signage = /SIGNAGE/i
 
          for (var i = sub_index_offset; i < 5; ++i) {
@@ -56,31 +51,25 @@
                }
             }
             var sheet_title = current_page.pageItems.itemByName("<TARGET_SHEET_TITLE>");
-
             var template_object = choose_template(sheet_title.contents, template_map);
-           // alert(template_object.acronym);
             
-            // this either needs to search the xml for a matching section, or the main loop needs to iterate 
-            // through the section and not the master pages. This may be something that gets addressed in a separate function. 
             function make_spotting_page() {
                var xml_section = doc.xmlItems[0].xmlItems[1].xmlItems[i]
                var spotting_page = current_page.duplicate(LocationOptions.AFTER, current_page); 
                var spotting_sheet_title = spotting_page.pageItems.itemByName("<TARGET_SHEET_TITLE>");
                spotting_sheet_title.contents = spotting_sheet_title.contents.replace(regex_signage, "SPOTTING");
                var spotting_table = get_table(component_page, template_object)
-              // place_table(spotting_page, spotting_table);
-              // fill_table_xml(spotting_table, xml_section);
-                
             }
             make_spotting_page();
          }
          alert(doc.pages[1].name);
       }
 
+      // main page making function, combines all of the utility functions as it loops through the contract.
       function xml_make_page() {
          var component_page = doc.spreads[0];
+         var description_table = get_generic_table(component_page, "<DESCRIPTION_TABLE>");
          var sub_main = doc.masterSpreads.itemByName("A-SUB-MAIN");
-
          var contract = doc.xmlItems[0].xmlItems[1].xmlItems;
 
          var first_page = doc.pages[1];
@@ -89,13 +78,14 @@
          var template_map = create_template_map();
          var pos_map = make_position_map(sub_main);
 
-         var description_table = get_generic_table(component_page, "<DESCRIPTION_TABLE>");
          var pos = pos_map[0][0];
+         var pos2 = pos_map[5][0];
          var table_pos = [pos.geometricBounds[1], pos.geometricBounds[0]];
-
+         var label_pos = [pos2.geometricBounds[1], pos2.geometricBounds[0]];
+         
          var regex_signage = /SIGNAGE/i
 
-         for (var i = 0; i < 5; ++i) {
+         for (var i = 0; i < contract.length; ++i) {
             var current_section = contract[i].xmlItems;
             var current_section_name = contract[i].xmlItems[0].contents;
             var current_master = search_master_spreads(current_section_name); 
@@ -114,8 +104,8 @@
                }
             }
             var section_title = current_page.pageItems.itemByName("<SECTION_TITLE>")
-            
             var template_object = choose_template(section_title.contents, template_map);
+
             function make_spotting_page() {
                try {
                   
@@ -143,7 +133,10 @@
             var new_gen_table = place_table(current_page, description_table);
             fill_description_table(new_gen_table, current_section);
             move_table(new_gen_table, table_pos);
-
+            var template_label = get_label(component_page, template_object, true);
+            var new_label = place_label(current_page, template_label);
+            fill_and_arrange_labels(new_label, current_section, label_pos);
+            
          }
       }
 
@@ -162,48 +155,121 @@
         
       }
 
-      function get_label(target_page, section, spot_bool) {
+      // target_page refers to a page with the source templates, here usually the component_page
+      function get_label(target_page, section_template, spot_bool) {
          try {
-            target_page = doc.pages[0];
             var all_components = target_page.pageItems;
             var big_labels = all_components.itemByName("<LABELS-SPOTTING>").groups.itemByName("<BIG_LABELS>").groups;
             var small_labels = all_components.itemByName("<LABELS-SPOTTING>").groups.itemByName("<SMALL_LABELS>").groups;
+            var target_labels = section_template.label_type;
+
             if (spot_bool) {
                // use big
+               for (var i = 0; i < big_labels.length; ++i) {
+                  var template_label_type = big_labels[i].name;
+                  if (template_label_type === undefined) {
+                     alert("read problem")
+                     break;
+                  } else if (template_label_type === target_labels) {
+                     return big_labels[i];
+                  }
+               }
             } else {
                // use small
+               for (var i = 0; i < small_labels.length; ++i) {
+                  var template_label_type = small_labels[i].name;
+                  if (template_label_type === undefined) {
+                     alert("read problem")
+                     break;
+                  } else if (template_label_type === target_labels) {
+                     return small_labels[i];
+                  }
+               }
             }
-
-            //alert(big_labels.length + "\n" + small_labels.length)
-            
          } catch(label_error) {
             throw new Error("problem with get_label" + label_error.line + " " + label_error + "\n");
          }
       }
 
+      function place_label(target_spread, label) {
+         if (!label) {
+            throw new Error("No label in place_label\n");
+         }
+         var new_label = label.duplicate(target_spread);
+         new_label.move([-1, 0]);
+         return new_label;
+      }
+
+      function fill_and_arrange_labels(target_labels, section, position) {
+         try {
+            var every_label = target_labels.groups;
+            var single_bubble, unique_bubble;
+            var regex_key = /^[A-Za-z]+/i
+            var y_offset = position[1];
+            var x_offset = position[0];
+            for (var i = 0; i < every_label.length; ++i) {
+               var label = every_label[i];
+               if (label.name === "<U-BUBBLE>") {
+                  unique_bubble = label;
+                  //alert(unique_bubble.name);
+               } else if (label.name === "<S-BUBBLE>") {
+                  single_bubble = label;
+                  //alert(single_bubble.name);
+               }
+            }
+            for (var i = 0; i < section.length; ++i) {
+               var section_name;
+               if (section[i].markupTag.name === "section_name") {
+                  section_name = section[i].contents;
+                  continue;
+               }
+               var sign = section[i].xmlElements;
+               var key = sign[0].contents.match(regex_key).toString();
+               var count = sign[2].contents;
+               var bubble_key = single_bubble.groups[0].pageItems[1];
+               var bubble_count = single_bubble.pageItems[1];
+               bubble_key.contents = key;
+               bubble_count.contents = "X " + count
+               if (i % 5 === 0) {
+                  y_offset += 0.5;
+                  x_offset -= 5;
+               }
+               single_bubble.duplicate([x_offset + i, y_offset]);
+            }
+         alert("done");
+         } catch(label_error) {
+            throw new Error("Problem with fill_and_arrange_labels\n" + label_error.line + " " + label_error);
+         }
+
+      }
+
       function main() {
         // var test = contract_to_aoa(job_info);
         // alert(test);
+        var test_template = create_template_map();
+        var test_xml_section = doc.xmlElements[0].xmlElements[1].xmlElements[2].xmlElements;
+        var test_section_template = choose_template("leasing center exterior", test_template);
         var test_section_name = "#19: LEVEL 6 SIGNAGE"
         var test_str = "#10: etc etc etc";
         var regex_test = /\#\d*\:/gi
-        //var test_spread = doc.masterSpreads.itemByName("A-SUB-MAIN");
-        // alert(test_str.match(regex_test));
-        // alert(test_str.replace(regex_test, ''));
-         //search_master_spreads(test_section_name);
-         //test_page()
-         //set_main_spread();
-         //create_add_frc_colors();
-         //set_sub_spreads();
-          //make_pages();
-          //xml_make_page();
-         //find_position(1, 1);
-         //var pos_map = make_position_map(test_spread);
-        // var y1 = pos_map[0][0].geometricBounds[0];
-        // var x1 = pos_map[0][0].geometricBounds[1];
-         get_label(0, 0);
-
-         //alert(test_spread.name);
+        var test_spread = doc.masterSpreads.itemByName("A-SUB-MAIN");
+        var test_pages = doc.pages[1];
+        //alert(test_str.match(regex_test));
+        //alert(test_str.replace(regex_test, ''));
+        //search_master_spreads(test_section_name);
+        //test_page()
+        set_main_spread();
+        create_add_frc_colors();
+        set_sub_spreads();
+        xml_make_page();
+        //find_position(1, 1);
+        //var pos_map = make_position_map(test_spread);
+        //var y1 = pos_map[0][0].geometricBounds[0];
+        //var x1 = pos_map[0][0].geometricBounds[1];
+        //var test_label = get_label(0, test_section_template, true);
+        //var new_label = place_label(test_pages, test_label);
+        //fill_and_arrange_labels(new_label, test_xml_section, [4,4]);
+        //alert(test_spread.name);
          
       }
 
