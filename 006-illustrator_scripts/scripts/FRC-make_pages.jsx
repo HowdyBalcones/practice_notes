@@ -52,6 +52,7 @@
             }
             var sheet_title = current_page.pageItems.itemByName("<TARGET_SHEET_TITLE>");
             var template_object = choose_template(sheet_title.contents, template_map);
+
             
             function make_spotting_page() {
                var xml_section = doc.xmlItems[0].xmlItems[1].xmlItems[i]
@@ -84,17 +85,21 @@
          var label_pos = [pos2.geometricBounds[1], pos2.geometricBounds[0]];
          
          var regex_signage = /SIGNAGE/i
+         alert("test1")
 
          for (var i = 0; i < contract.length; ++i) {
             var current_section = contract[i].xmlItems;
             var current_section_name = contract[i].xmlItems[0].contents;
+            alert("test2")
             var current_master = search_master_spreads(current_section_name); 
+            alert(current_master.index)
             var current_page = doc.pages.add(LocationOptions.BEFORE, index_start);
             current_page.appliedMaster = current_master;
 
             for (var j = 0; j < current_page.masterPageItems.length; ++j) {
                var master_page_item = current_page.masterPageItems[j];
                if (master_page_item.name === "<SECTION_TITLE>") {
+                  alert(master_page_item.name);
                   master_page_item.override(current_page);
                   master_page_item.detach();
                } else if (master_page_item.name === "<TARGET_SHEET_TITLE>") {
@@ -103,9 +108,14 @@
                   break;
                }
             }
+           // alert(current_page.pageItems.itemByName("<SECTION_TITLE>"));
+           // var testing = current_page.pageItems.itemByName("<SECTION_TITLE>")
+           // alert(testing.contents);
             var section_title = current_page.pageItems.itemByName("<SECTION_TITLE>")
+            alert("test3")
+            alert(section_title.constructor.name);
             var template_object = choose_template(section_title.contents, template_map);
-
+            
             function make_spotting_page() {
                try {
                   
@@ -124,6 +134,9 @@
                   var pos = pos_map[0][0];
                   var table_pos = [pos.geometricBounds[1], pos.geometricBounds[0]];
                   move_table(new_table, table_pos);
+                  var template_label = get_label(component_page, template_object, false);
+                  var new_label = place_label(spotting_page, template_label);
+                  fill_and_arrange_labels(new_label, current_section, label_pos, true);
                } catch(spotting_pg_error) {
                   throw new Error("Error creating spotting page\n" + spotting_pg_error + " " + spotting_pg_error.line);
                }
@@ -135,8 +148,8 @@
             move_table(new_gen_table, table_pos);
             var template_label = get_label(component_page, template_object, true);
             var new_label = place_label(current_page, template_label);
-            fill_and_arrange_labels(new_label, current_section, label_pos);
-            
+            fill_and_arrange_labels(new_label, current_section, label_pos, false);
+            alert("Page Complete: " + current_section_name + "\n");
          }
       }
 
@@ -147,7 +160,7 @@
                var section_name = current_spread.pageItems.itemByName("<SECTION_TITLE>");
                if (section_name.contents === target) {
                   return current_spread;
-               }
+               } 
             }
          } catch(search_error) {
             throw new Error("Error in search\n" + search_error + " " + search_error.line);
@@ -200,7 +213,8 @@
          return new_label;
       }
 
-      function fill_and_arrange_labels(target_labels, section, position) {
+      // make the spotting bubbles for actual spotting pages here
+      function fill_and_arrange_labels(target_labels, section, position, spot_bool) {
          try {
             var every_label = target_labels.groups;
             var single_bubble, unique_bubble;
@@ -225,18 +239,39 @@
                }
                var sign = section[i].xmlElements;
                var key = sign[0].contents.match(regex_key).toString();
-               var count = sign[2].contents;
-               var bubble_key = single_bubble.groups[0].pageItems[1];
-               var bubble_count = single_bubble.pageItems[1];
-               bubble_key.contents = key;
-               bubble_count.contents = "X " + count
-               if (i % 5 === 0) {
-                  y_offset += 0.5;
-                  x_offset -= 5;
+               
+               function big_bbl() {
+                  var count = sign[2].contents;
+                  var bubble_key = single_bubble.groups[0].pageItems[1];
+                  var bubble_count = single_bubble.pageItems[1];
+                  bubble_key.contents = key;
+                  bubble_count.contents = "X " + count
+                  if (i % 5 === 0) {
+                     y_offset += 0.5;
+                     x_offset -= 5;
+                  }
+                  single_bubble.duplicate([x_offset + i, y_offset]);
                }
-               single_bubble.duplicate([x_offset + i, y_offset]);
+
+               function small_bbl() {
+                  var single_down = every_label[6];
+
+                  var bubble_key = single_down.groups[0].pageItems[1];
+                  bubble_key.contents = key;
+                  if (i % 5 === 0) {
+                     y_offset += 1.25;
+                     x_offset -= 5;
+                  }
+                  single_down.duplicate([x_offset + i, y_offset]);
+                  //alert(bubble_key.isValid);
+               }
+               if (spot_bool) {
+                  small_bbl();
+               } else {
+                  big_bbl();
+               }
             }
-         alert("done");
+         //alert("done");
          } catch(label_error) {
             throw new Error("Problem with fill_and_arrange_labels\n" + label_error.line + " " + label_error);
          }
@@ -246,20 +281,20 @@
       function main() {
         // var test = contract_to_aoa(job_info);
         // alert(test);
-        var test_template = create_template_map();
-        var test_xml_section = doc.xmlElements[0].xmlElements[1].xmlElements[2].xmlElements;
-        var test_section_template = choose_template("leasing center exterior", test_template);
-        var test_section_name = "#19: LEVEL 6 SIGNAGE"
-        var test_str = "#10: etc etc etc";
-        var regex_test = /\#\d*\:/gi
-        var test_spread = doc.masterSpreads.itemByName("A-SUB-MAIN");
-        var test_pages = doc.pages[1];
+       // var test_template = create_template_map();
+       // var test_xml_section = doc.xmlElements[0].xmlElements[1].xmlElements[2].xmlElements;
+       // var test_section_template = choose_template("leasing center exterior", test_template);
+       // var test_section_name = "#19: LEVEL 6 SIGNAGE"
+       // var test_str = "#10: etc etc etc";
+       // var regex_test = /\#\d*\:/gi
+       // var test_spread = doc.masterSpreads.itemByName("A-SUB-MAIN");
+       // var test_pages = doc.pages[1];
         //alert(test_str.match(regex_test));
         //alert(test_str.replace(regex_test, ''));
         //search_master_spreads(test_section_name);
         //test_page()
         set_main_spread();
-        create_add_frc_colors();
+        //create_add_frc_colors();
         set_sub_spreads();
         xml_make_page();
         //find_position(1, 1);

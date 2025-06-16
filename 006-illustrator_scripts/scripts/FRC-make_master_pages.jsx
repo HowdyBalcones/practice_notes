@@ -103,18 +103,43 @@ try {
             var current_section_name_xml = current_section_xml.xmlElements[0];
             var template_map_section = choose_template(current_section_name, template_map); 
 
-            sub_spread.duplicate();
+            function override_set_item(target, destination) {
+               if (target.isValid) {
+                  target.override(destination);
+                  target.detach();
+               }
+            }
 
+            // need to create a new spread, then set it's master spread to the sub_spread var
+            doc.masterSpreads.add();
             var len = doc.masterSpreads.length;
             var newest_spread = doc.masterSpreads[len-1]; 
-
+            newest_spread.appliedMaster = sub_spread;
+            // override the targets on the latest master spread, this takes them out of the collection so need to decrement each time
+            
+            for (var j = 0; j < newest_spread.pages[0].masterPageItems.length; ++j) {
+              var master_page_item = newest_spread.pages[0].masterPageItems[j];
+              if (master_page_item.name === "<TARGET_SHEET_TITLE>") {
+                 override_set_item(master_page_item, newest_spread.pages[0]);
+                 --j;
+              } 
+              if (master_page_item.name === "<SECTION_TITLE>") {
+                 override_set_item(master_page_item, newest_spread.pages[0]);
+                 --j;
+              }
+              if (master_page_item.name === "<SHEET_PG_LABEL>") {
+                 override_set_item(master_page_item, newest_spread.pages[0]);
+                 --j;
+              } 
+            }
+           
             var sheet_date = newest_spread.pageItems.itemByName("<SHEET_DATE>");    
             var sheet_title = newest_spread.pageItems.itemByName("<TARGET_SHEET_TITLE>");
             var section_title = newest_spread.pageItems.itemByName("<SECTION_TITLE>")
             var designer_initials = newest_spread.pageItems.itemByName("<DESIGNER_INITIALS>");
             var sheet_pg_label = newest_spread.pageItems.itemByName("<SHEET_PG_LABEL>");             
             try {
-               if (sheet_date.isValid && sheet_title.isValid && sheet_pg_label.isValid) {
+               if (sheet_title.isValid && sheet_pg_label.isValid && section_title.isValid) {
                   section_title.contents = current_section_name;
                   sheet_pg_label.fillColor = doc.colors.itemByName(template_map_section.color_cmyk);
                   if (template_map_section.acronym === "AMTY") {
@@ -122,7 +147,7 @@ try {
                   }
                   sheet_pg_label.contents = sheet_pg_label.contents.replace("TEMP", template_map_section.acronym);
                   sheet_title.contents = current_section_name.replace(regex_section_num, '');
-                  newest_spread.baseName = template_map_section.acronym;
+                  newest_spread.baseName = template_map_section.acronym + "-" + i;
                }
             } catch(sub_spread_obj_error) {
                throw new Error("Error referencing sub_spread pageItems\n" + sub_spread_obj_error);
@@ -137,11 +162,11 @@ try {
 //   function main() {
 //     // set_main_spread();
 //     // create_add_frc_colors();
-//     // set_sub_spreads();
+//     //set_sub_spreads();
 //
 //
 //   }
-
+  // main();
  
 } catch(master_pg_error_main) {
    throw new Error("Problem in make_master_pages\n" + master_pg_error_main.line + " " + master_pg_error_main);
