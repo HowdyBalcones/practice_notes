@@ -63,7 +63,7 @@
             }
             make_spotting_page();
          }
-         alert(doc.pages[1].name);
+         // alert(doc.pages[1].name);
       }
 
       // main page making function, combines all of the utility functions as it loops through the contract.
@@ -85,21 +85,18 @@
          var label_pos = [pos2.geometricBounds[1], pos2.geometricBounds[0]];
          
          var regex_signage = /SIGNAGE/i
-         alert("test1")
 
          for (var i = 0; i < contract.length; ++i) {
             var current_section = contract[i].xmlItems;
             var current_section_name = contract[i].xmlItems[0].contents;
-            alert("test2")
             var current_master = search_master_spreads(current_section_name); 
-            alert(current_master.index)
             var current_page = doc.pages.add(LocationOptions.BEFORE, index_start);
             current_page.appliedMaster = current_master;
 
             for (var j = 0; j < current_page.masterPageItems.length; ++j) {
                var master_page_item = current_page.masterPageItems[j];
                if (master_page_item.name === "<SECTION_TITLE>") {
-                  alert(master_page_item.name);
+                  //alert(master_page_item.name);
                   master_page_item.override(current_page);
                   master_page_item.detach();
                } else if (master_page_item.name === "<TARGET_SHEET_TITLE>") {
@@ -112,8 +109,6 @@
            // var testing = current_page.pageItems.itemByName("<SECTION_TITLE>")
            // alert(testing.contents);
             var section_title = current_page.pageItems.itemByName("<SECTION_TITLE>")
-            alert("test3")
-            alert(section_title.constructor.name);
             var template_object = choose_template(section_title.contents, template_map);
             
             function make_spotting_page() {

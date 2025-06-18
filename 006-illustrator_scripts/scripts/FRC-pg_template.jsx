@@ -46,6 +46,7 @@ function create_template_map() {
             "leasing": /leasing center/gi,
             "exterior": /exterior/gi,
             "interior": /interior/gi,
+            "clubhouse": /clubhouse/gi,
             "site_sign": /site signage/gi,
             "building": /building/gi,
             "just_level": /level/gi,
@@ -60,6 +61,12 @@ function create_template_map() {
          } else if (section_name_str.match(kw_regex_list.leasing) && section_name_str.match(kw_regex_list.exterior)) {
             return template_map.lces;
          } else if (section_name_str.match(kw_regex_list.leasing) && section_name_str.match(kw_regex_list.interior)) {
+            return template_map.lcis;
+         } else if (section_name_str.match(kw_regex_list.clubhouse) && section_name_str.match(kw_regex_list.exterior)) {
+            return template_map.lces;
+         } else if (section_name_str.match(kw_regex_list.clubhouse) && section_name_str.match(kw_regex_list.interior)) {
+            return template_map.lcis;
+         } else if (section_name_str.match(kw_regex_list.clubhouse)) {
             return template_map.lcis;
          } else if (section_name_str.match(kw_regex_list.site_sign)) {
             return template_map.site;

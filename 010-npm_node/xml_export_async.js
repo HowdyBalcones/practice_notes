@@ -58,7 +58,7 @@ async function create_section_map(data) {
    try {
       for (let i = 1; i < data.length; ++i) {
          let row = data[i];
-         let section_name = row["0"];
+         let section_name = row["0"].trim();
          if (!section_map.has(section_name)) {
             section_map.set(section_name, []);
          }
