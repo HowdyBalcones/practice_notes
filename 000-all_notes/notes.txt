@@ -1,3 +1,117 @@
+Todays Notes: 2025-07-07
++ reading back through the xml serializer. Notes:
+   - should reorder so that it reads in a more linear fashion. 
+   - is there a reason for the build_key_obj function? It is brought in as json, why not use that structure? 
+      > it does allow for a generic object that can be repurposed throughout the serializer, it's used in two
+      places within our current script, the main contract uses pieces of it, and unique sign list uses pieces.
+   - definitely will need to rewrite the unique_signs function to leverage a fuzzy find and include the 
+   grouping logic we are looking for. 
+
++ general xml serializer logic
+   - import_clean_contract 
+      > takes an XLSX file and turns it into the JSON format
+
+   - build_key_obj
+      > is used on "rows" of the JSON object, creates an object from each row
+
+   - create_section_map
+      > makes a new Map() object
+      > iterates over the JSON object output from import_clean_contract
+      > checks the map if it has the section name for that row, if not sets a new key w/ that section name,
+      then creates an empty array. It then checks the Map for that rows section name, and pushes a key_object
+      onto the array of the matching section name. 
+      > returns the Map() object, called section_map. This should look generally like: 
+         key[section_name1]: value[array of key objects from this section],
+         key[section_name2]: value[array of key objects from new section],
+         etc... 
+         
+   - build_section_xml
+      > takes section_map is an argument (Map() object)
+      > immediately reduces the map to an array for simplicity I think
+      > initializes a string, this will hold the xml string
+      > iterates through the new section_map array, passing the section_name and list of key_objects to
+      a function called serialize_sections, appending the return to the xml string
+      > the end result: 
+         <section>
+            <section_name>string</section_name>
+            <sign>
+               <keys...></keys...>
+            </sign>
+         </section>
+      > returns the xml string after completing iteration
+
+   - serialize_sections
+      > takes a section_name, and array of key_objects as arguments
+      > initalizes a constant called itemsXML, which uses the .map in combination with a template literal
+      This map method places each key of every key_object in the section_map object into a template literal
+      that wraps those variables in proper xml. 
+      > initializes a constant named section_info, which wraps the section_name xml in a section tag
+      It results in this structure
+         <section>
+            <section_name></section_name>
+            <sign> various sign keys... </sign>
+         </section>      
+      > returns section info
+
+   - build_metadata_xml 
+      > this takes one row from the JSON object and serializes the metadata columns from that row into
+      a template literal that wraps it in proper xml. 
+      > returns the metadata xml string. 
+
+   - serialize_unique_signs
+      > leverages three helper functions only used here, unique_signs(), find_same_obj(), and section_list_xml()
+      > section_list_xml() takes a section_list from a key_object, wraps the variables in the section_list
+      in proper xml, appends this all to a single string, then returns the string.
+      > the main function then iterates through a unique_sign_list from unique_signs
+      > sets the variables for the given xml element, calls section_list_xml to get the properly formatted
+      section list, wraps everything in XML with a template literal
+      > returns the template literal
+
+   - find_same_obj
+      > takes an array and a key_obj as arguments
+      > copies the array to a new constant explicitly, so we don't mutate the input array
+      > creates a boolean variable using the .find() method on new_arr, matching strings from the 
+      description key. Here it is using naive matching, the strings must be exactly the same. 
+      If we are to implement fuzzy find, it would match based on some threshold rather than exact matches. 
+      > If a description match is found, that element of the new_arr is updated with new count, cost, and 
+      section_list information. These are all keys in the key_object. 
+      > returns the updated new_array. 
+
+   - unique_signs
+      > takes the JSON object as input
+      > initializes an empty array, unique_sign_list
+      > iterates through input data, calls build_key_obj on each "row"
+      > calls find_same_obj with unique_sign_list and the new key_object for the current row
+      > returns the unique sign list
+      > in short: this accumulates key objects in an array, incrementing keys in key objects that 
+      have explicitly matching description key values. 
+
+   - compose_xml_object
+      > takes the imported JSON object from clean contract
+      > calls all the previous functions using async/await syntax, initializes their return to constants
+      > wraps each constant with a template literal, dropping xml strings into the general xml structure
+      > returns the general xml structure
+
+   - async batch_files 
+      > takes data (JSON) and a file path as an argument
+      > initializes input from the command line using argv, the input files and the destination they 
+      are being written to. Throws if there are no arguments passed in. 
+      > this is a node specific function, it has several sub-functions 
+      make_folder_async, write_xml_lib, process_file
+      > make_folder_async concats the destination path with the folder name, checking if it exists already
+      > write_xml_lib creates the file name with path.basename (node)
+       it then calls our make_folder_async functions
+       >> it calls the compose_xml_object on the data argument
+       >> creates the destination path, with path.join and a template literal
+       >> uses fs.writeFile with the new path and xml object and attempts to write the file.
+      > then process_file() is defined
+       >> tests the file path in a few ways, making sure it's valid
+       >> calls the import_clean_contract function, initializing our input data
+       >> calls write_xml_lib on the input data
+       >> wraps everything in some handy try/catches
+      > uses a for..each loop on the path arguments passed on the command line, calling process_file() on 
+      each path. 
+
 Todays Notes: 2025-06-02
 + so markdown
    - could be used to write and eventually automate documentation of different sign design documents

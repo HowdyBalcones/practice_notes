@@ -38,7 +38,10 @@ Use documentation!
 var obj = target_obj.collection[0];
 var name = obj.constructor.name
 var prototype_name = obj.isPrototypeOf()
-```
+alert(obj.isValid);
+alert(typeof obj);
+```  
+
   
 * Illustrator
 
@@ -154,4 +157,19 @@ What it is used for, strictly:
 * grepping through the scripts to understand wtf I was thinking when I wrote something  
 
 Obviously it could be used for a lot more, sysadmins with functional frontal lobes have automated some extremely complex tasks with a battery of shell scripts, to the point where they can leave for greener pastures and the backend will keep functioning. (more or less).  
+
+### __Working with Xpath and Extendscript__  
+[Documentation](https://www.w3.org/TR/1999/REC-xpath-19991116/#section-Introduction)
+
+Useful methods:  
+1. new XML(theXMLObject); // we have to create an xml object from the xml document for now  
+1. xmlObject.evaluateXPathExpression("xpath expresion")  // returns an array of nodes, this is an extendscript method
+1. 
+  
+Understanding Xpath:  
+- Sort of works like file paths in Unix, where targeting a directory points to the contents of that directory.  
+- /predicate works like an absolute path, //predicate means anywhere in the document where the predicate matches an element
+1. "//root" -- this will return an "XMLList" which is a particular type of data structure
+1. "//root/target" -- this will return an xmlList for all targets that match a given string
+
 

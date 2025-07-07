@@ -17,6 +17,7 @@ async function import_clean_contract(path, file_name) {
    return filtered_data;
 }
 
+// Takes json object keys and turns it into a generic object, defined in the function. 
 function build_key_obj(row) {
    const section = row["0"].trim();
    const key = row["1"];
