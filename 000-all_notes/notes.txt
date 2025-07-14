@@ -1,3 +1,27 @@
+Todays Notes: 2025-07-08
++ fuzzy search is implemented, along with levenshtein algorithm. 
+   > need to apply to the xml group logic 
+   > we will apply to sections first
+      - search for building token, then the next adjacent token
+      - search for level token, then next adjacent token:
+   > then we should use the fuzzy find to create a better master list of unique signs
+      - something like, if the term falls within the first three matches, group together
+   > what can be the target of the search list argument for fuzzy find? 
+   > 
+
++ The contract filter pipeline 
+   > contract_db_import.js
+      - This is the main scrub, it pulls most of the data into a useable format, there are persistent errors in the
+      column alignments and row concatenation though, so rather than mess with the logic we just made another filter script. 
+   > test-export_contracts.js
+      - This is the other filter script. It could probably be combined with the main filter logic, but we haven't really touched it
+      since getting it working. 
+      
++ Working through the fuzzy finder module, writing a levenshtein algorithm
+   > Basically it fills up a 2d array, with the height and width being the lengths of string 1 and string 2
+   > it iterates through each character of both strings and accumulates the differences between each character. 
+   > currently implemented, it is case sensitive, because it is performing direct character comparison. 
+
 Todays Notes: 2025-07-07
 + reading back through the xml serializer. Notes:
    - should reorder so that it reads in a more linear fashion. 
@@ -24,7 +48,21 @@ Todays Notes: 2025-07-07
          key[section_name1]: value[array of key objects from this section],
          key[section_name2]: value[array of key objects from new section],
          etc... 
-         
+ 
+   - serialize_sections
+      > takes a section_name, and array of key_objects as arguments
+      > initalizes a constant called itemsXML, which uses the .map in combination with a template literal
+      This map method places each key of every key_object in the section_map object into a template literal
+      that wraps those variables in proper xml. 
+      > initializes a constant named section_info, which wraps the section_name xml in a section tag
+      It results in this structure
+         <section>
+            <section_name></section_name>
+            <sign> various sign keys... </sign>
+         </section>      
+      > returns section info
+
+        
    - build_section_xml
       > takes section_map is an argument (Map() object)
       > immediately reduces the map to an array for simplicity I think
@@ -40,32 +78,10 @@ Todays Notes: 2025-07-07
          </section>
       > returns the xml string after completing iteration
 
-   - serialize_sections
-      > takes a section_name, and array of key_objects as arguments
-      > initalizes a constant called itemsXML, which uses the .map in combination with a template literal
-      This map method places each key of every key_object in the section_map object into a template literal
-      that wraps those variables in proper xml. 
-      > initializes a constant named section_info, which wraps the section_name xml in a section tag
-      It results in this structure
-         <section>
-            <section_name></section_name>
-            <sign> various sign keys... </sign>
-         </section>      
-      > returns section info
-
    - build_metadata_xml 
       > this takes one row from the JSON object and serializes the metadata columns from that row into
       a template literal that wraps it in proper xml. 
       > returns the metadata xml string. 
-
-   - serialize_unique_signs
-      > leverages three helper functions only used here, unique_signs(), find_same_obj(), and section_list_xml()
-      > section_list_xml() takes a section_list from a key_object, wraps the variables in the section_list
-      in proper xml, appends this all to a single string, then returns the string.
-      > the main function then iterates through a unique_sign_list from unique_signs
-      > sets the variables for the given xml element, calls section_list_xml to get the properly formatted
-      section list, wraps everything in XML with a template literal
-      > returns the template literal
 
    - find_same_obj
       > takes an array and a key_obj as arguments
@@ -85,6 +101,15 @@ Todays Notes: 2025-07-07
       > returns the unique sign list
       > in short: this accumulates key objects in an array, incrementing keys in key objects that 
       have explicitly matching description key values. 
+
+   - serialize_unique_signs
+      > leverages three helper functions only used here, unique_signs(), find_same_obj(), and section_list_xml()
+      > section_list_xml() takes a section_list from a key_object, wraps the variables in the section_list
+      in proper xml, appends this all to a single string, then returns the string.
+      > the main function then iterates through a unique_sign_list from unique_signs
+      > sets the variables for the given xml element, calls section_list_xml to get the properly formatted
+      section list, wraps everything in XML with a template literal
+      > returns the template literal
 
    - compose_xml_object
       > takes the imported JSON object from clean contract
