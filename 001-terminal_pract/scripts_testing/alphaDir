@@ -2,12 +2,13 @@
 
 # SCRIPT: Script_Template
 # AUTHOR: Camden Bailey
-# DATE: 07-03-2023
+# DATE: 2025-05-23 
 # REV: 1.1.A
 #
 # PLATFORM: UNIX Based, zsh
 #
-# PURPOSE: This is a quick commit script to update our github repo for notes	
+# PURPOSE: Creating a template for every script made at Select Corporation. Should document the production of these tools for 
+# future designers, should they be interested. 
 #
 # REV LIST:
 #	DATE: DATE_of_REVISION
@@ -23,23 +24,46 @@
 # 		   DEFINE FILES AND VARIABLES HERE
 ########################################################################
 
+#setopt EXTENDED_GLOB NO_CASE_GLOB
+alphabet=$(echo {A..Z})
 
 ########################################################################
 #		       DEFINE FUNCTIONS HERE	
 ########################################################################
+test_loop() {
+   for char in $alphabet;
+   do
+      echo $char
+      ls | grep -i "^$char"
+   done
+}
 
+make_alpha_dirs2() {
+   for char in $alphabet; do
+      files=( "$char"* )
+      echo $files
+   done
+}
+
+make_alpha_dirs() {
+   for char in "${alphabet[@]}";
+   do
+      files=( "$char"* )
+      if [[ ${#files[@]} -eq 0 ]]; then
+         echo "No files starting with '$char' - skipping"
+         continue
+      fi
+      echo ''
+      #mkdir -p "$char"
+      #mv $files $char
+   done
+}
 
 ########################################################################
 #			 BEGINNING OF MAIN
 ########################################################################
+#test_loop
+make_alpha_dirs
+#make_alpha_dirs
 
-cd /Users/camdenbailey/.repos/practice_notes
-git pull origin master;
 
-git add . ;
-
-echo "What is the description for this commit?"
-read description
-
-git commit -m "$description" ;
-git push origin master ; 

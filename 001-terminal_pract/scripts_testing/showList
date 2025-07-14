@@ -35,7 +35,7 @@ showList () {
 	IFS=$'\n'
 	while true; do
 		echo "Please select a file from the list below:"
-		i=1
+		i=0
 		for dir in "${dirs[@]}"; do
 			echo "$i) $dir"
 			i=$((i + 1))
@@ -49,7 +49,7 @@ showList () {
 	if [[ $choice -ge 0 && $choice -lt $i ]]; then
 		chosen_dir=${dirs[$((choice))]}
 		echo "You selected: $chosen_dir"
-		cd "$chosen_dir"
+		. /Users/camdenbailey/scripts/testingCD01 "$chosen_dir"
 		break 
 	elif [[ $choice -eq $i ]]; then
 		echo "Exiting..."
@@ -59,7 +59,7 @@ showList () {
 		echo "Enter name of new folder:"
 		read folder
 		mkdir $folder
-		cd $folder
+		. /Users/camdenbailey/scripts/testingCD01 $folder
 		break	
 	else
 		echo "Invalid choice. Please try again."

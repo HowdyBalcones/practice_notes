@@ -7,7 +7,8 @@
 #
 # PLATFORM: UNIX Based, zsh
 #
-# PURPOSE: This is a quick commit script to update our github repo for notes	
+# PURPOSE: Creating a template for every script made at Select Corporation. Should document the production of these tools for 
+# future designers, should they be interested. 
 #
 # REV LIST:
 #	DATE: DATE_of_REVISION
@@ -22,7 +23,12 @@
 ########################################################################
 # 		   DEFINE FILES AND VARIABLES HERE
 ########################################################################
-
+# NOTES
+# magick montage
+# magick montage file.ext result.ext
+# magick montage file.ext -geometry +2+2 result.ext -- control column width between images montaged
+# magick montage file.ext -geometry 48x48+2+2 result.ext -- control resize and spacing between images montaged
+# 
 
 ########################################################################
 #		       DEFINE FUNCTIONS HERE	
@@ -33,13 +39,5 @@
 #			 BEGINNING OF MAIN
 ########################################################################
 
-cd /Users/camdenbailey/.repos/practice_notes
-git pull origin master;
 
-git add . ;
 
-echo "What is the description for this commit?"
-read description
-
-git commit -m "$description" ;
-git push origin master ; 

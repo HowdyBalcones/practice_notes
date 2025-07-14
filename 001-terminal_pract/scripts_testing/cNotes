@@ -7,7 +7,8 @@
 #
 # PLATFORM: UNIX Based, zsh
 #
-# PURPOSE: This is a quick commit script to update our github repo for notes	
+# PURPOSE: make opening notes faster and more consistent. 
+#
 #
 # REV LIST:
 #	DATE: DATE_of_REVISION
@@ -24,22 +25,27 @@
 ########################################################################
 
 
+currentDate=$(date "+%Y-%m-%d")
+topLine=$(cat ~/Desktop/practice_notes/codingNotes.txt | head -n 1)
 ########################################################################
 #		       DEFINE FUNCTIONS HERE	
 ########################################################################
 
 
+startNotes() {
+	# if first line contains todays date, simply open notes. 
+if [[ "$topLine" == "Todays Programming Notes: ${currentDate}" ]]; then
+   vim ~/Desktop/practice_notes/codingNotes.txt;
+else
+	# have to use special macos syntax for sed here, specifying in place editing
+	sed -i '' $'1s/^/'"Todays Programming Notes: ${currentDate}"$'\\\n/' ~/Desktop/practice_notes/codingNotes.txt;
+	vim ~/Desktop/practice_notes/codingNotes.txt;
+fi
+}
+
 ########################################################################
 #			 BEGINNING OF MAIN
 ########################################################################
 
-cd /Users/camdenbailey/.repos/practice_notes
-git pull origin master;
+startNotes;
 
-git add . ;
-
-echo "What is the description for this commit?"
-read description
-
-git commit -m "$description" ;
-git push origin master ; 

@@ -26,7 +26,7 @@
 
 
 currentDate=$(date "+%Y-%m-%d")
-topLine=$(cat ~/Desktop/002-Coding_Notes/notes.txt | head -n 1)
+topLine=$(cat /Users/camdenbailey/.repos/practice_notes/000-all_notes/notes.txt | head -n 1)
 ########################################################################
 #		       DEFINE FUNCTIONS HERE	
 ########################################################################
@@ -35,11 +35,11 @@ topLine=$(cat ~/Desktop/002-Coding_Notes/notes.txt | head -n 1)
 startNotes() {
 	# if first line contains todays date, simply open notes. 
 if [[ "$topLine" == "Todays Notes: ${currentDate}" ]]; then
-	vim ~/Desktop/002-Coding_Notes/notes.txt;
+	vim /Users/camdenbailey/.repos/practice_notes/000-all_notes/notes.txt;
 else
 	# have to use special macos syntax for sed here, specifying in place editing
-	sed -i '' $'1s/^/'"Todays Notes: ${currentDate}"$'\\\n/' ~/Desktop/002-Coding_Notes/notes.txt;
-	vim ~/Desktop/002-Coding_Notes/notes.txt;
+	sed -i '' $'1s/^/'"Todays Notes: ${currentDate}"$'\\\n/' /Users/camdenbailey/.repos/practice_notes/000-all_notes/notes.txt;
+	vim /Users/camdenbailey/.repos/practice_notes/000-all_notes/notes.txt;
 fi
 }
 

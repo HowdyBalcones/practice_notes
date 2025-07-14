@@ -33,5 +33,10 @@
 #			 BEGINNING OF MAIN
 ########################################################################
 
+scriptFolder="/Users/camdenbailey/.repos/practice_notes/006-illustrator_scripts/scripts/"
+# osascript -e 'tell application "Adobe Illustrator 2023" to do javascript file "'"${scriptFolder}${1}"'"'
+# fullPath="echo ${scriptFolder}${1} | sed 's/\./\\./g'"
+# echo ${fullPath}
+osascript -e 'tell application "Adobe Illustrator 2023" to do javascript (read file '"'${1}'"')'
+# osascript -e 'tell application "Adobe Illustrator 2023" to do script (file POSIX file "'"$scriptFolder$1"'") language javascript'
 
-osascript -e 'tell application "Adobe Illustrator" to do javascript (read POSIX file "'"$1"'")'

@@ -2,12 +2,12 @@
 
 # SCRIPT: Script_Template
 # AUTHOR: Camden Bailey
-# DATE: 07-03-2023
+# DATE: 02-13-2025
 # REV: 1.1.A
 #
 # PLATFORM: UNIX Based, zsh
 #
-# PURPOSE: This is a quick commit script to update our github repo for notes	
+# PURPOSE: finding contracts at FRC without breaking anything or otherwise causing a ruckus.  
 #
 # REV LIST:
 #	DATE: DATE_of_REVISION
@@ -24,6 +24,7 @@
 ########################################################################
 
 
+
 ########################################################################
 #		       DEFINE FUNCTIONS HERE	
 ########################################################################
@@ -33,13 +34,12 @@
 #			 BEGINNING OF MAIN
 ########################################################################
 
-cd /Users/camdenbailey/.repos/practice_notes
-git pull origin master;
+# some examples for when we write the full script
+# will probably want to add something that will check for new contracts that've been
+# been added since the last check, and something to archive files that have been updated.
+# find /Volumes/company/ -name "*.xlsx" -exec cp {} ~/Desktop/contract_db \;
+#
+# this specifies the search for things altered within a certain date range using mtime
+# find /Volumes/company/CONTRACTS/ -name "*.xlsx" ! -path "*/OLD/*" ! -path "*/Old/*" ! -path "*/old/*" -mtime -730 -print > ./testing_find-3.txt
 
-git add . ;
-
-echo "What is the description for this commit?"
-read description
-
-git commit -m "$description" ;
-git push origin master ; 
+# find /Volumes/company/CONTRACTS/More\ Residential/ -name "*.xlsx" ! -path "*/OLD/*" ! -path "*/Old/*" ! -path "*/old/*"
