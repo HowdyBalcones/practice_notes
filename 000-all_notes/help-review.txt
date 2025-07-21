@@ -386,6 +386,19 @@ sqlite3 -- for many languages, bash/zsh compatible
    examples:
       for file in "$(ls -l )"
 
+   > while loop - man zshmisc
+      - while list do list done
+        
+        while [condition]; do
+           commands
+        done
+      - evaluates condition, exit status 0 = true
+      - runs command if true
+      - repeat until false
+      - supports pipes, input and output redirection 
+      - use break/continue to exit or skip iterations
+        
+
    > declare array 
       - <varName>=("item1" "item2" "item3")
       - echo "${<varName>[0]}" - print "item1"
@@ -407,10 +420,14 @@ sqlite3 -- for many languages, bash/zsh compatible
       - $- current options set for the shell
       - $_ last argument of the previous shell
 
-   > if statements
+   > conditionals
       - if [[ conditional boolean ]]; then
         elif [[ second conditional ]]; then
         fi
+      - condition options
+      - list of conditional options 
+      https://zsh.sourceforge.io/Doc/Release/Conditional-Expressions.html
+      
 
    > IFS - a list of characters that separate fields; used when the shell splits words as part of expansion
       - terminating files with a null character like \0 is useful when handling strings that contain spaces
@@ -419,5 +436,16 @@ sqlite3 -- for many languages, bash/zsh compatible
       - man zshbuiltins for options
       - -r is raw mode, \'s don't quote the following character and are not removed, does not continue onto the next line.
       - -d input is terminated by the first char of delim instead of by newline
-  
+      - can be used in a while loop as
+         while read -r variable; do
+         done
+   > file descriptors "FDs"  
+      - 0 = stdin
+      - 1 = stdout
+      - 2 = stderr
+      - 3+ = user-defined "custom"
+      
+   > getopts
+      - bash builtin for parsing command line arguments
+
 
