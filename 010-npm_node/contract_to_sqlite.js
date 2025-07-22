@@ -1,6 +1,12 @@
 const XLSX = require('xlsx');
 const Database = require('better-sqlite3');
+const path = require('path');
 const fs = require('fs');
+
+// notes on better-sqlite3
+// - make new Database(name, {opts})
+// - prepare prepares a statement to run on a database. As: const stmt = db.prepare('SELECT name, age FROM cats');
+// - ?s are arg parameters, they separate code from data. 
 
 function make_db(db_name = "") {
    if (!db_name) {
@@ -13,6 +19,11 @@ function make_db(db_name = "") {
    const db = new Database(`${db_name}.db`, { verbose: console.log });
    return db;
    //console.log(`${db_name}.db created`)
+}
+
+function get_table_name(json) {
+   const table_name = `${json[1]["8"]}-${json[1]["10"]}`
+   return table_name;
 }
 
 function make_field_map() {
@@ -31,7 +42,7 @@ function make_field_map() {
       "10": "Client_Name",
       "11": "Contract_File_Name"
    }
-
+   // enforce types on named fields
    const type_map = {
       "Section": "TEXT",
       "Key": "TEXT",
@@ -47,7 +58,7 @@ function make_field_map() {
       "Contract_File_Name": "TEXT"
    }
 
-   const json_map {
+   const json_map = {
       "field_map": field_map,
       "type_map": type_map,
    }
@@ -65,15 +76,149 @@ function xlsx_to_json(path) {
    //console.log(sheet_json);
 }
 
+function check_table_exists(db, table_name) {
+   const check_stmt = db.prepare(`
+         SELECT name FROM sqlite_master
+         WHERE type='table' AND name=?
+      `);
+   const exists = check_stmt.get(table_name) !== undefined;
+   return exists;
+}
+
+function create_table(name="err") {
+   const json_map = make_field_map();
+   const field_map = json_map.field_map;
+   const type_map = json_map.type_map;
+
+   // make the table
+   const columns = Object.entries(field_map).map(
+      ([json_key, column]) => `${column} ${type_map[column]}`)
+      .join(", ");
+
+   const create_table_sql = `
+   CREATE TABLE ${name} (
+   id INTEGER PRIMARY KEY AUTOINCREMENT,
+   ${columns}
+   )
+   `
+   return create_table_sql;
+   // console.log(create_table_sql);
+}
+
+function insert_json_to_table(json, db, table) {
+   const { field_map, type_map } = make_field_map();
+   const columns = Object.values(field_map);
+   //console.log(json)
+
+   // idk what the ?s are for yet
+   const insert_statement = db.prepare(`
+         INSERT INTO ${table} (${columns.join(', ')})
+         VALUES (${columns.map(() => '?').join(', ')})
+      `);
+
+   db.transaction(() => {
+      for (let i = 0; i < json.length; ++i) {
+        try {
+           let row = json[i];
+           const row_values = Object.keys(field_map).map(key => row[key] ?? null);
+           insert_statement.run(row_values);
+        } catch(row_error) {
+           console.error(`Failed row: ${JSON.stringify(row_value)}`, row_error);
+           throw row_error;
+        }
+      }
+   })();
+   console.log(db)
+}
+
 function json_to_db(path, db_name) {
    const json_contract = xlsx_to_json(path);
    const db = make_db(db_name);
 
-   const cols = Object.keys(json_contract[0]);
+   const table = create_table();
+   console.log(table);
+   db.exec(table);
 
-   console.log(cols);
+   console.log(db);
 }
 
+function q_table(db, statement) {
+   const rows = db.prepare(`${statement}`).all();
+   return rows;
+}
+
+function test_db(db, table_name) {
+   const rows = db.prepare(`SELECT * FROM ${table_name}`).all();
+   console.log(rows);
+}
+
+function batch_files() {
+   const file_paths = process.argv.slice(3);
+   const destination_path = process.argv[2];
+   if (file_paths === 0) {
+      console.error('No files provided: Usage node script destination files...');
+      process.exit(1);
+   }
+   
+   function make_folder(folder_name) {
+      const folder_path = path.join(destination_path, `/${folder_name}`);
+      
+      try {
+         
+         fs.mkdir(folder_path, {recursive: true}, (err) => {
+            if (err) {
+               throw new Error(err)
+            }
+         });
+
+      } catch(folder_error) {
+         if (folder_error === 'EEXISTS') {
+            console.error(`Folder exists ${folder_error}`);
+         } else {
+            console.error(`Error making folder: ${folder_error.module} - ${folder_error.code} - ${folder_error.message}`);
+         }
+      }
+   }
+
+   function write_sql_data(data, file_path) {
+      // this will take each contract, make a table for that contract name, then write the contract to a db
+      const db_name = "FRC-MAIN";
+      const db_path = path.join(destination_path, `/${db_name}.db`);
+      const main_db = make_db(db_path);
+      console.log(check_table_exists(main_db, "test"));
+      //create_table()
+   }
+
+   function process_file(file_path) {
+      console.log(file_path);
+      let file_name = 'unknown';
+      try {
+         const full_path = path.resolve(file_path);
+         console.log(full_path);
+         if (!full_path) {
+            console.log(`Error resolving file_path: ${file_path}`);
+            return;
+         }
+         file_name = path.basename(full_path);
+         if (!file_name) {
+            console.log(`Cannot resolve file_name: ${full_path}`);
+         }
+            try {
+               // console.log(file_path);
+               const target_data = xlsx_to_json(full_path);
+               const table_name = get_table_name(target_data);
+               write_sql_data(target_data, full_path);
+            } catch(write_error) {
+               console.error(`Error writing file: ${write_error.module} - ${write_error.code} - ${write_error.message}`);
+            }
+         
+      } catch(file_error) {
+         console.log(`Error processing file: ${file_error}, file name: ${file_name}`);
+      }
+   }
+
+   file_paths.forEach((path) => process_file(path));
+}
 
 function main() {
    const test_path = "./02-results/previous_tests/2106G14RS Broadstone Trinity REV 3.xlsx"
@@ -81,7 +226,13 @@ function main() {
       // make_db("frc_working.db");
       // xlsx_to_sql(test_path);
       // json_to_db(test_path, "frc_working");
-      const test = make_field_map()
+      // const test = make_field_map()
+      // create_table();
+      // console.log(test);
+      // json_to_db(test_path, "frc_working");
+      // insert_json_to_table(xlsx_to_json(test_path), make_db("frc_working"));
+      // test_db(make_db("frc_working"), "test");
+      batch_files();
    } catch(e) {
       console.log(`Error in database module: ${e}`)
    }

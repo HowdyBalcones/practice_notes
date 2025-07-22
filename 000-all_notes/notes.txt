@@ -1,3 +1,13 @@
+Todays Notes: 2025-07-21
+- we just need to recreate the cli template from our past node scripts, we are reading a list of paths into
+the functions we wrote for the sqlite db
+- the ui will be a search bar where you can look for contract names / codes, then click them and see the various 
+columns. You can hide / reveal the columns. 
+   + how does editability work? How are they read back into the main db? 
+   + what is the exact table schema we want to work with? 
+   + this is not priority right now, but what is the look of the UI? 
+   + what can the user actually search for? 
+
 Todays Notes: 2025-07-08
 + fuzzy search is implemented, along with levenshtein algorithm. 
    > need to apply to the xml group logic 
