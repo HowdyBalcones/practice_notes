@@ -7,6 +7,7 @@ const fs = require('fs');
 // - make new Database(name, {opts})
 // - prepare prepares a statement to run on a database. As: const stmt = db.prepare('SELECT name, age FROM cats');
 // - ?s are arg parameters, they separate code from data. 
+// - table names need to be quoted if they contain spaces, special characters, start with a number, etc
 
 function make_db(db_name = "") {
    if (!db_name) {
@@ -16,13 +17,13 @@ function make_db(db_name = "") {
       const prefix_idx = db_name.lastIndexOf(".db");
       db_name = db_name.slice(0, prefix_idx);
    } 
-   const db = new Database(`${db_name}.db`, { verbose: console.log });
+   // const db = new Database(`${db_name}.db`, { verbose: console.log });
+   const db = new Database(`${db_name}.db`);
    return db;
-   //console.log(`${db_name}.db created`)
 }
 
 function get_table_name(json) {
-   const table_name = `${json[1]["8"]}-${json[1]["10"]}`
+   const table_name = `'${json[1]["8"]}-${json[1]["10"]}'`
    return table_name;
 }
 
@@ -79,13 +80,13 @@ function xlsx_to_json(path) {
 function check_table_exists(db, table_name) {
    const check_stmt = db.prepare(`
          SELECT name FROM sqlite_master
-         WHERE type='table' AND name=?
+         WHERE type='table' AND name=${table_name}
       `);
-   const exists = check_stmt.get(table_name) !== undefined;
+   const exists = check_stmt.get() !== undefined;
    return exists;
 }
 
-function create_table(name="err") {
+function create_contract_table(name="err") {
    const json_map = make_field_map();
    const field_map = json_map.field_map;
    const type_map = json_map.type_map;
@@ -102,7 +103,6 @@ function create_table(name="err") {
    )
    `
    return create_table_sql;
-   // console.log(create_table_sql);
 }
 
 function insert_json_to_table(json, db, table) {
@@ -117,7 +117,7 @@ function insert_json_to_table(json, db, table) {
       `);
 
    db.transaction(() => {
-      for (let i = 0; i < json.length; ++i) {
+      for (let i = 1; i < json.length; ++i) {
         try {
            let row = json[i];
            const row_values = Object.keys(field_map).map(key => row[key] ?? null);
@@ -128,7 +128,7 @@ function insert_json_to_table(json, db, table) {
         }
       }
    })();
-   console.log(db)
+   //console.log(db)
 }
 
 function json_to_db(path, db_name) {
@@ -152,6 +152,14 @@ function test_db(db, table_name) {
    console.log(rows);
 }
 
+function test_db_tables(db, table_name) {
+   const rows = db.prepare(`
+      SELECT name FROM sqlite_master
+      WHERE type='table' AND name LIKE '%${table_name}%'
+      `).all();
+   console.log(rows);
+}
+
 function batch_files() {
    const file_paths = process.argv.slice(3);
    const destination_path = process.argv[2];
@@ -164,13 +172,11 @@ function batch_files() {
       const folder_path = path.join(destination_path, `/${folder_name}`);
       
       try {
-         
          fs.mkdir(folder_path, {recursive: true}, (err) => {
             if (err) {
                throw new Error(err)
             }
          });
-
       } catch(folder_error) {
          if (folder_error === 'EEXISTS') {
             console.error(`Folder exists ${folder_error}`);
@@ -180,13 +186,20 @@ function batch_files() {
       }
    }
 
-   function write_sql_data(data, file_path) {
+   function write_sql_data(data, file_path, table_name) {
       // this will take each contract, make a table for that contract name, then write the contract to a db
       const db_name = "FRC-MAIN";
       const db_path = path.join(destination_path, `/${db_name}.db`);
       const main_db = make_db(db_path);
-      console.log(check_table_exists(main_db, "test"));
-      //create_table()
+
+      if (!check_table_exists(main_db, table_name)) {
+         main_db.exec(create_contract_table(table_name));
+      }
+
+      insert_json_to_table(data, main_db, table_name);
+      test_db(main_db, table_name);
+      
+      // console.log(check_table_exists(main_db, table_name));
    }
 
    function process_file(file_path) {
@@ -207,7 +220,7 @@ function batch_files() {
                // console.log(file_path);
                const target_data = xlsx_to_json(full_path);
                const table_name = get_table_name(target_data);
-               write_sql_data(target_data, full_path);
+               write_sql_data(target_data, full_path, table_name);
             } catch(write_error) {
                console.error(`Error writing file: ${write_error.module} - ${write_error.code} - ${write_error.message}`);
             }
@@ -222,6 +235,7 @@ function batch_files() {
 
 function main() {
    const test_path = "./02-results/previous_tests/2106G14RS Broadstone Trinity REV 3.xlsx"
+   const proto_db = make_db("FRC-MAIN");
    try {
       // make_db("frc_working.db");
       // xlsx_to_sql(test_path);
@@ -231,8 +245,9 @@ function main() {
       // console.log(test);
       // json_to_db(test_path, "frc_working");
       // insert_json_to_table(xlsx_to_json(test_path), make_db("frc_working"));
-      // test_db(make_db("frc_working"), "test");
-      batch_files();
+      // test_db(make_db(proto_db), "");
+      // batch_files();
+      test_db_tables(proto_db, 'G');
    } catch(e) {
       console.log(`Error in database module: ${e}`)
    }
