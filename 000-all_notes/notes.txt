@@ -1,3 +1,26 @@
+Todays Notes: 2025-07-23
+- left mcs off at pg 14, cont tomorrow
+   + thinking in this systematic way is a great way to scaffold programs
+
+
+Todays Notes: 2025-07-22
+- working with the db reveals a lot of holes in the script, largely when handling errors from data entry
+   + there is an issue mapping to the correct columns when the script runs into an error. 
+   + reading the first row in correctly, but proceding cells certain columns only have the first character
+   + The data itself is just missing a lot of important consistency. As we combine and normalize, we build
+   leverage over the inconsistency. But at some point I have a feeling there will be unavoidable manual cleanup. 
+   + maybe the best tools are within excel. we can use some basic formulas and run them on the most problematic contracts. 
+   + also, we could just continue stacking the filters onto each other. checks for various columns and each cell. 
+   Modularize the filters, run them one at a time on an immutable copy, and establish procedure for updating on conflict. 
+   + there is probably < 5% of files that have major issues, but they will naturally standout. 
+   
+- prototype is functional, what's next?
+   + safety features - table row comparison, backups / revisions, 
+   + important features - client tables, project tables
+   + UI mockup - getting the HTML / JS working so the tables generate in the browser, the search bar works, etc
+   + work on the refactor tomorrow. class based, simpler. 
+   
+
 Todays Notes: 2025-07-21
 - we just need to recreate the cli template from our past node scripts, we are reading a list of paths into
 the functions we wrote for the sqlite db

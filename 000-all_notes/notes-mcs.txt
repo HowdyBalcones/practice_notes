@@ -1,0 +1,178 @@
+>> This is a text from an open mit course, it covers basic discrete mathematics. It's something worth putting in the 
+time on. Next to architectural understanding, algorithms and math are the weakest spots in our programming knowledge. 
+>> Link: https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/pages/readings/
+
+>> Introduction
+
+> Why? 
+   + Clarify that software will always work as intended, impossible with testing alone
+
+>> 1 What is a proof? 
+
+   ++ Definition: Proof
+   A mathematical proof of a proposition is a chain of logical deductions 
+   leading to the proposition from a base set of axioms.
+   - Proposition, logical deduction, axiom.
+
+> 1.1 Proposition
+
+   ++ Definition: Proposition
+   A statement or communication that is either true or false. Cannot be both. 
+   For example: 
+   2 + 3 = 5 => true
+   1 + 1 = 3 => false
+
+   ++ Conjectures
+   Euler Equation
+   a^4 + b^4 + c^4 = d^4 has no solution where all are positive integers. 
+   Solution: 
+   a = 95800, b = 217519, c = 414560, d = 422481
+
+   Four Color Theorem
+   Every map can be colored with 4 colors so that adjacent regions have different colors
+   1. Regions are adjacent when they share a boundary of positive length, not a point
+   - There is a mostly solid proof that exists, by Appel and Haken
+
+   Fermat's Last Theorem
+   There are no positive integers x, y, z such that
+   x^n + y^n = z^n
+   for some integer n > 2
+   Andrew Wiles gave a proof, after seven years working in his attic. It's pretty famous.
+
+   Goldbach's Conjecture
+   Every even integer greater than 2 is the sum of two primes. 
+
+> 1.2 Predicates
+
+   ++ Definition: Predicate
+   A proposition whose truth depends on the value of one or more variables. 
+   "n is a perfect square" describes a predicate.
+   P(n) ::== "n is a perfect square"
+   If P is the predicate, then P(n) is either true or false depending on n
+   This is similar to normal functions, but P is a boolean value and p is a numerical value
+
+> 1.3 The Axiomatic Method
+   
+   ++ Definition: Axiomatic Method
+   allegedly invented by Euclid in 300 BC. 
+   He used assumptions to derive conclusions about geometry, which seemed undeniable based on direct experience.
+   These assumptions that are simply accepted as true are Propositions called Axioms.
+   
+   ++ Definition: Proof
+   A series of logical deductions from axioms and previously proved statements that concludes
+   with the proposition in question.
+   
+   + Common terms for propositions that have been proven
+   - Important true propositions are called theorems
+   - A lemma is a preliminary proposition useful for proving later propositions
+   - A corollary is a proposition that follows in just a few logical steps from a theorem
+   These are relatively imprecise.
+
+   This axiom-and-proof approach, now the axiomatic method, remains foundational in mathematics. 
+   With just a handful of axioms you can derive most of mathematics. 
+   This is called Zermelo-Fraenkel with Choice (ZFC) 
+
+> 1.4 Our Axioms
+   Basically only using ZFC is like writing programs in bytecode, so this text relies on basically all 
+   facts that are typically learned in the high-school math class. 
+   
+   ++ Logical Deductions
+   Also called inference rules, used to prove new propositions using previously proven ones. 
+   
+   - modus ponens
+   P together with a proof that P implies Q is a proof of Q
+   + Antecedents - stuff above the line
+   + Conclusion, Consequent - stuff below the line
+   If the antecedents are proven true, then the consequents must also be true
+   
+   Sound Inferences - assignment of truth value to antecedents must also make the consequent true. 
+   
+   ++ Examples
+   
+1.   
+   P implies Q, Q implies R
+   ---
+   P implies R
+
+2.
+   NOT(P) implies NOT(Q)
+   ---
+   Q implies P
+
+3. (false)
+   NOT(P) implies NOT(Q)
+   ---
+   P implies Q
+   
+   P is assigned T, Q is assigned F
+
+   Most proofs follow a small set of templates. A proof can be any sequence of logical deductions from axioms 
+   that concludes with the proposition in question. That's why templates are necessary. 
+
+> 1.5 Proving an Implication
+   ++ Definition: 
+   Propositions of the form "If P, then Q" are called implications. 
+   This can be rephrased as "P implies Q" 
+   
+   ++ Examples
+1. Quadratic Formula
+   
+   if ax^2 + bx + c = 0 and a cannot be 0
+   x = (-b +- sqrt(b^2 - 4ac))/2a
+
+2. Goldbach's Conjecture Rephrased
+
+   if n is an even integer greather than 2, then n is a sum of two primes
+   if 0 <= x <= 2, then -x^3 + 4x + 1 > 0
+
+   ++ Proving an Implication
+   In order to prove that P implies Q
+
+1. Write "Assume P"
+2. Show that Q logically follows
+
+++ Prove the Contrapositive 
+   (P implies Q) == NOT(Q) implies NOT(P)
+   Proving one is as good as proving the other. 
+
+1. Write "We prove the contrapositive", state the contrapositive 
+2. Proceed as in Method #1
+   Assume "P"
+   Show that Q logically follows
+
+   if r is irrational, then sqrt(r) is also irrational
+   
+   a number is rational when it equals a quotient of integers, if it equals m/n for some integers m and n
+   if it is not rational, it is irrational
+   we must show that if r is NOT a ration of integers, then sqrt(r) is also NOT a ration of integers. 
+   That's convoluted, lets use the contrapositive. 
+
+   If sqrt(r) is rational, then r is rational.
+   Assume sqrt(r) is rational. Then there exist integers m and n such that:
+   sqrt(r) = m/n
+   squaring both sides: 
+   r = m^2/n^2
+   since m^2 and n^2 are integers, r is also rational
+
+   Contrapositive can be thought of as working backwards? 
+
+   > 1.6 Proving an "If and Only If"
+   One assertion holds if and only if the other does. 
+   
+   ++ Example
+   Two triangles have the same side lengths if and only if two side lengths and the angle
+   between those sides are the same. 
+   
+   + "if and only if" is abbreviated iff
+   
+   ++ Prove each statement implies the other
+   
+
+
+
+
+
+
+
+   
+ 

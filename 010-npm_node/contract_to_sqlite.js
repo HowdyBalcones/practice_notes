@@ -160,6 +160,41 @@ function test_db_tables(db, table_name) {
    console.log(rows);
 }
 
+// this update function is terrible, rework so it applies per table
+function upsert_db(db, db_name, input_data) {
+   const update_stmt = db.prepare(`
+         INSERT INTO ${db_name} (id, Section, Key, Sign_Description, Each_Cost, Total_Cost, Client_Address, Point_of_Contact, Contract_ID, Client_Name, Contract_File_Name)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+         ON CONFLICT(id) DO UPDATE SET
+            id = excluded.id,
+            Section = excluded.Section,
+            Key = excluded.Key,
+            Sign_Description = excluded.Sign_Description,
+            Each_Cost = excluded.Each_Cost,
+            Total_Cost = excluded.Total_Cost,
+            Client_Address = excluded.Client_Address,
+            Point_of_Contact = excluded.Point_of_Contact,
+            Contract_ID = excluded.Contract_ID,
+            Client_Name = excluded.Client_Name,
+            Contract_File_Name = excluded.Contract_File_Name
+      `)
+   db.transaction(() => {
+      input_data.forEach(row => {
+         update_stmt.run(
+            row.Section, 
+            row.Key, 
+            row.Sign_Description, 
+            row.Each_Cost, 
+            row.Total_Cost, 
+            row.Client_Address,
+            row.Point_of_Contact,
+            row.Contract_ID,
+            row.Client_Name, 
+            row.Contract_File_Name);
+      });
+   });
+}
+
 function batch_files() {
    const file_paths = process.argv.slice(3);
    const destination_path = process.argv[2];
@@ -235,6 +270,7 @@ function batch_files() {
 
 function main() {
    const test_path = "./02-results/previous_tests/2106G14RS Broadstone Trinity REV 3.xlsx"
+   
    const proto_db = make_db("FRC-MAIN");
    try {
       // make_db("frc_working.db");
@@ -247,7 +283,8 @@ function main() {
       // insert_json_to_table(xlsx_to_json(test_path), make_db("frc_working"));
       // test_db(make_db(proto_db), "");
       // batch_files();
-      test_db_tables(proto_db, 'G');
+      // test_db_tables(proto_db, 'JEFF');
+      upsert_db(proto_db, "FRC_MAIN", )
    } catch(e) {
       console.log(`Error in database module: ${e}`)
    }
