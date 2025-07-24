@@ -1,0 +1,90 @@
+#!/bin/bash
+
+# SCRIPT: Play-Learning_Read
+# AUTHOR: Camden Bailey
+# DATE: 2025-07-14
+#
+# PLATFORM: UNIX Based, zsh
+#
+# PURPOSE: Learning applications for read/while loops
+#
+# set -n #Uncomment to check syntax, without execution
+# remember to re-comment or the script won't execute
+# set -x #Uncomment to debug this shell script
+#
+########################################################################
+# 		   DEFINE FILES AND VARIABLES HERE
+########################################################################
+
+target_dir="$1"
+#target_file="'$2'"
+#target_pattern="$3"
+test_csv="Camden,29,Designer
+Tajah,26,Lighting Tech"
+
+########################################################################
+#		       DEFINE FUNCTIONS HERE	
+########################################################################
+
+# Can simply pipe the output from find into a while read loop, filepath is each path as a variable
+test_find_read() {
+   find "$target_dir" -maxdepth 2 -type f | while read -r filepath; do
+      filename=$(basename "$filepath")
+      echo "Full Path: ${filepath}"
+      echo "Basename: ${filename}"  
+   done
+}
+
+# Using IFS, take each field delimited by a comma and place them into three arguments, available within the loop scope
+test_ifs_read() {
+   echo "${test_csv}" | while IFS=',' read -r name age job; do
+      echo "$name is a $age-year old $job"
+   done
+}
+
+test_grep_read() {
+   grep -r "bash" /bin/ | while read -r match; do
+      echo "Found: $match"
+   done
+}
+
+# what is print0, read -r -d '', why is IFS a space
+test_file_name_handle() {
+   find "$target_dir" -name "*.txt" -print0 | while IFS= read -r -d '' file; do
+      echo "Processing $file"
+   done
+}
+
+# what is happening in the parenthesis, why the &, what is wait actually doing
+test_xargs() {
+   find "$target_dir" -type f | while read -r file; do
+      (echo "$file" &)
+   done
+   wait
+}
+
+our_test() {
+   ls -laF | while read -r file; do
+      echo "USING READ: $file" | sed 's/ //g'
+   done
+}
+
+# hard to pass in positional arguments with this structure? 
+our_test2() {
+   find "$target_dir" -type f -maxdepth 2 -iname "$2" | while read -r file; do
+      echo "$file -- $pattern"
+   done
+}
+
+########################################################################
+#			 BEGINNING OF MAIN
+########################################################################
+
+
+# test_find_read
+# test_ifs_read
+# test_grep_read
+# test_file_name_handle
+# test_xargs
+# our_test
+our_test2

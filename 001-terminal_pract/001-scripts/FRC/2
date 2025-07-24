@@ -1,0 +1,152 @@
+#!/bin/bash
+
+# SCRIPT: Play-Learning_While
+# AUTHOR: Camden Bailey
+# DATE: 2025.07.15
+#
+# PLATFORM: UNIX Based, zsh
+#
+# PURPOSE: Understand control structure while
+# man zshmisc
+# man bash
+#
+# set -n #Uncomment to check syntax, without execution
+# remember to re-comment or the script won't execute
+# set -x #Uncomment to debug this shell script
+#
+########################################################################
+# 		   DEFINE FILES AND VARIABLES HERE
+########################################################################
+target_file="$1"
+factorial=1
+basic_list="Test1,Name1,Date1
+ Test2,Name2,Date2
+ Test3,Name3,Date3
+ Test4,Name4,Date4
+ Test5,Name5,Date5
+"
+
+########################################################################
+#		       DEFINE FUNCTIONS HERE	
+########################################################################
+# Resources: 
+# https://www.cyberciti.biz/faq/bash-while-loop/
+#
+
+# while read loop, if conditional block, redirection to positional variable
+basic_while() {
+   while read -r line; do
+      if [[ "$line" =~ ^# ]]; then
+         continue
+      fi
+      echo "Script: $line"
+   done < ./"$target_file"
+}
+
+# how can we pull integer values from common applications? Length values, lists of numbers, etc
+arithmetic_while() {
+   i=5
+   while (( i > 0  )); do
+      echo "$i..."
+      sleep 1
+      ((i--))
+   done
+   echo "Complete"
+}
+
+menu_while() {
+   while true; do
+      read -p "Enter any key (q to quit) " input
+      if [[ "$input" == "q"  ]]; then
+         break
+      fi
+      echo "You chose: $input"
+   done
+}
+
+factorial_while() {
+   if [[ ! "$target_file" =~ [[:digit:]] ]]; then
+      echo "Syntax: $0 <number>"
+   else
+      # echo "yes"
+      while [[ "$target_file" -gt 0 ]]; do
+         factorial=$(( factorial * target_file ))
+         target_file=$(( target_file - 1 ))
+      done
+      echo "$factorial"
+   fi
+}
+
+# reading files with while, covered in the read tests
+# this touches on FDs, worth covering in their own test file
+file_while() {
+   if [[ ! -a "$target_file" ]]; then
+      echo "Syntax: $0 <filename>"
+      exit 1
+   else 
+      exec 3<&0
+      exec 0<"$target_file"
+      while read -r line; do
+         echo "$line"
+      done
+      exec 0<&3
+   fi
+}
+
+# can use while for gathering command-line options
+# important to call all the command line options at the invoked function if passing arguments to function
+usage() { echo "Usage: $0 [-a] [-e email] [-d domain]" 1>&2; exit 1; }
+getopts_while() {
+   while getopts "ae:f:hd:s:qx:" option; do
+      case "${option}" in
+            a) ALARM="TRUE" ;;
+            e) ADMIN=${OPTARG} ;;
+            d) DOMAIN=${OPTARG} ;;
+            f) SERVERFILE=$OPTARG ;;
+            s) WHOIS_SERVER=$OPTARG ;;
+            q) QUIET="TRUE" ;;
+            x) WARNDAYS=$OPTARG ;;
+            \?) usage ;;
+      esac
+   done
+
+   echo "Alarm: ${ALARM:-false}"
+   echo "Admin: ${ADMIN:-unset}"
+   echo "Domain: ${DOMAIN:-unset}"
+   echo "Server File: ${SERVERFILE:-unset}"
+   echo "Who-Is Server: ${WHOIS_SERVER:-unset}"
+   echo "Quite: ${QUITE:-false}"
+   echo "Warning: ${WARNDAYS:-unset}"
+}
+
+# For loops in Bash
+
+basic_for() {
+   counter=0
+   for element in test1 test2 test3; do
+      counter=$(( counter + 1 ))
+      echo "$counter - $element"
+   done   
+}
+
+list=$(echo {0..10..2})
+numeric_for() {
+   for i in "$list"; do
+      echo "Number: $i"
+   done
+}
+
+
+
+########################################################################
+#			 BEGINNING OF MAIN
+########################################################################
+
+#basic_while
+#arithmetic_while
+#menu_while
+#factorial_while
+#file_while
+#getopts_while "$@"
+#basic_for
+numeric_for

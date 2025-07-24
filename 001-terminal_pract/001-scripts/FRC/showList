@@ -1,0 +1,74 @@
+#!/bin/zsh
+
+# SCRIPT: Script_Template
+# AUTHOR: Camden Bailey
+# DATE: 07-03-2023
+# REV: 1.1.A
+#
+# PLATFORM: UNIX Based, zsh
+#
+# PURPOSE: show a list in the current directory
+# 
+#
+# REV LIST:
+#	DATE: DATE_of_REVISION
+#	BY:Camden Bailey	
+#	MODIFICATION: Describe what was modified
+#
+#
+# set -n #Uncomment to check syntax, without execution
+# 	 #remember to re-comment or the script won't execute
+# set -x #Uncomment to debug this shell script
+#
+########################################################################
+# 		   DEFINE FILES AND VARIABLES HERE
+########################################################################
+
+dirs=($(find . -maxdepth 1 -type d | sed 's/\.\///' | tail -n +2))
+
+########################################################################
+#		       DEFINE FUNCTIONS HERE	
+########################################################################
+
+showList () {
+	OLDIFS=$IFS
+	IFS=$'\n'
+	while true; do
+		echo "Please select a file from the list below:"
+		i=0
+		for dir in "${dirs[@]}"; do
+			echo "$i) $dir"
+			i=$((i + 1))
+		done 
+	echo "$i) Exit"
+	echo "$((i + 1))) Make New Folder"
+	
+	echo -n "Enter your choice [1-$((i+1))]: " 
+	read choice	
+
+	if [[ $choice -ge 0 && $choice -lt $i ]]; then
+		chosen_dir=${dirs[$((choice))]}
+		echo "You selected: $chosen_dir"
+		. /Users/camdenbailey/scripts/testingCD01 "$chosen_dir"
+		break 
+	elif [[ $choice -eq $i ]]; then
+		echo "Exiting..."
+		kill -INT $$
+		break
+	elif [[ $choice -eq $((i+1)) ]]; then
+		echo "Enter name of new folder:"
+		read folder
+		mkdir $folder
+		. /Users/camdenbailey/scripts/testingCD01 $folder
+		break	
+	else
+		echo "Invalid choice. Please try again."
+	fi
+done 
+IFS=$OLDIFS
+}
+
+#######################################################################
+#			 BEGINNING OF MAIN
+#######################################################################
+showList

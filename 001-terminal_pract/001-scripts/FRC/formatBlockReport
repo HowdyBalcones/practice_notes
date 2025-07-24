@@ -1,0 +1,25 @@
+#!/bin/bash
+# formatBlockReport -- format reports from prodS2 into a two column paragraph
+
+cat prodLog.txt | sed -e 's/^[ \t]+//g' -e 's/^ \+//g' -e 's/$ \+//g' | awk 'BEGIN { FS=","}{OFS="\n" } 
+
+$1 ~ /[Dd]ispenser/ {
+printf ("%s\t\t%s\n%s\t\t\t%s\n%s\t\t%s\n%s\t\t%s\n\n","Description:",$1,"Item_#",$2,"Dispenser_UPC",$3,"Case_UPC",$5)
+} 
+
+$1 ~ /[Dd]iaper/ {
+printf ("%s\t\t%s\n%s\t\t\t%s\n%s\t\t%s\n%s\t\t%s\n\n","Description:",$1,"Item_#",$2,"Dispenser_UPC",$3,"Case_UPC",$5)
+}
+ 
+$1 ~ /[Bb]lister/ { 
+printf ("%s\t\t%s\n%s\t\t\t%s\n%s\t\t%s\n%s\t\t%s\n%s\t\t%s\n\n","Description:",$1,"Item_#",$2,"Each_UPC",$3,"Sleeve_UPC",$4,"Case_UPC",$5)
+}
+
+$1 ~ /[Bb]undle/ { 
+printf ("%s\t\t%s\n%s\t\t\t%s\n%s\t\t%s\n%s\t\t%s\n%s\t\t%s\n\n","Description:",$1,"Item_#",$2,"Each_UPC",$3,"Sleeve_UPC",$4,"Case_UPC",$5)
+}
+
+$1 ~ /[Dd]isplay/ { 
+printf ("%s\t\t%s\n%s\t\t\t%s\n%s\t\t%s\n%s\t\t%s\n\n","Description:",$1,"Item_#",$2,"Each_UPC",$3,"Case_UPC",$5)
+}
+'

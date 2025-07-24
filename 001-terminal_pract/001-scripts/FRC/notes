@@ -1,0 +1,51 @@
+#!/bin/bash
+
+# SCRIPT: Script_Template
+# AUTHOR: Camden Bailey
+# DATE: 07-03-2023
+# REV: 1.1.A
+#
+# PLATFORM: UNIX Based, zsh
+#
+# PURPOSE: make opening notes faster and more consistent. 
+#
+#
+# REV LIST:
+#	DATE: DATE_of_REVISION
+#	BY:AUTHOR_of_MODIFICATION
+#	MODIFICATION: Describe what was modified
+#
+#
+# set -n #Uncomment to check syntax, without execution
+# 	 #remember to re-comment or the script won't execute
+# set -x #Uncomment to debug this shell script
+#
+########################################################################
+# 		   DEFINE FILES AND VARIABLES HERE
+########################################################################
+
+
+currentDate=$(date "+%Y-%m-%d")
+topLine=$(cat /Users/camdenbailey/.repos/practice_notes/000-all_notes/notes.txt | head -n 1)
+########################################################################
+#		       DEFINE FUNCTIONS HERE	
+########################################################################
+
+
+startNotes() {
+	# if first line contains todays date, simply open notes. 
+if [[ "$topLine" == "Todays Notes: ${currentDate}" ]]; then
+	vim /Users/camdenbailey/.repos/practice_notes/000-all_notes/notes.txt;
+else
+	# have to use special macos syntax for sed here, specifying in place editing
+	sed -i '' $'1s/^/'"Todays Notes: ${currentDate}"$'\\\n/' /Users/camdenbailey/.repos/practice_notes/000-all_notes/notes.txt;
+	vim /Users/camdenbailey/.repos/practice_notes/000-all_notes/notes.txt;
+fi
+}
+
+########################################################################
+#			 BEGINNING OF MAIN
+########################################################################
+
+startNotes;
+

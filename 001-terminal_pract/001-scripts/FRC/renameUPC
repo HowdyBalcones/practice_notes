@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# SCRIPT: Script_Template
+# AUTHOR: Camden Bailey
+# DATE: 07-03-2023
+# REV: 1.1.A
+#
+# PLATFORM: UNIX Based, zsh
+#
+# DESCRIPTION: This is a utility to search through barcode strings and rename them based on the pattern 
+# of various id's used in their naming schemes. We are renaming everything according to a new scheme, 
+# item #, brief description, pack level. 
+# 
+#
+# REV LIST:
+#	DATE: DATE_of_REVISION
+#	BY:AUTHOR_of_MODIFICATION
+#	MODIFICATION: Describe what was modified
+#
+#
+# set -n #Uncomment to check syntax, without execution
+# 	 #remember to re-comment or the script won't execute
+# set -x #Uncomment to debug this shell script
+#
+########################################################################
+# 		   DEFINE FILES AND VARIABLES HERE
+########################################################################
+# We'll need to set the arrays here.
+
+
+
+########################################################################
+#		       DEFINE FUNCTIONS HERE	
+########################################################################
+# This will be the comparision, search functions.
+
+########################################################################
+#			 BEGINNING OF MAIN
+########################################################################
+# The execution of the above functions here. 
+

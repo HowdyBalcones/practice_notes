@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# SCRIPT: Script_Template
+# AUTHOR: Camden Bailey
+# DATE: 06.18.2025 
+# REV: 1.1.A
+#
+# PLATFORM: UNIX Based, zsh
+#
+# PURPOSE: Upload current script repo to the local indesign script folder.
+# TODO: Could be improved with variable constants.  
+#
+# REV LIST:
+#	DATE: DATE_of_REVISION
+#	BY:AUTHOR_of_MODIFICATION
+#	MODIFICATION: Describe what was modified
+#
+#
+# set -n #Uncomment to check syntax, without execution
+# 	 #remember to re-comment or the script won't execute
+# set -x #Uncomment to debug this shell script
+#
+########################################################################
+# 		   DEFINE FILES AND VARIABLES HERE
+########################################################################
+
+
+########################################################################
+#		       DEFINE FUNCTIONS HERE	
+########################################################################
+
+
+########################################################################
+#			 BEGINNING OF MAIN
+########################################################################
+
+rsync -va --copy-links /Users/camdenbailey/.repos/practice_notes/006-illustrator_scripts/scripts/*.{jsx,jsxinc} /Users/camdenbailey/Library/Preferences/Adobe\ InDesign/Version\ 20.0/en_US/Scripts/Scripts\ Panel
+
+rsync -va --copy-links /Users/camdenbailey/.repos/practice_notes/006-illustrator_scripts/scripts/*.{jsx,jsxinc} /Volumes/company/Signs/Multi\ Use\ 2\.0/0-Approved/~Sign\ Library/99-Data/00-scripts 

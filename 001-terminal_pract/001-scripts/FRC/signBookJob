@@ -1,0 +1,69 @@
+#!/bin/bash
+
+# SCRIPT: Script_Template
+# AUTHOR: Camden Bailey
+# DATE: 07-03-2023
+# REV: 1.1.A
+#
+# PLATFORM: UNIX Based, zsh
+#
+# PURPOSE: A script to start to making tools for the server. This will make a set of standard folders for a new job in Sign Books 
+#
+# REV LIST:
+#	DATE: DATE_of_REVISION
+#	BY:AUTHOR_of_MODIFICATION
+#	MODIFICATION: Describe what was modified
+#
+#
+# set -n #Uncomment to check syntax, without execution
+# 	 #remember to re-comment or the script won't execute
+# set -x #Uncomment to debug this shell script
+#
+########################################################################
+# 		   DEFINE FILES AND VARIABLES HERE
+########################################################################
+
+sign='/Volumes/company/Signs/Sign Books/'
+
+ttest='/Users/camdenbailey/Desktop/TEST/'
+
+mainFolderList=('~EXPORTS' '~FONTS' ' ~Small Jobs' 'Artwork' 'e-mail' 'From Client' 'Plans' 'Project Info' 'Project Photos' 'Renderings' 'Sign Book' 'TEMP' 'Textures')
+artworkFolderList=('0-Concepts' '0-Production Artwork' '1-Entry Signage' '2-Leasing Center EXT' '3-Leasing Center INT'
+'x-Amenity Signage' 'x-Building Signage' 'x-Gate Signage' 'x-Parking Garage' 'x-TEMP Signage')
+
+########################################################################
+#		       DEFINE FUNCTIONS HERE	
+########################################################################
+
+
+########################################################################
+#			 BEGINNING OF MAIN
+########################################################################
+
+makeFolders () {
+
+ #  echo 'Please enter client name'
+ #  read client
+ #  echo 'Please enter job name'
+ #  read job
+
+ #  ttest='/Users/camdenbailey/Desktop/TEST/'"$client/""$job/"
+ ttest='./'  
+   
+   for folder in "${mainFolderList[@]}"; do
+      
+      mkdir -p "./$folder"
+      if [[ "$folder" == 'Artwork' ]]; then 
+         for artFolder in "${artworkFolderList[@]}"; do
+         mkdir -p "$ttest""Artwork/$artFolder"
+      done
+      fi
+      
+      if [[ "$folder" == 'Plans' ]]; then
+         mkdir -p "$ttest""Plans/Current"   
+         mkdir -p "$ttest""Plans/Old"   
+      fi
+   done
+}
+
+makeFolders

@@ -1,0 +1,3111 @@
+@name ~~~ Denotes a category to search
+== ~~~ Denotes a subcategory, a topic
+
+
+dailyWork ~ Notes from day to day.
+researchNotes ~ Notes for remembering details later. Covers lots.
+
+We've added a gitHub repo! Push to that from now on so we can have the same notes everywhere. 
+
+# pull the latest changes
+git pull origin master
+
+# stage the changes
+git add <dir> or <file>
+
+# commit the changes
+git commit -m "Some notes on the commit"
+
+# finally push it !
+git push origin master
+
+
+@dailyWork ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Notes
+
+Long Term Project Board: 
+
+- Oversees contractors handling a somewhat complicated implementation that requires communication with 
+our office in the states. Should be totally fine. 
+
+
+- Website - all implementation and maintenance should be well understood and compiled into SOP
+	- 
+- We need to ensure all product have photos, that there are web and print photos, that the two types are quarantined separately
+- Priority -- blister package form redesign
+	- Twofold strategy - push folds to top of blister paper, increase flap size to edge of blister, increase overall blister
+	height. -- adjusted to move the side flap to default height, there's a problem with the printers in production.
+	- noFold strategy - all tricks and removals to get the DFL to fit, then implement other indicia as needed only
+Monthly Research Goals -- 
+- We want better pictures
+- How do we leverage the product traces for more varied purposes --
+	- Full on product illustration
+	- category images, thumbnails
+	- Generic templates for icons, packaging assets, themed styles that can apply to multiple "skeleton" drawings
+	- more product traces, covering all categories 
+- Select Relevant Trends -- eco friendly packaging, vintage revival, american roadtrip nostalgia, new corporatism, 
+- We should redo all our PDF templates, and check what the latest greatest color profile in CMYK is. 
+
+- Need to set up the newsletter campaign to involve graphics, sales, buying, and MGMT in certain stages. 
+	- Graphics builds the template, aesthetic look, and copy writing for the newsletter every two weeks
+	- Sales should be met with weekly to determine what is going on, what the intiatives are
+--------------------------------------------------------------------------------------------------------------------------------------
+2023-11-28
+- we have returned to the notes!
+- SMS magic - headache
+- website meeting
+- 
+
+10-19-2023
+- Calebs stuff for ccl
+- SPOONS!
+- 
+- marketing artwork revisions and adjustments -- should probably finalize today, it's something that could fall into the cracks
+- ill scripts! It's javascript and illustrator training in one mf, and the savings could be highly practical. Also fun, but don't 
+say that too loud. 
+- We busted up on packaging artworks this week. Should implement a survey of the graphics. Do it on my own and then tell Shar/Aly
+because idk I don't trust their foresight tbh. But getting data on our artwork first would be key in developing a better system to 
+catalog and produce future jobs. 
+	- What data? 
+	- Why? To what end, for what value? 
+	- How can this survey become a means to document and reduce forms that we fill out
+	- Simple - even just knowing what a packaging artwork could tell us about the packaging itself is useful. Automated
+	Spec sheet from artwork? With dimensions, upcs, and 3D mockups, correlated with product photos? That would be swanky. 
+- 
+
+10-12-2023
+- Website -- need to reach out to Scott and see what's going on with the product image naming scheme
+	- there are other website questions I have for him, probably don't need Aly on them. 
+- Pepto Graphics -- INTERNAL NO APPROVAL
+- Alka Plus Nighttime -- Ready to go to print
+- Still working out these Claritin revisions. Reaching out today. 
+
+10-09-2023
+- tired, research for training today. 
+- blister -- aly wants to move the back panel down now. The back of the paperboard takes the ink from our lot/exp. codes better than
+the front. So in the past, that's why the panel was moved down. The only thing back there at the moment are the dont use if ripped 
+and the 
+
+10-04-2023
+- Brain is in monkey mode, luckily we have notes on what needs to be done. Dang ol methodology. 
+- So lets mock product trace illustrations today -- research, clips of interesting visual motifs, rough applications, polish on single
+sheet. 
+- Claritin proofing after lunch 
+	- they still haven't sent the dispenser, might be too much to ask for in one week. 
+- 
+09-29-2023
+- Comping -- always is useful later. Literally, I've used material I made six months prior on projects that we still send out today. 
+- Our email marketing, if it wasn't succesful in truth, failed likely because it lacked support and was exectuted without proper
+consistency and adaptation. 
+
+
+09-28-2023
+- Today we look at iReport again, and possibly try to install it and get it running on this mac. 
+- Make a basic report if we get that up and running
+
+- photoshop training - AAAHHH
+- CSS 
+
+- reach out to Bayer again, two different contacts, both are overdue on getting me simple things
+- we have some marketing goals. Should do about two hours of research on marketing specimens, just to get a feel for 
+	- what is included, components of specimen
+	- strategy behind specimen, brief who what when where why
+	- Styles applied, theme of style
+	- 
+- it is lost on me why the blister revamp isn't priority 1 2 and 3 rn
+- 
+09-27-2023
+- labels for sebastian -- those products don't have information in fishbowl
+- tour of closing (again)  -- 
+- send a hallmark card to random customer -- their address doesn't want to work for some reason. 
+- meeting with Scott, presuming Aly will attend 
+- graphics training will continue. I'm into the photoshop ed right now. FOCUS IS HARD.
+- coding is so much more interesting than learning these WYSIWYG products, but the need must remain the drive. 
+- 
+
+09-26-2023
+- Bayer drags their feet as much as GSK does. Still waiting on assets for the Alka Plus Nighttime. Still waiting on the final Claritin artwork approval. 
+
+- We're doing the paper funnel artwork
+- And the Advil Sinus typeset, placement onto the new dieline. -- success for stage 1
+	- remaining -
+	- versions
+	- approval from printer, is this new dieline possible
+	- approvel from MFG, is this DFL allowed
+	- 
+- ded today, 
+- portfolio update is coming along, wow what a stack of work. gonna take some real edits to make it presentable. There's still more
+to add! Medicine packaging artwork, all marketing materials, custom dielines, and how do I convey the scope of the UPC project to
+people? Like yes I unfucked the gordian knot, pls it was real i promise.  
+
+09-25-2023
+
+- We are moving to default bifold, nofold if possible. How possible is that with the Advil? We'll see, there's a lot of wasted space
+but maybe not that much wasted space. 
+- The real question is whether or not these would have to go through approval with the MFG, there isn't any legal or marketing 
+change, no DFL, just a packaging form change. That's entirely in house and doesn't have anything to do with the MFG, from my 
+view. It would also make the work significantly faster. We'll see. Ask Aly, Sharon together?
+- Still need to finish the GHRA presentation that will perhaps gather dust. Should try to use the generative fill feature in updated
+photoshop to clean the advil mocks, because damn that shit sucks. 
+
+- Spencer needed some labels friday, made the overstock one, might have to assemble the others at the printer station.
+As in the assets are there already
+
+- Lets test out some scripting for the image library. It would be cool to automate versioning from a main index, like edited TIFFs
+get versioned into JPG, PNG, AVIF (for giggles), of different sizes, etc
+	- leverage magick, shell scripts
+	- might have to call pete and see if I can get the permissions 
+	- they don't work on the server :^(
+
+- Should add update adobe products to monthlies
+- we're gonna start with css since we've been putting it off (busy)
+- so is reader mode just an author style reset? 
+- yah this release structure sucks, need to reevaluate 
+- should practice perspective warp tonight 
+
+
+
+
+09-22-2023
+- Doing the GHRA presentation today, gonna work with something other than MS powerpoint most likely.
+- WOW tired today
+- Bifolds, noFolds
+- some css, grind out two lessons at least.
+- Ok resource requests should be the parent dir, then it should be customer, then each job folder is tagged by type and date, 
+rather than resource requests > type > customer > date, name
+- Retire release I think
+- if we have a significant weakness in graphics its determining priority
+- advil is always such a pain in the ass to mockup
+- css till lunch
+
+
+
+09-21-2023
+- Comping was useful yesterday, I actually did new things. Continue this morning perhaps. 
+- CSS was maybe not useful but informative yesterday. Continue for sure.
+- The problem is the cost not the will or ability. They want certain margins and won't take loss past a certain point. 
+	- My initial thought is that if the plastic is more expensive, then make the plastic components smaller in every way. Thinner,
+	less depth. We buy paper, plastic, sleeves, and boxes, to ship what like 144 plastic pouches. That's nuts. 
+	- Reduce paper size. Really we only need two fold, that's 4 panes worth of space for DFL and legal. If branding is that
+	important to them, because that is the area that would be sacrificed, then do a half insert card with a logo and some VBL.
+		- Did a quick review of the blisters that can and cannot go to two fold
+		- 24 blisters are two-foldable
+		- 14 blisters have too much DFL and legal
+	- For dispensers
+		- Everything lower than a 50ct could easily be smaller. 
+		- 50ct would have to be on a per product basis, and we'd have to review procedure on the line. 
+	- Why do we need sleeves? What are the alternatives for packing the blisters in the mastercase? I understand its the product
+	level that is saleable and a component that's essential to the business model. But it's redundant packaging plain and simple.
+	Is there a meaningful cost offset that would make the effort worth it? How do we answer that question? Like you can rubber 
+	band the things together and it's a bundle now. 
+	- Simple question. Why does a dispenser that holds 20 pouches have the same dimensions as a dispenser with 50 pouches?
+	If the ability to manage packaging complexity is there, then that seems like clear savings. I might not be aware of certain
+	manufacturing concerns, those can be addressed though. The problem is just that, a problem. That means there are solutions.
+	The question is do those solutions fit the requirements of Select?
+	- Tooling is a problem. Printing is a problem. DFL and legal is a problem. Approval from MFG is a problem. Customer
+	perception is a problem. Wariness from management is a problem. 
+	- A sales strategy to accompany the repackage. A price increase without changing the product is only negative with our 
+	customer base. A larger price increase accompanied with a radical shift in product form, that has tangible benefits to 
+	our customers, is now something these people can "shop". Instead of doing nothing about price increases, we should at least
+	appear like we are alleviating the problem for our partners. Wrapped into that solution would be our own cost reevaluation. 
+	- A note on plastic: could we achieve the same level of rigidity, safety, while reducing size, by using a curved surface?
+	We're already wasting so much space, so how do we assign priority to the wasted space we care about more?
+		- What matters is how many blisters per case. So per sleeve, pouches per blister, cost per package form. 
+		- If a curved surface for blisters reduces plastic, then we could theoretically add plastic back in if that meant
+		saving space on the paper by some meaningful proportion. The idea would be to chop off the top of the paper and have
+		the plastic become the peg tab. 
+
+
+09-20-2023
+- anyway we're working on webdev stuff today. 
+- need to create a checklist of recurring tasks to perform, being somewhat sloppy with all these projects having to go through
+other people. Makes me lose track. 
+- does no one understand text editors
+
+- just hangry uwu
+- and too tired to really absorb this information. Just moving eyes across the text honestly. I'm gonna comp stuff for an hour. 
+
+09-14-2023
+- today we are working on javascript
+- then we should clean the graphics server
+- we should review some photo best practices and work on templating the workflow for the next product photo session
+- at least jump around the web ninja store
+	- DOM manipulation
+	- 
+
+09-08-2023
+- Friday Friday Friday ooh
+- Rocky wants a thank you card probably so I should make one for Aly and sales to send over
+
+
+
+09-07-2023
+- Continuing Booth Display production
+- 
+
+09-06-2023
+- sell sheets -- Bayer
+- booth graphics -- begin implementation as soon as we get the dims
+- claritin check in
+- 
+
+
+
+09-05-2023
+
+- live folder marketing - cron, rsync - rsync done, figure out cron problem, make a script for now
+- called mid city data comm - 817-447-2877 - fixed phones
+- booth graphics - emailed nancy
+- discuss and begin lead intake - discussed - 
+- website organization - naming, file size - live folder for uploads - files compressed and replaced
+- volusion image uploading
+
+- Javascript basics, basic patterns, practical application
+- what can we do with html, what can we do with css
+- how do we best impact our current website design to improve useability - what are we using the website for
+
+
+09-01-2023 - Tired Friday, moving friend with annoying sister is exhausting. 
+
+- Should automate the retrieval of photos as well. Shouldn't be too hard given how they are organized.
+	- Based on report log? Based on Item number? Is it more flexible to base it around item number rather than report log?
+	- 
+- need to develop long term visual strategies for graphics production, so that we don't get too far off course and so what we 
+do make over time is more consistent. Not neccesarily branding, more the brand production strategy. 
+	- What tools can we use? Automating all routine tasks. When we get into the headspace of efficiency connections between
+	the different scripts and programs becomes more clear and what we can actually accomplish expands. 
+	- A reference book of the various rules for different projects. This would eventually become a real brand book, which we 
+	attempted before and it went badly. Eventually the basis for SOP.
+	- understanding the role of hand drawing different elements and how to bring analog techniques up to speed with the 
+	different elements of the brand, into the production process. 
+	- utilizing iterative forms of analysis with standardized metrics that should be routine during the work week. 
+	- Iterative form of analysis - something that we can return to and change incrementally over time, that measures a given  
+	quality	of Graphics output. 
+	- 
+
+
+08-31-2023
+- comping and research today, this show booth is gonna be fire. It's also the basis for developing the brand voice moving forward
+after the import rebranding. This is an inflection point where a new and more savvy Select shows its legacy customers that fresh
+is better, and invites new customers to encourage growth and adaptation. 
+- yah the coding is more obviously valuable but good branding with strong emotional appeal is timeless so. 
+	- eventually distinguishing between tools and the trade won't be a neccesary but for now I'm not good enough at either. 
+- comps are going well, sticking to a style will be the hard part. Going to spend time remaking them perhaps for improvement. 
+	- small iterations over time with constant referral to design goals. 
+
+
+
+
+08-28-2023
+- fuck vegas
+- zyrtec images rafiq - email
+- AS International - emails, toothbrush, superglue wrapper, resend link for 
+- we finished business for the week before 3pm, aside from meetings
+
+- It's decided, graphic design is the most stable option for us. Moving into serious HTML,CSS,JS training. As a designer it's the 
+most complimentary coding suite that is available for now. We should write up some projects that we can handle over a months time,
+and then structure the learning by week. Shouldn't be less than 15 hours worth of work, no more than 8 hours at home, no less than 10
+hours at job. 
+
+HTML Projects - 
+	- Syntax of major elements
+	- what are common jobs
+	- what level of html knowledge do I need
+	- parsing html 
+
+CSS Projects -
+	- understand essential syntax 
+	- understand major components of language 
+	- what are 50 most basic projects to start in CSS
+	- how to design with CSS 
+	- what tools does the designer need to work with CSS more like an artist
+	-
+JS Projects
+	- 
+ 
+
+
+
+08-16-2023
+- doing awk on my magick day!
+- so tired!
+- what if makeJob could target more than one directory? It's sort've getting too much at that point. 
+	- the application of learning awk at the moment - 
+	- perform analysis of various kinds to pricing information sets
+		- what equations to apply to the data
+		- reformat data into refined useable state
+		- what is the final result - insight, leverage over otherwise unintelligible information, the ability
+		to include pricing information in the marketing process, reports
+		- taking that table data and creating dashboards, reports, labels, variable prints
+	- as to what is going to be useful, conditionals and loops are the whole motherfucker honestly
+	-  
+
+
+08-15-2023
+- Trantino, the font for our count info on blisters, should stay for continuity in select branding, and I doubt Bayer minds a 
+serif font vs sans
+- So, upcS, illU, prodS2, formatBlockReport, makeJob - the most useful scripts so far, they automate a large chunk of what I was 
+doing manually. It ensures consistency and clarity when placing that information onto an artwork. They also have a lot to do 
+with why the server is looking better more often. Things arent getting put into random places with spur of the moment names. 
+	- What is automated? Retrieval, validation, file management (for certain processes) 
+	- What else could be automated? versioning, proofing, research ingest, true validation, secondary data updates, dfl retrieval,
+- awk wednesday, magick thursday
+- today its about the artworks, and lets organize artwork files themselves.
+	- Lock down and clean out all the templates
+	- go through approved process for Theraflu Daytime blister
+	- diagnose what needs cleaning on the server
+		- 
+- Gone a long way since randomly learning AppleScript to set my windows lmao
+- 
+
+
+08-14-2023
+- plan for rest of week
+	- Awk & Magick practice, implement something! CMON
+	- awk tuesday, wednesday, magick thursday.
+	- the goal of all this education is three-fold: learn programming principals and ingrain good practice, learn how to work
+	with data and the useful application of this data, and understand different kinds of programming architecture. 
+	None of this includes being a master of bash, awk, sed, magick, or any of the like. Being talented is extra, knowledge first.
+	- eventually we have to learn a language that is in more common parlance. 
+	- not to say application is less important than theory, in fact the opposite. I'm using bash because of problems that it 
+	solves quite easily, and learning programming to continue solving those problems. The valuable part is the learning 
+	programming, the productive part is the program, the means to get there is varied and bash is one of many paths. 
+	- bash is neat though and I rather enjoy that part by itself anyway. 
+- Deriving Factorials
+
+
+- Alka Plus NT Setup
+	- Component Folders on server - done
+	- Fishbowl Components - entire family - added all components - done
+	- UPC codes - done, took forever, flow chart the UPC process for posterity
+	- update script data file - 
+	- complete template for Bayer - need to version - base template is done -
+	- Complete artworks for family - 30ct disp is done, doing proofing for key -
+- interesting, the fishbowl part needs to happen last despite it being the key record
+- important note, all saleable products in graphics components directory are tagged by item # and not component #
+	- this means all blister folders will be named differently than their contained artwork file
+	- artwork files are made with the component # in their filename
+	- if the reason why is important, it is because the sleeve level is the default product form across the board for select,
+	not the individual blister. There was a need to have different UPC's for the sleeve and the single blister. While we don't 
+	sell the individuals, the retailer does. We sell sleeves, our customers sell eaches. Thus the need to track both levels. 
+	- For blisters, eachs use comp #, Sleeve and Case use item #
+	- component # is the code for the part, for internal tracking only
+	- item # is the storefront code, the saleable item code, the thing the customer calls for when they order.
+	- 
+- An aside, there is a lot of cleaning and consolidating that should be done. 
+	- UPC data - lots of redundant production stuff lying around ready to confuse anyone besides myself
+	- need to consolidate resource requests
+	- Fishbowl has no section in the product tree for paper? wtf?
+	- 
+- Currently my problem with our data is that the schemes for different tables will be different for organizing the same shit
+	- why are the items in our server organized by item # when it's storing components?
+	- why are there two separate directories for items and components that share the same data but write the data in different 
+	syntaxes?
+	- 
+
+
+
+08-11-2023
+- Talk to Fernando about getting the racks from the warehouse. 
+- Apparently inventory was off for Colgate bulk that I received. Interested to see why. 
+	- It was the dates. Only rafiqs computer can change the bulk. Still need to change some of them. They're all october, some 
+	should be December. 
+
+- We're gonna work on sed & awk today
+	- sed & awk second edition - 
+- Going to improve the vim plugins today
+- Going to work on vim shortcuts today
+- Some image magick playing in the final hours
+- The elusive upc check digit problem - could be solved in less than 30 lines of awk. 
+
+
+
+
+
+08-09-2023
+- The projects for today will revolve around placing images into
+our report writing software. It should call copies of the images
+from our database and place them into the document in a safe 
+manner. The basis for what images to call for every compilation
+of the latex doc, we will use the prodLog. 
+- I would also like to play with IM
+	- In a faraway place in a distant galaxy I can see IM 
+working in tandem with our report writer, generating assets on
+demand at the last moment. Instead of storing assets, they get 
+scripted into a document that can be called for the specific part.
+- Lets focus on IM today. We went hard on latex yesterday, and 
+we were just talking on taking neccesary breaks. 
+- at some point we should revisit our design practice with the 
+knowledge of organization we've gleaned from all the programming
+- we really need some higher math mr bailey
+- 
+
+
+08-08-2023
+- So we pushed through formatting the shell wrapper for the tex formatting script. We must be doing something wrong but the script
+works. This puts a good dent into the text report on demand project. 
+- Next will be arranging images alongside our report. We will need:
+	- search image database by item #, return correct images and their file path
+	- add a pullme to the latex template for images
+	- figure out how the align the correct image with the right description
+	- format the image in the final result, make sure it looks right. 
+	- can we base the iamge search off the prodLog? 
+	- going to need to really dig into searching a directory and matching it against a field. Not sure off the top of my 
+	head how that is going to work. And then I need to get the absolute path to the image, and this should happen for each entry
+	into the prodLog.
+	- find /Volumes/Graphics/Select\ III/003_Product_Images/001-allPhotos/. -type f -maxdepth 1 | egrep -i 'Mucinex'
+- Another project to handle if we get too fried, will be using awk to make a basic HTML page. 
+	- HTML parsing
+	- understand any given HTML page and pull the correct content from it. 
+- ProdS2 has a bug - the xxxxx.5 item nums are brought along with their base products as well. Need to create an exception.
+- 
+
+
+08-03-2023
+- The bayer inspection is today
+- More programming with awk, should try to format data from multiple tables soon
+- Some basics with imageMagick?
+- Karaffe lol
+- 
+
+08-02-2023
+- Fundamentally, awk is about instructions that arrange text systematically in lines and rows
+- Bayer stuff is pretty tight. Gonna go over the paper files once more later today. 
+- Need to remake the graphics job board as something more general purpose. 
+- remind aly monday about the basecamp notifications
+- 
+
+
+08-01-2023
+- Sent out a blister for the import rebrand that got missed
+- Remade an ad, Zyrtec
+- using a new window manager, iTerm2. Splitting panes is quite useful. 
+
+
+07-31-2023
+- We have to do blister aisle today, 4 and 5. Probably after lunch. 
+- Getting things ready for the website transition. Apparently I'm taking lead on this, should be a lot of work. 
+	- We've already gotten much of the image work done though there is always more to do in that area. 
+	- Will need to get some branded elements of the website created, assets such as headers, menu styles, color palettes, font, 
+	splash page layout, proper logos formatted, marketing statements, page types, what will the catalog layout be like, how 
+	many product images per item, 
+	- What is included with the online orders option, is it just a landing page that has all the same features as the webstore?
+	- What does the webstore entail? I think I can do a fair amount of the UX but not in addition to what I do normally. That is 
+	a lot of work.
+- Key points for the website branding
+	- blue and green color code for web
+	- simple, generic, timeless, clean, quick
+	- fonts:
+	- logos: classic, primeaid, traveler
+	- product cards: how to arrange product image, information
+	- related products on single pages
+	- single navigation bar: side menu, product menu, about page, checkout menu, remove rewards program, remove contact us
+	- Product images: brand standards
+	- animations: simple bars, sliding, subtle highlighting, card highlighting
+- Volusion - 
+	- looks like we can remote onto our website server, pull down all of our files, and inspect them properly. We could rewrite
+	everything on our own, and then put it back on there. Would be a lot of work but starting small and building gradually is 
+	the norm. It will give us a lot more control over our branding. 
+
+07-28-2023
+- Remaining Paper Aisle Labels -
+	- 15, blister aisle
+	- They are pretty fast honestly. There is an inventory aspect to it. I'm focusing on replacing the 
+	labels, and noting any inventory issues. We're gonna handle that at the end. 
+- Some scripts to write - 
+
+- Build Receiving Folder - 
+	Should take input to make the various stages of a receiving folder
+- Quit all terminals -
+	Closing and exiting each terminal open with a single command
+- Get Absolute Path -
+	What are the ways to pull a full path for bash? 
+	What are the ways to pull a full path for other scenarios?
+- Compare export data to current data, update lines with differences, add new lines -
+	This is for the report writing programs I'm interested in. We'll need a way to compare the formatted
+	template data we have now to the freshly dumped info from fishbowl, and some automated way to 
+	adjust the two. Something like, compare each field against itself between both data, for each 
+	difference log the line and the difference above to a txt file, manually review for surety, 
+	apply differences to duplicate working raw data, version out the old data. 
+- Some practice to consider - 
+	- Continue the awk & sed textbook
+	- Follow up on those awk scripts from that one youtuber, complete the challenges
+	- Expiriment on the data that we have around, duplicates obviously
+	-  
+
+07-27-2023
+- Need to redo the photo overhaul. Terrible. Where to start. 
+	- Blurry final image. The problem was an export to low res in the editing process. 
+	- Renaming was painful, but has to happen correctly this time. Script, listings at export
+	- TIFF does support transparency so like. Only TIFF? 
+	- Apply styles across the board. 
+	- crop needs to be more even. 
+	- no pixelated selections please. 
+
+- Rest of the labels, we have our test case and this should be the basis for continuing the
+project. The arrows are the only real problem, since adding slot location numbers that have 
+a high liklihood to change on each label would be a monster to maintain. 
+
+- The labels -
+	- So they look fine. Honestly if I was gonna restart, I'd make all the text larger, 
+	and then remove the arrows, and create two versions of every label, default & overstock
+	- It seems to be a slow roll. It's because there is a lot of checking between the 
+	list of stock and roll of labels. 
+	- Minor complaint- the labels need to be on there straighter. 
+- I think we severely overworked the prodS2 formatting problem lmao. Shouldve learned awk!
+The practice was worth though.
+- 
+07-25-2023
+- SendtoArray, echo, awk, read
+- another part of the label conversion
+- going to pull out the bayer folders
+- continue with awk, looks promising. Even if it's a different direction than digging deep in regex or C,
+it's still within the bash universe and is directly applicable to daily tasks. Combining it with other
+functionalities also reinforces basic skills, knowledge of programming generally, data structures, etc
+	- an interesting utility would be something focused on changing specific parts of mixed data,
+	to target the description fields in our database.
+	- map based on zip codes? can probably just use google maps for that. 
+	- doing price calculations to fields within given data, using awk and sed to format, extract, 
+	replace information in a table
+	- ingesting raw data into a structured format, CSV, HTML, XML
+- we need to set up the emc crystal folder as well, so artwork and approvals
+
+- The paperwork -
+	- Currently, filing the approved EMC Crystal Artwork
+	- All the Midols need referenceGFX, approval
+	- Finished the paperwork for the Bayer audit, will check in tomorrow and polish. Looked good to me. 
+- going to improve some of the aliases we use often, such as l and upcS, and perhaps make some new ones
+ 
+
+07-24-2023
+- Monday - We have to figure variable data in the wasp software, convinced they just buy whats in front of 
+them sometimes, this propietary garbage is really anti-useful.
+- We need to code today as well.
+- Should do some of the paper records. 
+- Ok new utility - the list rename utility. It numbers files according to an arbitrary order, then renames 
+according to some key field between the two. 
+
+
+07-22-23
+- Here on the weekend, doing some light reading and dodging responsibility as any good peasant should.
+
+
+
+07-21-23
+- The future scripting will involve manipulating CSV, so we should trouble shoot further formatting scripts
+for this purpose. 
+	- Putting data back into CSV format
+	- doing math to each element in a field 
+	- swapping and filtering through each element in a field
+	- faster ways to normalize data for scripts
+	- aesthetic ways to organize output, like adding lines between rows
+	- faster, easier way to calculate difference in length between elements between fields, rows
+	- improved logging system
+	- knowing some math using tables would be potentially applicable, khan academy who
+	- 
+- The most reusable aspect of the script is the search and sendToArray functions
+- The least reusable is the formatting first field part, which could be made more modular I'm certain. 
+- Now learning awk is officially a delegated task
+- We will likely need to remake all the barcodes within the wasp software, like wtf
+- Should mess with GIMP and Inkscape just for science, honestly having the second desk w/ windows is p rad
+	- What did we end up learning? Mostly review of bash scripting functions. There was some specifics
+	on printf which were useful, as well as more grounding in the basics of awk, always good info. 
+	The simians seem to think I'm sitting around though.
+	- What's really crazy is that spending 4 hours looking for a computer charger is more important 
+	than a fully custom report writing software to smallHead. 
+- Ok all I want is a team to work on things with. Put me in a dev team as graphics and UI and I'd crush.
+- The next thing I want is two days outside the weekend to completely dedicate to programming. No job, no
+commute, no bowel movements, wake up and program till sleep comes en-masse.
+- What's interesting is the horizons for what is useful, possible, impossible extend proportionally with 
+your knowledge of the context for application. Like, the more I handle these basic data tasks the more 
+emphasis certain things have compared to when I started naked and ignorant like a complete infant. 
+You tell me sort is top 10 when I started I'm like ok UNIX must not be that special and now you tell me sort
+is top 10 I'm like yah that makes sense. 
+- The construction for a better reporting program would begin like
+	- get information, pull data from source
+	- define form, what do we need, what forms are we pulling from
+	- retrieve data, pull data from secondary sources and store systematically 
+	- place data into common form, human readable copy
+	- format common form to the needs of the context
+- currently we approach it as
+	- manually pull data from source
+	- search secondary source, store data systematically 
+	- format data according to specific needs of this particular report
+	- print to a basic text log, minimal formatting needed to be human readable 
+- weaknesses of the latter are as
+	- each program becomes 
+
+
+07-20-2023
+- Finished the photos for the most part, still a few missing (shoulda had a list), but they look better
+by a lot. 
+- We conquered the initial problems for prodS! We refined the search to target more specifically, sent data
+from one source to another while doing stuff inbetween, reformatted table data (into the same table data
+but with formatting inbetween), used different control structures to accomplish our needs, we used some 
+bash knowledge, concepts from learning Javascript, and even a little C, wrote something that has direct 
+utility in the work we've been doing lately, 
+- so we should take a look at taking and formatting the data for a price-list. Where we pull from, how
+often the script will need maintenance, how to get it running on all these windows devices
+- 
+
+
+07-19-2023
+
+- Gonna finish off polishing these images, there are some things to learn from this process. 
+
+- TIFF supports transparency, don't believe the preview! We really just need PNG for web. Print will 
+all be TIFF. 
+
+- Should set the DSLR to TIFF instead of JPEG.
+
+- Naming should definitely happen after initial sort, even though it sucks the soul from my body.
+
+- If there is an export process and there needs to be renaming, make sure to add some iteration to the 
+name so that the multiple lists will be in the same order. That way a script to rename them is much easier
+to write.
+
+- we still need to shoot the trial and travel eaches, all import items
+
+- overall though great improvement on the previous assets. There are small things to get better at
+and that's normal. We should now aim this asset improvement towards generating reports based on a table.
+The idea is that just some given table data should be a quick basis for pulling images, specs, upcs, into 
+one page or formatted pages
+
+	- my first inclination is to figure out a bash script to pull the information and then make an 
+	HTML page from all the data.
+	- to accomplish this we need to make an HTML template that the data will go into
+	- need to make the script to call the data from the table
+	- need to make the script to copy the data into the template, then save a copy to a new folder
+	- The new folder should have a CSS template copied into it as well
+The final result would be something like 
+
+- folder-client-date
+	- form.html
+	- form.txt
+	- index.css
+- we'll need to be able to get the path to each image based on a match in the fileName, based on item#
+- imageS, prodS, upcS capture the data, then formatHTML places data into form, then polishForm makes
+the folders and puts everything where it should go.
+
+07-18-2023
+- we finished our photo work for the most part, there were issues in the workflow again. Should really sit 
+down and look into making it better. What stages are for which editing processes, how to achieve precision
+and accuracy instead of just one or the other, also a checklist would make my life easier
+- that being said, there is still item number naming to finish. There must be a script to match the names
+between folders. Doing it by hand is mostly just annoying though it doesn't take too long. 
+
+
+- Tomorrow we're gonna dive into the paper records and make sure everything is there.
+	- Artwork
+	- APR
+	- Confirmation of Approval
+	- Reference Graphic
+	- New Labeling Checklist
+	- For each folder in approved graphics. Expired idgaf about atm.
+	- 
+- Its funny the most useful things are viewed as busy work and literal busy work is made priority here
+- 
+
+- The computer for the warehouse labeler is on its way, should be good. We'll need to put WASP on it and 
+get it synced onto the server. Will just use google docs for now. 
+- should practice or look into portrait photography methods, been awhile since we did that. 
+
+well this is the death of notes, good bye snoops!
+:^)
+integrate photos
+Scripts, 
+awk learning
+try refactor idea - fields as array
+lets put ll to some work and see when its useful
+utility idea - form idea - can we wrap search results from a bash program in html? If there was an automated way to take user input from terminal and export an html file from the output, we could have a style template that does most of the formatting in CSS, and something to 
+missed all the 12 blisters somehow
+important question, how are we supposed to know if something is on the most recent rev in the product module if they don’t track the rev code in the module?
+since i’m the head of my department and also the intern of my department, i’m gonna congratulate myself on good work done regarding the photos and then dump more photo work on myself
+the best naming convention is dash as delimiter, underscore for multi-word names
+Field 1 - product #
+Field 2 - Description
+Field 3 - Count
+Field 4 - Pack Type
+how to avoid the blue halo - need to lighten the feather and pixel expansion on selection
+should export TIFF, rename TIFF, convert to PNG and keep the names, then edit PNG to remove background
+not even messing around it would be fun to get back into rebrand tests, now that we have some small experience web scraping the data gathering would be faster, organizing and scaling the research 
+if I had 3 people under me you could contract out graphics work and make a profit
+honestly just handling the file system for local printers would put us even and in the black, formatting their runs to spec, make the printer handle clientside then we just make sure their file is click and runnable basically
+07-17-2023
+we are starting the integration of the photos tomorrow first
+Then on to server eval
+then awk training
+then try this bs array idea for prodS
+That could be a day.
+
+Utility idea - compare two directories, replace every file where the first field matches, could be any field. using - as delimitor
+
+Destroy motrin 25 ct dispenser old rev - ask Fernando once he comes in.
+finish our report script - there are some ideas bouncing around, however may just have to refactor extensively
+main one is to just put every column into a variable and then arrange at our leisure - is more complicated than that unfortunately
+
+that being said there is little else besides busy work (nothing), so perhaps it is worth outlining projects for the upcoming months. 
+Rephoto all products - This will be ongoing, we’ll have to photo all versions as well as prepare the work flow for ingesting all the import items once they are in - finished it, 1 days work including filing
+how can we pick one of every product? We really need to update everything to the new standard, blisters, dispensers, imports, every count, labeled and filed into the system - fill SO, send to picking after putting hold on items that are not in stock.
+separate from live files please - currently separated, need to figure the way to integrate them correctly
+set up masters and versions - done? imperfectly, there are raw photos and TIFFs to work from if the PNG isnt cutting it but the camera raw JPGS are left unedited. There are things that should happen at different stages, like all raw jpgs get cropped and cut then export receive lighting changes
+resync lightroom to new catalog - ok
+blisters really need the most help yeesh - they were bad, not all were picked either due to stock either, will continue to address
+
+Update paper records as we go - APR is already annoying enough, wrapping in all graphics validation to the process makes it complicated and extremely time consuming. We should just have a schedule alphabetically to go through every file, and once its done for the year put it away or until something major changes
+clean server - There is always a fair amount of clerical work to be done on the server, renaming things, reducing clutter, making things simpler. 
+This should be a project for tomorrow, it’ll be good to go in and make an eval of what needs to be done really
+Re-evaluating systems - Sometimes if it isn’t broken don’t fix it, but if theres nothing else to do and you can afford to break things spend the time to make it better. There are areas that we could improve organization, consistency, and adaptability across the graphics workflow. These should be listed out in a project format and made transparent for management, to the point where they understand its use.
+Templates - AI, email, scripts, labels
+AI, PS scripts and actions 
+Some time should be taken to investigate adobe extend script or javascript for writing custom scripts in these programs. The flexibility and level of control is too powerful and could save a lot of time given the proper implementation
+Managing graphics across servers - should take a particular look at all the barcode data that is sitting in production. There are several workflows going on, across several different softwares. Should streamline, maybe even flowchart
+batch processing data - Bash scripting, javascript, C
+product photos, consistency, brand standards - did prod photos, need to take a look at the brand book again (throwback) and see what holds up, what’s worth improving, what needs to be added
+prepping early for the website transition - the reorganization of the server will be a big part of this. 
+Examine usage of Salesforce and determine improvements in work flow and application
+everything is still empty so it’s not very useful, at least for my account
+I can see why sales will end up using it. I will maybe log in once or twice a week. Seems like an elephant was called in to squash a fly
+Scripts - 
+rewrite ll to include disk information, pwd disk information
+look into more specific find functions using locate, find
+i was on some mf sauce when I wrote this version of prodS
+its a tragedy most of it works except the final component
+solution is to place all the fields into variables, and then print each one. The challenge is maintaining the columns and distances. 
+Perhaps thinking in rows would be better, changed field1 row1 appended with all other former fields on row 1
+learn awk ?
+make proper form template and fk formatting plaintext anyway?
+many roads lead to Rome
+Learn awk its really worth it. It should take a week of refinement and along the way I’ll likely determine the correct way to stream the field 1 column back into the other fields. After that the lessons will be applicable in so many of the following scripts we write. Bash is fun as hell.
+ur on the pipe son
+map each field to a new scheme? using case statement?
+store each line from every field in a separate array? Rearrange them back into the form we want? This could honestly work and might be faster than learning awk lmao
+for field 1 row 1 print field 2 row 1 at the end of F1R1, continue for each field, iterate through field 1 and call the appending function each time. 
+
+
+07-12-2023
+setup desktop in old office by end of day - FINE - it was done
+format one of these laptops that aly is loaning me, idk ports in your machine is useful
+Planogram was useful but business is business it seems
+learn ed???
+there is a difference between a utility and a full on application, a script and a full program. We made a script to create a basic form using input from the user, simplifying a task in the process of generating an entire form. The application we are trying to piece together now is to complete the form process once the user has input their list of items, giving you something that can be sent to a client immediately. It is going to save time and be more accurate than most employees would be. It’s also easily modded, updated according to different client needs, and can still be sent to a template as we discuss below. The problem we have now is not understanding awk well enough to align the spaces to the longest string in the first field. We have the first field separated, found the largest string in the given data, done the math to align the spaces as neccesary, we are stuck at the insertion of the spaces into the data and the replacement of field 1 with the new formatted data. 
+Update - ok we have inserted the spaces! now how tf do we put the new column into the mf data!
+when you push to an array, consider adding double quotations. 
+
+we just need to learn more awk I suppose. I dunno why a set of strings on newlines can’t just go back into a field like the data that came out, it’s formatted the exact same. But I’m not a Computer Scientist so thats probably why I don’t know. 
+
+why couldnt we just stick with wicked cool shell scripts
+
+Ok so all of the work has not been wasted, but I thought of a simpler solution to the problem at hand, which is to make something that generates a txt document that resembles a report based on some given data. This option is appealing. I strongly suggest future Camden give this one a shot and put their ego to bed. 
+
+Templates. All my program will do is switch keys out with the respective data, and then repeat. The program is general, can be tailored to pull different data, but does the same thing everytime. The template is variable, the same keys can move around, the whole template can change as long as the key words stay keyed. We really took the long and complicated route on this one. 
+reasons to solve the formatting problem:
+its hard and good practice
+learn awk
+make report tool more streamlined, instead of putting things into csv we can just send them the text file
+keeps brain un-mushed
+reasons to save it for later -
+its lots of work for a moderate improvement
+could be doing equally useful organization of graphics department assets that dont require learning a new language
+frustration
+we’re gonna stick to it based on this
+
+I still want the raw report to look somewhat readable though, so we’ll finish the comma problem today. 
+what command to use to add text to a specific part of the document? cat, echo + regex, awk, sed
+should learn more about IFS= read
+should learn more about awk
+should practice more applications of loops, where a variable can be used, more tools to do things inside scripts
+we should definitely spend time with awk, seems very strong
+combined with regex we should be able to handle text in all sorts of ways
+Oh yah your docusign problem - the adobe product sucks eggs don’t use it, just pay for docusign and do them yourself, or give your account to someone in sales you want doing it, though the issue is theyll see all the other documents you want to send people as well I believe in a history format. 
+We have failed at the final hour! Onwards!
+
+
+07-11-2023
+there is a minor bug I noticed this morning with the report app. It will select the item numbers ending in .5,.36, etc. Optional MC, or can we format the input into literal strings so that the xxxxx.50 gets read as a single number? The problem is we want the number in front to be selected everytime, and the trailing data to only be selected when it’s stated explicitly. 
+we also want to do some of the formatting work today. Can we get the plain text to be simple enough to go through excel easily, but also be discernable own its own? 
+procedural geometry scripts in illustrator for building out custom assets, making complicated things simple
+i guess we could rewrite prodS to work off a hash table, instead of linear searching the table key for a match, though the amount of data is small so it doesn’t matter practically at the moment
+hashing algorithms
+each category samples for random - done. we should invest time into properly configuring a form generator
+ah ok fixing the bug from earlier, need to state from beginning to end of comma, match against input
+Problem - searching for an item number will match the number at the end of a upc, because of the check digit.
+Solution - 
+only search field?
+rewrite search in awk
+bug squashed - word boundary op
+that regex was getting nutty tho
+ok using awk, how do we alter the prodLog function to format the data? once we align the commas of the first field, it looks not bad. how do to?
+neat trick with sort -n | tail -n 1 - sort numerically, then give me the last number
+
+07-10-2023
+we did some bigBoy programming today, for our weightclass anyway. Customizable report tool for taking CSV files, searching the file according to a list of key data points, matching those points and exporting the matches along with the desired additional fields to plain text - done for today, there is lots of room for growing this particular application. 
+need to learn how to add formatting to the data that comes off the script in plain text, separate each field, add spaces, add column/row lines, 
+remake eaches again lmao - we saved over the key-data and wrote two check digits to the end of every file instead of 1 and now our search function won’t work. This is validation? - done 
+
+c++ ? it seems incredible but we have to bash train rolling, lets continue for this week.
+bash review, regex review - done for the day
+clean up desk - done
+GSK nonsense - done
+Barcode setup in production - done
+UPC entry into product
+Consider workflow
+Would import work faster here? How to attach data to fields.
+awk is op
+jump to proper resource request dir
+make dated folder
+Run working dataLog program in dated folder
+capture fields from keyData based on user input
+append to dated log for resource request
+example - given a list of item #’s, provide each upcEach, upcSleeve, upcCase, comp#, description, separated by comma
+make a rev code interpreter, as in based on day return rev code format
+
+07-08-2023
+gamma logo -done
+ghra slide deck - done
+gamma slide deck - done
+custom sleeve mock - kudos, ghra -
+custom blister mock - kudos, ghra - 
+the blister diagram - done, right about automation, needs good info first though not chicken scratch list
+the condom barcode nonsense - this is a monday problem
+
+
+07-07-2023
+if these take off it will be annoying as a consistent project, will template and automate and create the batch assets for all future instances. Should be good application of theory so far. 
+break down to component parts, automate construction of parts and assembly of parts according to the specifics of the order, make sure if something can be scripted according to simple data, then it is. 
+parts are: key with sales order information, rack template, product display template
+Assets: dispenser fronts, logos, brand mission statements, box and merch objects, 
+automation is the future avoiding it for petty reasons is bad business.
+
+07-06-2023
+We left off converting eps to jpg for the updated barcodes
+i would guess these are 98-100% correct, compared to 75-80% during the last run. Learning every time!
+it would be good practice to automate everything in a single script since we know the workflow already.
+Need to remake the search script for UPC’s
+The problem now will be, there is not a consistent tie between the each code and the sleeve, case code. This applies to blisters and certain dispensers that we don’t sell anyway. What ties them together in Fishbowl is the common object, as well as the description. Renaming them to the item number, level, and a shortened description is the good answer. They should be in distinct commonly delimited fields. 
+Everything can be automated! It’s a lot more flexible than mail merge lol! Bash is nearly a programming language in and of itself, certainly a lingua franca. 
+Sales wiki? Need to list the neccesary goods and draft a template in html, css. Shouldnt be too hard to catch up. What an excuse to zone in finally. 
+Search for file based on comp number, match to arr1, based on arr1 match, fill in name according to arr2, arr3, arr4. Arr1 is comp#, arr2 is item#, arr3 is brief desc, and arr4 is pack level.
+Search, match, rename according to array information.
+lets get programming then
+
+07-05-2023
+Making a sales wiki - how? - HTML - CSS - EVEN Javascript (finally) - we can host the damn thing on our own server, and it’s entirely a company reference guide, it’ll be lightweight and searchable. 
+Remember we are getting inspected at the end of the month. For what exactly? I was not told. Lets make sure paper files are up to date and buttoned up. 
+
+what if our inventory reported itself? I suppose fishbowl accomplishes some of this, but there are likely fine tunings that would make it more useful for me specifically. Like, can you just notify me when there are rev codes that don’t match the artwork in our database? Can you show me when there are two rev codes that don’t match? Can you alert me as to what artwork components are pulled for production that day? If a component is reordered, can you alert me if the rev code on the order matches our database? 
+Some issues
+mixed data fields - pain in my ass
+data export/import rights
+various naming schemes used to identify product
+Goal - Automate export of data to specific place on server. Automate validation of this data according to preset scheme. Create variety of alerts based on the validated data. Automate this whole process so that I come in monday to a consolidated report on a variety of specific things. 
+Specifics/Approach - 
+Alert for presence of multiple rev codes in inventory
+Alert for different lot codes on same rev code
+Log component #, rev code, lot #, date of log, as new lot #’s enter system, updated overnight and during lunch
+marker system for each specific state that a product can be in
+So messing with Fishbowl is really annoying. What’s the simplest way to get the information we need out of the program? 
+What is the most essential information to get out of the program? 
+
+Fishbowl?
+Why doesn’t Inventory show up in part
+How do we extract this information from their api as painlessly as possible - perhaps pain is inevitable 
+what are these menus
+This may be a dream rather than a practical project. It’s a lot of work to write some custom stuff to do all this, and the support for the work won’t be there from mgmt. And I’m one person. 
+Alternatives - 
+Efficient reporting, means specific reporting
+Target specific areas of the warehouse, aisle by aisle if possible
+Another dream would be to have this information mapped to a literal, live graphical map of the warehouse. That would be sweet. 
+We need to fix the blister upc’s for across the board. Except for primeaid. 
+Fix graphical UPC’s
+Update FB
+
+
+07-03-2023
+embedded windows terminal? windows command prompt? what is this madness? Should at least learn to navigate and basic file handling. Those all-in-one computers in production run this crap. Imagine, if I weren’t here theyd be paying some dude in a polo to come move files around. 
+A thought, why not set up the ports on those things and try to put them onto the network? Only admins allowed etc. Would allowfor the eventual cron/rsync stuff to happen, without having to learn windows jargon. 
+Also backups holy. They are playin with fire around here
+we can do math in the shell so feasibly could apply algorithms to a set of data within our scripts, pass that data to a common form, without having to go through excel (yees) 
+
+salesforce stuff, I’ll be in the training so I can help when they need me to. 
+Create a list of known commands in bash, review perl notes, review regex notes, it’s time we start the reports project. Being able to use SF api to pull data and make reports would be awesome but having fully custom capability once we have it pulled is primo.
+We need a map for blister upc data to item #’s, currently searchable only by component #’s, both should be possible. 
+Validation of various kinds, being able to compare fields based on key fields
+we should draft a blueprint of what we need, using iterative processes to decide what will be best suited to our needs and ability
+We need to begin prepping for the inspection stuff that will be happening at the end of the month. 
+Likely ready but lets be quadruple ready.
+
+
+06-28-2023
+the only actually important thing from all that was that an inspection is happening in July, which I’m sure we could have had warning on but now is something of a rush. 
+
+
+
+06-26-2023
+Planograms - set up the data forms, var data for ai
+we’ll need to update all the images in our system
+should photo redundant counts as well
+waiting on rebrand items for the photos honestly, so we don’t have to do this whole process over again. 
+make automated response for thursday/friday when i’m out
+
+Prep for GSK meeting
+review communications
+process is we get the artwork to best match to provided graphics, then send it in for approval. 
+the approval process is something of a black box to us, so prepping things with a extra awareness of what the approvers are looking for would obviously be helpful. 
+the reason for constantly reaching out is to ensure that the artworks receive attention, we understand it’s busy on their end of things and perhaps one or two artworks for a repacker don’t get the highest of priorities. 
+the revisions we do get back often seem arbitrary, like they are part of some internal communication between approvers and often the vocabulary has no relevance to us.
+There are also repeated revisions, in several forms. The most common is that we send in updates, and the previous revision is sent back to us asking for the updates that have already been sent in. The next is that there are changes that seem almost entirely aesthetic, and don’t have relevance to the semantic aspects of an artwork. As in, the product is ready to go to print, everything required to communicate the information of the product is there, but there is some small detail, (bold this sentence, increase font size by 1-2pt, change   placement of an asset by a few mm) that seems to be catching the artwork for the approver. If all of these type of changes were declared from the start, and if there was a way to ensure the correct version was consistently being sent to the approvers, then we’d avoid a lot of our revisions. Rarely is something sent back because it was missed on our end by comparison. 
+sometimes lateral approaches are the only acceptable method, yes there is more here to read than we can realistically go through within even a year, but sometimes when you get stuck theres a gap between you and the text that could be crossed more quickly in some other text.
+ 
+review recent artworks
+review legacy artworks
+organize potential materials
+prep label workflow
+get computer from production
+install wasp
+prep wasp labels, or prep labels for wasp, potential time sink
+write up process for production employees, the goal is to make it as easy as possible to use. Search item number, get label, no set up for printing just run the file. 
+
+
+06-23-2023
+At some point today, we’ll break down that production computer and bring it in here to test and format the printing setup. Then we’ll take it back out there with everything ready. I have no interest in testing all this out there. 
+point - we could remote into it. That would be good practice. 
+becky needs items - done
+Mallards the lot
+01030 - Display Rack - 20 SKU Mix Pack Year Round Display BUY 2 [120/ cs.]
+11460 - Prime Aid - Allergy Relief - Pink Single Pack Blister 12 x 1 [12/cs.]
+11456 - Prime Aid - Cold Relief - Blue Single Pack Blister 12 x 1 [12/cs.]
+11443 - Prime Aid - Stomach Relief - Blue Single Pack Blister 12 x 1 [12/cs.]
+01031 - Display Rack - 9 SKU Aches & Pains Display [108/ cs.]
+11445 - Prime Aid - Pain Relief PM Nitetime Sleep Aid - Blue Single Pack Blister 12 x 1 [12/cs.]
+11468 - Prime Aid Pain Relief Max Strength - Green Single Pack Blistered 12 x 1 [12/cs.]
+01032 - Display Rack - 9 SKU Single Pack Allergy Year Round Display [108/ cs.]
+11460 - Prime Aid - Allergy Relief - Pink Single Pack Blister 12 x 1 [12/cs.]
+01038 - Display Rack - 20 SKU Single Pack Year Round Display BUY 2 [120/ cs.]
+11411 - Prime Aid - Daytime Severe - Orange Single Pack Blister 12 x 1 [12/cs.]
+11412 - Prime Aid - Nighttime Severe - Blue Single Pack Blister 12 x 1 [12/cs.]
+11443 - Prime Aid - Stomach Relief - Blue Single Pack Blister 12 x 1 [12/cs.]
+
+
+
+06-22-2023
+reorganize dielines directory
+components directory needs a mockup section
+GHRA wants several custom pack materials
+Small circular sticker
+Half insert card
+Larger ‘lip’ sticker
+for dispenser and blister
+custom sleeve
+They also want a brand specific sticker to go on the back of dispensers
+such as, this product was only sold by GHRA etc
+2x1 , two up .375x1.625 , 1” circular, .75 X 2.25"
+
+06-21-2023
+the perl manual is pretty good tho
+if we’re gonna make these scripts robust for the company, then writing them in perl can go a long way to accomplish this. 
+man (perlvar, perlintro, perlsyn)
+using map
+various loops
+declaring variables
+Declaring, manipulating scalars
+Declaring, manipulating Arrays
+Mastering regex - stopped at 50
+quite a slow day, maybe 15 pages, but very dense and learned a metric ton
+
+
+
+06-20-2023
+templates is messy should clean
+
+
+06-19-2023
+We probably shouldn’t just grind through the 101 cool scripts book, we still have a lot to learn before we can glean everything useful from that one. Though it should still be on the agenda, we encountered a lot of stuff that’s worth review. 
+10-15 pages of both a day will be quite enriching.
+Remember, there are practical issues at hand that we are looking to solve with the information in these texts, so as we go refer back to the goals as well as our notes
+Learning perl would be sick.
+we’re sortve training to be an uber clerk, relevant to graphic design especially when dealing with text and var data stuff, also asset handling and database mgmt, web scraping and building reports, gathering intel on trends (but why not just listen to youtube designers???),
+Speaking of practical application, what if we could solve the levels of UPC data matching with item codes with a regular expression? There are likely so many approaches. Worth keeping in mind. 
+Another point of interest will be VBScript potentially, only because it is a means to script Illustrator and has regex support. Javascript maybe is the default here idk. 
+So far this book on regex is invaluable, a lot easier to get through than the scripts book - wouldnt say easier, just more applicable to what I’ve been doing so far and more approachable presentation.
+Lets consider a workflow for the WH labels
+Build label template, there might be different labels depending on product type
+receive data
+format data
+Input data to template
+confirm data, validate details
+export format, batch conversion if neccesary, .eps seems to work fairly well, I think you can just change the prefix to .wsp if all else fails. This may be a sticking point.
+organize folders according to product type, component vs med vs import
+short run to test printer quirks
+full run of labels
+At some point in the understanding and study of scripting, we’ll just need to spend time imagining applications as a fun project in and of itself. Go to website, inspect its HTML, CSS, Jscript, decide what we want from it, scrape those parts, learn about methods and workflows to accomplish different tasks on the same site, then different sites, what to do with the data once it’s scraped, what is useful, how to cross reference data so that useless things become useful and useful things become essential, structuring the data so that other applications can play nicely with it, presenting the data so all the effort doesn’t get dismissed as too technical
+Aly wants to know which hair brushes are sticky and which are not. 
+Rhonda knows the answer to this question. 
+
+06-16-2023
+wow scripting though - dave taylor WCSS
+things to review monday - 
+stderror, stdout
+command substitution
+if, elif, else statements
+input validation
+exit status
+regex vocab, idk how to practice this other than going through examples and being confused
+Positional parameters, though we have a good comprehension of this after our intro to Javascript
+
+These will likely all be things to bring together for the scripts that aly might want for data snychronization, data validation. 
+The usefulness of this is going to depend on it’s ability to scale, which will require a level portability that bash can bring but means it has to be robust, meaning the syntax and flexibility of input should be top notch. it shouldnt be terribly hard to train people to use it once its built either, so it may require some level of UI (within bash, so they’ll have to learn to at least open a terminal and type a command.) but nothing like a full on GUI. 
+It may only be me that uses it also so I need to feel comfortable relying on it as a tool first and foremost. 
+Generally all this script training is so that we have a level of control over data as it moves through front office, warehouse, production, and other softwares. If it’s not consistent in one area, then errors might occur down the line. 
+Another important feature will be in a principal of “least disruption.” Meaning, that when data goes through these scripts, it can be input back into softwares or used practically by someone else for different reasons, without extra formatting or translation by another department. 
+
+
+Ok so the wh labels might vary in the information that they contain. All will have constants, things that anyone going out onto the floor would need when dealing with a given inventory problem. 
+item# or comp#, depending on product type, but they would substitute for each other
+Desc
+counts
+variables would include
+overstock location
+rev code
+
+
+06-15-2023
+Dave Taylors intro to bash for OSX down bb, on to the next
+Ok, Fahey may have “borrowed” or just been inspired by Sete, though the riff is very close just from memory. 
+
+should set up PuTTY from the WASP printer machine to the graphics Mac so I don’t have to do so much rolling between the two
+clean up product photos, its a wreck atm - improvements made
+Goals - increase visibility, track versions, decrease clutter
+we added a single directory with no subs for all photos, the matter of organizing the photos is a naming issue at this point
+
+clarity for naming, searching all medicine, import, t&t items, should folow consistent scheme
+as few separate folders in the main dir as possible. Honestly all prod should be named consistently, delimited fields, all in one section
+Item#-Name-PackTyp-Ct
+check visual standards on every photo, decide consistent template for each - still need to rePhoto everything, all at once. This will be the goal after we get rebrand items in. 
+should assets, research, references be included, if so how should they be organized, why do we need all of it - they are fine in a separate folder, and subFs are needed because the content is so varied between each section and have such different purposes. The purpose should just be more clear in the name. 
+
+what can be zipped and archived - old stuff from catalog, website, having project folders with redundant photos was a waste imo
+die select II !
+jk archived
+what, how, can we organize and keep up to date on prod photos - still dont have a good answer to versions, the ideal would be to attach a rev code that matches the artwork version, but that’s such a hassle that it’s not worth doing. I’d rather have to rush a photo image than maintain that every prod update. 
+need to clarify how ingest is used, there are multiple landing sites for different stages of production which is causing things to get forgotten
+ingest is for files exported from the shoot folder. They get edited in, saved back to, the ingest folder. They get renamed and placed into the proper folder from here. There should be a needToRename folder in ingest perhaps. 
+
+PNG only honestly - done, quarantined jpgs
+
+
+basically all catalog photos can get archived and compressed
+
+
+06-14-2023
+So we come full circle. The problem we intiated bash learning for: comparison of text in pdf files for DFLs. The proposed solution was to place each word on it’s own line, and compare each word by line number and total line numbers. This is at play in the example provided in Learning "UNIX for OSx”, Dave Taylor, pg. 147
+tr -cs “[:alpha:]” “\n” < alice.txt | uniq | wc -l
+the above script would read every alpha numeric character, place them onto separate lines, remove non-unique characters, and then count the lines. This doesn’t exactly solve the problem we wanted to, but it’s a step in the right direction and proof we’re on the path. 
+some sudoCode for posterity: 
+take DFL from MFG as pdf, take DFL from Select as pdf, translate both so that each word is on a newline, remove or escape special characters, compare each line for non matching words, case sensitive, export newCopy of Select DFL with escaped characters back in order & spaces added, merge/replace missing/nonmatched words from MFG copy to new Copy, compare new copy to mfg copy again, open for visual inspection. Something like this can be a single script I suspect. 
+
+
+Ask Shaan to do a color proof for each artwork and send pictures. He might hate me for it but it’ll be worth it even if it doesn’t catch anything. 
+2hot2stop fam
+
+review spelling on import artworks
+review  bash commands that we’ve covered so far, maybe draft some excercises
+explore dig, awk, xargs
+continue regex as usual 
+we actually have a scripting goal, if a general one. We need to be able to accomplish certain things automatically from spreadsheets and make sure that various forms of data are up to date across the company. That feels like a cron and find job, maybe cat, sed, grep too.
+TBH - we should just push through bash the next few months and then resign ourselves to being a c++ hermit. Idk what we can’t do with c++ so. 
+
+
+06-13-2023
+explore dig tomorrow
+
+alright apparently you can get a degree in regex
+we need a comparative name appending program, if file-A name contains X, perform action on file-B containing Y
+we actually wrote the name program last night at home but idk if I can remember it lol, the comparison operation is where I’m clueless tho
+A technical diagram for compressor instructions, soul crushing drawing but drawing nonetheless
+until we finish this import rebrand I’m not committing my brain to anything significant 
+A practical project for illustrator scripting would be, fine grain variable data export instead of the limited scope of “variables” inside the gui. I forget what language it’s in but its some xml parsing library for js, if we cover the basics and then jump head first into a semi complicated problem I think we can get the results we want. 
+
+
+06-12-2023
+drilled regex, find, basic networking, basics of xargs over weekend. Want to try a webscrape sometime this week. Need to reinforce symbols vocab, dive into backticks and saving positions inside find, regex, would be extremely powerful working with lots of spreadsheets, which is certainly ahead of us.
+Scraping lil D’s website for images, data would be interesting no, for SCIENCE
+
+What’s left? 
+data for stickers
+format and create statics for stickers
+organize inside release folders
+
+
+06-09-2023
+Well, drilling regex isn’t as mind numbing as for loops yet
+UPC drama: There is no consistent scheme. There are different systems for different lines of product. That is a fact, and it causes confusion within the structure of the organization, leading to confusion amongst the employees of the organization. There are solutions that are fast but expensive, and solutions that are slow but not much more than what we already are gonna spend. 
+Crux of the issue: ITF-14 is (supposedly) less applicable than the UPCA barcode. I’m not sure if that’s entirely true, as handling the extra 2 digits isn’t that devastating. Y2K wasn’t real yall.
+UPCA - Our item (product) numbers are the basis for sleeves, cases, only for blisters, and for some dispensers. 
+ITF-14 - used for most sleeves, all cases, for imports, dispensers, blister cases only
+
+
+06-08-2023
+I’m not touching that printer this morning
+Wow that dispenser mistake tho 
+There is a Pi on my desk and I’m too afraid to use it 
+what makes a printer proprietary, as in what inside the guts has turned it down such a dark path you know
+People think tech sucks because they’ve only used broke ass company software that wasn’t made to be useful (for the user)
+That being said we have two more machines we can put that TERRIBLE software onto so we might as well just do that and save the trip to the psychiatrist. 
+oh yah Fahey ripped off Bola Sete so hard 
+
+
+06-06-2023
+emails, Shaan showed me the new eyeglass repair kit and the bag it comes in covers the header. There is 
+Uhhh Looks Like Open Fields fam
+
+
+06-05-2023
+jumper cables, just need to add some black and aly wants a picture of the cables on the box. He seems to think this will require sub branding, we’ll see. I think just adding the black and picture the right way will be enough. 
+idk honestly, there’s some flexibility but the way it’s done is my only answer for now. It’s passable. The sleeve pack has a clear opening so made the call it didn’t need an image. Images are difficult to reproduce consistently and prone to obvious fading. The trade off is high visual impact and fast apprehension of identity. 
+ 
+Should reach out to Marlene around lunch - email it and they will come - revised EMC Crystal, its in approval stage
+When is the Zyrtec gonna be here
+Somewhat surprising there isn’t more. Knock on Wood!
+well that was faster than a mormon on their wedding night
+oooh we have that printer to wrangle. Difficult with no power supply over there atm. Should set it up at my desk anyway. 
+gonna install a windows vm
+02831, 
+Bro, fuck a windows printer lmao
+
+
+06-03-2023
+Theraflus today - donezorooney
+Design patterns
+maybe we can figure why server permissions are changed
+
+
+
+06-02-2023
+check dell.com for something to get 200 off on that might be cool for the office. 
+upc lords unite
+need to retry the case upcs, half didnt print, idk
+crushing defeat - literally back to square 0, and we have to check for errors. FAK.
+attempt 2 worked significantly better, there are outliers that didn’t get put into the data sheet I worked off of so there are a few missing but there is no easy means to check that as of now.
+
+
+gonna fill out those forms for beck the long way round - ABSOLUTELY COMPLETED.
+rebrand updates, this is mondays problem tho
+Theraflu blister
+Rebrand stuff - accomplished :^l
+Printer Stuff for warehouse labels
+snoops, the work proceeds well, you will need to try harder.
+
+
+Theraflu Single Pack Blister - DT & NT - Will have to run through GSK. Yay.
+APR Remaining - 
+All apr forms are complete, all folders are filed, labeled
+Need to audit live folders and fill in missing artworks, rgd, approvals
+Need to decide on a method for completely retiring graphics (aka cleaning useless files from record.) Cannot think of a business reason to keep them. We aren’t a library. Not that I personally think we should toss them. Whats the purpose of keeping a ten year old artwork we stopped selling five years ago? It’s not as if we would reuse that artwork, the brand is very likely changed its vbl.
+
+@designNotes ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Design Notes
+
+Technical
+
+Illustrator
+
+Procedures
+Create pattern from assets, create brush from pattern, create matrix with lines, apply pattern brush to lines, apply effects to matrix. Not quite predictive enough for use in copying or remaking, but interesting enough to be a generative process alone. 
+Create texture from real world example, using the trace procedure, then making square pattern from the trace. This can be used to fill drawings to get more realism. 
+Text - Apply pattern to fill that acts as drop shadow for text, used as appearance to keep the text editable
+Print out B&W contact sheet of various assets, trace them on light table in your own style, ingest them back through vector procedure. 
+4x4 grid, comp icon and letter forms within, create series, create brush or pattern texture from series
+Tracing Architectural elements in isometric grid then applying textural effects to create versions of each form
+Damn. Once you get the templates and motifs locked down, the only barrier to entry is understanding the needs of the given market and the relationships to cement the business. Once you have that all you have to do is make good work and like that’s been the point since Pre K. 
+3D - The rotate function and inflate makes the process of making assets about building cross sections in 2d then finishing them with the render settings. Imagining that multiple 3d objects can be combined much as many vectors are combined to make complete objects. 
+Finish 3D Illustrator objects in photoshop for the clean product photo look. 
+potential workflow for DFL spellchecking - create well formed plain text of new and old dfl, run both through comm, edit new to match any updates and verify sameness, save plain text to RGD, apply plain text to styling templates, copy templates to art file, adjust type if needed. There aren’t presets for type styles in illustrator so perhaps indesign might be better for this. 
+Correction, Character and Paragraph styles exist in AI. Yay. 
+Could proofread based on lines, would need to reformat most of our DFL text, but each line is matched by comm better that way
+
+
+Observations
+Layering pattern brushes with effects is the next level of understanding in reproducing graphical effects in this program. Being able to create a raster pattern, drop it into illustrator, create a brush from some arrangement of said pattern, and then work with that pattern in some matrix of bezier curves? That has to be how the advanced production teams get to these unique VFX.
+Read one paragraph about plywood and suddenly we miss the studio. 
+As tragic artists go, I really need to get sadder or something. Really missing the trend dying so young maybe people won’t think I’m legit. Knock on wood.
+The jump to hand drawing assets could be difficult, and the mental block is likely the biggest, but honestly there is something there that’s impossible to replicate when you are totally digital. In the face of world altering AI technology the human mind stands to benefit the most, and returning to analog will be the style ushered in as reaction to the tide of automation. 
+Learning enough about the motifs that are present within other cultures would create channels for revenue that I hadn’t even considered, ones that I’m entirely ignorant of. Would need to be strategic about not offending people, relying on the less objectionable areas of visual communication. Geometric patterns, classic phrases, “FAmIlY vaLUEs”, modesty
+Following that line of thought, GPT could be used to understand the language within an (dare I say) advertisement and commodity focused modality, allowing for research where I normally would be completely stuck. 
+At some point, training more GD is just going to give limited returns since it has no coherent objective aside from improving our knowledge base and expertise in certain areas. Since we’re at minimum 50% capability in a lot of those areas, polishing to 80% or 90% is less priority. People don’t notice the polish past a certain point. 
+
+Styles
+Street, commodification of blackness
+Retro, things that happened before 1960
+Sci-Fi, Whatever hollywood styles the future as this year
+Handwritten or Handmade, pintrest floral on neutral tones
+Christian, clouds and metallics with something resembling the sun, things really haven’t changed 
+Male, dark colors and gritty textures along with symbols of wealth
+The Seasons
+The Sports Seasons
+
+Sources
+It might be interesting to track down a collection of those CD’s that had a bunch of PNG’s of clip art and start archiving them.
+
+
+Gear
+Proofing printer
+Lrg Format Scanner
+DSLR
+Lighting equipment
+Booth setup
+carrying gear
+Data storage, backup
+archiving software, DAM procedure
+drawing tablet
+Adobe or equivalent software
+Drafting table
+Lightbox
+Tracing paper, pens, pencils, neutral lamp
+
+Personel
+What specialties would I hire if we needed to expand the graphics department? What kind of people with what kind of skills?
+Almost certainly need an illustrator with subskills in animation and 3D Modeling. Expensive the more they know about 3d. But minimum a talented hard working draftsperson who is competent with digital workflows. Good drawing will take the work a long way. Adaptability is a must, should have their own “house style” though. Needs to be Type A and comes from Fine Art disciplines. Execution specialist, not a composer. 
+Design-Minded Backend systems designer. Also expensive the more they know about backend. Minimum strong knowledge of front end platforms and how to achieve functionality while the team creates assets. Arty person who liked math more.
+Data analyst - Someone who can gather marketing data and understand enough about design and craft to apply it to our given situation. Should prioritize moving the flexible design ability of the team into new markets where we can provide consistency, quality, and intel. They would focus research heavily.
+Instead of Data Analyst, a video expert. Create and edit content for clients within different niches of online marketing, YouTube personalities, etc. Doubles as photo expert.  
+Floating Design hand, does proofing, tracing, typesetting, versioning, naming, tagging, research aid, minor updates to company assets, inventory, photo editing, video editing, audio editing, is basically a training position where multiple types of people could stay for however long. I guess eventually people get enough experience to go off on their own. 
+That’s pretty much how I’d do it, until we moved into a specific direction with the focus of our work and the types of clients we’d have its hard to tell if you need more specialty or not. Say, a Poster Design Focused illustrator with in depth knowledge of the screen printing process. For something of that nature, it might be prudent to pay them for consultancy and use that specific knowledge as a base for training the core unit. The better our research methods are the less we’d have to rely on this. 
+
+@Select-Import_rebrandNotes ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Import Rebrand Notes
+
+Ratios
+
+Footer
+footer is 1.431 X the width of the card dieline
+Category is 0.144 X the width of the card dieline
+Header
+header is .927 X the width of the card, no more than 20 mm, unless the card is over sized or an edge case 
+AThe purpose of uniformity is to decrease time for checking quality, improve accuracy of information, and eventually make room for automation of certain tasks, to this end the placement should have a registration marker and formalized position
+Rev sits at top right of UPC, separated by 2.5 mm vertically, justified right edge of barcode of UPC, 
+
+Backs
+Greys are 10% & 80%
+
+Polishing 
+repackager statement formatted
+rev code medium seravek, justification
+
+
+important note: do not save in SVG because pantones will not be called out, will revert to CMYK #’s
+all references with color thusly placed in single ai
+
+The monograms may stay, for now they will be considered place holders until we figure the icon situation. They have more visual interest, and avoid having to put letter combinations on the header 
+Answer - We will switch to product specific symbols, and the space is less about conveying the semantics of the packaging as a whole and more about grounding each product with an identity. Can explore the problem aesthetically as opposed to semantically. 
+Detail will be: Lowest, high contrast, fit within header motif stylistically. There is opportunity to be creative here, so long as we hit the requested benchmarks at the same time. 
+
+reach out concerning changes in product form with mfg in China
+Either the symbols will be product specific or it will unify every package, product specific is more costly to maintain but looks better. 
+
+Copper Scouring Pads
+American Heartland, home helper, literal and metaphorical grit, sustainability messaging, womens work (perception), work for kids, wondrous cleaning material, branding message works on assumption of magic trick, as if you couldnt grab a fistful of hay and accomplish something similair 
+Need
+Name
+Copy
+Materials Theme
+Colors Theme
+Dieline - on hand
+Character Illustration 
+
+
+
+
+04-05-23
+They want
+A color for the header, they think it’s missing rather than just white. 
+Footer, will need to explain there’s nothing that goes down there for any of the products. 
+Add the car icon, build the other icons out
+The header from the slime copy, which is rather ugly so we’re gonna remake it. 
+Remove the product trace. Another reason input shouldn’t be allowed. 
+They want metallic, we’ll see what works. ]
+
+While none of these are semantic reasons for changing anything, they will have to function semantically. To this end there will be stretching of what they wanted to address the actual problem at hand. 
+
+Body color or light body color moves to top, the reasoning for not having it there (as it was like this originally) was because it makes the name of the product harder to see, there’s less contrast. Obviously you could just make some cutout dropshadowed monstrosity just so people can read the product name, but I thought using white would do the same thing with less kitsche. 
+There’s no copy for any of our product, I’ve not been asked to add any copy, why are we adding space for nothing? How does this add dimension like they were asking for? Is this just a space for another color? They seem split on liking the monotone pallette and hating it. 
+The icons are fine just need to make them. 
+The header will be different than the one I showed them, it’s a different product with a totally different style and for a totally different set of customers almost. Slime is one of Walmarts auto accessory vendors, their product is a bit above the price range of the CStore space. Like you don’t walk into 711 looking for a digital tire gauge with all these accesories, or a nascar grade tire repair kit. You expect to open the package and for the tool to work the one time you need it to then break in a week. 
+Silly, dont get me started.
+My only concern is with the lack of pantone support for the metallics in Adobe these days. Solution: Different color book. 
+
+Observations 
+Again, the allotted space for the header is 25 mm height wise
+Since there’s no copy, put the category identifier in the footer.
+7 bar motif is relegated to footer as well - changed to bubble fade
+Drawing is completely removed, can’t think of a sane way to put it in there now. - drawing is included, as “easter egg”.
+Ok what if we made the drawings small enough to sit behind the product so you don’t see them at all? That way it’s only something the customer sees when they have already purchased the products. There is no increase in cost and doesn’t affect the saleability whats the argument against? The concern was that since they weren’t a perfect sillhouette it would look weird. Remove the potential weirdness until it’s too late lmao. - this was accepted
+The header space from punch hole should be 1 mm, shouldn’t exceed 20 mm total height
+an odd observation - the drive to or not to place something onto a packaging form is decided by some relation between what the designer and people funding the designer want, and also what they think other people want to see/ don’t want to see. 
+Justification 1 - Jumper Cables
+Is solidly within branding goals and maintains VBL 
+There is no need for a footer, the product doesn’t have a flat bottom
+Every extra detail describes the product in some fashion, creating identity
+All color, type, type hierarchy, branding motifs, logos, semantics are included.
+There are no other complaints with the 
+Reworking method - take the same motifs and rework them within the given structure, using the style given, improving on implementation of VBL and not the concept itself
+
+Boxes Switching to Jars
+01181_Nail Clippers Toe PVC Box
+
+Missing Dielines
+01021_Scouring Pads - good
+01044_Single Edge Blades - good
+01082_European Glass Fuses - good
+01139_Jumper Cables 10’ (sleeve packed) - good
+01137_Screwdriver Flat Head - good
+01191_Travel Corkscrew - good
+01322 Travel Corkscrew & Bottle Opener
+01309_Full Size Travel Toothbrush (Medium) - good
+01307_Full Size Travel Toothbrush (Soft) - good
+01305A_Disposable Razors Singles 
+
+Finals Checklist
+Header contains
+Name
+Subname
+Icon
+Diamond motif
+is right color
+1 mm down from punch
+logo
+Centered
+Body Contains
+is right color
+product illustration
+correct category 
+Footer contains
+is right color
+doppler motif
+Back contains 
+Header minus Traveler logo
+is greyscale - change classic logo to grey version?
+product illustration 
+classic select logo
+MFG statement
+made in statement
+rev code, seravek med 6pt
+upc 
+Prop 65 sticker if needed
+
+@snippet_projects  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Bash 
+Bash is a terminal emulation program used to navigate across computer systems. It has an immense amount of organizational power, as well as being the primary tool for System Administrators, and much more aside. This is well outside the scope of a graphic designer, and more within the realm of Computer Science Student. The main purpose of using it within the Graphics Department here at Select Corporation is to assure that data is being entered and maintained correctly, and to automate rote tasks that would otherwise take you lots of time and cost great sanity. 
+It may seem cryptic at the start, and this has may be true generally. But the first time you do something that saves you hours, days, worth of repetitive typing, that studying time will have been worth it. For everyone including your employers.
+
+
+
+Search ls -laF output to grep, then type term
+
+sc *term*
+
+These are used to go back through the legacy server data, if you can’t find something in the new server that should be on hand. Many things have been trimmed off of the new server to save space and make it more navigable. 
+
+making zipped tarball - the tar.gz extension 
+tar -czf nameOfArchive2Make.tar.gz /Path/To/File-or-Dir
+
+searching gzipped tarball - 
+tar -tzf targetArchive.tar.gz | grep -i searchTerm
+
+extracting specific file from a gzipped tarball
+tar -xzf targetArchive.tar.gz path/to/file-s
+
+
+Open new FB Client
+open -n /Applications/Fishbowl/client/bin/Fishbowl\ Client.app
+nfb
+
+Jump to Select III
+cd /Volumes/Graphics/Select\ III/
+select
+
+Move files with common string using xargs
+find . -name "*drug-fact-*" | xargs -I {} mv {} ~/Downloads/drug-facts
+
+Find all files in PWD matching some string pattern
+find . -name "*01004*"
+
+Adding prefix before file names
+for file in *; do mv "$file" "prefix_$file"; done
+
+Make Components Folders at pwd
+mkdir -p ./{Approvals,Expired-Graphics,Pending,Print,Reference-Graphic-Data}
+
+Finding doubled words
+egrep '\<([A-Za-z]+) +\1\>'
+
+Using perl 1 liners
+perl -e ‘etcetcetc'
+
+When we need to select something specific that’s common between files
+mv *document* documents/
+
+Finding multiple files through several directories using Wildcard
+ls -l */*.ai
+
+format and print output to standard output, such as terminal or file
+
+printf “%s\n” Hello Hello 
+*yields
+Hello
+Hello
+
+Using sed
+sed -n '/10/,/25/p' sedTest-3.txt
+this prints the lines between 2 patterns of a document, here one that is line numbered
+
+Using cut to export list from ls 
+ls | cut -d '_' -f 1 >
+
+This one is good. Locate and grep something particular, return pathname w/o spaces *replace Adobe and Jenkinsfile with your terms
+locate Adobe | grep -w "Jenkinsfile" | sed 's/ /\\ /g'
+
+Remember upcS script! It runs from ~/Desktop/select/, so when used it takes you to that directory, for now. 
+
+
+Extracting just the UPCs from upcS command:
+upcS | cut -d / -f 10
+
+using find, xargs + less, to locate and view contents of files - note use of -print0 & -0 to eliminate spaces 
+find . -not -name "*.txt" -type f -print0 | xargs -0 less
+
+ranges with find! Regex ! Didn’t know this, explains why nothing worked last night
+.* means every symbol preceding the bracket pattern
+bracket pattern means a range of symbols
+$ means ends with
+find */ -regex '.*[A-D]$’     
+
+using tr to remove spaces and add commas between values
+tr '\n' ',' <copyItemsSelect.txt
+
+using tar to compress and archive directories
+tar -czf archiveToMake.tar.gz directoryName/
+
+
+WORKING
+
+find */ -regex '.*[A-D]$' -print0 | xargs -0 -I {} mv {} ../playground2
+
+
+First Principals !
+
+Ideas
+numerate list of files with brace expansion and cat
+store unique names as variables, replace full name with added common term, cat unique names back to original files
+list and select files by date with find, need script template
+want to explore a DVD
+need to make a proper search script for components to call up each time I need to look for something, something like ls -laF | sort | grep 
+
+Notes
+Brace Expansion -> echo {00..10}
+0 1 2 3 4 5 6 7 8 9 10 
+Operators and Motions
+Syntax - Operator Motion options
+You can add a count before a motion
+Operator 5 Motion options
+Making a series of scripts to format text and change filenames according to that text, in a specific order.
+Format text with “”
+Append Item numbers, Description to each other
+Push new name to array
+For each file in directory, mv file to index of array
+I think that’s it lets try. 
+
+
+Follow Up
+hdiutil -> formatting discs
+scp ->
+rsync ->
+
+@researchNotes ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+== C++ notes -- latest chapters at the top of this section
+Reading Programming Principles and Practices Using C++ (2015)
+
+
+COMPILE WITH: c++ -std=c++11 helloWorld2.cpp -o helloWorld2
+HEADER: #include "libs/std"
+
+Chapter 5 -- Errors
+
+Compile Time Error - problem when the program is compiled, syntax or Type errors
+Link Time Error - errors found by the linker when trying to combine object files into an executable
+Run Time Error - errors when the program runs, caused by the computer, library, or user code
+Logic Error - problem found by programmer looking for cause of erroneous results
+
+Assume the following regarding error handling. Programs should:
+	1. produce the desired result for all legal inputs
+	2. give reasonable error messages for all illegal inputs
+	3. Don't worry about misbehaving hardware (do later)
+	4. Don't worry about misbehaving software (do later)
+	5. Is allowed to terminate after finding an error.
+
+To avoid bugs:
+	- Organize software to minimize errors
+	- Eliminate most of the errors we made through the debugging and testing process
+	- Make sure all remaining errors are not serious
+
+Sources of Errors:
+	- Poor specification -- do you have your outline? Do you know the objectives? where is the rubric? 
+	- Incomplete programs -- it may not be as complete as expected
+	- Unexpected arguments -- if a function is passed an argument that causes it to meet failure conditions, unexpected
+	conditions work in the same fashion. 
+	- Unexpected input -- maybe the user hits the wrong key or is misbehaving intentionally.
+	- Unexpected state -- programs often work on data. Is that data incomplete, incorrect, or etc? 
+	- Logical errors -- the code written does not do what we wanted the imagined code to do. 
+	
+Run Time Errors -- Should the caller or callee handle the errors? 
+	- Functions should handle errors for their own arguments. 
+	- sometimes, this is not possible. In those cases, errors are handled by the Caller rather than Callee.
+	
+Handling errors -- Basics
+	- std_lib has the error("Text for Error") function
+	- Exceptions -- try, catch
+	- check the functions arguments
+
+Caller deals with errors -- Should the function calling another function handle the errors of the called function? 
+
+Callee deals with errors -- Should the called function perform its own error handling? 
+
+Exceptions -- Separation between detection of error and the handling of the error.
+ - Detection occurs within the called function itself. 
+ - Handling occurs in the calling function
+ 
+	> Bad Arguments
+	-- test conditions on the arguments of the given function. Throw if failure condition is met. Try function to run.
+	Catch a class for the failure, and run whatever fix is meant for the error, if any. 
+	> Range Errors
+	-- for example, you run through to the end of a vector. There is an out_of_range member function to vector, that 
+	can be tested as a condition in a catch statement. 
+	> Bad Input
+	-- Testing the input itself as 
+	if(cin) { //code if success } else { //error code };
+	if(!cin) error("There was an input error\n");
+	> Narrowing Error
+	-- when a change in type shortens the given data altering it. 
+
+Vocab
+error("SomeCondition == SomeConstant");
+	>> 
+ - Throws
+ - Catch
+ - Try
+ - Range Error
+ - Off by One Error
+ - error()
+ - catch() {}
+ - return 0
+ - return nonZeroNumber
+ - run_time_error
+ - keep_window_open
+ - out_of_range
+
+Review
+1. 
+Compile Time Error -- when you compile a program, the compiler will let you know if there has been a mistake 
+Run Time Error -- when you run the program, your system will let you know of a missing resource or config error
+Link Time Error -- When the linker runs, there is an error in your headers or how you call to other resources
+Logic Error -- You have made the program thinking it does one thing, when in fact it is doing another thing entirely. 
+
+2. What kinds of errors to ignore as a beginner? 
+Misbehaving hardware
+Misbehaving software
+Terminating after finding error 
+
+3. What are guarantees all your programs should offer? 
+Produce desired results for all legal inputs
+should give reasonable errors for all illegal inputs
+
+4. Three approaches to eliminate errors in programs?
+Organize software to minimize errors
+Eliminate most errors we made through debugging and testing
+make sure the rest of our errors or not serious
+
+5. Why hate debugging?
+It takes a long time, it requires inspecting our mistakes in high detail, it is often tedious
+
+6. what is a syntax error 
+A syntax error is a spelling or grammar mistake 
+
+7. what is a type error
+A type error is a misuse of the type system
+
+8. what is a linker error
+An error made by the linker 
+
+9. What is a logic error
+A mistake in your visualization of the problem the program is supposed to be solving.
+
+10. Four potential sources of errors in your programs? 
+Poor specification -- if there is a shoddy plan, you will have shoddy results
+Incomplete programs -- it's not as done as you thought
+unexpected arguments -- if there is an argument your function cannot handle, this can cause bugs
+unexpected input -- the users will do everything you don't want them to, is your program built for that? 
+Unexpected state
+Logical Error
+
+11. 
+It depends on what your program is supposed to do. If you are calculating area, a negative number for the area would 
+be a problem the compiler wouldnt pick up on without asking it to. So, have you specified what thep program is for? If so, 
+that entails you understand what is successful input/output. Testing also helps. 
+
+12. Compare caller vs callee error handling in functions
+Caller handles errors -- The function invoking some other function detects and handles errors for the called function. 
+This could quickly become redundant when having to add the error handling to every function calling the function in question.
+It's used when you don't have the choice to handle the error from within the callee. 
+
+Callee handles errors -- The function that is to be called handles the detection and/or the handling itself of errors.
+
+13. Why use exceptions rather than error()?
+You separate the detection of the error from the handling of the error. This is important because you might want to detect the same error in multiple places, but want to do something different in each place. Modularity!
+
+14. How do you test if input is correct/valid? 
+Check if input is in a good state, as if (cin) then // code... 
+
+15. How are exceptions thrown and caught ?  
+Using throw, try, and catch blocks. 
+In the callee, throw an error of some type if the failure conditions are met. 
+In main, place the given function or code in the try block. 
+Create catch blocks below the try that handle different types of errors. 
+
+16. Why with vector v, is v[v.size()] a range error? What should be the result of calling this exactly? 
+Because vectors are 0 indexed and you're calling for one past the actual size of the vector as a result. 
+If you intend to return the last element of a vector, you could do v[v.size()-1] 
+
+17. Define pre-condition and post-condition
+Testing your input and output data against the spefication of the program. If you are calculating the volume of water in different types of containers, you would test that the numbers into your program aren't negative and the result of your calculations of the volume are also non-negative, or handle negative numbers in some special way. 
+
+18.
+
+
+
+Chapter 4 -- Computation
+
+Review 
+1 -- Counting, arithmetic, calculation of figures and functions.
+2 -- Data that exists prior to computation and is the starting point for a program, and data that leaves that program.
+3 -- 3 requirements of a programmer = Express computation simply, clearly, efficiently
+4 -- expressions computes a value from a number of operands. Smaller than statements, usually components of statements.
+5 -- statements are compound expressions that are delimited by ;
+6 -- lval = values that appear on the left of assignment, if = is initialization then lvalue  is the name of the value.
+7 -- a constant value is something that is defined and does not change. 
+8 -- A literal is anything enclosed by 'single quotes'
+9 -- a named object which you can't change the value of after initialization
+10 -- A magic constant is a lval that is so terse it causes confusion about what it is supposed to do. x = ... y2 = ... etc
+11 -- operators are symbols such as +, -, /, *, <, >, etc
+12 -- modulo works only for ints, not doubles
+13 -- strings work with <, >, ==, !=, +, 
+14 -- switches are a little more clear when dealing with multiple set conditions
+15 -- that you can't pass in strings as case labels, must be constexpr, can't have the same value for two labels
+16 -- for (int i = 0; i < 10; ++i) == delimited by ;, first section initializes the loop var, second variable sets the range of the loop, the final section sets the iteration amount for the loop
+17 -- while loops are simpler, potentially faster, better when less control is needed. For loops are for when the task doesn't fit a predefined logic and needs something more tailored to the situation.
+18 -- printing the numeric value of a char using +x, where x is defined as a char and is converted into an int by +
+19 -- char foo(int x) -- foo is a function definition that returns a char and int x is a parameter that can be passed into the function
+20 -- You should define a separate function when there is a distinct need within the design of the program for the given function, and especially if it is a need that will need to be revisited.  
+21 -- arithmetic, numerical comparison, iteration, modulo, various assignments like multiply then assign, divide then assign
+22 -- A string can be assigned, concatenated, added to the end, compared against, alphabetized
+23 -- vectorName[2] would be the third element of a vector. 
+24 -- for(x:vectorName){cout << vectorName[x] << '\n';}
+25 -- prints the 27th character in a vector named alphabet
+26 -- push_back() adds a new element to the end of a vector
+27 -- vectors member size returns the length of the vector
+28 -- it is smaller than an array, vectors can change size during runtime, automatically manages memory, has lots of member functions, they are easier to use than an array
+29 -- sort(vectorName);
+
+24 --  
+
+> Remember to break large complicated problems into smaller simpler problems. 
+> Abstraction. Put messy details behind a simple interface. 
+
+
+Input - user input, output from another program, device input
+I/O - input/output
+Arguments - input from something
+Data - state, information in variables
+Expressions - building block of programs
+	> literal values -- 10, 'a', 2.14, "Norah"
+	> int length = 20;
+	> above, there are two key distinctions to make
+	> lvalue -- the named object, the value of the object length
+	> ivalue -- the value stored inside the object length, the length value in length
+	> an expression statement is an expression followed by a semi-colon -- a = b;
+	> 	
+
+Constants - like a variable, but does not change and cannot be changed once declared
+	> constexpr int max = 17; -- this is a constant
+	> int val = 19; -- this is a normal variable
+	> max+2 -- a constant expression (a const plus a literal)
+	> val+2 -- not a constant expression, as it contains a variable 
+	> Magic constants -- poorly named constants. Context matters!
+	> constants need a value at compile time or will throw an error
+Const - similar to constexpr
+	> allows the value of the constant to be unknown at compile time
+
+Function - 
+
+
+Chapter 3 -- OBjects, Types, and Values
+
+Definitions
+cin -- character input stream
+>> -- get from
+<< -- send to
+
+definition -- statement that sets aside memory for holding a string of characters
+variables -- container for types of data
+
+string -- line of alphanumeric characters
+int -- whole number value
+double -- decimal number value
+char -- single character
+bool -- true or false
+
+
+Objects -- the "place" in memory where we store data
+Variable -- the named object in memory
+values -- the data inside the named object
+
+Initialization -- giving a variable its initial value
+Assignment -- giving a variable some new value
+
+1. Asking the user for input
+2. <<
+3. cout << "Enter a number: \n";
+   cin >> number;
+4. newline, to create a character that stands in for a new line. 
+5. Whitespace 
+6. Whitespace
+7. cout << "Hello, " << first_name << "!\n";
+8. An object is a place in memory reserved for typed data with a label
+8.1 A variable is an object with a name
+
+9. The value of a given type
+10. Integer, Floating point, boolean, Character, String, pointer, 
+11. A name that has been assigned some value
+12. char = 8, int = 4, double = 8
+13. bits
+14. = is assignment, == is equivalent to
+15. A declaration that sets aside memory for an object
+16. Initialization is what value exists during declaration, assignment is when that value is changed
+17. "STRING1" + "STRING2";
+18. This_little_pig, MiniMineMine, number, the others have spaces, start with numbers or _, or have illegal characters
+19. _Testing (reserved), ALLCAPS (for macros), x (too short, non descriptive), hello_this_is_a_name_2_x_4 (too long), struct (reserved)
+20. camel case, starts with lowercase, _ only to replace whitespace, describes succinctly what it is used for
+21. The scope of different types will vary. Some are meant to only hold so much data, so when you dump a larger type into the a smaller, then there is potential to lose data or cause error later in the program. 
+22. Because int will round down differently than double
+23.  
+
+<= -- comparison operator for strings
+* -- multiply for ints or doubles
+Memory
+
+Chapter 1
+Hello World
+
+Review
+1. To print Hello, World! to the screen. But also to teach compilation and setup.
+2. What are the 4 parts of a function -- return type, here int; name, here main; parameter list, blank in helloWorld; function body, between the {}. 
+3. int main() {} !
+4. It means that the program returned a value of 0 on success.
+5. To transform source code into objects that link to library resources, and then build an executable file. It checks our work in the process. 
+6. To indicate libraries that will be called within main () {} 
+7. A header file
+8. A source file is your ideas in code, what you typed into the text editor, it has not been compiled. An object file is something created by the compiler. Pre and Post compilation, respectively. 
+9. It lets me edit programs, inspect source code, take notes, etc.
+10. What does a linker do -- It links your program in the compilation process to the relevant libraries you called in the #include directive. 
+11. So you encode the information into your brain more deeply. So that the small details of practical use get covered. So you don't become a theory snob in an ivory tower. 
+
+Chapter Vocab
+// -- comment
+<< -- insertion operator
+C++ -- a programming language, the one we are studying?
+comment -- denoted by // or /*  */, not executed by your program
+compiler -- prepares your source code for execution
+compile-time-error -- an error during compilation stage
+cout -- standard output, character output stream
+executable -- a program that will run on its own
+function -- some container of program instructions
+header -- contains directions to required libraries and instructions
+IDE -- Integrated Development Environment -- a fancy text editor
+#include -- the actual include directive that you would write in your source code. Would be followed by the path to your library to be included, use ""
+library -- predefined modules of code
+linker -- a temporary file, or part of the object file, that does the actual linking between your program and libraries during compilation. 
+main() -- a function to be included in all C++ programs. 
+object code -- code that is beyond the stage of source code, has gone through compilation, on its way to being an executable file
+output -- data that is returned by your program
+program -- code that does something 
+source code -- code that is written but has not gone through compilation
+statement -- actions that the program is to perform
+
+Chapt 0 Excercises
+1. Watching Youtube -- The phone I use to watch youtube, the servers that host the service, the router and modem that direct that data, all the people using machines and computers to produce all the components of those routers, phones, servers.
+2. Design -- Designers today use a variety of computer aided techniques and software packages to complete their job, with specialized design roles for building interfaces entirely for digital user experience. 
+4. Sending emails at work. Calling or texting my wife at work. Scanning documents, watching youtube, writing these notes, reading this book, pirating this book, etc
+5. A large variety every day, my entire life requires technology to function as is. GPS, Search, Web browsers, AI chat, media streaming, gaming, instant messaging, email, local infrastructure, dining, transactions,
+6. Figure drawing with graphite and paper, running a mile, counting to ten, memorizing the alphabet, reading a paper book, holding my breath, watching the clouds, walking through a park, cooking dinner, sex!
+7. All of the things I previously listed could be done with computers in the future, VR is gonna be crazy in 20 years.
+8. I want to be a computer programmer because the challenge of solving problems and designing solutions is what drove me to art and design initially. While my understanding of that drive has evolved and improved over time, at the core of my interest in any work comes from a fascination with solving problems. 
+9. Definitely if the programming is a dud, I would go into UX design. While this might require some level of coding the understanding of user needs is what interests me. 
+10. Hell yah, it's gonna get craazy. Humanity won't recognize itself in two centuries. 
+11. Understands the big picture while still retaining the essential details. Knows how to start. Understands how to work fast. Good at testing and finding problems early. Takes feedback well, removes most of their ego from the equation. Understands the scientific method. 
+12. My interest is largely within the field of graphics and machine vision. Any programming within that field would be interesting for me. Other than graphics, the next two would be programming within biology or in embedded systems. Embedded systems seems like assured employment for the rest of my life. Biology seems like the opposite but actually helping people with my work. 
+13. 5kb for the page, 150kb for the chapter, 6M for all of Shakespeares work.    
+14. 72gb, 1TB,  
+
+
+
+
+
+Bash
+Meta-Characters
+1. Wildcards (*, ?, []): Used for pattern matching and globbing. * represents any sequence of characters, ? represents a single character, and [] represents a range of characters.
+
+2. Redirectors (>, <, >>, |): Used for input/output redirection and piping. > redirects output to a file, < redirects input from a file, >> appends output to a file, and | pipes the output of one command to the input of another.
+
+3. Quotes (', "): Used to quote and preserve the literal meaning of characters, preventing their interpretation as meta-characters. Single quotes (') preserve the exact characters enclosed within them, while double quotes (") allow for variable expansion and command substitution.
+
+4. Escape character (\): Used to escape or quote a meta-character, treating it as a literal character. For example, \$ escapes the $ character to prevent variable expansion.
+
+5. Command substitution allows for capturing the output of a command and use it as input or assign it to a variable. ($(command) or command): Used to substitute the output of a command into a command or expression.
+
+Bash
+06-13-2023 - mdfind, mdls
+	- metadata is stored for files on your system, and the spotlight function on macOs can be used to leverage that data
+	- mdfind searches through files using the specified fields for metadata
+	- mdls will list the md fields for the files in a given directory, current working dir by default
+
+
+06-14-2023 - Standard Input, Standard Output
+
+	- Standard Input =  Keyboard commands, line commands, 
+	- Standard Output = display on terminal, written to screen somehow
+These are generally referred to as I/O Redirection, apparently it's one of the most powerful aspects of bash scripting and why it's still in use.
+	- The symbols for redirection are
+	- > < | >> << 
+	- If a program writes to stdout, use > to make it write to another file or program instead
+	- You can send the output from one program to another with a pipe, or | symbol
+	- If a program reads from stdinput, redirect the input from a file to the program with < 
+	- >> appends to a file rather than overwriting it. Overwriting with I/O in Unix is called clobbering a file.
+
+Commands that receive standard input and return stdout are often called filters. 
+The tr command 
+	- translate
+	- tr 'set1' 'set2' - will replace each symbol in the order given
+The colrm command
+	- removes a set of columns, recieves stdin and returns stdout
+	- ls -l | colrm 1 45 | sort - this would give just dates and filenames from long list
+The wc command 
+	- counts lines, characters, words from stdin and prints counts to stdout
+	- ls -l | wc -l - this would return the number of lines from long list
+The grep command - brief 
+	- searches contents of files or lines that contain a certain pattern
+	- grep "pattern" files
+	- pipe multiple greps to narrow search fields, such as: 
+		find . pattern | grep -v "dont-match-this" | grep "do-match-this" | wc -l 
+	- 
+The head & tail commands
+	- head returns the topmost lines or bytes of a file or stdin
+	- tail returns the bottommost lines or bytes of a file or stdin
+	- both can adjust the number of lines read 
+The sort command
+	- arranges lines of text numerically, alphabetically
+	- Takes stdin, returns stdout
+	- remember that you can chain multiple sorts with various commands with pipes! 
+		ls -l | grep "pattern" | sort -g 
+The uniq command 
+	- removes duplicate lines from stdin and returns to stdout
+	- ls -l | sort -n -k 7 | uniq - this would show a long list directory, sort by the 7th column, and only print uniq entries
+The less command 
+	- reads stdin in a pager format, idk what stdout for less is like at the moment
+	- man less | less
+
+Print Commands 
+
+The lpstat command
+	- prints cups status information
+	- lpstat -d : shows default printer location
+	- lpstat -a : shows all connected printers
+	- lpstat -t : detailed view of connected printers
+The lp command
+	- crude method of sending data to the printer
+	- ls -l | lp : will send print request to default printer with no formatting
+
+Clipboard Commands - pbpaste & pbcopy
+
+The pbcopy command
+	- copies stdin to the clipboard, there are multiple clipboards
+	- ls -l | pbcopy : copy output from long list into the clipboard, can paste this anywhere (lots of places anyway)
+
+The pbpaste command 
+	- accepts stdin, removes the data from the pasteboard and writes it to stdout
+	- can accept RTF if specified with the -Prefer rtf option
+	- ls -l | pbcopy | sort | pbpaste
+	- 
+The open command 
+	- will open files that contain creator and type codes
+	- open -a to specify a program to open with
+
+REGEX - Perl
+We are starting 101 Wicked Cool Shell Scripts - Intermediary level tour through shell scripting. 
+
+Introduction - Setting up the shell scripting environment
+	- Remember to shebang and adjust permissions - #!/bin/bash - as a header 
+	- remember to set up the development folder in the home directory
+	- use an absolute path to attach the new folder to the PATH variable
+	- use source ~.zshrc to update the shell
+
+What is: Variable Slicing: ${var:0:1}
+	- shorthand notation for specifying positions within a given string. It takes the first number given and returns the string until the end, or until the end of the second number provided. 
+	- example: var="ThisIsAString that is for an example"
+	- ${var:10} - This would return the string starting from the tenth character until the end of the string. 
+		- returns as: "ing that is for an example."
+	- ${var:10:6} - This would return the string starting at position 10 and ending after 6 characters
+		- returns as: "ing t"
+	
+What is: Positional Parameter
+	- using $1, $2, $3, etc.
+		- it's like using parameters in Javascript, these are considered positional arguments. You run a program that's being passed
+		these variables, the arguments passed into the execution of the script are passed into the variables. This allows you to adapt a 
+		script to a wider variety of conditions. 
+	- example: echo "First Argument: $1"
+		   echo "Second Argument: $2"
+		example.sh hello world
+		   First argument: Hello
+		   Second argument: World
+	- In practice, these variables are used to pass user input into various parts of a given script so that you can perform operations
+	on the given arguments themselves. In example 001 of WCSS book, argument $1 is the command we are checking for existence and arg $2 is the path variable 
+	that may or may not contain the argument we are looking to verify.
+	-  
+What is inpath: A custom script, lesson 001
+	- you search the $PATH variable for the existence of a command, using just the command name or the path to the command. 
+		- We set our positional parameters, $1 and $2 to cmd (command we're searching for in path) and ourpath (path we search through for command)
+		- result=1 is to mean not found or executable, later adjusted from within the in_path function once we succesfully find the command
+		- oldIFS and IFS variables are to separate the paths in the PATH variable, changing IFS to a : to do so
+		- in_path function runs a for loop, the tempVar being directory that is iterated over in $ourpath
+		- for each directory, it evaluates both the directory and the command being searched for, if they are both found it changes the value of the 
+		 result variable to = 0, which means true in this script. 
+		- 
+
+What is validalnum: A custom script, lesson 002
+	- Prompts the user to input a string, and checks the string for non-alphanumeric characters, returning true if only alnum and false if not. 
+		- Interesting part: placing the results of sed operating on echo $1 into the variable validchars, using command substitution. This 
+		is the most practical example of command substitution that I've run into so far. 
+		- 		
+
+06-19-2023 - exec decision, 101 Wicked Cool Shell Scripts was interesting and full of things to learn but we need a bit more salt to handle that one. 
+
+Going through: Jeffrey E.F. Friedl - Mastering Regular Expressions
+	- We may just be able to go through the first 150 - 200 pages. Which would be lovely lmao. Reason being, past that it starts to get language specific and that's somewhat outside our scope atm. 
+	- The intro was written by Mace Windu or something.
+	- We will take notes based on the chapters, so leftmost will be the chapter title, then sections, then examples
+Introduction 
+Chapter 1 - The concept of regular expressions
+	- Solving real problems - 
+	There are large and small problems regular expressions solve without much fanfare, so the value of it may seem dubious at first glance. However given thatour job, the job of a true developer, any person dealing with a database of information, will deal with text in their real work. Tools to parse and manipulate that text are extremely useful and should be respected, trained on. 
+	- Example - searching through a directory of textbooks to match a certain term, ignoring case, searching even bolded, quoted, HTML wrapped, versions of th	  e term. 
+	- Searching through an email inbox for a given term
+Regular Expressions are a Language for parsing other Languages
+	- Composed of meta-characters and literal characters
+		- example - s!<emphasis>([0-9]+(\.[0-9]+){3})</emphasis>!<inet>$1</inet>!
+	- When we can understand the above we'll be doing ok. It's written in perl but the regex should be clear eventually
+		- egrep '^(From|Subject):' fileToSearch
+	- The above is meant to match the From and Subject lines of an email file. It reads: match lines that start with From: or Subject: , the quotes are for th	  e shell to interpret the metacharacters correctly.
+Regex Metacharacters - ^ $ [] () \< \> | . ?
+	- ^, $, or the beginning/end of line characters - also called line anchors
+		- egrep '^cat' matches every line that starts with c, followed by a, followed by t.
+		- egrep '^$' matches empty lines
+		- egrep '^' matches all newlines, effectively every line
+	- . - the . character
+		- egrep '.ello' would match any character followed by characters in order ello
+	- | - Alternation - the | character - in regex it means or  
+		- egrep 'grey|gray', egrep 'gr(e|a)y' mean the same thing. Is delimited by ().
+		- important to note, while 'gr[ae]y' would match the same, character classes match a single character in this way while alternation can match an
+		arbitrary amount of text. 
+	- Remember alternation separates each section, so when trying to apply a character to each section, consider the following examples	
+		- egrep '^From|Subject|Date:' wouldn't be the same as egrep '^(From|Subject|Date):' , the first matches Newlines that start with From, the word 
+		Subject anywhere in a line, and the word Date:. Whereas, the second would match every line that starts with From: or Subject: or Date:
+	- Word Boundaries - embedded words can be a problem - \< \>
+	- \< \> -  These symbols combined with the backslash designates start of word positions, start & end respectively. 
+		- It matches the beginning and end of alnum characters separated by spaces or non-alnum characters such as -, '', ., ,, !, etc
+	- ? - Optional Items - the character becomes optional in the match, as in may or may not contain the preceding character
+		- egrep '\<colou?r\>' would match color or colour
+		- egrep '4th|4' would be the same as egrep '4(th)?' , where the ? would apply to the characters in the parenthesis
+	- + * - Repetition - Characters + * perform close to the same role, + means 1 or more of the immediately preceding item, whereas * means any number of
+	preceding items, including nothing. 
+	- ? + * - are called quantifiers
+		- egrep '<HR( +SIZE *= *[0-9]+)? *>'
+	- the above example matches <HR> or <HR *>, as well as <HR (SIZE *= +(any sequence of numbers)+) *> matches pretty much any arrangement of 
+	<HR SIZE=14> or <HR>, such as < HR SIZE = 28 > or <HR SIZE    = 12345   > or <HR     > - all of this would be entirely sinful ways to write HTML but 
+	it covers the bases nonetheless. 
+	- {1,5} - Intervals - Used to match up to a certain level, settling for the lowest available.
+		- egrep '[A-Za-z]{1,5}' sourceFile.txt - would match up to five upper or lower case characters, settling for the lowest number of matches first
+	- \1 \2 \3 - Backreferences - Parenthesis are given a position that can be called later using \1 \2 \3 etc, so 
+		- example - ([A-Z])([a-z])\1\2 - 1 refers to [A-Z] while 2 refers to [a-z]
+		- echo 'the the the the the the' | egrep '\<([A-Za-z]+) +(\1)+\>' - would match all copies of every possible word separated by spaces (useful?)
+		- echo 'the the the the the the' | egrep '\<([A-Za-z]+) +\1\>' - it's important to note in this example that it matches sets of 'the the' that end 		  with end of word boundaries, so as long as there are even amounts of 'the' repeated it will match all of them, while the odd amounts will have 1
+		remainder.  
+	 
+	
+Character Classes - [] [^] [abc] [0-9] - matches exactly one character, however can be negated [^like] so 
+	- [] metacharacters define 'or'
+		- egrep '[CB]a' would match Banana & Cabana
+	- A - indicates a range of characters
+		- egrep 'H[1-6]' would match all lines with H1 H2 H3 H4 H5 H6, useful for jumping through an HTML file when you want to pull the headers.
+		- egrep '[-AZ]' would match lines that contain a - followed by A followed by B
+	- Negation - using [^] within a character class changes the symbols meaning completely 
+		- '[^0-7]' would match numbers besides 0 through 7, so 8 and 9.
+		- What is the difference between match a character that's not listed and dont match what is listed? This is the reason negation doesn't match the 	  negated character followed by nothing. I suppose its saying don't match this character, but it still implies a character, so nothing wouldn't match.
+	- You can specify multiple ranges as such
+		- egrep 'file-[A-Za-z0-9]'
+	- The . character in a character class does not match any character, it doesn't have any special meaning, it's treated as a literal character
+	- 
+egrep specifics
+
+Options
+	- The case insensitive option -i
+		- This would match capitol letters as well as uncapitalized characters
+	- 	
+Common Problems 
+	- Embedded words - grep is searching for matches against characters and abstract symbols, not words from a dictionary, so remember searching for Smith will pull up the names with Smith and also blackSmith or even blacksmith if [Ss]mith is specified. 
+	- Matching Time of Day - 
+		- examples - egrep '([01][012]|[0-9]):([0-5][0-9])'
+	- Matching Variable Names - 
+	- Matching Dollar amounts - 
+	- Matching a given set of HTTP/HTML URL tags - 
+	- 
+Summing UP - Nomenclature - 
+	- Regex, shorthand for Regular Expressions
+	- Matching - egrep 'a' doesn't match the word 'cat' it matches the 'a' in 'cat'
+	- Metacharacter/Metasequence - depends on where in a regex it's used. * is a metacharacter, in [*] is taken as a literal character. Understanding this 
+	bit will take comprehension of the vocab and the ability to think in terms of the expression itself. 
+	- Flavor - There are different rules and structures for regex depending on the context, such as between programming languages, between different programs,	  and between different versions of the same program. egrep is apparently especially egregious in this way. 
+	- Subexpression - Simply, refers to a smaller part of a larger expression. Often used to mean something contained within () or alternations separated by |	  Technically speaking, every literal character is a subexpression of its main expression. This is why metacharacters such as * always refer to 
+	the smallest subexpression possible, and why the () and [] become relevant when applying prefixes or other characters.
+	- Characters - depends on your encoding, this was covered a bit in the complete intro to Linux
+	- . - matches any single character
+	- [] - character class - matches any one character listed
+	- [^] - matches any one character not listed, is a positive statement
+	- \char - matches the literal character unless the character is not a metacharacter in which case it might become a special character depending on
+	the program and version of regex you are using. 
+	- ? - question - One match is allowed, but is optional
+	- * - star - 0 to any amount of matches are allowed, all are optional
+	- + - plus - At least one is required, additional are optional
+	- {min,max} - specified range - min required, max allowed
+	- ^ - caret - Matches position at the start of the line
+	- $ - dollar - Matches position at the end of the line
+	- \< - word boundary - Matches position at the start of a word
+	- \> - matches position at the end of the word
+	- | - alternation - Matches either expression it separates
+	- () - parenthesis - Limits scope of alternation, provides grouping for quantifiers (?,*,+, {min,max}), and captures backreferences
+	- \1 \2 - backreference - Matches text previously matched in order sets of parenthesis, (1)(2)\1\2 for instance
+- Not all egreps are the same! Read documentation! Become the documentation!
+- Parenthesis - Contrain alternation, grouping, and capturing 
+- character classes are special and have their own set of metacharacters and rules, distinct from the regex language
+- Alternation and character classes are different, though the have functional overlap
+- A negated character is still a positive assertion, as in it must still match a character in order to return true. 
+- Use -i option for egrep and other programs to hopefully implement case insensitivity
+- Three types of escaped items
+	- \metacharacter to change it into a literal character
+	- \certain literals can become program specific options, such as \n (newline)
+	- \any other character that doesn't fall into these categories has the \ignored
+- [\] turns \ into a literal character
+- ? items don't need to actually match any character to match succesfully, they are optional
+
+06-20-2023
+- Some useful examples
+	- egrep -i '^(a|b|c|d|e|f)+$' english3.txt - this would find words that contain only letters a,b,c,d,e,f. 
+	The ^...+$ expression is worthy of note, it says match only lines that start with and end with whatever is contained in the expression.
+- Also the Mastering Regular Expressions book is about to dive into perl, so the examples moving forward will have a perl flavor. 
+	- 
+06-21-2023
+Continuing with Mastering Regular Expressions
+
+- Starting with examples in pseudo-perl
+- example - 
+	if ($reply =~ m/^[0-9]+$/){
+	    print "only digits\n";
+}	else {
+	    print "not only digits\n";
+}
+	- regex on line 1 - worth noting =~ essentially means "if matches", in this context saying if 
+	variable matches the following regex statement
+	- the regex expression means match only if the line contains only digits from start to end. 
+	- the ^[...]+$ syntax accomplishes this, anchoring with ^ and $ and + matching 1 or more digits 
+	- = assigns a value to a variable
+	- == tests if two variables are the same
+	- the result of the above expression is true if it matches the variable of $reply
+	- 
+- example -
+	"print "Enter a temperature in Celsius:\n";
+$celsius = <STDIN>;
+chomp($celsius);
+
+if ($celsius =~ m/^[0-9]+$/) {
+	$fahrenheit = ($celsius * 9 / 5) + 32;
+	print "$celsius C is $fahrenheit F\n";
+} else {
+	print "Expecting a number, so I don't understand \"$celsius\".\n";
+}
+
+	- worth noting how the variable is applied to the different parts of the expression
+	- A bucket is a bucket, the name is a label for the bucket, a bucket can be passed around and 
+	pulled from for various purposes. Understand that it's always full and ready to be emptied, 
+	refilled, changed in some fashion. 
+	- worth noting how in the final print expression, the ""'s are escaped as \"...\" in order
+	for them to print literal in the result of the code. It also distinguishes them from the 
+	enclosing "".
+- example - adding or allowing fractions to be passed to the expression
+ if ($celsius =~ m/^[+-]?[0-9]+(\.[0-9]*)?$/)
+	- note the addition of ^[+-]? allows for an optional leading plus or minus sign
+	- the caret still applies to the pre-decimal numbers as it's still a single subexpression
+	- the decimal and proceding digits are contained in () as they will be considered a subexpression
+	- the decimal is escaped within the parenthesis 
+	- the ? means both decimal and proceding digits are optional
+	- the $ still anchors all matched characters to the end of the line, combined with $ to mean only
+	the digits, decimal literal, and optional +- are to be matched
+	- you could make the change ^[+-.]? to handle numbers that potentially start with 0
+- Matching variables outside the regex 
+	- perl allows matching subexpressions such as in \1 \2 \3 using $1 $2 $3
+	- these can match outside the regex statement itself, meaning that the match can be considered a 
+	variable in and of itself and passed around throughout the program. This also means that different
+	parts of input can be split and sent around for different purposes.
+- example - splitting the expression into subexpressions
+$celsius =~ m/^[+-]?[0-9]+[CF]$/
+$celsius =~ m/^([+-]?[0-9]+)([CF])$/
+	- will this change the expression? To answer, we must know if the parenthesis provide grouping 
+	for certain characters, such as * + and ?, or provide an enclosure for |. The answer is no to 
+	both. I'm unsure what the signifigance of that is. 
+	- $1 will refer to the main body of the regex and $2 will refer to the C or F symbol. 
+	- 
+- example - Putting it together
+print "Enter a temperature"
+$input = <STDIN>; #this reads one line from the user
+chomp($input); #This removes the newline from $input
+
+if ($input =~ m/^([+-]?[0-9]+)([CF])$/) {
+#once inside the regex, the input has matched
+$InputNum = $1 #saving positional variables so the program is easier to read
+$type =     $2 #this is the variable for [CF]
+
+if ($type eq "C") { #eq tests if the string $type is equal to C
+#the input here is celsius only, so we are calculating fahrenheit
+$celsius = $InputNum
+$fahrenheit = ($celsius * 9 / 5) + 32;
+
+} else {
+#if it didn't match celsius, the input should be fahrenheit so calc celsius 
+$fahrenheit = $InputNum;
+$celsius = ($fahrenheit - 32) * 5 / 9;
+}
+#At this point we have both temps so we can display the result
+printf = "%.2f C is %.2f F\n", $celsius, $fahrenheit;
+} else {
+print "Expecting a number followed by \"C\" or \"F\", \n";
+print "so I don't understand \"$input\".\n";
+}
+	- We have taken input from the user with a prompt and passing STDIN to a variable
+	- We have also chopped the newline off of any input from the user
+	- Here we have validated input with our regex 
+	- We have taken the positional variables represented by () in our regex and passed them into
+	more readable variables
+	- We match the type variable inside an if statement, calculating either celsius or fahrenheit based
+	on the match
+	- We print the results, formatting it nicely. Not sure what the %.2f is but I suspect it's some 
+	perl specific jargon.
+	- the final else handles errors and prints a message informing the user of the required syntax
+	- 
+- example - adding our decimal expression, lower case types, and spaces between the digits and types
+$input =~ m/^([-+.]?[0-9]+(\.[0-9]*)?)([CF])$/
+	- The above maintains the body of the pre-decimal digits, while moving the second positional 
+	variable to contain the post-decimal digits. The type is moved to the third position var.
+	- The post-decimal digits are contained within their own subexpression, so the ? symbol is 
+	used to allow for the option of decimals. 
+	- I've added  a . to the optional preceding + or -, I don't think it will affect the program
+		- ** There was a bug here. So, within a character class, [-+.] because the - will be 
+		interpreted as a range otherwise.
+	- The positional variables can be nested within each other, that's the big take away
+	- Will have to adjust the assignment of the positional variables within the program
+$input =~ m/^([-+.]?[0-9]+(\.[0-9]*)?)[	 ]*([CF])$/
+	- This version allows for any amount of tabs or spaces between the digits and type
+	- There was a bug, within the prefix character class, make sure the - is first otherwise it will
+	be read as a range and not a literal character
+	- 
+- section- Metacharacters Galore
+	- Every language can have meta characters within and outside of strings, not just regex
+- example - Non-capturing parenthesis 
+	- Above, we inadvertently created a second capture group, meaning we had to adjust the script
+	to make sure our declared variables still targeted the right part of the regex.
+	- perl, certain flavors of regex will support a non-capturing parenthesis notation
+		- (?:...) will not capture the enclosed subexpression as a positional variable.
+	- the regex for our script would then be
+if ($input =~ m/ ^([-+.]?[0-9]+(?:\.[0-9]*)?)[ 	 ]*([CF])$/) 
+	- The above should now allow for spaces, prefixes, decimals, and the capture groups remain a total
+	of 2. 
+	- our answer to the question is that [tabSpace]* vs (tab*|space*) is the former means 0 or more
+	of either tab or space, while the latter means any amount of tab and space.
+	- The answer is the opposite actually, the [tabSpace]* notation means any amount of either, whereas
+	(tab*|space*) means one or the other in any amount. 
+	- Logically equivalent but character class is more efficient, computationally different
+	- Metacharacters can conflict, in most command-shell prompts '' is used to negate meta-characters
+	regardless of the program affiliation. This can vary however, as with much in the bash realm
+	- an example of this would be spaces in bash acting as a delimiter to separate commands, which
+	is why in egrep we surround our expressions with '' so that the spaces meta-character is ignored
+	by the shell.
+	- Programs will often use metacharacters for different purposes, so it is stressed that those
+	differences be understood. There will be examples where the same symbol means entirely different
+	things because it is quoted/unquoted. 
+	- worth noting that metacharacters, perl has nothing to do with regular expressions, but does 
+	have everything to do with using regex in practical scenarios. 
+	- remember that character classes are a sub language within regex
+Meta Characters
+	- \s - generic whitespace - regex MC
+	- we can rewrite our ongoing example as
+if ($input m/(^[-+.]?[0-9]+(?:/.[0-9]*)?)\s*([CF])$/i)
+	- we have added \s for generic whitespace
+	- as well as /i for case insensitivity, this is perl syntax and not part of regex per say
+	- /g - global match - perl MC
+	- /x - free-form expressions - perl MC
+- Section - Summing Up and etc.
+	- Most tools will have a flavor of regex. Again, consider reading the manual. Perhaps even
+	open and learn something from the manual.
+	- perl can check a variable against a regex statement with the following syntax
+		- $variable =~ m/regex/
+		- $declareVariable
+		- =~ match against; the whole test as a unit is true or false
+		- m/.../ is perl speak, m indicates a match is requested, /.../ delimits the regex 
+		- regex is what we're studying so you better kno this one
+	- Meta-Characters - MC - Characters with special interpretations are not unique to regex, 
+	they are present in most programming languages. Character classes for example have their own
+	meta-characters. 
+	- Useful, common, MC's are - 
+		- \t - a tab char
+		- \n - a newline char
+		- \r - a carriage return char
+		- \s - matches generic whitespace (tab,space,newline,formfeed,etc)
+		- \S - anything not \s - so everything besides whitespace, all other chars
+		- \w - [a-zA-Z0-9_] - useful as in \w* to match any word
+		- \W - anything not \w - such as [^a-zA-Z0-9_] (remember the caret is negation here)
+		- \d - [:digit:], [0-9], ie a digit
+		- \D - anything not \d - [^0-9]
+	- /i modifier - makes text case insensitive, only i is appended to the expression
+	- (?:...) - nonCapturing parenthesis - does not reserve the enclosed expression as a positional
+	variable. This is useful when you need to enclose something for delimitation but don't want
+	to update every variable that's been assigned based on position. 
+	- $1 $2 $3 - This is how perl holds the text matched by the positional variables in the regex.
+		- This is useful when you need to capture subsets of strings for different reasons, 
+		while wanting to maintain the string as a whole. 
+	- Nesting SubExpressions - You can (nest(sub-expressions(and reuse their(position!))))
+
+06-22-2023
+- Section - Modifying Text with Regex 
+	- $var =~ s/regex/replacement - replacing the matched text from $var with some data
+	- the replacement is treated as a double-quoted string "..."
+	- this means you can include reference to variables, including $1 $2 $3 positional vars
+	- So, the variable will actually change according to the match and substitutin 
+		- example - $var =~ s/Jeff/Jeffrey/;
+	- Input of Jeffrey would return Jeffreyrey
+	- to avoid, apply word boundaries /< />, or the perl specific \b ... \b
+		- example - $var =~ s/\bJeff\b/Jeffrey/;
+	- Quiz - what does $var =~ s/\bJeff\b/Jeffrey/i mean?
+		- answer - Match Jeff, JEff, JEFf, JEFF, or jeff,  replace with Jeffrey 
+- Example - Form Letter - Building Custom Forms
+Dear =First=,
+You have been chosen to win a brand new =TRINKET=! Free!
+Could you use another =TRINKET= in the =FAMILY= household?
+Yes =SUCKER=, I bet you could! Just respond by...
+
+- Here you would load variables that would replace the =...= markers
+$given = "Tom";
+$family = "Cruise";
+$wunderprize = "100% genuine faux diamond";
+
+- Once prepared you can fill out the form with
+$letter =~ s/=FIRST=/$given/g; 
+$letter =~ s/=FAMILY=/$family/g;
+$letter =~ s/=SUCKER=/$given $family/g;
+$letter =~ s/=TRINKET=/fabulous $wunderprize/g;
+
+	- You can replace different =TAGS=, which are however you choose to write them in the template
+	with any variable, the interesting part being how those variables are being filled. 
+	- You can replace the tags with multiple variables combined with scalars, elements from array, etc
+	- /g - enables global replacement, rather than replacing the first encountered instance
+- Example - Prettifying a stock price
+$price =~ s/(\.\d\d[1-9]?)\d*/$1/
+	- the problem is that there are occasionally many trailing zeros on a stock price. The goal
+	is to replace the extra digits with just the first two/optional three digits of the same price.
+	- \. sets the decimal as a literal char
+	- \d\d[1-9]? matches the first two-three digits,  only 3 if the final digit is 1 or more
+	- we want to keep these first three digits so we capture them to position $1
+	- we want to replace any potential extra digits, so those are matched using \d* 
+	- we replace the whole of the first match with the positional variable $1
+	- Literally we are replacing the first two/three digits with the same digits, but in the process
+	eliminating any potential extra digits
+- Example - Automated Editing
+perl -p -i -e 's/sysread/read/g' file
+
+	- This program will replace sysread with read for each supplied file name
+	- -p - substitution will be done for each line of the file
+	- -i - changes will be written back to the file when done
+	- -e - indicates the whole program is being written to the command line, so no need for a 
+	script in some editor
+	
+- Example - Small Mail Utility
+
+	- Goals - 
+	- Extract info from header
+	- Print out the reply header
+	- Print our the original message, indented with |>
+	- use the <> operator with a formal variable, such as $variable = <>
+	- Important to note, the <> in perl doesn't have anything to do with I/O
+	- 
+while ($line = <>) {
+		if ($line =~ m/^\s*$){ #this matches if the line  starts and ends with any combo of \s
+			last; #this stops the loop in perl. 
+	}
+		#process line header here
+		if ($line =~ m/^Subject: (.*)/i){
+		$subject = $1; #this would take the captured subject area and place it into var $subject
+	}
+		if ($line =~ m/^Date: (.*)/i){
+		$date = $1;
+	}
+		if ($line =~ m/^Reply-To: (.*)/i){
+		$reply_address = $1
+	}		
+		#this matches 1 or more characters besides white spaces 
+		#after the From: and anything inbetween parenthesis without 
+		#matching parenthesis themselves
+		if ($line =~ m/^From: (\S+)\(([^()]*)\)/){ 
+		$reply_address = $1;
+		$from_name = $2;
+
+	}
+}
+#check if we got the info, kill process, print error msg if not
+if (	not defined($reply_address)
+	or not defined ($from_name)
+	or not defined ($subject)
+	or not defined ($date) )
+{
+die "couldn't glean the required information"
+}
+
+#process for the rest of the message
+	while ($line = <>) {
+	$line =~ s/^/|> /;
+	print $line;
+}
+
+	- using positional variables, we have matched patterns within the given body of text and 
+	placed them into formal variables for use later in the script. This means that, given different 
+	matching patterns, we can use $1 or $2 to set an arbitrary amount of formal variables, given
+	the proper scope in each regex.
+	- These are meant to be examples of real world problems, not neccasarily the best perl code
+	or even the best solution available to these problems. The goal is to demonstrate regex in use.
+
+- Section - Adding Commas with Lookaround
+	- (?=...) - lookahead - It looks ahead for the position of a matching pattern 
+	- (?<=...) - lookbehind - Looks behind for the position of a matching pattern
+	- worth noting that this function matches text but returns its position no the text itself
+		- example - (?=Jeffrey)Jeff - would match Jeff only if it is part of Jeffrey, as the
+		subexpression returns the position of the pattern to match against
+		- example - Jeff(?=Jeffrey) wouldn't match the same way. This would match Jeff
+		if only immediately followed by Jeffrey. 
+	- Summary - lookahead matches a pattern and passes the position of the match onto the rest
+	of the regex
+		- example - s/Jeffs/Jeff's/g		#replace all Jeffs with Jeff's
+			  - s/\bJeffs\b/Jeff's/g	#replace all _Jeffs_ with Jeff's
+			  - s/\b(Jeff)(s)\b/$1'$2/g	#replace all Jeffs with Jeff's, pos vars
+			  - s/\bJeff(?=s\b)/Jeff'/g 	#match Jeff, lookahead for s\b, replace Jeff with
+							Jeff', this works because it checks for s but 
+							doesn't include it in the match to be replaced
+	- The purpose of looking ahead is to match only what is neccesary to match, and replace only
+	what is needed for the replacement. 
+		- example - s/(?<=\bJeff)(?=s\b)/'/g	#this doesn't replace any text. It searches for 
+							the position, and places the desired character
+							into the position.
+		- example - s/^/|> /g - 		#similair, it doesn't replace text it appends
+	- Quiz - is the below expression the same as our similair example above?
+s/(?=s\b)(?<=\bJeff)/'/g  
+	- Answer - Looks forward to find s and a word boundary, then looks back to check for a word 
+	boundary followed by Jeff, and only matches if both are found. The question is, where will the '
+	match land. It's important to remember the direction lookahead and lookbehind work in. 
+	- lookahead will procede from left to right
+	- lookbehind starting at the right and going left until a match, then returning that position
+	- Honestly don't understand this. My brain is pretty mushy today. 
+Summing up for the day
+	- We went into the email utlity example.
+	- /s/../../modifier - learned about the substitution utility
+		- regex will fit into the space after the s/../andReplaceWithThis Txt/!
+	- We used word boundaries extensively, either the /< /> or \b...\b perl notation
+	- The replacement returned from the substitution will be a double quoted string
+	- There was an extended section on lookahead and lookbehind, which are programs that
+	return a position based on the regex match. The basic examples made sense, but I don't understand a
+	few things which I will need to clarify. 
+		- If there are both lookahead & lookbehind executed in some order, where is the position 
+		going to be matched? There was a demonstrative example in the book where it was 
+		difficult to really tell. I'll need to figure out how the position is matched, and how that
+		match is passed onto the next part of the regex. So probably start the section over 
+		honestly. 
+	- perl commands can be executed directly onto the command line as 
+		- perl -p -i -e 's/matcher/replacer/option' targetFile
+	- ran into the starts with and ends given match, used here as m/^\s*$ to mean match lines that
+	start with and end with only generic whitespace
+	- We also used positional variables to capture sections of regex and pass them into formal 
+	variables that are used throughout the program, using the scope of different regex's to pass the 
+	same positional variable into different FV's without overwriting the variables
+	- variables can be overwritten with /s///
+	- placing tags into a template document and then using the s/// to pass matches into the variables
+	seems like an interesting place to pick up, at a basic level that seems like what any fillable
+	form is supposed to do. 
+	- The usefulness of the lookahead / lookbehind is in it's ability to match without replacing
+	- 
+06-23-2023 - Return to lookahead, lookbehind, maybe a small break from regex to stretch the brain.
+	- example - We must add commas to large numbers. We can do this with lookahead, lookbehind.
+$pop = 289444215;
+print "The US Population is $pop\n";
+	- here the goal would be to format w/e var is inside $pop
+	- Commas are inserted every third digit from the right, with between 1-3 digits on the left w/
+	no comma to the left
+	- lookaround - collectively what lookahead and lookbehind are called
+	- similair to word boundaries as \b\b or \< \>
+	- (?=...) - (?!...) - This is known as lookahead, positive/negative
+	- (?<=...) - (?<!...) - This is known as lookbehind positive/negative
+	- lookarounds do not consume the text, they search for and match based on positions, returning the
+	specified match   
+	- when both are used together, only if all are true then the match is made. 
+		- example - (?<=a)b(?=c) - this will match only the b if it is preceded by a and proceded 
+		by b. Only the b will be returned by the regex.
+		- example - (?<=A)BB(?=A)   this will match onlly if BB is found, preceded by A and proceded
+		by A.
+		- example - \b(?<=\d)\w+\b(?=\d) - this will match words of 1 or more characters only 
+		if preceded by a single digit with a word boundary and proceded by a single digit
+		So the string "1abc2" "def4" only "abc" is matched and returned
+	- the order of lookarounds related to the matched text is important, jeff(?=jeffrey) would only
+	match jeffjeffrey
+		- example - s/(?<=\bJeff)(?=s\b)/'/g - the example from yesterday
+	- so in the above, it is looking to match a position, with no supplied literal match, 
+	it will only match the position found. Here it searches for _Jeff followed by s_, and matches the 
+	logical position of both lookarounds. Then in the replace section, it replaces that "position" with
+	a '. In this way, you can "match" words without "consuming" them, as stated in the text. 
+	- If we are to look back at the quiz, the order of positional matches not affecting the match
+	itself makes more sense. It's searching for both matches, and based on the position of both matches
+	placing the substitution. Unless the argument for the match changes, the effect of the expression
+	will not change. 
+		- example - s/(?<=/d)(?=\d\d\d+$)/,/g; - this is the attempt to add ,'s to large #'s
+	- the above expression checks for a single preceding digit, proceded by 3 consecutive digits, any
+	amount of times, starting from the end of the line, replaces each position match with a , for 
+	every instance within the file. 
+	- rereading is so helpful. The above expression reads - check to the left for a single digit, then
+	check to the right for any amount of 3 digits in a row, until the end of line. If both are found,
+	insert a comma into the space between the 3 digit pattern and the single digit pattern.
+		- example - s/(?<=/d)(?:(?=\d\d\d)+$)/,/g; - this would include the nonmatching parenthesis
+		that were discussed earlier. It is worth noting that the parenthesis for the position of
+		\d\d\d are nested within the nonmatching parenthesis
+	- The above is mostly an optimization, the non-matching parenthesis are not absolutely neccesary. 
+		- example - $text =~ s/(?<=\d)(?=(\d\d\d)+(?!\d))/,/g; 
+	- The above example uses the (?!\d), the negative look ahead, to say match the string that does
+	not have a single digit after the pattern of 1 or more three digits in a row. 
+	- It is important to remember that lookbehind has considerably less support than lookahead
+		- example - $test =~ s/(\d)((\d\d\d)+\b)/$1,$2/g;
+	- The above example is a way to achieve the same result as the preceding example, without the use 
+	of lookbehind. Again it's not always supported so not completely useless. 
+- Quiz - Does the following expression work? Meant to achieve the results of lookahead and lookbehind 
+without using either program.
+	- problem - $text =~ s/(\d)((\d\d\d)+\b)/$1,$2/g;
+	- answer - it doesn't work on my computer. 
+	- solution - 
+- Section - Text to HTML Conversion
+	- Converting plain text into HTML 
+
+06-26-23
+Going back through Wicked Cool Shell Scripts
+	- Lesson #3 - Normalizing Dates
+	- Questions as we copy the script over
+- What is case $1 in?
+- Some explanation for the $1 variable, how does it receive user input?
+- should go over if statements in bash, especially vocab. 
+	- The [ $# -ne 3 ] ; then - is the confusing one
+- review stderror
+- the -z option in if statements
+- what is the set -- $(echo $1) notation for, specifically the set part
+
+07-03-2023 
+Back from vacation, got to rest and recover my sense of urgency.
+	- Daily - 
+	- Review regex notes
+	- Start up mastering UNIX Shell Scripting
+	- Perl?
+
+== Shell Scripting
+
+Work business is out of the way, got to play in embedded windows for a bit. None of these commands transfer
+from UNIX, of course. Besides whoami at least. 
+	- Bash Functions - 
+	- function function_name 
+	{
+		#commands to execute
+	}
+	- function_name () 
+	{
+		#commands to execute
+	}
+	- because scripts are interpretive, we must declare functions before they are used. Can't use 
+	something before it exists.
+	- gonna write a template script - written, createNewScript, puts a copy of the script template 
+	into the current working dir
+
+	- Running a function 
+	+ function sampleIdea {}
+	> sampleIdea "$arg1" 
+
+- Bash Control Structures - 
+- if statements
+	- if [ test_command  ]
+	  then
+		commands
+	  fi
+- if ... then ... else
+	- if [ test_command ]
+	  then
+		commands
+	  else 
+		commands
+	  fi
+- if ... then .. elif ... (else) 
+	- if [ test_command ]
+	  then
+	  	commands
+	  elif [ test_command2 ]
+	  then
+		commands
+	  else (optional)
+		commands
+	  fi
+- Loops - not cereal
+- for ... in statement
+	- for loop_variable in argument_list
+	do
+		commands
+	done
+examples- 
+	- for i in {1..5}; do
+	echo "Number: $i"
+	done
+
+	- for i in "${arr[@]}"; do
+	echo "Fruit: $i"
+	done
+	
+	- for i in $(ls); do
+	echo "File: $i"
+	done
+
+	- for i in $(cat file.txt); do
+	echo "Line: $i"
+	done
+
+	- for (( i=0; i<=10; i+=2 )); do
+	echo "Even Number: $i"
+	done
+
+
+- while statement
+	- while test_condition_is_true
+	do
+		commands
+	done
+- until statement
+	- until test_condition_is_true
+	do
+		commands
+	done
+- case statement
+	- case $variable in
+	match_1)
+		commands_to_execute_for_1
+		;;
+	match_2)
+		commandsToExecuteFor2
+		;;
+	match_3)
+		commandsToExecuteFor3
+		;;
+	*) 	(Optional - Any other value)
+		commands to execute for no match
+		;;
+	esac
+
+- Using break, continue, exit, return
+	- break - break out of a for or while loop
+	- continue - continue script from next block of code, continues the execution of a loop
+	- exit - exits the entire script, integer can procede the exit as exit 0, will be sent as return 
+	code
+	- return - send data back, or return a result or return code, to the calling script
+	- 
+- What is a Here Document? Also, heredoc
+	- These are used to redirect input into an interactive shell script or program, without the user
+	suppling the usual input for those scripts/programs. Presumably this would be useful for taking
+	a pattern that occurs throughout multiple programs and passing it between all of them with one
+	entry as opposed to some arbitrary amount of times
+	- program_name <<LABEL (Arbitrary, often abbreviated EOF for End Of File)
+	Program_Input_1
+	Program_Input_2
+	Program_Input_3
+
+	Program_Input_#
+	LABEL
+- book example - 
+	- /usr/local/gin/My_Program <<EOF
+	Randy
+	Robin
+	Rusty
+	Jim
+	EOF
+	- remember that the data coming out of the here document must be exact, spaces and other whitespace
+	might cause the program to work unexpectedly or fail.
+	- 
+
+- Shell Script Commands - 
+	- we can execute almost any command inside a shell script. 
+	- The purpose of a shell script is to automate a string of tasks that would otherwise require
+	manual input. This opens up a huge variety of possibilities for custom scripts and programs. 
+	Creating a fillable form based on some constant source of data should be possi
+- Variables - 
+	- character string we assign some value. The value can be a number, text, filename, device, 
+	any valid type of data. 
+	- The variable is just a pointer to the actual data.
+	- To access the variable after initializing, use $variable_name
+	- Initialize as - variable_name = "A String"
+	- The data within the variable can be basically anything that gets passed into the rest of your
+	program correctly. 
+	- 
+- Command-Line Arguments
+	- Positional Parameters - 
+	- $0 - the command being used
+	- $1 , $2, $3, $4 , etc. - the arguments passed into the command
+	- scope is very relevant here but the rules of scope are not specified yet
+- shift Command - ***needs follow up
+	- shifts positional parameters to the left 
+	- example - $2 becomes $1
+	- don't understand this at all
+- Special Parameters - $* $@ ***needs follow up
+	- $* specifies all command-line argument
+	- $@ same as above
+	- $* the special parameter takes the entire list as one argument with spaces
+	- $@ takes the entire list and separates it into separate arguments
+	- don't understand this at all
+- Double Quotes, Forward Tics, Back Tics
+	- Double Quotes - "" - used when the purpose requires command substitution, such as in names with 
+	spaces between words. 
+	- Forward Tics - Single Quotes - '' - used when we require literal text, special meanings are 
+	negated, similair to escaping with \
+	- Back Tics - `` - $() - used when we want the results of command substitution
+		- can also use the $() syntax for this purpose
+	
+
+
+Notes on Bash - 07-11-2023
+The Architecture of Open Source Applications
+Bourne Again Shell
+Chet Ramey
+- This text is the best description of what's going on inside bash and describes how the various features are implemented to form a usable system
+	- arrays, trees, singly-linked lists, doubly-linked lists, hash tables form the basis for nearly all bash constructs
+	- WORD_DESC - basic data structure that passes information from one stage to the next
+	- words are combined into various forms, example arguments list, using simple linked lists
+	-
+
+Data Structures - Applications
+
+Trees
+	- Like a file system, hierarchal storage system
+	- rapid information retrieval, organizational structure
+		- used in binary search trees, achieves faster search results
+		- used in heaps, often applied in queues to establish priority, also heap sort
+		- used in syntax trees, determines the order of operations in mathematical expressions for example
+	- Summary - It seems any system that requires a hierarchal order to the information of the system could potentially benefit from a tree structure, and is likely using
+	something like a tree structure already. There are computational benefits to using tree structures, reduction in the amount of processing by eliminating portions of 
+	the given data, ensuring rules of a stated hierarchy are applied evenly across given data, establishing priority in data
+Singly-Linked List 
+	- Nodes containing some data, with a pointer or link to the next node in the list. Ends with a null statement. Each node has 1 pointer, only to the next node. 
+	- The main benefit is the enforced order of the structure, you must start at the beginning and procede down the list in the order given by the pointers. This 
+	simplicity is useful in building out various other data structures.	
+		- Used to build stacks and queues
+		- A queue has a FIFO structure, when we want to add something to the queue it's added to the tail of list, the front of the queue (priority )is the head. 
+		- Used to create hash tables
+		- used in memory management
+		- used in browser history simple
+		- access time is linear compared to a tree
+	- Summary - A simple structure that is important for it's flexibility and use in the construction of more complex data structs. It ensures steps are being followed. 
+Doubly-Linked List
+	- Nodes containing some data, with pointers to the next and the previous node. Both head and tail of list are null. 
+		- Used when you need to traverse forwards and backwards in a list of given data points. 
+		- Example would be a playlist of songs, where you want to be able to jump forward and backwards between songs. 
+		- Example would be the forward and back buttons in a browser. 
+		- Used when insertion into the list is neccesary
+		- Downsides are, it takes up more space than a singly-linked list because it stores double the amount of pointers. During insertion/deletion, more links 
+		will need to be updated.
+ 		- 
+Hash Tables
+	- Used to index large amounts of data, in database indexing, compilers, caching, password authentification, and more
+	- Maps keys to values in an associative array. If you have a series of item numbers for instance, that map to various kinds of product data, hash tables would assign
+	each key value with an index number created through some algorithmic processing of the key value.
+	- Key - the value that is being stored and is searched for
+	- Index - assigned to each key in the table 
+	- Algorithm - used to create the index of the key 
+	- Hash table - a key and its associated index number
+	- Hash map - a key, its index, and the key values that are associated with the key. 
+	- Hash algorithm - Calculation done to the key to retrieve the index of the key, or its address in the table
+		- minimizes collisions
+		- uniform distrobution
+		- easily caluclated
+	- Collisions - your algorithm produces different keys with the same index. 
+		- open addressing - linear probing - try the next index address until empty slot is found
+		- plus 3 rehash - quadratic probing - double hashing 
+		- closed addressing - chaining - creating a linked list at the shared index
+		- 
+	- Load factor - total number of items stored / the size of the array
+	- Summary - Hash tables give searchable values index numbers algorithmically so that when information is input the hash function can reference its search table 
+	according to a value it knows instantly, based on the algorithm used to index the values. 
+Arrays 
+	- ordered list. Each element of the list has a number representing its position in the array, an index. 
+	- store and data sequentially, lookup table (ohyah), buffers 
+	- an array is a fixed size, so adding to or inserting data is known to be somewhat costly computationally. 
+Dynamic Arrays 
+	- AKA array lists, resizable arrays, vectors - they do not declare their size at creation, and handle variable sized data 
+	- Putting things onto the end of the array is efficient
+	- If you don't know the amount of data going in for storage, this is the struct to use
+	- often used in stacks and queues as an underlying data struct
+	- 
+Learning Awk
+	- is related to sed, ed, is a stream editor but not a line editor
+
+printf
+printf format-string [arguments ...]
+- example - printf "The first program always prints '%s, %s!'\n" Hello World
+- returns - The first program always prints 'Hello, world!'
+
+Positional Arguments - Bash
+finduser=who | grep $1 - call who, pipe to grep, use the first argument as input
+finduser Frank - runs the command with Frank as the first argument
+
+Execution Tracking - Should follow up on this some more, actually have not seen anything on it yet
+- set -x turns on tracing 
+- set +x turns off tracing
+- run commands between to track each command as its run
+- run on command line as - sh -x argument
+	- This is extremely useful for debugging and improving scripts
+
+
+Using sort more specifically
+- Apparently sort is top 10 UNIX programs, so we should give it more attention than we have been.
+	- Good options
+	- b - ignore leading whitespace
+	- c - check if input is correctly sorted?
+	- d - dictionary order, only alnum and whitespace are important
+	- g - general numeric value: compare fields as floats
+	- f - fold letters implicitly to a common lettercase
+	- i - ignore non-printable characters
+	- k - define the sort key field - this one is really good and has high customization
+	- m - merge already-sorted input fields into a sorted output stream
+	- n - compare fields as integers
+	- o - write output to a specified file, instead of stdout
+	- r - reverse to descending, rather than ascending default
+	- t char - uses single character in place of char as default field separator
+	- u - unique records only, only key fields matter,
+- Sort stability refers to whether the type of sorting used maintains the position of all the entries.
+- 
+
+== sed & awk - basics
+
+sed
+command - instruction - 
+- instructions - pattern, procedure /regularexpression/procedure
+- procedure should be surrounded by braces
+	- separate instructions sent separated by semi-colon
+	- precede each instruction with -e, each instruction wrapped in single quotes
+	- multiline entry, where the initial command ends with an open single quote and ends with the 
+	closing quote. 
+- Options - sed
+	- e - separates multiple instruction sets, use regular expressions
+	- f - sed -f scriptfile file -  specifies a script to run as editing commands
+	- n - suppress output of l
+	
+- Commands 
+	- r - read, reads the contents of a file and inserts the output stream somewhere else
+		+ sed '3r otherfile.txt' filename.txt
+		> this would insert otherfile.txt immediately after line 3 of filename.txt
+		+ sed '/pattern/r otherfile.txt' filename.txt
+		> inserts otherfile.txt after every match
+		
+ 
+	- w - write
+	- l - list
+	- 
+	- a\ - append, requires literal newlines, \ at the end of every newline
+		+ sed '/pattern/a\
+		line to be appended\'
+		> the above matches an address, then appends a line after the matched line. 
+
+	- i\ - insert, requires literal newlines, \ at the end of every newline
+		+ sed '/pattern/i\
+		this is the line that is inserted\'
+		> places a line above the pattern that is matched. Multiple lines possible. 
+	- c\ - change
+	- t - transform, alters characters or words by position
+		+ sed 'y/abc/123' fileToChange.txt
+		+ sed '/pattern/y/abc/123' file.txt 
+		> this matches a pattern then performs the action
+		+ 
+	- loops? -
+		+ sed ':a;N;$!ba;y/\n/ /' filename.txt
+		> :a is a label, used with branching commands
+		> ; starts a new command
+		> N; appends the next line to the pattern space with its newline, now a single line
+		> $!ba; $! checks if the end of the file has not been reached
+		> ba; branches, jumps back to label :a
+		> y/ is the transform command, similar to tr
+		> altogether, transform newlines into spaces, 
+	- n,N - 
+		> n means to process the pattern space then move the next line into the pattern space
+		> N creates a multiline pattern space, 
+	- 
+- Examples - 
+supply multiple numeric addresses - sed '/200/,/201/s/Aleve/Banana/g'
+last line address - $
+delete blank lines - /^$/d
+delete from numeric address to end of input - 50,$d
+
+
+
+awk
+- command, instruction, files
+- instructions are in single quotes
+- same multi-line entry as sed
+- pattern, instruction, I/O
+
+- 
+
+
+
+
+- syntax
+	- regex - returns a set span of characters
+	- n and m are integers between 0 and 255
+	- example - 10\{2,4\}1 - matches zeroes between 10 and 1, specifying no fewer than 2 no more than
+	4 of that character. 
+	\{n,m\} - grep, sed
+	{n,m}   - egrep, awk
+- Options - awk
+	- f - invoke script as instructions for input
+	- F - change field separator to following character, as in -F, for a comma
+	- v - variable, as -v var=value
+- Builtins - 
+	- ARGC - number of command-line arguments
+	- ARGV - array of command-line arguments
+	- FILENAME - name of current input file
+	- FNR - record number in current file
+	- FS - input field separator
+	- NF - number of fields in current record 
+	- NR - number of records read so far
+	- OFMT - out format for numbers
+	- OFS - out field separator
+	- ORS - out record separator
+	- RLENGTH - length of string matched by match function
+	- RS - input record separator
+	- RSTART - start of string matched by 
+	- SUBSEP - subscript separator
+- Math builtins -
+	- atan2(y,x)
+	- cos(x)
+	- exp(x)
+	- int(x)
+	- log(x)
+	- rand()
+	- sin(x)
+	- sqrt(x)
+	- srand(x)
+- String builtins - 
+	- gsub(r,s) - subst. s for r globally in $0, return # of subst. made
+	- gsub(r,s,t) - subst. s for r globally in string t, return # of subst. made
+	- index(s,t) - return first position of string t in s, or 0 if t is not present
+	- length(s) - return number of characters in s
+	- match(s,r) - test whether s contains a substring matched by r; return index or 0
+	sets RSTART and RLENGTH
+	- split(s,a) - split s into array a on FS, return number of fields
+	- split(s,a,fs) - split s into array a on field separator fs, return number of fields
+	- sprintf(fmt,expr-list) - return expr-list formatted according to format string fmt
+	- sub(r,s) - subst. s for the leftmost longest substring of $0 matched by r; return 
+	number of subst. made.
+	- sub(r,s,t) - subst. s for the longest substring of t matched by r, return # of 
+	of substitutions made. 
+	- substr(s,p) - return suffix of s starting at position p
+	- substr(s,p,n) - return substring of s of length n starting at position p
+	-
+- Types - 
+	- Strings - string literals
+	- Numbers - +1 1. 0 1e0 1e+1 10E-1 001
+	-  
+- Expressions - 
+	- assignment - =, +=, -=, *=, /=, %=, ^=
+		- ++ - add 1 to variable, increment by variable, as x = x + 1, x += 1, or x++, 0 is default variable value
+		- -- - subtract 1 from variable
+		- += - assign result of addition
+		- -= - assign result of subtraction
+		- *= - assign result of multiplication
+		- /= - assign result of division
+		- %= - assign result of modulo
+		- ^= - assign result of exponentiation
+		- **= - assign result of exponentiation 
+		- the position if incrementor matters, before variable means increment before return, after means increment after
+	
+	- conditional - ?:
+- Boolean Statements
+	- logical OR - ||
+	- logical AND - &&
+		- parenthesis control precedence - 
+		(NR > 1 && NF >= 2) || $1 ~ /\t/ - the left hand side would process with this precedence by default
+		NR > 1 && (NF >= 2 || $1 ~ /\t/) - the left must be true and either option inside the parenthesis must be true
+		! (NR > 1 && NF > 3) - the ! inverts the meaning of the match, saying everything except the pattern
+		
+	- array membership - in
+	- matching - ~ !~
+	- relational - <, <=, ==, !=, >=, >
+	- concatenation - no explicit operator - "string1" "string23"
+	- add, subtract - +, -, - x + y
+	- multiply, divide, mod - *, /, %, - 
+	- unary plus and minus - +, -, -
+	- logical not - ! - !$1
+	- exponentiation - ^ - x ^ y
+	- increment, decremement - ++, --, - 
+	- field - $
+	- grouping - (  ) 
+- Control Flow - 
+	- syntax is as C
+	- if/else
+	- while 
+	- for
+- Arrays - 
+	- Arrays are one dimensional
+	- For strings or numbers
+	- arrays and elements do not need to be declared
+	- all arrays are associative
+	- iterate with: for(variable in array)
+	- delete element: delete array[subscript]
+	- set or replace element (string key): array["one"] = 2
+	- set or replace element (integer key): array[5] = "two"
+	- even with the integer key, the array is still associative
+	- 
+- printf % characters -
+	- c - ASCII char
+	- d - decimal int
+	- e - [-]d.ddddddE[+-]dd
+	- f - [-]ddd.dddddd
+	- g - e or f conversion, whichever is shorter, with nonsignificant zeroes suppressed
+	- o - unsigned octal number
+	- s - string
+	- x - unsigned hex number
+	- % - print a %, no argument is consumed
+- variables can be written to - 
+	- you can write your own
+	- you can write to builtins
+- can call functions - 
+	- { some function } 
+	END { print someFunction, a, b, c }
+
+- Examples
+	- awk -F, '{ print $1; print $2; print $3 }' sampleMail.txt
+	- awk '/MA/ { print $1 }' sampleMail.txt
+	- awk '/MA/' sampleMail.txt
+	- echo "Hello World" | awk '{ print $1 $2 }'
+- write to files - (pattern) { print "expression" > "file name" }
+- pipe is available as - (pattern) { print "expression" | "command" }
+- print fields with line #'s - awk -F, '{ print NR " - " $1 " " $6}' < tableDataPract.csv
+- show basic pattern/action - echo "\n\n\n" | awk /^$/'{ print "This is a blank line." }'
+- adding parameters - awk '$1 == search' search=$1 targetFile
+	- awk is invoked, inside '' awk assigns the value of search to a match performed on the first field, then assigns search the first value
+	passed to the shell script at the command line, and the name of the targetFile is hardcoded here.
+
+
+- Structure & Syntax - 
+	- a command is structured: pattern/action, which designates a pattern to match against and an action to run for each match
+	- all awk scripts have three stages fundamentally: BEGIN, main input loop, END
+	- BEGIN is run once before any input is read
+	- main input loop runs on every line of input and stops when there are no more lines
+	- END is executed after all input is read
+- ~ - 
+	- used to test a pattern against a specific field
+	- !~ - used to match inverse statement: match everything besides pattern
+	- 
+- Fields - 
+	- NF - This variable controls the number of fields. 
+	- $NF - This will select the last field
+	- The character that separates fields is called a delimiter
+	- operator: $X, as: $0, $1, $2
+	- 
+- Records - A row
+	- awk will process every line, including blank lines
+	- 
+
+Modem vs. Router
+- Modem bring internet into home, modulates analog signal into digital signal, and in reverse.
+- Router Business and home routers. Job is to pass internet connection to all devices in a given area. Connects between Modem and these devices. 
+
+
+Types of Modems
+Cable - COAX cable attaches to Modem. 
+DSL Modems - connected via phone line
+Modem & Router combo - both modem and router in a single device. 
+
+Hubs and Switches 
+- Most routers have a built in switch already, making a separate switch unneccesary. 
+- Extends ports of a given router
+LAN
+	- Hub - purpose of a hub is to connect all network devices together. Doesnt filter data, doesn't redirect data. All it knows is if a device is connected. Data is copied to all other ports. 
+	- Switch - connects devices in a network, but is considered intelligent. It can filter data. These are sorted via Mac Addresses. More secure, more efficient bandwidth usage. Data is sent from one port to target port. Data is not copied between every port. 
+Outside Network connection
+	- Router - forwards data based on IP address. Gateway of a network. 
+Hubs and switches create networks, while routers connect different networks.
+
+Wireless access point vs Routers
+- Wifi router - Has switches, ports, and wireless connection. Connects to a modem. Has a built in firewall. Has auto DHCP. Directly assigns devices IP addresses. Harder to manage many routers. 
+- WAP - connects directly to a router, connects devices to router. Often used to extend range of a router. Has much simpler manageability. Has no ports. 
+No firewall. 
+
+DNS - Domain Name System
+- Resolves names to numbers, such as domain names to IP addresses
+- Resolver Server - talks between machine making query and various servers hosting that data - checks its cache memory to see if it can resolve DNS request
+- Root Server - the prime host server that runs the internet address protocols, 13 in the world - only if Resolver can't find a DNS request - unique IP, sends resolver to TLD server.
+- TLD Server - the .com domain, stands for top level domains, sends to name server
+- Name Server - Authoritative Name Server - actually sends the IP back to the resolver server. Now your machine can connect to that IP. The Resolver stores that data in its cache memory for later if neccesary. 
+
+Aut. Name Servers - Store DNS Records
+- Needs to know what name server to ask before it can access records, goes through the Root and then DNS servers to determine this. 
+- Within the DNS Name server, the records are contained within Zone Files
+- Different types of DNS Records
+	- Type A - has a name - has IP Add. - hase TTL (Time To Live) - name to IP
+	- Type AAAA - has name - has IPv6 - has TTL - name to IP
+	- Type CNAME - has name - has alias - TTL
+	- Type MX Record - has Priority - has name - has Host email server - has TTL ; these are email server records
+	- Type SOA Record - has MNAME - has RNAME - has Serial # - has retry # - has TTL
+	- Type NS record - has name value - has second name value - has TTL
+	- Type SRV - has Priority - has service name - port number - name of server - has weight - has TTL
+	- Type PTR - IP Address - example name - TTL ; known as pointer records, resolves IP to Domain, the opposite of A or AAAA  
+	- Type TXT - has name - has value, text data, various information on website - has TTL
+DNS Zones - 
+
+@math notes typed! ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+==Pythagorean Theorem
+	+ A^2+B^2=C^2
+	+ deals with right angle triangles
+	+ hypotenuse is the longest side of a right triangle
+	+ do algebra to find the different sides with incomplete information
+	- Should learn square root arithmetic more thoroughly 
+

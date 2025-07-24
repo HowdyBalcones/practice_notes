@@ -1,0 +1,98 @@
+#!/bin/bash
+
+# SCRIPT: Script_Template
+# AUTHOR: Camden Bailey
+# DATE: 07-03-2023
+# REV: 1.1.A
+#
+# PLATFORM: UNIX Based, zsh
+#
+# PURPOSE: To crop given image set randomly within their bounds and append them into a montage image
+#
+# REV LIST:
+#	DATE: DATE_of_REVISION
+#	BY:AUTHOR_of_MODIFICATION
+#	MODIFICATION: Describe what was modified
+#
+#
+# set -n #Uncomment to check syntax, without execution
+# 	 #remember to re-comment or the script won't execute
+ set -x #Uncomment to debug this shell script
+#
+########################################################################
+# 		   DEFINE FILES AND VARIABLES HERE
+########################################################################
+
+
+########################################################################
+#		       DEFINE FUNCTIONS HERE	
+########################################################################
+
+
+########################################################################
+#			 BEGINNING OF MAIN
+########################################################################
+
+# make a directory for the results
+# mkdir "results-$(( $largestResults + 1 ))"
+
+widthArr=()
+heightArr=()
+nameArr=()
+lrgResultsExt=$(ls -d ../results-* | sed 's/.*-//' | sort -n | tail -1)
+lrgResults=$(ls -d ../results-"$lrgResultsExt")
+
+function makeLatest() {
+   # this checks if there is results dir already and makes the next directory accordingly
+   # if they are out of order it will make the new directory according to the highest results-xxx int
+   results=$(ls -d results-* 2>/dev/null)
+   if [[ -n "$results" ]]; then
+      largestResults=$(ls -d results-* | sed 's/.*-//' | sort -n | tail -1)
+      mkdir results-$(( $largestResults + 1 ))
+   else 
+      mkdir "results-1"
+   fi
+}
+
+function getImageBounds() {
+for img in "$@"; do
+   # return dimensions of each image, W H\n
+   dimensions=$(magick identify -format "%wx%h" "$img")
+   width=$(echo $dimensions | cut -dx -f1)
+   height=$(echo $dimensions | cut -dx -f2)
+   # what we pass to the next function depends on how IM crops things
+   widthArr+="$width "
+   heightArr+="$height "
+   nameArr+="$img "
+done  
+}
+
+# want this to crop every image passed to the WxH arrays
+# use nameArr as the basis for cropping each image
+function cropImagesRandomly() {
+   local firstArg="$1"
+   local firstArgName="${1%.*}" 
+   heightLength=${#heightArr[@]}
+   for ((i = 0; i < "$heightLength"; ++i)); do
+#      doesNewName=$(ls -f "$firstArgName-crop_$i.png" 2>/dev/null)
+      randomHeight=$(($RANDOM % (100 - 1) + 1 ))
+      randomWidth=$(($RANDOM % (100 - 1) + 1))
+      height="${heightArr[$i]}"
+      width="${widthArr[$i]}"
+      magick "$firstArg" -crop "$randomHeight"%x"$randomWidth"%+0+0 "$lrgResults/$firstArgName-crop_$i.png"
+   done
+}
+
+function cropEveryImage() {
+   for img in $nameArr; do
+      cropImagesRandomly $img
+   done
+}
+
+# get the image bounds of the target
+bounds=""
+getImageBounds "$@"
+# echo "$nameArr"
+cropEveryImage
+# cropImagesRandomly "$1"
+# makeLatest

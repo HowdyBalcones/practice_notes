@@ -1,0 +1,63 @@
+#!/bin/zsh
+
+# SCRIPT: Script_Template
+# AUTHOR: Camden Bailey
+# DATE: 2025-06-03 
+# REV: 1.1.A
+#
+# PLATFORM: UNIX Based, zsh
+#
+# PURPOSE: Creating a template for every script made at Select Corporation. Should document the production of these tools for 
+# future designers, should they be interested. 
+#
+# REV LIST:
+#	DATE: DATE_of_REVISION
+#	BY:AUTHOR_of_MODIFICATION
+#	MODIFICATION: Describe what was modified
+#
+#
+# set -n #Uncomment to check syntax, without execution
+# 	 #remember to re-comment or the script won't execute
+# set -x #Uncomment to debug this shell script
+#
+########################################################################
+# 		   DEFINE FILES AND VARIABLES HERE
+########################################################################
+
+
+########################################################################
+#		       DEFINE FUNCTIONS HERE	
+########################################################################
+function into() {
+   files=()                            # declare a basic array
+   while IFS= read -r -d '' file; do   # -d '' will delimit each string with a null byte
+      files+=("$file")                 # push files onto array
+   done < <(find . -type f -print0)    # -print0 will break at each null byte, < <(command) redirects command output to stdin without a subshell
+   printf 'File: %q\n' "${files[@]}"
+}
+
+function into_assoc() {
+   typeset -A current_files
+   while IFS= read -r -d '' file; do
+      current_files["$file"]="$file"
+   done < <(find . -type f -print0)
+   #printf 'Files: %q\n' "${current_files[@]}" 
+   #return "$current_files"
+   for file in ${(@k)current_files}; do
+      echo "$file\nRename to: "
+      read response
+      echo "$response" 
+   done
+}
+
+function new_names() {
+   current_files=$(into_assoc)
+   echo "$current_files"
+}
+
+########################################################################
+#			 BEGINNING OF MAIN
+########################################################################
+
+#into
+into_assoc
